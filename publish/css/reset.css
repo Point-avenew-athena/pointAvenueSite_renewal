@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+/*openSans*/
+@font-face {
+    font-family: 'openSans';
+    src: url('../font/opensans-extrabold-webfont.eot');
+    src: url('../font/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-extrabold-webfont.woff2') format('woff2'),
+         url('../font/opensans-extrabold-webfont.woff') format('woff'),
+         url('../font/opensans-extrabold-webfont.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'openSans';
+    src: url('../font/opensans-bold-webfont.eot');
+    src: url('../font/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-bold-webfont.woff2') format('woff2'),
+         url('../font/opensans-bold-webfont.woff') format('woff'),
+         url('../font/opensans-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'openSans';
+    src: url('../font/opensans-regular-webfont.eot');
+    src: url('../font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-regular-webfont.woff2') format('woff2'),
+         url('../font/opensans-regular-webfont.woff') format('woff'),
+         url('../font/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'openSans';
+    src: url('../font/opensans-light-webfont.eot');
+    src: url('../font/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/opensans-light-webfont.woff2') format('woff2'),
+         url('../font/opensans-light-webfont.woff') format('woff'),
+         url('../font/opensans-light-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+/*roboto*/
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/roboto-black-webfont.eot');
+    src: url('../font/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-black-webfont.woff2') format('woff2'),
+         url('../font/roboto-black-webfont.woff') format('woff'),
+         url('../font/roboto-black-webfont.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/roboto-bold-webfont.eot');
+    src: url('../font/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-bold-webfont.woff2') format('woff2'),
+         url('../font/roboto-bold-webfont.woff') format('woff'),
+         url('../font/roboto-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/roboto-medium-webfont.eot');
+    src: url('../font/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-medium-webfont.woff2') format('woff2'),
+         url('../font/roboto-medium-webfont.woff') format('woff'),
+         url('../font/roboto-medium-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/roboto-regular-webfont.eot');
+    src: url('../font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto-regular-webfont.woff2') format('woff2'),
+         url('../font/roboto-regular-webfont.woff') format('woff'),
+         url('../font/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+/* **************************************** *
+ * RESET FILES
+ * **************************************** */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,time,figure,article,nav,header,footer,hgroup,video,audio,aside,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: 'openSans','roboto', sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	vertical-align: baseline;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+ol,ul {list-style: none;}
+table {border-collapse: separate;border-spacing: 0;}
+caption,th,td {text-align: left;font-weight: normal;}
+figure,article,header,footer,nav,hgroup,video,audio,aside,main {display: block;}
+
+/* mobile */
+/* input, textarea {-webkit-appearance: none;-webkit-border-radius: 0rem;border-radius: 0rem;} */
+
+/* reset mobile default style */
+html{-ms-text-size-adjust: none;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;text-size-adjust: none;}
+body,textarea:focus,input:focus,a:focus {-webkit-tap-highlight-color: rgba(107, 120, 245, .08);}
+body{ -webkit-touch-callout: none;}
+
+/* selection */
+::-moz-selection {background: #6b78f5;background: rgba(107, 120, 245, .35);color:#fff;}
+::selection {background: #6b78f5;background: rgba(107, 120, 245, .35);color:#fff;}
+::-moz-selection {background: #6b78f5;background: rgba(107, 120, 245, .35);color:#fff;}
+
+
+
+/* **************************************** *
+ * INPUTS
+ * **************************************** */
+/* input */
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], input[type="date"], input[type="datetime"], input[type="email"], input[type="tel"] {min-height:20px; margin:0; padding:0 10px; border:1px solid #dddddd; font-size:13px; color:#333333; background:#fff;}
+input[type="file"] {height:40px; vertical-align: middle;}
+select {height:40px; padding:0px 0px 0px 10px; border:1px solid #dddddd; font-size:13px; color:#333333; vertical-align: middle;}
+textarea {padding:10px; border:1px solid #dddddd; font-family:'openSans','roboto', sans-serif,verdana; font-size:13px; color:#333333; background:#fff; vertical-align: middle;}
+button {border:0; border: none; outline: none; background: none; cursor: pointer;}
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], input[type="date"], input[type="datetime"], input[type="email"], input[type="tel"], input[type="submit"], input[type="button"],button {
+	-webkit-border-radius:0;
+	border-radius: 0px; /* iOS 둥근모서리 제거 */
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+}
+select::-ms-expand {display: none;}
+select {height:40px; padding:3px 23px 3px 16px !important; border:1px solid #ddd; font-size:13px; color:#303030;}
+select{
+	border-radius: 5px; /* iOS 둥근모서리 제거 */ 
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+/*	background: #fff url('../../../images/mobile/common/select_arrow_icon01.png') 100% 50% no-repeat;*/
+	background-size: 14px auto !important;
+	background-position: center right 10px;
+	color:#333;
+}
+select:focus {outline:none;}
+select.focus{
+	border-radius: 5px; /* iOS 둥근모서리 제거 */ 
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+/*	background: #fff url('../../../images/mobile/common/select_arrow_icon02.png') 100% 50% no-repeat;*/
+	background-size: 14px auto !important;
+	background-position: center right 10px;
+	border:1px solid #000; 
+	color:#000;
+}
+
+form { display:inline;}
+address {font-style:normal;}
+
+em {font-style:normal;}
+
+a { color:inherit; text-decoration:none;}
+
+::selection {background-color: #ffa500;color: #fff;}
+
+input { vertical-align:middle;}
+select { vertical-align:middle; border:1px solid #ddd;}
+img, fieldset, iframe { border:0;}
+img {vertical-align:top; max-width:100%;}
+
+address, caption, cite, code, dfn, em, th, var { font-weight:500;}
+legend, caption {overflow:hidden; text-indent:-999px; width:100%; height:1px; font-size:0; line-height:0;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+abbr, acronym { border:0; font-variant:normal;}
+del, ins {}
+
+.displayNone, hr {display:none;}
+table {border-collapse:collapse; border:0;}
+textarea {border:1px solid #ddd; line-height:140%; color:#606060;}
+button {border:0; padding:0; background:transparent; cursor:pointer; *overflow:visible;font-family: 'openSans','roboto', sans-serif; }
+
+.blind {position: absolute;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(0px 0px 99.9% 99.9%);clip-path: inset(0px 0px 99.9% 99.9%);overflow: hidden;height: 1px;width: 1px;padding: 0;border: 0;}
+
+
