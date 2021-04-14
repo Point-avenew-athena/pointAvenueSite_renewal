@@ -68,8 +68,8 @@
 					<div class="gnb_etc">
 						<ul>
 							<li class="search_area"><a href="javascript:void(0);" class="btn_search"><span class="blind">search</span></a></li>
-							<li><a href="javascript:void(0);" class="btn_type_01">Login</a></li>
-							<li><a href="javascript:void(0);" class="btn_type_01 btn_color_yellow">Sign Up</a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 btn_color_yellow">Login</a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 ">Sign Up</a></li>
 							<li class="m_gnb_menu">
 								<a href="javascript:void(0);" class="btn_hamburger">
 									<span class="blind">전체메뉴</span>
@@ -177,53 +177,51 @@
 			</section>
 			<section class="step_wrap">
 				<div class="section_inner">
-					<div class="swiper-container">
-						<ul class="swiper-wrapper person_list">
-							<li class="swiper-slide person_item">
-								<div class="person_img">
-									<img src="images/main/step_01.png" alt="">
-								</div>
-								<div class="person_desc_box">
-									<div class="person_desc_inner">
-										<p class="school">Elementary</p>
-										<p class="age">Age 5-10</p>
-									</div>
-								</div>
-							</li>
-							<li class="swiper-slide person_item">
-								<div class="person_img">
-									<img src="images/main/step_02.png" alt="">
-								</div>
-								<div class="person_desc_box">
-									<div class="person_desc_inner">
-										<p class="school">Middle School</p>
-										<p class="age">Age 11-15</p>
-									</div>
-								</div>
-							</li>
-							<li class="swiper-slide person_item">
-								<div class="person_img">
-									<img src="images/main/step_03.png" alt="">
-								</div>
-								<div class="person_desc_box">
-									<div class="person_desc_inner">
-										<p class="school">High School</p>
-										<p class="age">Age 16-18</p>
-									</div>
-								</div>
-							</li>
-							<li class="swiper-slide person_item">
-								<div class="person_img">
-									<img src="images/main/step_04.png" alt="">
-								</div>
-								<div class="person_desc_box">
-									<div class="person_desc_inner">
-										<p class="school">Admission<br>Consulting</p>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
+					<ul class="person_list">
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_01.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Elementary</span>
+									<span class="age">Age 5-10</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_02.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Middle School</span>
+									<span class="age">Age 11-15</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_03.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">High School</span>
+									<span class="age">Age 16-18</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_04.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Admission<br>Consulting</span>
+								</a>
+							</div>
+						</li>
+					</ul>
 				</div>
 			</section>
 			<section class="courses_wrap">
@@ -476,24 +474,24 @@
 				</div>
 			</section>
 		</div>
-		<!--container :: start-->
+		<!--container :: end-->
 		<footer>
 			<div class="footer_inner">
 				<div class="footer_info_wrap">
 					<h1 class="footer_logo"><a href="#"><img src="images/common/logo.svg" alt=""><span class="blind">pointave</span></a></h1>
 					<div class="footer_sitemap">
 						<ul class="footer_sitemap_menu">
-							<li class="footer_menu_item">
-								<a href="javascript:void(0);">ABOUT US</a>
+							<li class="footer_menu_item--go">
+								<a href="#">ABOUT US</a>
 								<ul>
-									<li><a href="#">Contact Us</a></li>
+									<li><a href="javascript:void(0);" class="contact_pop_btn">Contact Us</a></li>
 									<li><a href="#">Scholarship</a></li>
 									<li><a href="#">Careers</a></li>
 									<li><a href="#">News</a></li>
 								</ul>
 							</li>
-							<li class="footer_menu_item">
-								<a href="javascript:void(0);">COURSES</a>
+							<li class="footer_menu_item--go">
+								<a href="#">COURSES</a>
 								<ul>
 									<li><a href="#">Elementary Courses</a></li>
 									<li><a href="#">Middle & High School Courses</a></li>
@@ -501,7 +499,7 @@
 									<li><a href="#">Test Preparation</a></li>
 								</ul>
 							</li>
-							<li class="footer_menu_item--not">
+							<li class="footer_menu_item--go">
 								<a href="#">ADMISSIONS CONSULTING</a>
 							</li>
 							<li class="footer_menu_item">
@@ -511,16 +509,6 @@
 									<li><a href="#">Summer Day Camp</a></li>
 									<li><a href="#">Winter Boarding Camp</a></li>
 									<li><a href="#">Winter Day Camp</a></li>
-								</ul>
-							</li>
-							<li class="footer_menu_item">
-								<a href="javascript:void(0);">ACCOUNT</a>
-								<ul>
-									<li><a href="#">Log In</a></li>
-									<li><a href="#">Lorem Ipsum</a></li>
-									<li><a href="#">Lorem Ipsum</a></li>
-									<li><a href="#">Lorem Ipsum</a></li>
-									<li><a href="#">Lorem Ipsum</a></li>
 								</ul>
 							</li>
 						</ul>
@@ -541,6 +529,54 @@
 				</div>
 			</div>
 		</footer>
+		<!--공통팝업:: start-->
+		<div class="layer_popup contact_popup">
+			<div class="popup_cont">
+				<div class="contact_box">
+					<p class="hotline">HOTLINE: 0905 685 809</p>
+					<p class="email"><a href="mailto:contact@pointavenue.com">EMAIL: contact@pointavenue.com</a></p>
+				</div>
+				<div class="contact_list">
+					<ul>
+						<li>
+							<p class="tit">Cau Giay Center</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>
+							<p class="tit">Long Bien Center</p>
+							<p class="address">60 Chu Huy Man St., Sai Dong New Urban Area, Phuc Dong Ward, Long Bien Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+						<li>
+							<p class="tit">Bangkok Center</p>
+							<p class="address">Unit 3121-3122, No. 982/22 Gateway Ekkamai Shopping Mall, Sukhumvit Road, Bangkok, Thailand 10110</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+					</ul>
+					<ul>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+					</ul>
+				</div>
+				<a href="javascript:void(0);" class="close_btn"><span class="blind">닫기</span></a>
+			</div>
+		</div>
+		<div class="dim"></div>
+		<!--공통팝업:: end-->
 	</div>
 </body>
 </html>

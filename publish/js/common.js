@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	/* ========= common :: start=============*/
+	$('.contact_pop_btn').click(function(){
+		$('.contact_popup').show();
+		$('.dim').fadeIn();
+	});
+	
 	/*======== web :: start============*/
 	$('header .gnb_cont .gnb_menu_item').hover(function() {
 	  $(this).find('.sub_menu_wrap').stop().fadeIn();
@@ -10,44 +16,17 @@ $(document).ready(function(){
 		$('.mobile_nav_wrap').addClass('opened');
 	});
 	
-	$('.mobile_nav_wrap .gnb_menu_item a').click(function(){
-		$('.mobile_nav_body .sub_menu').slideUp();
-		if(!$(this).parent().hasClass('on')){
-			$(this).siblings('ul').stop().slideDown('fast');
-			$(this).parent().addClass('on').siblings().removeClass('on');
-		}else{
-			$(this).siblings('ul').stop().slideUp('fast');
-			$(this).parent().removeClass('on');
-		}
-	});
+
 	
 	$('.mobile_nav_wrap .btn_close_menu').click(function(){
 		$('.mobile_nav_wrap').removeClass('opened');
 	});
 	
-	$('footer .footer_sitemap .footer_sitemap_menu a').click(function(){
-		$(this).siblings('ul').stop().slideToggle('fast');
-		$(this).parent().toggleClass('on');
-	});
 	/*======== mobile :: end ==========*/
 	/* scroll */
     $(window).on('scroll', function(){
         onScroll();
     });
-	
-	function onScroll() {
-        var scrollTop = $(window).scrollTop();
-        var windowHeight = $(window).innerHeight();
-		
-		var animOffsetHeight = windowHeight * .75;
-		
-		$('.anim_group .anim').each(function(){
-			var offsetTop = $(this).offset().top;
-			if (  scrollTop + animOffsetHeight > offsetTop ) {
-				$(this).addClass('in');
-			}
-		});
-	};
 	
 	/*start*/
     $(window).on('load', function() {
@@ -63,4 +42,24 @@ $(document).ready(function(){
 			$('header').addClass('fixed');
 		}
 	 });
+	
+	function onScroll() {
+        var scrollTop = $(window).scrollTop();
+        var windowHeight = $(window).innerHeight();
+		
+		var animOffsetHeight = windowHeight * .75;
+		
+		$('.anim_group .anim').each(function(){
+			var offsetTop = $(this).offset().top;
+			if (  scrollTop + animOffsetHeight > offsetTop ) {
+				$(this).addClass('in');
+			}
+		});
+	};
+	
+	//팝업 닫기 버튼 클릭시,
+	$('.layer_popup .close_btn').click(function(){
+		$(this).parents('.layer_popup').hide();
+		$('.dim').fadeOut();
+	});
 });

@@ -5,18 +5,6 @@ $(document).ready(function(){
 			el: '.swiper-pagination',
 		}
 	});
-	var step_swiper = new Swiper('.step_wrap .swiper-container', {
-		slidesPerView: 4, 
-		touchRatio:0,
-		breakpoints: { // 화면의 넓이가 320px 이상일 때 
-			766: { 
-				slidesPerView: 1.8,
-				touchRatio:1,
-				spaceBetween: 0,
-				centeredSlides:true
-			}
-		}
-    });
 	
 	var news_swiper = new Swiper('.news_wrap .swiper-container', {
 		slidesPerView: 3, 
