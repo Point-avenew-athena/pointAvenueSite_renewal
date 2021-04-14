@@ -155,15 +155,15 @@ input[type="text"], input[type="password"], input[type="search"], input[type="nu
     appearance: none;
 }
 select::-ms-expand {display: none;}
-select {height:40px; padding:3px 23px 3px 16px !important; border:1px solid #ddd; font-size:13px; color:#303030;}
+select {height:40px; padding:3px 23px 3px 16px ; border:1px solid #ddd; font-size:13px; color:#303030;}
 select{
 	border-radius: 5px; /* iOS 둥근모서리 제거 */ 
     -webkit-appearance: none; /* 네이티브 외형 감추기 */
     -moz-appearance: none;
     appearance: none;
-/*	background: #fff url('../../../images/mobile/common/select_arrow_icon01.png') 100% 50% no-repeat;*/
+	background: #fff url('../images/common/arrow_02.png') 100% 50% no-repeat;
 	background-size: 14px auto !important;
-	background-position: center right 10px;
+	background-position: center right 5px;
 	color:#333;
 }
 select:focus {outline:none;}
@@ -172,9 +172,9 @@ select.focus{
     -webkit-appearance: none; /* 네이티브 외형 감추기 */
     -moz-appearance: none;
     appearance: none;
-/*	background: #fff url('../../../images/mobile/common/select_arrow_icon02.png') 100% 50% no-repeat;*/
+	background: #fff url('../images/common/arrow_02.png') 100% 50% no-repeat;
 	background-size: 14px auto !important;
-	background-position: center right 10px;
+	background-position: center right 5px;
 	border:1px solid #000; 
 	color:#000;
 }

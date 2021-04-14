@@ -71,13 +71,14 @@
 .class_box_type_01 .class_box_type_01--desc .text--gray {overflow: hidden; margin-bottom: 5px;}
 .class_box_type_01 .class_box_type_01--desc .text--gray p {float: left;}
 .class_box_type_01 .class_box_type_01--desc .text--gray .times {float: right;}
-.class_box_type_01 .class_box_type_01--desc .flag {display: inline-block; margin-top: 10px;padding:5px 20px; color:#fff; background: #F2B41B; border-radius: 5px;}
+.class_box_type_01 .class_box_type_01--desc .class_type {display: inline-block; margin-top: 10px;padding:5px 20px; color:#fff; background: #F2B41B; border-radius: 5px;}
 
 /* swipe_type_01_wrap :: swiper-slide 함께 사용 */
 .swipe_type_01_wrap {position: relative;overflow: hidden;}
 .swipe_type_01_wrap .swiper-container{position: initial; margin:0 50px; overflow: inherit;}
 .swipe_type_01_wrap .swipe_type_01 {position: initial;width:100%; }
 .swipe_type_01 .swipe_type_01--item{float: left; width:25%; border-radius: 10px; border:1px solid #ddd;}
+.swipe_type_01 .swipe_type_01--item a{display: block;}
 .swipe_type_01 .swipe_type_01--img {position: relative; padding-top: 100%; overflow: hidden; }
 .swipe_type_01 .swipe_type_01--img img{position: absolute;top: 50%;left: 50%;width: 70%;height: auto;min-width: 70%;min-height: 70%;transform: translate(-50%, -50%); border-radius: 50%;}
 .swipe_type_01 .swipe_type_01--desc{position: relative;min-height: 130px; margin-top: -20px; word-break: break-word;text-align: center; padding:0 10px;}
@@ -216,6 +217,8 @@
 	
 	.swipe_type_01_wrap .swiper-container {margin:0 24px;}
 	.locations_list .locations_text p {font-size: 13px;}
+	
+	.class_box_type_01 .class_box_type_01--item {float: none; width:100%; margin-bottom: 15px;}
 }
 
 @media screen and (max-width: 320px){
