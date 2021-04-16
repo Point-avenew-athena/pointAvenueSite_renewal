@@ -1,44 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>pointAvenue-퍼블리싱</title>
-	<style>
-		.wrap{width:1000px; margin:50px auto;}
-		.wrap h1 {text-align: center;}
-		.wrap table {width:100%;}
-		table {border-collapse: separate;border-spacing: 0; border: 1px solid #000;}
-		caption,th,td {text-align: center;font-weight: normal;}
-		.wrap table th {background: #eee; border: 1px solid #ddd; padding:10px 0;}
-		.wrap table td {text-align: center;border: 1px solid #ddd; padding:10px 0;}
-	</style>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0.5">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="PointAve">
+    <meta name="title" content="PointAve">
+    <meta name="description" content="">
+    <meta property="og:title" content="PointAve">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <title>PointAve</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<script language="JavaScript" type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/swiper.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<div class="wrap">
-		<h1>pointAvenue - 퍼블리싱 URL</h1>
-		<table>
-			<colgroup>
-				<col width="40%">
-				<col>
-			</colgroup>
-			<thead>
-				<tr>
-					<th>작업페이지명</th>
-					<th>작업페이지url</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Homepage</td>
-					<td><a href="homepage.html" target="_blank">homepage.html</a></td>
-				</tr>
-				<tr>
-					<td>About Us</td>
-					<td><a href="about-us.html" target="_blank">about-us.html</a></td>
-				</tr>
-			</tbody>
-		</table>
-		
+	<div class="wrap main">
+		<header>
+			<div class="header_inner">
+				<h1 class="logo"><a href="#"><span class="blind">PointAve</span></a></h1>
+				<div class="gnb">
+					<div class="gnb_cont">
+						<ul>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu">
+										<li class="sub_menu_item"><a href="#">About Us</a></li>
+										<li class="sub_menu_item"><a href="#">Scholarship</a></li>
+										<li class="sub_menu_item"><a href="#">Careers</a></li>
+										<li class="sub_menu_item"><a href="#">News</a></li>
+									</ul> 
+								</div>
+							</li> 
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Courses</a> 
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu"> 
+										<li class="sub_menu_item"><a href="#">Elementary Courses</a></li>
+										<li class="sub_menu_item"><a href="#">Middle & High School Courses</a></li>
+										<li class="sub_menu_item"><a href="#">Debate</a></li>
+										<li class="sub_menu_item"><a href="#">Test Preparation</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Admissions Consulting</a></li>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Camp</a>
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu">
+										<li class="sub_menu_item"><a href="#">Summer Leader Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Summer Day Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Winter Boarding Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Winter Day Camp</a></li>
+									</ul>
+								</div>
+							</li>	
+						</ul>
+					</div>
+					<div class="gnb_etc">
+						<ul>
+							<li class="search_area"><a href="javascript:void(0);" class="btn_search"><span class="blind">search</span></a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 btn_color_yellow">Login</a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 ">Sign Up</a></li>
+							<li class="m_gnb_menu">
+								<a href="javascript:void(0);" class="btn_hamburger">
+									<span class="blind">전체메뉴</span>
+									<i></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 검색 마크업 :: UI없어 임의로 마크업 작업해둠(해당 부분 보류).기획 단계 확인 후, 작업 여부 결정-->
+					<!--<div class="search">
+						<div class="search_box">
+							<div class="search_box_inner">
+								<i class="icon_search"></i>
+								<form action="" name="search_form">
+									<input type="text" name="query" placeholder="여기에 검색어를 입력하세요." title="검색하기">
+									<button type="submit">검색</button>
+								</form>
+							</div>
+							<button type="button" class="btn_close">닫기</button>
+						</div>
+					</div>-->
+					<!--// 검색 마크업 :: UI없어 임의로 마크업 작업해둠(해당 부분 보류).기획 단계 확인 후, 작업 여부 결정-->
+				</div>
+			</div>
+		</header>
+		<aside class="mobile_nav_wrap">
+			<div class="mobile_nav">
+				<div class="mobile_nav_header">
+					<a href="javascript:;" class="btn_close_menu">
+						<span class="blind">닫기</span>
+					</a>
+				</div>
+				<div class="mobile_nav_body">
+					<ul>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="#">About Us</a></li>
+								<li class="sub_menu_item"><a href="#">Scholarship</a></li>
+								<li class="sub_menu_item"><a href="#">Careers</a></li>
+								<li class="sub_menu_item"><a href="#">News</a></li>
+							</ul> 
+						</li> 
+						<li class="gnb_menu_item--go"><a href="javascript:void(0);">Courses</a> 
+							<ul class="sub_menu"> 
+								<li class="sub_menu_item"><a href="#">Elementary Courses</a></li>
+								<li class="sub_menu_item"><a href="#">Middle & High School Courses</a></li>
+								<li class="sub_menu_item"><a href="#">Debate</a></li>
+								<li class="sub_menu_item"><a href="#">Test Preparation</a></li>
+							</ul>
+						</li>
+						<li class="gnb_menu_item--go"><a href="#">Admissions Consulting</a></li>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Camp</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="#">Summer Leader Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Summer Day Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Winter Boarding Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Winter Day Camp</a></li>
+							</ul>
+						</li>	
+					</ul>
+				</div>
+				<div class="mobile_nav_footer">
+					<a href="javascript:;" class="btn_login">
+						<span>Login</span>
+					</a>
+					<a href="javascript:;" class="btn_signin">
+						<span>Sign Up</span>
+					</a>
+				</div>
+			</div>
+		</aside>
+		<!-- container :: start -->
+		<div class="container">
+			<section class="main_visual_wrap">
+				<div class="swiper-container main_visual">
+					<ul class="swiper-wrapper">
+						<li class="swiper-slide">
+							<div class="bg_img_box">
+								<img src="images/main/visual.png" alt="">
+							</div>
+							<div class="text_box">
+								<div class="text_box_inner">
+									<p class="title_r_01 main_visu_tit">PROVEN TEACHING<br>STRATEGIES</p>
+									<p class="main_visu_desc">leading to top standardized test results and university acceptances</p>
+									<a href="#" class="main_visu_more_btn">Take a FREE Diagnostic Test</a>
+								</div>
+							</div>
+						</li>
+						<li class="swiper-slide">
+							<div class="bg_img_box">
+								<img src="images/main/visual.png" alt="">
+							</div>
+							<div class="text_box">
+								<div class="text_box_inner">
+									<p class="title_r_01 main_visu_tit">PROVEN TEACHING<br>STRATEGIES222</p>
+									<p class="main_visu_desc">leading to top standardized test results and university acceptances</p>
+									<a href="#" class="main_visu_more_btn">Take a FREE Diagnostic Test</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!-- Add Pagination -->
+    				<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<section class="step_wrap">
+				<div class="section_inner">
+					<ul class="person_list">
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_01.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Elementary</span>
+									<span class="age">Age 5-10</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_02.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Middle School</span>
+									<span class="age">Age 11-15</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_03.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">High School</span>
+									<span class="age">Age 16-18</span>
+								</a>
+							</div>
+						</li>
+						<li class="person_item">
+							<div class="person_img">
+								<img src="images/main/step_04.png" alt="">
+							</div>
+							<div class="person_desc_box">
+								<a href="#" class="person_desc_inner">
+									<span class="school">Admission<br>Consulting</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="courses_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Feature Courses</h3>
+					<ul class="box_type_01 courses_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_01.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Elementary English</p>
+								<div class="desc_text">An engaging English program for children aligned with Common Core standards to maximize the children's learning and development</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_02.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Middle & High school English</p>
+								<div class="desc_text">Providing English academic rigor and soft skills to better prepare students for lifelong learning and growth </div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_03.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Life Coaching</p>
+								<div class="desc_text">Focuses on leadership development, life coaching, skills development, and goal setting; taught by experienced mentors</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_04.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">IELTS </p>
+								<div class="desc_text">Master the four critical English skills and enhance your score with our IELTS experts</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_05.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">SAT</p>
+								<div class="desc_text">Enhance your quantitative and qualitative knowledge skills and learn proven test-taking strategies and tips to maximize your SAT score</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="images/main/courses_06.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Debate</p>
+								<div class="desc_text">Competitive debate coaching provided by world-class mentors and champion debaters</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Learn More</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<div class="btn_box--right">
+						<a href="#" class="btn_type_02">BROWSE ALL CLASSES</a>
+					</div>
+				</div>
+			</section>
+			
+			<section class="works_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">How It Works</h3>
+					<div class="works_cont">
+						<ul class="works_list">
+							<li class="works_item">
+								<div class="works_icon">
+									<img src="images/main/works_01.png" alt="">
+								</div>
+								<p class="title_r_03 works_text">
+									Learn with World-Class<br>Mentors 
+								</p>
+							</li>
+							<li class="works_item">
+								<div class="works_icon">
+									<img src="images/main/works_02.png" alt="">
+								</div>
+								<p class="title_r_03 works_text">
+									Proven<br>Results
+								</p>
+							</li>
+							<li class="works_item">
+								<div class="works_icon">
+									<img src="images/main/works_03.png" alt="">
+								</div>
+								<p class="title_r_03 works_text">
+									Inquiry-based Learning Education <br>Philosophy
+								</p>
+							</li>
+							<li class="works_item">
+								<div class="works_icon">
+									<img src="images/main/works_04.png" alt="">
+								</div>
+								<p class="title_r_03 works_text">
+									The Student<br>Experience
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="classroom_wrap">
+				<div class="section_inner">
+					<div class="video_wrap">
+						<video src="" playsinline="" muted="" loop="" autoplay="" class="video-bg" poster="images/main/thumnail_video.png"
+						></video>
+					</div>
+					<div class="classroom_desc_box">
+						<h3 class="title_r_02 section_title">Visit Our Classroom </h3>
+						<p class="text--gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim accumsan adipiscing cursus bibendum adipiscing a. Felis hac urna magna sit amet praesent amet pellentesque purus. Nulla viverra imperdiet eget</p>
+					</div>
+				</div>
+			</section>
+			<section class="results_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Our Results</h3>
+					<p class="text--gray">We are dedicated to helping each and every one of our students reach their personal study goals and more importantly, to develop their courage and confidence, to believe in themselves and pursue their dreams, to achieve the kind of meaningful success that is earned through hard work, and to become leaders with vision and strong values in their communities.</p>
+					<div class="results_box">
+						<ul class="results_list">
+							<li class="results_item">
+								<div class="results_figure">
+									<strong class="title_r_00">97</strong>
+									<p class="title_r_03">% Admission Rate</p>
+								</div>
+								<p class="text">
+									Our students getting accepted to Top-3<br>choice schools
+								</p>
+							</li>
+							<li class="results_item">
+								<div class="results_figure">
+									<strong class="title_r_00">200</strong>
+									<p class="title_r_03">Students</p>
+								</div>
+								<p class="text">
+									Who scored 1560+ on SAT<br>(1% globally)
+								</p>
+							</li>
+							<li class="results_item">
+								<div class="results_figure">
+									<strong class="title_r_00">350</strong>
+									<p class="title_r_03">Students</p>
+								</div>
+								<p class="text">
+									Who scored 1520+ on SAT <br>(3% globally)
+								</p>
+							</li>
+							<li class="results_item">
+								<div class="results_figure">
+									<strong class="title_r_00">800</strong>
+									<p class="title_r_03">Students</p>
+								</div>
+								<p class="text">
+									Who scored 1410+ on SAT<br> (5% globally)
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			
+			<section class="sing_up_test_wrap">
+				<div class="section_inner--full">
+					<div class="write_box">
+						<h3 class="title_r_02">Sign Up for a FREE Diagnostic Test!</h3>
+						<div class="input_box">
+							<input type="text" class="name" placeholder="Your Name*">
+							<input type="text" class="phone" placeholder="Your Phone*">
+							<input type="text" class="email" placeholder="Your Email*">
+						</div>
+						<a href="#" class="btn_type_01--sec">
+							<span class="btn_inner">Register</span>
+						</a>
+					</div>
+				</div>
+			</section>
+			
+			<section class="news_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">News</h3>
+					<div class="swiper-container">
+						<ul class="swiper-wrapper box_type_01 news_list">
+							<li class="swiper-slide box_type_01--item news_item">
+								<div class="box_type_01--img news_img">
+									<img src="images/main/news_01.png" alt="">
+								</div>
+								<div class="box_type_01--desc news_desc_box">
+									<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
+									<div class="desc_text">In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]</div>
+									<a href="#" class="btn_type_01--sec">
+										<span class="btn_inner">Learn More</span>
+									</a>
+								</div>
+							</li>
+							<li class="swiper-slide box_type_01--item news_item">
+								<div class="box_type_01--img news_img">
+									<img src="images/main/news_02.png" alt="">
+								</div>
+								<div class="box_type_01--desc news_desc_box">
+									<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
+									<div class="desc_text">With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}</div>
+									<a href="#" class="btn_type_01--sec">
+										<span class="btn_inner">Learn More</span>
+									</a>
+								</div>
+							</li>
+							<li class="swiper-slide box_type_01--item news_item">
+								<div class="box_type_01--img news_img">
+									<img src="images/main/news_03.png" alt="">
+								</div>
+								<div class="box_type_01--desc news_desc_box">
+									<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
+									<div class="desc_text">COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]</div>
+									<a href="#" class="btn_type_01--sec">
+										<span class="btn_inner">Learn More</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<!-- Add Pagination -->
+    					<div class="swiper-pagination"></div>
+					</div>
+					<div class="btn_box--right">
+						<a href="#" class="btn_type_02">BROWSE ALL CLASSES</a>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info_wrap">
+					<h1 class="footer_logo"><a href="#"><img src="images/common/logo.svg" alt=""><span class="blind">pointave</span></a></h1>
+					<div class="footer_sitemap">
+						<ul class="footer_sitemap_menu">
+							<li class="footer_menu_item--go">
+								<a href="#">ABOUT US</a>
+								<ul>
+									<li><a href="javascript:void(0);" class="contact_pop_btn">Contact Us</a></li>
+									<li><a href="#">Scholarship</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</li>
+							<li class="footer_menu_item--go">
+								<a href="#">COURSES</a>
+								<ul>
+									<li><a href="#">Elementary Courses</a></li>
+									<li><a href="#">Middle & High School Courses</a></li>
+									<li><a href="#">Debate</a></li>
+									<li><a href="#">Test Preparation</a></li>
+								</ul>
+							</li>
+							<li class="footer_menu_item--go">
+								<a href="#">ADMISSIONS CONSULTING</a>
+							</li>
+							<li class="footer_menu_item">
+								<a href="javascript:void(0);">CAMP</a>
+								<ul>
+									<li><a href="#">Summer Leader Camp</a></li>
+									<li><a href="#">Summer Day Camp</a></li>
+									<li><a href="#">Winter Boarding Camp</a></li>
+									<li><a href="#">Winter Day Camp</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_etc_wrap">
+					<div class="footer_etc">
+						<p class="copyright">Copyright Ⓒ POINT AVENUE PTE COMPANY LIMITED. All Rights Reserved.</p>
+						<div class="footer_sns_menu">
+							<ul>
+								<li class="sns_icon_y"><a href="#"><span class="blind">youtube</span></a></li>
+								<li class="sns_icon_f"><a href="#"><span class="blind">facebook</span></a></li>
+								<li class="sns_icon_i"><a href="#"><span class="blind">instagram</span></a></li>
+								<li class="sns_icon_l"><a href="#"><span class="blind">likeduin</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--공통팝업:: start-->
+		<div class="layer_popup contact_popup">
+			<div class="popup_cont">
+				<div class="contact_box">
+					<p class="hotline">HOTLINE: 0905 685 809</p>
+					<p class="email"><a href="mailto:contact@pointavenue.com">EMAIL: contact@pointavenue.com</a></p>
+				</div>
+				<div class="contact_list">
+					<ul>
+						<li>
+							<p class="tit">Cau Giay Center</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>
+							<p class="tit">Long Bien Center</p>
+							<p class="address">60 Chu Huy Man St., Sai Dong New Urban Area, Phuc Dong Ward, Long Bien Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+						<li>
+							<p class="tit">Bangkok Center</p>
+							<p class="address">Unit 3121-3122, No. 982/22 Gateway Ekkamai Shopping Mall, Sukhumvit Road, Bangkok, Thailand 10110</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+					</ul>
+					<ul>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+					</ul>
+				</div>
+				<a href="javascript:void(0);" class="close_btn"><span class="blind">닫기</span></a>
+			</div>
+		</div>
+		<div class="dim"></div>
+		<!--공통팝업:: end-->
 	</div>
 </body>
 </html>
