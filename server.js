@@ -1,23 +1,23 @@
 const express = require('express');
+const ejs = require('ejs');
 const app = express();
 const PORT = process.env.PORT || 7070;
-app.use(express.json())
-app.use(express.static(__dirname + '/publish'));
 
-app.get('/introduction', (req, res) => {
-  res.sendFile(__dirname + '/publish/introduction.html')
-})
+app.set('view engine', 'ejs');
+app.set('views', './src/views')
+app.use(express.json())
+app.use(express.static(__dirname + '/src'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/publish/index.html')
+  res.render('index')
 })
 
 app.get('/about-us', (req, res) => {
-  res.sendFile(__dirname + '/publish/about-us.html')
+  res.render('about-us')
 })
 
 app.get('/classes', (req, res) => {
-  res.sendFile(__dirname + '/publish/classes.html')
+  res.render('classes')
 })
 
 app.listen(PORT, () => {

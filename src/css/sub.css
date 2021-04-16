@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*============== aboutus ==============*/
+.about_us .about_intro_wrap .video_wrap{width:50%; max-height: 317px;  overflow: hidden; background: #c4c4c4;}
+.about_us .about_intro_wrap .video_desc_wrap{width:50%;}
+.about_us .about_intro_wrap .s_title {margin-bottom: 20px;}
+.about_us .about_intro_wrap .s_desc {line-height: 1.4;}
+.about_us .partners_wrap .partners_cont ul{overflow: hidden; margin: -10px;}
+.about_us .partners_wrap .partners_cont li {float: left; position: relative; width:16.6%; padding:10px; border-radius: 10px;}
+.about_us .partners_wrap .partners_cont li .img_item {position: relative; padding-top:50%; overflow: hidden; border-radius: 10px;}
+.about_us .partners_wrap .partners_cont li img{ position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);}
+
+/*============== classes ==============*/
+.classes .visual_wrap{background:url('../images/sub/classes/classes_visual.png') right no-repeat; background-size: cover;}
+.classes .courses_wrap > div {position: relative; margin-bottom: 45px;}
+.classes .courses_wrap .sort_by_box {position: relative;text-align: right; margin-bottom: 20px;}
+.classes .courses_wrap .sort_by_box .sort_item {position: relative; border-bottom: 1px solid #000; border-radius: 0;padding:5px 30px 5px 5px; background:url('../images/common/arrow_02.png') right center no-repeat;}
+.classes .courses_wrap .sort_by_box .sort_kind_item {display: none;position: absolute;right:0; top:35px;padding:10px; background: #fff; z-index: 10; border: 1px solid #e5e5e5; border-radius: 10px; text-align: left;}
+.classes .courses_wrap .sort_by_box .sort_kind_item a {display: block;padding:10px 0;}
+.classes .courses_wrap .sort_by_box.on .sort_kind_item {display: inline-block;}
+.classes .courses_wrap > div > a {position: absolute; right:0; top:0;}
+.classes .courses_wrap > div > .title_r_02 {margin-bottom: 20px;}
+.classes .classes_grid_wrap {overflow: hidden; margin-top: 20px;}
+.classes .classes_grid_wrap .option_wrap {position: relative;float: left; width:20%;}
+.classes .classes_grid_wrap .courses_wrap {float: right; width:80%; padding-left: 2%; box-sizing: border-box;}
+/* filter_list */
+.option_wrap .filter_mo_btn{display: none;font-size: 16px; background:#F2B41B; color:#fff; border: 1px solid #F2B41B; padding:5px 10px;}
+.option_wrap .filter_mo_btn:before {content:''; display: inline-block; width:20px; height: 24px; background: url('../images/sub/classes/filter_icon.png') center no-repeat; background-size: 20px auto;vertical-align: middle; margin-right: 5px;}
+.option_wrap .option_list {display: block;}
+.option_list .filter_list_wrap .filter_item {margin-bottom: 10px;}
+.option_list .option_item > a {display: block;position: relative; padding:10px 0;margin-bottom: 10px;border-bottom: 1px solid #ddd;}
+.option_list .option_item > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 1px; transform: rotate(-135deg); background: #000;}
+.option_list .option_item > a:after {content:''; display: inline-block; width:10px; height: 1px; position: absolute; right:0; top:20px; transform: rotate(135deg); background: #000;}
+.option_list .option_item.on > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 1px; transform: rotate(-45deg); background: #F2B41B;}
+.option_list .option_item.on > a:after {content:''; display: inline-block; width:10px; height: 1px; position: absolute; right:0; top:20px; transform: rotate(45deg); background: #F2B41B;}
+.option_list .option_item .filter_list_wrap {display: none;}
+.option_list .option_item.on .filter_list_wrap {display: block;} 
+.filter_list_wrap .filter_item .checkbox_wrap {position: relative; padding-right:50px;}
+.filter_list_wrap .filter_item .count {position: absolute; right:0; top:0; font-size: 14px; color:#BDBDBD; top:0;}
+
+@media screen and (max-width:1000px) {
+	/*============== aboutus ==============*/
+	.about_us .about_intro_wrap .video_wrap {width:100%;}
+	.about_us .about_intro_wrap .video_desc_wrap {width:100%; padding-left: 0;}
+	.about_us .partners_wrap .partners_cont li {width:25%;}
+}
+
+@media screen and (max-width:768px) {
+	/*============== aboutus ==============*/
+	.about_us .partners_wrap .partners_cont li {width:33.33%;}
+	
+	/*============== classes ==============*/
+	.classes .classes_grid_wrap .option_wrap {float: none; width: 100%;}
+	.classes .classes_grid_wrap .courses_wrap {position: relative;float: none; padding-left: 0; width: 100%; padding-top: 50px;}
+	.option_wrap .filter_mo_btn{display: inline-block; position: absolute; left:0; top:0; z-index: 10;}
+	.classes .courses_wrap .sort_by_box {position: absolute; right:0; top:10px;}
+	.classes .courses_wrap .sort_by_box .sort_kind_item {min-width: 120px;}
+	.option_wrap .option_list_wrap {position: fixed;right: -9999px;top: 0;width: 70%;height: 100%;background: #fff;z-index: 200;padding:40px 20px; transition: right .5s;}
+	.option_wrap.on .option_list_wrap {right:0;}
+	.option_wrap.on .option_inner{ display: block; position: fixed; left:0; top:0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 200;}
+	.option_wrap .filter_close_btn {opacity: 0; position: absolute; right:14px; top:0; width:20px; height: 26px; z-index: 210; transition:all 1s;}
+	.option_wrap.on .filter_close_btn {opacity: 1;}
+	.option_wrap .filter_close_btn:before {content:''; display: inline-block; width:20px; height: 2px; background: #000; transform: rotate(-45deg);}
+	.option_wrap .filter_close_btn:after {content:''; display: inline-block; width:20px; height: 2px; position: absolute; right:0; top:13px; background: #000;transform: rotate(45deg);}
+}
+
+@media screen and (max-width:640px) {
+	/*============== aboutus ==============*/
+	.about_us .partners_wrap .partners_cont ul {margin: -5px;}
+	.about_us .partners_wrap .partners_cont li {width:50%; padding:5px;}
+	.locations_cont .swiper-container {margin:0 34px;}
+	
+	/*============== classes ==============*/
+	.classes .courses_wrap > div > a {position: relative; text-align: center;	}
+}
