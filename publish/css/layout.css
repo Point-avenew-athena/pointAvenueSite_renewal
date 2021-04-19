@@ -3,10 +3,17 @@
 .wrap {min-width: 320px;}
 
 .title_r_00 {font-family: 'roboto'; font-size: 72px; font-weight: 800;}
+.title_r_00 *{font-family: 'roboto'; font-size: 72px; font-weight: 800;}
 .title_r_01 {font-family: 'roboto'; font-size: 51px; font-weight: 800;}
+.title_r_01 *{font-family: 'roboto'; font-size: 51px; font-weight: 800;}
 .title_r_02 {font-family: 'roboto'; font-size: 30px; font-weight: 800;}
+.title_r_02 *{font-family: 'roboto'; font-size: 30px; font-weight: 800;}
 .title_r_03 {font-family: 'roboto'; font-size: 20px; font-weight: 800;}
+.title_r_03 *{font-family: 'roboto'; font-size: 20px; font-weight: 800;}
 .title_r_03--gray {font-family: 'roboto'; font-size: 20px; color:#8B8989; font-weight: 800;}
+.title_r_03--gray *{font-family: 'roboto'; font-size: 20px; color:#8B8989; font-weight: 800;}
+
+.t_yellow {color:#F2B41B;}
 
 /*================input layout================*/
 .checkbox_wrap input[type="checkbox"] {display: none;}
@@ -14,6 +21,15 @@
 .checkbox_wrap input[type="checkbox"]:checked + label:before {content:''; display: inline-block; width:25px; height: 25px; background: #F2B41B
  url('../images/common/checkbox.png') no-repeat; background-position: center;border:1px solid #F2B41B;}
 
+.info_input_wrap .section_inner--full{background: rgba(242, 180, 27, 0.3); padding:30px;}
+.info_input_wrap .write_box {width:968px; height: 320px; margin:0 auto; text-align: center;background:#fff; border: 1px solid #bdbdbd; padding:30px 100px; border-radius: 30px; box-sizing: border-box;}
+.info_input_wrap .write_box .input_box {overflow: hidden;margin-top: 30px;}
+.info_input_wrap .write_box .input_box input{width:100%;border:0; border-bottom: 1px solid #000; border-radius: 0; padding:10px 5px; font-size: 14px;  }
+.info_input_wrap .write_box .input_box .name {width:30%; float: left;}
+.info_input_wrap .write_box .input_box .phone {width:50%; float: right;}
+.info_input_wrap .write_box .input_box .email {margin-top: 15px;}
+.info_input_wrap .write_box .input_box input:placeholder {color:#BDBDBD;}
+.info_input_wrap .write_box .btn_type_01--sec {margin:50px auto 0;}
 
 /* ==========================section layout====================*/
 .container {position: relative;}
@@ -28,6 +44,8 @@
 .sub .visual_wrap {position: relative; height: 300px; background: #C4C4C4;}
 .sub .visual_wrap .section_inner{position: relative; height: 100%;}
 .sub .visual_wrap .text_box {position: absolute; left:100px; top:60%;}
+
+
 
 /*====================swiper-container===================*/
 
@@ -61,8 +79,8 @@
 
 /*class_box_type*/
 .class_box_type_01 {width:100%; overflow: hidden; }
-.class_box_type_01 .class_box_type_01--item{float: left; width:calc(33.33% - 20px); width:-webkit-calc(33.33% - 20px); margin-right: 30px; border-radius: 10px; transition: width 1s;}
-.class_box_type_01 .class_box_type_01--item:nth-child(3) {margin-right: 0;}
+.class_box_type_01 .class_box_type_01--item{float: left; width:calc(33.33% - 20px); width:-webkit-calc(33.33% - 20px); margin-right: 30px; margin-bottom: 40px;border-radius: 10px; transition: width 1s;}
+.class_box_type_01 .class_box_type_01--item:nth-child(3n) {margin-right: 0;}
 .class_box_type_01 .class_box_type_01--img {position: relative; padding-top: 66%; overflow: hidden; border-radius: 10px 10px 0 0;}
 .class_box_type_01 .class_box_type_01--img img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
 .class_box_type_01 .class_box_type_01--desc{position: relative;min-height: 140px; border:1px solid #ddd; border-radius: 0 0 10px 10px; padding:10px; word-break: break-word;}
@@ -102,6 +120,30 @@
 	</div>
 */
 
+/* swipe_type_02_wrap :: swiper-slide 함께 사용 */
+.swipe_type_02_wrap {position: relative;overflow: hidden;}
+.swipe_type_02_wrap .swiper-container{position: static; margin:0 50px; overflow: inherit;}
+.swipe_type_02_wrap .swipe_type_02 {position: initial;width:100%; }
+.swipe_type_02 .swipe_type_02--item{float: left; width:25%; border-radius: 10px; border:1px solid #ddd;}
+.swipe_type_02 .swipe_type_02--item + .swipe_type_02--item {}
+.swipe_type_02 .swipe_type_02--item a{display: block;}
+.swipe_type_02 .swipe_type_02--img {position: relative; padding-top: 100%; overflow: hidden; border-radius: 10px;}
+.swipe_type_02 .swipe_type_02--img img{position: absolute;top: 50%;left: 50%;width: 100%;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
+
+/*
+	<div class="swipe_type_01_wrap">
+		<div class="swiper-container">
+			<ul class="swiper-wrapper swipe_type_01">
+				<li class="swipe_type_01--item">
+					<div class="swipe_type_01--img">
+						<img src="images/common/non_img.png" alt="">
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+*/
+/* loaction_cont */
 .locations_cont{position: relative;overflow: hidden;}
 .locations_cont .swiper-container{position: initial; margin:0 50px; overflow: inherit;}
 .locations_list .locations_item{float: left; width:33.33%; padding:15px; border-radius: 10px; border: 1px solid #E5E5E5;}
@@ -110,6 +152,33 @@
 .locations_list .locations_title:after {content:'';display: block; width:calc(100% - 32px); width:-webkit-calc(100% - 32px);  margin:0 32px; border-bottom:1px solid #ddd; }
 .locations_list .locations_text{margin-top: 10px; line-height: 1.6;}
 .locations_list .locations_text p {font-size: 14px;}
+
+/*============================= courses_wrap ===========================*/
+.courses_wrap > div {position: relative; margin-bottom: 45px;}
+.courses_wrap .sort_by_box {position: relative;text-align: right; margin-bottom: 20px;}
+.courses_wrap .sort_by_box .sort_item {position: relative; border-bottom: 1px solid #000; border-radius: 0;padding:5px 30px 5px 5px; background:url('../images/common/arrow_02.png') right center no-repeat;}
+.courses_wrap .sort_by_box .sort_kind_item {display: none;position: absolute;right:0; top:35px;padding:10px; background: #fff; z-index: 10; border: 1px solid #e5e5e5; border-radius: 10px; text-align: left;}
+.courses_wrap .sort_by_box .sort_kind_item a {display: block;padding:10px 0;}
+.courses_wrap .sort_by_box.on .sort_kind_item {display: inline-block;}
+.courses_wrap > div > a {position: absolute; right:0; top:0;}
+.courses_wrap > div > .title_r_02 {margin-bottom: 20px;}
+.classes_grid_wrap {overflow: hidden; margin-top: 20px;}
+.classes_grid_wrap .option_wrap {position: relative;float: left; width:20%;}
+.classes_grid_wrap .courses_wrap {float: right; width:80%; padding-left:3%; box-sizing: border-box;}
+/* filter_list */
+.option_wrap .filter_mo_btn{display: none;font-size: 16px; background:#F2B41B; color:#fff; border: 1px solid #F2B41B; padding:5px 10px;}
+.option_wrap .filter_mo_btn:before {content:''; display: inline-block; width:20px; height: 24px; background: url('../images/common/filter_icon.png') center no-repeat; background-size: 20px auto;vertical-align: middle; margin-right: 5px;}
+.option_wrap .option_list {display: block;}
+.option_list .filter_list_wrap .filter_item {margin-bottom: 10px;}
+.option_list .option_item > a {display: block;position: relative; padding:10px 0;margin-bottom: 10px;border-bottom: 1px solid #ddd;}
+.option_list .option_item > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 1px; transform: rotate(-135deg); background: #000;}
+.option_list .option_item > a:after {content:''; display: inline-block; width:10px; height: 1px; position: absolute; right:0; top:20px; transform: rotate(135deg); background: #000;}
+.option_list .option_item.on > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 1px; transform: rotate(-45deg); background: #F2B41B;}
+.option_list .option_item.on > a:after {content:''; display: inline-block; width:10px; height: 1px; position: absolute; right:0; top:20px; transform: rotate(45deg); background: #F2B41B;}
+.option_list .option_item .filter_list_wrap {display: none;}
+.option_list .option_item.on .filter_list_wrap {display: block;} 
+.filter_list_wrap .filter_item .checkbox_wrap {position: relative; padding-right:50px;}
+.filter_list_wrap .filter_item .count {position: absolute; right:0; top:0; font-size: 14px; color:#BDBDBD; top:0;}
 
 /*============================= video_grid_wrap ===========================*/
 .video_grid_wrap {overflow: hidden;}
@@ -172,6 +241,12 @@
 	.container .section_inner {padding:0 40px;}
 	.sub .visual_wrap .text_box {left: 40px; padding-right: 40px;}
 	.layer_popup {width:auto; max-width: 800px; min-width: 800px;}
+	
+	.info_input_wrap .write_box {width:100%; height: auto; margin:0 auto;}
+	.info_input_wrap .write_box .input_box input{float: none;width:100%; margin-bottom: 15px;}
+	.info_input_wrap .write_box .input_box .name{float: none;width:100%;}
+	.info_input_wrap .write_box .input_box .phone{float: none;width:100%;}
+	.info_input_wrap .write_box .input_box .email{margin-top: 0;}
 }
 @media screen and (max-width:1000px) {
 	.container > section {margin-top: 80px;}
@@ -189,6 +264,7 @@
 	.contact_popup .contact_list ul li {float: none;width:100%; border-bottom:1px solid #E5E5E5; padding:10px 0;}
 	.contact_popup .contact_list ul + ul {border-top: 0;}
 	
+	.class_box_type_01 .class_box_type_01--item { width: calc(33.33% - 10px); width: -webkit-calc(33.33% - 10px); margin-right: 15px; margin-bottom: 40px;}
 	.class_box_type_01 .class_box_type_01--desc .text--gray p {float: none;}
 	.class_box_type_01 .class_box_type_01--desc .text--gray .times{float: none;}
 }
@@ -208,6 +284,23 @@
 	.container .section_title:after {left:45px; width:80px; height: 3px;}
 	
 	.class_box_type_01 .class_box_type_01--item {width:calc(33.33% - 10px); width:-webkit-calc(33.33% - 10px); margin-right: 15px; }
+	
+	/*============== classes ==============*/
+	.classes_grid_wrap .option_wrap {float: none; width: 100%;}
+	.classes_grid_wrap .courses_wrap {position: relative;float: none; padding-left: 0; width: 100%; padding-top: 50px;}
+	.courses_wrap .sort_by_box {position: absolute; right:0; top:10px;}
+	.courses_wrap .sort_by_box .sort_kind_item {min-width: 120px;}
+	.option_wrap .filter_mo_btn{display: inline-block; position: absolute; left:0; top:0; z-index: 10;}
+	.option_wrap .option_list_wrap {position: fixed;right: -9999px;top: 0;width: 70%;height: 100%;background: #fff;z-index: 200;padding:40px 20px; transition: right .5s;}
+	.option_wrap.on .option_list_wrap {right:0;}
+	.option_wrap.on .option_inner{ display: block; position: fixed; left:0; top:0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 200;}
+	.option_wrap .filter_close_btn {opacity: 0; position: absolute; right:14px; top:0; width:20px; height: 26px; z-index: 210; transition:all 1s;}
+	.option_wrap.on .filter_close_btn {opacity: 1;}
+	.option_wrap .filter_close_btn:before {content:''; display: inline-block; width:20px; height: 2px; background: #000; transform: rotate(-45deg);}
+	.option_wrap .filter_close_btn:after {content:''; display: inline-block; width:20px; height: 2px; position: absolute; right:0; top:13px; background: #000;transform: rotate(45deg);}
+	
+	.info_input_wrap .write_box{padding:20px 50px;}
+	.info_input_wrap .section_inner--full {padding:20px;}
 }
 @media screen and (max-width: 640px){
 	.title_r_00 {font-size: 40px;}
@@ -228,7 +321,14 @@
 	.swipe_type_01_wrap .swiper-container {margin:0 24px;}
 	.locations_list .locations_text p {font-size: 13px;}
 	
-	.class_box_type_01 .class_box_type_01--item {float: none; width:100%; margin-bottom: 15px;}
+	.class_box_type_01 .class_box_type_01--item {width:calc(50% - 5px); width:-webkit-calc(50% - 5px); margin-right: 10px;  margin-bottom: 15px;}
+	.class_box_type_01 .class_box_type_01--item:nth-child(3n) {margin-right: 10px;}
+	.class_box_type_01 .class_box_type_01--item:nth-child(2n) {margin-right: 0;}
+	
+	/*============== classes ==============*/
+	.courses_wrap > div > a {position: relative; text-align: center;}
+	
+	.info_input_wrap .write_box {padding:20px;}
 }
 
 @media screen and (max-width: 320px){

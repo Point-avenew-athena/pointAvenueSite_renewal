@@ -88,7 +88,7 @@
 	.main_visual_wrap {overflow: hidden;}
 	.main_visual_wrap .swiper-container {overflow: inherit;}
 	.main_visual_wrap .swiper-slide-active .main_visu_desc{font-size: 16px; margin:20px 0;}
-	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:2vw 0;}
+	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:2.5vw 0;}
 	.step_wrap {overflow: hidden;}
 	.step_wrap .section_inner .swiper-container {overflow: inherit;}
 	.step_wrap .section_inner .swiper-wrapper {overflow: inherit; padding:20px 0;}
