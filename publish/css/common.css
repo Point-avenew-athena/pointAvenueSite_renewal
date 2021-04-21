@@ -11,7 +11,7 @@ header .gnb_cont {display:inline-block; margin-right: 60px ; vertical-align: top
 header .gnb_cont ul{float: left;}
 header .gnb_cont .gnb_menu_item {position: relative;display:inline-block; padding:5px 0 0px;box-sizing: border-box;}
 header .gnb_cont .gnb_menu_item + .gnb_menu_item {margin-left: 50px;}
-header .gnb_cont .gnb_menu_item a{display: block;padding-bottom: 13px;font-size: 14px; box-sizing: border-box; border-bottom:3px solid #fff;}
+header .gnb_cont .gnb_menu_item a{display: block;padding-bottom: 13px;font-size: 14px; box-sizing: border-box; }
 header .gnb_cont .sub_menu_wrap {display: none;position: absolute; right:0; top:40px;z-index:100;}
 header .gnb_cont .sub_menu{min-width: 200px; min-height: 224px; margin-top: 5px; padding:25px 10px;border:1px solid #e5e5e5; border-radius:10px; background: #fff; color:#8B8989; box-sizing: border-box; }
 header .gnb_cont .sub_menu_item {margin-bottom: 25px; line-height: 1;}
@@ -74,6 +74,10 @@ footer .footer_sns_menu .sns_icon_l a{background: url('../images/common/f_linked
 .mobile_nav_body .gnb_menu_item.on > a:before {transform: rotate(-135deg);}
 .mobile_nav_body .gnb_menu_item.on > a:after {transform: rotate(135deg);}
 
+/*===================== dark mode ======================*/
+.dark header {background: #000; color:#fff;}
+.dark header .logo a:before {background:url('../images/common/logo_w.svg') no-repeat; }
+
 @media screen and (max-width:1200px) {
 	header .header_inner {padding:10px 40px;}
 	header .gnb_cont {margin-right: 30px;}
@@ -85,7 +89,7 @@ footer .footer_sns_menu .sns_icon_l a{background: url('../images/common/f_linked
 	footer .footer_etc_wrap {padding:0 40px;}
 }
 @media screen and (max-width:1000px) {
-	header.fixed {position: fixed;left:0; top:0; width:100%;border-bottom: 1px solid #ddd;background: #fff; z-index: 99;}
+	header.fixed {position: fixed;left:0; top:0; width:100%;border-bottom: 1px solid #ddd; z-index: 99;}
 	header .gnb_cont {display: none;position: absolute;  width: 100%; left:0; margin-right: 0;top: 50px; border-top: 1px solid #000; background: #fff; z-index: 10;}
 	header .gnb_cont ul {float: none;}
 	header .gnb_cont .gnb_menu_item{width:100%;padding:0;}
@@ -115,6 +119,9 @@ footer .footer_sns_menu .sns_icon_l a{background: url('../images/common/f_linked
 	footer .footer_sitemap .footer_sitemap_menu ul a {background: #f1f1f1;}
 	footer .footer_etc_wrap .copyright {float: none;}
 	footer .footer_sns_menu {float: none;margin-top: 10px;}
+	
+	/*===================== dark mode ======================*/
+	.dark header {border-bottom: 0;}
 }
 @media screen and (max-width: 768px) and (orientation: portrait){
 	footer .footer_info_wrap{padding:15px 0;}

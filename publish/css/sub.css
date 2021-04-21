@@ -24,12 +24,56 @@
 .all_elmentary_courses .desc_box strong {font-weight: 700;}
 .all_elmentary_courses footer {margin-top: 0;}
 
+/*============== class_datail ==============*/
+.class_datail .title_box {margin-bottom: 30px;}
+.class_datail .lesson_list_wrap {padding:40px 0 80px;background: #3a3a3a; color:#fff;}
+.class_datail .lesson_list_wrap .desc{color:#fff;}
+.class_datail .lesson_list_wrap .video_wrap {width:70%; padding-right: 1.5%;}
+.class_datail .lesson_list_wrap .lesson_list ul{max-height: 380px; overflow-y: auto;}
+.class_datail .lesson_list_wrap .lesson_list ul::-webkit-scrollbar { width: 15px;}
+.class_datail .lesson_list_wrap .lesson_list ul::-webkit-scrollbar-thumb { background-color: #e5e5e5; border-radius: 10px;}
+.class_datail .lesson_list_wrap .lesson_list ul::-webkit-scrollbar-track { background-color: #6b6b6b;}
+.class_datail .lesson_list_wrap .lesson_list .title_r_03 {margin-bottom: 20px;}
+.class_datail .lesson_list_wrap .lesson_list .lesson_item{}
+.class_datail .lesson_list_wrap .lesson_list .lesson_item.on{border-radius: 10px; border:1px solid #e5e5e5;}
+.class_datail .lesson_list_wrap .lesson_list .lesson_item a{display: block; overflow: hidden; padding:15px; margin-bottom: 5px; }
+.class_datail .lesson_list_wrap .lesson_list .lesson_item p{font-size: 14px; color:#e5e5e5;}
+.class_datail .lesson_list_wrap .lesson_list .lesson_item .class_name{float: left;}
+.class_datail .lesson_list_wrap .lesson_list .lesson_item .class_time{float: right;}
+.class_datail .lesson_desc_wrap .section_inner {position: relative; overflow: hidden;}
+.class_datail .lesson_desc_wrap .enroll_btn {position: absolute; right:0; top:0;}
+.class_datail .lesson_desc_wrap .tab_cont_area {float: left;width:60%; box-sizing: border-box; padding-right: 5%;}
+.class_datail .lesson_desc_wrap .btn_box--right a {display: inline-block;}
+.class_datail .lesson_desc_wrap .mentor_cont .cont {overflow: hidden;}
+.class_datail .lesson_desc_wrap .mentor_cont .mentor_box {float: left;text-align: center;}
+.class_datail .lesson_desc_wrap .mentor_cont .mentor_box img {border-radius: 50%;}
+.class_datail .lesson_desc_wrap .mentor_cont .cont > p {padding-left: 30%;}
+.class_datail .lesson_info_wrap {float: right; width:40%; border-bottom: 1px solid #e4e4e4; padding-bottom: 20px; margin-top: 60px;text-align: center;}
+.class_datail .lesson_info_wrap .unit_txt {font-size: 16px;}
+.class_datail .lesson_info_wrap .level_wrap  {display: inline-block;text-align: center;}
+.class_datail .lesson_info_wrap .level_graph span{display: inline-block;width:10px; height: 30px; vertical-align: bottom; background: #c4c4c4; border-radius: 5px; margin-right: 5px;} 
+.class_datail .lesson_info_wrap .level_graph span:nth-child(2) {height: 40px;}
+.class_datail .lesson_info_wrap .level_graph span:nth-child(3) {height: 50px;}
+.class_datail .lesson_info_wrap .level_graph .full {background: #f4b41b;}
+.class_datail .lesson_info_wrap .student_wrap  {display: inline-block; margin-left: 80px;text-align: center;}
+.class_datail .courses_wrap .title_r_02{ margin-bottom: 25px;}
+.class_datail .courses_wrap .section_inner {padding-top: 30px;border-top: 1px solid #e4e4e4;}
+
+@media screen and (max-width:1200px) {
+	.class_datail .lesson_desc_wrap .enroll_btn {right:40px;}
+}
 @media screen and (max-width:1000px) {
 	
 	/*============== aboutus ==============*/
 	.about_us .about_intro_wrap .video_wrap {width:100%;}
 	.about_us .about_intro_wrap .video_desc_wrap {width:100%; padding-left: 0;}
 	.about_us .partners_wrap .partners_cont li {width:25%;}
+	/*============== class_datail ==============*/
+	.class_datail .lesson_list_wrap .video_wrap {float: none;width:100%; padding-right: 0;}
+	.class_datail .lesson_list_wrap .lesson_list {margin-top: 20px; }
+	.class_datail .lesson_desc_wrap .tab_cont_area {float: none; width: 100%; padding-right: 0;}
+	.class_datail .lesson_info_wrap {float: none; width:100%;}
+	.class_datail .project_desc_cont .btn_box--right {text-align: center; margin-top: 20px;}
 }
 
 @media screen and (max-width:768px) {
@@ -41,6 +85,15 @@
 	.about_us .partners_wrap .partners_cont li {width:33.33%;}
 	/*============== all_elmentary_courses ==============*/
 	.all_elmentary_courses .courses_wrap > div {margin-bottom: 0;}
+	
+	/*============== class_datail ==============*/
+	.class_datail .container > .lesson_desc_wrap {margin-top: 40px;}
+	.class_datail .lesson_desc_wrap .enroll_btn {position: relative;width:100%;  right:auto; top:auto;}
+	.class_datail .lesson_desc_wrap .tab_cont_area {margin-top: 40px;}
+	.class_datail .lesson_desc_wrap .mentor_cont .mentor_box {float: none;}
+	.class_datail .lesson_desc_wrap .mentor_cont .cont > p {padding-left: 0; margin-top: 30px;}
+	.class_datail .project_desc_cont .btn_box--right {margin: 30px 0;}
+	.class_datail .lesson_desc_wrap .btn_box--right a {width:100%;}
 }
 
 @media screen and (max-width:640px) {
@@ -48,4 +101,6 @@
 	.about_us .partners_wrap .partners_cont ul {margin: -5px;}
 	.about_us .partners_wrap .partners_cont li {width:50%; padding:5px;}
 	.locations_cont .swiper-container {margin:0 34px;}
+	
+	.class_datail .lesson_info_wrap .student_wrap {margin-left: 40px;}
 }

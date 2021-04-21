@@ -89,4 +89,12 @@ $(document).ready(function(){
 	$('.option_wrap .filter_close_btn').click(function(){
 		$('.option_wrap').removeClass('on');
 	});
+	
+	/*======tab cont 활성화 =======*/
+	$('.tab_cont_area .tab_type_list_01 a').click(function(e){
+		e.preventDefault();
+		var n = $('.tab_type_list_01 a').index($(this));
+		$(this).parent().addClass('on').siblings().removeClass('on');
+		$(this).parents('.tab_cont_area').find('.tab_cont_wrap').find('.tab_cont').eq(n).addClass('on').siblings().removeClass('on');
+	});
 });
