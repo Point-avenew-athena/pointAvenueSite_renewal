@@ -1,5 +1,5 @@
 $(function(){
-	var mentors_swiper = new Swiper('.mentors_wrap .swiper-container', {
+	var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {
