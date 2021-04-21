@@ -91,7 +91,7 @@
 .class_box_type_01 .class_box_type_01--desc .text--gray {overflow: hidden; margin-bottom: 5px;}
 .class_box_type_01 .class_box_type_01--desc .text--gray p {float: left;}
 .class_box_type_01 .class_box_type_01--desc .text--gray .times {float: right;}
-.class_box_type_01 .class_box_type_01--desc .class_type {display: inline-block; margin-top: 10px;padding:5px 20px; color:#fff; background: #F2B41B; border-radius: 5px;}
+.class_box_type_01 .class_box_type_01--desc .class_type {display: inline-block; margin-top: 10px;color:#F2B41B; }
 
 /*class_box_type*/
 .class_box_type_02 {width:100%; overflow: hidden; }
@@ -105,7 +105,7 @@
 .class_box_type_02 .class_box_type_02--desc .text--gray {overflow: hidden; margin-bottom: 5px;}
 .class_box_type_02 .class_box_type_02--desc .text--gray p {float: left;}
 .class_box_type_02 .class_box_type_02--desc .text--gray .times {float: right;}
-.class_box_type_02 .class_box_type_02--desc .class_type {display: inline-block; margin-top: 10px;padding:5px 20px; color:#fff; background: #F2B41B; border-radius: 5px;}
+.class_box_type_02 .class_box_type_02--desc .class_type {display: inline-block; margin-top: 10px; color:#F2B41B;}
 
 
 /* swipe_type_01_wrap :: swiper-slide 함께 사용 */
