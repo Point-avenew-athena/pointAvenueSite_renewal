@@ -59,8 +59,43 @@
 .class_datail .courses_wrap .title_r_02{ margin-bottom: 25px;}
 .class_datail .courses_wrap .section_inner {padding-top: 30px;border-top: 1px solid #e4e4e4;}
 
+
+/*============== careers ==============*/
+.careers .visual_wrap {background:url('../images/sub/point-avenue/careers/careers_visual.png') center no-repeat; background-size: cover;}
+.careers .visual_wrap .title_r_01 {color:#fff;}
+.careers .offer_wrap .offer_list ul{overflow: hidden;margin-top: 40px;}
+.careers .offer_wrap .offer_list ul li{position: relative;display: inline-block;float: left; width:25%; margin-bottom: 40px; font-size: 0; vertical-align: top;}
+.careers .offer_wrap .offer_list ul li:nth-child(2n) {width:27%;}
+.careers .offer_wrap .offer_list ul li:nth-child(2n+1) {width:23%;}
+.careers .offer_wrap .offer_list ul li .title_r_03 {font-size: 19px;}
+.careers .offer_wrap .offer_list .offer_icon_box {display: inline-block;width:35%; vertical-align: middle;}
+.careers .offer_wrap .offer_list .text_box {display: inline-block;width:65%; vertical-align: middle;}
+.careers .section_inner {overflow: hidden;}
+.careers .process_step_list {position: relative; z-index: 10;}
+.careers .process_step_list:after {content:''; display: block; clear: both;}
+.careers .process_step_list .process_step_item{float: left; width:20%; position: relative;}
+.careers .process_step_list .process_step_item .step {width:90%; margin:167px 0; background: #F2B41B; border-radius: 20px; text-align: center; padding:10px; font-size: 16px;}
+.careers .process_step_list .tooltip_box{ position: absolute; left:50%; margin-left: -85px; bottom:230px; max-width: 170px; display: inline-block; padding:20px 10px 10px;  background: #f4f4f4; box-sizing: border-box; border-radius:0 20px 20px 20px;}
+.careers .process_step_list .tooltip_box:after{ content:''; display: inline-block; position: absolute; left:50%; margin-left:-14px; width: 27px; height: 22px; background: url('../images/common/tooltip_arrow.png') no-repeat;}
+.careers .process_step_list .tooltip_box .title_r_01 {position: absolute; left:0; top:-40px; color:#F2B41B;}
+.careers .process_step_list .tooltip_box .title_r_03 {font-size: 16px;}
+.careers .process_step_list .icon_box{position: absolute; bottom:50px; left:50%; transform: translateX(-50%);transform: -webkit-translateX(-50%);}
+.careers .process_step_list .icon_box:before {content: ''; display: inline-block; height: 20px; border: 1px dashed #000; position: absolute; left: 50%; top: -36px;}
+.careers .process_step_list .process_step_item:nth-child(2n) .tooltip_box {top:240px; bottom:auto; padding:10px 10px 30px; border-radius: 10px;}
+.careers .process_step_list .process_step_item:nth-child(2n) .tooltip_box:after{top:-20px; transform: rotateX(-180deg)}
+.careers .process_step_list .process_step_item:nth-child(2n) .icon_box {bottom:260px;}
+.careers .process_step_list .process_step_item:nth-child(2n) .icon_box:before {top:auto; bottom:-36px;}
+.careers .process_step_list .process_step_item:nth-child(2n) .title_r_01{top:auto; bottom:-40px;}
+.careers .process_step_wrap {padding:20px 0 40px;}
+.careers .process_step_wrap .swiper-container {overflow: inherit;}
+.careers .process_step_wrap .swiper-pagination-progressbar {display: none;top:auto; bottom:-40px;}
+.careers .process_step_wrap .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{ background: #F2B41B;}
+.careers .open_position_wrap .section_inner {position: relative;}
+.careers .open_position_wrap .btn_type_01.all {position: absolute; right:0; top:0;}
+ 
 @media screen and (max-width:1200px) {
 	.class_datail .lesson_desc_wrap .enroll_btn {right:40px;}
+	.careers .open_position_wrap .btn_type_01.all {right:40px;} 
 }
 @media screen and (max-width:1000px) {
 	
@@ -74,6 +109,14 @@
 	.class_datail .lesson_desc_wrap .tab_cont_area {float: none; width: 100%; padding-right: 0;}
 	.class_datail .lesson_info_wrap {float: none; width:100%;}
 	.class_datail .project_desc_cont .btn_box--right {text-align: center; margin-top: 20px;}
+	/*============== careers ==============*/
+	.careers .offer_wrap .offer_list .offer_icon_box {width:40%;}
+	.careers .offer_wrap .offer_list .text_box {width:60%;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n+1) {width:50%;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n) {width:50%;}
+	.careers .process_step_wrap .swiper-pagination-progressbar {display: block;}
+	.careers .process_step_list .tooltip_box .title_r_01 {top:-20px;}
+	.careers .process_step_list .process_step_item:nth-child(2n) .title_r_01 {bottom:-20px;}
 }
 
 @media screen and (max-width:768px) {
@@ -94,6 +137,11 @@
 	.class_datail .lesson_desc_wrap .mentor_cont .cont > p {padding-left: 0; margin-top: 30px;}
 	.class_datail .project_desc_cont .btn_box--right {margin: 30px 0;}
 	.class_datail .lesson_desc_wrap .btn_box--right a {width:100%;}
+	
+	/*============== careers ==============*/
+	.careers .offer_wrap .offer_list .offer_icon_box  {vertical-align: top;}
+	.careers .offer_wrap .offer_list .offer_icon_box img{display: inline-block;width:70%; margin:0 auto; vertical-align: top;}
+	.careers .open_position_wrap .btn_type_01.all {position: relative; right:0; width:100%; text-align: center;} 
 }
 
 @media screen and (max-width:640px) {
@@ -103,4 +151,15 @@
 	.locations_cont .swiper-container {margin:0 34px;}
 	
 	.class_datail .lesson_info_wrap .student_wrap {margin-left: 40px;}
+	/*============== careers ==============*/
+	.careers .offer_wrap .offer_list ul li {min-height: 90px; margin-bottom: 20px; border-bottom: 1px solid #e4e4e4;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n) {width:100%;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n+1) {width:100%;}
+	.careers .offer_wrap .offer_list .offer_icon_box { text-align: center;}
+	.careers .offer_wrap .offer_list .offer_icon_box img {width:60px;}
+	.careers .offer_wrap .offer_list .offer_icon_box {vertical-align: middle;}
+
+}
+
+@media screen and (max-width:320px) {
 }
