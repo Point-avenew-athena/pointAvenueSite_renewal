@@ -97,4 +97,16 @@ $(document).ready(function(){
 		$(this).parent().addClass('on').siblings().removeClass('on');
 		$(this).parents('.tab_cont_area').find('.tab_cont_wrap').find('.tab_cont').eq(n).addClass('on').siblings().removeClass('on');
 	});
+	
+	/*==========file_box :: 파일 업로드=========*/
+	var fileTarget = $('.file_box .upload_hidden'); 
+	fileTarget.on('change', function(){ 
+		if(window.FileReader){ 
+			var filename = $(this)[0].files[0].name; 
+		} else { 
+			var filename = $(this).val().split('/').pop().split('\\').pop(); 
+		} 
+		$(this).siblings('.upload_name').val(filename);
+	});
+
 });

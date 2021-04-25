@@ -71,31 +71,44 @@
 .careers .offer_wrap .offer_list .offer_icon_box {display: inline-block;width:35%; vertical-align: middle;}
 .careers .offer_wrap .offer_list .text_box {display: inline-block;width:65%; vertical-align: middle;}
 .careers .section_inner {overflow: hidden;}
-.careers .process_step_list {position: relative; z-index: 10;}
-.careers .process_step_list:after {content:''; display: block; clear: both;}
-.careers .process_step_list .process_step_item{float: left; width:20%; position: relative;}
-.careers .process_step_list .process_step_item .step {width:90%; margin:167px 0; background: #F2B41B; border-radius: 20px; text-align: center; padding:10px; font-size: 16px;}
-.careers .process_step_list .tooltip_box{ position: absolute; left:50%; margin-left: -85px; bottom:230px; max-width: 170px; display: inline-block; padding:20px 10px 10px;  background: #f4f4f4; box-sizing: border-box; border-radius:0 20px 20px 20px;}
-.careers .process_step_list .tooltip_box:after{ content:''; display: inline-block; position: absolute; left:50%; margin-left:-14px; width: 27px; height: 22px; background: url('../images/common/tooltip_arrow.png') no-repeat;}
-.careers .process_step_list .tooltip_box .title_r_01 {position: absolute; left:0; top:-40px; color:#F2B41B;}
-.careers .process_step_list .tooltip_box .title_r_03 {font-size: 16px;}
-.careers .process_step_list .icon_box{position: absolute; bottom:50px; left:50%; transform: translateX(-50%);transform: -webkit-translateX(-50%);}
-.careers .process_step_list .icon_box:before {content: ''; display: inline-block; height: 20px; border: 1px dashed #000; position: absolute; left: 50%; top: -36px;}
-.careers .process_step_list .process_step_item:nth-child(2n) .tooltip_box {top:240px; bottom:auto; padding:10px 10px 30px; border-radius: 10px;}
-.careers .process_step_list .process_step_item:nth-child(2n) .tooltip_box:after{top:-20px; transform: rotateX(-180deg)}
-.careers .process_step_list .process_step_item:nth-child(2n) .icon_box {bottom:260px;}
-.careers .process_step_list .process_step_item:nth-child(2n) .icon_box:before {top:auto; bottom:-36px;}
-.careers .process_step_list .process_step_item:nth-child(2n) .title_r_01{top:auto; bottom:-40px;}
-.careers .process_step_wrap {padding:20px 0 40px;}
-.careers .process_step_wrap .swiper-container {overflow: inherit;}
-.careers .process_step_wrap .swiper-pagination-progressbar {display: none;top:auto; bottom:-40px;}
-.careers .process_step_wrap .swiper-pagination-progressbar .swiper-pagination-progressbar-fill{ background: #F2B41B;}
 .careers .open_position_wrap .section_inner {position: relative;}
 .careers .open_position_wrap .btn_type_01.all {position: absolute; right:0; top:0;}
+
+/*============== job_description ==============*/
+.job_description .visual_wrap {background:url('../images/sub/point-avenue/job-description/job-description_visual.png') center no-repeat; background-size: cover;}
+.job_description .visual_wrap .title_r_01 {color:#fff;}
+.job_description .visual_wrap .text_box .info p {display: inline-block; color:#fff; padding:5px 0 5px 30px; font-size: 16px;}
+.job_description .visual_wrap .text_box .info .loaction {background: url('../images/sub/point-avenue/job-description/location_icon.png') left center no-repeat;}
+.job_description .visual_wrap .text_box .info .time {background: url('../images/sub/point-avenue/job-description/calendar_icon.png') left center no-repeat;}
+.job_description .visual_wrap .text_box .info p + p {margin-left: 100px;}
+.job_description .file_box {margin-top: 30px;}
+.job_description .file_box p {margin-bottom: 10px;}
  
+/*============== admission_consulting ==============*/
+.admission_consulting .visual_wrap {background:url('../images/sub/admission-consulting/admission-consulting_visual.png') right no-repeat; background-size: cover;}
+.admission_consulting .info_wrap .title_r_03 {text-align: center; margin:30px 0 25px;}
+.admission_consulting .info_wrap .btn_type_01--sec {margin: 0 auto;}
+.admission_consulting .approach_wrap {overflow: hidden;}
+.admission_consulting .approach_wrap .process_step_wrap {padding: 20px 0 50px;}
+.admission_consulting .approach_wrap .process_step_wrap .swiper-pagination-progressbar {bottom:-50px;}
+.admission_consulting .approach_wrap .process_step_wrap .process_step_list .process_step_item .step {font-size: 14px;}
+.admission_consulting .class_box_type_01 .class_box_type_01--desc { padding:20px 16px; text-align: center;}
+.admission_consulting .class_box_type_01 .class_box_type_01--desc .text{text-align: left; margin-bottom:10px;}
+.admission_consulting .class_box_type_01 .class_box_type_01--desc .title_r_03 {-webkit-line-clamp: 1; height: 1.2em; margin-bottom: 5px;}
+.admission_consulting .results_swiper_01 {margin:74px 0 100px;} 
+.admission_consulting .services_wrap .grid_type_wrap_02 {margin-top: 30px;}
+.admission_consulting .services_wrap .service_box {overflow: hidden;}
+.admission_consulting .services_wrap .service_box .section_title_02:after {width:100px;}
+.admission_consulting .services_wrap .service_box .service_img_box {float: left;width:50%; padding-right: 10px;}
+.admission_consulting .services_wrap .service_box .service_text_box {float: right;width:50%; padding-left: 10px;}
+
+
 @media screen and (max-width:1200px) {
 	.class_datail .lesson_desc_wrap .enroll_btn {right:40px;}
 	.careers .open_position_wrap .btn_type_01.all {right:40px;} 
+	
+	/*============== admission_consulting ==============*/
+	.admission_consulting .info_wrap .img_wrap {text-align: center; margin-bottom: 20px;}
 }
 @media screen and (max-width:1000px) {
 	
@@ -114,9 +127,12 @@
 	.careers .offer_wrap .offer_list .text_box {width:60%;}
 	.careers .offer_wrap .offer_list ul li:nth-child(2n+1) {width:50%;}
 	.careers .offer_wrap .offer_list ul li:nth-child(2n) {width:50%;}
-	.careers .process_step_wrap .swiper-pagination-progressbar {display: block;}
-	.careers .process_step_list .tooltip_box .title_r_01 {top:-20px;}
-	.careers .process_step_list .process_step_item:nth-child(2n) .title_r_01 {bottom:-20px;}
+	
+	/*=============== admission_consulting ==============*/
+	.admission_consulting .results_swiper_01 {margin:40px 0;}
+	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-40px;}
+	.admission_consulting .services_wrap .service_box .service_img_box {float: none; width:100%;}
+	.admission_consulting .services_wrap .service_box .service_text_box {float: none; width:100%; margin-top: 20px;}
 }
 
 @media screen and (max-width:768px) {
@@ -142,7 +158,9 @@
 	.careers .offer_wrap .offer_list .offer_icon_box  {vertical-align: top;}
 	.careers .offer_wrap .offer_list .offer_icon_box img{display: inline-block;width:70%; margin:0 auto; vertical-align: top;}
 	.careers .open_position_wrap .btn_type_01.all {position: relative; right:0; width:100%; text-align: center;} 
-}
+	
+	/*=============== admission_consulting ==============*/
+	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-30px;}
 
 @media screen and (max-width:640px) {
 	/*============== aboutus ==============*/
@@ -158,6 +176,16 @@
 	.careers .offer_wrap .offer_list .offer_icon_box { text-align: center;}
 	.careers .offer_wrap .offer_list .offer_icon_box img {width:60px;}
 	.careers .offer_wrap .offer_list .offer_icon_box {vertical-align: middle;}
+	
+	/*============== job_description ==============*/
+	.job_description .visual_wrap .text_box {top:50%;}
+	.job_description .visual_wrap .text_box .info p {display: block;}
+	.job_description .visual_wrap .text_box .info .loaction {background-size: 16px auto;}
+	.job_description .visual_wrap .text_box .info .time {background-size: 16px auto;}
+	.job_description .visual_wrap .text_box .info p + p {margin-left: 0;} 
+	
+	/*=============== admission_consulting ==============*/
+	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-20px;}
 
 }
 

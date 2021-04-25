@@ -1,6 +1,6 @@
 $(function(){	
 	
-	var news_swiper = new Swiper('.process_step_wrap .swiper-container', {
+	var process_step_swiper = new Swiper('.process_step_wrap .swiper-container', {
 		slidesPerView: 5, 
 		touchRatio:0,
 		pagination: {
@@ -21,7 +21,7 @@ $(function(){
 		}
     });
 	
-	var testimonials_swiper = new Swiper('.members_say_wrap .swiper-container', {
+	var members_say_swiper = new Swiper('.members_say_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {
