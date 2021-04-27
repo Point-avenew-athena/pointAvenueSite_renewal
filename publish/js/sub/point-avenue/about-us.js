@@ -37,4 +37,17 @@ $(function(){
 			}
 		}
 	});
+	var story_swiper = new Swiper('.story_wrap .img_box .swiper-container', {
+		slidesPerView: 1, 
+		effect:'fade',
+		pagination: {
+			el: '.swiper-pagination',
+		}
+    });
+	
+	/*mentor 클릭시, mentor 상세 팝업 노출*/
+	$('.team_list .team_item > a').click(function(){
+		$('.mentor_popup').show();
+		$('.dim').show();
+	});
 });

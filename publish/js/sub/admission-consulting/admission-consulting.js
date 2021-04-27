@@ -1,4 +1,12 @@
 $(function(){
+	var info_swiper = new Swiper('.info_wrap .img_wrap .swiper-container', {
+		slidesPerView: 1, 
+		effect:'fade',
+		pagination: {
+			el: '.swiper-pagination',
+		}
+    });
+	
 	var process_step_swiper = new Swiper('.process_step_wrap .swiper-container', {
 		slidesPerView: 5, 
 		touchRatio:0,
@@ -6,7 +14,7 @@ $(function(){
 			el: '.swiper-pagination',
 			type: 'progressbar',
 		},
-		breakpoints: { // 화면의 넓이가 320px 이상일 때 
+		breakpoints: {
 			1000: { 
 				slidesPerView: 2.5,
 				touchRatio:1,

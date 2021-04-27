@@ -95,8 +95,8 @@
 .grid_type_wrap_01 > div + div{float: right; width:40%;}
 
 .grid_type_wrap_02 {overflow: hidden;}
-.grid_type_wrap_02 > div {float: left; width:50%;}
-.grid_type_wrap_02 > div + div{float:right; width:50%;}
+.grid_type_wrap_02 > div {float: left; width:50%; padding-right: 10px;}
+.grid_type_wrap_02 > div + div{float:right; width:50%; padding-left: 10px;}
 
 /*========================ul_type========================*/
 .ul_type_01 {}
@@ -330,6 +330,13 @@
 .contact_popup .contact_list ul li p {font-size: 14px;}
 .contact_popup .contact_list ul li .tit {font-size: 16px; margin-bottom: 20px;}
 
+/*mentor_popup*/
+.mentor_popup {width:770px;}
+.mentor_popup .popup_cont {overflow: hidden; padding:50px 70px;}
+.mentor_popup .mentor_img_box{float: left; width:30%;text-align: center;}
+.mentor_popup .mentor_img_box p {margin-top: 15px;}
+.mentor_popup .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
+
 /*==============dark mode==================*/
 .dark .btn_type_01--sec:hover {background: #fff; color:#F2B41B; border: 1px solid #F2B41B;}
 .dark .btn_color_yellow:hover {background: #fff; color:#F2B41B; border: 1px solid #fff;}
@@ -401,8 +408,8 @@
 	.title_r_00 {font-size: 50px;}
 	.title_r_01 {font-size: 40px;}
 	
-	.grid_type_wrap_02 > div {float: none; width:100%;}
-	.grid_type_wrap_02 > div + div {float: none; width:100%; margin-top: 20px;}
+	.grid_type_wrap_02 > div {float: none; width:100%; padding-right: 0;}
+	.grid_type_wrap_02 > div + div {float: none; width:100%; margin-top: 20px; padding-left: 0;}
 	
 	.box_type_01 .box_type_01--desc {min-height: 210px; padding:15px;}
 	.btn_type_01--sec {width:80%; margin:0 auto;}
@@ -460,6 +467,11 @@
 	.box_type_02_wrap .box_type_02 .box_type_02--item {width:100%; margin-right: 0;}
 	
 	.ul_type_01 li {margin-bottom: 10px;}
+	
+	/*mentor_popup*/
+	.mentor_popup .mentor_img_box{float: none; width:100%;text-align: center;}
+	.mentor_popup .mentor_info_box{float: none; width:100%; margin-top: 30px; padding-left: 0; }
+	.mentor_popup .mentor_info_box ul li {margin-top: 10px;}
 	
 	.tab_type_list_01 ul li + li {margin-left: 10px;}
 	
