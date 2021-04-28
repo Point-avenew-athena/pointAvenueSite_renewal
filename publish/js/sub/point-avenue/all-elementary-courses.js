@@ -42,8 +42,14 @@ $(function(){
 	});
 	
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
-	$('.team_list .team_item > a').click(function(){
+	$('.mentors_wrap .team_item > a').click(function(){
 		$('.mentor_popup').show();
+		$('.dim').show();
+	});
+	
+	/*Testimonials  클릭시, Testimonials 상세 팝업 노출*/
+	$('.testimonials_wrap .team_item > a').click(function(){
+		$('.testimonials_popup').show();
 		$('.dim').show();
 	});
 });

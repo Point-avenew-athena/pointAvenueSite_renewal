@@ -283,13 +283,17 @@
 .courses_wrap > div > a {position: absolute; right:0; top:0;}
 .courses_wrap > div > .title_r_02 {margin-bottom: 20px;}
 .classes_grid_wrap {overflow: hidden; margin-top: 20px;}
+.classes_grid_wrap .desc_box {margin-bottom: 60px;}
+.classes_grid_wrap .desc_box strong {font-weight: 700;}
 .classes_grid_wrap .option_wrap {position: relative;float: left; width:20%;}
 .classes_grid_wrap .courses_wrap {float: right; width:80%; padding-left:3%; box-sizing: border-box;}
 /* filter_list */
 .option_wrap .filter_mo_btn{display: none;font-size: 16px; background:#F2B41B; color:#fff; border: 1px solid #F2B41B; padding:5px 10px;}
 .option_wrap .filter_mo_btn:before {content:''; display: inline-block; width:20px; height: 24px; background: url('../images/common/filter_icon.png') center no-repeat; background-size: 20px auto;vertical-align: middle; margin-right: 5px;}
 .option_wrap .option_list {display: block;}
-.option_list .filter_list_wrap .filter_item {margin-bottom: 10px;}
+.option_list .filter_list_wrap .filter_item {position: relative;margin-bottom: 10px;}
+.option_list .filter_list_wrap .filter_item .checkbox_wrap {padding-left: 40px; padding-top: 3px;}
+.option_list .filter_list_wrap .checkbox_wrap input[type="checkbox"] + label:before {position: absolute; left:0; top:0;}
 .option_list .option_item > a {display: block;position: relative; padding:10px 0;margin-bottom: 10px;border-bottom: 1px solid #ddd;}
 .option_list .option_item > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 1px; transform: rotate(-135deg); background: #000;}
 .option_list .option_item > a:after {content:''; display: inline-block; width:10px; height: 1px; position: absolute; right:0; top:20px; transform: rotate(135deg); background: #000;}
@@ -337,6 +341,11 @@
 .mentor_popup .mentor_img_box p {margin-top: 15px;}
 .mentor_popup .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
+
+/*testimonials_popup*/
+.testimonials_popup {width:650px;}
+.testimonials_popup .popup_cont {overflow: hidden; padding:0; border-radius: 20px;}
+
 /*==============dark mode==================*/
 .dark .btn_type_01--sec:hover {background: #fff; color:#F2B41B; border: 1px solid #F2B41B;}
 .dark .btn_color_yellow:hover {background: #fff; color:#F2B41B; border: 1px solid #fff;}
@@ -367,6 +376,8 @@
 	.sub .visual_wrap .text_box {left: 40px; padding-right: 40px;}
 	.layer_popup {width:auto; max-width: 800px; min-width: 800px;}
 	
+	.testimonials_popup {max-width: 600px; min-width: 600px;}
+	
 	.grid_type_wrap_01 > div {float: none; width:100%;}
 	.grid_type_wrap_01 > div + div{float: none; width:100%;}
 	
@@ -388,6 +399,9 @@
 	
 	.layer_popup {width:80%; min-width: 300px;}
 	.layer_popup .popup_cont{max-height: 300px; overflow-y:auto; padding:15px;}
+	
+	.testimonials_popup {width:500px;}
+	.testimonials_popup .popup_cont{max-height: 500px;padding:0;}
 	
 	.sub .visual_wrap .text_box {color:#fff;}
 	.sub .visual_wrap .text_box .text{color:#fff;}
@@ -472,6 +486,8 @@
 	.mentor_popup .mentor_img_box{float: none; width:100%;text-align: center;}
 	.mentor_popup .mentor_info_box{float: none; width:100%; margin-top: 30px; padding-left: 0; }
 	.mentor_popup .mentor_info_box ul li {margin-top: 10px;}
+	
+	.testimonials_popup {width:80%;}
 	
 	.tab_type_list_01 ul li + li {margin-left: 10px;}
 	

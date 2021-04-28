@@ -46,7 +46,7 @@ $(function(){
     });
 	
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
-	$('.team_list .team_item > a').click(function(){
+	$('.team_wrap .team_item > a').click(function(){
 		$('.mentor_popup').show();
 		$('.dim').show();
 	});
