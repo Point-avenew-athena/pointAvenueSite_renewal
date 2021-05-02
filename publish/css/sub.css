@@ -1,9 +1,31 @@
 @charset "utf-8";
 /*============== sub common ==============*/
+.sub .container .title_wrap {margin-top:80px;}
 .sub .model_wrap .section_inner{overflow: hidden;}
 .sub .model_wrap .text_box {float: left; width:60%; padding-top: 100px; padding-right: 50px; box-sizing: border-box;}
 .sub .model_wrap .text_box .text{margin-top: 20px;}
 .sub .model_wrap .model_img_box{float: right; width:40%; text-align: center;}
+.sub .registration_box {margin-top:30px; text-align: center;}
+.sub .registration_box p{margin-bottom: 20px;}
+.sub .registration_box .btn_box > a{display: inline-block; margin-right: 40px;}
+.sub .registration_box .btn_box > a + a {margin-right: 0;}
+.sub .course_detail_box ul {overflow: hidden; margin-top: 60px;}
+.sub .course_detail_box ul li {float: left; width:33.33%; text-align: center;}
+.sub .course_detail_box ul li img{margin-bottom: 20px;}
+.sub .course_detail_box ul li p{color:#8b8b8b;}
+.sub .course_objective_wrap .section_inner {overflow: hidden;}
+.sub .course_objective_wrap .objective_list {float: left; width:60%; margin-top: 30px; padding-left:100px;}
+.sub .course_objective_wrap .objective_list li {margin-bottom: 30px;}
+.sub .course_objective_wrap .img_box{float: right; width:40%;}
+.sub .course_books_wrap .section_inner {overflow: hidden;}
+.sub .course_books_wrap .img_box{float: left; width:40%;}
+.sub .course_books_wrap .books_list {float: right; width:60%; padding-left: 30px;}
+.sub .course_books_wrap .books_list li {margin-bottom: 20px;}
+.sub .course_books_wrap .books_list li strong{font-weight: 800;}
+.sub .skills_wrap .section_inner {position: relative;overflow: hidden;}
+.sub .skills_wrap .img_box {float: left; width:50%; padding-left: 100px;}
+.sub .skills_wrap .skills_list {float: right; width:50%; margin-top: 30px; padding-left: 20px;}
+.sub .skills_wrap .skills_list li {margin-bottom: 30px;}
 
 /*============== aboutus ==============*/
 .about_us .about_intro_wrap .video_wrap{width:50%; max-height: 317px;  overflow: hidden; background: #c4c4c4;}
@@ -114,7 +136,20 @@
 .all_test_prep_courses .visual_wrap{background:url('../images/sub/program/test_prep_visual.png') right no-repeat; background-size: cover;}
 .all_test_prep_courses .model_wrap .text_box {padding-right: 80px;}
 
+/*=============class_detail schedules========*/
+.schedules .title_wrap h2 {text-align: center;}
+
+/*=============class_detail IELTS========*/
+.IELTS .course_detail_box ul li {width:25%;}
+.IELTS .course_books_wrap .img_box {float: right; width:50%;}
+.IELTS .course_books_wrap .books_list {float: left; width:50%; padding-left: 100px;}
+
 @media screen and (max-width:1200px) {
+	/*sub common*/
+	.sub .course_overview_wrap .video_desc_wrap {margin-top: 40px;padding-left: 0;}
+	.sub .course_objective_wrap .objective_list {padding-left: 0;}
+	
+	
 	.class_datail .lesson_desc_wrap .enroll_btn {right:40px;}
 	.careers .open_position_wrap .btn_type_01.all {right:40px;} 
 	
@@ -122,6 +157,19 @@
 	.admission_consulting .info_wrap .img_wrap {text-align: center; margin-bottom: 20px;}
 }
 @media screen and (max-width:1000px) {
+	
+	/*=============sub common========*/
+	.sub .course_objective_wrap .img_box {float: none; width:100%;}
+	.sub .course_objective_wrap .img_box img{ width:100%;}
+	.sub .course_objective_wrap .objective_list{float: none; width:100%;}
+	.sub .course_books_wrap .img_box {float: none; width:100%;}
+	.sub .course_books_wrap .img_box img {width:100%;}
+	.sub .course_books_wrap .books_list {float: none; width:100%; padding-left: 0; margin-top: 40px;}
+	.sub .skills_wrap .section_inner {position: relative;overflow: hidden;}
+	.sub .skills_wrap .img_box {float: none; width:100%; padding-left: 0;}
+	.sub .skills_wrap .img_box img {width:100%;}
+	.sub .skills_wrap .skills_list {float: none; width:100%;  margin-top: 30px; padding-left: 0px;}
+	.sub .skills_wrap .skills_list li {margin-bottom: 20px;}
 	
 	/*============== aboutus ==============*/
 	.about_us .about_intro_wrap .video_wrap {width:100%;}
@@ -150,6 +198,8 @@
 	/*============== sub common ==============*/
 	.sub .model_wrap .text_box {float: none; width:100%; margin-bottom: 40px; padding-right: 0; padding-top: 0; text-align: center;} 
 	.sub .model_wrap .model_img_box{float: none; width:100%; text-align: center;}
+	.sub .registration_box .btn_box > a {margin-right: 0; margin-bottom: 10px;}
+	.sub .course_objective_wrap .objective_list li {margin-bottom: 20px;}
 	
 	/*============== aboutus ==============*/
 	.about_us .partners_wrap .partners_cont li {width:33.33%;}
@@ -172,6 +222,9 @@
 	
 	/*=============== admission_consulting ==============*/
 	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-30px;}
+
+	/*=============class_detail IELTS========*/
+	.IELTS .course_detail_box ul li {width:50%; margin-bottom: 30px;}
 
 @media screen and (max-width:640px) {
 	/*============== aboutus ==============*/

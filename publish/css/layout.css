@@ -34,6 +34,8 @@
 .btn_type_01--sec .btn_inner {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .btn_type_01--sec.yellow {background: #fff; border: 1px solid #F2B41B; color:#F2B41B;}
 .btn_type_01--sec.yellow:hover {background: #F2B41B; border: 1px solid #F2B41B; color:#fff;}
+.btn_type_01--sec.black {background: #000; border: 1px solid #000; color:#fff;}
+.btn_type_01--sec.black:hover {background: #fff; border: 1px solid #000; color:#000;}
 
 .btn_type_02 {display: inline-block; margin-top: 15px; font-size:20px; font-weight: 400; color:#F2B41B;transition: all .5s;}
 .btn_type_02:after {content:''; display: inline-block; width:151px; height: 16px; margin-left: 10px;background: url('../images/common/next_icon.png') no-repeat; background-size: 151px auto;transition: all .5s; }
@@ -107,6 +109,10 @@
 .ul_type_02 {}
 .ul_type_02 li{font-size: 16px; position: relative; padding-left: 10px;}
 .ul_type_02 li:before{content:''; position: absolute; left:0; top:10px; display: inline-block;width:4px; height: 4px; border-radius: 2px; background: #000; vertical-align: middle; }
+
+.ul_type_03 {}
+.ul_type_03 li{font-size: 16px; position: relative; padding-left: 40px; margin-bottom: 10px;}
+.ul_type_03 li:before{content:''; position: absolute; left:0; top:0px; display: inline-block;width:24px; height: 24px; border-radius: 12px; background-color: #F2B41B; background-image: url('../images/common/checkbox.png'); background-repeat: no-repeat; background-position: center; vertical-align: middle; }
 
 /*========================box_type=========================*/
 /*box_type_01*/
@@ -362,6 +368,13 @@
 .tab_cont_wrap .tab_cont {display: none;}
 .tab_cont_wrap .tab_cont.on {display: block;}
 
+/*================table layout===================*/
+.schedules_table_cont .schedules_table {width:100%;}
+.schedules_table_cont .schedules_table thead th{background: #F2B41B; font-weight: 800; text-align: center; padding:15px 0; font-size: 16px;}
+.schedules_table_cont .schedules_table tbody td{text-align: center; padding:15px 0; font-size: 14px; border-bottom: 1px solid #c3c3c3;}
+.schedules_table_cont .schedules_table tbody .title_r_03 {color:#F2B41B; font-size: 20px;}
+
+
 /*========================animation 관련========================*/
 .anim_group {transition-delay: 200ms !important;}
 .anim_group .fade_in_up {-webkit-transform: translateY(120px);-moz-transform: translateY(120px);-ms-transform: translateY(120px); -o-transform: translateY(120px); transform: translateY(120px);}
@@ -461,6 +474,13 @@
 	
 	.info_input_wrap .write_box{padding:20px 50px;}
 	.info_input_wrap .section_inner--full {padding:20px;}
+	/*================table layout===================*/
+	.schedules_table_cont .schedules_table thead {display: none;}
+	.schedules_table_cont .schedules_table tbody tr {position: relative;display: block; border-bottom: 1px solid #c3c3c3;}
+	.schedules_table_cont .schedules_table tbody td {display: block; border-bottom: 0; padding:3px 0; text-align: left;}
+	.schedules_table_cont .schedules_table tbody .location {font-size: 20px; font-weight: 700;}
+	.schedules_table_cont .schedules_table tbody .days {position: absolute; right:0; top:33px;}
+	.schedules_table_cont .schedules_table tbody .start {position: absolute; right:0; top:58px;}
 }
 @media screen and (max-width: 640px){
 	.title_r_00 {font-size: 40px;}
@@ -513,6 +533,7 @@
 }
 
 @media screen and (max-width: 320px){
-	.title_r_01 {font-size: 28px; line-height: 1.2;}	
+	.title_r_01 {font-size: 28px; line-height: 1.2;}
+	.title_r_03 {font-size: 14px;}
 	.tab_type_list_01 ul li a {font-size: 12px;}
 }
