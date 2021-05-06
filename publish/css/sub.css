@@ -21,7 +21,7 @@
 .sub .course_books_wrap .img_box{float: left; width:40%;}
 .sub .course_books_wrap .books_list {float: right; width:60%; padding-left: 30px;}
 .sub .course_books_wrap .books_list li {margin-bottom: 20px;}
-.sub .course_books_wrap .books_list li strong{font-weight: 800;}
+.sub .course_books_wrap .books_list li strong{font-weight: 700; font-size: 16px;}
 .sub .skills_wrap .section_inner {position: relative;overflow: hidden;}
 .sub .skills_wrap .img_box {float: left; width:50%; padding-left: 100px;}
 .sub .skills_wrap .skills_list {float: right; width:50%; margin-top: 30px; padding-left: 20px;}
