@@ -46,6 +46,7 @@
 
 /*===============flag_type================*/
 .flag_type_01 {display: inline-block;padding:3px 15px; border-radius: 0 5px 5px 0; border:1px solid #F2B41B; border-left: 0; color:#F2B41B; font-size: 16px; line-height: 1;}
+.flag_type_02 {display: inline-block;padding:3px 15px; border-radius:5px; font-size: 16px; line-height: 1;background: #F2B41B; color:#fff;}
 
 /*================input layout================*/
 .checkbox_wrap input[type="checkbox"] {display: none;}
@@ -116,14 +117,21 @@
 
 /*========================box_type=========================*/
 /*box_type_01*/
-.box_type_01 {width:100%; overflow: hidden; margin:-10px;}
-.box_type_01 .box_type_01--item{float: left; width:33.33%; border-radius: 10px; padding:10px; transition: width 1s;}
+.box_type_01 {width:100%; overflow: hidden;}
+.box_type_01 .box_type_01--item{float: left; width:calc(33.33% - 10px); width:-webkit-calc(33.33% - 10px); border-radius: 10px; margin-right: 15px; transition: width 1s;}
+.box_type_01 .box_type_01--item:nth-child(3n) {margin-right: 0;}
 .box_type_01 .box_type_01--img {position: relative; padding-top: 66%; overflow: hidden; border-radius: 10px 10px 0 0;}
 .box_type_01 .box_type_01--img img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
+.box_type_01 .box_type_01--video {position: relative; padding-top: 66%; overflow: hidden; border-radius: 10px 10px 0 0;}
+.box_type_01 .box_type_01--video video{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
 .box_type_01 .box_type_01--desc{position: relative;min-height: 225px; border:1px solid #ddd; border-radius: 0 0 10px 10px; padding:15px 30px 75px 30px; word-break: break-word;}
 .box_type_01 .box_type_01--desc .btn_type_01--sec{position: absolute; left:50%; bottom:15px; margin-left: -85px;}
 .box_type_01 .box_type_01--desc .title_r_03 {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2; /* 라인수 */-webkit-box-orient: vertical;word-wrap:break-word; line-height: 1.2em;height: 2.4em;}
 .box_type_01 .box_type_01--desc .desc_text {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4; /* 라인수 */-webkit-box-orient: vertical;word-wrap:break-word; line-height: 1.2em;height: 4.7em;}
+.box_type_01.video_list .box_type_01--desc .info {overflow: hidden; margin-bottom: 10px;}
+.box_type_01.video_list .box_type_01--desc .info p{font-size: 14px; color:#8B8989}
+.box_type_01.video_list .box_type_01--desc .info .date{float: left;}
+.box_type_01.video_list .box_type_01--desc .info .duration{float: right;}
 
 /*
 	<ul class="box_type_01">
@@ -167,7 +175,7 @@
 	<ul class="class_box_type_01">
 		<li class="class_box_type_01--item">
 			<div class="class_box_type_01--img">
-				<img src="images/common/non_img.png" alt="">
+				<img src="images/common/none_img.png" alt="">
 			</div>
 			<div class="class_box_type_01--desc">
 				<div class="text--gray">
@@ -240,7 +248,7 @@
 			<ul class="swiper-wrapper swipe_type_01">
 				<li class="swipe_type_01--item">
 					<div class="swipe_type_01--img">
-						<img src="images/common/non_img.png" alt="">
+						<img src="images/common/none_img.png" alt="">
 					</div>
 				</li>
 			</ul>
@@ -406,7 +414,7 @@
 	.container > section {margin-top: 80px;}
 	
 	.video_desc_wrap {margin-top: 20px;}
-	.box_type_01 .box_type_01--item {width:50%;}
+	.box_type_01 .box_type_01--item {width:calc(50% - 10px); width:-webkit-calc(50% - 10px); margin-right: 10px; margin-bottom: 10px; }
 	.box_type_02_wrap .box_type_02 .box_type_02--item {width: calc(50% - 10px); width: -webkit-calc(50% - 10px); margin-right: 20px; margin-bottom: 20px;}
 	.box_type_02_wrap .box_type_02 .box_type_02--item:nth-child(2n) {margin-right: 0;}
 	
@@ -496,6 +504,7 @@
 	
 	.box_type_01 {margin:0;}
 	.box_type_01 .box_type_01--item {width:100%; padding:0; margin-bottom: 15px; float: none;}
+	.box_type_01.video_list .box_type_01--desc .btn_type_01--sec {bottom:10px;}
 	.btn_type_01--sec {padding:10px 0; height: 42px;}
 	
 	.box_type_02_wrap .box_type_02 .box_type_02--item {width:100%; margin-right: 0;}
