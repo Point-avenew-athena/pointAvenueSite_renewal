@@ -37,8 +37,8 @@
 .sub .spotlight_wrap .sub_article ul li {overflow: hidden;border-bottom: 1px solid #ddd; padding: 20px 0;}
 .sub .spotlight_wrap .sub_article ul li:last-child {border-bottom: 0;}
 .sub .spotlight_wrap .sub_article .img_box {width:30%; float: left;}
-.sub .spotlight_wrap .sub_article .video_box {width:30%; float: left;}
-.sub .spotlight_wrap .sub_article .video_box video {width:100%; border-radius: 10px;}
+.sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; border-radius: 10px; float: left; overflow: hidden;}
+.sub .spotlight_wrap .sub_article .video_box video {width:100%; border-radius: 10px;min-width: 100%;min-height: 100%;}
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
 .sub .spotlight_wrap .sub_article .text_box .date {margin-bottom:5px;}
 .sub .spotlight_wrap .sub_article .text_box .flag_type_02 {margin-bottom:5px;}
@@ -175,6 +175,10 @@
 .news .event_wrap .box_type_01 .location {position: relative; padding-left: 30px; margin: 10px 0;}
 .news .event_wrap .box_type_01 .location:before {content:''; position: absolute; left:0; top:0; display: inline-block; width:20px; height: 20px; background: url('../images/common/location_s_icon.png') no-repeat;}
 
+
+/*=============point_avenue_tv ========*/
+.point_avenue_tv .youtube_wrap {background: #c4c4c4; text-align: center; padding:200px 0 80px;}
+.point_avenue_tv .youtube_wrap .btn_type_01--sec{margin: 30px auto 0;}
 
 @media screen and (max-width:1200px) {
 	/*sub common*/
