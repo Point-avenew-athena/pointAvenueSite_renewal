@@ -31,7 +31,7 @@
 
 .btn_type_01--sec {position: relative;display: block; width: 170px; height: 50px; padding:15px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#3a3a3a; font-size: 14px; line-height: 1.2; border-radius: 30px; box-sizing: border-box; transition: all .5s;}
 .btn_type_01--sec:hover {background: #000; color:#fff; border: 1px solid #000;}
-.btn_type_01--sec .btn_inner {position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.btn_type_01--sec .btn_inner {width:100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .btn_type_01--sec.yellow {background: #fff; border: 1px solid #F2B41B; color:#F2B41B;}
 .btn_type_01--sec.yellow:hover {background: #F2B41B; border: 1px solid #F2B41B; color:#fff;}
 .btn_type_01--sec.black {background: #000; border: 1px solid #000; color:#fff;}
@@ -126,8 +126,9 @@
 .box_type_01 .box_type_01--video video{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
 .box_type_01 .box_type_01--desc{position: relative;min-height: 225px; border:1px solid #ddd; border-radius: 0 0 10px 10px; padding:15px 30px 75px 30px; word-break: break-word;}
 .box_type_01 .box_type_01--desc .btn_type_01--sec{position: absolute; left:50%; bottom:15px; margin-left: -85px;}
+.box_type_01 .box_type_01--desc .btn_type_01--sec span{font-size: 16px;}
 .box_type_01 .box_type_01--desc .title_r_03 {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 2; /* 라인수 */-webkit-box-orient: vertical;word-wrap:break-word; line-height: 1.2em;height: 2.4em;}
-.box_type_01 .box_type_01--desc .desc_text {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4; /* 라인수 */-webkit-box-orient: vertical;word-wrap:break-word; line-height: 1.2em;height: 4.7em;}
+.box_type_01 .box_type_01--desc .desc_text {overflow: hidden; margin-top: 10px; text-overflow: ellipsis;display: -webkit-box;-webkit-line-clamp: 4; /* 라인수 */-webkit-box-orient: vertical;word-wrap:break-word; line-height: 1.2em;height: 4.7em;}
 .box_type_01.video_list .box_type_01--desc .info {overflow: hidden; margin-bottom: 10px;}
 .box_type_01.video_list .box_type_01--desc .info p{font-size: 14px; color:#8B8989}
 .box_type_01.video_list .box_type_01--desc .info .date{float: left;}
