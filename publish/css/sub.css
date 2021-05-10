@@ -165,6 +165,7 @@
 .article .visual_wrap .text_box {color:#fff; top:40%;}
 .article .aritcle_wrap .img {width:100%; margin: 30px 0;}
 .article .aritcle_wrap .greet {font-size: 18px; font-weight: 800; margin-top: 30px;}
+.article .aritcle_wrap .text {font-size: 16px;}
 
 /*=============news ========*/
 .news .container .section_inner{position: relative;}
