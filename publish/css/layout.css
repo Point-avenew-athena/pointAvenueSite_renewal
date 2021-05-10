@@ -31,7 +31,7 @@
 
 .btn_type_01--sec {position: relative;display: block; width: 170px; height: 50px; padding:15px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#3a3a3a; font-size: 14px; line-height: 1.2; border-radius: 30px; box-sizing: border-box; transition: all .5s;}
 .btn_type_01--sec:hover {background: #000; color:#fff; border: 1px solid #000;}
-.btn_type_01--sec .btn_inner {width:100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.btn_type_01--sec .btn_inner {width:100%; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); font-size: 16px;} 
 .btn_type_01--sec.yellow {background: #fff; border: 1px solid #F2B41B; color:#F2B41B;}
 .btn_type_01--sec.yellow:hover {background: #F2B41B; border: 1px solid #F2B41B; color:#fff;}
 .btn_type_01--sec.black {background: #000; border: 1px solid #000; color:#fff;}
