@@ -29,16 +29,16 @@
 .sub .spotlight_wrap .grid_type_wrap_01 {padding-bottom: 30px; border-bottom: 1px solid #ddd;}
 .sub .spotlight_wrap .main_article {padding-right: 20px;}
 .sub .spotlight_wrap .main_article .img_box {position: relative; padding-top: 50%; border-radius: 20px; max-height: 368px; overflow: hidden;}
-.sub .spotlight_wrap .main_article .img_box img {width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
+.sub .spotlight_wrap .main_article .img_box img {width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%); -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); }
 .sub .spotlight_wrap .main_article .video_box {position: relative; padding-top: 50%; border-radius: 20px; max-height: 368px; overflow: hidden;}
-.sub .spotlight_wrap .main_article .video_box video {width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);}
+.sub .spotlight_wrap .main_article .video_box video {width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);-webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); }
 .sub .spotlight_wrap .section_title_02 {margin: 10px 0 30px;}
 .sub .spotlight_wrap .text--gray {line-height: 1.6;}
 .sub .spotlight_wrap .sub_article ul li {overflow: hidden;border-bottom: 1px solid #ddd; padding: 20px 0;}
 .sub .spotlight_wrap .sub_article ul li:last-child {border-bottom: 0;}
 .sub .spotlight_wrap .sub_article .img_box {width:30%; float: left;}
-.sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; border-radius: 10px; float: left; overflow: hidden;}
-.sub .spotlight_wrap .sub_article .video_box video {width:100%; border-radius: 10px;min-width: 100%;min-height: 100%;}
+.sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; padding-top: 21%; border-radius: 10px; float: left; overflow: hidden;}
+.sub .spotlight_wrap .sub_article .video_box video {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
 .sub .spotlight_wrap .sub_article .text_box .date {margin-bottom:5px;}
 .sub .spotlight_wrap .sub_article .text_box .flag_type_02 {margin-bottom:5px;}
