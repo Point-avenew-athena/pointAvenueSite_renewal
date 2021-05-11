@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0.5">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="PointAve">
+    <meta name="title" content="PointAve">
+    <meta name="description" content="">
+    <meta property="og:title" content="PointAve">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <title>PointAve</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/sub.css">
+
+	<script language="JavaScript" type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/swiper.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="js/sub/admission-consulting/admission-consulting.js"></script>
+</head>
+<body>
+	<div class="wrap sub admission_consulting">
+		<header>
+			<div class="header_inner">
+				<h1 class="logo"><a href="#"><span class="blind">PointAve</span></a></h1>
+				<div class="gnb">
+					<div class="gnb_cont">
+						<ul>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu">
+										<li class="sub_menu_item"><a href="#">About Us</a></li>
+										<li class="sub_menu_item"><a href="#">Scholarship</a></li>
+										<li class="sub_menu_item"><a href="#">Careers</a></li>
+										<li class="sub_menu_item"><a href="#">News</a></li>
+									</ul> 
+								</div>
+							</li> 
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Programs</a> 
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu"> 
+										<li class="sub_menu_item"><a href="#">Elementary Courses</a></li>
+										<li class="sub_menu_item"><a href="#">Middle & High School Courses</a></li>
+										<li class="sub_menu_item"><a href="#">Debate</a></li>
+										<li class="sub_menu_item"><a href="#">Test Preparation</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Admissions Consulting</a></li>
+							<li class="gnb_menu_item"><a href="javascript:void(0);">Camp</a>
+								<div class="sub_menu_wrap">
+									<ul class="sub_menu">
+										<li class="sub_menu_item"><a href="#">Summer Leader Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Summer Day Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Winter Boarding Camp</a></li>
+										<li class="sub_menu_item"><a href="#">Winter Day Camp</a></li>
+									</ul>
+								</div>
+							</li>	
+						</ul>
+					</div>
+					<div class="gnb_etc">
+						<ul>
+							<li class="search_area"><a href="javascript:void(0);" class="btn_search"><span class="blind">search</span></a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 btn_color_yellow">Login</a></li>
+							<li><a href="javascript:void(0);" class="btn_type_01 ">Sign Up</a></li>
+							<li class="m_gnb_menu">
+								<a href="javascript:void(0);" class="btn_hamburger">
+									<span class="blind">전체메뉴</span>
+									<i></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 검색 마크업 :: UI없어 임의로 마크업 작업해둠(해당 부분 보류).기획 단계 확인 후, 작업 여부 결정-->
+					<!--<div class="search">
+						<div class="search_box">
+							<div class="search_box_inner">
+								<i class="icon_search"></i>
+								<form action="" name="search_form">
+									<input type="text" name="query" placeholder="여기에 검색어를 입력하세요." title="검색하기">
+									<button type="submit">검색</button>
+								</form>
+							</div>
+							<button type="button" class="btn_close">닫기</button>
+						</div>
+					</div>-->
+					<!--// 검색 마크업 :: UI없어 임의로 마크업 작업해둠(해당 부분 보류).기획 단계 확인 후, 작업 여부 결정-->
+				</div>
+			</div>
+		</header>
+		<aside class="mobile_nav_wrap">
+			<div class="mobile_nav">
+				<div class="mobile_nav_header">
+					<a href="javascript:;" class="btn_close_menu">
+						<span class="blind">닫기</span>
+					</a>
+				</div>
+				<div class="mobile_nav_body">
+					<ul>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="#">About Us</a></li>
+								<li class="sub_menu_item"><a href="#">Scholarship</a></li>
+								<li class="sub_menu_item"><a href="#">Careers</a></li>
+								<li class="sub_menu_item"><a href="#">News</a></li>
+							</ul> 
+						</li> 
+						<li class="gnb_menu_item--go"><a href="javascript:void(0);">Programs</a> 
+							<ul class="sub_menu"> 
+								<li class="sub_menu_item"><a href="#">Elementary Courses</a></li>
+								<li class="sub_menu_item"><a href="#">Middle & High School Courses</a></li>
+								<li class="sub_menu_item"><a href="#">Debate</a></li>
+								<li class="sub_menu_item"><a href="#">Test Preparation</a></li>
+							</ul>
+						</li>
+						<li class="gnb_menu_item--go"><a href="#">Admissions Consulting</a></li>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Camp</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="#">Summer Leader Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Summer Day Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Winter Boarding Camp</a></li>
+								<li class="sub_menu_item"><a href="#">Winter Day Camp</a></li>
+							</ul>
+						</li>	
+					</ul>
+				</div>
+				<div class="mobile_nav_footer">
+					<a href="javascript:;" class="btn_login">
+						<span>Login</span>
+					</a>
+					<a href="javascript:;" class="btn_signin">
+						<span>Sign Up</span>
+					</a>
+				</div>
+			</div>
+		</aside>
+		<!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">ADMISSION CONSULTING</h2>
+					</div>
+				</div>
+			</section>
+			<section class="info_wrap">
+				<div class="section_inner">
+					<div class="grid_type_wrap_01">
+						<div class="img_wrap">
+							<div class="swiper-container">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide"><img src="images/common/none_img.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/common/none_img.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/common/none_img.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/common/none_img.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/common/none_img.png" alt=""></li>
+								</ul>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+						<div class="text_wrap">
+							<p class="title_r_02 section_title">What We Do</p>
+							<div class="text">
+								Our mission is to not only help students gain admissions into their top choice and best-fit schools, it is to develop future global citizens. Citizens that care and contribute to their communities, are confident in themselves, and achieve success with integrity.<br><br>
+								College is a stepping stone for the rest of your life. Make sure you make that step with the best version of yourself.
+							</div>
+							<p class="title_r_03">Sign up for a FREE consultation</p>
+							<a href="#" class="btn_type_01--sec">Sign Up Now</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="approach_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Our Approach</h3>
+					<div class="process_step_wrap">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper process_step_list">
+								<li class="swiper-slide process_step_item">
+									<div class="step">Step 1: Lorem ipsum</div>
+									<div class="tooltip_box">
+										<p class="title_r_01">01.</p>
+										<div class="desc_box">
+											<p class="title_r_03 title">Lorem ipsum</p>
+											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
+										</div>
+									</div>
+									<div class="icon_box">
+										<img src="images/sub/point-avenue/careers/process_01.png" alt="">
+									</div>
+								</li>
+								<li class="swiper-slide process_step_item">
+									<div class="step">Step 2: Lorem ipsum</div>
+									<div class="tooltip_box">
+										<p class="title_r_01">02.</p>
+										<div class="desc_box">
+											<p class="title_r_03 title">Lorem ipsum</p>
+											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
+										</div>
+									</div>
+									<div class="icon_box">
+										<img src="images/sub/point-avenue/careers/process_02.png" alt="">
+									</div>
+								</li>
+								<li class="swiper-slide process_step_item">
+									<div class="step">Step 3:  Lorem ipsum</div>
+									<div class="tooltip_box">
+										<p class="title_r_01">03.</p>
+										<div class="desc_box">
+											<p class="title_r_03 title">Lorem ipsum</p>
+											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
+										</div>
+									</div>
+									<div class="icon_box">
+										<img src="images/sub/point-avenue/careers/process_03.png" alt="">
+									</div>
+								</li>
+								<li class="swiper-slide process_step_item">
+									<div class="step">Step 4:  Lorem ipsum</div>
+									<div class="tooltip_box">
+										<p class="title_r_01">04.</p>
+										<div class="desc_box">
+											<p class="title_r_03 title">Lorem ipsum</p>
+											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
+										</div>
+									</div>
+									<div class="icon_box">
+										<img src="images/sub/point-avenue/careers/process_04.png" alt="">
+									</div>
+								</li>
+								<li class="swiper-slide process_step_item">
+									<div class="step">Step 5:  Lorem ipsum</div>
+									<div class="tooltip_box">
+										<p class="title_r_01">05.</p>
+										<div class="desc_box">
+											<p class="title_r_03 title">Lorem ipsum</p>
+											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
+										</div>
+									</div>
+									<div class="icon_box">
+										<img src="images/sub/point-avenue/careers/process_05.png" alt="">
+									</div>
+								</li>
+							</ul>
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="results_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Our Results</h3>
+					<p class="text">Since 2018, we have helped hundreds of students from Asia and the United States gain admissions to not only their top-choice, but best-fit boarding schools, universities and graduate programs. Some notable results include:<br>
+					MIT, Stanford University, Princeton University, University of Cambridge, University of Chicago, Johns Hopkins University, Northwestern University, </p>
+					<div class="swipe_type_01_wrap results_swiper_01">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_02 team_list">
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+					<div class="swipe_type_01_wrap results_swiper_02">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_02 team_list">
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="services_wrap">
+				<div class="section_inner">
+					<p class="title_r_02 section_title">Our Services</p>
+					<p class="text">We work with Grade 6 – post graduate students to help them apply for boarding schools, undergraduate programs, and graduate programs. While that’s our most basic and essential service, it’s really just the finish line. For students who are looking for more than just guidance on the application process, we help mentor and coach them in their journey to arrive at the application process as the best version of themselves. The following is an overview of the ways we help achieve that.</p>
+					<div class="grid_type_wrap_02">
+						<div class="service_box service_box_01">
+							<div class="service_img_box">
+								<img src="images/common/none_img.png" alt="">
+							</div>
+							<div class="service_text_box">
+								<p class="title_r_03 section_title_02">Mentorship Services</p>
+								<ul class="ul_type_02">
+									<li>School Selection</li>
+									<li>Major Selection</li>
+									<li>Activities Profile</li>
+									<li>Hook Development</li>
+									<li>Personal Statement</li>
+									<li>Supplemental Essays</li>
+									<li>Media Portfolio</li>
+									<li>Letter of Recommendation Guidance</li>
+									<li>Financial Reporting</li>
+									<li>Interview Preparation</li>
+									<li>Matriculation Guidance</li>
+									<li>Visa Application</li>
+								</ul>
+							</div>
+						</div>
+						<div class="service_box service_box_02">
+							<div class="service_img_box">
+								<img src="images/common/none_img.png" alt="">
+							</div>
+							<div class="service_text_box">
+								<p class="title_r_03 section_title_02">Mentorship Services</p>
+								<ul class="ul_type_02">
+									<li>Growth Strategy</li>
+									<li>Coursework Management</li>
+									<li>Academic Writing Support</li>
+									<li>Time Management</li>
+									<li>Soft Skills Development</li>
+									<li>Extracurricular Activity Guidance</li>
+									<li>Test Preparation Strategy</li>
+									<li>Competitive/Summer Program Sourcing</li>
+									<li>Independent Project Guidance</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="case_studies_wrap">
+				<div class="section_inner">
+					<p class="title_r_02 section_title">Case Studies</p>
+					<div class="swipe_type_01_wrap">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper class_box_type_01">
+								<li class="swiper-slide class_box_type_01--item">
+									<div class="class_box_type_01--img">
+										<img src="images/common/none_img.png" alt="">
+									</div>
+									<div class="swiper-slide class_box_type_01--desc">
+										<div class="text">
+											<p class="title_r_03">My Le</p>
+											<p class="text--gray university">Stanford University</p>
+										</div>
+										<a href="#" class="btn_type_01 view yellow">Read More</a>
+									</div>
+								</li>
+								<li class="swiper-slide class_box_type_01--item">
+									<div class="class_box_type_01--img">
+										<img src="images/common/none_img.png" alt="">
+									</div>
+									<div class="swiper-slide class_box_type_01--desc">
+										<div class="text">
+											<p class="title_r_03">My Le</p>
+											<p class="text--gray university">Stanford University</p>
+										</div>
+										<a href="#" class="btn_type_01 view yellow">Read More</a>
+									</div>
+								</li>
+								<li class="swiper-slide class_box_type_01--item">
+									<div class="class_box_type_01--img">
+										<img src="images/common/none_img.png" alt="">
+									</div>
+									<div class="swiper-slide class_box_type_01--desc">
+										<div class="text">
+											<p class="title_r_03">My Le</p>
+											<p class="text--gray university">Stanford University</p>
+										</div>
+										<a href="#" class="btn_type_01 view yellow">Read More</a>
+									</div>
+								</li>
+								<li class="swiper-slide class_box_type_01--item">
+									<div class="class_box_type_01--img">
+										<img src="images/common/none_img.png" alt="">
+									</div>
+									<div class="swiper-slide class_box_type_01--desc">
+										<div class="text">
+											<p class="title_r_03">My Le</p>
+											<p class="text--gray university">Stanford University</p>
+										</div>
+										<a href="#" class="btn_type_01 view yellow">Read More</a>
+									</div>
+								</li>
+								<li class="swiper-slide class_box_type_01--item">
+									<div class="class_box_type_01--img">
+										<img src="images/common/none_img.png" alt="">
+									</div>
+									<div class="swiper-slide class_box_type_01--desc">
+										<div class="text">
+											<p class="title_r_03">My Le</p>
+											<p class="text--gray university">Stanford University</p>
+										</div>
+										<a href="#" class="btn_type_01 view yellow">Read More</a>
+									</div>
+								</li>
+							</ul>
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info_input_wrap">
+				<div class="section_inner--full">
+					<div class="write_box">
+						<h3 class="title_r_02">Sign Up for a FREE Consultation!</h3>
+						<div class="input_box">
+							<input type="text" class="name" placeholder="Your Name*">
+							<input type="text" class="phone" placeholder="Your Phone*">
+							<input type="text" class="email" placeholder="Your Email*">
+						</div>
+						<a href="#" class="btn_type_01--sec">
+							<span class="btn_inner">Register</span>
+						</a>
+					</div>
+				</div>
+			</section>
+			
+		</div>
+		<!--container :: end-->
+		<footer>
+			<div class="footer_inner">
+				<div class="footer_info_wrap">
+					<h1 class="footer_logo"><a href="#"><img src="images/common/logo.png" alt=""><span class="blind">pointave</span></a></h1>
+					<div class="footer_sitemap">
+						<ul class="footer_sitemap_menu">
+							<li class="footer_menu_item--go">
+								<a href="#">ABOUT US</a>
+								<ul>
+									<li><a href="javascript:void(0);" class="contact_pop_btn">Contact Us</a></li>
+									<li><a href="#">Scholarship</a></li>
+									<li><a href="#">Careers</a></li>
+									<li><a href="#">News</a></li>
+								</ul>
+							</li>
+							<li class="footer_menu_item--go">
+								<a href="#">PROGRAMS</a>
+								<ul>
+									<li><a href="#">Elementary Courses</a></li>
+									<li><a href="#">Middle & High School Courses</a></li>
+									<li><a href="#">Debate</a></li>
+									<li><a href="#">Test Preparation</a></li>
+								</ul>
+							</li>
+							<li class="footer_menu_item--go">
+								<a href="#">ADMISSIONS CONSULTING</a>
+							</li>
+							<li class="footer_menu_item">
+								<a href="javascript:void(0);">CAMP</a>
+								<ul>
+									<li><a href="#">Summer Leader Camp</a></li>
+									<li><a href="#">Summer Day Camp</a></li>
+									<li><a href="#">Winter Boarding Camp</a></li>
+									<li><a href="#">Winter Day Camp</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_etc_wrap">
+					<div class="footer_etc">
+						<p class="copyright">Copyright Ⓒ POINT AVENUE PTE COMPANY LIMITED. All Rights Reserved.</p>
+						<div class="footer_sns_menu">
+							<ul>
+								<li class="sns_icon_y"><a href="#"><span class="blind">youtube</span></a></li>
+								<li class="sns_icon_f"><a href="#"><span class="blind">facebook</span></a></li>
+								<li class="sns_icon_i"><a href="#"><span class="blind">instagram</span></a></li>
+								<li class="sns_icon_l"><a href="#"><span class="blind">likeduin</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--공통팝업:: start-->
+		<div class="layer_popup contact_popup">
+			<div class="popup_cont">
+				<div class="contact_box">
+					<p class="hotline">HOTLINE: 0905 685 809</p>
+					<p class="email"><a href="mailto:contact@pointavenue.com">EMAIL: contact@pointavenue.com</a></p>
+				</div>
+				<div class="contact_list">
+					<ul>
+						<li>
+							<p class="tit">Cau Giay Center</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>
+							<p class="tit">Long Bien Center</p>
+							<p class="address">60 Chu Huy Man St., Sai Dong New Urban Area, Phuc Dong Ward, Long Bien Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+						<li>
+							<p class="tit">Bangkok Center</p>
+							<p class="address">Unit 3121-3122, No. 982/22 Gateway Ekkamai Shopping Mall, Sukhumvit Road, Bangkok, Thailand 10110</p>
+							<p class="phone">Phone: 024 3204 7055 | 024 3204 7366</p>
+						</li>
+					</ul>
+					<ul>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+						<li>	
+							<p class="tit">CSI</p>
+							<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View, Yen Hoa Ward, Cau Giay Dist., Ha Noi</p>
+							<p class="phone">Phone: 024 3201 1841| 024 3381 2288</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="close_btn"><span class="blind">닫기</span></a>
+		</div>
+		<div class="dim"></div>
+		<!--공통팝업:: end-->
+	</div>
+</body>
+</html>
