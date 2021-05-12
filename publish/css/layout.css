@@ -326,7 +326,7 @@
 .option_list .filter_list_wrap .filter_item .checkbox_wrap {padding-left: 40px; padding-top: 3px;}
 .option_list .filter_list_wrap .checkbox_wrap input[type="checkbox"] + label:before {position: absolute; left:0; top:0;}
 .option_list .option_item > a {display: block;position: relative; padding:10px 0;margin-bottom: 10px;border-bottom: 1px solid #ddd;}
-.option_list .option_item > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 2px; transform: rotate(-135deg); background: #000;}
+.option_list .option_item > a:before {content:''; display: inline-block; width:10px; position: absolute; right:6px; top:20px;height: 2px; transform: rotate(-135deg); background: #000;}
 .option_list .option_item > a:after {content:''; display: inline-block; width:10px; height: 2px; position: absolute; right:0; top:20px; transform: rotate(135deg); background: #000;}
 .option_list .option_item.on > a:before {content:''; display: inline-block; width:10px; position: absolute; right:7px; top:20px;height: 2px; transform: rotate(-45deg); background: #F2B41B;}
 .option_list .option_item.on > a:after {content:''; display: inline-block; width:10px; height: 2px; position: absolute; right:0; top:20px; transform: rotate(45deg); background: #F2B41B;}
