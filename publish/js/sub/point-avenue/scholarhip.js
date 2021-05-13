@@ -12,7 +12,7 @@ $(function(){
 				touchRatio:1,
 				spaceBetween:0,
 			},
-			640: { 
+			768: { 
 				slidesPerView: 1.5,
 				touchRatio:1,
 				spaceBetween:20,

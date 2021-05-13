@@ -185,8 +185,9 @@
 .scholarhip .visual_wrap{background:url('../images/sub/point-avenue/scholarship/visual.png') right no-repeat; background-size: cover;}
 .scholarhip .process_step_wrap .section_inner {overflow: hidden;}
 .scholarhip .process_step_wrap .process_step_list .process_step_item {width:33.33%;}
-.scholarhip .process_step_wrap .process_step_list .tooltip_box {max-width:200px; margin-left: -100px;}
-.scholarhip .process_step_wrap .process_step_list .process_step_item .step {margin:167px auto;padding:12px 10px;}
+.scholarhip .process_step_wrap .process_step_list .tooltip_box {max-width:200px; margin-left: -100px; bottom:250px;}
+.scholarhip .process_step_wrap .process_step_list .process_step_item .step {width:70%; margin:167px auto;padding:13px 10px; border-radius: 20px;}
+.scholarhip .process_step_wrap .process_step_list .process_step_item:nth-child(2n) .tooltip_box {top:260px;}
 .scholarhip .apply_wrap .grid_type_wrap_02 .text_box {padding-left: 100px;}
 .scholarhip .apply_wrap .grid_type_wrap_02 .text_box p {margin:20px 0 50px;}
 .scholarhip .apply_wrap .grid_type_wrap_02 .text_box li {margin-bottom: 50px;}
@@ -197,9 +198,10 @@
 .scholarhip .info_input_wrap .typing_box .phone {float: left;width:50%; margin-top: 15px;}
 .scholarhip .info_input_wrap .typing_box .email {float: right;width:40%;}
 .scholarhip .info_input_wrap .choose_box {margin-top: 20px; text-align: left; overflow: hidden;}
-.scholarhip .info_input_wrap .choose_box p{display: inline-block; float: left; vertical-align: middle; line-height: 40px;}
+.scholarhip .info_input_wrap .choose_box p{display: inline-block; float: left; vertical-align: middle; line-height: 40px;font-weight: 700;}
 .scholarhip .info_input_wrap .choose_box .select_box{float: right;}
 .scholarhip .info_input_wrap .choose_box select {display: inline-block;width:170px; border: 0; border-bottom: 1px solid #000; border-radius: 0; }
+.scholarhip .info_input_wrap .choose_box select option {color:#333;}
 .scholarhip .info_input_wrap .choose_box select + select {margin-left: 20px;}
 .scholarhip .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
 .scholarhip .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
@@ -216,8 +218,7 @@
 .summer_boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_01{position: absolute; left:-80px; top:-100px; width:110px; height: 72px;background: url('../images/sub/camp/summer/boarding/cloud_01.png') no-repeat; z-index: -1; }
 .summer_boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_02{position: absolute; right:0px; top:-10px; width: 96px; height: 95px; background: url('../images/sub/camp/summer/boarding/cloud_02.png') no-repeat; z-index: -1;}
 .summer_boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_03{position: absolute; left:-100px; bottom:-50px; width:129px; height: 85px;background: url('../images/sub/camp/summer/boarding/cloud_03.png') no-repeat; z-index: -1;}
-.summer_boarding_camp .differences_wrap .title_r_02  {margin-bottom: 300px;}
-.summer_boarding_camp .differences_wrap .asset_list  {overflow: hidden;}
+.summer_boarding_camp .differences_wrap .asset_list  {overflow: hidden; margin-top:100px;}
 .summer_boarding_camp .differences_wrap .asset_item {float: left; width:33.33%; text-align: center;}
 .summer_boarding_camp .differences_wrap .asset_item:nth-child(n+4) {width:50%; margin-top: 20px;}
 .summer_boarding_camp .differences_wrap .asset_item .title_r_03 {margin: 10px 0;}
@@ -232,7 +233,7 @@
 .summer_boarding_camp .info_input_wrap .write_box .input_box .phone {width:30%; margin-left: 2%;}
 .summer_boarding_camp .info_input_wrap .write_box .input_box .grade {width:20%; margin-left: 2%;}
 .summer_boarding_camp .info_input_wrap .choose_box {margin-top: 40px;}
-.summer_boarding_camp .info_input_wrap .choose_box p {display: inline-block;}
+.summer_boarding_camp .info_input_wrap .choose_box p {display: inline-block; font-weight: 700;}
 .summer_boarding_camp .info_input_wrap .choose_box .radio_wrap {display: inline-block; margin-left: 100px;}
 .summer_boarding_camp .info_input_wrap .choose_box .radio_wrap label + input + label {margin-left:30px;}
 .summer_boarding_camp .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
@@ -244,7 +245,8 @@
 .summer_day_camp .visual_wrap .title_r_01 {color:#fff;}
 .summer_day_camp .camp_info_wrap .video_box video {width:100%; border-radius: 20px;}
 .summer_day_camp .camp_info_wrap .text_article {padding-right: 30px;}
-.summer_day_camp .camp_info_wrap .text_article li {margin:10px 0;}
+.summer_day_camp .camp_info_wrap .text_article li {margin:22px 0;}
+.summer_day_camp .camp_info_wrap .text_article li:last-child {margin-bottom:0;}
 .summer_day_camp .info_input_wrap .section_inner--full{background: none;}
 .summer_day_camp .info_input_wrap .typing_box {overflow: hidden;}
 .summer_day_camp .info_input_wrap .write_box {position: relative; z-index: 1;}
@@ -257,6 +259,7 @@
 .summer_day_camp .info_input_wrap .choose_box .radio_wrap{display: inline-block; margin-left: 100px;}
 .summer_day_camp .info_input_wrap .choose_box .radio_wrap label + input + label {margin-left:30px;}
 .summer_day_camp .future_wrap {padding-top: 350px; margin-top: -300px; padding-bottom: 380px; margin-bottom: -380px;background: url('../images/sub/camp/summer/day/bg_01.png') no-repeat; background-position:center top ;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;}
+.summer_day_camp .ul_type_03 li {margin-bottom:22px;}
 .summer_day_camp .swiper-pagination-bullets .swiper-pagination-bullet {background: #1960A1; opacity: 1;}
 .summer_day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #1960A1; opacity: 1;}
 .summer_day_camp .schedule_wrap .swiper-container {text-align: center;}

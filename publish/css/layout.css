@@ -279,6 +279,8 @@
 .process_step_wrap .process_step_list {position: relative; z-index: 10;}
 .process_step_wrap .process_step_list:after {content:''; display: block; clear: both;}
 .process_step_wrap .process_step_list .process_step_item{float: left; width:20%; position: relative;}
+.process_step_wrap .process_step_list .process_step_item:after {content:''; display: inline-block; width:70%; height: 10px; position: absolute; right:-100px; top:50%; margin-top: -5px; background: #F2B41B; z-index: -1;}
+.process_step_wrap .process_step_list .process_step_item:last-child:after {content:none;}
 .process_step_wrap .process_step_list .process_step_item .step {width:90%; margin:167px 0; background: #F2B41B; border-radius: 20px; text-align: center; padding:10px; font-size: 16px;}
 .process_step_wrap .process_step_list .tooltip_box{ position: absolute; left:50%; margin-left: -85px; bottom:230px; max-width: 170px; display: inline-block; padding:20px 10px 10px;  background: #f4f4f4; box-sizing: border-box; border-radius:0 20px 20px 20px;}
 .process_step_wrap .process_step_list .tooltip_box:after{ content:''; display: inline-block; position: absolute; left:50%; margin-left:-14px; width: 27px; height: 22px; background: url('../images/common/tooltip_arrow.png') no-repeat;}
@@ -286,6 +288,7 @@
 .process_step_wrap .process_step_list .tooltip_box .title_r_03 {font-size: 16px;}
 .process_step_wrap .process_step_list .icon_box{position: absolute; bottom:50px; left:50%; transform: translateX(-50%);transform: -webkit-translateX(-50%);}
 .process_step_wrap .process_step_list .icon_box:before {content: ''; display: inline-block; height: 20px; border: 1px dashed #000; position: absolute; left: 50%; top: -36px;}
+.process_step_wrap .process_step_list .process_step_item:last-child .icon_box:before {top: -30px;}
 .process_step_wrap .process_step_list .process_step_item:nth-child(2n) .tooltip_box {top:240px; bottom:auto; padding:10px 10px 30px; border-radius: 10px;}
 .process_step_wrap .process_step_list .process_step_item:nth-child(2n) .tooltip_box:after{top:-20px; transform: rotateX(-180deg)}
 .process_step_wrap .process_step_list .process_step_item:nth-child(2n) .icon_box {bottom:260px;}
@@ -490,6 +493,8 @@
 	.class_box_type_02 .class_box_type_02--item:nth-child(2n) {margin-right: 0;}
 	
 	.process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-20px;}
+	.process_step_wrap .process_step_list .process_step_item:after {content:none;}
+	
 	/*============== classes ==============*/
 	.classes_grid_wrap .option_wrap {float: none; width: 100%;}
 	.classes_grid_wrap .courses_wrap {position: relative;float: none; padding-left: 0; width: 100%; padding-top: 50px;}
