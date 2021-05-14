@@ -247,6 +247,7 @@
 .summer_day_camp .camp_info_wrap .video_box video {width:100%; border-radius: 20px;}
 .summer_day_camp .camp_info_wrap .text_article {padding-right: 30px;}
 .summer_day_camp .camp_info_wrap .text_article li {margin:22px 0;}
+.summer_day_camp .camp_info_wrap .text_article li:first-child {margin-top:0;}
 .summer_day_camp .camp_info_wrap .text_article li:last-child {margin-bottom:0;}
 .summer_day_camp .info_input_wrap .section_inner--full{background: none;}
 .summer_day_camp .info_input_wrap .typing_box {overflow: hidden;}
@@ -350,6 +351,7 @@
 	.summer_boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
 	
 	/*============= summer_day_camp ========*/
+	.summer_day_camp .camp_info_wrap .video_box {margin-top: 20px;}
 	.summer_day_camp .info_input_wrap .write_box .input_box input {float: none;}
 	.summer_day_camp .info_input_wrap .write_box .input_box .name {width:100%;}
 	.summer_day_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
