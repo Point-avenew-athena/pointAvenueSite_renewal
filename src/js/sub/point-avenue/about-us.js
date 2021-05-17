@@ -1,5 +1,5 @@
 $(function(){
-	var visu_swiper = new Swiper('.team_wrap .swiper-container', {
+	var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {
@@ -20,7 +20,7 @@ $(function(){
 		}
 	});
 	
-	var visu_swiper = new Swiper('.locations_cont .swiper-container', {
+	var locations_swiper = new Swiper('.locations_cont .swiper-container', {
 		slidesPerView: 3,
 		spaceBetween: 20,
 		navigation: {
@@ -36,5 +36,18 @@ $(function(){
 				spaceBetween: 10,
 			}
 		}
+	});
+	var story_swiper = new Swiper('.story_wrap .img_box .swiper-container', {
+		slidesPerView: 1, 
+		effect:'fade',
+		pagination: {
+			el: '.swiper-pagination',
+		}
+    });
+	
+	/*mentor 클릭시, mentor 상세 팝업 노출*/
+	$('.team_wrap .team_item > a').click(function(){
+		$('.mentor_popup').show();
+		$('.dim').show();
 	});
 });
