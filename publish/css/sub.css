@@ -36,7 +36,8 @@
 .sub .spotlight_wrap .text--gray {line-height: 1.6;}
 .sub .spotlight_wrap .sub_article ul li {overflow: hidden;border-bottom: 1px solid #ddd; padding: 20px 0;}
 .sub .spotlight_wrap .sub_article ul li:last-child {border-bottom: 0;}
-.sub .spotlight_wrap .sub_article .img_box {width:30%; float: left;}
+.sub .spotlight_wrap .sub_article .img_box {position: relative; padding-top: 23%; width:30%; float: left;}
+.sub .spotlight_wrap .sub_article .img_box img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%); -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%);}
 .sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; padding-top: 21%; border-radius: 10px; float: left; overflow: hidden;}
 .sub .spotlight_wrap .sub_article .video_box video {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
@@ -163,9 +164,14 @@
 /*=============article ========*/
 .article .visual_wrap{background:url('../images/sub/point-avenue/news/article_visual.png') right no-repeat; background-size: cover;}
 .article .visual_wrap .text_box {color:#fff; top:40%;}
-.article .aritcle_wrap .img {width:100%; margin: 30px 0;}
+.article .aritcle_wrap img {width:100%; margin: 30px 0; height: auto; object-position: center; 	object-fit: cover;}
 .article .aritcle_wrap .greet {font-size: 18px; font-weight: 800; margin-top: 30px;}
-.article .aritcle_wrap .text {font-size: 16px;}
+.article .aritcle_wrap p {font-size: 16px; margin-bottom: 1rem;}
+.article .aritcle_wrap ol {padding-left: 40px; margin-bottom: 30px; list-style: none;}
+.article .aritcle_wrap li {list-style: none;}
+.article .aritcle_wrap hr {display: block;margin-top: 1rem;margin-bottom: 1rem;border: 0;border-top: 1px solid rgba(0, 0, 0, 0.1);-webkit-box-sizing: content-box; -moz-box-sizing: content-box;  box-sizing: content-box; /* 1 */  height: 0;  /* 1 */  overflow: visible;  /* 2 */}
+.article .aritcle_wrap ul {padding:0 40px; list-style-type: disc;}
+.article .aritcle_wrap ul li {list-style:unset;}
 
 /*=============news ========*/
 .news .container .section_inner{position: relative;}

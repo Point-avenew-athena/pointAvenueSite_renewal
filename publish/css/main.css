@@ -31,6 +31,9 @@
 .step_wrap .section_inner .person_list .person_item:first-child .person_img:after {width:50%;margin-left:50%;}
 .step_wrap .section_inner .person_list .person_item:last-child .person_img:after {width:50%;margin-right:50%;}
 
+/* courses_wrap */
+.courses_wrap .box_type_01 .box_type_01--item {margin-bottom: 20px;}
+
 .works_wrap .section_title {margin-bottom: 40px;}
 .works_wrap .works_list {overflow: hidden;}
 .works_wrap .works_list .works_item {float: left; width:25%; text-align: center;}
@@ -88,7 +91,7 @@
 	.main_visual_wrap {overflow: hidden;}
 	.main_visual_wrap .swiper-container {overflow: inherit;}
 	.main_visual_wrap .swiper-slide-active .main_visu_desc{font-size: 16px; margin:20px 0;}
-	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:2.5vw 0;}
+	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:1.5vw 0;}
 	.step_wrap {overflow: hidden;}
 	.step_wrap .section_inner .swiper-container {overflow: inherit;}
 	.step_wrap .section_inner .swiper-wrapper {overflow: inherit; padding:20px 0;}
@@ -105,7 +108,7 @@
 	.news_wrap  {overflow: hidden;}
 	.news_wrap .swiper-container {overflow: inherit;}
 	.news_wrap .box_type_01 {overflow: inherit;}
-	.news_wrap .box_type_01 .box_type_01--item {float: none;width:auto;}
+	.news_wrap .box_type_01 .box_type_01--item {float: none; margin-right: 20px; width:auto;}
 	.news_wrap .swiper-container .swiper-pagination-progressbar{display: block;}
 	
 }
