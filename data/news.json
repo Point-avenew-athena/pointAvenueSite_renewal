@@ -2,7 +2,7 @@
 
 {
 	id : 3574, 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "How to write a great Letter of Continued Interest &#038; A Successful Example",		// 뉴스 제목
 	
@@ -22,7 +22,7 @@
 
 {
 	id : "3469", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Was 2020-2021 the most difficult college application season yet?",		// 뉴스 제목
 	
@@ -41,7 +41,7 @@
 	
 {
 	id : "3419", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Admissions Waitlist: What Is It? What Do You Do Next?",		// 뉴스 제목
 	
@@ -61,7 +61,7 @@
 	
 {
 	id : "2917", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "What is &#8216;Critical Thinking,&#8217; anyway?",		// 뉴스 제목
 	
@@ -80,7 +80,7 @@
 	
 {
 	id : "2624", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Meeting Point Avenue&#8217;s Top SAT Scorers",		// 뉴스 제목
 	
@@ -98,7 +98,7 @@
 	
 {
 	id : "2557", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Understanding and Nurturing Your Child’s Creativity",		// 뉴스 제목
 	
@@ -118,7 +118,7 @@
 	
 {
 	id : "2529", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Point Avenue Updates: Kicking off Fall Term!",		// 뉴스 제목
 	
@@ -138,7 +138,7 @@
 	
 {
 	id : "2394", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "on-discipline-a-talk-with-the-founder-ceo-of-point-avenue",		// 뉴스 제목
 	
@@ -158,7 +158,7 @@
 	
 {
 	id : "2379", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "Latest updates on SAT from College Board",		// 뉴스 제목
 	
@@ -176,7 +176,7 @@
 	
 {
 	id : "1946", 		// 워드프래스 id
-	type : "article", 		// Article, newsletter, event, tv
+	type : "Article", 		// Article, newsletter, event, tv
 	
 	title : "5 Productive Summer Activities For Your Child",		// 뉴스 제목
 	
@@ -195,7 +195,7 @@
 	
 {
 	id : "3475", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point &#8211; Issue 6",		// 뉴스 제목
 	
@@ -214,7 +214,7 @@
 	
 {
 	id : "3433", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point – Issue 5",		// 뉴스 제목
 	
@@ -233,7 +233,7 @@
 	
 {
 	id : "3144", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point – Issue 4",		// 뉴스 제목
 	
@@ -252,7 +252,7 @@
 	
 {
 	id : "2845", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point – Issue 3",		// 뉴스 제목
 	
@@ -271,7 +271,7 @@
 	
 {
 	id : "2847", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point – Issue 2",		// 뉴스 제목
 	
@@ -290,7 +290,7 @@
 	
 {
 	id : "2906", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Newsletter On Point &#8211; Issue 1",		// 뉴스 제목
 	
@@ -309,7 +309,7 @@
 	
 {
 	id : "2543", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Check it out: Special Debate Workshop &#038; Mid-Autumn Festival at Point Avenue",		// 뉴스 제목
 	
@@ -327,7 +327,7 @@
 	
 {
 	id : "2364", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Point Avenue Updates: Royal Thai Ambassador&#8217;s visit to PA Cau Giay, Community Day &#038; Potluck Party",		// 뉴스 제목
 	
@@ -345,7 +345,7 @@
 	
 {
 	id : "2305", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Point Avenue Updates: AmCham Pool Party &#038; Summer Camp Session 2",		// 뉴스 제목
 	
@@ -363,7 +363,7 @@
 	
 {
 	id : "1421", 		// 워드프래스 id
-	type : "newsletter", 		// Article, newsletter, event, tv
+	type : "Newsletter", 		// Article, newsletter, event, tv
 	
 	title : "Summer Boot Camp 2019 &#8211; Session 1 Graduation Run &#038; Ceremony",		// 뉴스 제목
 	
@@ -381,7 +381,7 @@
 	
 {
 	id : "1309", 		// 워드프래스 id
-	type : "testimonials", 		// Article, newsletter, event, tv
+	type : "Testimonials", 		// Article, newsletter, event, tv
 	
 	title : "SJ, New York University",		// 제목
 	
@@ -399,7 +399,7 @@
 	
 {
 	id : "918", 		// 워드프래스 id
-	type : "testimonials", 		// Article, newsletter, event, tv
+	type : "Testimonials", 		// Article, newsletter, event, tv
 	
 	title : "YN, Bryn Mawr College",		// 제목
 	
@@ -417,7 +417,7 @@
 	
 {
 	id : "478", 		// 워드프래스 id
-	type : "testimonials", 		// Article, newsletter, event, tv
+	type : "Testimonials", 		// Article, newsletter, event, tv
 	
 	title : "World Scholar&#8217;s Cup",		// 제목
 	
