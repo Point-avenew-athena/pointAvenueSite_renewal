@@ -1,0 +1,368 @@
+<%- include("partials/head_start") %>
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+<script>
+  const mainNews = <%- JSON.stringify(mainNews) %>
+  console.log("mainNews:", mainNews)
+</script>
+<%- include("partials/head_end") %>
+<%- include("partials/body_start") %>
+<div class="wrap sub news">
+    <%- include("partials/gnb") %>
+    <aside class="mobile_nav_wrap">
+			<div class="mobile_nav">
+				<div class="mobile_nav_header">
+					<a href="javascript:;" class="btn_close_menu">
+						<span class="blind">닫기</span>
+					</a>
+				</div>
+				<div class="mobile_nav_body">
+					<ul>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="/about-us">About Us</a></li>
+								<li class="sub_menu_item"><a href="/scholarship">Scholarship</a></li>
+								<li class="sub_menu_item"><a href="/careers">Careers</a></li>
+								<li class="sub_menu_item"><a href="/news">News</a></li>
+							</ul> 
+						</li> 
+						<li class="gnb_menu_item--go"><a href="/programs">Programs</a> 
+							<ul class="sub_menu"> 
+								<li class="sub_menu_item"><a href="/programs/elementary-courses">Elementary Courses</a></li>
+								<li class="sub_menu_item"><a href="/programs/middle-high-school-courses">Middle & High School Courses</a></li>
+								<li class="sub_menu_item"><a href="/programs/debate">Debate</a></li>
+								<li class="sub_menu_item"><a href="/programs/test-preparation">Test Preparation</a></li>
+							</ul>
+						</li>
+						<li class="gnb_menu_item--go"><a href="/admissions-consulting">Admissions Consulting</a></li>
+						<li class="gnb_menu_item"><a href="javascript:void(0);">Camp</a>
+							<ul class="sub_menu">
+								<li class="sub_menu_item"><a href="/camp/summer-leader-camp">Summer Leader Camp</a></li>
+								<li class="sub_menu_item"><a href="/camp/summer-day-camp">Summer Day Camp</a></li>
+								<li class="sub_menu_item"><a href="/camp/winter-boarding-camp">Winter Boarding Camp</a></li>
+								<li class="sub_menu_item"><a href="/camp/winter-day-camp">Winter Day Camp</a></li>
+							</ul>
+						</li>	
+					</ul>
+				</div>
+				<div class="mobile_nav_footer">
+					<a href="javascript:;" class="btn_login">
+						<span>Login</span>
+					</a>
+					<a href="javascript:;" class="btn_signin">
+						<span>Sign Up</span>
+					</a>
+				</div>
+			</div>
+		</aside>
+    	<!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">NEWS</h2>
+					</div>
+				</div>
+			</section>
+			<section class="spotlight_wrap">
+				<div class="section_inner">
+					<div class="grid_type_wrap_01">
+						<div class="main_article">
+							<div class="article_box">
+								<div class="img_box">
+									<img src="/images/common/none_img.png" alt="">
+								</div>
+								<h3 class="title_r_02 section_title_02">Meeting Point Avenue’s Top SAT Scorers</h3>
+								<p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p>
+							</div>
+						</div>
+						<div class="sub_article">
+							<h3 class="title_r_02 section_title">Spotlight</h3>
+							<ul>
+								<li>
+									<div class="img_box">
+										<img src="/images/common/none_img.png" alt="">
+									</div>
+									<div class="text_box">
+										<p class="text--gray date">03/07/2021</p>
+										<div class="flag_type_02">News</div>
+										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+									</div>
+								</li>
+								<li>
+									<div class="img_box">
+										<img src="/images/common/none_img.png" alt="">
+									</div>
+									<div class="text_box">
+										<p class="text--gray date">03/07/2021</p>
+										<div class="flag_type_02">Events</div>
+										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+									</div>
+								</li>
+								<li>
+									<div class="img_box">
+										<img src="/images/common/none_img.png" alt="">
+									</div>
+									<div class="text_box">
+										<p class="text--gray date">03/07/2021</p>
+										<div class="flag_type_02">Aritcles</div>
+										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="event_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Events</h3>
+					<ul class="box_type_01 courses_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+			
+			<section class="newsletter_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Newsletter</h3>
+					<ul class="box_type_01 courses_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
+								<div class="desc_text">
+									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
+								<div class="desc_text">
+									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
+								<div class="desc_text">
+									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+			
+			<section class="articles_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Articles</h3>
+					<ul class="box_type_01 courses_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
+								<div class="desc_text">
+									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
+								<div class="desc_text">
+									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
+								<div class="desc_text">
+									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+			
+			<section class="tv_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
+					<ul class="box_type_01 courses_list video_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--video">
+								<div class="video_wrap">
+									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
+									</video>
+								</div>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="date">16/3/2021</p>
+									<p class="duration">Duration: 03:00</p>
+								</div>
+								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
+								<div class="desc_text">
+									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Watch Now</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--video">
+								<div class="video_wrap">
+									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
+									</video>
+								</div>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="date">16/3/2021</p>
+									<p class="duration">Duration: 03:00</p>
+								</div>
+								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
+								<div class="desc_text">
+									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Watch Now</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--video">
+								<div class="video_wrap">
+									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
+									</video>
+								</div>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="date">16/3/2021</p>
+									<p class="duration">Duration: 03:00</p>
+								</div>
+								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
+								<div class="desc_text">
+									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+								</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Watch Now</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+    <%- include("partials/footer") %>
+		<%- include("partials/common_popup") %>
+</div>
+<%- include("partials/body_end") %>
