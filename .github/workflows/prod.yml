@@ -1,0 +1,20 @@
+name: deploy prod
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  call_jenkins:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+
+      - if: "!contains(github.event.head_commit.message, 'skip github action')"
+        name: jenkins
+        run: |
+          curl POST 'http://jenkins.paathena.com/buildByToken/buildWithParameters?job=pasite&token=ff1c983256cc421b86c89a06debf8676&branch=${{ steps.extract_branch.outputs.branch }}&author=${{ github.actor }}'
