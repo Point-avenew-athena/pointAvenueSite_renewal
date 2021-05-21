@@ -1,7 +1,7 @@
 const { response } = require('express');
 const express = require('express');
 const router = express.Router();
-const fakeData = require('../src/data/fakeData.json')
+// const fakeData = require('../src/data/fakeData.json')
 // const WPAPI = require( 'wpapi' );
 // const wp = new WPAPI({ endpoint: 'https://www.pointavenue.com/wp-json/' });
 
