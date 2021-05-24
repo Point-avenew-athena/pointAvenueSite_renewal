@@ -1,0 +1,107 @@
+[
+  {
+    "courseId" : 1,
+    "courseType" : "online",
+    "name" : "Elementary Debate (Intermediate)",
+    "location" : "Hanoi - Cau Giay",
+    "grade" : "Elementary",
+    "program" : "Elementary",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "online" : {
+      "videoUrl" : "",
+      "about" : "",
+      "level" : "",
+      "mentor" : {
+        "teacherid" : 1,
+        "mentorText" : ""
+      },
+      "desc" : "",
+      "resource" : [
+        { 
+          "path" : "",
+          "name" : ""
+        },
+        { 
+          "path" : "",
+          "name" : ""
+        }
+      ]
+    }
+  },  
+  {
+    "courseId" : 2,
+    "courseType" : "offline",
+    "name" : "Elementary Debate (offline)",
+    "location" : "",
+    "grade" : "",
+    "program" : "",
+    "runtime" : "60 Minutes",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "offline" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 3,
+    "courseType" : "hybrid",
+    "name" : "Elementary Debate (hybrid)",
+    "location" : "",
+    "grade" : "",
+    "program" : "",
+    "runtime" : "60 Minutes",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  }
+]

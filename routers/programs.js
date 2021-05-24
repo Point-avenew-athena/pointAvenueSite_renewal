@@ -2,7 +2,8 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', function (req, res) {
-  res.render('programs');
+  const courses = require('../src/data/courses')
+  res.render('programs', { courses });
 })
 
 router.get('/elementary-courses', function (req, res) {
