@@ -46,24 +46,8 @@ $(function(){
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
 	$('.mentors_wrap .team_item > a').click(function(){
 		$('.mentor_popup').show();
-    
-    const id = this.dataset.id;
-    const image = document.querySelector('.mentor_img_box > img');
-    
-    const name = document.querySelector('.mentor_img_box p.title_r_03');
-    const position = document.querySelector('.mentor_img_box p.text--gray');
-    
-    experience = document.querySelector('.mentor_info_box .ul_type_02');
-
-    teachers
-      .filter((teacher) => teacher.id == id)[0]
-      .exp.forEach((info) => {
-        experience.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
-      });
-
-    image.src = this.dataset.img;
-    name.textContent = this.dataset.name;
-    position.textContent = this.dataset.position;
+    changeTeacherData(teachers, document.querySelector('.mentor_info_box .ul_type_02'), this);
+		toggleScroll();
 
 		$('.dim').show();
 	});
