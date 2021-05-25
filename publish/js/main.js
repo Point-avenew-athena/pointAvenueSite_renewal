@@ -9,6 +9,7 @@ $(document).ready(function(){
 	var news_swiper = new Swiper('.news_wrap .swiper-container', {
 		slidesPerView: 3, 
 		touchRatio:0,
+		spaceBetween:15,
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'progressbar',
@@ -17,12 +18,11 @@ $(document).ready(function(){
 			768: { 
 				slidesPerView: 2.1,
 				touchRatio:1,
-				spaceBetween:0,
+				spaceBetween:20,
 			},
 			640: { 
 				slidesPerView: 1.5,
 				touchRatio:1,
-				spaceBetween:20,
 			}
 		}
     });
