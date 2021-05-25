@@ -12,7 +12,7 @@ const camp = require('./routers/camp');
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
 app.use(express.json())
-app.use(express.static(__dirname + '/src'));
+app.use(express.static(__dirname + '/public'));
 
 
 // * main routes

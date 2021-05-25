@@ -7,8 +7,9 @@ const testPrepTeachersData = require('../src/data/programs/teachers/test-prep.js
 const debateTeachersData = require('../src/data/programs/teachers/debate.json');
 
 router.get('/', function (req, res) {
-  res.render('programs');
-});
+  const courses = require('../src/data/courses')
+  res.render('programs', { courses });
+})
 
 router.get('/elementary-courses', function (req, res) {
   res.render('elementary-course', { teachers: elementaryTeachersData });

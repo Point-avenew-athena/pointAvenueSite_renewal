@@ -4,8 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon --watch ./",
     "start" : ""
+=======
+    "dev": "nodemon --watch routers",
+    "start": ""
+>>>>>>> 9492c6484100aab6fa78c8423806db18908f7fbd
   },
   "repository": {
     "type": "git",
