@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Hyewon",
+    "position": "Debate Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/debate_mentor_01.png"
+  },
+  {
+    "id": 2,
+    "name": "Travis",
+    "position": "Debate Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/debate_mentor_02.png" 
+  },
+  {
+    "id": 3,
+    "name": "Alex",
+    "position": "Debate Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/debate_mentor_03.png" 
+  },
+  {
+    "id": 4,
+    "name": "Nicole",
+    "position": "Debate Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/debate_mentor_04.png" 
+  }
+]

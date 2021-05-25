@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Jai",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_01.png"
+  },
+  {
+    "id": 2,
+    "name": "Krupa",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_02.png"
+  },
+  {
+    "id": 3,
+    "name": "Courtney",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_03.png" 
+  },
+  {
+    "id": 4,
+    "name": "Emile",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_04.png" 
+  }
+]
