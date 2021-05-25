@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Hanna",
+    "position": "Head Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/common/mentor.png"
+  },
+  {
+    "id": 2,
+    "name": "Henna",
+    "position": "Assistant Teacher",
+    "exp": [
+      "B.A in English Linguistics & Literature, Rhodes University",
+      "Assistant Teacher, Avengers Leaders"
+    ],
+    "img": "/images/sub/common/mentor.png"
+  },
+  {
+    "id": 3,
+    "name": "Clair",
+    "position": "Math Teacher",
+    "exp": [
+      "M.A in Psychology,  Rhodes University",
+      "Principal Teacher, Young Leaders"
+    ],
+    "img": "/images/sub/common/mentor.png"
+  }
+]
