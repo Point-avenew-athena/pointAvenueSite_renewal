@@ -131,8 +131,19 @@
 .admission_consulting .info_wrap .title_r_03 {text-align: center; margin:30px 0 25px;}
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
-.admission_consulting .info_wrap .btn_type_01--sec {margin: 0 auto;}
+.admission_consulting .info_wrap .video_wrap {position:relative; padding-top:36%; border-radius: 10px;}
+.admission_consulting .info_wrap .video_wrap iframe{position:absolute; left:0; top:0; width:100%; height: 100%; border-radius:20px;}
+.admission_consulting .info_wrap .text_wrap {padding-left:30px;}
+.admission_consulting .info_wrap .text_wrap .text {margin-bottom:30px;}
+.admission_consulting .info_wrap .btn_type_01--sec {margin: 0 auto; padding:10px 0 ;}
 .admission_consulting .approach_wrap {overflow: hidden;}
+.admission_consulting .approach_wrap .approach_box {overflow: hidden;}
+.admission_consulting .approach_wrap .approach_box {margin-top:30px;}
+.admission_consulting .approach_wrap .approach_box .img_box {float:right; width:50%; padding-left:30px;}
+.admission_consulting .approach_wrap .approach_box .step_list {float:left; width:50%; padding-left:0;}
+.admission_consulting .approach_wrap .step_list strong{display:block; font-weight: 700; font-size:16px; margin-bottom:10px;}
+.admission_consulting .approach_wrap .approach_box_02 .img_box {float:left; width:50%;}
+.admission_consulting .approach_wrap .approach_box_02 .step_list {float:right; width:50%; padding-left:30px;}
 .admission_consulting .approach_wrap .process_step_wrap {padding: 20px 0 50px;}
 .admission_consulting .approach_wrap .process_step_wrap .swiper-pagination-progressbar {bottom:-50px;}
 .admission_consulting .approach_wrap .process_step_wrap .process_step_list .process_step_item .step {font-size: 14px;}
@@ -140,11 +151,15 @@
 .admission_consulting .class_box_type_01 .class_box_type_01--desc .text{text-align: left; margin-bottom:10px;}
 .admission_consulting .class_box_type_01 .class_box_type_01--desc .title_r_03 {-webkit-line-clamp: 1; height: 1.2em; margin-bottom: 5px;}
 .admission_consulting .results_swiper_01 {margin:74px 0 100px;} 
+.admission_consulting .swipe_type_02 .swipe_type_02--img img {min-height: auto;}
 .admission_consulting .services_wrap .grid_type_wrap_02 {margin-top: 30px;}
 .admission_consulting .services_wrap .service_box {overflow: hidden;}
 .admission_consulting .services_wrap .service_box .section_title_02:after {width:100px;}
 .admission_consulting .services_wrap .service_box .service_img_box {float: left;width:50%; padding-right: 10px;}
+.admission_consulting .services_wrap .service_box .service_img_box img {border-radius: 10px;}
 .admission_consulting .services_wrap .service_box .service_text_box {float: right;width:50%; padding-left: 10px;}
+.admission_consulting .services_wrap .service_box .service_text_box .text {margin-bottom:10px;}
+.admission_consulting .class_box_type_01 {overflow: initial;}
 
 /*============== all_ms_courses ==============*/
 .all_ms_courses .visual_wrap{background:url('../images/sub/program/ms_visual.png') right no-repeat; background-size: cover;}
@@ -334,7 +349,7 @@
 	.sub .skills_wrap .skills_list li {margin-bottom: 20px;}
 	
 	/*============== aboutus ==============*/
-	.about_us .about_intro_wrap .video_wrap {width:100%;}
+	.about_us .about_intro_wrap .video_wrap {width:100%; padding-top:55%;}
 	.about_us .about_intro_wrap .video_desc_wrap {width:100%; padding-left: 0;}
 	.about_us .partners_wrap .partners_cont li {width:25%;}
 	/*============== class_datail ==============*/
@@ -351,9 +366,16 @@
 	
 	/*=============== admission_consulting ==============*/
 	.admission_consulting .results_swiper_01 {margin:40px 0;}
+	
+	.admission_consulting .info_wrap .video_wrap {padding-top:56%; margin-bottom:30px;}
+	.admission_consulting .approach_wrap .approach_box .img_box {float:inherit; width:100%; padding-left:0;}
+	.admission_consulting .approach_wrap .approach_box .step_list{float:inherit; width:100%;}
+	.admission_consulting .approach_wrap .approach_box_02 .img_box {margin-bottom:20px;}
+	.admission_consulting .approach_wrap .approach_box_02 .step_list {padding-left:0;}
 	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-40px;}
 	.admission_consulting .services_wrap .service_box .service_img_box {float: none; width:100%;}
 	.admission_consulting .services_wrap .service_box .service_text_box {float: none; width:100%; margin-top: 20px;}
+	
 	
 	/*============= summer_boarding_camp ========*/
 	.summer_boarding_camp .info_input_wrap .write_box .input_box input {float: none;}

@@ -67,7 +67,7 @@
 
 @media screen and (max-width:1200px) {
 	.main_visual_wrap .text_box{left:40px; width:calc(100% - 40px); width:-webkit-calc(100% - 40px); margin-left: 0;}
-	.classroom_wrap .video_wrap{float: none; width:100%;}
+	.classroom_wrap .video_wrap{float: none; width:100%; padding-top:55%;}
 	.classroom_wrap .classroom_desc_box{float: none; width:100%; margin-top: 20px; padding:0;}
 	.sing_up_test_wrap .write_box {width:80%; height: auto; margin:0 auto;}
 	.sing_up_test_wrap .write_box .input_box input{float: none;width:100%; margin-bottom: 15px;}

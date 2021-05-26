@@ -4,6 +4,7 @@ $(function(){
 		effect:'fade',
 		pagination: {
 			el: '.swiper-pagination',
+			clickable: true
 		}
     });
 	
@@ -88,5 +89,11 @@ $(function(){
 				spaceBetween: 10,
 			}
 		}
+	});
+
+	/*mentor 클릭시, mentor 상세 팝업 노출*/
+	$('.admission_consulting .class_box_type_01 .view').click(function(){
+		$('.cases_tudies_popup').show();
+		$('.dim').show();
 	});
 });

@@ -382,6 +382,14 @@
 .mentor_popup .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
 
+/*cases_tudies_popup*/
+.cases_tudies_popup {width:770px;}
+.cases_tudies_popup .popup_cont {overflow: hidden; padding:50px 70px;}
+.cases_tudies_popup .cases_tudies_img_box{float: left; width:30%;text-align: center;}
+.cases_tudies_popup .cases_tudies_img_box img {}
+.cases_tudies_popup .cases_tudiesimg_box p {margin-top: 15px;}
+.cases_tudies_popup .cases_tudies_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
+
 /*testimonials_popup*/
 .testimonials_popup {width:650px;}
 .testimonials_popup .popup_cont {overflow: hidden; padding:0; border-radius: 20px;}
