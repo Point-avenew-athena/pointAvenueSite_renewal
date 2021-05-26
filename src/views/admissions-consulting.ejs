@@ -9,8 +9,12 @@
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
+<script>
+	const studies = <%- JSON.stringify(studies) %>;
+</script>
 <div class="wrap sub admission_consulting">
   <%- include("partials/gnb") %>
     <!-- container :: start -->
@@ -506,75 +510,8 @@
 			<section class="case_studies_wrap">
 				<div class="section_inner">
 					<p class="title_r_02 section_title">Case Studies</p>
-					<div class="swipe_type_01_wrap">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper class_box_type_01">
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/admission-consulting/studies/NhiD.jpg" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">Duc Minh</p>
-											<p class="text--gray university">Union College</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/admission-consulting/studies/ThuYen.jpg" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">Nhi D.</p>
-											<p class="text--gray university">Pomona College</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/admission-consulting/studies/Eileen.jpg" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">Thu Yen</p>
-											<p class="text--gray university">Bryn Mawr College</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/admission-consulting/studies/DucMinh.jpg" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">Eileen</p>
-											<p class="text--gray university">UCLA</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/admission-consulting/studies/MyLe.jpg" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">NYU, Tisch School of the Arts</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-							</ul>
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
-						</div>
-					</div>
+					<!-- 선생 리스트 swiper-->
+					<%- include("partials/case-studies") %>
 				</div>
 			</section>
 			<section class="info_input_wrap">
@@ -596,26 +533,6 @@
 		</div>
 		<!--container :: end-->
 
-		<!--Case Studies Popup:: start-->
-		<div class="layer_popup cases_tudies_popup">
-			<div class="popup_cont">
-				<div class="cases_tudies_img_box">
-					<div class="img_box">
-						<img src="images/sub/common/mentor.png" alt="">
-					</div>
-					<p class="title_r_03">Jesika</p>
-					<p class="text--gray title_r_03">Elementary Teacher</p>
-				</div>
-				<div class="cases_tudies_info_box">
-					<ul class="ul_type_02">
-						<li>B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University</li>
-						<li>Head Teacher, Apax Leaders</li>
-					</ul>
-				</div>
-			</div>
-			<a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
-		</div>
-		<!--Mentor Profile Popup:: end -->
 		
     <%- include("partials/footer") %>
 		<%- include("partials/common_popup") %>

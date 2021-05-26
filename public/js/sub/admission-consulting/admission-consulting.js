@@ -93,7 +93,9 @@ $(function(){
 
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
 	$('.admission_consulting .class_box_type_01 .view').click(function(){
-		$('.cases_tudies_popup').show();
+		$('.case_studies_popup').show();
+		changeStudiesData(studies, document.querySelector('.case_studies_info_box .ul_type_02'), this);
+		toggleScroll();
 		$('.dim').show();
 	});
 });

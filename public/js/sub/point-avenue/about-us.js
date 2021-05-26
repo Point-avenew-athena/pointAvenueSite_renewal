@@ -47,6 +47,7 @@ $(function () {
     effect: 'fade',
     pagination: {
       el: '.swiper-pagination',
+      clickable: true
     },
   });
 

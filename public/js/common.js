@@ -153,4 +153,29 @@ function toggleScroll (state = true) {
 	state == true ? document.body.style.overflow= 'hidden' :  document.body.style.overflow = '';
 }
 
+//* Case studies 정보 팝업 
+function changeStudiesData(data, studiesExpWrapper, clickedElem){
+	const id = clickedElem.dataset.id;
+	const image = document.querySelector('.case_studies_img_box .img_box > img');
+	
+	const name = document.querySelector('.case_studies_img_box p.title_r_03');
+	const school = document.querySelector('.case_studies_img_box p.text--gray');
+	
+	experience = document.querySelector('.case_studies_info_box .ul_type_02');
+
+	data
+		.filter((teacher) => teacher.id == id)[0]
+		.info.forEach((info) => {
+			studiesExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
+		});
+
+	image.src = clickedElem.dataset.img;
+	name.textContent = clickedElem.dataset.name;
+	school.textContent = clickedElem.dataset.school;
+}
+//* 선생 정보 업데이트시
+function cleanupListOfStudies(){
+	const listTags = Array.from(experience.children);
+  listTags.forEach((item) => item.remove());
+}
 
