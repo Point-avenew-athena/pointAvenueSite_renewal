@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Danny",
+    "position": "CEO",
+    "exp": [
+      "B.S. with Honors in Sociology & Environmental Engineering, United States Military Academy at West Point",
+      "US Army Airborne Ranger with 6 Years of Military Experience as an Officer; Combat Decorated Veteran; Served Two Tours in Iraq",
+      "COO, New Pathway Education & Technology Group",
+      "Director, Prestige Only & Premier Only, Education International Cooperation Group"
+    ],
+    "img": "/images/main/Danny.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Tommy",
+    "position": "COO",
+    "exp": [
+      "M.B.A., The Wharton School of the University of Pennsylvania",
+      "B.S. with Honors in Economics, United States Military Academy",
+      "US Army Special Forces \"Green Beret\" Officer",
+      "Deployed in support of combat operations in Afghanistan and Iraq",
+      "Led President Barack Obama’s security in India and Myanmar",
+      "Investment Banking, Consumer Retail Healthcare Group, Goldman Sachs"
+    ],
+    "img": "/images/main/Tommy.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dan",
+    "position": "Center Director",
+    "exp": [
+      "B.A. with Honors in Psychology & Minor in Education, University of Massachusetts, Amherst",
+      "Sales and Distribution Manager for Midwest & Southwest U.S.A., Stumptown Coffee Roasters",
+      "Therapeutic Mentor - Youth Opportunities Upheld, Inc.",
+      "Residential Counselor & Summer Program Teacher - Youth Opportunities Upheld, Inc.",
+      "Fluency in Spanish Developed from Spanish Language Immersion Program, Universidad Veracruzana, Xalapa, Mexico"
+    ],
+    "img": "/images/main/Dan.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Myles",
+    "position": "Head of Research & Development",
+    "exp": [
+      "Ph.D., Education, University of New Hampshire",
+      "M.S. Recreation Management and Policy, University of New Hampshire",
+      "B.A. Psychology, University of Massachusetts Amherst",
+      "Camp Director, YMCA of Greater Boston, North Woods Camp"
+    ],
+    "img": "/images/main/Myles.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Edward",
+    "position": "Head of Training",
+    "exp": [
+      "Bachelors in Business Administration, University of Washington Southern",
+      "M.S. Recreation Management and Policy, University of New Hampshire",
+      "Director, Faculty Management Division, Apax Leaders",
+      "Faculty Manager & Part-time Trainer, Chungdahm Learning"
+    ],
+    "img": "/images/main/Edward.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Charles",
+    "position": "Head of Test Prep",
+    "exp": [
+      "B.A. in Finance from the University of California - Riverside",
+      "Managing Director, Icon Institute Manager, Chung Dahm Learning, South Korea",
+      "Over 15 years as a Test Prep teacher with hundreds of students scoring over 1400 and 1500"
+    ],
+    "img": "/images/main/Charles.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Hyewon",
+    "position": "Head of Debate",
+    "exp": [
+      "Co-Founder of Debate for All",
+      "Head Coach of Team Vietnam for World Schools Debating Championships (WSDC) 2020",
+      "Co-Coach of Team Korea for World Schools Debating Championships (WSDC) 2014-2019"
+    ],
+    "img": "/images/main/Hyewon.jpeg"
+  }
+]

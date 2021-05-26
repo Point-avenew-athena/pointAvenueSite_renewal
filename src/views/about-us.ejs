@@ -9,6 +9,10 @@
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/about-us.js"></script>
+
+<script>
+	const teachers = <%- JSON.stringify(teachers) %>;
+</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub about_us">
@@ -47,82 +51,8 @@
 			<section class="team_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Meet Our Team</h3>
-					<div class="swipe_type_01_wrap">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper swipe_type_01 team_list">
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
-						</div>
-					</div>
+					<!-- 선생 리스트 swiper-->
+					<%- include("partials/teacher-list") %>
 				</div>
 			</section>
 			
