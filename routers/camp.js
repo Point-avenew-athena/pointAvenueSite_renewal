@@ -5,8 +5,8 @@ router.get('/', function (req, res) {
   res.render('camp')
 })
 
-router.get('/summer-leader-camp', function (req, res) {
-  res.send('Camp > Summer Leader Camp')
+router.get('/summer-boarding-camp', function (req, res) {
+  res.render('Summer-boarding-camp')
 })
 
 router.get('/summer-day-camp', function (req, res) {

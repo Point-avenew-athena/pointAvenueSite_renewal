@@ -1,6 +1,7 @@
 $(function(){
 	var info_swiper = new Swiper('.location_wrap .swiper-container', {
 		slidesPerView: 1, 
+		
 		effect:'fade',
 		pagination: {
 			el: '.swiper-pagination',

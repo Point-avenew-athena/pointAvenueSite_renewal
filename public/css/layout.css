@@ -28,6 +28,7 @@
 .btn_type_01:hover { background: #F2B41B; color:#fff; border: 1px solid #F2B41B;}
 .btn_type_01.view {padding:10px 26px;}
 .btn_type_01.yellow {background: #F2B41B; color:#3a3a3a;}
+.btn_type_01.yellow:hover {background:#000; color:#fff; border: 1px solid #000;}
 
 .btn_type_01--sec {position: relative;display: block; width: 170px; height: 50px; padding:15px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#3a3a3a; font-size: 14px; line-height: 1.2; border-radius: 30px; box-sizing: border-box; transition: all .5s;}
 .btn_type_01--sec:hover {background: #000; color:#fff; border: 1px solid #000;}
@@ -82,6 +83,8 @@
 .container {position: relative; margin-top: 50px;}
 .container > section {margin-top: 100px;}
 .container > section:first-child {margin-top: 0px;}
+.container > section:last-child {margin-bottom: 80px;}
+.container > section.info_input_wrap {margin-bottom: 0px;}
 .container .section_inner{max-width:1170px; margin:0 auto;}
 .container .section_inner--full{width:100%;}
 .container .section_title {position: relative; padding-left:60px;margin-bottom: 40px; line-height: 1.5;}
@@ -364,7 +367,7 @@
 .flie_down_wrap li a .file_size {font-size: 16px;}
 
 /*==================== 팝업 layout ==================*/
-.layer_popup {display: none;position: fixed; left:50%; top:200px; transform: translateX(-50%); width:1070px;   z-index:999; border: 1px solid #E5E5E5; border-radius: 20px; background: #fff;box-shadow: 5px 5px 10px #aaa;}
+.layer_popup {display: none;position: fixed; left:50%; top:200px; transform: translateX(-50%); width:1070px;   z-index:999; border: 1px solid #E5E5E5; border-radius: 20px; background: #fff;box-shadow:7px 7px 10px rgb(0 0 0 / 17%);}
 .dim {display: none;position: fixed; left:0; top:0; width:100%; height: 100%; background:rgba(0,0,0,0.4); z-index: 900;}
 .layer_popup .popup_cont {padding:15px 70px;}
 .layer_popup .close_btn {position: absolute;display: inline-block; width:40px; height: 40px; right:0; top:-40px;}
@@ -393,6 +396,7 @@
 .case_studies_popup .case_studies_img_box{float: left; width:30%;text-align: center;}
 .case_studies_popup .case_studies_img_box img {}
 .case_studies_popup .case_studiesimg_box p {margin-top: 15px;}
+.case_studies_popup .ul_type_02 li:before {content:none;}
 .case_studies_popup .case_studies_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
 /*testimonials_popup*/

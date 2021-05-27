@@ -9,11 +9,13 @@
 .main_visual_wrap .main_visu_tit{opacity: 0; margin-bottom: 5px; transition:opacity 1s;-webkit-transition: -webkit-transform opacity 1s;-moz-transition: -moz-transform opacity 1s;-ms-transition: -ms-transform opacity 1s;-o-transition: -o-transform opacity 1s;}
 .main_visual_wrap .main_visu_desc {opacity: 0; margin-bottom:30px; transition:opacity 1s .5s;}
 .main_visual_wrap .main_visu_more_btn {position: relative;display: block; width: 270px; height: 60px; padding:18px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#fff; font-size: 16px; line-height: 1.2; border-radius: 30px; box-sizing: border-box; opacity: 0; transition:opacity 1s 1s;-webkit-transition: -webkit-transform opacity 1s 1s;-moz-transition: -moz-transform opacity 1s 1s;-ms-transition: -ms-transform opacity 1s 1s;-o-transition: -o-transform opacity 1s 1s;}
+.main_visual_wrap .main_visu_more_btn:hover {background: #000; color:#fff; border: 1px solid #000;}
 .main_visual_wrap .swiper-slide-active .main_visu_tit {opacity: 1; margin-top:0;}
 .main_visual_wrap .swiper-slide-active .main_visu_desc {opacity: 1; margin-top:0;}
 .main_visual_wrap .swiper-slide-active .main_visu_more_btn {opacity: 1; }
 .main_visual_wrap .swiper-slide_02 .text_box {opacity: 0;}
 .main_visual_wrap .main_read_more_btn { position: absolute; left: 50%;  bottom: 6%;  z-index: 100; width: 15%;  background: #278c2a;  opacity: 1;  margin-left: -7%;display: block;height: 50px; padding: 14px 0; text-align: center; color: #fff; font-size: 16px;  line-height: 1.2; border-radius: 30px; box-sizing: border-box;}
+.main_visual_wrap .main_read_more_btn:hover {background: #fff; color:#278c2a; border: 1px solid #278c2a;}
 .main_visual_wrap .swiper-pagination-bullet {background: #8c8c8c; opacity: 1;}
 .main_visual_wrap .swiper-pagination-bullet-active {width:100px; border-radius: 10px;}
 .main .btn_box--right {margin-right: 20px;}
@@ -25,7 +27,8 @@
 .step_wrap .section_inner .person_list .person_item div {position: relative;text-align: center;}
 .step_wrap .section_inner .person_list .person_item .person_img {margin-bottom: 20px;}
 .step_wrap .section_inner .person_list .person_item .person_img:after {content:''; display: block; width:100%; height: 5px; margin-top: 20px; background: #F2B41B;}
-.step_wrap .section_inner .person_list .person_item .person_desc_inner {display: block;width:170px; height: 50px; margin:20px auto 0; padding-top: 5px; background: #F2B41B; text-align: center; color:#3a3a3a; border-radius: 30px;}
+.step_wrap .section_inner .person_list .person_item .person_desc_inner {display: block;width:170px; height: 50px; margin:20px auto 0; padding-top: 5px; background: #F2B41B; text-align: center; color:#3a3a3a; border-radius: 30px; transition: all .5s;}
+.step_wrap .section_inner .person_list .person_item .person_desc_inner:hover {background: #000; color:#fff; border: 1px solid #000;}
 .step_wrap .section_inner .person_list .person_item .person_desc_inner span {display: block;}
 .step_wrap .section_inner .person_list .person_item .person_desc_box:before {content:''; display: block; width:30px; height: 30px; background: #F2B41B; margin:-35px auto 0; border-radius: 15px;}
 .step_wrap .section_inner .person_list .person_item .person_desc_box:after {content:''; display: block; width:18px; height: 18px; background: #fff; position: absolute; top:6px; left:50%; margin-left:-9px; border-radius: 9px;}
