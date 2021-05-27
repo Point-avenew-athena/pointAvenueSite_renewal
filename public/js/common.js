@@ -1,3 +1,4 @@
+// let experience = document.querySelector('.mentor_info_box .ul_type_02');
 $(document).ready(function () {
   /* ========= common :: start=============*/
   $('.contact_pop_btn').click(function () {
@@ -125,14 +126,15 @@ $(document).ready(function () {
 
 //* 선생 정보 팝업 
 function changeTeacherData (data, teacherExpWrapper, clickedElem){
-	const id = clickedElem.dataset.id;
+
+  const id = clickedElem.dataset.id;
 	const image = document.querySelector('.mentor_img_box > img');
 	
 	const name = document.querySelector('.mentor_img_box p.title_r_03');
 	const position = document.querySelector('.mentor_img_box p.text--gray');
 	
 	experience = document.querySelector('.mentor_info_box .ul_type_02');
-
+  
 	data
 		.filter((teacher) => teacher.id == id)[0]
 		.exp.forEach((info) => {
