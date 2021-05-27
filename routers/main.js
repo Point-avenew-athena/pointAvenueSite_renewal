@@ -50,8 +50,14 @@ router.get('/news/:id', (req, res) => {
 });
 
 //* articles 리스트 페이지
-router.get('/news/list/articles/', (req, res) => {
+router.get('/news/list/articles', (req, res) => {
   res.render('news/articles/index');
+});
+
+
+//* TV 
+router.get('/news/list/tv', (req, res) => {
+  res.render('news/tv/index');
 });
 
 
