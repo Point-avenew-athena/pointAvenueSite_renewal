@@ -1,0 +1,243 @@
+<% 
+	const typeInfo = course[course.type.toLowerCase()]; 
+	const teacher = teachers.filter(teacher => teacher.id === typeInfo.mentor.teacherid)[0];
+%>
+<%- include("partials/head_start") %>
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+
+<script>
+	const course = <%-JSON.stringify(course)-%>;
+</script>
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/course-detail.js"></script>
+<%- include("partials/head_end") %>
+<%- include("partials/body_start") %>
+	<div class="wrap sub class_datail">
+		<%- include("partials/gnb") %>
+		<!-- container :: start -->
+		<div class="container">
+			<section class="video_grid_wrap lesson_list_wrap">
+				<div class="section_inner">
+					<div class="title_box">
+						<h3 class="title_r_01">SAT PREMIUM</h3>
+						<div class="desc">Test Preparation | Grade 9-11</div>
+					</div>
+					<div class="video_wrap">
+						<video src="" playsinline="" class="video-bg" poster="/images/sub/class-detail/video_thum.png">
+						</video>
+					</div>
+					<div class="lesson_list">
+						<p class="title_r_03">51 lessons ( X h X m)</p>
+						<ul>
+							<li class="lesson_item on">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">1.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">2.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">3.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">4.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">5.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">6.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">7.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">8.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+							<li class="lesson_item">
+								<a href="#" class="lesson_item_link">
+									<p class="class_name"><span class="count">9.</span> <span class="name">Class Name</span></p>
+									<p class="class_time">XX: XX : XX</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<section class="lesson_desc_wrap">
+				<div class="section_inner">
+				
+					<a href="#" class="btn_type_01--sec enroll_btn">Enroll Now</a>
+					<!--tab_cont_area :: start-->
+					<div class="tab_cont_area">
+						<div class="tab_type_list_01">
+							<ul>
+								<li class="on"><a href="javascript:void(0);">Course Overview</a></li>
+								<li><a href="#">Mentor</a></li>
+								<li><a href="#">Works & Resources</a></li>
+							</ul>
+						</div>
+						<!--tab_cont_wrap :: start-->
+						<div class="tab_cont_wrap">
+							<!--About this Course :: start-->
+							<div class="tab_cont course_cont on">
+								<h3 class="title_r_02 section_title_02">About this Course</h3>
+								<div class="cont"><%-course.desc.join('<br/>')-%></div>
+							</div>
+							<!--About this Course :: end-->
+							<!--About the Mentor:: start-->
+							<div class="tab_cont mentor_cont">
+								<h3 class="title_r_02 section_title_02">About the Mentor</h3>
+								<div class="cont">
+									<div class="mentor_box">
+										<img src="/images/sub/class-detail/mentor.png" alt="">
+										<p class="title_r_03 name"><%-teacher.name-%></p>
+									</div>
+									<p><%-typeInfo.mentor.mentorText.join('<br/>')-%></p>
+								</div>
+							</div>
+							<!--About the Mentor:: end-->
+							<!--Project Description :: start-->
+							<div class="tab_cont project_desc_cont">
+								<h3 class="title_r_02 section_title_02">Project Description</h3>
+								<div class="cont">
+									<p><%-typeInfo.projectDesc.join('<br/>')-%></p>
+									<div class="btn_box--right">
+										<a href="#" class="btn_type_01--sec yellow"><span>See More</span></a>
+									</div>
+								</div>
+								<h3 class="title_r_02 section_title_02">Resources</h3>
+								<div class="flie_down_wrap">
+									<ul>
+										<% for(const resource of typeInfo.resources) { %>
+										<li class="file_item">
+											<a href="<%-resource.path-%>" class="file_link">
+												<span class="title_r_03 file_name"><%-resource.name-%></span>
+												<span class="file_size"><%- Math.floor(resource.size / 1024 / 1024) -%> MB</span>
+											</a>
+										</li>
+										<% } %>
+									</ul>
+								</div>
+							</div>
+							<!--Project Description :: end-->
+						</div>
+						<!--tab_cont_wrap :: end-->
+					</div>
+					<!--tab_cont_area :: end-->
+					<!--lesson_info_wrap :: start-->
+					<div class="lesson_info_wrap">
+						<div class="level_wrap">
+							<div class="level_graph">
+								<span class="full"></span>
+								<span></span>
+								<span></span>
+							</div>
+							<p class="unit_txt">Beginner Level</p>
+						</div>
+						<div class="student_wrap">
+							<p class="title_r_01 count"><%- course.students -%></p>
+							<p class="unit_txt">Students</p>
+						</div>
+					</div>
+					<!--lesson_info_wrap :: end-->
+				</div>
+			</section>
+			
+			<section class="courses_wrap">
+				<div class="section_inner">
+					<!-- courses_type_box :: start -->
+					<div class="courses_type_box">
+						<p class="title_r_02">Related Courses</p>
+						<ul class="class_box_type_02">
+							<li class="class_box_type_02--item">
+								<div class="class_box_type_02--img">
+									<img src="/images/common/none_img.png" alt="">
+								</div>
+								<div class="class_box_type_02--desc">
+									<div class="text--gray">
+										<p class="age">Age 7-9</p>
+										<p class="times">17 weeks</p>
+									</div>
+									<p class="title_r_03">English Language Fundamentals</p>
+									<span class="class_type">Hybrid</span>
+								</div>
+							</li>
+							<li class="class_box_type_02--item">
+								<div class="class_box_type_02--img">
+									<img src="/images/common/none_img.png" alt="">
+								</div>
+								<div class="class_box_type_02--desc">
+									<div class="text--gray">
+										<p class="age">Age 7-9</p>
+										<p class="times">17 weeks</p>
+									</div>
+									<p class="title_r_03">English Language Fundamentals</p>
+									<span class="class_type">Hybrid</span>
+								</div>
+							</li>
+							<li class="class_box_type_02--item">
+								<div class="class_box_type_02--img">
+									<img src="/images/common/none_img.png" alt="">
+								</div>
+								<div class="class_box_type_02--desc">
+									<div class="text--gray">
+										<p class="age">Age 7-9</p>
+										<p class="times">17 weeks</p>
+									</div>
+									<p class="title_r_03">English Language Fundamentals</p>
+									<span class="class_type">Hybrid</span>
+								</div>
+							</li>
+							<li class="class_box_type_02--item">
+								<div class="class_box_type_02--img">
+									<img src="/images/common/none_img.png" alt="">
+								</div>
+								<div class="class_box_type_02--desc">
+									<div class="text--gray">
+										<p class="age">Age 7-9</p>
+										<p class="times">17 weeks</p>
+									</div>
+									<p class="title_r_03">English Language Fundamentals</p>
+									<span class="class_type">Hybrid</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+		<%- include("partials/footer") %>
+		<%- include("partials/common_popup") %>
+  </div>
+<%- include("partials/body_end") %>

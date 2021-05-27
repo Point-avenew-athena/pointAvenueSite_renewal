@@ -4,15 +4,6 @@
 <link rel="stylesheet" type="text/css" href="/css/common.css">
 <link rel="stylesheet" type="text/css" href="/css/layout.css">
 <link rel="stylesheet" type="text/css" href="/css/sub.css">
-
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
-
-<script>
-	const teachers = <%- JSON.stringify(teachers) %>;
-</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub all_elmentary_courses">
@@ -32,90 +23,7 @@
 						<strong>The Elementary English Learning program</strong> is designed to develop students’ English literacy development skills from pre-kindergarten to grade 4 level. The program focuses on building four critical blocks of language: Reading, Writing, Listening, and Speaking. The contents of this course bridge ESL methodology and components of the US Common Core State Standards to ensure our students can be successful at home and as global citizens. More importantly, we are committed to promoting the 21st Century Skills that will help our students thrive through the integration of character, critical thinking, collaboration, communication, and creativity. Our Elementary curriculum and teaching methodology encourage the use of cooperative, and inquiry-based learning and enriches our students’ academic, social, and emotional skills.
 					</div>
 					<!-- option_wrap :: start -->
-					<div class="option_wrap">
-						<a href="javascript:void(0);" class="filter_mo_btn" >Filter</a>
-						<div class="option_inner">
-							<div class="option_list_wrap">
-								<ul class="option_list">
-									<li class="option_item">
-										<a href="javascript:void(0);">Location</a>
-									</li>
-									<li class="option_item">
-										<a href="javascript:void(0);">Grade</a>
-										<div class="filter_list_wrap">
-											<ul class="filter_list">
-
-											</ul>
-										</div>
-									</li>
-									<li class="option_item on">
-										<a href="javascript:void(0);">Course Type</a>
-										<div class="filter_list_wrap">
-											<ul class="filter_list">
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_level_01" name="course_level">
-														<label for="course_level_01">Online</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_level_02" name="course_level">
-														<label for="course_level_02">Hybrid</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_level_03" name="course_level">
-														<label for="course_level_03">Offline</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</li>
-									<li class="option_item on">
-										<a href="javascript:void(0);">Program</a>
-										<div class="filter_list_wrap">
-											<ul class="filter_list">
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_program_01" name="course_program">
-														<label for="course_program_01">Elementary</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_program_02" name="course_program">
-														<label for="course_program_02">Middle / High School</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_program_03" name="course_program">
-														<label for="course_program_03">Debate</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-												<li class="filter_item">
-													<div class="checkbox_wrap">
-														<input type="checkbox" id="course_program_04" name="course_program">
-														<label for="course_program_04">Test Prep</label>
-														<p class="count">(870)</p>
-													</div>
-												</li>
-											</ul>
-										</div>
-									</li>
-								</ul>
-								<a href="javascript:void(0);" class="filter_close_btn"><span class="blind">close</span></a>
-							</div>
-						</div>
-					</div>
+					<%- include('partials/course_filter'); %>
 					<!-- option_wrap :: end -->
 					<!-- courses_wrap :: start -->
 					<div class="courses_wrap">
@@ -123,97 +31,9 @@
 						<div class="courses_type_box">
 							<p class="title_r_02 section_title">Our Course Offerings</p>
 							<ul class="class_box_type_01">
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/sub/program/DSC07193.jpg" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3 - 6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">English Learning Fundamentals</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3 - 6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">English Learning 1-4</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3-6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">Coding</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3-6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">Engineering</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3-6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">Life Coaching for EL3</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3-6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">Life Coaching for EL4</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
-								<li class="class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="class_box_type_01--desc">
-										<div class="text--gray">
-											<p class="age">Grade 3-6</p>
-											<p class="times">60 Minutes</p>
-										</div>
-										<p class="title_r_03">Environmental Science</p>
-										<span class="class_type">Hybrid</span>
-									</div>
-								</li>
+								<% for(const course of courses) { %>
+								 <%- include('partials/course_list_item', { course }) %>
+								<% } %>
 							</ul>
 						</div>
 						<!-- courses_type_box :: end -->
@@ -318,4 +138,32 @@
     <%- include("partials/footer") %>
 		<%- include("partials/common_popup") %>
 </div>
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+<script>
+	const courseTemplate = `<%- include("partials/course_list_item", { course: null }); %>`;
+	const teachers = <%- JSON.stringify(teachers) %>;
+	const courses = <%- JSON.stringify(courses) %>;
+	$(function(){
+		const type = 'elementary';
+		const limit = 0;
+		renderCourse(type, limit);
+		
+		// 필터 클릭시
+		$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+			const on = this.checked;
+			const value = this.value;
+			const option = this.dataset.option;
+			courseFilter(option, value, on);
+			renderCourse(type, limit);
+		});
+
+		// sort
+		$('.sort_by_box .sort_kind_item a').click(function() {
+			courseSort = this.dataset.value;
+		});
+	});
+</script>
 <%- include("partials/body_end") %>

@@ -1,7 +1,13 @@
 
-<li class="class_box_type_01--item" data-id="<%-course?.courseId-%>">
+<li class="class_box_type_01--item" 
+  data-id="<%-course?.courseId-%>" 
+  data-type="<%-course?.type-%>"
+  data-location="<%-course?.location-%>"
+  data-program="<%-course?.program-%>"
+  data-age="<%-course?.age-%>"
+  >
   <div class="class_box_type_01--img">
-    <img src="<%-course?.thumbnail-%>" onError="this.src='/images/common/none_img.png'" alt="<%-course?.name-%> thumbnail">
+    <a href="/program/<%-course?.courseId-%>"><img src="<%-course?.thumbnail-%>" onError="this.src='/images/common/none_img.png'" alt="<%-course?.name-%> thumbnail"></a>
   </div>
   <div class="class_box_type_01--desc">
     <div class="text--gray">
@@ -9,6 +15,6 @@
       <p class="times"><%-course?.runtime-%></p>
     </div>
     <p class="title_r_03"><%-course?.name-%></p>
-    <span class="class_type"><%-course?.courseType-%></span>
+    <span class="class_type"><%-course?.type-%></span>
   </div>
 </li>
