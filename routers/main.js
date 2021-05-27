@@ -1,16 +1,17 @@
 const express = require('express');
 const router = express.Router();
 
-const teacherData = require('../data/point-avenue/about-us/teachers.json');
 // const helpers = require('../helpers/functions.js');
 // const WPAPI = require( 'wpapi' );
 // const wp = new WPAPI({ endpoint: 'https://www.pointavenue.com/wp-json/' });
 
 router.get('/', (req, res) => {
-  res.render('index');
+  const news = require('../data/point-avenue/news/news.json');
+  res.render('index', {news});
 });
 
 router.get('/about-us', (req, res) => {
+  const teacherData = require('../data/point-avenue/about-us/teachers.json');
   res.render('about-us', { teachers: teacherData });
 });
 

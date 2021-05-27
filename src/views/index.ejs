@@ -315,48 +315,32 @@
 					<h3 class="title_r_02 section_title">News</h3>
 					<div class="swiper-container">
 						<ul class="swiper-wrapper box_type_01 news_list">
+						<% for ( let i = 0; i < news.length; i++ ) { %> 
 							<li class="swiper-slide box_type_01--item news_item">
 								<div class="box_type_01--img news_img">
-									<a href="#">
-										<img src="/images/main/news_01.png" alt="">
+									<% 
+										let type;
+										if (news[i].type === 'Article') type = 'articles';
+										if (news[i].type === 'Newsletter') type = 'newsletter'
+										if (news[i].type === 'Testimonials') type = 'testimonials';
+									%>
+									<a href="/news/<%= type %>/<%= news[i].id %>">
+										<img src="<%=  news[i].thumbnail.imageUrl %>" alt="<%= news[i].title %>">
 									</a>
 								</div>
 								<div class="box_type_01--desc news_desc_box">
-									<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
-									<div class="desc_text">In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]</div>
-									<a href="#" class="btn_type_01--sec">
+									<p class="title_r_03">
+										<a href="/news/<%= type %>/<%= news[i].id %>"><%= news[i].title %></a>
+									</p>
+									<div class="desc_text">
+										<a href="/news/<%= type %>/<%= news[i].id %>"><%= news[i].thumbnail.excerpt %></a>
+									</div>
+									<a href="/news/<%= type %>/<%= news[i].id %>" class="btn_type_01--sec">
 										<span class="btn_inner">Learn More</span>
 									</a>
 								</div>
 							</li>
-							<li class="swiper-slide box_type_01--item news_item">
-								<div class="box_type_01--img news_img">
-									<a href="#">
-										<img src="/images/main/news_02.png" alt="">
-									</a>
-								</div>
-								<div class="box_type_01--desc news_desc_box">
-									<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
-									<div class="desc_text">With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}</div>
-									<a href="#" class="btn_type_01--sec">
-										<span class="btn_inner">Learn More</span>
-									</a>
-								</div>
-							</li>
-							<li class="swiper-slide box_type_01--item news_item">
-								<div class="box_type_01--img news_img">
-									<a href="#">
-										<img src="/images/main/news_03.png" alt="">
-									</a>
-								</div>
-								<div class="box_type_01--desc news_desc_box">
-									<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
-									<div class="desc_text">COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]</div>
-									<a href="#" class="btn_type_01--sec">
-										<span class="btn_inner">Learn More</span>
-									</a>
-								</div>
-							</li>
+						<% } %> 
 						</ul>
 						<!-- Add Pagination -->
     					<div class="swiper-pagination"></div>

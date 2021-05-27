@@ -105,12 +105,28 @@
 						<!-- main news(가장 큰 뉴스 기사) -->
 						<div class="main_article">
 							<div class="article_box">
+								<% 
+										let type;
+										if (news[0].type === 'Article') type = 'articles';
+										if (news[0].type === 'Newsletter') type = 'newsletter'
+										if (news[0].type === 'Testimonials') type = 'testimonials';
+								%>
 								<div class="img_box">
-									<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
+									<a href="/news/<%= type %>/<%= news[0].id %>">
+										<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
+									</a>
 								</div>
 								<!-- <h3 class="title_r_02 section_title_02">Meeting Point Avenue’s Top SAT Scorers</h3> -->
-								<h3 class="title_r_02 section_title_02"><%- news[0].title %></h3>
-								<p class="text--gray"><%- news[0].thumbnail.excerpt %></p>
+								<h3 class="title_r_02 section_title_02">
+									<a href="/news/<%= type %>/<%= news[0].id %>">
+										<%- news[0].title %>
+									</a>
+								</h3>
+								<p class="text--gray">
+									<a href="/news/<%= type %>/<%= news[0].id %>">
+										<%- news[0].thumbnail.excerpt %>
+									</a>
+								</p>
 								<!-- <p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p> -->
 								<!-- <p class="text--gray"></p> -->
 							</div>
@@ -134,48 +150,29 @@
 			
 								%>
 								<% for ( let i = 0; i < filteredNews.length; i++){ %>
+								<% 
+										let type;
+										if (filteredNews[i].type === 'Article') type = 'articles';
+										if (filteredNews[i].type === 'Newsletter') type = 'newsletter'
+										if (filteredNews[i].type === 'Testimonials') type = 'testimonials';
+								%>
                   <li>
                     <div class="img_box">
-                      <img src="<%= filteredNews[i].thumbnail.imageUrl %>" alt="<%= filteredNews[i].title %>">
+                      <a href="/news/<%= type %>/<%= filteredNews[i].id %>">
+												<img src="<%= filteredNews[i].thumbnail.imageUrl %>" alt="<%= filteredNews[i].title %>">
+											</a>
                     </div>
                     <div class="text_box">
                       <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p>
                       <div class="flag_type_02"><%= filteredNews[i].type %></div>
-                      <p class="title_r_03"><%= filteredNews[i].title %></p>
+                      <p class="title_r_03">
+												<a href="/news/<%= type %>/<%= filteredNews[i].id %>">
+													<%= filteredNews[i].title %>
+												</a>
+											</p>
                     </div>
                   </li>
                 <% } %>
-
-								<!-- <li>
-									<div class="img_box">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="text_box">
-										<p class="text--gray date">03/07/2021</p>
-										<div class="flag_type_02">News</div>
-										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-									</div>
-								</li>
-								<li>
-									<div class="img_box">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="text_box">
-										<p class="text--gray date">03/07/2021</p>
-										<div class="flag_type_02">Events</div>
-										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-									</div>
-								</li>
-								<li>
-									<div class="img_box">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="text_box">
-										<p class="text--gray date">03/07/2021</p>
-										<div class="flag_type_02">Aritcles</div>
-										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-									</div>
-								</li> -->
 							</ul>
 						</div>
 					</div>
@@ -253,15 +250,19 @@
 
 					%>
 					<ul class="box_type_01 courses_list">
-					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %> 
+					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %>
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<img src="<%= featuredNewsletter[i].thumbnail.imageUrl %>" alt="<%= featuredNewsletter[i].title %>">
+								<a href="/news/newsletter/<%= featuredNewsletter[i].id %>">
+									<img src="<%= featuredNewsletter[i].thumbnail.imageUrl %>" alt="<%= featuredNewsletter[i].title %>">
+								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03"><%- featuredNewsletter[i].title %></p>
+								<p class="title_r_03">
+									<a href="/news/newsletter/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
+								</p>
 								<div class="desc_text">
-									<%- featuredNewsletter[i].thumbnail.excerpt %> 
+									<a href="/news/newsletter/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].thumbnail.excerpt %></a>									
 								</div>
 								<a href="/news/newsletter/<%= featuredNewsletter[i].id %>" class="btn_type_01--sec">
 									<span class="btn_inner">Read More</span>
@@ -317,12 +318,16 @@
 					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
+								<a href="/news/articles/<%= featuredArticles[i].id %>">
+									<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
+								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03"><%- featuredArticles[i].title %></p>
+								<p class="title_r_03">
+									<a href="/news/articles/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
+								</p>
 								<div class="desc_text">
-									<%- featuredArticles[i].thumbnail.excerpt %> 
+									<a href="/news/articles/<%= featuredArticles[i].id %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
 								</div>
 								<a href="/news/articles/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
 									<span class="btn_inner">Read More</span>
