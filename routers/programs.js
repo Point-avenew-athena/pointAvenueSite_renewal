@@ -77,11 +77,12 @@ router.get('/test-preparation', function (req, res) {
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
   const course = courses.filter(course => course.courseId == courseId)[0];
+  const teachers = require('../src/data/about-us/teachers.json');
   let renderPath = 'course-detail';
   if(course.type === 'Offline') {
     renderPath = 'course-detail-offline';
   }
-  res.render(renderPath, { course })
+  res.render(renderPath, { course, teachers })
 });
 
 module.exports = router;

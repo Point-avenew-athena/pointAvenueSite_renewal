@@ -8,23 +8,45 @@
     "runtime" : "17 Weeks",
     "age" : "5-10",
     "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "students": 20000,
+    "level" : 2,
+    "desc" : [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
+      "",
+      "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
+      "",
+      "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
+    ],
     "online" : {
       "videoUrl" : "",
       "about" : "",
-      "level" : "",
       "mentor" : {
         "teacherid" : 1,
-        "mentorText" : ""
+        "mentorText" : [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
+          "",
+          "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
+          "",
+          "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
+        ]
       },
-      "desc" : "",
-      "resource" : [
+      "projectDesc": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
+        "",
+        "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
+        "",
+        "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
+      ],
+      "resources" : [
         { 
-          "path" : "",
-          "name" : ""
+          "path" : "https://arkedison-public-prod.s3.ap-northeast-2.amazonaws.com/lms/class/liveclass/1294/26c37156-4b38-4ab1-95fe-f12501135803.png",
+          "name" : "resource.jpg",
+          "size" : 5242880
         },
         { 
-          "path" : "",
-          "name" : ""
+          "path" : "https://arkedison-public-prod.s3.ap-northeast-2.amazonaws.com/lms/class/liveclass/1294/166386f7-e4f7-40a2-a0da-e499185e7dc3.png",
+          "name" : "resource2.jpg",
+          "size" : 6542880
         }
       ]
     }
@@ -100,6 +122,16 @@
         "name" : "",
         "address" : [
           "", ""
+        ]
+      },
+      "mentor" : {
+        "teacherid" : 1,
+        "mentorText" : [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
+          "",
+          "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
+          "",
+          "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
         ]
       }
     }

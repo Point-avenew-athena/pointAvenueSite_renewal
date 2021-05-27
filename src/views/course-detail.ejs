@@ -1,3 +1,7 @@
+<% 
+	const typeInfo = course[course.type.toLowerCase()]; 
+	const teacher = teachers.filter(teacher => teacher.id === typeInfo.mentor.teacherid)[0];
+%>
 <%- include("partials/head_start") %>
 <link rel="stylesheet" type="text/css" href="/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
@@ -5,10 +9,13 @@
 <link rel="stylesheet" type="text/css" href="/css/layout.css">
 <link rel="stylesheet" type="text/css" href="/css/sub.css">
 
+<script>
+	const course = <%-JSON.stringify(course)-%>;
+</script>
 <script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/main.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/course-detail.js"></script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 	<div class="wrap sub class_datail">
@@ -104,11 +111,7 @@
 							<!--About this Course :: start-->
 							<div class="tab_cont course_cont on">
 								<h3 class="title_r_02 section_title_02">About this Course</h3>
-								<div class="cont">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.<br><br>
-									Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.<br><br>
-									Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum.
-								</div>
+								<div class="cont"><%-course.desc.join('<br/>')-%></div>
 							</div>
 							<!--About this Course :: end-->
 							<!--About the Mentor:: start-->
@@ -117,9 +120,9 @@
 								<div class="cont">
 									<div class="mentor_box">
 										<img src="/images/sub/class-detail/mentor.png" alt="">
-										<p class="title_r_03 name">Charles Kim</p>
+										<p class="title_r_03 name"><%-teacher.name-%></p>
 									</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.</p>
+									<p><%-typeInfo.mentor.mentorText.join('<br/>')-%></p>
 								</div>
 							</div>
 							<!--About the Mentor:: end-->
@@ -127,7 +130,7 @@
 							<div class="tab_cont project_desc_cont">
 								<h3 class="title_r_02 section_title_02">Project Description</h3>
 								<div class="cont">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum elit aenean scelerisque egestas vel viverra consequat sed nisl. Bibendum nec arcu, felis commodo. Consectetur mauris lorem varius et, urna. Maecenas est at at dolor faucibus in suspendisse viverra tempus. Porttitor eget nisi, sagittis pharetra semper in et enim curabitur. Bibendum netus nam sed nullam purus mattis. Ut dolor augue varius nunc leo eu at tincidunt. Purus nunc tempus et blandit feugiat nullam nulla scelerisque consequat. Quis libero, eget nisl habitasse. Arcu leo, in curabitur est. Morbi turpis eu, leo, ullamcorper quis. Non id quam purus ipsumquis. Non id quam purus ipsumquis. Non id quam purus ipsumquis....</p>
+									<p><%-typeInfo.projectDesc.join('<br/>')-%></p>
 									<div class="btn_box--right">
 										<a href="#" class="btn_type_01--sec yellow"><span>See More</span></a>
 									</div>
@@ -135,18 +138,14 @@
 								<h3 class="title_r_02 section_title_02">Resources</h3>
 								<div class="flie_down_wrap">
 									<ul>
+										<% for(const resource of typeInfo.resources) { %>
 										<li class="file_item">
-											<a href="#" class="file_link">
-												<span class="title_r_03 file_name">Resource Name.zip</span>
-												<span class="file_size">5 MB</span>
+											<a href="<%-resource.path-%>" class="file_link">
+												<span class="title_r_03 file_name"><%-resource.name-%></span>
+												<span class="file_size"><%- Math.floor(resource.size / 1024 / 1024) -%> MB</span>
 											</a>
 										</li>
-										<li class="file_item">
-											<a href="#" class="file_link">
-												<span class="title_r_03 file_name">Resource Name.zip</span>
-												<span class="file_size">5 MB</span>
-											</a>
-										</li>
+										<% } %>
 									</ul>
 								</div>
 							</div>
@@ -166,7 +165,7 @@
 							<p class="unit_txt">Beginner Level</p>
 						</div>
 						<div class="student_wrap">
-							<p class="title_r_01 count">20,000</p>
+							<p class="title_r_01 count"><%- course.students -%></p>
 							<p class="unit_txt">Students</p>
 						</div>
 					</div>
