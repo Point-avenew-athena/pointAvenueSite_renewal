@@ -1,10 +1,9 @@
 [
   {
     "courseId" : 1,
-    "courseType" : "online",
+    "type" : "Online",
     "name" : "Elementary Debate (Intermediate)",
     "location" : "Hanoi - Cau Giay",
-    "grade" : "Elementary",
     "program" : "Elementary",
     "runtime" : "17 Weeks",
     "age" : "5-10",
@@ -32,13 +31,13 @@
   },  
   {
     "courseId" : 2,
-    "courseType" : "offline",
+    "type" : "Offline",
     "name" : "Elementary Debate (offline)",
-    "location" : "",
-    "grade" : "",
-    "program" : "",
-    "runtime" : "60 Minutes",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Elementary",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
     "offline" : {
       "videoUrl" : "",
       "overview" : "",
@@ -69,12 +68,279 @@
   },
   {
     "courseId" : 3,
-    "courseType" : "hybrid",
-    "name" : "Elementary Debate (hybrid)",
-    "location" : "",
-    "grade" : "",
-    "program" : "",
-    "runtime" : "60 Minutes",
+    "type" : "Hybrid",
+    "name" : "Middle School Debate (hybrid)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Middle & High School",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 4,
+    "type" : "Hybrid",
+    "name" : "High School Debate (hybrid)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Middle & High School",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 5,
+    "type" : "Online",
+    "name" : "Debate (online)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 6,
+    "type" : "Online",
+    "name" : "Debate (online)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Test Prep",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 7,
+    "type" : "Offline",
+    "name" : "Debate (online)",
+    "location" : "Hanoi - Long Bien",
+    "program" : "Test Prep",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 8,
+    "type" : "Hybrid",
+    "name" : "Debate (online)",
+    "location" : "Bangkok",
+    "program" : "Test Prep",
+    "runtime" : "17 Weeks",
+    "age" : "5-10",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 9,
+    "type" : "Offline",
+    "name" : "Debate (offline)",
+    "location" : "Bangkok",
+    "program" : "Test Prep",
+    "runtime" : "17 Weeks",
+    "age" : "16-18",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
+    "hybrird" : {
+      "videoUrl" : "",
+      "overview" : "",
+      "about" : {
+        "old" : "",
+        "reqire" : "",
+        "schedule" : "",
+        "hour" : ""
+      },
+      "objective" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "books" : {
+        "image" : "",
+        "strings" : [
+          "", ""
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 10,
+    "type" : "Offline",
+    "name" : "Debate (offline)",
+    "location" : "Bangkok",
+    "program" : "Test Prep",
+    "runtime" : "17 Weeks",
+    "age" : "16-18",
+    "thumbnail" : "/images/temp/course_thumbnail.jpg",
     "hybrird" : {
       "videoUrl" : "",
       "overview" : "",
