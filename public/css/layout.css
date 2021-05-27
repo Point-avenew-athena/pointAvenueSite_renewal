@@ -233,6 +233,8 @@
 .swipe_type_01 .swipe_type_01--item a{display: block;}
 .swipe_type_01 .swipe_type_01--img {position: relative; padding-top: 100%; overflow: hidden; }
 .swipe_type_01 .swipe_type_01--img img{position: absolute;top: 50%;left: 50%;width: 70%;height: auto;min-width: 70%;min-height: 70%;transform: translate(-50%, -50%); border-radius: 50%;}
+.swipe_type_01 .swipe_type_01--img .img_box{width:100%; overflow: hidden; position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width:calc(100% - 40px); min-width:-webkit-calc(100% - 40px);min-height:-webkit-calc(100% - 40px);transform: translate(-50%, -50%);-webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); border-radius: 50%;}
+.swipe_type_01 .swipe_type_01--img .img_box img{position: inherit;top:0; left:0; width:100%; height: auto; transform: translate(0); border-radius: 0;}
 .swipe_type_01 .swipe_type_01--desc{position: relative;min-height: 130px; margin-top: -20px; word-break: break-word;text-align: center; padding:0 10px;}
 .swipe_type_01 .swipe_type_01--desc .title_r_03--gray{margin-top: 10px;}
 
@@ -278,6 +280,9 @@
 		</div>
 	</div>
 */
+
+/*team_wrap(teacher)*/
+.team_wrap .swipe_type_01 .swipe_type_01--desc {padding-top:10px;}
 
 /* process_step_wrap */
 .process_step_wrap {padding:20px 0 40px;}
@@ -362,9 +367,9 @@
 .layer_popup {display: none;position: fixed; left:50%; top:200px; transform: translateX(-50%); width:1070px;   z-index:999; border: 1px solid #E5E5E5; border-radius: 20px; background: #fff;box-shadow: 5px 5px 10px #aaa;}
 .dim {display: none;position: fixed; left:0; top:0; width:100%; height: 100%; background:rgba(0,0,0,0.4); z-index: 900;}
 .layer_popup .popup_cont {padding:15px 70px;}
-.layer_popup .close_btn {position: absolute;display: inline-block; width:20px; height: 20px; right:0; top:-40px;}
-.layer_popup .close_btn:before {content:'';display: inline-block; width:20px; height: 2px; background: #000; transform: rotate(-45deg);}
-.layer_popup .close_btn:after {content:'';display: inline-block; width:20px; height: 2px; position: absolute; left:0; top:13px; background: #000; transform: rotate(45deg);}
+.layer_popup .close_btn {position: absolute;display: inline-block; width:40px; height: 40px; right:0; top:-40px;}
+.layer_popup .close_btn:before {content:'';display: inline-block; width:40px; height: 2px; background: #fff; transform: rotate(-45deg);}
+.layer_popup .close_btn:after {content:'';display: inline-block; width:40px; height: 2px; position: absolute; left:0; top:13px; background: #fff; transform: rotate(45deg);}
 /*contact_popup*/
 .contact_popup .contact_box {overflow: hidden; padding-bottom:20px; line-height: 1;}
 .contact_popup .contact_box .hotline{float: left; padding:10px 20px; text-align: center; border: 1px solid #F2B41B; color:#F2B41B; border-radius: 20px; font-size: 16px;}
@@ -381,6 +386,14 @@
 .mentor_popup .mentor_img_box p {margin-top: 15px;}
 .mentor_popup .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
+
+/*cases_tudies_popup*/
+.case_studies_popup {width:770px;}
+.case_studies_popup .popup_cont {overflow: hidden; padding:50px 70px;}
+.case_studies_popup .case_studies_img_box{float: left; width:30%;text-align: center;}
+.case_studies_popup .case_studies_img_box img {}
+.case_studies_popup .case_studiesimg_box p {margin-top: 15px;}
+.case_studies_popup .case_studies_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
 /*testimonials_popup*/
 .testimonials_popup {width:650px;}
