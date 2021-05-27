@@ -1,22 +1,22 @@
 <div class="swipe_type_01_wrap">
   <div class="swiper-container">
     <ul class="swiper-wrapper swipe_type_01 team_list">
-      <% for ( let i = 0; i < teachers.length; i++) { %>
+      <% for ( let i = 0; i < teamMembers.length; i++) { %>
         <li class="swiper-slide swipe_type_01--item team_item">
           <a href="javascript:void(0);" 
-             data-id="<%= teachers[i].id %>" 
-             data-name="<%= teachers[i].name %>" 
-             data-position="<%= teachers[i].position %>" 
-             data-img="<%= teachers[i].img %>" 
+             data-id="<%= teamMembers[i].id %>" 
+             data-name="<%= teamMembers[i].name %>" 
+             data-position="<%= teamMembers[i].position %>" 
+             data-img="<%= teamMembers[i].img %>" 
           >
             <div class="swipe_type_01--img team_img">
               <div class="img_box">
-                <img src="<%= teachers[i].img %>" alt="<%= teachers[i].name %>">
+                <img src="<%= teamMembers[i].img %>" alt="<%= teamMembers[i].name %>">
               </div>
             </div>
             <div class="swipe_type_01--desc team_desc_box">
-              <p class="title_r_03"><%= teachers[i].name %></p>
-              <div class="title_r_03--gray"><%= teachers[i].position %></div>
+              <p class="title_r_03"><%= teamMembers[i].name %></p>
+              <div class="title_r_03--gray"><%= teamMembers[i].position %></div>
             </div>
           </a>
         </li>

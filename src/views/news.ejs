@@ -10,36 +10,6 @@
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
-<script>
-	const news = <%- JSON.stringify(news) %>;
-	
-	
-	// const SPOTLIGHT_NEWS = [3475, 3469, 3433, 3419, 2624, 2557]; //* 메인 가장 큰 기사 빼고
-	// const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)); 
-	// if(filteredNews == undefined) {
-	// 	alert('언디파인드')
-	// }
-	// console.log('filteredNews', filteredNews);
-	// filteredNews.forEach(item => {
-	// 	console.log(item);
-	// })
-	// console.log(news);
-	// console.log("datebytimezone", dateByTimezone);
-	// const moment = moment();
-// 	const dateByTimezone = (
-//   time,
-//   format = process.env.DEFAULT_DATEFORMAT,
-//   timezone = process.env.DEFAULT_TIMEZONE,
-// ) => {
-//   const timeFormat1 = moment.tz(time, timezone);
-//   const convertedDate = timeFormat1.format(format);
-//   return convertedDate;
-// };
-
-
-	// console.log(dateformat);/
-	//  console.log("dateByTimezone 값:", dateByTimezone("2021-04-21T10:54:25"))
-</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub news">
@@ -116,7 +86,6 @@
 										<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
 									</a>
 								</div>
-								<!-- <h3 class="title_r_02 section_title_02">Meeting Point Avenue’s Top SAT Scorers</h3> -->
 								<h3 class="title_r_02 section_title_02">
 									<a href="/news/<%= type %>/<%= news[0].id %>">
 										<%- news[0].title %>
@@ -127,8 +96,6 @@
 										<%- news[0].thumbnail.excerpt %>
 									</a>
 								</p>
-								<!-- <p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p> -->
-								<!-- <p class="text--gray"></p> -->
 							</div>
 						</div>
 	
@@ -270,34 +237,6 @@
 							</div>
 						</li>
 			<% } %> 
-						<!-- <li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
-								<div class="desc_text">
-									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
-								<div class="desc_text">
-									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li> -->
 					</ul>
 					<a href="/news/newsletter" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
@@ -313,7 +252,6 @@
 						const ARTICLE = [3622, 2917, 2557];
 						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
 					
-
 					%>
 					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
 						<li class="box_type_01--item courses_item">
@@ -335,34 +273,6 @@
 							</div>
 						</li>
 					<% } %> 
-						<!-- <li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
-								<div class="desc_text">
-									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
-								<div class="desc_text">
-									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li> -->
 					</ul>
 					<a href="/news/articles" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
@@ -374,30 +284,21 @@
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
 					<ul class="box_type_01 courses_list video_list">
-					<%
-							// const encodeURI = (uri) => (encodeURIComponent(uri))
-					%>
 					<% for ( let i = 0; i < tv.length; i++ ) { %>
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--video">
 								<div class="video_wrap">
-									<!-- <video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
-									</video> -->
-									<!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
 									<iframe src="<%=  tv[i].embeddedUrl %>" allowfullscreen></iframe>
 								</div>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
 								<div class="info">
-									<!-- <p class="date">16/3/2021</p> -->
 									<p class="date"><%= tv[i].date %> </p>
-									<!-- <p class="duration">Duration: 03:00</p> -->
 									<p class="duration">Duration: <%= tv[i].duration %></p>
 								</div>
-								<!-- <p class="title_r_03">Point Avenue - Steamology Team Introduction</p> -->								
-									<p class="title_r_03">
-										<a href="<%=  tv[i].blankUrl %>" target="_blank"><%=  tv[i].title %></a>
-									</p>
+								<p class="title_r_03">
+									<a href="<%=  tv[i].blankUrl %>" target="_blank"><%=  tv[i].title %></a>
+								</p>
 								</a>
 								<div class="desc_text">
 									<a href="<%=  tv[i].blankUrl %>" target="_blank"><%-  tv[i].excerpt %></a> 
@@ -408,48 +309,6 @@
 							</div>
 						</li>
 				<% } %>
-						<!-- <li class="box_type_01--item courses_item">
-							<div class="box_type_01--video">
-								<div class="video_wrap">
-									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
-									</video>
-								</div>
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
-									<p class="date">16/3/2021</p>
-									<p class="duration">Duration: 03:00</p>
-								</div>
-								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
-								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Watch Now</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--video">
-								<div class="video_wrap">
-									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
-									</video>
-								</div>
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
-									<p class="date">16/3/2021</p>
-									<p class="duration">Duration: 03:00</p>
-								</div>
-								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
-								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Watch Now</span>
-								</a>
-							</div>
-						</li> -->
 					</ul>
 					<a href="#" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
