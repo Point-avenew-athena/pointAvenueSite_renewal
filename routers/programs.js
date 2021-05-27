@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-// const test = require('../src/data/programs/dabate.json');
-const elementaryTeachersData = require('../src/data/programs/teachers/elementary.json');
-const middleHighTeachersData = require('../src/data/programs/teachers/middle-high.json');
-const testPrepTeachersData = require('../src/data/programs/teachers/test-prep.json');
-const debateTeachersData = require('../src/data/programs/teachers/debate.json');
+
+const elementaryTeachersData = require('../data/programs/teachers/elementary.json');
+const middleHighTeachersData = require('../data/programs/teachers/middle-high.json');
+const testPrepTeachersData = require('../data/programs/teachers/test-prep.json');
+const debateTeachersData = require('../data/programs/teachers/debate.json');
 
 router.get('/', function (req, res) {
   const courses = require('../src/data/courses')

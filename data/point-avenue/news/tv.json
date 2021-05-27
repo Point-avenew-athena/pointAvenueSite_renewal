@@ -1,0 +1,34 @@
+[
+{
+	"id" : 1, 		
+	"type" : "TV", 		
+	"title" : "Trại hè quốc tế Point Avenue: Huấn luyện thế hệ kiến tạo tương lai - Summer Leaders Camp 2021",
+  "excerpt": "There is no better leadership camp in Vietnam than Point Avenue's Summer Leaders Camp (SLC). Located at the base of Yen Tu mountain & designed by an incredible team of experts, SLC provides an immersive, technology limited (no cellphones) environment focused on personal growth through academic rigor, physical training, global citizenry, & character development.[&hellip;]",		
+	"embeddedUrl": "https://www.youtube.com/embed/XW5okcpY2S8",
+	"blankUrl": "https://www.youtube.com/watch?v=XW5okcpY2S8&t=8s",
+  "duration": "1:59", 
+	"date" : "18/03/2021",
+	"lang" : "en"		
+},
+{
+	"id" : 2, 		
+	"type" : "TV", 		
+	"title" : "A throwback to Summer Boot Camp - Trại Hè Tiếng Anh 2021",		
+  "excerpt": "A throwback to Summer Boot Camp Trại Hè Tiếng Anh 2021 của Point Avenue mang đến cho các em học sinh trải nghiệm học tập trong một môi trường hạn chế công nghệ, với trọng tâm là phát triển toàn diện từng học sinh thông qua những hoạt động học tập, rèn luyện thể chất và hoàn thiện nhân cách.[&hellip;]",		
+	"embeddedUrl": "https://www.youtube.com/embed/Yb5ihmLVfTU",
+	"blankUrl": "https://www.youtube.com/watch?v=Yb5ihmLVfTU&t=167s",
+  "duration": "3:47", 
+	"date" : "24/02/2021",
+	"lang" : "en"		
+},
+{
+	"id" : 3, 		
+	"type" : "TV", 		
+	"title" : "Trại hè Luyện thi chuyên sâu - 2021 Summer Test Preparation Intensive Camp",		
+  "excerpt": "With experience training hundreds of students to achieve an average score in the top 5% of the world, Point Avenue teachers will personalize the test prep roadmap for each student to help them quickly achieve their dream score.[&hellip;]",		
+	"embeddedUrl": "https://www.youtube.com/embed/B9Sks8Ic7yY",
+	"blankUrl": "https://www.youtube.com/watch?v=B9Sks8Ic7yY",
+  "duration": "2:44",
+	"date" : "26/03/2021",
+	"lang" : "en"		
+]

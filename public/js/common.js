@@ -152,5 +152,3 @@ function cleanupListOfTeacher(){
 function toggleScroll (state = true) {
 	state == true ? document.body.style.overflow= 'hidden' :  document.body.style.overflow = '';
 }
-
-

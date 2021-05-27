@@ -5,29 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <script>
-    const data = <%- JSON.stringify(data) %>
-
-    console.log(data)
-</script>
+  
 </head>
 <body>
   <h1>Newsletter 상세 페이지</h1>  
   <div id="newsletter-wrapper"> 
-    
+    <h1>id: <%= id %></h1>
   </div>
-  <!-- <script>
-    const newsletter = document.getElementById('newsletter-wrapper');
-
-    // data.map(item => {
-    //    newsletter.innerHTML +=`<p>${item.id}</p>`;
-    // })
-
-    data.map(item => {
-      newsletter.insertAdjacentHTML("beforeend", `<p>${item.name}</p>`)
-    })
-    
-   
-  </script> -->
+  
 </body>
 </html>

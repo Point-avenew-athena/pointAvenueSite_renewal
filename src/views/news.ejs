@@ -10,6 +10,36 @@
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
+<script>
+	const news = <%- JSON.stringify(news) %>;
+	
+	
+	// const SPOTLIGHT_NEWS = [3475, 3469, 3433, 3419, 2624, 2557]; //* 메인 가장 큰 기사 빼고
+	// const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)); 
+	// if(filteredNews == undefined) {
+	// 	alert('언디파인드')
+	// }
+	// console.log('filteredNews', filteredNews);
+	// filteredNews.forEach(item => {
+	// 	console.log(item);
+	// })
+	// console.log(news);
+	// console.log("datebytimezone", dateByTimezone);
+	// const moment = moment();
+// 	const dateByTimezone = (
+//   time,
+//   format = process.env.DEFAULT_DATEFORMAT,
+//   timezone = process.env.DEFAULT_TIMEZONE,
+// ) => {
+//   const timeFormat1 = moment.tz(time, timezone);
+//   const convertedDate = timeFormat1.format(format);
+//   return convertedDate;
+// };
+
+
+	// console.log(dateformat);/
+	//  console.log("dateByTimezone 값:", dateByTimezone("2021-04-21T10:54:25"))
+</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub news">
@@ -23,7 +53,7 @@
 				</div>
 				<div class="mobile_nav_body">
 					<ul>
-						<li class="gnb_menu_item"><a href="javascript:void(0);">Point Avenue</a>
+						<li class="gnb_menu_item"><a href="/">Point Avenue</a>
 							<ul class="sub_menu">
 								<li class="sub_menu_item"><a href="/about-us">About Us</a></li>
 								<li class="sub_menu_item"><a href="/scholarship">Scholarship</a></li>
@@ -72,19 +102,51 @@
 			<section class="spotlight_wrap">
 				<div class="section_inner">
 					<div class="grid_type_wrap_01">
+						<!-- main news(가장 큰 뉴스 기사) -->
 						<div class="main_article">
 							<div class="article_box">
 								<div class="img_box">
-									<img src="/images/common/none_img.png" alt="">
+									<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
 								</div>
-								<h3 class="title_r_02 section_title_02">Meeting Point Avenue’s Top SAT Scorers</h3>
-								<p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p>
+								<!-- <h3 class="title_r_02 section_title_02">Meeting Point Avenue’s Top SAT Scorers</h3> -->
+								<h3 class="title_r_02 section_title_02"><%- news[0].title %></h3>
+								<p class="text--gray"><%- news[0].thumbnail.excerpt %></p>
+								<!-- <p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p> -->
+								<!-- <p class="text--gray"></p> -->
 							</div>
 						</div>
+	
 						<div class="sub_article">
 							<h3 class="title_r_02 section_title">Spotlight</h3>
-							<ul>
-								<li>
+							<ul style="overflow-y: scroll;height: 473px;">
+								<% 
+										const SPOTLIGHT_NEWS = [3475, 3469, 3433, 3419, 2624, 2557]; //* 메인 가장 큰 기사 빼고
+										const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)); 
+
+										function formateDate(d){
+											const day = new Date(d),
+														year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+														month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+														date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day)
+
+											return `${date}/${month}/${year}`;
+										}
+			
+								%>
+								<% for ( let i = 0; i < filteredNews.length; i++){ %>
+                  <li>
+                    <div class="img_box">
+                      <img src="<%= filteredNews[i].thumbnail.imageUrl %>" alt="<%= filteredNews[i].title %>">
+                    </div>
+                    <div class="text_box">
+                      <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p>
+                      <div class="flag_type_02"><%= filteredNews[i].type %></div>
+                      <p class="title_r_03"><%= filteredNews[i].title %></p>
+                    </div>
+                  </li>
+                <% } %>
+
+								<!-- <li>
 									<div class="img_box">
 										<img src="/images/common/none_img.png" alt="">
 									</div>
@@ -113,13 +175,13 @@
 										<div class="flag_type_02">Aritcles</div>
 										<p class="title_r_03">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
 									</div>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="event_wrap">
+			<!-- <section class="event_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Events</h3>
 					<ul class="box_type_01 courses_list">
@@ -176,27 +238,38 @@
 						<span class="btn_inner">View All</span>
 					</a>
 				</div>
-			</section>
+			</section> -->
 			
 			<section class="newsletter_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Newsletter</h3>
+					<% 
+						const NEWSLETTERS = [3144, 2845, 2847];
+						const featuredNewsletter = news.filter(item => NEWSLETTERS.some(id => id === item.id)); 
+						
+						// 3144 Newsletter On Point – Issue 4
+						// 2845 Newsletter On Point – Issue 3
+						// 2847  Newsletter On Point – Issue 2
+
+					%>
 					<ul class="box_type_01 courses_list">
+					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %> 
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
+								<img src="<%= featuredNewsletter[i].thumbnail.imageUrl %>" alt="<%= featuredNewsletter[i].title %>">
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
+								<p class="title_r_03"><%- featuredNewsletter[i].title %></p>
 								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+									<%- featuredNewsletter[i].thumbnail.excerpt %> 
 								</div>
-								<a href="#" class="btn_type_01--sec">
+								<a href="/news/newsletter/<%= featuredNewsletter[i].id %>" class="btn_type_01--sec">
 									<span class="btn_inner">Read More</span>
 								</a>
 							</div>
 						</li>
-						<li class="box_type_01--item courses_item">
+			<% } %> 
+						<!-- <li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
 								<img src="/images/common/none_img.png" alt="">
 							</div>
@@ -223,9 +296,9 @@
 									<span class="btn_inner">Read More</span>
 								</a>
 							</div>
-						</li>
+						</li> -->
 					</ul>
-					<a href="#" class="btn_type_01 view">
+					<a href="/news/newsletter" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
 					</a>
 				</div>
@@ -235,21 +308,29 @@
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Articles</h3>
 					<ul class="box_type_01 courses_list">
+					<% 
+						const ARTICLE = [3622, 2917, 2557];
+						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
+					
+
+					%>
+					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<img src="/images/common/none_img.png" alt="">
+								<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
+								<p class="title_r_03"><%- featuredArticles[i].title %></p>
 								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+									<%- featuredArticles[i].thumbnail.excerpt %> 
 								</div>
-								<a href="#" class="btn_type_01--sec">
+								<a href="/news/articles/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
 									<span class="btn_inner">Read More</span>
 								</a>
 							</div>
 						</li>
-						<li class="box_type_01--item courses_item">
+					<% } %> 
+						<!-- <li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
 								<img src="/images/common/none_img.png" alt="">
 							</div>
@@ -276,9 +357,9 @@
 									<span class="btn_inner">Read More</span>
 								</a>
 							</div>
-						</li>
+						</li> -->
 					</ul>
-					<a href="#" class="btn_type_01 view">
+					<a href="/news/articles" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
 					</a>
 				</div>
@@ -288,7 +369,41 @@
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
 					<ul class="box_type_01 courses_list video_list">
+					<%
+							// const encodeURI = (uri) => (encodeURIComponent(uri))
+					%>
+					<% for ( let i = 0; i < tv.length; i++ ) { %>
 						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--video">
+								<div class="video_wrap">
+									<!-- <video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
+									</video> -->
+									<!-- <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+									<iframe src="<%=  tv[i].embeddedUrl %>" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<!-- <p class="date">16/3/2021</p> -->
+									<p class="date"><%= tv[i].date %> </p>
+									<!-- <p class="duration">Duration: 03:00</p> -->
+									<p class="duration">Duration: <%= tv[i].duration %></p>
+								</div>
+								<!-- <p class="title_r_03">Point Avenue - Steamology Team Introduction</p> -->								
+									<p class="title_r_03">
+										<a href="<%=  tv[i].blankUrl %>" target="_blank"><%=  tv[i].title %></a>
+									</p>
+								</a>
+								<div class="desc_text">
+									<a href="<%=  tv[i].blankUrl %>" target="_blank"><%-  tv[i].excerpt %></a> 
+								</div>
+								<a href="<%= tv[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
+									<span class="btn_inner">Watch Now</span>
+								</a>
+							</div>
+						</li>
+				<% } %>
+						<!-- <li class="box_type_01--item courses_item">
 							<div class="box_type_01--video">
 								<div class="video_wrap">
 									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
@@ -329,28 +444,7 @@
 									<span class="btn_inner">Watch Now</span>
 								</a>
 							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--video">
-								<div class="video_wrap">
-									<video src="" playsinline="" class="video-bg" poster="/images/common/none_video_img.png">
-									</video>
-								</div>
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
-									<p class="date">16/3/2021</p>
-									<p class="duration">Duration: 03:00</p>
-								</div>
-								<p class="title_r_03">Point Avenue - Steamology Team Introduction</p>
-								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Watch Now</span>
-								</a>
-							</div>
-						</li>
+						</li> -->
 					</ul>
 					<a href="#" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
