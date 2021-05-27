@@ -1,2 +1,44 @@
-Article 상세 페이지
-id: <%= id %>
+<%- include("../../partials/head_start") %>
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+<script>
+  const singleNewsPost = <%- JSON.stringify(singleNewsPost) %>;
+</script>
+<%- include("../../partials/head_end") %>
+<%- include("../../partials/body_start") %>
+	<div class="wrap sub article">
+    <%- include("../../partials/gnb") %>
+    <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+          <% 
+            const type = singleNewsPost[0].type,
+                  title = singleNewsPost.title,
+                  contents = singleNewsPost[0].contents;
+          %>
+					<div class="text_box">
+						<div class="flag_type_02"><%= type %></div>
+						<h2 class="title_r_01"><%=  title %></h2>
+					</div>
+				</div>
+			</section>
+			<section class="article_wrap">
+				<div class="section_inner">
+          <%- contents %> 
+				</div>
+			</section>			
+		</div>
+		<!--container :: end-->
+    <%- include("../../partials/footer") %>
+		<%- include("../../partials/common_popup") %>
+  </div>

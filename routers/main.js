@@ -35,28 +35,24 @@ router.get('/news', (req, res) => {
 });
 
 //* newsletter 리스트 페이지
-router.get('/news/newsletter/', (req, res) => {
+router.get('/news/list/newsletter', (req, res) => {
   res.render('news/newsletter/index');
 });
 
-//* newsletter 개별 포스트
-router.get('/news/newsletter/:id', (req, res) => {
-  // res.send(`newsletter's id : ${req.params.id}`);
-  res.render('news/newsletter/newsletter-detail', {
-    id: req.params.id
+//* newsletter / articles 개별 포스트
+router.get('/news/:id', (req, res) => {
+  const news = require('../data/point-avenue/news/news.json');
+  const singlePost = news.filter((news) => (news.id == req.params.id));
+
+  res.render('news/news-single-post', {
+    singlePost
   });
 });
 
 //* articles 리스트 페이지
-router.get('/news/articles/', (req, res) => {
+router.get('/news/list/articles/', (req, res) => {
   res.render('news/articles/index');
 });
 
-
-//* articles 개별 포스트
-router.get('/news/articles/:id', (req, res) => {
-  res.render('news/articles/article-detail', { id: req.params.id})
-  // res.send(`article's id : ${req.params.id}`);
-});
 
 module.exports = router;
