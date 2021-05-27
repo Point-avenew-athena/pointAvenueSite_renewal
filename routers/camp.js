@@ -6,7 +6,7 @@ router.get('/', function (req, res) {
 })
 
 router.get('/summer-boarding-camp', function (req, res) {
-  res.render('Summer-boarding-camp')
+  res.render('summer-boarding-camp')
 })
 
 router.get('/summer-day-camp', function (req, res) {
