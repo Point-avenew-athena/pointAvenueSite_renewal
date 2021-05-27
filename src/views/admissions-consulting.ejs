@@ -9,8 +9,12 @@
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
+<script>
+	const studies = <%- JSON.stringify(studies) %>;
+</script>
 <div class="wrap sub admission_consulting">
   <%- include("partials/gnb") %>
     <!-- container :: start -->
@@ -25,26 +29,16 @@
 			<section class="info_wrap">
 				<div class="section_inner">
 					<div class="grid_type_wrap_01">
-						<div class="img_wrap">
-							<div class="swiper-container">
-								<ul class="swiper-wrapper">
-									<li class="swiper-slide"><img src="/images/common/none_img.png" alt=""></li>
-									<li class="swiper-slide"><img src="/images/common/none_img.png" alt=""></li>
-									<li class="swiper-slide"><img src="/images/common/none_img.png" alt=""></li>
-									<li class="swiper-slide"><img src="/images/common/none_img.png" alt=""></li>
-									<li class="swiper-slide"><img src="/images/common/none_img.png" alt=""></li>
-								</ul>
-								<div class="swiper-pagination"></div>
-							</div>
+						<div class="video_wrap">
+							<iframe src="https://www.youtube.com/embed/GffbzanqjDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 						<div class="text_wrap">
 							<p class="title_r_02 section_title">What We Do</p>
 							<div class="text">
-								Our mission is to not only help students gain admissions into their top choice and best-fit schools, it is to develop future global citizens. Citizens that care and contribute to their communities, are confident in themselves, and achieve success with integrity.<br><br>
-								College is a stepping stone for the rest of your life. Make sure you make that step with the best version of yourself.
+								Our mission is to not only help students gain admissions into their top choice and best-fit schools, it is to develop future global citizens. Citizens that care and contribute to their communities, are confident in themselves, and achieve success with integrity.
+								<br><br>College is a stepping stone for the rest of your life. Make sure you make that step with the best version of yourself.
 							</div>
-							<p class="title_r_03">Sign up for a FREE consultation</p>
-							<a href="#" class="btn_type_01--sec">Sign Up Now</a>
+							<a href="https://pointavenue1.typeform.com/to/yRnoQYED" target="_blank" class="btn_type_01--sec"><span>Sign up for a FREE consultation</span></a>
 						</div>
 					</div>
 				</div>
@@ -52,106 +46,71 @@
 			<section class="approach_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Our Approach</h3>
-					<div class="process_step_wrap">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper process_step_list">
-								<li class="swiper-slide process_step_item">
-									<div class="step">Step 1: Lorem ipsum</div>
-									<div class="tooltip_box">
-										<p class="title_r_01">01.</p>
-										<div class="desc_box">
-											<p class="title_r_03 title">Lorem ipsum</p>
-											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
-										</div>
-									</div>
-									<div class="icon_box">
-										<img src="/images/sub/point-avenue/careers/process_01.png" alt="">
-									</div>
+					<div class="approach_box">
+						<div class="step_list">
+							<ul class="ul_type_03">
+								<li>
+									<strong>Step 1) The Relationship</strong>
+									Luke Skywalker and Obi-Wan Kenobi. Christian Dior and Yves-Saint Laurent. Socrates and Plato.
+									Every great mentorship story starts with a great relationships, and that's where we start. We take the time to understand and empathize with our students--your quirks, interests, passions, dislikes, and more--which becomes the foundation for the future.
 								</li>
-								<li class="swiper-slide process_step_item">
-									<div class="step">Step 2: Lorem ipsum</div>
-									<div class="tooltip_box">
-										<p class="title_r_01">02.</p>
-										<div class="desc_box">
-											<p class="title_r_03 title">Lorem ipsum</p>
-											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
-										</div>
-									</div>
-									<div class="icon_box">
-										<img src="/images/sub/point-avenue/careers/process_02.png" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide process_step_item">
-									<div class="step">Step 3:  Lorem ipsum</div>
-									<div class="tooltip_box">
-										<p class="title_r_01">03.</p>
-										<div class="desc_box">
-											<p class="title_r_03 title">Lorem ipsum</p>
-											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
-										</div>
-									</div>
-									<div class="icon_box">
-										<img src="/images/sub/point-avenue/careers/process_03.png" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide process_step_item">
-									<div class="step">Step 4:  Lorem ipsum</div>
-									<div class="tooltip_box">
-										<p class="title_r_01">04.</p>
-										<div class="desc_box">
-											<p class="title_r_03 title">Lorem ipsum</p>
-											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
-										</div>
-									</div>
-									<div class="icon_box">
-										<img src="/images/sub/point-avenue/careers/process_04.png" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide process_step_item">
-									<div class="step">Step 5:  Lorem ipsum</div>
-									<div class="tooltip_box">
-										<p class="title_r_01">05.</p>
-										<div class="desc_box">
-											<p class="title_r_03 title">Lorem ipsum</p>
-											<p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing ellt, sed diam nonummy nibh euismod</p>
-										</div>
-									</div>
-									<div class="icon_box">
-										<img src="/images/sub/point-avenue/careers/process_05.png" alt="">
-									</div>
+								<li>
+									<strong>Step 2) The Plan</strong>
+									Once we understand you, we collaborate on and create a strategically mapped roadmap for testing, projects, and more to maximize your potential and achieve your goals. We'll specifically focus on developing a unique "Stand-Out Factor" special to you, and will differentiate you from the competition.
 								</li>
 							</ul>
-							<div class="swiper-pagination"></div>
+						</div>
+						<div class="img_box">
+							<img src="images/sub/admission-consulting/approach/approach_01.jpg" alt="">
 						</div>
 					</div>
+					<div class="approach_box approach_box_02">
+						<div class="step_list">
+							<ul class="ul_type_03">
+								<li>
+									<strong>Step 3) The Execution</strong>
+									Doing is the hardest part, and our team will be with you every step of the way to encourage, guide, and reflect on your progress in making your plan become a reality. At the end of day, you must achieve your goals!
+								</li>
+								<li>
+									<strong>Step 4) The Application</strong>
+									From choosing the right schools and programs, supporting you through every essay to preparing you for interviews, our mentorship team will support you with every aspect of the application process.
+									If you're wondering how you can pay for your education, we help with that too from finding scholarships to navigating the financial aid process.
+								</li>
+							</ul>
+						</div>
+						<div class="img_box">
+							<img src="images/sub/admission-consulting/approach/approach_02.jpg" alt="">
+						</div>
+					</div>
+					
 				</div>
 			</section>
 			<section class="results_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Our Results</h3>
-					<p class="text">Since 2018, we have helped hundreds of students from Asia and the United States gain admissions to not only their top-choice, but best-fit boarding schools, universities and graduate programs. Some notable results include:<br>
-					MIT, Stanford University, Princeton University, University of Cambridge, University of Chicago, Johns Hopkins University, Northwestern University, </p>
+					<p class="text">Since 2018, we have helped hundreds of students from Asia and the United States gain admissions to not only their top-choice, but best-fit boarding schools and universities. <br>
+						> Total Financial Aid & Scholarships: 15 million USD </p>
 					<div class="swipe_type_01_wrap results_swiper_01">
 						<div class="swiper-container">
 							<ul class="swiper-wrapper swipe_type_02 team_list">
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/1024px-Columbia_University.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/1200px-Georgia_Tech.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/1200px-SAIC_logo.png" alt="">
 										</div>
 									</a>
 								</li>
@@ -159,28 +118,182 @@
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/Berkeley.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/Brown_University_Logo.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/Carnegie Mellon.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Universities/Columbia_University_shield.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/Davidson_College_logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/Duke_University.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/harvard-university.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/kings college.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/kisspng-emory-university-school-of-medicine-goizueta-busin-university.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/kisspng-samuel-curtis-johnson-graduate-school-of-managemen-rose-leslie.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/London_School_of_Economics.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/MIT.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/northwestern-university-logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/nyu-logo-new-york-university2.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/pngjoy.com_scholastic-logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/pomona-college.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/pomona-college2.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/princeton-uni.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/stanford-uni.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/UCLA_Logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/university-of-cambridge-logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/University-of-Michigan-Logo.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/UniversityofPennsylvania.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/USC.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/vanderbilt uni.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Universities/villanova-logo.png" alt="">
 										</div>
 									</a>
 								</li>
@@ -197,21 +310,21 @@
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/12-POMFRET-SCHOOL.jpg" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Avon Old Farms School.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/berkshire-school.png" alt="">
 										</div>
 									</a>
 								</li>
@@ -219,28 +332,119 @@
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Blair-Academy-1.jpg" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Canterbury School.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Concord Academy.png" alt="">
 										</div>
 									</a>
 								</li>
 								<li class="swiper-slide swipe_type_02--item team_item">
 									<a href="#">
 										<div class="swipe_type_02--img team_img">
-											<img src="/images/common/none_img.png" alt="">
+											<img src="/images/sub/admission-consulting/Boarding Schools/deerfield_academy_FINAL.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Groton School.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Kimball Union Academy.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Milton Academy.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Northfield Mount Hernon.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Portsmouth-abbey-school-education-boarding-school-student.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/St Andrew School.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/st. michaels university school.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Tabor Academy.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Taft School.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/The Webb Schools.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/the-storm-king-school---usa_s3262.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Westminster_School.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="#">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/sub/admission-consulting/Boarding Schools/Williston School.jpg" alt="">
 										</div>
 									</a>
 								</li>
@@ -257,36 +461,15 @@
 			<section class="services_wrap">
 				<div class="section_inner">
 					<p class="title_r_02 section_title">Our Services</p>
-					<p class="text">We work with Grade 6 – post graduate students to help them apply for boarding schools, undergraduate programs, and graduate programs. While that’s our most basic and essential service, it’s really just the finish line. For students who are looking for more than just guidance on the application process, we help mentor and coach them in their journey to arrive at the application process as the best version of themselves. The following is an overview of the ways we help achieve that.</p>
+					<p class="text">Our team of experienced mentors work with Grade 7 – 12 students to help them apply for boarding schools and undergraduate programs in the US, UK, Canada and Australia. While that’s our most basic and essential service, it’s really just the finish line. For students who are looking for more than just guidance on the application process, we help mentor them to arrive at the application process as the best version of themselves through our personalized mentorship services.</p>
 					<div class="grid_type_wrap_02">
 						<div class="service_box service_box_01">
 							<div class="service_img_box">
-								<img src="/images/common/none_img.png" alt="">
+								<img src="/images/sub/admission-consulting/our_application_services_01.png" alt="">
 							</div>
 							<div class="service_text_box">
 								<p class="title_r_03 section_title_02">Mentorship Services</p>
-								<ul class="ul_type_02">
-									<li>School Selection</li>
-									<li>Major Selection</li>
-									<li>Activities Profile</li>
-									<li>Hook Development</li>
-									<li>Personal Statement</li>
-									<li>Supplemental Essays</li>
-									<li>Media Portfolio</li>
-									<li>Letter of Recommendation Guidance</li>
-									<li>Financial Reporting</li>
-									<li>Interview Preparation</li>
-									<li>Matriculation Guidance</li>
-									<li>Visa Application</li>
-								</ul>
-							</div>
-						</div>
-						<div class="service_box service_box_02">
-							<div class="service_img_box">
-								<img src="/images/common/none_img.png" alt="">
-							</div>
-							<div class="service_text_box">
-								<p class="title_r_03 section_title_02">Mentorship Services</p>
+								<p class="text">For younger students who are looking for more than just guidance on the application process, we coach them to become the best version of themselves through our personalized Mentorship Services. Services Include</p>
 								<ul class="ul_type_02">
 									<li>Growth Strategy</li>
 									<li>Coursework Management</li>
@@ -294,9 +477,29 @@
 									<li>Time Management</li>
 									<li>Soft Skills Development</li>
 									<li>Extracurricular Activity Guidance</li>
-									<li>Test Preparation Strategy</li>
 									<li>Competitive/Summer Program Sourcing</li>
 									<li>Independent Project Guidance</li>
+								</ul>
+							</div>
+						</div>
+						<div class="service_box service_box_02">
+							<div class="service_img_box">
+								<img src="/images/sub/admission-consulting/our_application_services_02.jpg" alt="">
+							</div>
+							<div class="service_text_box">
+								<p class="title_r_03 section_title_02">Application Services</p>
+								<p class="text">Our team of experienced mentors work with Grade 8 – 12 students to help them apply to the top universities and boarding schools in the US, UK, Canada and Australia. Services include:</p>
+								<ul class="ul_type_02">
+									<li>University & Subject Selection</li>
+									<li>Activities Profile</li>
+									<li>Personal Statement</li>
+									<li>Supplemental Essays</li>
+									<li>Test Preparation Strategy</li>
+									<li>Media Portfolio</li>
+									<li>Letter of Recommendation</li>
+									<li>Financial Aid Advice</li>
+									<li>Interview Preparation</li>
+									<li>Matriculation Guidance</li>
 								</ul>
 							</div>
 						</div>
@@ -307,95 +510,18 @@
 			<section class="case_studies_wrap">
 				<div class="section_inner">
 					<p class="title_r_02 section_title">Case Studies</p>
-					<div class="swipe_type_01_wrap">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper class_box_type_01">
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">Stanford University</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">Stanford University</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">Stanford University</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">Stanford University</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-								<li class="swiper-slide class_box_type_01--item">
-									<div class="class_box_type_01--img">
-										<img src="/images/common/none_img.png" alt="">
-									</div>
-									<div class="swiper-slide class_box_type_01--desc">
-										<div class="text">
-											<p class="title_r_03">My Le</p>
-											<p class="text--gray university">Stanford University</p>
-										</div>
-										<a href="#" class="btn_type_01 view yellow">Read More</a>
-									</div>
-								</li>
-							</ul>
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
-						</div>
-					</div>
+					<!-- case-studies 리스트 swiper-->
+					<%- include("partials/case-studies") %>
 				</div>
 			</section>
 			<section class="info_input_wrap">
-				<div class="section_inner--full">
-					<div class="write_box">
-						<h3 class="title_r_02">Sign Up for a FREE Consultation!</h3>
-						<div class="input_box">
-							<input type="text" class="name" placeholder="Your Name*">
-							<input type="text" class="phone" placeholder="Your Phone*">
-							<input type="text" class="email" placeholder="Your Email*">
-						</div>
-						<a href="#" class="btn_type_01--sec">
-							<span class="btn_inner">Register</span>
-						</a>
-					</div>
-				</div>
+				<div class="typeform-widget" data-url="https://form.typeform.com/to/wXI8gOLN?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
 			</section>
 			
 		</div>
 		<!--container :: end-->
+
+		
     <%- include("partials/footer") %>
 		<%- include("partials/common_popup") %>
 </div>

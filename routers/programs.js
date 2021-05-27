@@ -84,4 +84,4 @@ router.get('/:courseId', function (req, res) {
   res.render(renderPath, { course })
 });
 
-module.exports = router
+module.exports = router;

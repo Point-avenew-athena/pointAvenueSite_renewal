@@ -9,6 +9,10 @@
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/about-us.js"></script>
+
+<script>
+	const teachers = <%- JSON.stringify(teachers) %>;
+</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub about_us">
@@ -26,8 +30,7 @@
 				<div class="section_inner">
 					<div class="video_grid_wrap">
 						<div class="video_wrap">
-							<video src="" playsinline="" muted="" loop="" autoplay="" class="video-bg" poster="images/common/none_img.png"
-							></video>
+							<iframe src="https://www.youtube.com/embed/y4PjJAPArio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 						<div class="video_desc_wrap">
 							<div class="title_r_03 s_title">
@@ -47,82 +50,8 @@
 			<section class="team_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Meet Our Team</h3>
-					<div class="swipe_type_01_wrap">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper swipe_type_01 team_list">
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_01--item team_item">
-									<a href="#">
-										<div class="swipe_type_01--img team_img">
-											<img src="/images/common/none_img.png" alt="">
-										</div>
-										<div class="swipe_type_01--desc team_desc_box">
-											<p class="title_r_03">Name</p>
-											<div class="title_r_03--gray">Title</div>
-										</div>
-									</a>
-								</li>
-							</ul>
-
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
-						</div>
-					</div>
+					<!-- 선생 리스트 swiper-->
+					<%- include("partials/teacher-list") %>
 				</div>
 			</section>
 			
@@ -162,12 +91,20 @@
 								</li>
 								<li class="swiper-slide locations_item">
 									<p class="title_r_03 locations_title">
-										Cau Giay Campus
+										Steamology Com., Ltd District 2 Campus
 									</p>
 									<div class="locations_text">
-										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,
-										Cau Giay Dist., Ha Noi</p>
-										<p class="tel">024 3201 1841| 024 3381 2288</p>
+										<p class="address">135 No.5 Street, An Phu Ward, District 02, Ho Chi Minh, Vietnam, 700000</p>
+										<p class="tel">0315991241</p>
+									</div>
+								</li>
+								<li class="swiper-slide locations_item">
+									<p class="title_r_03 locations_title">
+										Steamology Com., Ltd District 7 Campus
+									</p>
+									<div class="locations_text">
+										<p class="address">426 Pham Thai Buong, Phu My Hung, District 7, Ho Chi Minh, Vietnam, 700000</p>
+										<p class="tel">0315991241</p>
 									</div>
 								</li>
 							</ul>
@@ -179,72 +116,28 @@
 					</div>
 				</div>
 			</section>
-			<section class="partners_wrap">
+			<section class="story_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Our Partners</h3>
-					<div class="partners_cont">
-						<ul>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-							<li>
-								<div class="img_item">
-									<img src="/images/common/none_img.png" alt="">
-								</div>
-							</li>
-						</ul>
+					<h3 class="title_r_02 section_title">Our Story</h3>
+					<div class="grid_type_wrap_02 story_cont">
+						<div class="info_box">
+							<p class="title_r_03">Point Avenue is a private education technology company that is headquartered in Hanoi, Vietnam and provides early childhood through university educational services across Southeast Asia.</p>
+							<p class="text">We have a successful track record from China and Korea with a mature curriculum and a set of products infused with technology infrastructure, coupled with a team of passionate and experienced educators.<br><br>
+ 
+							We believe in mentoring students in a holistic manner, utilizing a highly personalized approach to provide every student with tailored life and educational roadmaps.<br><br>
+
+							We deliver positive outcomes and facilitate every student's potential for future growth.</p>
+						</div>
+						<div class="img_box">
+							<div class="swiper-container">
+								<ul class="swiper-wrapper">
+									<li class="swiper-slide"><img src="images/sub/point-avenue/about-us/our_story_01.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/sub/point-avenue/about-us/our_story_02.png" alt=""></li>
+									<li class="swiper-slide"><img src="images/sub/point-avenue/about-us/our_story_03.png" alt=""></li>
+								</ul>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
