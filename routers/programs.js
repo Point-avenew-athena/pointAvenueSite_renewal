@@ -1,5 +1,10 @@
 const express = require('express');
 const router = express.Router();
+
+const elementaryTeachersData = require('../data/programs/teachers/elementary.json');
+const middleHighTeachersData = require('../data/programs/teachers/middle-high.json');
+const testPrepTeachersData = require('../data/programs/teachers/test-prep.json');
+const debateTeachersData = require('../data/programs/teachers/debate.json');
 const courses = require('../src/data/courses')
 const options = (courses) => [
   {
@@ -50,6 +55,24 @@ router.get('/', function (req, res) {
 })
 
 router.get('/elementary-courses', function (req, res) {
+<<<<<<< HEAD
+  res.render('elementary-course', { teamMembers: elementaryTeachersData });
+  // res.send('Courses > Elementary courses')
+});
+
+router.get('/middle-high-school-courses', function (req, res) {
+  res.render('middle-high-school-course', { teamMembers: middleHighTeachersData });
+  // res.send('Courses > Middle & Highschool courses')
+});
+
+router.get('/debate', function (req, res) {
+  res.render('debate-course', { teamMembers: debateTeachersData });
+});
+
+router.get('/test-preparation', function (req, res) {
+  // res.send('Courses > Test-preparation')
+  res.render('test-preparation', { teamMembers: testPrepTeachersData });
+=======
   const filterCourse = courses.filter(course => course.program === 'Elementary');
   const elementaryTeachersData = require('../src/data/programs/teachers/elementary.json');
   res.render('elementary-course', { options: options(filterCourse), courses: filterCourse, teachers: elementaryTeachersData });
@@ -83,6 +106,7 @@ router.get('/:courseId', function (req, res) {
     renderPath = 'course-detail-offline';
   }
   res.render(renderPath, { course, teachers })
+>>>>>>> 17af0eae2ff0e04760d8a7e99702a12cae5b3ed9
 });
 
 module.exports = router;
