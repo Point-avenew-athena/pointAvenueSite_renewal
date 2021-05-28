@@ -1,0 +1,49 @@
+[
+  {
+    "id" : 1,
+    "name" : "Cau Giay Campus",
+    "address" : "2nd & 3rd floor CT1 Building, Yen Hoa Park View, Cau Giay Dist., Ha Noi",
+    "tel" : [
+      "024 3201 1841",
+      "024 3381 2288"
+    ]
+  },
+  {
+    "id" : 2,
+    "name" : "Long Bien Campus",
+    "address" : "60 Chu Huy Man St., Sai Dong New Urban Area, Long Bien Dist., Ha Noi",
+    "tel" : [
+      "024 3204 7055",
+      "024 3204 7366"
+    ]
+  },
+  {
+    "id" : 3,
+    "name" : "Bangkok Campus",
+    "address" : "2nd & 3rd floor CT1 Building, Yen Hoa Park View,Cau Giay Dist., Ha Noi",
+    "tel" : [
+      "024 3201 1841",
+      "024 3381 2288"
+    ]
+  },
+  {
+    "id" : 4,
+    "name" : "CSI",
+    "address" : "135 No.5 Street, An Phu Ward, District 02, Ho Chi Minh, Vietnam, 700000",
+    "tel" : [
+      ""
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "CSI",
+    "address" : "426 Pham Thai Buong, Phu My Hung, District 7, Ho Chi Minh, Vietnam, 700000",
+    "tel" : [
+      ""
+    ]
+  }   
+    
+]
+  
+  
+  

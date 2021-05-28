@@ -1,0 +1,24 @@
+<div class="locations_cont">
+  <div class="swiper-container">
+    <ul class="swiper-wrapper locations_list">
+      <% for ( let i = 0; i < locations.length; i++) { %>
+        <li class="swiper-slide locations_item"> 
+          <p class="title_r_03 locations_title">
+            <%= locations[i].name %>
+          </p>
+          <div class="locations_text">
+            <p class="address"><%= locations[i].address %></p>
+            <p class="tel">
+              <sapn>
+                <%= locations[i].tel %>
+              </sapn>
+          </div>
+        </li>
+      <% } %>
+    </ul>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>

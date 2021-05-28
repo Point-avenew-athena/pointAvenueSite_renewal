@@ -12,7 +12,8 @@ router.get('/', (req, res) => {
 
 router.get('/about-us', (req, res) => {
   const teamMembers = require('../data/point-avenue/about-us/team-members.json');
-  res.render('about-us', { teamMembers });
+  const locations = require('../data/point-avenue/about-us/locations.json');
+  res.render('about-us', { teamMembers , locations });
 });
 
 router.get('/scholarship', (req, res) => {

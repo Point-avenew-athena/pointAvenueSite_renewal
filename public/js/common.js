@@ -180,26 +180,34 @@ function toggleScroll(state = true) {
 }
 
 //* Case studies 정보 팝업
-function changeStudiesData(data, studiesExpWrapper, clickedElem) {
-  const id = clickedElem.dataset.id;
-  const image = document.querySelector('.case_studies_img_box .img_box > img');
-
-  const name = document.querySelector('.case_studies_img_box p.title_r_03');
-  const school = document.querySelector('.case_studies_img_box p.text--gray');
-
-  experience = document.querySelector('.case_studies_info_box .ul_type_02');
-
-  data
-    .filter((teacher) => teacher.id == id)[0]
-    .info.forEach((info) => {
-      studiesExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
-    });
-
-  image.src = clickedElem.dataset.img;
-  name.textContent = clickedElem.dataset.name;
-  school.textContent = clickedElem.dataset.school;
+function changeStudiesData(data,
+  studiesExpWrapper,
+  clickedElem,
+  targets = {
+    image: '.case_studies_img_box .img_box > img',
+    name: '.case_studies_img_box p.title_r_03',
+    school: '.case_studies_img_box p.text--gray',
+    experience: '.case_studies_info_box .ul_type_02',
+  }) {
+    const id = clickedElem.dataset.id;
+    const image = document.querySelector(targets.image);
+  
+    const name = document.querySelector(targets.name);
+    const school = document.querySelector(targets.school);
+  
+    experience = document.querySelector(targets.experience);
+  
+    data
+      .filter((studies) => studies.id == id)[0]
+      .info.forEach((info) => {
+        studiesExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
+      });
+  
+    image.src = clickedElem.dataset.img;
+    name.textContent = clickedElem.dataset.name;
+    school.textContent = clickedElem.dataset.school;
 }
-//* 선생 정보 업데이트시
+//* Case studies 업데이트시
 function cleanupListOfStudies() {
   const listTags = Array.from(experience.children);
   listTags.forEach((item) => item.remove());
