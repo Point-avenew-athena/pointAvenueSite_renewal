@@ -33,4 +33,10 @@ $(function(){
 			}
 		}
 	});
+
+	/* title 클릭시, 활성화 */
+	$('.summer_day_camp .camp_info_wrap .text_article .title_r_02').click(function(){
+		$('.summer_day_camp .camp_info_wrap .text_article .title_r_02').removeClass('section_title');
+		$(this).addClass('section_title').parent('li').addClass('on').siblings().removeClass('on');
+	});
 });

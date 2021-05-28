@@ -5,8 +5,11 @@ $(document).ready(function(){
 			type: 'bullets',
 			el: '.swiper-pagination',
 			clickable: true
+		},
+		autoplay: {
+			delay: 5000,
 		}
-	});
+	});	
 	
 	var news_swiper = new Swiper('.news_wrap .swiper-container', {
 		slidesPerView: 3, 

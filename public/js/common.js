@@ -5,6 +5,9 @@ $(document).ready(function () {
     $('.contact_popup').show();
     $('.dim').fadeIn();
   });
+  $('.contact_popup .close_btn').click(function(){
+
+  });
 
   /*======== web :: start============*/
   $('header .gnb_cont .gnb_menu_item').hover(
@@ -62,10 +65,21 @@ $(document).ready(function () {
   //팝업 닫기 버튼 클릭시,
   $('.layer_popup .close_btn').click(function () {
     $(this).parents('.layer_popup').hide();
-    cleanupListOfTeacher();
-    toggleScroll(false);
     $('.dim').fadeOut();
   });
+
+  //선생 팝업 닫기 버튼 클릭시
+  $('.mentor_popup .close_btn').click(function(){
+    cleanupListOfTeacher();
+		toggleScroll(false);
+  });
+
+  //case-studies 팝업 닫기 버튼 클릭시
+  $('.case_studies_popup .close_btn').click(function(){
+    cleanupListOfStudies();
+		toggleScroll(false);
+  });
+
 
   /*====== classes filter 관련 script======*/
   //필터 옵션 클릭시, 상세 옵션 표출
