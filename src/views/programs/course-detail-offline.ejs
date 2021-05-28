@@ -1,0 +1,170 @@
+<%- include("../partials/head_start") %>
+	<title><%-course.name-%> - PointAve</title>
+	<meta name="keywords" content="PointAve, <%-course.keyword.join(',')-%>">
+	<meta name="description" content="<%-course.desc-%>">
+	<meta property="og:title" content="<%-course.name-%> - PointAve">
+	<meta property="og:description" content="<%-course.desc-%>">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="<%-course.thumbnail-%>">
+
+	<link rel="stylesheet" type="text/css" href="/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/layout.css">
+	<link rel="stylesheet" type="text/css" href="/css/sub.css">
+  <%- include("../partials/head_end") %>
+  <%- include("../partials/body_start") %>
+	<div class="wrap sub class_detail fundamentals">
+		<%- include("../partials/gnb") %>
+		<!-- container :: start -->
+		<div class="container">
+			<section class="title_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01"><%-course.name-%></h2>
+						<p class="text--gray"><span>Elementary English</span> | <span>Grade 1-5</span></p>
+					</div>
+				</div>
+			</section>
+			<section class="course_overview_wrap">
+				<div class="section_inner">
+					<div class="grid_type_wrap_01">
+						<div class="video_wrap">
+							<iframe height="429" src="<%-course.offline.videoUrl-%>" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+						</div>
+						<div class="video_desc_wrap">
+							<h3 class="title_r_02 section_title">Course Overview</h3>
+							<div class="text s_desc"><%-course.desc-%></div>
+							<div class="registration_box">
+								<p class="title_r_03"><%-course.offline.registrationText-%></p>
+								<div class="btn_box">
+									<a href="<%-course.offline.enroll-%>" class="btn_type_01--sec" target="_blank">Enroll now</a>
+									<!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about_course_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">About this Course</h3>
+					<div class="course_detail_box">
+						<ul>
+							<li>
+								<img src="/images/common/person_icon.png" alt="">
+								<p class="title_r_03"><%-course.age-%> years old</p>
+							</li>
+							<li>
+								<img src="/images/common/calendar_icon.png" alt="">
+								<p class="title_r_03"><%-course.weeks-%></p>
+								<p class="title_r_03"><%-course.duration-%></p>
+							</li>
+							<li>
+								<img src="/images/common/clock_icon.png" alt="">
+								<p class="title_r_03"><%-course.hour-%></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<% if(course.offline.objective) { %>
+			<section class="course_objective_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Course Objectives</h3>
+					<div class="img_box">
+						<img src="<%-course.offline.objective.image-%>" alt="">
+					</div>
+					<div class="objective_list">
+						<ul class="ul_type_03">
+							<% for(const obj of course.offline.objective.strings) { %>
+							<li><%-obj-%></li>
+							<% } %>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<% } %>
+
+			<% if(course.offline.books) { %>
+			<section class="course_books_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Course Books</h3>
+					<div class="img_box">
+						<img src="<%-course.offline.books.image-%>" alt="">
+					</div>
+					<div class="books_list">
+						<ul class="ul_type_03">
+							<% for(const book of course.offline.books.strings) { %>
+							<li><%-book-%></li>
+							<% } %>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<% } %>
+			<section class="locations_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Location Availability</h3>
+					<div class="locations_cont">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper locations_list">
+								<li class="swiper-slide locations_item">
+									<p class="title_r_03 locations_title">
+										Cau Giay Campus
+									</p>
+									<div class="locations_text">
+										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,
+										Cau Giay Dist., Ha Noi</p>
+										<p class="tel">024 3201 1841| 024 3381 2288</p>
+									</div>
+								</li>
+								<li class="swiper-slide locations_item">
+									<p class="title_r_03 locations_title">
+										Long Bien Campus
+									</p>
+									<div class="locations_text">
+										<p class="address">60 Chu Huy Man St., Sai Dong New Urban Area, Long Bien Dist., Ha Noi</p>
+										<p class="tel">024 3204 7055 | 024 3204 7366</p>
+									</div>
+								</li>
+								<li class="swiper-slide locations_item">
+									<p class="title_r_03 locations_title">
+										Bangkok Campus
+									</p>
+									<div class="locations_text">
+										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,Cau Giay Dist., Ha Noi</p>
+										<p class="tel">024 3201 1841| 024 3381 2288</p>
+									</div>
+								</li>
+								<li class="swiper-slide locations_item">
+									<p class="title_r_03 locations_title">
+										Cau Giay Campus
+									</p>
+									<div class="locations_text">
+										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,
+										Cau Giay Dist., Ha Noi</p>
+										<p class="tel">024 3201 1841| 024 3381 2288</p>
+									</div>
+								</li>
+							</ul>
+
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+		<%- include("../partials/footer") %>
+		<%- include("../partials/common_popup") %>
+	</div>
+
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
+  <%- include("../partials/body_end") %>

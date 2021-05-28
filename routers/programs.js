@@ -46,40 +46,40 @@ router.get('/', function (req, res) {
   const middleCourses = courses.filter(course => course.program === 'Middle & High School').splice(0, 3);
   const debateCourses = courses.filter(course => course.program === 'Debate').splice(0, 3);
   const testCourses = courses.filter(course => course.program === 'Test Prep').splice(0, 3);
-  res.render('programs', { options: options(courses), courses, elementaryCourses, middleCourses, testCourses, debateCourses });
+  res.render('programs/programs', { options: options(courses), courses, elementaryCourses, middleCourses, testCourses, debateCourses });
 })
 
 router.get('/elementary-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Elementary');
   const elementaryTeachersData = require('../data/programs/teachers/elementary.json');
-  res.render('elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
+  res.render('programs/elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
 });
 
 router.get('/middle-high-school-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Middle & High School');
   const middleHighTeachersData = require('../data/programs/teachers/middle-high.json');
-  res.render('middle-high-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
+  res.render('programs/middle-high-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
 });
 
 router.get('/debate', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Debate');
   console.log(filterCourse)
   const debateTeachersData = require('../data/programs/teachers/debate.json');
-  res.render('debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
+  res.render('programs/debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
 });
 
 router.get('/test-preparation', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Test Prep');
   const testPrepTeachersData = require('../data/programs/teachers/test-prep.json');
-  res.render('test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
+  res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
   const course = courses.filter(course => course.courseId == courseId)[0];
-  let renderPath = 'course-detail';
+  let renderPath = 'programs/course-detail';
   if(course.type === 'Offline') {
-    renderPath = 'course-detail-offline';
+    renderPath = 'programs/course-detail-offline';
   }
   res.render(renderPath, { course })
 });

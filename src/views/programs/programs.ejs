@@ -1,0 +1,132 @@
+<%- include("../partials/head_start") %>
+<title>All Courses - PointAve</title>
+<meta name="keywords" content="PointAve, SAT, English Learning">
+<meta name="description" content="We provide an end to end K-12 comprehensive one stop solution for all of your child’s educational needs.">
+<meta property="og:title" content="PointAve">
+<meta property="og:description" content="We provide an end to end K-12 comprehensive one stop solution for all of your child’s educational needs.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://pasite.paathena.com/images/sub/common/classes_visual.png">
+
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<%- include("../partials/head_end") %>
+<%- include("../partials/body_start") %>
+<div class="wrap sub classes">
+		<%- include("../partials/gnb") %>
+		<!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">ALL COURSES</h2>
+						<div class="text">We provide an end to end K-12 comprehensive one stop solution for all of your child’s educational needs.</div>
+					</div>
+				</div>
+			</section>
+			<section class="classes_grid_wrap">
+				<div class="section_inner">
+					<!-- option_wrap :: start -->
+					<%- include('../partials/course_filter'); %>
+					<!-- option_wrap :: end -->
+					<!-- courses_wrap :: start -->
+					<div class="courses_wrap">
+						<!-- <div class="sort_by_box">
+							<a href="javascript:void(0)" class="sort_item">Sort By</a>
+							<ul class="sort_kind_item">
+								<li><a href="javascript:void(0);" data-value='featured'>Featured</a></li>
+								<li><a href="javascript:void(0);" data-value='newest'>Newest</a></li>
+								<li><a href="javascript:void(0);" data-value='levelhl'>Class Level: High to Low</a></li>
+								<li><a href="javascript:void(0);" data-value='levellh'>Class Level: Low to High</a></li>
+							</ul>
+						</div> -->
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box elementary">
+							<p class="title_r_02">Elementary Courses</p>
+							<ul class="class_box_type_01">
+								<% for(const course of elementaryCourses) { %>
+									<%- include('../partials/course_list_item', { course }); %>
+								<% } %>
+							</ul>
+							<a href="/programs/elementary-courses" class="btn_type_01 view">
+								<span class="btn_inner">View All</span>
+							</a>
+						</div>
+						<!-- courses_type_box :: end -->
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box middlehigh">
+							<p class="title_r_02">Middle & High School Courses	</p>
+							<ul class="class_box_type_01">
+								<% for(const course of middleCourses) { %>
+									<%- include('../partials/course_list_item', { course }); %>
+								<% } %>
+							</ul>
+							<a href="/programs/middle-high-school-courses" class="btn_type_01 view">
+								<span class="btn_inner">View All</span>
+							</a>
+						</div>
+						<!-- courses_type_box :: end -->
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box debate">
+							<p class="title_r_02">Debate Courses</p>
+							<ul class="class_box_type_01">
+								<% for(const course of debateCourses) { %>
+									<%- include('../partials/course_list_item', { course }); %>
+								<% } %>
+							</ul>
+							<a href="/programs/debate" class="btn_type_01 view">
+								<span class="btn_inner">View All</span>
+							</a>
+						</div>
+						<!-- courses_type_box :: end -->
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box test">
+							<p class="title_r_02">Test Preparation Courses</p>
+							<ul class="class_box_type_01">
+								<% for(const course of testCourses) { %>
+									<%- include('../partials/course_list_item', { course }); %>
+								<% } %>
+							</ul>
+							<a href="/programs/test-preparation" class="btn_type_01 view">
+								<span class="btn_inner">View All</span>
+							</a>
+						</div>
+						<!-- courses_type_box :: end -->
+					</div>
+					<!-- courses_wrap :: end -->
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+
+		<%- include("../partials/footer") %>
+		<%- include("../partials/common_popup") %>
+	</div>
+	<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+	<script>
+		const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
+		const courses = <%- JSON.stringify(courses) %>;
+		$(function(){
+			renderCourses(3)
+			
+			// 필터 클릭시
+			$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+				const on = this.checked;
+				const value = this.value;
+				const option = this.dataset.option;
+				courseFilter(option, value, on);
+				renderCourses(3);
+			});
+
+			// sort
+			$('.sort_by_box .sort_kind_item a').click(function() {
+				courseSort = this.dataset.value;
+			});
+		});
+	</script>
+<%- include("../partials/body_end") %>
