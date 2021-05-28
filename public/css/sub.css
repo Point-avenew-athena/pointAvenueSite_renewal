@@ -203,6 +203,7 @@
 
 /*=============news ========*/
 .news .visual_wrap{background:url('../images/sub/point-avenue/news/news_visual.jpg') top right no-repeat; background-size: cover;}
+.news .box_type_01 .box_type_01--img img {min-width: 110%; }
 .news .container .section_inner{position: relative;}
 .news .container .btn_type_01.view {position: absolute; right:0; top:0;}
 .news .event_wrap .box_type_01 .date {position: relative; padding-left: 30px; margin: 10px 0;}

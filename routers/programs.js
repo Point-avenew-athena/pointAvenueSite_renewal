@@ -6,9 +6,9 @@ const options = (courses) => [
     key: 'location',
     name: 'Location',
     filters: [
-      { idx:1, name: 'Hanoi - Cau Giay', value: 'Hanoi - Cau Giay', count: () => courses.filter(course => course.location === 'Hanoi - Cau Giay').length },
-      { idx:2, name: 'Hanoi - Long Bien', value: 'Hanoi - Long Bien', count: () => courses.filter(course => course.location === 'Hanoi - Long Bien').length },
-      { idx:3, name: 'Bangkok', value: 'Bangkok', count: () => courses.filter(course => course.location === 'Bangkok').length },
+      { idx:1, name: 'Hanoi - Cau Giay', value: 'Hanoi - Cau Giay', count: () => courses.filter(course => course.location.indexOf('Hanoi - Cau Giay') > -1).length },
+      { idx:2, name: 'Hanoi - Long Bien', value: 'Hanoi - Long Bien', count: () => courses.filter(course => course.location.indexOf('Hanoi - Long Bien') > -1).length },
+      { idx:3, name: 'Bangkok', value: 'Bangkok', count: () => courses.filter(course => course.location.indexOf('Bangkok') > -1).length },
     ]
   },
   {
@@ -74,6 +74,11 @@ router.get('/test-preparation', function (req, res) {
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
+router.get('/admissions-consulting', function (req, res) {
+  const studies = require('../data/programs/case-studies.json');
+  res.render('admissions-consulting', { studies });
+});
+
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
   const course = courses.filter(course => course.courseId == courseId)[0];
@@ -82,11 +87,6 @@ router.get('/:courseId', function (req, res) {
     renderPath = 'programs/course-detail-offline';
   }
   res.render(renderPath, { course })
-});
-
-router.get('/admissions-consulting', function (req, res) {
-  const studies = require('../data/programs/case-studies.json');
-  res.render('admissions-consulting', { studies });
 });
 
 module.exports = router

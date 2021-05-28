@@ -1,116 +1,9 @@
 [
   {
-    "courseId" : 1,
-    "type" : "Offline",
-    "name" : "English Learning Starters",
-    "location" : "Hanoi - Cau Giay",
-    "program" : "Elementary",
-    "age" : "",
-    "weeks" : "",
-    "duration" : "",
-    "hour" : "",
-    "thumbnail" : "/images/sub/program/English Learning Starters1.jpg",
-    "desc": [
-      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
-    ],
-    "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
-    "offline" : {
-      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
-      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
-      "objective" : {
-        "image" : "/images/sub/program/English Learning Starters2.jpg",
-        "strings" : [
-          "Alphabet recognition and application",
-          "Short vowel sounds",
-          "Long vowel sounds",
-          "Consonant blends",
-          "Reading using digraphs",
-          "Basic reading & writing of 3~4 letter monosyllabic words"
-        ]
-      },
-      "books" : {
-        "image" : "/images/sub/program/elementary_books.jpg",
-        "strings" : [
-          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
-          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
-          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
-        ]
-      },
-      "location" : {
-        "name" : "",
-        "address" : [
-          "", ""
-        ]
-      }
-    }
-  },
-  {
-    "courseId" : 2,
-    "type" : "Offline",
-    "name" : "English Learning Phonics",
-    "location" : "Hanoi - Cau Giay",
-    "program" : "Elementary",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/sub/program/English Learning Phonics1.jpg",
-    "desc": [
-      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
-    ],
-    "keyword" : [
-      "Phonics",
-      "short vowels",
-      "long vowels",
-      "consonant blends",
-      "alphabet",
-      "social learning",
-      "emotional learning",
-      "arts & crafts",
-      "circle time activities",
-      "curiosity"
-    ],
-    "offline" : {
-      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
-      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
-      "about" : {
-        "age" : "4-7",
-        "weeks" : "2 x 17 weeks",
-        "duration" : "3 hours / week",
-        "hour" : "51 hours"
-      },
-      "objective" : {
-        "image" : "/images/sub/program/English Learning Phonics2.jpg",
-        "strings" : [
-          "Alphabet recognition and application",
-          "Short vowel sounds",
-          "Long vowel sounds",
-          "Consonant blends",
-          "Reading using digraphs",
-          "Basic reading & writing of 3~4 letter monosyllabic words"
-        ]
-      },
-      "books" : {
-        "image" : "/images/sub/program/elementary_books.jpg",
-        "strings" : [
-          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
-          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
-          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
-        ]
-      },
-      "location" : {
-        "name" : "",
-        "address" : [
-          "", ""
-        ]
-      }
-    }
-  },
-  {
     "courseId" : 3,
     "type" : "Offline",
     "name" : "English Learning Foundations",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "4-7",
     "weeks" : "2 x 17 weeks",
@@ -154,7 +47,7 @@
     "courseId" : 4,
     "type" : "Offline",
     "name" : "English Learning 1-4",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "7-12",
     "weeks" : "2 x 17 weeks",
@@ -208,7 +101,7 @@
     "courseId" : 5,
     "type" : "Offline",
     "name" : "Life Coaching Jr.",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "runtime" : "17 Weeks",
     "age" : "5-10",
@@ -269,13 +162,13 @@
     "courseId" : 6,
     "type" : "Offline",
     "name" : "Engineering",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "6-10",
     "weeks" : "1 x 17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
-    "thumbnail" : "/images/sub/program/Engineering.jpg",
+    "thumbnail" : "/images/sub/program/Engineering_1.jpg",
     "desc": ["Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations. At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems.  These activities will allow students to understand the connections between related areas in math and science.  Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.  Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."],
     "keyword" : [
       "Phonics",
@@ -294,7 +187,7 @@
       "registrationText": "Spring Term Registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "/images/sub/class-detail/english/img_01.png",
+        "image" : "/images/sub/program/Engineering_2.jpg",
         "strings" : [
           "Beginner: Develop a curiosity and a foundational interest for basic engineering concepts through empirical exploration",
           "Intermediate: Develop confidence through theoretical and empirical learning of major engineering disciplines. Examine problems through an iterative mindset"
@@ -310,71 +203,10 @@
     }
   },
   {
-    "courseId" : 7,
-    "type" : "Offline",
-    "name" : "Environmental Science",
-    "location" : "Hanoi - Cau Giay",
-    "program" : "Elementary",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/sub/program/Environmental Science1.jpg",
-    "desc": [
-      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
-    ],
-    "keyword" : [
-      "Phonics",
-      "short vowels",
-      "long vowels",
-      "consonant blends",
-      "alphabet",
-      "social learning",
-      "emotional learning",
-      "arts & crafts",
-      "circle time activities",
-      "curiosity"
-    ],
-    "offline" : {
-      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
-      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
-      "about" : {
-        "age" : "4-7",
-        "weeks" : "2 x 17 weeks",
-        "duration" : "3 hours / week",
-        "hour" : "51 hours"
-      },
-      "objective" : {
-        "image" : "/images/sub/program/Environmental Science2.jpg",
-        "strings" : [
-          "Alphabet recognition and application",
-          "Short vowel sounds",
-          "Long vowel sounds",
-          "Consonant blends",
-          "Reading using digraphs",
-          "Basic reading & writing of 3~4 letter monosyllabic words"
-        ]
-      },
-      "books" : {
-        "image" : "/images/sub/program/elementary_books.jpg",
-        "strings" : [
-          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
-          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
-          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
-        ]
-      },
-      "location" : {
-        "name" : "",
-        "address" : [
-          "", ""
-        ]
-      }
-    }
-  },
-  {
     "courseId" : 8,
     "type" : "Offline",
     "name" : "Coding",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "8-12",
     "weeks" : "1 x 17 weeks",
@@ -417,13 +249,11 @@
       }
     }
   },
-  
-
   {
     "courseId" : 9,
     "type" : "Offline",
     "name" : "ELA Foundations",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-12",
     "weeks" : "17 weeks",
@@ -476,7 +306,7 @@
     "courseId" : 10,
     "type" : "Offline",
     "name" : "ELA Beginner",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-13",
     "weeks" : "17 weeks",
@@ -528,7 +358,7 @@
     "courseId" : 11,
     "type" : "Offline",
     "name" : "ELA Intermediate",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-14",
     "weeks" : "17 weeks",
@@ -580,7 +410,7 @@
     "courseId" : 12,
     "type" : "Offline",
     "name" : "ELA Advanced",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-14",
     "weeks" : "17 weeks",
@@ -632,7 +462,7 @@
     "courseId" : 13,
     "type" : "Offline",
     "name" : "Pages (Reading Comprehension)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-13",
     "weeks" : "17 weeks",
@@ -675,7 +505,7 @@
     "courseId" : 14,
     "type" : "Offline",
     "name" : "Ink (Academic and Creative Writing)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-13",
     "weeks" : "17 weeks",
@@ -725,7 +555,7 @@
     "courseId" : 15,
     "type" : "Offline",
     "name" : "Life Coaching Beginner/Intermediate",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-13",
     "weeks" : "17 weeks",
@@ -777,7 +607,7 @@
     "courseId" : 16,
     "type" : "Offline",
     "name" : "Life Coaching Advanced",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "12-14",
     "weeks" : "17 weeks",
@@ -827,7 +657,7 @@
     "courseId" : 17,
     "type" : "Offline",
     "name" : "Elementary (Beginner)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
     "weeks" : "17 weeks",
@@ -868,7 +698,7 @@
     "courseId" : 18,
     "type" : "Offline",
     "name" : "Elementary (Intermediate)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
     "weeks" : "17 weeks",
@@ -908,7 +738,7 @@
     "courseId" : 19,
     "type" : "Offline",
     "name" : "Middle School (Beginner)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
     "weeks" : "17 weeks",
@@ -949,7 +779,7 @@
     "courseId" : 20,
     "type" : "Offline",
     "name" : "Middle & High School (Intermediate)",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
     "weeks" : "17 weeks",
@@ -991,7 +821,7 @@
     "courseId" : 21,
     "type" : "Offline",
     "name" : "Debate All Stars",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "14-16",
     "weeks" : "12-17 weeks",
@@ -1030,7 +860,7 @@
     "courseId" : 22,
     "type" : "Offline",
     "name" : "SSAT",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "8th - 10th grade",
     "weeks" : "17 weeks / 12 weeks",
@@ -1091,7 +921,7 @@
     "courseId" : 23,
     "type" : "Offline",
     "name" : "TOEFL",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "7th - 12th",
     "weeks" : "17 weeks / 12 weeks",
@@ -1166,7 +996,7 @@
     "courseId" : 24,
     "type" : "Offline",
     "name" : "IELTS",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "7th - 12th grade",
     "weeks" : "17 weeks / 12 weeks",
@@ -1255,7 +1085,7 @@
     "courseId" : 25,
     "type" : "Offline",
     "name" : "SAT",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "9th - 12th grade",
     "weeks" : "17 weeks / 12 weeks",
@@ -1313,7 +1143,7 @@
     "courseId" : 26,
     "type" : "Offline",
     "name" : "AP",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "9 - 12th grade",
     "weeks" : "24 lessons",
@@ -1369,7 +1199,7 @@
     "courseId" : 27,
     "type" : "Offline",
     "name" : "IB",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "11 - 12th grade",
     "weeks" : "17 weeks",
@@ -1431,7 +1261,7 @@
     "courseId" : 28,
     "type" : "Offline",
     "name" : "IGCSE",
-    "location" : "Hanoi - Cau Giay",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Prep",
     "age" : "9 - 10th grade",
     "weeks" : "16 weeks",
