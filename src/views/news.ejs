@@ -75,12 +75,6 @@
 						<!-- main news(가장 큰 뉴스 기사) -->
 						<div class="main_article">
 							<div class="article_box">
-								<% 
-										let type;
-										if (news[0].type === 'Article') type = 'articles';
-										if (news[0].type === 'Newsletter') type = 'newsletter'
-										if (news[0].type === 'Testimonials') type = 'testimonials';
-								%>
 								<div class="img_box">
 									<a href="/news/<%= news[0].id %>">
 										<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
@@ -110,19 +104,13 @@
 											const day = new Date(d),
 														year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
 														month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
-														date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day)
+														date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
 
 											return `${date}/${month}/${year}`;
 										}
 			
 								%>
 								<% for ( let i = 0; i < filteredNews.length; i++){ %>
-								<% 
-										let type;
-										if (filteredNews[i].type === 'Article') type = 'articles';
-										if (filteredNews[i].type === 'Newsletter') type = 'newsletter'
-										if (filteredNews[i].type === 'Testimonials') type = 'testimonials';
-								%>
                   <li>
                     <div class="img_box">
                       <a href="/news/<%= filteredNews[i].id %>">

@@ -63,7 +63,7 @@ $(document).ready(function () {
   $('.layer_popup .close_btn').click(function () {
     $(this).parents('.layer_popup').hide();
     cleanupListOfTeacher();
-		toggleScroll(false);
+    toggleScroll(false);
     $('.dim').fadeOut();
   });
 
@@ -123,61 +123,70 @@ $(document).ready(function () {
   });
 });
 
-
-//* 선생 정보 팝업 
-function changeTeacherData (data, teacherExpWrapper, clickedElem){
-
+function changeTeacherData(
+  data,
+  teacherExpWrapper,
+  clickedElem,
+  targets = {
+    image: '.mentor_img_box > img',
+    name: '.mentor_img_box p.title_r_03',
+    position: '.mentor_img_box p.text--gray',
+    experience: '.mentor_info_box .ul_type_02',
+  }
+) {
   const id = clickedElem.dataset.id;
-	const image = document.querySelector('.mentor_img_box > img');
-	
-	const name = document.querySelector('.mentor_img_box p.title_r_03');
-	const position = document.querySelector('.mentor_img_box p.text--gray');
-	
-	experience = document.querySelector('.mentor_info_box .ul_type_02');
-  
-	data
-		.filter((teacher) => teacher.id == id)[0]
-		.exp.forEach((info) => {
-			teacherExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
-		});
+  const image = document.querySelector(targets.image);
 
-	image.src = clickedElem.dataset.img;
-	name.textContent = clickedElem.dataset.name;
-	position.textContent = clickedElem.dataset.position;
+  const name = document.querySelector(targets.name);
+  const position = document.querySelector(targets.position);
+
+  experience = document.querySelector(targets.experience);
+
+  data
+    .filter((teacher) => teacher.id == id)[0]
+    .exp.forEach((info) => {
+      teacherExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
+    });
+
+  image.src = clickedElem.dataset.img;
+  name.textContent = clickedElem.dataset.name;
+  position.textContent = clickedElem.dataset.position;
 }
+
 //* 선생 정보 업데이트시
-function cleanupListOfTeacher(){
-	const listTags = Array.from(experience.children);
+function cleanupListOfTeacher() {
+  const listTags = Array.from(experience.children);
   listTags.forEach((item) => item.remove());
 }
 //* 선생 팝업 떳을시 - 스크롤 막음
-function toggleScroll (state = true) {
-	state == true ? document.body.style.overflow= 'hidden' :  document.body.style.overflow = '';
+function toggleScroll(state = true) {
+  state == true
+    ? (document.body.style.overflow = 'hidden')
+    : (document.body.style.overflow = '');
 }
 
-//* Case studies 정보 팝업 
-function changeStudiesData(data, studiesExpWrapper, clickedElem){
-	const id = clickedElem.dataset.id;
-	const image = document.querySelector('.case_studies_img_box .img_box > img');
-	
-	const name = document.querySelector('.case_studies_img_box p.title_r_03');
-	const school = document.querySelector('.case_studies_img_box p.text--gray');
-	
-	experience = document.querySelector('.case_studies_info_box .ul_type_02');
+//* Case studies 정보 팝업
+function changeStudiesData(data, studiesExpWrapper, clickedElem) {
+  const id = clickedElem.dataset.id;
+  const image = document.querySelector('.case_studies_img_box .img_box > img');
 
-	data
-		.filter((teacher) => teacher.id == id)[0]
-		.info.forEach((info) => {
-			studiesExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
-		});
+  const name = document.querySelector('.case_studies_img_box p.title_r_03');
+  const school = document.querySelector('.case_studies_img_box p.text--gray');
 
-	image.src = clickedElem.dataset.img;
-	name.textContent = clickedElem.dataset.name;
-	school.textContent = clickedElem.dataset.school;
+  experience = document.querySelector('.case_studies_info_box .ul_type_02');
+
+  data
+    .filter((teacher) => teacher.id == id)[0]
+    .info.forEach((info) => {
+      studiesExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
+    });
+
+  image.src = clickedElem.dataset.img;
+  name.textContent = clickedElem.dataset.name;
+  school.textContent = clickedElem.dataset.school;
 }
 //* 선생 정보 업데이트시
-function cleanupListOfStudies(){
-	const listTags = Array.from(experience.children);
+function cleanupListOfStudies() {
+  const listTags = Array.from(experience.children);
   listTags.forEach((item) => item.remove());
 }
-

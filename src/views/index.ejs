@@ -318,24 +318,18 @@
 						<% for ( let i = 0; i < news.length; i++ ) { %> 
 							<li class="swiper-slide box_type_01--item news_item">
 								<div class="box_type_01--img news_img">
-									<% 
-										let type;
-										if (news[i].type === 'Article') type = 'articles';
-										if (news[i].type === 'Newsletter') type = 'newsletter'
-										if (news[i].type === 'Testimonials') type = 'testimonials';
-									%>
-									<a href="/news/<%= type %>/<%= news[i].id %>">
+									<a href="/news/<%= news[i].id %>">
 										<img src="<%=  news[i].thumbnail.imageUrl %>" alt="<%= news[i].title %>">
 									</a>
 								</div>
 								<div class="box_type_01--desc news_desc_box">
 									<p class="title_r_03">
-										<a href="/news/<%= type %>/<%= news[i].id %>"><%= news[i].title %></a>
+										<a href="/news/<%= news[i].id %>"><%= news[i].title %></a>
 									</p>
 									<div class="desc_text">
-										<a href="/news/<%= type %>/<%= news[i].id %>"><%= news[i].thumbnail.excerpt %></a>
+										<a href="/news/<%= news[i].id %>"><%- news[i].thumbnail.excerpt %></a>
 									</div>
-									<a href="/news/<%= type %>/<%= news[i].id %>" class="btn_type_01--sec">
+									<a href="/news/<%= news[i].id %>" class="btn_type_01--sec">
 										<span class="btn_inner">Learn More</span>
 									</a>
 								</div>
