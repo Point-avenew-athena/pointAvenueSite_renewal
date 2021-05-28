@@ -1,5 +1,15 @@
 Article 상세 페이지
 <%- include("../partials/head_start") %>
+<title><%= singlePost.title %>- PointAve</title>
+<meta name="keywords" content="PointAve">
+<meta name="title" content="<%= singlePost.title %>">
+<meta name="description" content="<%= singlePost.thumbnail.excerpt %>">
+<meta property="og:title" content="PointAve">
+<meta property="og:description" content="<%= singlePost.contents %>">
+<meta property="og:type" content="website">
+<meta property="og:image" content="<%= singlePost.thumbnail.imageUrl %>">
+
+
 <link rel="stylesheet" type="text/css" href="/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="/css/common.css">
@@ -23,9 +33,9 @@ Article 상세 페이지
 			<section class="visual_wrap">
 				<div class="section_inner">
           <% 
-            const type = singlePost[0].type,
-                  title = singlePost[0].title,
-                  contents = singlePost[0].contents;
+            const type = singlePost.type,
+                  title = singlePost.title,
+                  contents = singlePost.contents;
           %>
 					<div class="text_box">
 						<div class="flag_type_02"><%= type %></div>
