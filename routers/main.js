@@ -53,8 +53,8 @@ router.get('/news/:id', (req, res) => {
 
 //* articles 리스트 페이지
 router.get('/news/list/articles', (req, res) => {
-  const news = require('../data/point-avenue/news/news.json');
-  res.render('news/articles/list', news);
+  const articles = require('../data/point-avenue/news/news.json');
+  res.render('news/articles/list', {articles});
 });
 
 // //* TV
