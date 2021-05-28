@@ -1,33 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script>
-    const data = <%- JSON.stringify(data) %>
+<%- include("../../partials/head_start") %>
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
 
-    console.log(data)
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+<script>
+  const singleNewsLetter = <%- JSON.stringify(singleNewsLetter) %>;
 </script>
-</head>
-<body>
-  <h1>Newsletter 상세 페이지</h1>  
-  <div id="newsletter-wrapper"> 
-    
+<%- include("../../partials/head_end") %>
+<%- include("../../partials/body_start") %>
+	<div class="wrap sub article">
+    <%- include("../../partials/gnb") %>
+    <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+          <% 
+            const type = singleNewsLetter[0].type,
+                  title = singleNewsLetter[0].title,
+                  contents = singleNewsLetter[0].newsletter.contents;
+          %>
+					<div class="text_box">
+						<div class="flag_type_02"><%= type %></div>
+						<h2 class="title_r_01"><%=  title %></h2>
+					</div>
+				</div>
+			</section>
+			<section class="article_wrap">
+				<div class="section_inner">
+          <%- contents %> 
+				</div>
+			</section>			
+		</div>
+		<!--container :: end-->
+    <%- include("../../partials/footer") %>
+		<%- include("../../partials/common_popup") %>
   </div>
-  <!-- <script>
-    const newsletter = document.getElementById('newsletter-wrapper');
-
-    // data.map(item => {
-    //    newsletter.innerHTML +=`<p>${item.id}</p>`;
-    // })
-
-    data.map(item => {
-      newsletter.insertAdjacentHTML("beforeend", `<p>${item.name}</p>`)
-    })
-    
-   
-  </script> -->
-</body>
-</html>

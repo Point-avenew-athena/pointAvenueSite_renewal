@@ -6,21 +6,22 @@ router.get('/', function (req, res) {
 })
 
 router.get('/summer-boarding-camp', function (req, res) {
-  res.render('Summer-boarding-camp')
+  // res.send('Camp > Summer Leader Camp')
+  res.render('camp/summer-boarding-camp')
 })
 
 router.get('/summer-day-camp', function (req, res) {
   // res.send('Camp > Summer Day Camp')
-  res.render('summer-day-camp')
+  res.render('camp/summer-day-camp')
 })
 
-router.get('/winter-boarding-camp', function (req, res) {
-  res.send('Camp > Winter Boarding Camp')
-})
+// router.get('/winter-boarding-camp', function (req, res) {
+//   res.send('Camp > Winter Boarding Camp')
+// })
 
-router.get('/winter-day-camp', function (req, res) {
-  res.send('Camp > Winter Day Camp')
-})
+// router.get('/winter-day-camp', function (req, res) {
+//   res.send('Camp > Winter Day Camp')
+// })
 
 
 module.exports = router

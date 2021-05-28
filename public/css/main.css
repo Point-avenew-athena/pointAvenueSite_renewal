@@ -28,7 +28,7 @@
 .step_wrap .section_inner .person_list .person_item .person_img {margin-bottom: 20px;}
 .step_wrap .section_inner .person_list .person_item .person_img:after {content:''; display: block; width:100%; height: 5px; margin-top: 20px; background: #F2B41B;}
 .step_wrap .section_inner .person_list .person_item .person_desc_inner {display: block;width:170px; height: 50px; margin:20px auto 0; padding-top: 5px; background: #F2B41B; text-align: center; color:#3a3a3a; border-radius: 30px; transition: all .5s;}
-.step_wrap .section_inner .person_list .person_item .person_desc_inner:hover {background: #000; color:#fff; border: 1px solid #000;}
+.step_wrap .section_inner .person_list .person_item .person_desc_inner:hover {background: #000; color:#fff;}
 .step_wrap .section_inner .person_list .person_item .person_desc_inner span {display: block;}
 .step_wrap .section_inner .person_list .person_item .person_desc_box:before {content:''; display: block; width:30px; height: 30px; background: #F2B41B; margin:-35px auto 0; border-radius: 15px;}
 .step_wrap .section_inner .person_list .person_item .person_desc_box:after {content:''; display: block; width:18px; height: 18px; background: #fff; position: absolute; top:6px; left:50%; margin-left:-9px; border-radius: 9px;}
