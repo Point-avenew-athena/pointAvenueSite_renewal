@@ -1,83 +1,101 @@
 [
   {
     "courseId" : 1,
-    "type" : "Online",
-    "name" : "Elementary Debate (Intermediate)",
+    "type" : "Offline",
+    "name" : "English Learning Starters",
     "location" : "Hanoi - Cau Giay",
     "program" : "Elementary",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "students": 20000,
-    "level" : 2,
-    "desc" : [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
-      "",
-      "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
-      "",
-      "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
+    "age" : "",
+    "weeks" : "",
+    "duration" : "",
+    "hour" : "",
+    "thumbnail" : "/images/sub/program/English Learning Starters1.jpg",
+    "desc": [
+      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
     ],
-    "online" : {
-      "videoUrl" : "",
-      "about" : "",
-      "mentor" : {
-        "teacherid" : 1,
-        "mentorText" : [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
-          "",
-          "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
-          "",
-          "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
+    "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/English Learning Starters2.jpg",
+        "strings" : [
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
-      "projectDesc": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
-        "",
-        "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
-        "",
-        "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
-      ],
-      "resources" : [
-        { 
-          "path" : "https://arkedison-public-prod.s3.ap-northeast-2.amazonaws.com/lms/class/liveclass/1294/26c37156-4b38-4ab1-95fe-f12501135803.png",
-          "name" : "resource.jpg",
-          "size" : 5242880
-        },
-        { 
-          "path" : "https://arkedison-public-prod.s3.ap-northeast-2.amazonaws.com/lms/class/liveclass/1294/166386f7-e4f7-40a2-a0da-e499185e7dc3.png",
-          "name" : "resource2.jpg",
-          "size" : 6542880
-        }
-      ]
+      "books" : {
+        "image" : "/images/sub/program/English Learning Starters3.jpg",
+        "strings" : [
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
     }
-  },  
+  },
   {
     "courseId" : 2,
     "type" : "Offline",
-    "name" : "Elementary Debate (offline)",
+    "name" : "English Learning Phonics",
     "location" : "Hanoi - Cau Giay",
     "program" : "Elementary",
     "runtime" : "17 Weeks",
     "age" : "5-10",
     "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": [
+      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
+    ],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
     "offline" : {
-      "videoUrl" : "",
-      "overview" : "",
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "about" : {
-        "old" : "",
-        "schedule" : "",
-        "hour" : ""
+        "age" : "4-7",
+        "weeks" : "2 x 17 weeks",
+        "duration" : "3 hours / week",
+        "hour" : "51 hours"
       },
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
         ]
       },
       "location" : {
@@ -90,32 +108,38 @@
   },
   {
     "courseId" : 3,
-    "type" : "Hybrid",
-    "name" : "Middle School Debate (hybrid)",
+    "type" : "Offline",
+    "name" : "English Learning Foundations",
     "location" : "Hanoi - Cau Giay",
-    "program" : "Middle & High School",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
+    "program" : "Elementary",
+    "age" : "4-7",
+    "weeks" : "2 x 17 weeks",
+    "duration" : "3 hours / week",
+    "hour" : "102 hours",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": ["Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers."],
+    "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
         ]
       },
       "location" : {
@@ -123,47 +147,53 @@
         "address" : [
           "", ""
         ]
-      },
-      "mentor" : {
-        "teacherid" : 1,
-        "mentorText" : [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, sapien, orci, scelerisque vitae in eget volutpat. Fringilla commodo cursus ac senectus nisl, et aliquam. Iaculis purus tellus diam nibh nibh tristique. Suspendisse porttitor tristique tortor sit tristique nunc velit integer pulvinar. Viverra lobortis pellentesque pulvinar euismod scelerisque mus sodales nascetur neque. Ut sit volutpat hendrerit aliquam, tortor scelerisque. Ac gravida vivamus eu feugiat nibh aenean. Sed cras mauris egestas sagittis, aenean odio. Id nulla elit feugiat aliquam. Donec ultrices tincidunt aliquam et sed euismod aliquam.",
-          "",
-          "Ac sagittis, arcu turpis aliquam, varius mattis pellentesque nunc aenean. Ultrices ut mauris sagittis lacus et orci sit. Consequat sollicitudin vel sed eleifend tincidunt quam lacus sapien. Sed magna cras diam feugiat faucibus dignissim nibh donec. Risus non duis rhoncus lectus ac viverra in diam aliquet. Euismod faucibus ultricies duis diam sit vitae purus, est. Varius donec tempor praesent nibh. At erat nec eleifend elementum.",
-          "",
-          "Malesuada tincidunt urna imperdiet accumsan porta. Magna nisl viverra enim vitae, rutrum mauris tempor. A mattis dolor et convallis mauris iaculis enim elementum. Sit feugiat a diam aliquam, mauris. Ut a, at viverra eu etiam. Purus, turpis vestibulum aliquet egestas faucibus ullamcorper mattis senectus. Elementum tortor morbi enim imperdiet amet, at augue consequat est. Diam cursus euismod in neque, placerat magna. Erat nulla sodales vel accumsan. Sit rhoncus dictum sociis fermentum."
-        ]
       }
     }
   },
   {
     "courseId" : 4,
-    "type" : "Hybrid",
-    "name" : "High School Debate (hybrid)",
+    "type" : "Offline",
+    "name" : "English Learning 1-4",
     "location" : "Hanoi - Cau Giay",
-    "program" : "Middle & High School",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
+    "program" : "Elementary",
+    "age" : "7-12",
+    "weeks" : "2 x 17 weeks",
+    "duration" : "3 hours / week",
+    "hour" : "102 hours",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": ["Our EL 1 to 4 courses aim to develop the core language skills; Reading, Listening, Speaking, and Writing. Each level has been aligned to the US Common Core State Standards to provide rigorous standards and support advance English learning. Our experienced mentors deliver engaging lessons, as well as focus on student character building, in order to support holistic learning. This is focuses on the whole child as a young learner. Students maintain vocabulary journals, learn various academic skills, practice and produce from lesson objectives, and collaborate on projects."],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Improve reading comprehension to a US 5th grade equivalent",
+          "Recognize elements of a story",
+          "Know how to accurately summarize events, stories, and passages",
+          "Coherently express ideas in a structured and developed responnse",
+          "Strengthen language & writing skills"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Subject Link 1 to 8:</strong> This series is used to support topic knowledge, themed/multi-disciplined learning, and improve reading comprehension. The themes are used to engage students, using their curiosity to learn specific vocabulary. The passages are used to practice reading skills and improve comprehension.",
+          "<strong>Spectrum Writing:</strong> The workbooks guide students as they write for a variety of purposes, including story-telling, personal narratives, descriptive writing, and opinion writing. This series also support current state standards, and take students through the full writing process; planning, drafting, revising, proofreading, and sharing writing.",
+          "<strong>Spectrum Language Arts:</strong> To reinforce written and spoken accuracy, the Spectrum Lannguage Arts series provides focused practice and creative activities. Students cover a variety of basic and advance language skills, such as; capitalization, punctuation, grammar, and parts of speech."
         ]
       },
       "location" : {
@@ -176,32 +206,55 @@
   },
   {
     "courseId" : 5,
-    "type" : "Online",
-    "name" : "Debate (online)",
+    "type" : "Offline",
+    "name" : "Life Coaching Jr.",
     "location" : "Hanoi - Cau Giay",
-    "program" : "Debate",
+    "program" : "Elementary",
     "runtime" : "17 Weeks",
     "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": [
+      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
+    ],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
+        "age" : "4-7",
+        "weeks" : "2 x 17 weeks",
+        "duration" : "3 hours / week",
+        "hour" : "51 hours"
       },
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
         ]
       },
       "location" : {
@@ -214,34 +267,40 @@
   },
   {
     "courseId" : 6,
-    "type" : "Online",
-    "name" : "Debate (online)",
+    "type" : "Offline",
+    "name" : "Engineering",
     "location" : "Hanoi - Cau Giay",
-    "program" : "Test Prep",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
+    "program" : "Elementary",
+    "age" : "6-10",
+    "weeks" : "1 x 17 weeks",
+    "duration" : "1.5 hours / week",
+    "hour" : "25.5 hours",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": ["Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations. At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems.  These activities will allow students to understand the connections between related areas in math and science.  Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.  Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Beginner: Develop a curiosity and a foundational interest for basic engineering concepts through empirical exploration",
+          "Intermediate: Develop confidence through theoretical and empirical learning of major engineering disciplines. Examine problems through an iterative mindset"
         ]
       },
-      "books" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
+      "books" : null,
       "location" : {
         "name" : "",
         "address" : [
@@ -253,31 +312,54 @@
   {
     "courseId" : 7,
     "type" : "Offline",
-    "name" : "Debate (online)",
-    "location" : "Hanoi - Long Bien",
-    "program" : "Test Prep",
+    "name" : "Environmental Science",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Elementary",
     "runtime" : "17 Weeks",
     "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": [
+      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
+    ],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
+        "age" : "4-7",
+        "weeks" : "2 x 17 weeks",
+        "duration" : "3 hours / week",
+        "hour" : "51 hours"
       },
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
         ]
       },
       "location" : {
@@ -290,110 +372,43 @@
   },
   {
     "courseId" : 8,
-    "type" : "Hybrid",
-    "name" : "Debate (online)",
-    "location" : "Bangkok",
-    "program" : "Test Prep",
-    "runtime" : "17 Weeks",
-    "age" : "5-10",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
-      "objective" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
-      "books" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
-      "location" : {
-        "name" : "",
-        "address" : [
-          "", ""
-        ]
-      }
-    }
-  },
-  {
-    "courseId" : 9,
     "type" : "Offline",
-    "name" : "Debate (offline)",
-    "location" : "Bangkok",
-    "program" : "Test Prep",
-    "runtime" : "17 Weeks",
-    "age" : "16-18",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
+    "name" : "Coding",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Elementary",
+    "age" : "8-12",
+    "weeks" : "1 x 17 weeks",
+    "duration" : "1.5 hours / week",
+    "hour" : "25.5 hours",
+    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": ["Computer science skills are becoming more relevant in all aspects of society, and students with these skills, such as coding and basic robotics, are learning them at earlier ages. At Point Avenue, we’ve curated coding and robotics lessons for students ages 8-12, with EL3-4 level English proficiency, that are able to bring their own laptops or tablets to class. This course is great for the beginner to intermediate level coder."],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Understand the fundamentals of coding with a coding resource (e.g. Kamibot, the world’s first programmable paper robot).",
+          "Students will come to understand computer programming principles and also improve their focus, perseverance, and resilience.",
+          "Students will learn CoffeeScript, a programming language that is used in web applications and compiled to JavaScript. JavaScript is the industry standard for web applications, and one of the most highly sought after proficiencies for programming languages.",
+          "Students will also study Scratch, a block coding language developed by MIT.",
+          "They will apply these skills all while iterating: learning from their mistakes, and building their foundational knowledge to create something new."
         ]
       },
-      "books" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
-      "location" : {
-        "name" : "",
-        "address" : [
-          "", ""
-        ]
-      }
-    }
-  },
-  {
-    "courseId" : 10,
-    "type" : "Offline",
-    "name" : "Debate (offline)",
-    "location" : "Bangkok",
-    "program" : "Test Prep",
-    "runtime" : "17 Weeks",
-    "age" : "16-18",
-    "thumbnail" : "/images/temp/course_thumbnail.jpg",
-    "hybrird" : {
-      "videoUrl" : "",
-      "overview" : "",
-      "about" : {
-        "old" : "",
-        "reqire" : "",
-        "schedule" : "",
-        "hour" : ""
-      },
-      "objective" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
-      "books" : {
-        "image" : "",
-        "strings" : [
-          "", ""
-        ]
-      },
+      "books" : null,
       "location" : {
         "name" : "",
         "address" : [
