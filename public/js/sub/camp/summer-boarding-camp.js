@@ -5,6 +5,11 @@ $(function(){
 		effect:'fade',
 		pagination: {
 			el: '.swiper-pagination',
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
 		}
     });
 	
@@ -25,5 +30,13 @@ $(function(){
 				spaceBetween: 10,
 			}
 		}
+	});
+
+	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
+		var index = $('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').index($(this));
+		var n = index+1;
+		$('.testimonials_popup .img_box img').attr('src','/images/sub/camp/summer/testimonials/LoveforPA-'+n+'.png');
+		$('.testimonials_popup').show();
+		$('.dim').show();
 	});
 });
