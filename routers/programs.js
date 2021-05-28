@@ -74,6 +74,11 @@ router.get('/test-preparation', function (req, res) {
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
+router.get('/admissions-consulting', function (req, res) {
+  const studies = require('../data/programs/case-studies.json');
+  res.render('admissions-consulting', { studies });
+});
+
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
   const course = courses.filter(course => course.courseId == courseId)[0];
@@ -82,11 +87,6 @@ router.get('/:courseId', function (req, res) {
     renderPath = 'programs/course-detail-offline';
   }
   res.render(renderPath, { course })
-});
-
-router.get('/admissions-consulting', function (req, res) {
-  const studies = require('../data/programs/case-studies.json');
-  res.render('admissions-consulting', { studies });
 });
 
 module.exports = router

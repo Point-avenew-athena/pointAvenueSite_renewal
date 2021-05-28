@@ -6,7 +6,6 @@ const PORT = process.env.PORT || 7070;
 //* importing main routes
 const main = require('./routers/main');
 const courses = require('./routers/programs');
-const admissions = require('./routers/admissions-consulting');
 const camp = require('./routers/camp');
 
 app.set('view engine', 'ejs');
@@ -20,8 +19,6 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', main);
 // * courses & courses' sub routes
 app.use('/programs', courses);
-// * admissions-consulting 
-app.use('/admissions-consulting', admissions);
 // * camp
 app.use('/camp', camp);
 
