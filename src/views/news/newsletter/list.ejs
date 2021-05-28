@@ -11,6 +11,9 @@ Newsletter 리스트 페이지
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
+<script>
+	const newsletters = <%- JSON.stringify(newsletters)%>;
+</script>
 <%- include("../../partials/head_end") %>
 <%- include("../../partials/body_start") %>
 
@@ -30,90 +33,25 @@ Newsletter 리스트 페이지
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Newsletter</h3>
 					<ul class="box_type_01 courses_list">
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
-								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
+						<% 
+							const onlyNewsletters = newsletters.filter(newsletter => (newsletter.type == "Newsletter"));
+						%>
+						<% for ( let i = 0; i < onlyNewsletters.length; i++){ %>
+							<li class="box_type_01--item courses_item">
+								<div class="box_type_01--img courses_img">
+									<img src="<%= onlyNewsletters[i].thumbnail.imageUrl %>" alt="<%= onlyNewsletters[i].title %>">
 								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
-								<div class="desc_text">
-									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
+								<div class="box_type_01--desc courses_desc_box">
+									<p class="title_r_03"><%= onlyNewsletters[i].title %></p>
+									<div class="desc_text">
+										<%= onlyNewsletters[i].thumbnail.excerpt %>
+									</div>
+									<a href="/news/<%= onlyNewsletters[i].id %>" class="btn_type_01--sec">
+										<span class="btn_inner">Read More</span>
+									</a>
 								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
-								<div class="desc_text">
-									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">What is ‘Critical Thinking,’ anyway?</p>
-								<div class="desc_text">
-									In preparation for Point Avenue’s upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">5 Productive Summer Activities For Your Child</p>
-								<div class="desc_text">
-									With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lif [...}
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-						<li class="box_type_01--item courses_item">
-							<div class="box_type_01--img courses_img">
-								<img src="images/common/none_img.png" alt="">
-							</div>
-							<div class="box_type_01--desc courses_desc_box">
-								<p class="title_r_03">4 Essential steps during COVID to prepare for College Applications...</p>
-								<div class="desc_text">
-									COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT [...]
-								</div>
-								<a href="#" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
+							</li>
+						<% } %>
 					</ul>
 				</div>
 			</section>
