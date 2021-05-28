@@ -10,6 +10,9 @@
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
+<script>
+	const tv = <%- JSON.stringify(tv) %>;
+</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 
@@ -28,13 +31,16 @@
 				<div class="section_inner">
 					<div class="grid_type_wrap_01">
 						<div class="main_article">
+							<%
+								const mainTV = tv[0];
+							%>
 							<div class="article_box">
 								<div class="video_box">
-									<iframe src="https://www.youtube.com/embed/Hd2h6NDtoPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe src="<%= tv[0].embeddedUrl %>" title="<%= tv[0].title %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
-								<a href="https://www.youtube.com/watch?v=727aTb5tZDM" target="_blank">
-									<h3 class="title_r_02 section_title_02">Lorem ipsum dolor sit amet</h3>
-									<p class="text--gray">Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent […]</p>
+								<a href="<%= tv[0].blankUrl %>" target="_blank">
+									<h3 class="title_r_02 section_title_02"><%= tv[0].title %></h3>
+									<p class="text--gray"><%=  tv[0].excerpt %></p>
 								</a>
 							</div>
 						</div>
