@@ -2,8 +2,8 @@
 	<title><%-course.name-%> - PointAve</title>
 	<meta name="keywords" content="PointAve, <%-course.keyword.join(',')-%>">
 	<meta name="description" content="<%-course.desc-%>">
-	<meta property="og:title" content="PointAve">
-	<meta property="og:description" content="">
+	<meta property="og:title" content="<%-course.name-%> - PointAve">
+	<meta property="og:description" content="<%-course.desc-%>">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="<%-course.thumbnail-%>">
 
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</section>
-			
+
 			<% if(course.offline.objective) { %>
 			<section class="course_objective_wrap">
 				<div class="section_inner">
@@ -166,4 +166,5 @@
 	<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
 	<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 	<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+	<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
   <%- include("partials/body_end") %>
