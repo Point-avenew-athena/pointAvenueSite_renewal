@@ -1,0 +1,173 @@
+<%- include("../partials/head_start") %>
+
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/layout.css">
+<link rel="stylesheet" type="text/css" href="/css/sub.css">
+<%- include("../partials/head_end") %>
+<%- include("../partials/body_start") %>
+<div class="wrap sub all_ms_courses">
+		<%- include("../partials/gnb") %>
+    <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">MIDDLE & HIGH SCHOOL COURSES</h2>
+					</div>
+				</div>
+			</section>
+			<section class="classes_grid_wrap">
+				<div class="section_inner">
+					<div class="text desc_box">
+						<strong>Point Avenue's Middle School program</strong> supports children ranging from Grade 5 to Grade 8 (10-14 years old). In Middle School, students are in a developmental learning stage in which academics, personal interests, and social connection are of the highest importance. Point Avenue's Middle School program is focused on enhancing both academic (English proficiency, writing, grammar, reading) and leadership skills (public speaking, habit building, confidence) to better prepare students for success and growth as they navigate this complex phase of life. Our Middle School program offers both English learning (ELA) and enrichment courses (Pages, Ink, Life Coaching) in order to provide a more holistic and well-rounded approach to education. Our teachers primary goal is to help mentor and guide your child to be the best version of themselves and develop leadership skills that will last a lifetime. Throughout our courses, your child will be provided with individualized feedback, educational recommendations, and a parent teacher conference.  				 
+					</div>
+					<!-- option_wrap :: start -->
+					<%- include('../partials/course_filter'); %>
+					<!-- option_wrap :: end -->
+					<!-- courses_wrap :: start -->
+					<div class="courses_wrap">
+						<!-- courses_type_box :: start -->
+						
+						<div class="courses_type_box">
+							<p class="title_r_02 section_title">Our Course Offerings</p>
+							<ul class="class_box_type_01">
+								<% for(const course of courses) { %>
+									<%- include('../partials/course_list_item', { course }) %>
+								 <% } %>
+							</ul>
+						</div>
+						<!-- courses_type_box :: end -->
+					</div>
+					<!-- courses_wrap :: end -->
+				</div>
+			</section>
+			<section class="model_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<p class="title_r_03"><strong class="t_yellow">Inquiry Based Learning (IBL)</strong>that supports a student centric environment, promoting character building, critical thinking, innovation, and motivation</p>
+						<p class="text">Point Avenue utilize an inquiry based approach, fostering curiosity, guiding students through the learning process, and leading them to become lifelong learners.  </p>
+					</div>
+					<div class="model_img_box">
+						<img src="/images/sub/common/model_img2.png" alt="">
+						<p class="title_r_03">The 5E Model</p>
+					</div>
+				</div>
+			</section>
+			<section class="mentors_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Meet Our Mentors</h3>
+					<!-- 선생 리스트 swiper-->
+					<%- include("../partials/team-members") %>
+				</div>
+			</section>
+			<section class="testimonials_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Testimonials</h3>
+					<div class="swipe_type_01_wrap">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_02 team_list">
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="/images/common/none_img.png" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="info_input_wrap">
+				<div class="section_inner--full">
+					<div class="write_box">
+						<h3 class="title_r_02">Don’t know your level yet? Sign up for a diagnostic test?</h3>
+						<div class="input_box">
+							<input type="text" class="name" placeholder="Your Name*">
+							<input type="text" class="phone" placeholder="Your Phone*">
+							<input type="text" class="email" placeholder="Your Email*">
+						</div>
+						<a href="#" class="btn_type_01--sec">
+							<span class="btn_inner">Register</span>
+						</a>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+    <%- include("../partials/footer") %>
+    <%- include("../partials/common_popup") %>
+</div>
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
+<script>
+	const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
+	const teamMembers = <%- JSON.stringify(teamMembers) %>;
+	const courses = <%- JSON.stringify(courses) %>;
+	$(function(){
+		const type = 'middlehigh';
+		const limit = 0;
+		renderCourse(type, limit);
+		
+		// 필터 클릭시
+		$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+			const on = this.checked;
+			const value = this.value;
+			const option = this.dataset.option;
+			courseFilter(option, value, on);
+			renderCourse(type, limit);
+		});
+
+		// sort
+		$('.sort_by_box .sort_kind_item a').click(function() {
+			courseSort = this.dataset.value;
+		});
+	});
+</script>
+<%- include("../partials/body_end") %>
