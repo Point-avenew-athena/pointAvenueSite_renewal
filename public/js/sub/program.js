@@ -55,7 +55,7 @@ const bindCourse = (course) => {
   template.find('.class_box_type_01--img a').attr('href', `/programs/${course.courseId}`);
   template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
   template.find('.age').html(`Age ${course.age}`);
-  template.find('.times').html(`${course.runtime}`);
+  template.find('.times').html(`${course.hour}`);
   template.find('.title_r_03').html(course.name);
   template.find('.class_type').html(course.type);
   return template;

@@ -60,24 +60,48 @@
     "runtime" : "17 Weeks",
     "age" : "5-10",
     "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "desc": [
+      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences. Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers. "
+    ],
+    "keyword" : [
+      "Phonics",
+      "short vowels",
+      "long vowels",
+      "consonant blends",
+      "alphabet",
+      "social learning",
+      "emotional learning",
+      "arts & crafts",
+      "circle time activities",
+      "curiosity"
+    ],
     "offline" : {
-      "videoUrl" : "",
-      "overview" : "",
+      "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "about" : {
-        "old" : "",
-        "schedule" : "",
-        "hour" : ""
+        "age" : "4-7",
+        "weeks" : "2 x 17 weeks",
+        "duration" : "3 hours / week",
+        "hour" : "51 hours"
       },
       "objective" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_01.png",
         "strings" : [
-          "", ""
+          "Alphabet recognition and application",
+          "Short vowel sounds",
+          "Long vowel sounds",
+          "Consonant blends",
+          "Reading using digraphs",
+          "Basic reading & writing of 3~4 letter monosyllabic words"
         ]
       },
       "books" : {
-        "image" : "",
+        "image" : "/images/sub/class-detail/english/img_02.png",
         "strings" : [
-          "", ""
+          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
+          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
+          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
         ]
       },
       "location" : {

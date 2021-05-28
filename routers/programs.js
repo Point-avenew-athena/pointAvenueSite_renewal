@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const courses = require('../src/data/courses')
+const courses = require('../data/courses')
 const options = (courses) => [
   {
     key: 'location',
