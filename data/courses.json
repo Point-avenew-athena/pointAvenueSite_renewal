@@ -275,7 +275,7 @@
     "weeks" : "1 x 17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
-    "thumbnail" : "/images/sub/program/Engineering.jpg",
+    "thumbnail" : "/images/sub/program/Engineering_1.jpg",
     "desc": ["Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations. At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems.  These activities will allow students to understand the connections between related areas in math and science.  Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.  Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."],
     "keyword" : [
       "Phonics",
@@ -294,7 +294,7 @@
       "registrationText": "Spring Term Registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "/images/sub/class-detail/english/img_01.png",
+        "image" : "/images/sub/program/Engineering_2.jpg",
         "strings" : [
           "Beginner: Develop a curiosity and a foundational interest for basic engineering concepts through empirical exploration",
           "Intermediate: Develop confidence through theoretical and empirical learning of major engineering disciplines. Examine problems through an iterative mindset"
