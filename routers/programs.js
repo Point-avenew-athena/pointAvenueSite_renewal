@@ -84,4 +84,9 @@ router.get('/:courseId', function (req, res) {
   res.render(renderPath, { course })
 });
 
+router.get('/admissions-consulting', function (req, res) {
+  const studies = require('../data/programs/case-studies.json');
+  res.render('admissions-consulting', { studies });
+});
+
 module.exports = router
