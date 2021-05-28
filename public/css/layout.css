@@ -288,7 +288,7 @@
 .team_wrap .swipe_type_01 .swipe_type_01--desc {padding-top:10px;}
 
 /* process_step_wrap */
-.process_step_wrap {padding:20px 0 40px;}
+.process_step_wrap {padding:20px 0 40px; }
 .process_step_wrap .process_step_list {position: relative; z-index: 10;}
 .process_step_wrap .process_step_list:after {content:''; display: block; clear: both;}
 .process_step_wrap .process_step_list .process_step_item{float: left; width:20%; position: relative;}
@@ -458,7 +458,7 @@
 }
 @media screen and (max-width:1000px) {
 	.container > section {margin-top: 80px;}
-	
+
 	.title_r_00 {font-size: 50px;}
 	.title_r_01 {font-size: 40px;}
 	

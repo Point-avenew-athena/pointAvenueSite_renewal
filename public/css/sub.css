@@ -37,8 +37,8 @@
 .sub .spotlight_wrap .text--gray {line-height: 1.6;}
 .sub .spotlight_wrap .sub_article ul li {overflow: hidden;border-bottom: 1px solid #ddd; padding: 20px 0;}
 .sub .spotlight_wrap .sub_article ul li:last-child {border-bottom: 0;}
-.sub .spotlight_wrap .sub_article .img_box {position: relative; width:30%; float: left; padding-top: 23%;overflow: hidden;}
-.sub .spotlight_wrap .sub_article .img_box img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%); -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%);}
+.sub .spotlight_wrap .sub_article .img_box {position: relative; width:30%; float: left; padding-top: 23%;overflow: hidden; border-radius: 20px;}
+.sub .spotlight_wrap .sub_article .img_box img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%); -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); border-radius: 20px;}
 .sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; padding-top: 21%; border-radius: 10px; float: left; overflow: hidden;}
 .sub .spotlight_wrap .sub_article .video_box video {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
 .sub .spotlight_wrap .sub_article .video_box iframe {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
@@ -221,7 +221,7 @@
 /*=============scholarhip ========*/
 .scholarhip .visual_wrap{background:url('../images/sub/point-avenue/scholarship/visual.png') right no-repeat; background-size: cover;}
 .scholarhip .scholar_wrap .img_box img {border-radius: 20px;}
-.scholarhip .process_step_wrap .section_inner {overflow: hidden;}
+.scholarhip .process_wrap .section_inner {overflow: hidden;}
 .scholarhip .process_step_wrap .process_step_list .process_step_item {width:33.33%;}
 .scholarhip .process_step_wrap .process_step_list .tooltip_box {max-width:200px; margin-left: -100px; bottom:250px;}
 .scholarhip .process_step_wrap .process_step_list .process_step_item .step {width:70%; margin:167px auto;padding:13px 10px; border-radius: 20px;}
