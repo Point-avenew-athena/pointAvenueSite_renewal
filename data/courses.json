@@ -275,7 +275,7 @@
     "weeks" : "1 x 17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
-    "thumbnail" : "/images/sub/program/DSC07193.jpg",
+    "thumbnail" : "/images/sub/program/Engineering.jpg",
     "desc": ["Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations. At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems.  These activities will allow students to understand the connections between related areas in math and science.  Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.  Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."],
     "keyword" : [
       "Phonics",
@@ -815,6 +815,210 @@
           "For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
         ]
       },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+
+  
+
+  {
+    "courseId" : 17,
+    "type" : "Offline",
+    "name" : "Elementary (Beginner)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "age" : "8-10",
+    "weeks" : "17 weeks",
+    "duration" : "",
+    "hour" : "34 hours",
+    "thumbnail" : "/images/sub/program/Elementary_Beginner_1.jpg",
+    "desc": ["Point Avenue’s Elementary Debate (Beginner) course introduces students to Public Speaking and the basic concepts used in Debate. They will be provided with and apply techniques that will help them to communicate effectively, enhance their critical thinking, and deliver an engaging speech to an audience. Students will be coached on how to research and discuss a variety of topics to enhance their understanding and be given ample opportunities to offer their own opinion. Also, students will be challenged to explore and support opinions that differ from their own."],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/Elementary_Beginner_2.jpg",
+        "strings" : [
+          "Define Debate and identify related elementary-level vocabulary",
+          "Demonstrate enhanced critical thinking",
+          "Write and deliver an organized speech ",
+          "Collaborate and communicate with their peers"
+        ]
+      },
+      "books" : {
+        "image" : "/images/sub/program/debate_books.jpg",
+        "strings" : [
+          "1. Speakers’ Club: Public Speaking for Young People: includes practical ideas and fun activities, introduces valuable skills and reinforces the need for preparation and attention to detail to deliver a successful speech.",
+          "2. Debate Pro Junior: Book 1: designed to introduce students to a variety of topics and teach them how to present opinions about these topics."
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 18,
+    "type" : "Offline",
+    "name" : "Elementary (Intermediate)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "age" : "8-10",
+    "weeks" : "17 weeks",
+    "duration" : "",
+    "hour" : "34 hours",
+    "thumbnail" : "/images/sub/program/Elementary_Intermediate_1.jpg",
+    "desc": ["Point Avenue’s Elementary Debate (Intermediate) course is designed to build upon the skills developed during the Beginner course and introduce students to more challenging Debate vocabulary and topics. Students will continue to develop their critical thinking and learn to think more creatively through brainstorming, enabling them to become powerful and deliberate communicators. Students will also be gradually introduced to more complex debating styles with a particular focus on World Schools Debating Championships (WSDC) and Asian Parliamentary (AP) formats."],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/Elementary_Intermediate_2.jpg",
+        "strings" : [
+          "Demonstrate understanding of Debate and its practical applications",
+          "Express their opinion using the Argumentation and Refutation structure",
+          "Use brainstorming techniques to generate ideas, and communicate their opinion",
+          "Demonstrate critical thinking, creativity and ability to collaborate with others"
+        ]
+      },
+      "books" : {
+        "image" : "/images/sub/program/debate_books.jpg",
+        "strings" : [
+          "1. Debate Pro Junior: Book 2: designed to introduce students to a variety of topics and teach them how to present opinions about these topics. Book 2 covers more advanced topics and vocabulary."
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 19,
+    "type" : "Offline",
+    "name" : "Middle School (Beginner)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "age" : "11-16",
+    "weeks" : "17 weeks",
+    "duration" : "",
+    "hour" : "51 hours",
+    "thumbnail" : "/images/sub/program/Middle_School_Beginner_1.jpg",
+    "desc": ["Point Avenue’s MSHS Debate (Beginner) is a course that aims to nurture future leaders and their ability to think critically, collaborate, express and share their ideas in a powerful manner. Throughout the term, students will be exposed to a variety of debating styles, with a particular focus on World Schools Debating Championships (WSDC) and Asian Parliamentary (AP) formats."],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/Middle_School_Beginner_2.jpg",
+        "strings" : [
+          "Define the purpose and structure of competitive Parliamentary Debating",
+          "Express their opinions using the Argumentation and Refutation structure",
+          "Distinguish the different roles and responsibilities of the First, Second, Third, and Reply Speaker",
+          "Utilize two brainstorming techniques in generating ideas: the Need Practicality Impact (NPI) Analysis and Stakeholder Analysis",
+          "Collaborate with their classmates in a tournament structure"
+        ]
+      },
+      "books" : {
+        "image" : "/images/sub/program/debate_books.jpg",
+        "strings" : [
+          "1. Debate For All: Introduction to Debate: explores the basics of the academic sport of debate to include 21st-Century Skills, parliamentary debate format, argumentation, refutation, speaker roles, and methods of brainstorming. "
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 20,
+    "type" : "Offline",
+    "name" : "Middle & High School (Intermediate)",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "age" : "11-16",
+    "weeks" : "17 weeks",
+    "duration" : "",
+    "hour" : "51 hours",
+    "thumbnail" : "/images/sub/program/Middle_High_School_Intermediate_1.jpg",
+    "desc": ["Point Avenue’s MSHS Debate (Intermediate) is a course designed to nurture future leaders to think critically, collaborate, express themselves creatively, and communicate their ideas effectively in a formal setting. Building on skills learned in the MSHS Debate (Beginner) course, students will refine their argumentation and refutation skills, learn and practice higher-level debate skills, analyze current topics, and develop effective collaboration skills with peers."],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/Middle_High_School_Intermediate_2.jpg",
+        "strings" : [
+          "Deepen their understanding of competitive Parliamentary Debate ",
+          "Enhance their skills through personalized speech and case analysis drills ",
+          "Exhibit logical arrangement of ideas in writing and speech ",
+          "Increase their knowledge of current events and learn ways to incorporate them into formal debate speeches ",
+          "Collaborate with their classmates in a tournament structure ",
+          "Prepare to participate in competitive debating championships online and offline"
+        ]
+      },
+      "books" : {
+        "image" : "/images/sub/program/debate_books.jpg",
+        "strings" : [
+          "1. Point Avenue: Debate Topics: introduces students to various topics and presents multiple controversies around the subject. These packets aim to help students grow their general knowledge and identify the core clashes in a debate. Discussion questions ignite students' critical thinking and expand their vocabulary related to the topics."
+        ]
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
+    "courseId" : 21,
+    "type" : "Offline",
+    "name" : "Debate All Stars",
+    "location" : "Hanoi - Cau Giay",
+    "program" : "Debate",
+    "age" : "14-16",
+    "weeks" : "12-17 weeks",
+    "duration" : "",
+    "hour" : "36-51 hours",
+    "thumbnail" : "/images/sub/program/Debate_All_Stars_1.jpg",
+    "desc": [
+      "The Debate “All-Stars” Program is an advanced course designed for students with competitive debating tournament experience. Each class will culminate in performance assignments that require students to demonstrate their abilities and apply course content within the classroom setting. Opportunities to take their knowledge beyond the classroom are available with tournaments in and out of Vietnam. ",
+      "",
+      "Possible tournaments for the students to participate in are the Vietnam Schools Debating Championship, Hanoi Debate Tournament, Asia Debate Open (China, Vietnam), Asian World Schools Debating Championship (Thailand), Oldham Cup (Singapore), Korea Youth Debating Championship (Korea), Harvard College World Schools Invitational (USA), and more."
+    ],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Spring Term Registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "/images/sub/program/Debate_All_Stars_2.jpg",
+        "strings" : [
+          "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
+          "Students will be introduced to various debate strategies with a focus on team collaboration.For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
+        ]
+      },
+      "books" : null,
       "location" : {
         "name" : "",
         "address" : [
