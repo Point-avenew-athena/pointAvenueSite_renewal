@@ -13,6 +13,11 @@ router.get('/', (req, res) => {
 router.get('/about-us', (req, res) => {
   const teamMembers = require('../data/point-avenue/about-us/team-members.json');
   const locations = require('../data/point-avenue/about-us/locations.json');
+  const metaData = {
+    name: 'About us',
+    keywords: []
+
+  }
   res.render('about-us', { teamMembers, locations });
 });
 
@@ -40,10 +45,9 @@ router.get('/news/list/newsletter', (req, res) => {
 //* newsletter / articles 개별 포스트
 router.get('/news/:id', (req, res) => {
   const news = require('../data/point-avenue/news/news.json');
-  const singlePost = news.filter((news) => news.id == req.params.id);
-
+  const singlePost = news.filter((news) => news.id == req.params.id)[0];
   res.render('news/news-single-post', {
-    singlePost,
+    singlePost
   });
 });
 

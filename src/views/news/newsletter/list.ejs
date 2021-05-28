@@ -44,7 +44,7 @@ Newsletter 리스트 페이지
 								<div class="box_type_01--desc courses_desc_box">
 									<p class="title_r_03"><%= onlyNewsletters[i].title %></p>
 									<div class="desc_text">
-										<%= onlyNewsletters[i].thumbnail.excerpt %>
+										<%- onlyNewsletters[i].thumbnail.excerpt %>
 									</div>
 									<a href="/news/<%= onlyNewsletters[i].id %>" class="btn_type_01--sec">
 										<span class="btn_inner">Read More</span>
