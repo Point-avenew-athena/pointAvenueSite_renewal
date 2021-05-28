@@ -41,6 +41,27 @@ $(function(){
 		}
 	});
 	
+  var locations_swiper = new Swiper('.locations_cont .swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      1000: {
+        // 화면의 넓이가 1000px 이하일 때
+        slidesPerView: 2,
+      },
+      768: {
+        // 화면의 넓이가 768px 이하일 때
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+    },
+  });
+	
+
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
 	$('.mentors_wrap .team_item > a').click(function(){
 		/*
