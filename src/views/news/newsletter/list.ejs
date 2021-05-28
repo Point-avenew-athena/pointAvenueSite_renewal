@@ -38,12 +38,18 @@
 						<% for ( let i = 0; i < onlyNewsletters.length; i++){ %>
 							<li class="box_type_01--item courses_item">
 								<div class="box_type_01--img courses_img">
-									<img src="<%= onlyNewsletters[i].thumbnail.imageUrl %>" alt="<%= onlyNewsletters[i].title %>">
+									<a href="/news/<%= onlyNewsletters[i].id %>">
+										<img src="<%= onlyNewsletters[i].thumbnail.imageUrl %>" alt="<%= onlyNewsletters[i].title %>">
+									</a>
 								</div>
 								<div class="box_type_01--desc courses_desc_box">
-									<p class="title_r_03"><%= onlyNewsletters[i].title %></p>
+									<a href="/news/<%= onlyNewsletters[i].id %>">
+										<p class="title_r_03"><%= onlyNewsletters[i].title %></p>
+									</a>
 									<div class="desc_text">
-										<%- onlyNewsletters[i].thumbnail.excerpt %>
+										<a href="/news/<%= onlyNewsletters[i].id %>">
+											<%- onlyNewsletters[i].thumbnail.excerpt %>
+										</a>
 									</div>
 									<a href="/news/<%= onlyNewsletters[i].id %>" class="btn_type_01--sec">
 										<span class="btn_inner">Read More</span>

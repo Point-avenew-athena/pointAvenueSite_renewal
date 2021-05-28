@@ -1,14 +1,4 @@
-<%- include("../partials/head_start") %>
-<title><%= singlePost.title %>- PointAve</title>
-<meta name="keywords" content="PointAve">
-<meta name="title" content="<%= singlePost.title %>">
-<meta name="description" content="<%= singlePost.thumbnail.excerpt %>">
-<meta property="og:title" content="PointAve">
-<meta property="og:description" content="<%= singlePost.contents %>">
-<meta property="og:type" content="website">
-<meta property="og:image" content="<%= singlePost.thumbnail.imageUrl %>">
-
-
+<%- include("../../partials/head_start") %>
 <link rel="stylesheet" type="text/css" href="/css/reset.css">
 <link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="/css/common.css">
@@ -21,20 +11,20 @@
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
 <script>
-  const singlePost = <%- JSON.stringify(singlePost) %>;
+  const singleNewsLetter = <%- JSON.stringify(singleNewsLetter) %>;
 </script>
-<%- include("../partials/head_end") %>
-<%- include("../partials/body_start") %>
+<%- include("../../partials/head_end") %>
+<%- include("../../partials/body_start") %>
 	<div class="wrap sub article">
-    <%- include("../partials/gnb") %>
+    <%- include("../../partials/gnb") %>
     <!-- container :: start -->
 		<div class="container">
 			<section class="visual_wrap">
 				<div class="section_inner">
           <% 
-            const type = singlePost.type,
-                  title = singlePost.title,
-                  contents = singlePost.contents;
+            const type = singleNewsLetter[0].type,
+                  title = singleNewsLetter[0].title,
+                  contents = singleNewsLetter[0].newsletter.contents;
           %>
 					<div class="text_box">
 						<div class="flag_type_02"><%= type %></div>
@@ -49,6 +39,6 @@
 			</section>			
 		</div>
 		<!--container :: end-->
-    <%- include("../partials/footer") %>
-		<%- include("../partials/common_popup") %>
+    <%- include("../../partials/footer") %>
+		<%- include("../../partials/common_popup") %>
   </div>

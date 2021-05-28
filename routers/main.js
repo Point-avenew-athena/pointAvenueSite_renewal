@@ -41,7 +41,7 @@ router.get('/news/list/newsletter', (req, res) => {
   const newsletters = require('../data/point-avenue/news/news.json');
   res.render('news/newsletter/list', { newsletters });
 });
-
+// str.replace(/"/g, '\\"');
 //* newsletter / articles 개별 포스트
 router.get('/news/:id', (req, res) => {
   const news = require('../data/point-avenue/news/news.json');
