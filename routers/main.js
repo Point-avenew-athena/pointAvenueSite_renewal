@@ -26,18 +26,14 @@ router.get('/careers', (req, res) => {
 
 router.get('/news', (req, res) => {
   const news = require('../data/point-avenue/news/news.json');
-  const tv = require('../data/point-avenue/news/tv.json');
-  // const SPOTLIGHT_NEWS = [3475, 3469, 3433, 3419, 2624, 2557];
-  // const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id));
+  const tv = require('../data/point-avenue/news/tv.json').slice(0, 3);
 
-  // console.log("helpers:", helpers)
-  // res.render('news', {news, mainNews: filteredNews, helpers});
   res.render('news', { news, tv });
 });
 
 //* newsletter 리스트 페이지
 router.get('/news/list/newsletter', (req, res) => {
-  res.render('news/newsletter/index');
+  res.render('news/newsletter/list');
 });
 
 //* newsletter / articles 개별 포스트
@@ -52,12 +48,14 @@ router.get('/news/:id', (req, res) => {
 
 //* articles 리스트 페이지
 router.get('/news/list/articles', (req, res) => {
-  res.render('news/articles/index');
+  const news = require('../data/point-avenue/news/news.json');
+  res.render('news/articles/list', news);
 });
 
 //* TV
 router.get('/news/list/tv', (req, res) => {
-  res.render('news/tv/index');
+  const tv = require('../data/point-avenue/news/tv.json');
+  res.render('news/tv/index', { tv });
 });
 
 module.exports = router;
