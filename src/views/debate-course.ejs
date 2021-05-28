@@ -5,13 +5,6 @@
 <link rel="stylesheet" type="text/css" href="/css/layout.css">
 <link rel="stylesheet" type="text/css" href="/css/sub.css">
 
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/debate.js"></script>
-<script>
-	const teamMembers = <%- JSON.stringify(teamMembers) %>;
-</script>
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub all_debate_courses">
@@ -155,9 +148,10 @@
 <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/common.js"></script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
 <script>
 	const courseTemplate = `<%- include("partials/course_list_item", { course: null }); %>`;
-	const teachers = <%- JSON.stringify(teachers) %>;
+	const teamMembers = <%- JSON.stringify(teamMembers) %>;
 	const courses = <%- JSON.stringify(courses) %>;
 	$(function(){
 		const type = 'debate';
