@@ -38,5 +38,36 @@
       "Head Teacher, Apax Leaders"
     ],
     "img": "/images/sub/program/ms_mentor_04.png" 
+  },
+  
+  {
+    "id": 5,
+    "name": "Dan",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_05.png"
+  },
+  {
+    "id": 6,
+    "name": "Myles",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_06.jpg" 
+  },
+  {
+    "id": 7,
+    "name": "Zack",
+    "position": "Middle & High School Teacher",
+    "exp": [
+      "B.A in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+      "Head Teacher, Apax Leaders"
+    ],
+    "img": "/images/sub/program/ms_mentor_07.jpg" 
   }
 ]
