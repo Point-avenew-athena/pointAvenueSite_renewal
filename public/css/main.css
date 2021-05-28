@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width: 768px) {
-	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:1.2vw 0;}
+	.main_visual_wrap .main_visu_more_btn {height: 40px; padding:1.5vw 0;}
 	.step_wrap {overflow: hidden;}
 	.step_wrap .section_inner .swiper-container {overflow: inherit;}
 	.step_wrap .section_inner .swiper-wrapper {overflow: inherit; padding:20px 0;}
