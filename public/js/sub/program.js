@@ -1,4 +1,5 @@
 const courseFilters = [];
+const cachedCourses = {};
 let courseSort = 'newest';
 const courseFilter = (option, value, on) => {
   const items = $('.class_box_type_01--item');
@@ -30,9 +31,16 @@ const getCourses = (type, limit) => {
   if(courseFilters.length > 0) {
     for(const course of typeCourses) {
       for(const filter of courseFilters) {
-        if(course[filter.option] === filter.value) {
-          items.push(course);
-          break;
+        if(typeof course[filter.option] === "object") {
+          if(course[filter.option].includes(filter.value)) {
+            items.push(course);
+            break;
+          }
+        } else {
+          if(course[filter.option] === filter.value) {
+            items.push(course);
+            break;
+          }
         }
       }
     }
@@ -51,38 +59,35 @@ const getCourses = (type, limit) => {
 }
 
 const bindCourse = (course) => {
-  const template = $(courseTemplate);
-  template.find('.class_box_type_01--img a').attr('href', `/programs/${course.courseId}`);
-  template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
-  template.find('.age').html(`Age ${course.age}`);
-  template.find('.times').html(`${course.hour}`);
-  template.find('.title_r_03 a').html(course.name).attr('href', `/programs/${course.courseId}`);
-  template.find('.class_type').html(course.type);
-  return template;
+  if(!cachedCourses[course.courseId]) {
+    const template = $(courseTemplate);
+    template.find('.class_box_type_01--img a').attr('href', `/programs/${course.courseId}`);
+    template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
+    template.find('.age').html(`Age ${course.age}`);
+    template.find('.times').html(`${course.hour}`);
+    template.find('.title_r_03 a').html(course.name).attr('href', `/programs/${course.courseId}`);
+    template.find('.class_type').html(course.type);
+    cachedCourses[course.courseId] = template;
+  }
+  return cachedCourses[course.courseId];
 }
 
-const renderCourse = (type, limit = 0) => {
-  $('.courses_type_box .class_box_type_01').html('');
-  getCourses(type, limit).map(course => {
-    $('.courses_type_box .class_box_type_01').append(bindCourse(course));
-  });
+const renderCourse = (type, limit = 0, hasType = false) => {
+  const typeCls = hasType ? `.${type}` : '';
+  const selector = `.courses_type_box${typeCls} .class_box_type_01`;
+  $(selector).html('');
+  if(getCourses(type, limit).length > 0) {
+    getCourses(type, limit).map(course => {
+      $(selector).append(bindCourse(course));
+    });
+  } else {
+    $(selector).append('<li>Not found data</li>');
+  }
 }
 
 const renderCourses = (limit = 0) => {
-  $('.courses_type_box.elementary .class_box_type_01').html('');
-  getCourses('elementary', limit).map(course => {
-    $('.courses_type_box.elementary .class_box_type_01').append(bindCourse(course));
-  });
-  $('.courses_type_box.middlehigh .class_box_type_01').html('');
-  getCourses('middlehigh', limit).map(course => {
-    $('.courses_type_box.middlehigh .class_box_type_01').append(bindCourse(course));
-  });
-  $('.courses_type_box.debate .class_box_type_01').html('');
-  getCourses('debate', limit).map(course => {
-    $('.courses_type_box.debate .class_box_type_01').append(bindCourse(course));
-  });
-  $('.courses_type_box.test .class_box_type_01').html('');
-  getCourses('test', limit).map(course => {
-    $('.courses_type_box.test .class_box_type_01').append(bindCourse(course));
-  });
+  renderCourse('elementary', limit, true);
+  renderCourse('middlehigh', limit, true);
+  renderCourse('debate', limit, true);
+  renderCourse('test', limit, true);
 }

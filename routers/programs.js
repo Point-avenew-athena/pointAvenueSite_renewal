@@ -6,9 +6,9 @@ const options = (courses) => [
     key: 'location',
     name: 'Location',
     filters: [
-      { idx:1, name: 'Hanoi - Cau Giay', value: 'Hanoi - Cau Giay', count: () => courses.filter(course => course.location.indexOf('Hanoi - Cau Giay') > -1).length },
-      { idx:2, name: 'Hanoi - Long Bien', value: 'Hanoi - Long Bien', count: () => courses.filter(course => course.location.indexOf('Hanoi - Long Bien') > -1).length },
-      { idx:3, name: 'Bangkok', value: 'Bangkok', count: () => courses.filter(course => course.location.indexOf('Bangkok') > -1).length },
+      { idx:1, name: 'Hanoi - Cau Giay', value: 'Hanoi - Cau Giay', count: () => courses.filter(course => course.location.includes('Hanoi - Cau Giay')).length },
+      { idx:2, name: 'Hanoi - Long Bien', value: 'Hanoi - Long Bien', count: () => courses.filter(course => course.location.includes('Hanoi - Long Bien')).length },
+      { idx:3, name: 'Bangkok', value: 'Bangkok', count: () => courses.filter(course => course.location.includes('Bangkok')).length },
     ]
   },
   {
@@ -24,11 +24,31 @@ const options = (courses) => [
     key: 'age',
     name: 'Age',
     filters: [
-      { idx:1, name: '5 - 10', value: '5-10', count: () => courses.filter(course => course.age === '5-10').length },
-      { idx:2, name: '11 - 15', value: '11-15', count: () => courses.filter(course => course.age === '11-15').length },
-      { idx:3, name: '16 - 18', value: '16-18', count: () => courses.filter(course => course.age === '16-18').length },
+      { idx:1, name: '4 - 7', value: '4-7', count: () => courses.filter(course => course.age === '4-7').length },
+      { idx:2, name: '5 - 10', value: '5-10', count: () => courses.filter(course => course.age === '5-10').length },
+      { idx:3, name: '6 - 10', value: '6-10', count: () => courses.filter(course => course.age === '6-10').length },
+      { idx:4, name: '7 - 12', value: '7-12', count: () => courses.filter(course => course.age === '7-12').length },
+      { idx:5, name: '8 - 10', value: '8-10', count: () => courses.filter(course => course.age === '8-10').length },
+      { idx:6, name: '8 - 12', value: '8-12', count: () => courses.filter(course => course.age === '8-12').length },
+      { idx:7, name: '11 - 12', value: '11-12', count: () => courses.filter(course => course.age === '11-12').length },
+      { idx:8, name: '11 - 13', value: '11-13', count: () => courses.filter(course => course.age === '11-13').length },
+      { idx:9, name: '11 - 14', value: '11-14', count: () => courses.filter(course => course.age === '11-14').length },
+      { idx:11, name: '11 - 16', value: '11-16', count: () => courses.filter(course => course.age === '11-16').length },
+      { idx:12, name: '12 - 14', value: '12-14', count: () => courses.filter(course => course.age === '12-14').length },
+      { idx:13, name: '14 - 16', value: '14-16', count: () => courses.filter(course => course.age === '14-16').length }
     ]
   },
+  {
+    key: 'grade',
+    name: 'Grade',
+    filters: [
+      { idx:1, name: '7th - 12th', value: '7th - 12th grade', count: () => courses.filter(course => course.grade === '7th - 12th grade').length },
+      { idx:2, name: '8th - 10th', value: '8th - 10th grade', count: () => courses.filter(course => course.grade === '8th - 10th grade').length },
+      { idx:3, name: '9th - 10th', value: '9th - 10th grade', count: () => courses.filter(course => course.grade === '9th - 10th grade').length },
+      { idx:4, name: '9th - 12th', value: '9th - 12th grade', count: () => courses.filter(course => course.grade === '9th - 12th grade').length },
+      { idx:5, name: '11th - 12th', value: '11th - 12th grade', count: () => courses.filter(course => course.grade === '11th - 12th grade').length }
+    ]
+  }
   // {
   //   key: 'program',
   //   name: 'Program',
