@@ -74,7 +74,9 @@ $(function(){
 	});
 	
 	/*Testimonials  클릭시, Testimonials 상세 팝업 노출*/
-	$('.testimonials_wrap .team_item > a').click(function(){
+	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
+		const img = $(this).find('img').attr('src');
+		$('.testimonials_popup .img_box img').attr('src',img);
 		$('.testimonials_popup').show();
 		$('.dim').show();
 	});
