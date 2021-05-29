@@ -112,7 +112,6 @@
 		const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
 		const courses = <%- JSON.stringify(courses) %>;
 		$(function(){
-			console.log(courses);
 			renderCourses(3);
 			
 			// 필터 클릭시
