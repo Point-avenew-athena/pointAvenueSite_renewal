@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const courses = require('../data/courses')
 const teachers = require('../data/teachers.json')
+const locations = require('../data/point-avenue/about-us/locations.json')
 const options = (courses) => [
   {
     key: 'location',
@@ -102,11 +103,12 @@ router.get('/admissions-consulting', function (req, res) {
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
   const course = courses.filter(course => course.courseId == courseId)[0];
+  const filteredLocations = locations.filter(location => [1,2,3].includes(location.id));
   let renderPath = 'programs/course-detail';
   if(course.type === 'Offline') {
     renderPath = 'programs/course-detail-offline';
   }
-  res.render(renderPath, { course })
+  res.render(renderPath, { course, locations:filteredLocations });
 });
 
 module.exports = router

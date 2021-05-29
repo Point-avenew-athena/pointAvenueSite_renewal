@@ -22,7 +22,7 @@
 				<div class="section_inner">
 					<div class="text_box">
 						<h2 class="title_r_01"><%-course.name-%></h2>
-						<p class="text--gray"><span>Elementary English</span> | <span>Grade 1-5</span></p>
+						<p class="text--gray"><span><%-course.program-%></span> | <span><%-course.age ? `Age ${course.age}` : course.grade -%></span></p>
 					</div>
 				</div>
 			</section>
@@ -107,54 +107,8 @@
 			<section class="locations_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Location Availability</h3>
-					<div class="locations_cont">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper locations_list">
-								<li class="swiper-slide locations_item">
-									<p class="title_r_03 locations_title">
-										Cau Giay Campus
-									</p>
-									<div class="locations_text">
-										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,
-										Cau Giay Dist., Ha Noi</p>
-										<p class="tel">024 3201 1841| 024 3381 2288</p>
-									</div>
-								</li>
-								<li class="swiper-slide locations_item">
-									<p class="title_r_03 locations_title">
-										Long Bien Campus
-									</p>
-									<div class="locations_text">
-										<p class="address">60 Chu Huy Man St., Sai Dong New Urban Area, Long Bien Dist., Ha Noi</p>
-										<p class="tel">024 3204 7055 | 024 3204 7366</p>
-									</div>
-								</li>
-								<li class="swiper-slide locations_item">
-									<p class="title_r_03 locations_title">
-										Bangkok Campus
-									</p>
-									<div class="locations_text">
-										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,Cau Giay Dist., Ha Noi</p>
-										<p class="tel">024 3201 1841| 024 3381 2288</p>
-									</div>
-								</li>
-								<li class="swiper-slide locations_item">
-									<p class="title_r_03 locations_title">
-										Cau Giay Campus
-									</p>
-									<div class="locations_text">
-										<p class="address">2nd & 3rd floor CT1 Building, Yen Hoa Park View,
-										Cau Giay Dist., Ha Noi</p>
-										<p class="tel">024 3201 1841| 024 3381 2288</p>
-									</div>
-								</li>
-							</ul>
-
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev"></div>
-							<div class="swiper-button-next"></div>
-						</div>
-					</div>
+					<!-- locations 리스트 swiper-->
+					<%- include("../partials/locations-list") %>
 				</div>
 			</section>
 		</div>
