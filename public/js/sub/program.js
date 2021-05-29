@@ -6,7 +6,7 @@ const courseFilter = (option, value, on) => {
   if(on) {
     courseFilters.push({option, value});
   } else {
-    courseFilters.splice(courseFilters.findIndex(filter => filter.value === option && filter.value === value));
+    courseFilters.splice(courseFilters.findIndex(filter => filter.option === option && filter.value === value), 1);
   }
 }
 
@@ -23,23 +23,27 @@ const getCourses = (type, limit) => {
       typeCourses = typeCourses.filter(course => course.program === 'Debate')
       break;
     case 'test':
-      typeCourses = typeCourses.filter(course => course.program === 'Test Prep')
+      typeCourses = typeCourses.filter(course => course.program === 'Test Preparation')
       break;
   }
 
   let items = [];
+  // filter
   if(courseFilters.length > 0) {
     for(const course of typeCourses) {
       for(const filter of courseFilters) {
         if(typeof course[filter.option] === "object") {
           if(course[filter.option].includes(filter.value)) {
             items.push(course);
-            break;
+          }
+        } else if(filter.option === 'age') {
+          const [min, max] = course[filter.option].split('-');
+          if(Number(min) <= Number(filter.value) && Number(max) >= Number(filter.value)) {
+            items.push(course);
           }
         } else {
           if(course[filter.option] === filter.value) {
             items.push(course);
-            break;
           }
         }
       }
@@ -48,8 +52,11 @@ const getCourses = (type, limit) => {
     items = typeCourses;
   }
 
-  items = items.sort(course => {
-  });
+  // unique
+  items = items.filter((item, index, self) => self.indexOf(item) === index);
+
+  // sort
+  items = items.sort(course => {});
 
   if(limit > 0) {
     items = items.splice(0, limit);
@@ -76,9 +83,10 @@ const bindCourse = (course) => {
 const renderCourse = (type, limit = 0, hasType = false) => {
   const typeCls = hasType ? `.${type}` : '';
   const selector = `.courses_type_box${typeCls} .class_box_type_01`;
+  const list = getCourses(type, limit);
   $(selector).html('');
-  if(getCourses(type, limit).length > 0) {
-    getCourses(type, limit).map(course => {
+  if(list.length > 0) {
+    list.map(course => {
       $(selector).append(bindCourse(course));
     });
   } else {

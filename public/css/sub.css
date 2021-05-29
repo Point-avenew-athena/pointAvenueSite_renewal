@@ -5,6 +5,7 @@
 .sub .model_wrap .text_box {float: left; width:60%; padding-top: 100px; padding-right: 50px; box-sizing: border-box;}
 .sub .model_wrap .text_box .text{margin-top: 20px;}
 .sub .model_wrap .model_img_box{float: right; width:40%; text-align: center;}
+.sub .course_overview_wrap strong {font-weight: 700; font-size: 16px;}
 .sub .registration_box {margin-top:30px; text-align: center;}
 .sub .registration_box p{margin-bottom: 20px;}
 .sub .registration_box .btn_box > a{display: inline-block; margin-right: 40px;}
@@ -14,8 +15,9 @@
 .sub .course_detail_box ul li img{margin-bottom: 20px;}
 .sub .course_detail_box ul li p{color:#8b8b8b;}
 .sub .course_objective_wrap .section_inner {overflow: hidden;}
-.sub .course_objective_wrap .objective_list {float: left; width:60%; margin-top: 30px; padding-left:100px;}
+.sub .course_objective_wrap .objective_list {float: left; width:60%; margin-top: 30px; padding-left:100px; padding-right:30px;}
 .sub .course_objective_wrap .objective_list li {margin-bottom: 30px;}
+.sub .course_objective_wrap .objective_list li strong {font-weight: 700; font-size: 16px;}
 .sub .course_objective_wrap .img_box{float: right; width:40%;}
 .sub .course_books_wrap .section_inner {overflow: hidden;}
 .sub .course_books_wrap .img_box{float: left; width:40%;}
