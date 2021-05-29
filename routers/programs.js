@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const courses = require('../data/courses')
+const teachers = require('../data/teachers.json')
 const options = (courses) => [
   {
     key: 'location',
@@ -71,26 +72,25 @@ router.get('/', function (req, res) {
 
 router.get('/elementary-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Elementary');
-  const elementaryTeachersData = require('../data/programs/teachers/elementary.json');
+  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementarey Teacher')).map(teacher => { teacher.position = 'Elementarey Teacher'; return teacher; });
   res.render('programs/elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
 });
 
 router.get('/middle-high-school-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Middle & High School');
-  const middleHighTeachersData = require('../data/programs/teachers/middle-high.json');
+  const middleHighTeachersData = teachers.filter(teacher => teacher.positions.includes('Middle & High School Teacher')).map(teacher => { teacher.position = 'Middle & High School Teacher'; return teacher; });
   res.render('programs/middle-high-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
 });
 
 router.get('/debate', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Debate');
-  console.log(filterCourse)
-  const debateTeachersData = require('../data/programs/teachers/debate.json');
+  const debateTeachersData = teachers.filter(teacher => teacher.positions.includes('Debate Teacher')).map(teacher => { teacher.position = 'Debate Teacher'; return teacher; });
   res.render('programs/debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
 });
 
 router.get('/test-preparation', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Test Prep');
-  const testPrepTeachersData = require('../data/programs/teachers/test-prep.json');
+  const testPrepTeachersData = teachers.filter(teacher => teacher.positions.includes('Test Preparation Teacher')).map(teacher => { teacher.position = 'Test Preparation Teacher'; return teacher; });
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
