@@ -112,7 +112,7 @@
 		const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
 		const courses = <%- JSON.stringify(courses) %>;
 		$(function(){
-			renderCourses(3)
+			renderCourses(3);
 			
 			// 필터 클릭시
 			$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {

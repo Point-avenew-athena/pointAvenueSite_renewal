@@ -10,6 +10,13 @@ const camp = require('./routers/camp');
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
+// app.use(function(req, res, next) {
+//   if(!req.secure){
+//     res.redirect('https://www.pointavenue.com/' + req.url);
+//   } else {
+//     next();
+//   }
+// });
 app.use(express.json())
 app.use(express.static(__dirname + '/public'));
 // app.use(express.static(__dirname + '/publish'));
