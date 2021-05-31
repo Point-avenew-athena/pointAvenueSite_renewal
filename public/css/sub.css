@@ -41,7 +41,7 @@
 .sub .spotlight_wrap .sub_article ul li:last-child {border-bottom: 0;}
 .sub .spotlight_wrap .sub_article .img_box {position: relative; width:30%; float: left; padding-top: 23%;overflow: hidden; border-radius: 20px;}
 .sub .spotlight_wrap .sub_article .img_box img{width:100%;position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%); -webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); border-radius: 20px;}
-.sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; padding-top: 21%; border-radius: 10px; float: left; overflow: hidden;}
+.sub .spotlight_wrap .sub_article .video_box {position: relative;width:30%; padding-top: 21%; border-radius: 10px; float: left; overflow: hidden; border-radius: 10px;}
 .sub .spotlight_wrap .sub_article .video_box video {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
 .sub .spotlight_wrap .sub_article .video_box iframe {position: absolute; left:0; top:0; width:100%; height: 100%; border-radius: 10px;min-width: 100%;min-height: 100%; object-fit: cover;}
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
@@ -141,7 +141,7 @@
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 .admission_consulting .info_wrap .video_wrap {position:relative; padding-top:36%; border-radius: 10px;}
 .admission_consulting .info_wrap .video_wrap iframe{position:absolute; left:0; top:0; width:100%; height: 100%; border-radius:20px;}
-.admission_consulting .info_wrap .text_wrap {padding-left:30px;}
+.admission_consulting .info_wrap .text_wrap {padding-left:0;}
 .admission_consulting .info_wrap .text_wrap .text {margin-bottom:30px;}
 .admission_consulting .info_wrap .btn_type_01--sec {margin: 0 auto; padding:10px 0 ;}
 .admission_consulting .approach_wrap {overflow: hidden;}

@@ -4,8 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon --watch ./",
-    "start": ""
+    "dev": "cross-env NODE_ENV=development nodemon --watch node server.js",
+    "start": "cross-env NODE_ENV=development node server.js",
+    "prod": "cross-env NODE_ENV=production node server.js"
+    
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/Point-avenew-athena/pointAvenueSite_renewal#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "wpapi": "^1.2.2"
