@@ -5,10 +5,10 @@
     "name" : "English Learning Fundamentals",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
-    "age" : "4-7",
-    "weeks" : "2 x 17 weeks",
+    "age" : "6-7",
+    "weeks" : "17 weeks",
     "duration" : "3 hours / week",
-    "hour" : "102 hours",
+    "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_1.jpg",
     "desc": [
       "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences.",
@@ -17,7 +17,7 @@
     "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_2.jpg",
@@ -53,15 +53,15 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "7-12",
-    "weeks" : "2 x 17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "3 hours / week",
-    "hour" : "102 hours",
+    "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_1-4_1.jpg",
     "desc": [
       "Our EL 1 to 4 courses aim to develop the core language skills; Reading, Listening, Speaking, and Writing.",
       "Each level has been aligned to the US Common Core State Standards to provide rigorous standards and support advance English learning.",
       "Our experienced mentors deliver engaging lessons, as well as focus on student character building, in order to support holistic learning.",
-      "This is focuses on the whole child as a young learner.",
+      "This focuses on the whole child as a young learner.",
       "Students maintain vocabulary journals, learn various academic skills, practice and produce from lesson objectives, and collaborate on projects."
     ],
     "keyword" : [
@@ -78,7 +78,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_1-4_2.jpg",
@@ -86,7 +86,7 @@
           "Improve reading comprehension to a US 5th grade equivalent",
           "Recognize elements of a story",
           "Know how to accurately summarize events, stories, and passages",
-          "Coherently express ideas in a structured and developed responnse",
+          "Coherently express ideas in a structured and developed response",
           "Strengthen language & writing skills"
         ]
       },
@@ -113,7 +113,7 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "9-10",
-    "weeks" : "1 x 17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_1.jpg",
@@ -141,7 +141,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_2.jpg",
@@ -173,7 +173,7 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "6-10",
-    "weeks" : "1 x 17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Engineering_1.jpg",
@@ -198,7 +198,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Engineering_2.jpg",
@@ -223,7 +223,7 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "8-12",
-    "weeks" : "1 x 17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Coding1.jpg",
@@ -246,7 +246,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Coding2.jpg",
@@ -274,7 +274,7 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "10-12",
-    "weeks" : "1 x 17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "1.5 hours / week",
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_1.jpg",
@@ -301,7 +301,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_2.jpg",
@@ -341,12 +341,12 @@
       "This course is the first level in our Middle School ELA curriculum.",
       "This course is designed for students who are learning the foundations and basic of English.",
       "This course focuses on English fundamentals and helps with fluency, grammar, spelling, and basic sentence structure.",
-      "This course acts as a bridge to to the ELA beginner course.",
+      "This course acts as a bridge to the ELA beginner course.",
       "Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success.",
-      "Learners develop academic literacy skills through content, images and video from National Geographic.",
+      "Learners develop academic literacy skills through content, images and videos from National Geographic.",
       "This innovative series provides learners with a pathway to success!",
       "",
-      "<strong>With Pathways learners:</strong>",
+      "<strong>Students Will</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
@@ -354,13 +354,13 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards.<br/>Students advance through the four levels of ELA from Foundations to ELA Advanced.<br/>Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
-          "<strong>The ELA standards align with college expectations in 6 domains</strong><br/><strong>1)</strong> Language (conventions, knowledge, vocabulary)<br/><strong>2)</strong> Reading: Informational (ideas, details, structure, range, text complexity)<br/><strong>3)</strong> Reading: Literature (ideas, details, structure, range, text complexity)<br/><strong>4)</strong> Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/><strong>5)</strong> Speaking and Listening (comprehension, collaboration, presentation)<br/><strong>6)</strong> Writing (type, purpose, production, distribution, research, range of writing)"
+          "<strong>The ELA standards align with college expectations in 6 domains</strong><br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
@@ -396,10 +396,10 @@
       "The goal is to have students hold basic conversations without assistance.",
       "A heavy focus will be placed on appropriate grammatical conventions and vocabulary expansion.",
       "Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success.",
-      "Learners develop academic literacy skills through content, images and video from National Geographic.",
+      "Learners develop academic literacy skills through content, images and videos from National Geographic.",
       "This innovative series provides learners with a pathway to success!",
       "",
-      "<strong>With Pathways learners:</strong>",
+      "<strong>Students Will</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
@@ -407,19 +407,13 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
-          "The ELA standards align with college expectations in 6 domains",
-          "1) Language (conventions, knowledge, vocabulary)",
-          "2) Reading: Informational (ideas, details, structure, range, text complexity)",
-          "3) Reading: Literature (ideas, details, structure, range, text complexity)",
-          "4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)",
-          "5) Speaking and Listening (comprehension, collaboration, presentation)",
-          "6) Writing (type, purpose, production, distribution, research, range of writing)"
+          "The ELA standards align with college expectations in 6 domains<br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
@@ -452,7 +446,7 @@
     "desc": [
       "Designed for students who have a moderate grasp of English language fundamentals involving reading, writing, listening, and speaking. Students at this level can communicate in English with some fluency, requiring some corrections and prompting. The goal is to improve articulation, word choice, comprehension and speaking/written fluidity. Focus will be placed on appropriate grammatical conventions and vocabulary expansion. Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success. Learners develop academic literacy skills through content, images and video from National Geographic. This innovative series provides learners with a pathway to success!",
       "",
-      "<strong>With Pathways learners:</strong>",
+      "<strong>Students Will</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
@@ -460,26 +454,20 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
-          "The ELA standards align with college expectations in 6 domains",
-          "1) Language (conventions, knowledge, vocabulary)",
-          "2) Reading: Informational (ideas, details, structure, range, text complexity)",
-          "3) Reading: Literature (ideas, details, structure, range, text complexity)",
-          "4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)",
-          "5) Speaking and Listening (comprehension, collaboration, presentation)",
-          "6) Writing (type, purpose, production, distribution, research, range of writing)"
+          "The ELA standards align with college expectations in 6 domains<br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
         "strings" : [
           "National Geographic Pathways Level 2",
-          "Reading & Writing // Speaking & Listening",
+          "Reading & Writing / Speaking & Listening",
           "Pathways is a global five-level academic English program. Carefully-guided lessons develop the language skills, critical thinking, and learning strategies required for academic success. Using authentic and relevant content from National Geographic, Pathways prepares students to work effectively and confidently in an academic environment."
         ]
       },
@@ -509,36 +497,25 @@
       "Accelerated focus will be placed on appropriate grammatical conventions, vocabulary expansion, and the use of common idioms and phrases.",
       "Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success.",
       "Learners develop academic literacy skills through content, images and video from National Geographic.",
-      "This innovative series provides learners with a pathway to success!",
-      "",
-      "<strong>With Pathways learners:</strong>",
-      "Develop academic literacy skills",
-      "Connect to the real world through content from National Geographic",
-      "Achieve academic success"
+      "This innovative series provides learners with a pathway to success!"
     ],
     "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
-          "The ELA standards align with college expectations in 6 domains",
-          "1) Language (conventions, knowledge, vocabulary)",
-          "2) Reading: Informational (ideas, details, structure, range, text complexity)",
-          "3) Reading: Literature (ideas, details, structure, range, text complexity)",
-          "4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)",
-          "5) Speaking and Listening (comprehension, collaboration, presentation)",
-          "6) Writing (type, purpose, production, distribution, research, range of writing)"
+          "<strong>The ELA standards align with college expectations in 6 domains</strong><br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
         "strings" : [
           "National Geographic Pathways Level 3",
-          "Reading & Writing // Speaking & Listening",
+          "Reading & Writing / Speaking & Listening",
           "Pathways is a global five-level academic English program. Carefully-guided lessons develop the language skills, critical thinking, and learning strategies required for academic success. Using authentic and relevant content from National Geographic, Pathways prepares students to work effectively and confidently in an academic environment."
         ]
       },
@@ -561,24 +538,25 @@
     "duration" : "3 hours / week",
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Pages_Reading_Comprehension_1.jpg",
-    "desc": ["In the age of information, it is crucial to understand how to draw meaning from what you read. Pages is a quest for enlightenment and captivation for students, as their personal capacity for critical and analytical thinking unveils. Young minds commit themselves to the vigorous reading and exploration of real-life and fictional literary texts to strengthen their comprehension level, reading speed, and interest in literature. Through stimulating questions and expertly led discussions, this course helps students conquer their fear of reading and become confident, competent book lovers. In addition to putting their language skills, self-expression and reasoning into action, students enhance their power to carefully listen to and consider the views of others. Towards the end of the journey, a more mindful young person emerges who is better able to articulate opinions based on textual references and with the confidence to be heard."],
+    "desc": [
+      "In the age of information, it is crucial to understand how to draw meaning from what you read.",
+      "Pages is a quest for enlightenment and captivation for students, as their personal capacity for critical and analytical thinking unveils.",
+      "Young minds commit themselves to the vigorous reading and exploration of real-life and fictional literary texts to strengthen their comprehension level, reading speed, and interest in literature.",
+      "Through stimulating questions and expertly led discussions, this course helps students conquer their fear of reading and become confident, competent book lovers.",
+      "In addition to putting their language skills, self-expression and reasoning into action, students enhance their power to carefully listen to and consider the views of others.",
+      "Towards the end of the journey, a more mindful young person emerges who is better able to articulate opinions based on textual references and with the confidence to be heard."
+    ],
     "keyword" : ["Reading Comprehension","Critcial Thinking","Reading Speed","Reading Styles","Descriptive Language","Improve Lexile Score"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
-          "1) To improve Lexile measures (reading proficiency scores) by helping students: ",
-          "-Identify the various elements of literature, including plot, theme, setting, mood, etc.",
-          "-Distinguish between text types by understanding how word choice, structure, and tone may vary according to the purpose and genre of literature. ",
-          "-Develop critical and analytical thinking skills by deconstructing character development, cause-and-effect relationships, symbols, foreshadowing techniques, and author’s bias or perspective. ",
-          "2) To increase reading speed by helping students: ",
-          "-Improve reading speed by learning skimming and scanning techniques, and how to read with purpose.",
-          "-Improve reading comprehension by discovering specialized reading strategies to understand texts better, which will ultimately lead to increased reading speed. ",
-          "3) To get students to read a minimum of 2 books in 12 weeks, along with helping them develop an interest in reading by: ",
-          "-Practicing sustained silent reading, reading as a class, and facilitating discussions on what is read. "
+          "<strong>1) To improve Lexile measures (reading proficiency scores) by helping students</strong><br/>- Identify the various elements of literature, including plot, theme, setting, mood, etc.<br/>- Distinguish between text types by understanding how word choice, structure, and tone may vary according to the purpose and genre of literature. <br/>- Develop critical and analytical thinking skills by deconstructing character development, cause-and-effect relationships, symbols, foreshadowing techniques, and author’s bias or perspective. ",
+          "<strong>2) To increase reading speed by helping students</strong><br/>- Improve reading speed by learning skimming and scanning techniques, and how to read with purpose.<br/>- Improve reading comprehension by discovering specialized reading strategies to understand texts better, which will ultimately lead to increased reading speed. ",
+          "<strong>3) To get students to read a minimum of 2 books in 12 weeks, along with helping them develop an interest in reading by</strong><br/>- Practicing sustained silent reading, reading as a class, and facilitating discussions on what is read. "
         ]
       },
       "books" : {
@@ -604,35 +582,33 @@
     "duration" : "3 hours / week",
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Ink_Academic_and_Creative_Writing_1.jpg",
-    "desc": ["Point Avenue’s Ink program is designed to develop and grow students academic and creative writing skills. The primary goal of the Ink course is to help students build foundational writing skills through western and contemporary teaching styles, and foster the important 21st century skills of creative and critical thinking. Academic and creative writing styles, two core components of this course, complement each other in exercising different thought processes and methods for conveying messages in written format. Students will focus on refining the communication of resources - both known and assumed fact (academic) as well as create original written content (creative). The course texts (National Georgraphic and Word Roots) serve as a resource and guide in order to facilitate proper writing fundamentals. This course will also strive to develop a love of writing for students through choosing interesting topics related to their interests and passions."],
+    "desc": [
+      "Point Avenue’s Ink program is designed to develop and grow students academic and creative writing skills.",
+      "The primary goal of the Ink course is to help students build foundational writing skills through western and contemporary teaching styles, and foster the important 21st century skills of creative and critical thinking.",
+      "Academic and creative writing styles, two core components of this course, complement each other in exercising different thought processes and methods for conveying messages in written format.",
+      "Students will focus on refining the communication of resources - both known and assumed fact (academic) as well as create original written content (creative).",
+      "The course texts (National Georgraphic and Word Roots) serve as a resource and guide in order to facilitate proper writing fundamentals.",
+      "This course will also strive to develop a love of writing for students through choosing interesting topics related to their interests and passions."
+    ],
     "keyword" : ["Creative Writing","Academic Writing","Descriptive Language","Narrative Writing","Grammar Use","Character Development"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
-          "1) Develop the ability to write different paragraph forms",
-          "-Understand opinion writting, sequence writing, topic sentences, conclusing sentences",
-          "-Leardn how to write process, narrative, descriptive, and opinion papers",
-          "2) Improve grammar and overall sentence structure",
-          "-Students will use the software platform Quill to practice grammar and track their progress throughout the term.",
-          "-Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing",
-          "3) Increase vocabulary and comprehension",
-          "-Understand and use appropriate prefixes, suffixes using the Word Roots curriculum",
-          "-Learn new words each week to incorporate in their writing",
-          "4) Develop a genuine interest in writing",
-          "-We aim to create a student centric environment promoting writing topics related to student interests and passions"
+          "<strong>1) Develop the ability to write different paragraph forms</strong><br/>- Understand opinion writting, sequence writing, topic sentences, conclusing sentences<br/>- Leardn how to write process, narrative, descriptive, and opinion papers",
+          "<strong>2) Improve grammar and overall sentence structure</strong><br/>- Students will use the software platform Quill to practice grammar and track their progress throughout the term.<br/>- Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing",
+          "<strong>3) Increase vocabulary and comprehension</strong><br/>- Understand and use appropriate prefixes, suffixes using the Word Roots curriculum<br/>-Learn new words each week to incorporate in their writing",
+          "<strong>4) Develop a genuine interest in writing</strong><br/>- We aim to create a student centric environment promoting writing topics related to student interests and passions"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
         "strings" : [
-          "National Geographic Great Writing Series",
-          "The Great Writing Series uses clear explanations and extensive practical activities to help students write great sentences, paragraphs, and essays. Each book contains a wide variety of writing models in carefully selected rhetorical styles that provide practice in working with the writing process to develop a final piece of writing.",
-          "Word Roots Book Series",
-          "These award-winning books teach the meaning and spelling of roots, prefixes, and suffixes that are the elements used to form words in English. Learning these word elements dramatically improves spelling and the ability to decode unfamiliar words."
+          "<strong>National Geographic Great Writing Series</strong><br/>The Great Writing Series uses clear explanations and extensive practical activities to help students write great sentences, paragraphs, and essays. Each book contains a wide variety of writing models in carefully selected rhetorical styles that provide practice in working with the writing process to develop a final piece of writing.",
+          "<strong>Word Roots Book Series</strong><br/>These award-winning books teach the meaning and spelling of roots, prefixes, and suffixes that are the elements used to form words in English. Learning these word elements dramatically improves spelling and the ability to decode unfamiliar words."
         ]
       },
       "location" : {
@@ -658,33 +634,26 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing","Critical Thinking"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
-          "Course Structure:",
-          "-40% Exercise and wellness",
-          "-30% Academically focused ",
-          "-30% Leadership focused ",
-          "Course Objectives:",
-          "-Weekly Fitness (60 minutes each week)",
-          "-Develop soft skills (posture, eye contact, confidence)",
-          "-Understanding of foundational leadership principles",
-          "-Leadership speeches",
-          "-Daily journal writing",
-          "-Teamwork and teambuilding challenges",
-          "-Social and Emotional well-being",
-          "-Develop a growth mindset"
+          "Weekly Fitness (60 minutes each week)",
+          "Develop soft skills (posture, eye contact, confidence)",
+          "Understanding of foundational leadership principles",
+          "Leadership speeches",
+          "Daily journal writing",
+          "Teamwork and teambuilding challenges",
+          "Social and Emotional well-being",
+          "Develop a growth mindset"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
         "strings" : [
-          "-7 Habits of Highly Effective Teens Textbook and Workbook by Sean Covey",
-          "In the book, Covey discusses how teenagers can become more independent and effective by following seven basic habits. The habits range from being proactive in every aspect of one's life to planning and prioritizing one's daily life and responsibilities",
-          "-Point Avenue Daily Journal",
-          "For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
+          "<strong>7 Habits of Highly Effective Teens Textbook and Workbook by Sean Covey</strong><br/>In the book, Covey discusses how teenagers can become more independent and effective by following seven basic habits. The habits range from being proactive in every aspect of one's life to planning and prioritizing one's daily life and responsibilities",
+          "<strong>Point Avenue Daily Journal</strong><br/>For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
         ]
       },
       "location" : {
@@ -706,35 +675,28 @@
     "duration" : "3 hours / week",
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Advanced_1.jpg",
-    "desc": ["The Life Coaching Advanced course focuses on aspects of self-awareness, mindfulness, and community service. In this course, students will learn about mindfulness skills and concepts through a step-by-step process, focusing on understanding themselves and others when making decisions and acquiring knowledge. This course establishes a foundation for critical thinking skills for students to build upon as they prepare for high school and beyond. Key example lessons include: focused awareness, sharpening the senses (mindful taste, touch, smell, sight), optimism, gratitude, and kindness. In addition to MindUp, students will plan a community service activity, exercise each week for 60 minutes, and complete a daily journal."],
+    "desc": ["The Life Coaching Advanced course focuses on aspects of self-awareness, mindfulness, and community service. In this course, students will learn about mindfulness skills and concepts through a step-by-step process, focusing on understanding themselves and others when making decisions and acquiring knowledge. This course establishes a foundation for critical thinking skills for students to build upon as they prepare for high school and beyond. Key example lessons include: focused awareness, sharpening the senses (mindful taste, touch, smell, sight), optimism, gratitude, and kindness. In addition to MindUP, students will plan a community service activity, exercise each week for 60 minutes, and complete a daily journal."],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
         "strings" : [
-          "Course Structure:",
-          "-45% Exercise and wellness",
-          "-30% Academically focused",
-          "-25% Leadership focused",
-          "Course Objectives:",
-          "-Weekly fitness (60-70 minutes each week)",
-          "-Develop soft skills (posture, eye contact, confidence)",
-          "-Social and Emotional Well being concepts",
-          "-Mindfulness Activities",
-          "-Daily Journal Writing (track progress)",
-          "-1 community service project plan and presentation"
+          "Weekly fitness (60-70 minutes each week)",
+          "Develop soft skills (posture, eye contact, confidence)",
+          "Social and Emotional Well being concepts",
+          "Mindfulness Activities",
+          "Daily Journal Writing (track progress)",
+          "1 community service project plan and presentation"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
         "strings" : [
-          "-MindUp Curriculum",
-          "MindUP gives children the knowledge and tools they need to manage stress, regulate emotions and face the challenges of the 21st century with optimism, resilience and compassion.",
-          "-Point Avenue Daily Journal",
-          "For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
+          "<strong>MindUP Curriculum</strong><br/>MindUP gives children the knowledge and tools they need to manage stress, regulate emotions and face the challenges of the 21st century with optimism, resilience and compassion.",
+          "<strong>Point Avenue Daily Journal</strong><br/>For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
         ]
       },
       "location" : {
@@ -760,7 +722,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Beginner_2.jpg",
@@ -801,7 +763,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Intermediate_2.jpg",
@@ -837,11 +799,11 @@
     "duration" : "3 hours / week",
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_School_Beginner_1.jpg",
-    "desc": ["Point Avenue’s MSHS Debate (Beginner) is a course that aims to nurture future leaders and their ability to think critically, collaborate, express and share their ideas in a powerful manner. Throughout the term, students will be exposed to a variety of debating styles, with a particular focus on World Schools Debating Championships (WSDC) and Asian Parliamentary (AP) formats."],
+    "desc": ["Point Avenue’s Middle & High School Debate (Beginner) is a course that aims to nurture future leaders and their ability to think critically, collaborate, express and share their ideas in a powerful manner. Throughout the term, students will be exposed to a variety of debating styles, with a particular focus on World Schools Debating Championships (WSDC) and Asian Parliamentary (AP) formats."],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_School_Beginner_2.jpg",
@@ -878,11 +840,11 @@
     "duration" : "3 hours / week",
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_High_School_Intermediate_1.jpg",
-    "desc": ["Point Avenue’s MSHS Debate (Intermediate) is a course designed to nurture future leaders to think critically, collaborate, express themselves creatively, and communicate their ideas effectively in a formal setting. Building on skills learned in the MSHS Debate (Beginner) course, students will refine their argumentation and refutation skills, learn and practice higher-level debate skills, analyze current topics, and develop effective collaboration skills with peers."],
+    "desc": ["Point Avenue’s Middle & High School Debate (Intermediate) is a course designed to nurture future leaders to think critically, collaborate, express themselves creatively, and communicate their ideas effectively in a formal setting. Building on skills learned in the Middle & High School Debate (Beginner) course, students will refine their argumentation and refutation skills, learn and practice higher-level debate skills, analyze current topics, and develop effective collaboration skills with peers."],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_High_School_Intermediate_2.jpg",
@@ -916,25 +878,25 @@
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "14-16",
-    "weeks" : "12-17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "3 hours / week",
-    "hour" : "36-51 hours",
+    "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Debate_All_Stars_1.jpg",
     "desc": [
-      "The Debate “All-Stars” Program is an advanced course designed for students with competitive debating tournament experience. Each class will culminate in performance assignments that require students to demonstrate their abilities and apply course content within the classroom setting. Opportunities to take their knowledge beyond the classroom are available with tournaments in and out of Vietnam. ",
+      "The Debate “All-Stars” Program is an advanced course designed for students with competitive debating tournament experience. Each class will culminate in performance assignments that require students to demonstrate their abilities and apply course content within the classroom setting. Opportunities to take their knowledge beyond the classroom are available with tournaments in and out of Vietnam and Thailand. ",
       "",
       "Possible tournaments for the students to participate in are the Vietnam Schools Debating Championship, Hanoi Debate Tournament, Asia Debate Open (China, Vietnam), Asian World Schools Debating Championship (Thailand), Oldham Cup (Singapore), Korea Youth Debating Championship (Korea), Harvard College World Schools Invitational (USA), and more."
     ],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Debate_All_Stars_2.jpg",
         "strings" : [
           "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
-          "Students will be introduced to various debate strategies with a focus on team collaboration.For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
+          "Students will be introduced to various debate strategies with a focus on team collaboration. For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
         ]
       },
       "books" : null,
@@ -956,9 +918,9 @@
     "program" : "Test Preparation",
     "age" : "13-15",
     "grade" : "8th - 10th grade",
-    "weeks" : "12-17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "3 hours / week",
-    "hour" : "36-51 hours",
+    "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SSAT_1.jpg",
     "desc": [
       "The SSAT is an academic readiness test intended to measure a student’s critical reading, quantitative reasoning, and writing skills needed for academic success at the high school level.",
@@ -981,17 +943,14 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SSAT_2.jpg",
         "strings" : [
-          "SSAT Upper 101 ",
-          "SSAT 101 is an intensive introductory course, familiarizing students with the test and all of the essential skills they will need. The course emphasizes vocabulary expansion, critical reading & analysis, and successfully interpreting word problems and SSAT match concepts. ",
-          "SSAT Upper 201 (1500 - 1950)",
-          "Students who complete 101 and haven’t yet reached their target score will move into 201. At this level, students will focus on increasing their endurance and honing the skills and strategies they learned in 101 through review and heavy practice. Students will be guided to master more challenging academic reading texts and verbal reasoning concepts. ",
-          "SSAT Upper 301 (1950+)",
-          "301 follows the same principles as 201, with less emphasis on learning skills and more focus on focused practice, building endurance, and filling the final gaps in students’ test understanding and mastery. "
+          "<strong>SSAT Upper 101</strong><br/>SSAT 101 is an intensive introductory course, familiarizing students with the test and all of the essential skills they will need. The course emphasizes vocabulary expansion, critical reading & analysis, and successfully interpreting word problems and SSAT match concepts. ",
+          "<strong>SSAT Upper 201 (1500 - 1950)</strong><br/>Students who complete 101 and haven’t yet reached their target score will move into 201. At this level, students will focus on increasing their endurance and honing the skills and strategies they learned in 101 through review and heavy practice. Students will be guided to master more challenging academic reading texts and verbal reasoning concepts. ",
+          "<strong>SSAT Upper 301 (1950+)</strong><br/>301 follows the same principles as 201, with less emphasis on learning skills and more emphasis on focused practice, building endurance, and filling the final gaps in students’ test understanding and mastery. "
         ]
       },
       "books" : {
@@ -1018,7 +977,7 @@
     "program" : "Test Preparation",
     "age" : "13-18",
     "grade" : "7th - 12th grade",
-    "weeks" : "12-17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "4 hours / week",
     "hour" : "48-68 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_1.jpg",
@@ -1056,20 +1015,13 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
         "strings" : [
-         "TOEFL 101 (Beginner) is a foundational course for students who score between 60-80 on the diagnostic test. The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness. Each section of the class is taught using an integrated approach to reflect the official test format. Upon completion, students will be able to:",
-         "Effectively outline and map reading passages.",
-         "Understand the structure and flow of academic conversations and lectures.",
-         "Write basic academic paragraphs.",
-         "TOEFL 201 (Intermediate) is designed for students who score between 80 to 105 on the diagnostic or official test. 201 Level courses move faster. Students will improve:",
-         "Their ability to grammatically dissect reading passages.",
-         "Increase their reading comprehension and speed",
-         "Comprehend and identify main ideas and details in the Listening section. ",
-         "In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
+         "TOEFL 101 (Beginner) is a foundational course for students who score between 60-80 on the diagnostic test.<br/>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.<br/>Each section of the class is taught using an integrated approach to reflect the official test format.<br/>Upon completion, students will be able to:<br/>Effectively outline and map reading passages.<br/><br/>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.",
+         "TOEFL 201 (Intermediate) is designed for students who score between 80 to 105 on the diagnostic or official test.<br/>201 Level courses move faster.<br/>Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/><br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section. <br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
          "TOEFL 301 (Advanced) is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery. "
         ]
       },
@@ -1095,7 +1047,7 @@
     "program" : "Test Preparation",
     "age" : "13-18",
     "grade" : "7th - 12th grade",
-    "weeks" : "12-17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "4 hours / week",
     "hour" : "48-68 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IELTS_1.jpg",
@@ -1136,38 +1088,22 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IELTS_2.jpg",
         "strings" : [
-          "IELTS 101 (Basic User): This is an introductory level course for beginner students who test between a band 5-6 on a diagnostic and who have a CEFR A1 - A2 vocabulary and grammar foundation.",
-          "Beginner-level courses explore the Listening and Speaking (Part 1) sections of the test along with the Writing and Reading sections of the General module as an introduction to academic reading and writing. A further concentration on foundational grammatical proficiency and remedial vocabulary expansion enable general English communication development. ",
-          "IELTS 201 (Independent User): This is an intermediate to upper intermediate level course for between students who score between a band 6-7 and who have a CEFR B1-B2 vocabulary and grammar proficiency.",
-          "Intermediate level courses focus on IELTS vocabulary & topic knowledge expansion, and critical reading & analysis. Students' understanding of correctly utilizing grammatical conventions when writing and speaking is also a primary focus at this level.",
-          "IELTS 301: (Proficient User): This is an advanced level course for proficient students who score above a band 7 and possess a CEFR C1-C2 vocabulary and grammar proficiency. This is a one-semester course.",
-          "Advanced level courses focus on all four skill mastery, emphasizing the Writing and Speaking sections. The advancement of writing & speaking coherency, construction, and elaboration are the primary objectives for this course. Students will learn how to utilize complex grammatical structures and academic lexical items when communicating in a written or conversational format. "
+          "<strong>IELTS 101 (Basic User):</strong> This is an introductory level course for beginner students who test between a band 5-6 on a diagnostic and who have a CEFR A1 - A2 vocabulary and grammar foundation.<br/>Beginner-level courses explore the Listening and Speaking (Part 1) sections of the test along with the Writing and Reading sections of the General module as an introduction to academic reading and writing. A further concentration on foundational grammatical proficiency and remedial vocabulary expansion enable general English communication development. ",
+          "<strong>IELTS 201 (Independent User):</strong> This is an intermediate to upper intermediate level course for between students who score between a band 6-7 and who have a CEFR B1-B2 vocabulary and grammar proficiency.<br/>Intermediate level courses focus on IELTS vocabulary & topic knowledge expansion, and critical reading & analysis. Students' understanding of correctly utilizing grammatical conventions when writing and speaking is also a primary focus at this level.",
+          "<strong>IELTS 301: (Proficient User):</strong> This is an advanced level course for proficient students who score above a band 7 and possess a CEFR C1-C2 vocabulary and grammar proficiency. This is a one-semester course.<br/>Advanced level courses focus on all four skill mastery, emphasizing the Writing and Speaking sections. The advancement of writing & speaking coherency, construction, and elaboration are the primary objectives for this course. Students will learn how to utilize complex grammatical structures and academic lexical items when communicating in a written or conversational format. "
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
         "strings" : [
-          "IELTS 101 Course Texts:",
-          "[Macmillan] Effective Reading 1 & 2 ",
-          "[Macmillan] Destination B1 Grammar & Vocabulary",
-          "[Collins] Grammar (Pre-Intermediate)",
-          "Prelimenary English Test (PET) Practice Tests",
-          "IELTS 201 Course Texts:",
-          "[Macmillan] Effective Reading 3 & 4",
-          "[Macmillan] Destination B2 Grammar & Vocabulary",
-          "[Learning Express] 501 Reading Comprehension Questions",
-          "[Cambridge] IELTS Academic Tests 1-14",
-          "IELTS 301 Course Texts:",
-          "[Macmillan] Destination C1 & C2 Grammar & Vocabulary",
-          "[Learning Express] 501 Critical Reading Questions",
-          "[Learning Express] 501 Grammar and Writing Questions",
-          "[Cambridge] Grammar and Vocabulary for Advanced",
-          "[Princeton Review] ACT Prep 2021"
+          "<strong>IELTS 101 Course Texts</strong><br/>[Macmillan] Effective Reading 1 & 2 <br/>[Macmillan] Destination B1 Grammar & Vocabulary<br/>[Collins] Grammar (Pre-Intermediate)<br/>Preliminary English Test (PET) Practice Tests",
+          "<strong>IELTS 201 Course Texts</strong><br/>[Macmillan] Effective Reading 3 & 4<br/>[Macmillan] Destination B2 Grammar & Vocabulary<br/>[Learning Express] 501 Reading Comprehension Questions<br/>[Cambridge] IELTS Academic Tests 1-14",
+          "<strong>IELTS 301 Course Texts</strong><br/>[Macmillan] Destination C1 & C2 Grammar & Vocabulary<br/>[Learning Express] 501 Critical Reading Questions<br/>[Learning Express] 501 Grammar and Writing Questions<br/>[Cambridge] Grammar and Vocabulary for Advanced<br/>[Princeton Review] ACT Prep 2021"
         ]
       },
       "location" : {
@@ -1186,7 +1122,7 @@
     "program" : "Test Preparation",
     "age" : "14-18",
     "grade" : "9th - 12th grade",
-    "weeks" : "12-17 weeks",
+    "weeks" : "17 weeks",
     "duration" : "4 hours / week",
     "hour" : "48-68 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SAT_1.jpg",
@@ -1204,12 +1140,11 @@
     "keyword" : ["Sat online ","SAT I ","SAT study guide 2020 ","Online SAT prep classes","The Official SAT study guide ","SAT test prep ","SAT prep ","SAT Grammar, ","SAT study guide ","Pre SAT test ","Online SAT tutoring ","SAT review ","SAT vocab words "],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SAT_2.jpg",
         "strings" : [
-          "Skills Acquired",
           "Advanced language proficiency requirements for undergraduate study",
           "Academic vocabulary expansion",
           "Analysis of grammatical conventions and accuracy",
@@ -1265,17 +1200,14 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_2.jpg",
         "strings" : [
-          "AP World History:",
-          "Students will explore the cultural, economic, political, and social developments that have shaped the world from 1200 CE to the present. Students will analyze texts, visual sources, and other historical evidence and write essays discussing historical themes and arguments.",
-          "English Language & Composition:",
-          "Students will explore the elements of argument and composition as they develop critical reading and writing skills. Students will read and analyze nonfiction works from various periods and write essays aimed at exposition, argumentation, and persuasion.",
-          "Calculus AB & BC:",
-          "Students will explore the concepts, methods, and applications of differential and integral calculus, including topics such as parametric, polar, and vector functions and series. Students will learn to understand the theoretical basis and solve problems by applying their knowledge and skills."
+          "<strong>AP World History</strong><br/>Students will explore the cultural, economic, political, and social developments that have shaped the world from 1200 CE to the present. Students will analyze texts, visual sources, and other historical evidence and write essays discussing historical themes and arguments.",
+          "<strong>English Language & Composition</strong><br/>Students will explore the elements of argument and composition as they develop critical reading and writing skills. Students will read and analyze nonfiction works from various periods and write essays aimed at exposition, argumentation, and persuasion.",
+          "<strong>Calculus AB & BC</strong><br/>Students will explore the concepts, methods, and applications of differential and integral calculus, including topics such as parametric, polar, and vector functions and series. Students will learn to understand the theoretical basis and solve problems by applying their knowledge and skills."
         ]
       },
       "books" : {
@@ -1325,21 +1257,13 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IB_2.jpg",
         "strings" : [
-          "IB assessment procedures measure the extent to which students have mastered advanced academic skills in fulfilling these goals, for example:",
-          "analysing and presenting information",
-          "evaluating and constructing arguments",
-          "solving problems creatively.",
-          "Basic skills are also assessed, including:",
-          "retaining knowledge",
-          "understanding key concepts",
-          "applying standard methods. ",
-          "In addition to academic skills, DP assessment encourages an international outlook and intercultural skills, wherever appropriate.",
-          "Student results are determined by performance against set standards, not by each student's position in the overall rank order."
+          "IB assessment procedures measure the extent to which students have mastered advanced academic skills in fulfilling these goals, for example:<br/>Analysing and presenting information<br/>Evaluating and constructing arguments<br/>Solving problems creatively",
+          "Basic skills are also assessed, including:<br/>Retaining knowledge<br/>Understanding key concepts<br/>Applying standard methods<br/>In addition to academic skills, DP assessment encourages an international outlook and intercultural skills, wherever appropriate<br/>Student results are determined by performance against set standards, not by each student's position in the overall rank order"
         ]
       },
       "books" : {
@@ -1384,29 +1308,20 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Spring Term Registration",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IGCSE_2.jpg",
         "strings" : [
-          "Skills Acquired:",
-          "Subject knowledge expansion",
-          "Applying new knowledge and understanding to familiar and new situations ",
-          "Intellectual inquiry & exploration",
-          "Flexibility and responsiveness to change ",
-          "Working and communicating in English ",
-          "Influencing outcomes ",
-          "Cultural awareness ",
-          "Chemistry  | English Literature | Biology | History | Mathematics",
-          "Continuation Roadmap & Options:",
-          "IELTS / TOEFL SAT / AP / IB"
+          "<strong>Skills Acquired</strong><br/>Subject knowledge expansion<br/>Applying new knowledge and understanding to familiar and new situations <br/>Intellectual inquiry & exploration<br/>Flexibility and responsiveness to change <br/>Working and communicating in English <br/>Influencing outcomes <br/>Cultural awareness <br/>Chemistry  | English Literature | Biology | History | Mathematics",
+          "<strong>Continuation Roadmap & Options</strong><br/>IELTS / TOEFL SAT / AP / IB"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
         "strings" : [
-          "Complete Chemistry for Cambridge IGCSE by P. Ingram and RoseMarie Gallagher Oxford; 3rd Revised edition edition (2014)",
-          "Preview Cambridge IGCSE Biology Coursebook (third edition), Mary Jones and Geoff Jones, Cambridge University Press.",
+          "Complete Chemistry for Cambridge IGCSE by P. Ingram and RoseMarie Gallagher Oxford; 3rd Revised edition (2014)",
+          "Preview Cambridge IGCSE Biology Coursebook (third edition), Mary Jones and Geoff Jones, Cambridge University Press",
           "Cambridge IGCSE Literature in English"
         ]
       },
