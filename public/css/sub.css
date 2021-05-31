@@ -47,6 +47,7 @@
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
 .sub .spotlight_wrap .sub_article .text_box .date {margin-bottom:5px;}
 .sub .spotlight_wrap .sub_article .text_box .flag_type_02 {margin-bottom:5px;}
+.mentors_wrap.noPop a { cursor:default; }
 
 /*============== aboutus ==============*/
 .about_us .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/about-us/visual.png') right no-repeat; background-size: cover;}
