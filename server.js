@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 7070;
 const main = require('./routers/main');
 const courses = require('./routers/programs');
 const camp = require('./routers/camp');
+const admissionsConsulting = require('./routers/admissions-consulting');
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
@@ -28,6 +29,9 @@ app.use('/', main);
 app.use('/programs', courses);
 // * camp
 app.use('/camp', camp);
+// * admissions-consulting
+app.use('/admissions-consulting', admissionsConsulting);
+
 
 
 

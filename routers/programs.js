@@ -92,7 +92,7 @@ const options = (courses) => [
   // }
 ]
 
-router.get('/', function (req, res) {
+router.get('/all-courses', function (req, res) {
   const elementaryCourses = courses.filter(course => course.program === 'Elementary').splice(0, 3);
   const middleCourses = courses.filter(course => course.program === 'Middle & High School').splice(0, 3);
   const debateCourses = courses.filter(course => course.program === 'Debate').splice(0, 3);
@@ -112,22 +112,22 @@ router.get('/middle-high-school-courses', function (req, res) {
   res.render('programs/middle-high-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
 });
 
-router.get('/debate', function (req, res) {
+router.get('/debate-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Debate');
   const debateTeachersData = teachers.filter(teacher => teacher.positions.includes('Debate Teacher')).map(teacher => { teacher.position = 'Debate Teacher'; return teacher; });
   res.render('programs/debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
 });
 
-router.get('/test-preparation', function (req, res) {
+router.get('/test-preparation-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Test Preparation');
   const testPrepTeachersData = teachers.filter(teacher => teacher.positions.includes('Test Preparation Teacher')).map(teacher => { teacher.position = 'Test Preparation Teacher'; return teacher; });
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
-router.get('/admissions-consulting', function (req, res) {
-  const studies = require('../data/programs/case-studies.json');
-  res.render('admissions-consulting', { studies });
-});
+// router.get('/admissions-consulting', function (req, res) {
+//   const studies = require('../data/programs/case-studies.json');
+//   res.render('admissions-consulting', { studies });
+// });
 
 router.get('/:courseId', function (req, res) {
   const { courseId } = req.params;
