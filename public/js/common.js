@@ -1,5 +1,10 @@
 // let experience = document.querySelector('.mentor_info_box .ul_type_02');
 $(document).ready(function () {
+  // http -> https
+  if (location.protocol == 'http:') {
+    location.href = location.href.replace('http:', 'https:');
+  }
+
   /* ========= common :: start=============*/
   $('.contact_pop_btn').click(function () {
     $('.contact_popup').show();
