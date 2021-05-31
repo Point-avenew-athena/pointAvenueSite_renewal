@@ -8,6 +8,25 @@ const main = require('./routers/main');
 const courses = require('./routers/programs');
 const camp = require('./routers/camp');
 
+// redirect HTTP to HTTPS 
+app.all('*', (req, res, next) => { 
+  if (process.env.NODE_ENV == 'development') {
+    next();
+    return;
+  }
+
+  let protocol = req.headers['x-forwarded-proto'] || req.protocol; 
+  
+  if (protocol == 'https') { 
+    next(); 
+  } else { 
+    let from = `${protocol}://${req.hostname}${req.url}`; 
+    let to = `https://${req.headers.host}${req.url}`; 
+    //console.log(`[${req.method}]: ${from} -> ${to}`); 
+    res.redirect(to); 
+  } 
+});
+
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
 // app.use(function(req, res, next) {
