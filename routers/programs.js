@@ -28,7 +28,7 @@ const options = (courses) => [
   },
   {
     key: 'age',
-    name: 'Age',
+    name: 'Ages',
     filters: (() => {
       const result = [];
       for(let i = 0; i < 15; i++) {

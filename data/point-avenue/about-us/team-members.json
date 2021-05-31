@@ -9,7 +9,7 @@
       "COO, New Pathway Education & Technology Group",
       "Director, Prestige Only & Premier Only, Education International Cooperation Group"
     ],
-    "img": "/images/main/Danny.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "Led President Barack Obama’s security in India and Myanmar",
       "Investment Banking, Consumer Retail Healthcare Group, Goldman Sachs"
     ],
-    "img": "/images/main/Tommy.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "Residential Counselor & Summer Program Teacher - Youth Opportunities Upheld, Inc.",
       "Fluency in Spanish Developed from Spanish Language Immersion Program, Universidad Veracruzana, Xalapa, Mexico"
     ],
-    "img": "/images/main/Dan.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dan.jpeg"
   },
   {
     "id": 4,
@@ -48,7 +48,7 @@
       "B.A. Psychology, University of Massachusetts Amherst",
       "Camp Director, YMCA of Greater Boston, North Woods Camp"
     ],
-    "img": "/images/main/Myles.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
   },
   {
     "id": 5,
@@ -60,7 +60,7 @@
       "Director, Faculty Management Division, Apax Leaders",
       "Faculty Manager & Part-time Trainer, Chungdahm Learning"
     ],
-    "img": "/images/main/Edward.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
     "id": 6,
@@ -71,7 +71,7 @@
       "Managing Director, Icon Institute Manager, Chung Dahm Learning, South Korea",
       "Over 15 years as a Test Prep teacher with hundreds of students scoring over 1400 and 1500"
     ],
-    "img": "/images/main/Charles.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
   },
   {
     "id": 7,
@@ -82,6 +82,6 @@
       "Head Coach of Team Vietnam for World Schools Debating Championships (WSDC) 2020",
       "Co-Coach of Team Korea for World Schools Debating Championships (WSDC) 2014-2019"
     ],
-    "img": "/images/main/Hyewon.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
   }
 ]
