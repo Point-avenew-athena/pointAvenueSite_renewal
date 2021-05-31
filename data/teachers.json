@@ -104,29 +104,66 @@
   {
     "id": 15,
     "name": "Hyewon",
-    "positions": ["Debate Teacher", "Test Preparation Teacher"],
+    "positions": ["Debate Teacher"],
     "exp": [],
     "img": "/images/sub/program/debate_mentor_01.png"
   },
   {
     "id": 16,
     "name": "Travis",
-    "positions": ["Debate Teacher", "Test Preparation Teacher"],
+    "positions": ["Debate Teacher"],
     "exp": [],
     "img": "/images/sub/program/debate_mentor_02.png" 
   },
   {
     "id": 17,
     "name": "Alex",
-    "positions": ["Debate Teacher", "Test Preparation Teacher"],
+    "positions": ["Debate Teacher"],
     "exp": [],
     "img": "/images/sub/program/debate_mentor_03.png" 
   },
   {
     "id": 18,
     "name": "Nicole",
-    "positions": ["Debate Teacher", "Test Preparation Teacher"],
+    "positions": ["Debate Teacher"],
     "exp": [],
     "img": "/images/sub/program/debate_mentor_04.png" 
+  },
+
+
+  {
+    "id": 19,
+    "name": "Charles",
+    "positions": ["Test Preparation Teacher"],
+    "exp": [],
+    "img": "/images/teachers/Charles.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Francoa",
+    "positions": ["Test Preparation Teacher"],
+    "exp": [],
+    "img": "/images/teachers/Francoa.jpg" 
+  },
+  {
+    "id": 21,
+    "name": "Nhung",
+    "positions": ["Test Preparation Teacher"],
+    "exp": [],
+    "img": "/images/teachers/Nhung.jpg" 
+  },
+  {
+    "id": 22,
+    "name": "Regan",
+    "positions": ["Test Preparation Teacher"],
+    "exp": [],
+    "img": "/images/teachers/Regan.jpg" 
+  },
+  {
+    "id": 23,
+    "name": "Michael",
+    "positions": ["Test Preparation Teacher"],
+    "exp": [],
+    "img": "/images/teachers/Michael.jpg" 
   }
 ]
