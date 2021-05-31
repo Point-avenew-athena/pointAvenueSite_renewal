@@ -18,14 +18,15 @@ app.all('*', (req, res, next) => {
   const protocol = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
 
   console.log(" secure = " + req.secure + ", protocol " + protocol)
-  if (protocol == 'https') { 
-    next(); 
-  } else { 
+  //if (protocol == 'https') { 
+    
+  //} else { 
     //let from = `${protocol}://${req.hostname}${req.url}`; 
-    let to = `https://${req.headers.host}${req.url}`; 
+    //let to = `https://${req.headers.host}${req.url}`; 
     //console.log(`[${req.method}]: ${from} -> ${to}`); 
     //res.redirect(301, to); 
-  } 
+  //} 
+  next(); 
 });
 
 app.set('view engine', 'ejs');
