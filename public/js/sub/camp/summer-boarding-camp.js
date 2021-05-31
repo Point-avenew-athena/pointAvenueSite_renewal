@@ -33,9 +33,8 @@ $(function(){
 	});
 
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
-		var index = $('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').index($(this));
-		var n = index+1;
-		$('.testimonials_popup .img_box img').attr('src','/images/sub/camp/summer/testimonials/LoveforPA-'+n+'.png');
+		const img = $(this).find('img').attr('src');
+		$('.testimonials_popup .img_box img').attr('src', img);
 		$('.testimonials_popup').show();
 		$('.dim').show();
 	});
