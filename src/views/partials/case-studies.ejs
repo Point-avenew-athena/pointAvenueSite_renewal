@@ -4,7 +4,14 @@
             <% for ( let i = 0; i < studies.length; i++) { %>
                 <li class="swiper-slide class_box_type_01--item">
                     <div class="class_box_type_01--img">
-                        <img src="<%= studies[i].img %>" alt="<%= studies[i].name %>">
+                        <a href="javascript:void(0);" 
+                        data-id="<%= studies[i].id %>" 
+                        data-name="<%= studies[i].name %>" 
+                        data-school="<%= studies[i].school %>" 
+                        data-img="<%= studies[i].img %>" 
+                        >
+                            <img src="<%= studies[i].img %>" alt="<%= studies[i].name %>">
+                        </a>
                     </div>
                     <div class="swiper-slide class_box_type_01--desc">
                         <div class="text">
