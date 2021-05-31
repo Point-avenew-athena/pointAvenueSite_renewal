@@ -2,49 +2,49 @@
   {
     "id": 1,
     "name": "Katrina",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/elementary_mentor_01.png"
   },
   {
     "id": 2,
     "name": "Jesika",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/elementary_mentor_02.png"
   },
   {
     "id": 3,
     "name": "Amanda",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/elementary_mentor_03.png"
   },
   {
     "id": 4,
-    "name": "Mateusz",
-    "positions": ["Elementarey Teacher"],
+    "name": "Matt",
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Mat.jpg"
   },
   {
     "id": 5,
     "name": "Alex",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Alex.jpg"
   },
   {
     "id": 6,
     "name": "Tatiana",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Tatiana.jpg"
   },
   {
     "id": 7,
     "name": "Emily",
-    "positions": ["Elementarey Teacher"],
+    "positions": ["Elementary Teacher"],
     "exp": [],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Emily.jpg"
   },

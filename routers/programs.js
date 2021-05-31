@@ -33,7 +33,7 @@ const options = (courses) => [
       const result = [];
       for(let i = 0; i < 15; i++) {
         const idx = i + 1;
-        const value = i + 4;
+        const value = i + 5;
         const count = courses.filter(course => ageFilter(course.age, value)).length;
         if(count) result.push({idx, name: value, value, count: () => courses.filter(course => ageFilter(course.age, value)).length})
       }
@@ -102,7 +102,7 @@ router.get('/all-courses', function (req, res) {
 
 router.get('/elementary-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Elementary');
-  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementarey Teacher')).map(teacher => { teacher.position = 'Elementarey Teacher'; return teacher; });
+  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementary Teacher')).map(teacher => { teacher.position = 'Elementary Teacher'; return teacher; });
   res.render('programs/elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
 });
 

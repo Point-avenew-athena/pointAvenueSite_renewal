@@ -1,8 +1,8 @@
 <%- include("../partials/head_start") %>
-	<title><%-course.name-%> - PointAve</title>
-	<meta name="keywords" content="PointAve, <%-course.keyword.join(',')-%>">
+	<title><%-course.name-%> - Point Avenue</title>
+	<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>">
 	<meta name="description" content="<%-course.desc-%>">
-	<meta property="og:title" content="<%-course.name-%> - PointAve">
+	<meta property="og:title" content="<%-course.name-%> - Point Avenue">
 	<meta property="og:description" content="<%-course.desc-%>">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="<%-course.thumbnail-%>">
@@ -90,7 +90,7 @@
 			<% if(course.offline.books) { %>
 			<section class="course_books_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Course Books</h3>
+					<h3 class="title_r_02 section_title">Textbooks</h3>
 					<div class="img_box">
 						<img src="<%-course.offline.books.image-%>" alt="">
 					</div>
@@ -106,7 +106,7 @@
 			<% } %>
 			<section class="locations_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Location Availability</h3>
+					<h3 class="title_r_02 section_title">Locations</h3>
 					<!-- locations 리스트 swiper-->
 					<%- include("../partials/locations-list") %>
 				</div>
