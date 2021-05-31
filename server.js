@@ -15,15 +15,15 @@ app.all('*', (req, res, next) => {
     return;
   }
 
-  let protocol = req.headers['x-forwarded-proto']; 
+  const xfp = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
   
   if (protocol == 'https') { 
     next(); 
   } else { 
-    let from = `${protocol}://${req.hostname}${req.url}`; 
+    //let from = `${protocol}://${req.hostname}${req.url}`; 
     let to = `https://${req.headers.host}${req.url}`; 
     //console.log(`[${req.method}]: ${from} -> ${to}`); 
-    res.redirect(to); 
+    res.redirect(301, to); 
   } 
 });
 
