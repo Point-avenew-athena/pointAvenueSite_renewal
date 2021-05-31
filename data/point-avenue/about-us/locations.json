@@ -28,7 +28,7 @@
   },
   {
     "id" : 4,
-    "name" : "CSI",
+    "name" : "CSI - District 2",
     "address" : "135 No.5 Street, An Phu Ward, District 02, Ho Chi Minh, Vietnam, 700000",
     "tel" : [
       ""
@@ -36,7 +36,7 @@
   },
   {
     "id" : 5,
-    "name" : "CSI",
+    "name" : "CSI - District 7",
     "address" : "426 Pham Thai Buong, Phu My Hung, District 7, Ho Chi Minh, Vietnam, 700000",
     "tel" : [
       ""
