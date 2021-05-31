@@ -62,7 +62,9 @@
 .about_us .partners_wrap .partners_cont li {float: left; position: relative; width:16.6%; padding:10px; border-radius: 10px;}
 .about_us .partners_wrap .partners_cont li .img_item {position: relative; padding-top:50%; overflow: hidden; border-radius: 10px;}
 .about_us .partners_wrap .partners_cont li img{ position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);}*/
+
 .about_us .story_wrap .img_box img {border-radius: 20px;}
+.about_us .story_wrap .info_box .img_box img {padding-top:10%; }
 .about_us .story_wrap .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
 .about_us .story_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 
@@ -72,7 +74,19 @@
 
 /*============== all_elmentary_courses ==============*/
 .all_elmentary_courses .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/classes_visual.png') right no-repeat; background-size: cover;}
+.all_elmentary_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:-5%}
+.all_elmentary_courses .mentors_wrap .swipe_type_01--item:nth-child(5) .swipe_type_01--img .img_box img {top:-15%}
+.all_elmentary_courses .mentors_wrap .swipe_type_01--item:nth-child(6) .swipe_type_01--img .img_box img {top:-17%}
+.all_elmentary_courses .mentors_wrap .swipe_type_01--item:nth-child(7) .swipe_type_01--img .img_box img {top:-15%}
 .all_elmentary_courses footer {margin-top: 0;}
+
+/*============== all_ms_courses ==============*/
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(1) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(2) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(3) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(6) .swipe_type_01--img .img_box img {top:-20%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(7) .swipe_type_01--img .img_box img {top:-20%}
 
 /*============== class_datail ==============*/
 .class_datail .title_box {margin-bottom: 30px;}
@@ -141,7 +155,7 @@
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 .admission_consulting .info_wrap .video_wrap {position:relative; padding-top:36%; border-radius: 10px;}
 .admission_consulting .info_wrap .video_wrap iframe{position:absolute; left:0; top:0; width:100%; height: 100%; border-radius:20px;}
-.admission_consulting .info_wrap .text_wrap {padding-left:0;}
+.admission_consulting .info_wrap .text_wrap {padding-left:30px;}
 .admission_consulting .info_wrap .text_wrap .text {margin-bottom:30px;}
 .admission_consulting .info_wrap .btn_type_01--sec {margin: 0 auto; padding:10px 0 ;}
 .admission_consulting .approach_wrap {overflow: hidden;}

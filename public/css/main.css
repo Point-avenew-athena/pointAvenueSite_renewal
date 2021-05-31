@@ -55,6 +55,7 @@
 .results_wrap .section_title {margin-bottom: 40px;}
 .results_wrap .results_list {overflow: hidden;}
 .results_wrap .results_list .results_item {float: left; width:25%; text-align: center;}
+.results_wrap .results_list .results_item strong span {font-size: 30px;}
 .results_wrap .results_list .results_figure .title_r_03 {color:#F2B41B;}
 
 .sing_up_test_wrap .section_inner--full{background: rgba(242, 180, 27, 0.3); padding:30px;}
