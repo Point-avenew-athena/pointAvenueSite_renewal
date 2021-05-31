@@ -9,25 +9,25 @@ const courses = require('./routers/programs');
 const camp = require('./routers/camp');
 
 // redirect HTTP to HTTPS 
-app.all('*', (req, res, next) => { 
-  if (process.env.NODE_ENV == 'development') {
-    next();
-    return;
-  }
+// app.all('*', (req, res, next) => { 
+//   if (process.env.NODE_ENV == 'development') {
+//     next();
+//     return;
+//   }
 
-  const protocol = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
+//   const protocol = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
 
-  console.log(" secure = " + req.secure + ", protocol " + protocol)
-  //if (protocol == 'https') { 
+//   console.log(" secure = " + req.secure + ", protocol " + protocol)
+//   //if (protocol == 'https') { 
     
-  //} else { 
-    //let from = `${protocol}://${req.hostname}${req.url}`; 
-    //let to = `https://${req.headers.host}${req.url}`; 
-    //console.log(`[${req.method}]: ${from} -> ${to}`); 
-    //res.redirect(301, to); 
-  //} 
-  next(); 
-});
+//   //} else { 
+//     //let from = `${protocol}://${req.hostname}${req.url}`; 
+//     //let to = `https://${req.headers.host}${req.url}`; 
+//     //console.log(`[${req.method}]: ${from} -> ${to}`); 
+//     //res.redirect(301, to); 
+//   //} 
+//   next(); 
+// });
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
