@@ -2,7 +2,7 @@
 /*============== sub common ==============*/
 .sub .container .title_wrap {margin-top:80px;}
 .sub .model_wrap .section_inner{overflow: hidden;}
-.sub .model_wrap .text_box {float: left; width:60%; padding-top: 100px; padding-right: 50px; box-sizing: border-box;}
+.sub .model_wrap .text_box {float: left; width:60%; padding-top: 60px; padding-right: 50px; box-sizing: border-box;}
 .sub .model_wrap .text_box .text{margin-top: 20px;}
 .sub .model_wrap .model_img_box{float: right; width:40%; text-align: center;}
 .sub .course_overview_wrap strong {font-weight: 700; font-size: 16px;}
@@ -437,6 +437,7 @@
 @media screen and (max-width:768px) {
 	/*============== sub common ==============*/
 	.sub .model_wrap .text_box {float: none; width:100%; margin-bottom: 40px; padding-right: 0; padding-top: 0; text-align: center;} 
+	.sub .model_wrap .text_box .section_title {text-align:left;}
 	.sub .model_wrap .model_img_box{float: none; width:100%; text-align: center;}
 	.sub .registration_box .btn_box > a {margin-right: 0; margin-bottom: 10px;}
 	.sub .course_objective_wrap .objective_list li {margin-bottom: 20px;}
