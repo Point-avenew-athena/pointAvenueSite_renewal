@@ -9,6 +9,7 @@ ADD ./public/css /home/node/app/public/css
 ADD ./public/font /home/node/app/public/font
 ADD ./public/js /home/node/app/public/js
 ADD ./routers /home/node/app/routers
+ADD ./data /home/node/app/data
 WORKDIR /home/node/app
 RUN npm install -only=production
 
