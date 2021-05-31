@@ -748,7 +748,7 @@
   {
     "courseId" : 17,
     "type" : "Offline",
-    "name" : "Elementary (Beginner)",
+    "name" : "Elementary Debate (Beginner)",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
@@ -789,7 +789,7 @@
   {
     "courseId" : 18,
     "type" : "Offline",
-    "name" : "Elementary (Intermediate)",
+    "name" : "Elementary Debate (Intermediate)",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
@@ -829,7 +829,7 @@
   {
     "courseId" : 19,
     "type" : "Offline",
-    "name" : "Middle School (Beginner)",
+    "name" : "Middle & High School Debate (Beginner)",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
@@ -870,7 +870,7 @@
   {
     "courseId" : 20,
     "type" : "Offline",
-    "name" : "Middle & High School (Intermediate)",
+    "name" : "Middle & High School Debate (Intermediate)",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
