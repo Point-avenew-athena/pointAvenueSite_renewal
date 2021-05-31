@@ -2,7 +2,7 @@
   {
     "courseId" : 3,
     "type" : "Offline",
-    "name" : "English Learning Foundations",
+    "name" : "English Learning Fundamentals",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "4-7",
@@ -109,7 +109,7 @@
   {
     "courseId" : 5,
     "type" : "Offline",
-    "name" : "Life Coaching Jr.",
+    "name" : "Life Coaching Intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "9-10",
@@ -270,7 +270,7 @@
   {
     "courseId" : 29,
     "type" : "Offline",
-    "name" : "Life Coaching EL 4",
+    "name" : "Life Coaching Advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "10-12",
