@@ -399,7 +399,7 @@
       "Learners develop academic literacy skills through content, images and video from National Geographic.",
       "This innovative series provides learners with a pathway to success!",
       "",
-      "With Pathways learners:",
+      "<strong>With Pathways learners:</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
@@ -451,7 +451,8 @@
     "thumbnail" : "/images/courses/ELA_Intermediate_1.jpg",
     "desc": [
       "Designed for students who have a moderate grasp of English language fundamentals involving reading, writing, listening, and speaking. Students at this level can communicate in English with some fluency, requiring some corrections and prompting. The goal is to improve articulation, word choice, comprehension and speaking/written fluidity. Focus will be placed on appropriate grammatical conventions and vocabulary expansion. Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success. Learners develop academic literacy skills through content, images and video from National Geographic. This innovative series provides learners with a pathway to success!",
-      "With Pathways learners:",
+      "",
+      "<strong>With Pathways learners:</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
@@ -502,8 +503,15 @@
     "hour" : "51 hours",
     "thumbnail" : "/images/courses/ELA_Advanced_1.jpg",
     "desc": [
-      "Designed for students who have a moderate grasp of English language fundamentals involving reading, writing, listening, and speaking. Students at this level can communicate in English with some fluency, requiring some corrections and prompting. The goal is to improve articulation, word choice, comprehension and speaking/written fluidity. Focus will be placed on appropriate grammatical conventions and vocabulary expansion. Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success. Learners develop academic literacy skills through content, images and video from National Geographic. This innovative series provides learners with a pathway to success!",
-      "With Pathways learners:",
+      "Designed for students who have a firm grasp of English language fundamentals involving reading, writing, listening, and speaking.",
+      "Students at this level can communicate in English at a high level of fluency, requiring little to no corrections and prompting.",
+      "The goal is to refine skills in order to communicate like native speakers.",
+      "Accelerated focus will be placed on appropriate grammatical conventions, vocabulary expansion, and the use of common idioms and phrases.",
+      "Pathways is National Geographic Learning's new five-level academic skills series that features reading & writing and listening & speaking strands to help learners develop the language skills needed to achieve academic success.",
+      "Learners develop academic literacy skills through content, images and video from National Geographic.",
+      "This innovative series provides learners with a pathway to success!",
+      "",
+      "<strong>With Pathways learners:</strong>",
       "Develop academic literacy skills",
       "Connect to the real world through content from National Geographic",
       "Achieve academic success"
