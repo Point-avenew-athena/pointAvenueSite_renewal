@@ -16,19 +16,21 @@ app.all('*', (req, res, next) => {
   }
 
   const xfp = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
-  
+
+  console.log(" secure = " + req.secure + ", xfp " + xfp)
   if (protocol == 'https') { 
     next(); 
   } else { 
     //let from = `${protocol}://${req.hostname}${req.url}`; 
     let to = `https://${req.headers.host}${req.url}`; 
     //console.log(`[${req.method}]: ${from} -> ${to}`); 
-    res.redirect(301, to); 
+    //res.redirect(301, to); 
   } 
 });
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
+
 // app.use(function(req, res, next) {
 //   if(!req.secure){
 //     res.redirect('https://www.pointavenue.com/' + req.url);
@@ -36,6 +38,7 @@ app.set('views', './src/views')
 //     next();
 //   }
 // });
+
 app.use(express.json())
 app.use(express.static(__dirname + '/public'));
 // app.use(express.static(__dirname + '/publish'));
