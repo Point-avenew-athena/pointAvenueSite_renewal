@@ -17,7 +17,7 @@ app.all('*', (req, res, next) => {
 
   const protocol = req.headers["X-Forwarded-Proto"] || req.headers["x-forwarded-proto"];
 
-  console.log(" secure = " + req.secure + ", xfp " + xfp)
+  console.log(" secure = " + req.secure + ", protocol " + protocol)
   if (protocol == 'https') { 
     next(); 
   } else { 
