@@ -68,7 +68,7 @@ const getCourses = (type, limit) => {
 const bindCourse = (course) => {
   if(!cachedCourses[course.courseId]) {
     const template = $(courseTemplate);
-    const agegrade = course.age ? `Age ${course.age}` : course.grade;
+    const agegrade = course.age ? `Ages ${course.age}` : course.grade;
     template.find('.class_box_type_01--img a').attr('href', `/programs/${course.courseId}`);
     template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
     template.find('.age').html(agegrade);
