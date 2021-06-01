@@ -1,6 +1,22 @@
 // let experience = document.querySelector('.mentor_info_box .ul_type_02');
+
+window.onload = function(){
+  window.env = {};
+  window.env.NODE_ENV = 'develpment';
+  if(window.env){
+    if (window.location.protocol == 'http:' && (window.origin.includes('localhost') || window.origin.includes('127.0.0.1')) ) {
+      console.log('Development Mode');
+    } 
+    
+    if(window.location.protocol == 'http:' && window.env.NODE_ENV.length == 0){
+      console.log(`you are accessing us via an insecure protocol (HTTP). Redirecting you to HTTPS.`);
+      window.location.href = window.location.href.replace('http:', 'https:');
+    }
+  }
+}  
 $(document).ready(function () {
   // http -> https
+  
   // if (location.protocol == 'http:') {
   //   location.href = location.href.replace('http:', 'https:');
   // }
