@@ -163,6 +163,15 @@
 						// 2845 Newsletter On Point – Issue 3
 						// 2847  Newsletter On Point – Issue 2
 
+						function formateDate(d){
+							const day = new Date(d),
+										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+										date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+							return `${date}/${month}/${year}`;
+						}
+
 					%>
 					<ul class="box_type_01 courses_list">
 					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %>
@@ -173,6 +182,9 @@
 								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="text--gray date"><%= formateDate(featuredNewsletter[i].date.split('T')[0]) %></p>
+								</div>
 								<p class="title_r_03">
 									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
 								</p>
@@ -199,7 +211,15 @@
 					<% 
 						const ARTICLE = [2917, 2557, 2529];
 						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
-					
+						
+						function formateDate(d){
+							const day = new Date(d),
+										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+										date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+							return `${date}/${month}/${year}`;
+						}
 					%>
 					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
 						<li class="box_type_01--item courses_item">
@@ -209,6 +229,9 @@
 								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
+								</div>
 								<p class="title_r_03">
 									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
 								</p>

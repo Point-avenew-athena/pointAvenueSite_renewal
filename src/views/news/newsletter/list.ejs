@@ -40,6 +40,15 @@
 					<ul class="box_type_01 courses_list">
 						<% 
 							const onlyNewsletters = newsletters.filter(newsletter => (newsletter.type == "Newsletter"));
+
+							function formateDate(d){
+								const day = new Date(d),
+											year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+											month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+											date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+	
+								return `${date}/${month}/${year}`;
+							}
 						%>
 						<% for ( let i = 0; i < onlyNewsletters.length; i++){ %>
 							<li class="box_type_01--item courses_item">
@@ -49,6 +58,9 @@
 									</a>
 								</div>
 								<div class="box_type_01--desc courses_desc_box">
+									<div class="info">
+										<p class="text--gray date"><%= formateDate(onlyNewsletters[i].date.split('T')[0]) %></p>
+									</div>
 									<a href="/news/<%= onlyNewsletters[i].id %>">
 										<p class="title_r_03"><%= onlyNewsletters[i].title %></p>
 									</a>
