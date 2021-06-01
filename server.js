@@ -45,7 +45,6 @@ app.use(express.json())
 app.use(express.static(__dirname + '/public'));
 // app.use(express.static(__dirname + '/publish'));
 
-
 // * main routes
 app.use('/', main);
 // * courses & courses' sub routes

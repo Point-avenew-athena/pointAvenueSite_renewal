@@ -10,6 +10,11 @@ router.get('/', (req, res) => {
   res.render('index', { news });
 });
 
+router.get('/en/home', (req, res) => {
+  const news = require('../data/point-avenue/news/news.json');
+  res.render('index', { news });
+});
+
 router.get('/about-us', (req, res) => {
   const teamMembers = require('../data/point-avenue/about-us/team-members.json');
   const locations = require('../data/point-avenue/about-us/locations.json');
