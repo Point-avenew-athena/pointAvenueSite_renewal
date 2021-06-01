@@ -3,6 +3,7 @@
 window.onload = function(){
   window.env = {};
   window.env.NODE_ENV = 'develpment';
+  // console.log("NODE_ENV: ", process.env.NODE_ENV);
   if(window.env){
     if (window.location.protocol == 'http:' && (window.origin.includes('localhost') || window.origin.includes('127.0.0.1')) ) {
       console.log('Development Mode');
@@ -10,7 +11,8 @@ window.onload = function(){
     
     if(window.location.protocol == 'http:' && window.env.NODE_ENV.length == 0){
       console.log(`you are accessing us via an insecure protocol (HTTP). Redirecting you to HTTPS.`);
-      window.location.href = window.location.href.replace('http:', 'https:');
+      // window.location.href = window.location.href.replace('http:', 'https:');
+      window.location.href = `https://${window.location.hostname}${pathname}`
     }
   }
 }  
