@@ -1,9 +1,9 @@
 // let experience = document.querySelector('.mentor_info_box .ul_type_02');
 $(document).ready(function () {
   // http -> https
-  if (location.protocol == 'http:') {
-    location.href = location.href.replace('http:', 'https:');
-  }
+  // if (location.protocol == 'http:') {
+  //   location.href = location.href.replace('http:', 'https:');
+  // }
 
   /* ========= common :: start=============*/
   $('.contact_pop_btn').click(function () {
@@ -76,13 +76,11 @@ $(document).ready(function () {
   //선생 팝업 닫기 버튼 클릭시
   $('.mentor_popup .close_btn').click(function(){
     cleanupListOfTeacher();
-		toggleScroll(false);
   });
 
   //case-studies 팝업 닫기 버튼 클릭시
   $('.case_studies_popup .close_btn').click(function(){
     cleanupListOfStudies();
-		toggleScroll(false);
   });
 
 
@@ -176,12 +174,6 @@ function changeTeacherData(
 function cleanupListOfTeacher() {
   const listTags = Array.from(experience.children);
   listTags.forEach((item) => item.remove());
-}
-//* 선생 팝업 떳을시 - 스크롤 막음
-function toggleScroll(state = true) {
-  state == true
-    ? (document.body.style.overflow = 'hidden')
-    : (document.body.style.overflow = '');
 }
 
 //* Case studies 정보 팝업
