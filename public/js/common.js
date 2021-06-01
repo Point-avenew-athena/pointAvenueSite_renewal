@@ -1,38 +1,14 @@
 // let experience = document.querySelector('.mentor_info_box .ul_type_02');
 
-// window.onload = function(){
-//   window.env = {};
-//   window.env.NODE_ENV = 'develpment';
-//   // console.log("NODE_ENV: ", process.env.NODE_ENV);
-//   if(window.env){
-//     if (window.location.protocol == 'http:' && (window.origin.includes('localhost') || window.origin.includes('127.0.0.1')) ) {
-//       console.log('Development Mode');
-//     } 
-    
-//     if(window.location.protocol == 'http:' && window.env.NODE_ENV.length == 0){
-//       console.log(`you are accessing us via an insecure protocol (HTTP). Redirecting you to HTTPS.`);
-//       // window.location.href = window.location.href.replace('http:', 'https:');
-//       window.location.href = `https://${window.location.hostname}${pathname}`
-//     }
-//   }
-// }  
-
 window.onload = function (){
-  setTimeout(() => {
-    if(window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')){
-      console.log('로컬이당')
+  if(window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')){
+      console.log('Local Development')
   } else {
-    console.log('https로');
     location.protocol == 'http:' && (location.href = location.href.replace('http:', 'https:'));
   }
-  },500)
 }
 $(document).ready(function () {
   // http -> https
-  
-  
-  
-
   // if (location.protocol == 'http:') {
   //   location.href = location.href.replace('http:', 'https:');
   // }
