@@ -33,9 +33,9 @@ header .gnb_etc .btn_search:before{content:''; display: inline-block;width:20px;
 /* footer {margin-top: 80px;} */
 footer .footer_inner{border-top: 1px solid #E5E5E5; }
 footer .footer_info_wrap {overflow: hidden; width:100%; max-width:1170px; margin:0 auto; padding:30px 0 50px; border-bottom: 1px solid #E5E5E5;font-size: 0;}
-footer .footer_logo {display: inline-block; width:19%; vertical-align: top;}
+footer .footer_logo {display: inline-block; width:17%; vertical-align: top;}
 footer .footer_logo a{display: block;}
-footer .footer_sitemap{display: inline-block; width:81%;}
+footer .footer_sitemap{display: inline-block; width:81%; padding-left:2%;}
 footer .footer_sitemap .footer_sitemap_menu{display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex; justify-content: space-between; overflow: hidden;}
 footer .footer_sitemap .footer_sitemap_menu a{display: block;font-size: 16px; letter-spacing: 0px;}
 footer .footer_sitemap .footer_sitemap_menu ul a{font-size: 14px;}
@@ -83,8 +83,9 @@ footer .footer_sns_menu .sns_icon_l a{background: url('https://paathena-public-p
 	header .gnb_cont {margin-right: 30px;}
 	header .gnb_cont .gnb_menu_item + .gnb_menu_item {margin-left: 30px;}
 	footer .footer_logo {width:100%; padding:0 40px;}
+	footer .footer_logo a{width:300px;}
 	footer .footer_info_wrap {padding:15px 0 10px;}
-	footer .footer_sitemap {width:100%; margin-top: 20px;}
+	footer .footer_sitemap {width:100%; margin-top: 20px; padding-left:0;}
 	footer .footer_sitemap .footer_sitemap_menu {padding:20px 40px; border-top: 1px solid #E5E5E5;}
 	footer .footer_etc_wrap {padding:0 40px;}
 }
@@ -126,6 +127,7 @@ footer .footer_sns_menu .sns_icon_l a{background: url('https://paathena-public-p
 @media screen and (max-width: 768px) and (orientation: portrait){
 	footer .footer_info_wrap{padding:15px 0;}
 	footer .footer_logo {padding:0 20px;}
+	footer .footer_logo a{width:200px;}
 	footer .footer_sitemap .footer_sitemap_menu a {padding:10px 20px;}
 	footer .footer_sitemap .footer_sitemap_menu .footer_menu_item--go > a:before {right:20px; top:15px;}
 	footer .footer_sitemap .footer_sitemap_menu .footer_menu_item--go > a:after {right:20px; top:25px;}
