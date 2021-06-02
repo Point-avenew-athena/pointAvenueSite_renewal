@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // let experience = document.querySelector('.mentor_info_box .ul_type_02');
 
 $(document).ready(function () {
@@ -6,20 +5,6 @@ $(document).ready(function () {
   // if (location.protocol == 'http:') {
   //   location.href = location.href.replace('http:', 'https:');
   // }
-    if(window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')){
-        console.log('Local Development')
-    } else {
-      location.protocol == 'http:' && (location.href = location.href.replace('http:', 'https:'));
-    }
-=======
-$(document).ready(function () {
-  if(window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')){
-      console.log('Local Development')
-  } else {
-    location.protocol == 'http:' && (location.href = location.href.replace('http:', 'https:'));
-  }
-
->>>>>>> 3dfa773af33a8a22041e32afa78316b6df155a0a
   /* ========= common :: start=============*/
   $('.contact_pop_btn').click(function () {
     $('.contact_popup').show();
