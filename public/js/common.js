@@ -1,17 +1,9 @@
-// let experience = document.querySelector('.mentor_info_box .ul_type_02');
-
-window.onload = function (){
+$(document).ready(function () {
   if(window.location.href.includes('localhost') || window.location.href.includes('127.0.0.1')){
       console.log('Local Development')
   } else {
     location.protocol == 'http:' && (location.href = location.href.replace('http:', 'https:'));
   }
-}
-$(document).ready(function () {
-  // http -> https
-  // if (location.protocol == 'http:') {
-  //   location.href = location.href.replace('http:', 'https:');
-  // }
 
   /* ========= common :: start=============*/
   $('.contact_pop_btn').click(function () {
