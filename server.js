@@ -10,21 +10,21 @@ const camp = require('./routers/camp');
 const admissionsConsulting = require('./routers/admissions-consulting');
 
 // redirect HTTP to HTTPS 
-app.all('*', (req, res, next) => { 
-  // development not redirect
-  if (process.env.NODE_ENV == 'development') {
-    next();
-    return;
-  }
+// app.all('*', (req, res, next) => { 
+//   // development not redirect
+//   if (process.env.NODE_ENV == 'development') {
+//     next();
+//     return;
+//   }
 
-  const protocol = req.protocol;
-  if (protocol == 'https') { 
-    next(); 
-  } else { 
-    res.redirect(301, `https://${req.hostname}${req.url}`); 
-    return;
-  } 
-});
+//   const protocol = req.protocol;
+//   if (protocol == 'https') { 
+//     next(); 
+//   } else { 
+//     res.redirect(301, `https://${req.hostname}${req.url}`); 
+//     return;
+//   } 
+// });
 
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
