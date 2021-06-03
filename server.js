@@ -1,6 +1,8 @@
 const express = require('express');
 const ejs = require('ejs');
 const app = express();
+const path = require('path');
+const favicon = require('serve-favicon');
 const PORT = process.env.PORT || 7070;
 
 //* importing main routes
@@ -30,6 +32,7 @@ app.set('view engine', 'ejs');
 app.set('views', './src/views')
 app.use(express.json())
 app.use(express.static(__dirname + '/public'));
+app.use(favicon(path.join(__dirname, 'public', 'images', 'common', 'favicon.png')));
 // app.use(express.static(__dirname + '/publish'));
 
 // * main routes
