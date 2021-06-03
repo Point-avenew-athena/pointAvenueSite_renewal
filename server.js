@@ -31,7 +31,6 @@ const admissionsConsulting = require('./routers/admissions-consulting');
 app.set('view engine', 'ejs');
 app.set('views', './src/views')
 app.use(express.json())
-app.use(favicon(path.join(__dirname, 'public', 'images', 'common', 'favicon.png')));
 app.use(express.static(__dirname + '/public'));
 
 
