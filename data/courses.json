@@ -31,7 +31,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elementary_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_English_Learning_Fundamentals.jpg",
         "strings" : [
           "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
           "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
@@ -91,7 +91,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elementary_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_English_Learning_1-4.jpg",
         "strings" : [
           "<strong>Subject Link 1 to 8:</strong> This series is used to support topic knowledge, themed/multi-disciplined learning, and improve reading comprehension. The themes are used to engage students, using their curiosity to learn specific vocabulary. The passages are used to practice reading skills and improve comprehension.",
           "<strong>Spectrum Writing:</strong> The workbooks guide students as they write for a variety of purposes, including story-telling, personal narratives, descriptive writing, and opinion writing. This series also support current state standards, and take students through the full writing process; planning, drafting, revising, proofreading, and sharing writing.",
@@ -152,7 +152,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elementary_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Intermediate.jpg",
         "strings" : [
           "7 Habits of Happy Kids by Sean Covey",
           "Point Avenue Daily Journal"
@@ -207,7 +207,7 @@
           "<strong>Intermediate:</strong> Develop confidence through theoretical and empirical learning of major engineering disciplines. Examine problems through an iterative mindset"
         ]
       },
-      "books" : null,
+      "books" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Intermediate.jpg",
       "location" : {
         "name" : "",
         "address" : [
@@ -312,7 +312,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elementary_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Advanced.jpg",
         "strings" : [
           "<strong>Mind Up Curriculum</strong><br/>MindUP gives children the knowledge and tools they need to manage stress, regulate emotions and face the challenges of the 21st century with optimism, resilience and compassion.",
           "Point Avenue Daily Journal"
