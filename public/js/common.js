@@ -131,6 +131,18 @@ $(document).ready(function () {
       .removeClass('on');
   });
 
+  
+	
+	$(document).keyup(function(e) {
+      if (e.keyCode == 27) { // esc
+        $('.layer_popup').hide();
+        $('.dim').fadeOut();
+        cleanupListOfTeacher();
+        cleanupListOfStudies();
+      }
+  });
+
+	
   /*==========file_box :: 파일 업로드=========*/
   var fileTarget = $('.file_box .upload_hidden');
   fileTarget.on('change', function () {
