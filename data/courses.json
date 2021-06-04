@@ -31,7 +31,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_English_Learning_Fundamentals.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_book_English_Learning_Fundamentals.jpg",
         "strings" : [
           "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
           "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
@@ -91,7 +91,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_English_Learning_1-4.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_book_English_Learning_1-4.jpg",
         "strings" : [
           "<strong>Subject Link 1 to 8:</strong> This series is used to support topic knowledge, themed/multi-disciplined learning, and improve reading comprehension. The themes are used to engage students, using their curiosity to learn specific vocabulary. The passages are used to practice reading skills and improve comprehension.",
           "<strong>Spectrum Writing:</strong> The workbooks guide students as they write for a variety of purposes, including story-telling, personal narratives, descriptive writing, and opinion writing. This series also support current state standards, and take students through the full writing process; planning, drafting, revising, proofreading, and sharing writing.",
@@ -152,7 +152,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Intermediate.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_book_Life_Coaching_Intermediate.jpg",
         "strings" : [
           "7 Habits of Happy Kids by Sean Covey",
           "Point Avenue Daily Journal"
@@ -207,7 +207,7 @@
           "<strong>Intermediate:</strong> Develop confidence through theoretical and empirical learning of major engineering disciplines. Examine problems through an iterative mindset"
         ]
       },
-      "books" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Intermediate.jpg",
+      "books": null,
       "location" : {
         "name" : "",
         "address" : [
@@ -312,7 +312,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/book_Life_Coaching_Advanced.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_book_Life_Coaching_Advanced.jpg",
         "strings" : [
           "<strong>Mind Up Curriculum</strong><br/>MindUP gives children the knowledge and tools they need to manage stress, regulate emotions and face the challenges of the 21st century with optimism, resilience and compassion.",
           "Point Avenue Daily Journal"
@@ -410,14 +410,14 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Beginner.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
           "The ELA standards align with college expectations in 6 domains<br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_ELA_Beginner.jpg",
         "strings" : [
           "National Geographic Pathways Level 1",
           "Reading & Writing / Speaking & Listening",
@@ -457,14 +457,14 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Intermediate.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
           "The ELA standards align with college expectations in 6 domains<br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_ELA_Intermediate.jpg",
         "strings" : [
           "National Geographic Pathways Level 2",
           "Reading & Writing / Speaking & Listening",
@@ -505,14 +505,14 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Advanced.jpg",
         "strings" : [
           "Our ELA courses help students master the essential skills required for high school, college, career, and life in today’s global economy through adhering to United States Common Core Standards. Students advance through the four levels of ELA from Foundations to ELA Advanced. Students will be placed based on a diagnostic assessment which focuses on reading, writing, speaking, and listening proficiency.",
           "<strong>The ELA standards align with college expectations in 6 domains</strong><br/>1) Language (conventions, knowledge, vocabulary)<br/>2) Reading: Informational (ideas, details, structure, range, text complexity)<br/>3) Reading: Literature (ideas, details, structure, range, text complexity)<br/>4) Reading: Foundational (concepts, phonological awareness, recognition, fluency)<br/>5) Speaking and Listening (comprehension, collaboration, presentation)<br/>6) Writing (type, purpose, production, distribution, research, range of writing)"
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_ELA_Advanced.jpg",
         "strings" : [
           "National Geographic Pathways Level 3",
           "Reading & Writing / Speaking & Listening",
@@ -552,7 +552,7 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Reading_Comprehension.jpg",
         "strings" : [
           "<strong>1) To improve Lexile measures (reading proficiency scores) by helping students</strong><br/>- Identify the various elements of literature, including plot, theme, setting, mood, etc.<br/>- Distinguish between text types by understanding how word choice, structure, and tone may vary according to the purpose and genre of literature. <br/>- Develop critical and analytical thinking skills by deconstructing character development, cause-and-effect relationships, symbols, foreshadowing techniques, and author’s bias or perspective. ",
           "<strong>2) To increase reading speed by helping students</strong><br/>- Improve reading speed by learning skimming and scanning techniques, and how to read with purpose.<br/>- Improve reading comprehension by discovering specialized reading strategies to understand texts better, which will ultimately lead to increased reading speed. ",
@@ -560,7 +560,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Reading_Comprehension.jpg",
         "strings" : ["Students will be provided with acces to the Renaissance myON® Reader. A personalized digital library at every student's fingertips, Renaissance myON® Reader is a student-centered, personalized literacy environment that gives students access to more than 6,000 enhanced digital books. Titles are dynamically matched to each individual student's interests, grade and Lexile® reading level."]
       },
       "location" : {
@@ -596,7 +596,7 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Academic_and_Creative_Writing.jpg",
         "strings" : [
           "<strong>1) Develop the ability to write different paragraph forms</strong><br/>- Understand opinion writting, sequence writing, topic sentences, conclusing sentences<br/>- Leardn how to write process, narrative, descriptive, and opinion papers",
           "<strong>2) Improve grammar and overall sentence structure</strong><br/>- Students will use the software platform Quill to practice grammar and track their progress throughout the term.<br/>- Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing",
@@ -605,7 +605,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Academic_and_Creative_Writing.jpg",
         "strings" : [
           "<strong>National Geographic Great Writing Series</strong><br/>The Great Writing Series uses clear explanations and extensive practical activities to help students write great sentences, paragraphs, and essays. Each book contains a wide variety of writing models in carefully selected rhetorical styles that provide practice in working with the writing process to develop a final piece of writing.",
           "<strong>Word Roots Book Series</strong><br/>These award-winning books teach the meaning and spelling of roots, prefixes, and suffixes that are the elements used to form words in English. Learning these word elements dramatically improves spelling and the ability to decode unfamiliar words."
@@ -637,7 +637,7 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Life_Coaching_Beginner_Intermediate.jpg",
         "strings" : [
           "Weekly Fitness (60 minutes each week)",
           "Develop soft skills (posture, eye contact, confidence)",
@@ -650,7 +650,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Life_Coaching_Beginner_Intermediate.jpg",
         "strings" : [
           "<strong>7 Habits of Highly Effective Teens Textbook and Workbook by Sean Covey</strong><br/>In the book, Covey discusses how teenagers can become more independent and effective by following seven basic habits. The habits range from being proactive in every aspect of one's life to planning and prioritizing one's daily life and responsibilities",
           "<strong>Point Avenue Daily Journal</strong><br/>For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
@@ -682,7 +682,7 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Life_Coaching_Advanced.jpg",
         "strings" : [
           "Weekly fitness (60-70 minutes each week)",
           "Develop soft skills (posture, eye contact, confidence)",
@@ -693,7 +693,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Life_Coaching_Advanced.jpg",
         "strings" : [
           "<strong>MindUP Curriculum</strong><br/>MindUP gives children the knowledge and tools they need to manage stress, regulate emotions and face the challenges of the 21st century with optimism, resilience and compassion.",
           "<strong>Point Avenue Daily Journal</strong><br/>For this course, each student is required to maintain a journal that we supply them. Inside they are to keep track of daily goals, notable events, lessons learned, and things they are grateful for. The purpose of these journals is to measure effort in making personal growth intentional, as well as to teach students daily self-reflection in order for them to improve and grow their perspectives."
@@ -734,7 +734,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/debate_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_debate_book_Elementary_Debate_Beginner.jpg",
         "strings" : [
           "1. Speakers’ Club: Public Speaking for Young People: includes practical ideas and fun activities, introduces valuable skills and reinforces the need for preparation and attention to detail to deliver a successful speech.",
           "2. Debate Pro Junior: Book 1: designed to introduce students to a variety of topics and teach them how to present opinions about these topics."
@@ -775,7 +775,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/debate_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_debate_book_Elementary_Debate_Intermediate.jpg",
         "strings" : [
           "1. Debate Pro Junior: Book 2: designed to introduce students to a variety of topics and teach them how to present opinions about these topics. Book 2 covers more advanced topics and vocabulary."
         ]
@@ -816,7 +816,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/debate_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_debate_book_Middle_High_School_Debate_Beginner.jpg",
         "strings" : [
           "1. Debate For All: Introduction to Debate: explores the basics of the academic sport of debate to include 21st-Century Skills, parliamentary debate format, argumentation, refutation, speaker roles, and methods of brainstorming. "
         ]
@@ -858,7 +858,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/debate_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_debate_book_Middle_High_School_Debate_Intermediate.jpg",
         "strings" : [
           "1. Point Avenue: Debate Topics: introduces students to various topics and presents multiple controversies around the subject. These packets aim to help students grow their general knowledge and identify the core clashes in a debate. Discussion questions ignite students' critical thinking and expand their vocabulary related to the topics."
         ]
@@ -893,13 +893,16 @@
       "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Debate_All_Stars_2.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
         "strings" : [
           "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
           "Students will be introduced to various debate strategies with a focus on team collaboration. For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
         ]
       },
-      "books" : null,
+      "books" : {
+        "image": "",
+        "strings" : []
+      },
       "location" : {
         "name" : "",
         "address" : [
@@ -954,7 +957,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_SSAT.jpg",
         "strings" : [
           "Barron’s SSAT/ISEE: High School Entrance Examinations (Fourth Edition)",
           "Kaplan SSAT & ISEE Middle & Upper Level Prep 2020",
@@ -1026,7 +1029,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_TOEFL.jpg",
         "strings" : [
           "[Delta Six] Practice Tests"
         ]
@@ -1099,7 +1102,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_IELTS.jpg",
         "strings" : [
           "<strong>IELTS 101 Course Texts</strong><br/>[Macmillan] Effective Reading 1 & 2 <br/>[Macmillan] Destination B1 Grammar & Vocabulary<br/>[Collins] Grammar (Pre-Intermediate)<br/>Preliminary English Test (PET) Practice Tests",
           "<strong>IELTS 201 Course Texts</strong><br/>[Macmillan] Effective Reading 3 & 4<br/>[Macmillan] Destination B2 Grammar & Vocabulary<br/>[Learning Express] 501 Reading Comprehension Questions<br/>[Cambridge] IELTS Academic Tests 1-14",
@@ -1155,7 +1158,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_SAT.jpg",
         "strings" : [
           "College Board",
           "Princeton Review",
@@ -1211,7 +1214,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_AP.jpg",
         "strings" : [
           "College Board",
           "Princeton Review",
@@ -1267,7 +1270,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_IB.jpg",
         "strings" : [
           "International Baccalaureate"
         ]
@@ -1318,7 +1321,7 @@
         ]
       },
       "books" : {
-        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test_books.jpg",
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/test-prep_book_IGCSE.jpg",
         "strings" : [
           "Complete Chemistry for Cambridge IGCSE by P. Ingram and RoseMarie Gallagher Oxford; 3rd Revised edition (2014)",
           "Preview Cambridge IGCSE Biology Coursebook (third edition), Mary Jones and Geoff Jones, Cambridge University Press",
