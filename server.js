@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const favicon = require('serve-favicon');
+// const favicon = require('serve-favicon');
 //* PORT
 const PORT = process.env.PORT || 7070;
 
