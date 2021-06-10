@@ -283,6 +283,7 @@
 		</div>
 	</div>
 */
+.gray_box {padding:10px; text-align: center; background: #eee; }
 
 /*team_wrap(teacher)*/
 .team_wrap .swipe_type_01 .swipe_type_01--desc {padding-top:10px;}

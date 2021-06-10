@@ -64,10 +64,14 @@
 .about_us .partners_wrap .partners_cont li .img_item {position: relative; padding-top:50%; overflow: hidden; border-radius: 10px;}
 .about_us .partners_wrap .partners_cont li img{ position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);}*/
 
-.about_us .story_wrap .img_box img {border-radius: 20px;}
-.about_us .story_wrap .info_box .img_box img {padding-top:10%; }
-.about_us .story_wrap .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
-.about_us .story_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
+.about_us .history_wrap .title_s_01 { font-family: 'roboto'; font-size: 24px; font-weight: 800; margin-bottom:20px;}
+.about_us .history_wrap .history_box_01 {}
+.about_us .history_wrap .history_box_01 .history_box_inner {height:695px; padding:80px; background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/about-us/our_history_bg.png') no-repeat; background-size:100% 100%;}
+.about_us .history_wrap .history_box_02 {padding-left:60px;}
+.about_us .history_wrap .say_box {margin-bottom:60px;}
+.about_us .history_wrap .say_box .text {position:relative; padding:10px 40px 15px; font-size:16px; word-break:keep-all;}
+.about_us .history_wrap .say_box .text:before {content:''; display:inline-block; width:26px; height:25px; position:absolute; left:0; top:0; background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/about-us/double.png') no-repeat;}
+.about_us .history_wrap .say_box .name {padding:30px 0 0 40px; font-size:14px;}
 
 /*============== classes ==============*/
 .classes .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/classes_visual.png') right no-repeat; background-size: cover;}
@@ -400,6 +404,10 @@
 	.about_us .about_intro_wrap .video_wrap {width:100%; padding-top:55%;}
 	.about_us .about_intro_wrap .video_desc_wrap {width:100%; padding-left: 0;}
 	.about_us .partners_wrap .partners_cont li {width:25%;}
+	.about_us .history_wrap .title_s_01 { font-family: 'roboto'; font-size: 24px; font-weight: 800; margin-bottom:20px;}
+	.about_us .history_wrap .history_box_01 {width:100%; }
+	.about_us .history_wrap .history_box_02 {margin-top:50px; width:100%; padding-left:0;}
+
 	/*============== class_datail ==============*/
 	.class_datail .lesson_list_wrap .video_wrap {float: none;width:100%; padding-right: 0;}
 	.class_datail .lesson_list_wrap .lesson_list {margin-top: 20px; }
@@ -451,6 +459,7 @@
 	
 	/*============== aboutus ==============*/
 	.about_us .partners_wrap .partners_cont li {width:33.33%;}
+	.about_us .history_wrap .history_box_01 .history_box_inner{min-height:450px; height:auto; padding:40px;}
 	/*============== all_elmentary_courses ==============*/
 	.all_elmentary_courses .courses_wrap > div {margin-bottom: 0;}
 	
