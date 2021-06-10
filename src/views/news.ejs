@@ -56,7 +56,7 @@
 							<h3 class="title_r_02 section_title">Spotlight</h3>
 							<ul style="overflow-y: scroll;height: 473px;">
 								<% 
-										const SPOTLIGHT_NEWS = [3574, 3475, 3469, 3433, 3419, 2624]; //* 메인 가장 큰 기사 빼고
+										const SPOTLIGHT_NEWS = [3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
 										const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)).sort((a,b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
 
 										function formateDate(d){
@@ -155,12 +155,12 @@
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Newsletters</h3>
 					<% 
-						const NEWSLETTERS = [3144, 2845, 2847];
+						const NEWSLETTERS = [3500, 3475, 3433];
 						const featuredNewsletter = news.filter(item => NEWSLETTERS.some(id => id === item.id)); 
 						
-						// 3144 Newsletter On Point – Issue 4
-						// 2845 Newsletter On Point – Issue 3
-						// 2847  Newsletter On Point – Issue 2
+						// 3500 Newsletter On Point – Issue 7
+						// 3475 Newsletter On Point – Issue 6
+						// 3433  Newsletter On Point – Issue 5
 
 						function formateDate(d){
 							const day = new Date(d),
