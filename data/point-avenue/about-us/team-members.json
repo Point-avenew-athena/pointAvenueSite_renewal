@@ -4,29 +4,74 @@
     "name": "Danny",
     "position": "CEO",
     "exp": [
-      "B.S. with Honors in Sociology & Environmental Engineering, United States Military Academy at West Point",
-      "US Army Airborne Ranger with 6 Years of Military Experience as an Officer; Combat Decorated Veteran; Served Two Tours in Iraq",
-      "COO, New Pathway Education & Technology Group",
-      "Director, Prestige Only & Premier Only, Education International Cooperation Group"
+      "11 years of experience in Education",
+      "Founder & CEO,  Point Avenue",
+      "Co-Founder & COO, New Pathway Education",
+      "Managing Director, EIC Education",
+      "Captain, US Army Ranger",
+      "BS, United States Military Academy"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
     "id": 2,
+    "name": "Samuel",
+    "position": "CTO",
+    "exp": [
+      "11 years of experience in Education",
+      "Founder & CEO, New Pathway Education",
+      "CTO, EIC Education",
+      "Founder & CEO,  NPX Capital",
+      "Founder & CEO, NPX teraArk",
+      "BS and MS, Massachusetts Institute of Technology"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Samuel.jpg"
+  },
+  {
+    "id": 3,
     "name": "Tommy",
     "position": "COO",
     "exp": [
-      "M.B.A., The Wharton School of the University of Pennsylvania",
-      "B.S. with Honors in Economics, United States Military Academy",
-      "US Army Special Forces \"Green Beret\" Officer",
-      "Deployed in support of combat operations in Afghanistan and Iraq",
-      "Led President Barack Obama’s security in India and Myanmar",
-      "Investment Banking, Consumer Retail Healthcare Group, Goldman Sachs"
+      "10 years of experience in Education",
+      "Co-Founder & COO, Point Avenue",
+      "Investment Banking, Goldman Sachs",
+      "Captain, US Army Special Forces",
+      "MBA, Wharton School, UPenn",
+      "BS, United States Military Academy"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
   },
   {
-    "id": 3,
+    "id": 4,
+    "name": "Trang",
+    "position": "Financial Controller",
+    "exp": [
+      "13 years of experience in Finance",
+      "Finance Controller, Point Avenue",
+      "Consulting Manager, Deloitte",
+      "Audit Manager, Deloitte ",
+      "Head of Sustainability Development, Deloitte",
+      "Team Lead, Deloitte Private",
+      "ACCA, CIA, CPA"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Blake",
+    "position": "Director",
+    "exp": [
+      "10 years of experience in Finance",
+      "CFO, Superleaf, Inc.",
+      "TMT Investment Banking, J.P. Morgan",
+      "Private Equity, BBH Capital Partners",
+      "M&A, Brown Brothers Harriman",
+      "BA, Dartmouth College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 6,
     "name": "Dan",
     "position": "Center Director",
     "exp": [
@@ -39,7 +84,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dan.jpeg"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Myles",
     "position": "Head of Research & Development",
     "exp": [
@@ -51,7 +96,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
   },
   {
-    "id": 5,
+    "id": 8,
     "name": "Edward",
     "position": "Head of Training",
     "exp": [
@@ -63,7 +108,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
-    "id": 6,
+    "id": 9,
     "name": "Charles",
     "position": "Head of Test Prep",
     "exp": [
@@ -74,7 +119,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
   },
   {
-    "id": 7,
+    "id": 10,
     "name": "Hyewon",
     "position": "Head of Debate",
     "exp": [

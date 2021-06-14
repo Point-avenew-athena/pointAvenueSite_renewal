@@ -56,9 +56,11 @@
 .about_us .about_intro_wrap .video_desc_wrap{width:50%;}
 .about_us .about_intro_wrap .s_title {margin-bottom: 20px;}
 .about_us .about_intro_wrap .s_desc {line-height: 1.4;}
-.about_us .team_wrap .swipe_type_01 .swipe_type_01--item:nth-child(2) img{top:-10%;}
-.about_us .team_wrap .swipe_type_01 .swipe_type_01--item:nth-child(4) img{top:-20%;}
-.about_us .team_wrap .swipe_type_01 .swipe_type_01--item:nth-child(5) img{top:-10%;}
+.about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Tommy img{top:-10%;}
+.about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Trang img{top:-5%;}
+.about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Blake img{top:-10%;}
+.about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Myles img{top:-18%;}
+.about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Edward img{top:-10%;}
 /*.about_us .partners_wrap .partners_cont ul{overflow: hidden; margin: -10px;}
 .about_us .partners_wrap .partners_cont li {float: left; position: relative; width:16.6%; padding:10px; border-radius: 10px;}
 .about_us .partners_wrap .partners_cont li .img_item {position: relative; padding-top:50%; overflow: hidden; border-radius: 10px;}
