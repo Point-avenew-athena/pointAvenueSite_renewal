@@ -10,6 +10,7 @@ const main = require('./routers/main');
 const courses = require('./routers/programs');
 const camp = require('./routers/camp');
 const admissionsConsulting = require('./routers/admissions-consulting');
+const notice = require('./routers/notice');
 
 // redirect HTTP to HTTPS 
 // app.all('*', (req, res, next) => { 
@@ -42,7 +43,8 @@ app.use('/programs', courses);
 app.use('/camp', camp);
 // * admissions-consulting
 app.use('/admissions-consulting', admissionsConsulting);
-
+// * notice
+app.use('/notice', notice);
 
 
 
