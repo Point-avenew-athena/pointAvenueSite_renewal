@@ -352,6 +352,8 @@
 .summer_day_camp .offers_wrap .text_box{text-align: center;}
 .summer_day_camp .offers_wrap .text_box .btn_type_01--sec {margin:30px auto 0;}
 
+.lotte_wrap section{margin-bottom:0 !important;}
+
 @media screen and (max-width:1200px) {
 	/*sub common*/
 	.sub .course_overview_wrap .video_desc_wrap {margin-top: 40px;padding-left: 0;}
@@ -386,6 +388,9 @@
 	
 	/*============= summer_boarding_camp ========*/
 	.summer_day_camp .meet_team_wrap .text_article {margin-top: 20px;padding-left:0px;}
+
+	.lotte_wrap .section_inner {padding:0;}
+	.lotte_wrap .section_inner img{width:100%;}
 }
 @media screen and (max-width:1000px) {
 	
