@@ -8,7 +8,7 @@
 		"imageUrl" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/lotte_banner.jpg"
 	},
 "date": "2020-06-16T10:50:44",	
-"contents": "<img src=\"https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/2-1.jpg\" alt=\"\" style=\"width:100%; \">",
+"contents": "<div style=\"position:relative;\"><img src=\"https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/event_lotte_finance.jpg\" alt=\"\" style=\"width:100%; \"> <a href=\"http://m.me/PointAvenue\" target=\"_blank\" style=\"position:absolute; width:28%; height:4%; bottom:4%; left:47%;\"></a>",
 "lang" : "en"
 },
 {
