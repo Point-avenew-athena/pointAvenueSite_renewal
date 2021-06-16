@@ -1,5 +1,17 @@
 [
 {
+"id": 3650,
+"type" : "Article", 		
+"title": "Point Avenue is Offering 0% Financing for Classes!",
+"thumbnail" : {		
+		"excerpt": "",
+		"imageUrl" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/2-1.jpg"
+	},
+"date": "2020-06-16T10:50:44",	
+"contents": "<img src=\"https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/2-1.jpg\" alt=\"\" style=\"width:100%; \">",
+"lang" : "en"
+},
+{
 	"id" : 3622, 		
 	"type" : "Article", 		
 	"title" : "Meet Dinh Trieu Lam: A tech-lover, winner of Full-ride Scholarship and his dreams of building a smart city",		
