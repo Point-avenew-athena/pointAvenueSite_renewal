@@ -45,7 +45,6 @@ app.use('/admissions-consulting', admissionsConsulting);
 
 
 
-
 app.listen(PORT, () => {
   console.log(`Server is connected to ${PORT}`);
 })
