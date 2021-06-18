@@ -15,6 +15,16 @@ router.get('/summer-day-camp', function (req, res) {
   res.render('camp/summer-day-camp')
 })
 
+router.get('/online-summer-camp', function (req, res) {
+  // res.send('Camp > Online Summer Camp')
+  res.render('camp/online-summer-camp')
+})
+
+router.get('/online-summer-camp-vn', function (req, res) {
+  // res.send('Camp > Online Summer Camp')
+  res.render('camp/online-summer-camp-vn')
+})
+
 // router.get('/winter-boarding-camp', function (req, res) {
 //   res.send('Camp > Winter Boarding Camp')
 // })

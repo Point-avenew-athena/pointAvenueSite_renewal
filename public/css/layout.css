@@ -121,18 +121,18 @@
 
 /*========================ul_type========================*/
 .ul_type_01 {}
-.ul_type_01 li{font-size: 16px;}
-.ul_type_01 li:before{content:'-'; display: inline-block; font-size: 16px;margin-right: 5px;}
+.ul_type_01 > li{font-size: 16px;}
+.ul_type_01 > li:before{content:'-'; display: inline-block; font-size: 16px;margin-right: 5px;}
 
 
 .ul_type_02 {}
-.ul_type_02 li{font-size: 16px; position: relative; padding-left: 10px;}
-.ul_type_02 li:before{content:''; position: absolute; left:0; top:10px; display: inline-block;width:4px; height: 4px; border-radius: 2px; background: #000; vertical-align: middle; }
+.ul_type_02 > li{font-size: 16px; position: relative; padding-left: 10px;}
+.ul_type_02 > li:before{content:''; position: absolute; left:0; top:10px; display: inline-block;width:4px; height: 4px; border-radius: 2px; background: #000; vertical-align: middle; }
 
 .ul_type_03 {}
-.ul_type_03 li{font-size: 16px; position: relative; padding-left: 40px; margin-bottom: 10px;}
-.ul_type_03 li:before{content:''; position: absolute; left:0; top:0px; display: inline-block;width:24px; height: 24px; border-radius: 12px; background-color: #F2B41B; background-image: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/checkbox.png'); background-repeat: no-repeat; background-position: center; vertical-align: middle; }
-.ul_type_03.blue li:before{background-color: #1960A1; }
+.ul_type_03 > li{font-size: 16px; position: relative; padding-left: 40px; margin-bottom: 10px;}
+.ul_type_03 > li:before{content:''; position: absolute; left:0; top:0px; display: inline-block;width:24px; height: 24px; border-radius: 12px; background-color: #F2B41B; background-image: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/checkbox.png'); background-repeat: no-repeat; background-position: center; vertical-align: middle; }
+.ul_type_03.blue > li:before{background-color: #1960A1; }
 
 /*========================box_type=========================*/
 /*box_type_01*/
@@ -563,7 +563,7 @@
 	
 	.box_type_02_wrap .box_type_02 .box_type_02--item {width:100%; margin-right: 0;}
 	
-	.ul_type_01 li {margin-bottom: 10px;}
+	.ul_type_01 > li {margin-bottom: 10px;}
 	
 	/*mentor_popup*/
 	.mentor_popup .mentor_img_box{float: none; width:100%;text-align: center;}
