@@ -26,6 +26,15 @@ $(function(){
 		}
     });
 	
+	var future_wrap = new Swiper('.future_wrap .swiper-container', {
+		slidesPerView: 1, 
+		effect:'fade',
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		}
+    });
+	
 	/*=================== case_studies_swiper ==============*/
 	var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 		slidesPerView: 4,
@@ -54,7 +63,10 @@ $(function(){
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
 		const img = $(this).find('img').attr('src');
 		$('.testimonials_popup .img_box img').attr('src', img);
+		$('.testimonials_popup').css("position","absolute");
+		$('.testimonials_popup').css("top", ( $(window).height() - $(this).outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
 		$('.testimonials_popup').show();
 		$('.dim').show();
+		return this;
 	});
 });
