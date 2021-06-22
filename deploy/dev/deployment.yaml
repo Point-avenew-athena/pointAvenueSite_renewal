@@ -24,7 +24,7 @@ spec:
         eks.amazonaws.com/nodegroup: dev
       containers:
         - name: pasite
-          image: 367893350766.dkr.ecr.ap-northeast-2.amazonaws.com/pasite:0.0.38
+          image: 367893350766.dkr.ecr.ap-northeast-2.amazonaws.com/pasite:0.0.39
           ports:
             - name: http
               containerPort: 7070
