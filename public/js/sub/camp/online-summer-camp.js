@@ -26,7 +26,7 @@ $(function(){
 		}
     });
 	
-	var future_wrap = new Swiper('.future_wrap .swiper-container', {
+	var future_swiper = new Swiper('.future_wrap .swiper-container', {
 		slidesPerView: 1, 
 		effect:'fade',
 		pagination: {
