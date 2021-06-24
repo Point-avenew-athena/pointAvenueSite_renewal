@@ -1023,9 +1023,9 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
         "strings" : [
-         "TOEFL 101 (Beginner) is a foundational course for students who score between 60-80 on the diagnostic test.<br/>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.<br/>Each section of the class is taught using an integrated approach to reflect the official test format.<br/>Upon completion, students will be able to:<br/>Effectively outline and map reading passages.<br/><br/>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.",
-         "TOEFL 201 (Intermediate) is designed for students who score between 80 to 105 on the diagnostic or official test.<br/>201 Level courses move faster.<br/>Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/><br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section. <br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
-         "TOEFL 301 (Advanced) is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery. "
+         "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test.<br/>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.<br/>Each section of the class is taught using an integrated approach to reflect the official test format.<br/>Upon completion, students will be able to:<br/>Effectively outline and map reading passages.<br/><br/>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.",
+         "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test.<br/>201 Level courses move faster.<br/>Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/><br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section. <br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
+         "<b>TOEFL 301 (Advanced)</b> is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery. "
         ]
       },
       "books" : {
@@ -1183,7 +1183,7 @@
     "program" : "Test Preparation",
     "age" : "14-18",
     "grade" : "9th - 12th grade",
-    "weeks" : "24 weeks",
+    "weeks" : "17 weeks",
     "duration" : "3 hours / week",
     "hour" : "72 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_1.jpg",
@@ -1242,7 +1242,7 @@
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IB_1.jpg",
     "desc": [
-      "The International Baccalaureate Diploema Program offers challenging one-year and two-year pre-university courses for students in the 11th and 12th grades. Courses require a student’s total commitment to completing all assessment components and examinations. Both Standard Level (SL) and Higher Level (HL) courses receive advanced-level credit (7 point grade scale). ",
+      "The International Baccalaureate Diploma Program offers challenging one-year and two-year pre-university courses for students in the 11th and 12th grades. Courses require a student’s total commitment to completing all assessment components and examinations. Both Standard Level (SL) and Higher Level (HL) courses receive advanced-level credit (7 point grade scale). ",
       "",
       "<strong>Enrollment Requirements:</strong>",
       "Students must have completed the appropriate pre-requisite or be enrolled in the interested IB course at their primary educational institution.",
@@ -1265,8 +1265,8 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IB_2.jpg",
         "strings" : [
-          "IB assessment procedures measure the extent to which students have mastered advanced academic skills in fulfilling these goals, for example:<br/>Analysing and presenting information<br/>Evaluating and constructing arguments<br/>Solving problems creatively",
-          "Basic skills are also assessed, including:<br/>Retaining knowledge<br/>Understanding key concepts<br/>Applying standard methods<br/>In addition to academic skills, DP assessment encourages an international outlook and intercultural skills, wherever appropriate<br/>Student results are determined by performance against set standards, not by each student's position in the overall rank order"
+          "<b>IB assessment procedures measure the extent to which students have mastered advanced academic skills in fulfilling these goals, for example:</b><br/>Analysing and presenting information<br/>Evaluating and constructing arguments<br/>Solving problems creatively",
+          "<b>Basic skills are also assessed, including:</b><br/>Retaining knowledge<br/>Understanding key concepts<br/>Applying standard methods<br/>In addition to academic skills, DP assessment encourages an international outlook and intercultural skills, wherever appropriate<br/>Student results are determined by performance against set standards, not by each student's position in the overall rank order"
         ]
       },
       "books" : {
