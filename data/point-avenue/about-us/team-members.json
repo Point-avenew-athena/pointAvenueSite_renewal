@@ -134,6 +134,19 @@
   },
   {
     "id": 11,
+    "name": "Honda",
+    "position": "Strategic Advisor",
+    "exp": [
+      "10 years of experience in Education",
+      "Co-Founder & Strategic Advisor, Point Avenue",
+      "Graduate of Thammasat University, University of Nottingham, and University of Cambridge",
+      "Completing Masters of Science Education, Johns Hopkins University",
+      "Completing Certificate of Early Childhood Leadership, Harvard Graduate School of Education"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
+  },
+  {
+    "id": 12,
     "name": "Myles",
     "position": "Head of Research & Development",
     "exp": [
@@ -146,7 +159,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Edward",
     "position": "Head of Training",
     "exp": [
@@ -160,7 +173,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Charles",
     "position": "Head of Test Preparation",
     "exp": [
@@ -174,7 +187,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Hyewon",
     "position": "Head of Debate",
     "exp": [
@@ -188,7 +201,7 @@
   },
   
   {
-    "id": 15,
+    "id": 16,
     "name": "Diep",
     "position": "Head of Marketing",
     "exp": [
@@ -201,7 +214,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Diep.jpg"
   },
   {
-    "id": 16,
+    "id": 17,
     "name": "Phuong",
     "position": "Head of Human Resources",
     "exp": [
@@ -214,7 +227,7 @@
   },
   
   {
-    "id": 17,
+    "id": 18,
     "name": "John",
     "position": "Deputy Director, Admissions Consulting",
     "exp": [
@@ -228,7 +241,7 @@
   },
   
   {
-    "id": 18,
+    "id": 19,
     "name": "Fay",
     "position": "Senior Academic Advisor",
     "exp": [
@@ -237,14 +250,13 @@
       "English Teacher, VUS",
       "Curriculum Developer & Project Leader, Point Avenue",
       "B.A., Stellenbosch University",
-      "Master’s TEFL Certification"
-      
+      "Master’s TEFL Certification"      
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Fay.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Fay.jpeg"
   },
   
   {
-    "id": 19,
+    "id": 20,
     "name": "Tom",
     "position": "Faculty Head",
     "exp": [
@@ -257,7 +269,7 @@
   },
   
   {
-    "id": 20,
+    "id": 21,
     "name": "Sanghyun",
     "position": "CEO, Athena",
     "exp": [
@@ -271,7 +283,7 @@
   },
   
   {
-    "id": 21,
+    "id": 22,
     "name": "Nick",
     "position": "Product Manager",
     "exp": [
@@ -284,7 +296,7 @@
   },
   
   {
-    "id": 22,
+    "id": 23,
     "name": "Trent",
     "position": "Software Architect",
     "exp": [
