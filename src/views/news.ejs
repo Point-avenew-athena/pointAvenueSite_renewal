@@ -4,15 +4,8 @@
 <meta name="title" content="News - Point Avenue">
 <meta property="og:title" content="Point Avenue">
 
-<link rel="stylesheet" type="text/css" href="/css/reset.css">
-<link rel="stylesheet" type="text/css" href="/css/swiper.min.css">
-<link rel="stylesheet" type="text/css" href="/css/common.css">
-<link rel="stylesheet" type="text/css" href="/css/layout.css">
-<link rel="stylesheet" type="text/css" href="/css/sub.css">
-
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
-<script language="JavaScript" type="text/javascript" src="/js/common.js?v=20210604a"></script>
+<%- include("partials/common_styles") %>
+<%- include("partials/common_scripts") %>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
 <%- include("partials/head_end") %>
@@ -35,18 +28,18 @@
 						<div class="main_article">
 							<div class="article_box">
 								<div class="img_box">
-									<a href="/news/<%= news[0].id %>">
-										<img src="<%= news[0].thumbnail.imageUrl %>" alt="<%= news[0].title %>">
+									<a href="/news/<%= news[1].id %>">
+										<img src="<%= news[1].thumbnail.imageUrl %>" alt="<%= news[1].title %>">
 									</a>
 								</div>
 								<h3 class="title_r_02 section_title_02">
-									<a href="/news/<%= news[0].id %>">
-										<%- news[0].title %>
+									<a href="/news/<%= news[1].id %>">
+										<%- news[1].title %>
 									</a>
 								</h3>
 								<p class="text--gray">
-									<a href="/news/<%= news[0].id %>">
-										<%- news[0].thumbnail.excerpt %>
+									<a href="/news/<%= news[1].id %>">
+										<%- news[1].thumbnail.excerpt %>
 									</a>
 								</p>
 							</div>

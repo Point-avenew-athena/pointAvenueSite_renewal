@@ -35,7 +35,10 @@ $(function(){
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
 		const img = $(this).find('img').attr('src');
 		$('.testimonials_popup .img_box img').attr('src', img);
+		$('.testimonials_popup').css("position","absolute");
+		$('.testimonials_popup').css("top", ( $(window).height() - $(this).outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
 		$('.testimonials_popup').show();
 		$('.dim').show();
+		return this;
 	});
 });
