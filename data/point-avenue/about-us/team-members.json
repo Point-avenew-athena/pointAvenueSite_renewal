@@ -228,6 +228,19 @@
   
   {
     "id": 18,
+    "name": "Ngan",
+    "position": "Head of Production",
+    "exp": [
+      "8 years of experience in Video Production",
+      "Reporter, Editor and MC, Vietnam Television",
+      "Head of PR and Communications, Mediplus JSC.",
+      "B.A., and M.A., Academy of Journalism and Communication "
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
+  },
+  
+  {
+    "id": 19,
     "name": "John",
     "position": "Deputy Director, Admissions Consulting",
     "exp": [
@@ -241,22 +254,35 @@
   },
   
   {
-    "id": 19,
-    "name": "Fay",
-    "position": "Senior Academic Advisor",
+    "id": 20,
+    "name": "Anh-Thu",
+    "position": "Deputy Head, Admissions Consulting, PAV",
     "exp": [
-      "9 years of experience in Education",
-      "Lead Teacher, FOSCO International School",
-      "English Teacher, VUS",
-      "Curriculum Developer & Project Leader, Point Avenue",
-      "B.A., Stellenbosch University",
-      "Master’s TEFL Certification"      
+      "6 years of experience in Education",
+      "Sales & Marketing Associate, UGA Athletics Association",
+      "Digital Marketing Associate, Giftfluence",
+      "B.B.A., University of Georgia",
+      "B.A., Stellenbosch UniversityPeer-to-Peer College Mentor "
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Fay.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Anh-Thu.JPG"
   },
   
   {
-    "id": 20,
+    "id": 21,
+    "name": "Justin",
+    "position": "Deputy Head, Admissions Consulting, PAT",
+    "exp": [
+      "8 years of experience in Education",
+      "Managing Director and Head of University Admissions, CIALFO Consulting",
+      "President, VR/AR Association ",
+      "Co-founder, Creative XR Labs",
+      "B.S., Northwestern University"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Justin.JPG"
+  },
+  
+  {
+    "id": 22,
     "name": "Tom",
     "position": "Faculty Head",
     "exp": [
@@ -269,7 +295,7 @@
   },
   
   {
-    "id": 21,
+    "id": 23,
     "name": "Sanghyun",
     "position": "CEO, Athena",
     "exp": [
@@ -283,7 +309,7 @@
   },
   
   {
-    "id": 22,
+    "id": 24,
     "name": "Nick",
     "position": "Product Manager",
     "exp": [
@@ -296,7 +322,7 @@
   },
   
   {
-    "id": 23,
+    "id": 25,
     "name": "Trent",
     "position": "Software Architect",
     "exp": [
