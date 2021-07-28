@@ -23,7 +23,7 @@
     top: 30%;
 }
 .main_visual_wrap .swiper-slide-active .main_read_more_btn {opacity: 1; }
-.main_visual_wrap .main_read_more_btn:hover {background: #fff; color:#278c2a; border: 1px solid #278c2a;}
+.main_visual_wrap .main_read_more_btn:hover {background: #fff; color:#1d2094; border: 1px solid #1d2094;}
 .main_visual_wrap .swiper-pagination-bullet {background: #8c8c8c; opacity: 1;}
 .main_visual_wrap .swiper-pagination-bullet-active {width:100px; border-radius: 10px;}
 .main .btn_box--right {margin-right: 20px;}
