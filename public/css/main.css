@@ -2,6 +2,7 @@
 .container .main_visual_wrap {margin-top: 0;}
 .main_visual_wrap .bg_img_box {position: relative; width:100%; padding-top: 40%;}
 .main_visual_wrap .bg_img_box img { position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);opacity: 0; transition:opacity 3s;}
+.main_visual_wrap li:nth-child(2) .bg_img_box img {top:0; transform: translateY(0);}
 .main_visual_wrap .swiper-slide {position: relative; width:100%;}
 .main_visual_wrap .swiper-slide-active img{opacity: 1;}
 .main_visual_wrap .text_box {position: absolute; left:50%; top:55%; transform:translateY(-50%); width:100%; margin-left: -580px;}
@@ -16,7 +17,11 @@
 .main_visual_wrap .swiper-slide-active .main_visu_more_btn {opacity: 1; }
 .main_visual_wrap .swiper-slide:nth-child(2) .text_box_inner {display: none;}
 .main_visual_wrap .swiper-slide_02 .text_box {opacity: 0;}
-.main_visual_wrap .main_read_more_btn { position: absolute; left: 50%;  bottom: 6%;  z-index: 100; width: 15%;  background: #278c2a;  opacity: 1;  margin-left: -7%;display: block;height: 50px; padding: 14px 0; text-align: center; color: #fff; font-size: 16px;  line-height: 1.2; border-radius: 30px; box-sizing: border-box; opacity: 0; transition:opacity 1s 1s;-webkit-transition: -webkit-transform opacity 1s 1s;-moz-transition: -moz-transform opacity 1s 1s;-ms-transition: -ms-transform opacity 1s 1s;-o-transition: -o-transform opacity 1s 1s;}
+.main_visual_wrap .main_read_more_btn { position: absolute; left: 50%;  bottom: 6%;  z-index: 100; width: 15%;  background: #1d2094;  opacity: 1;  margin-left: -7%;display: block;height: 50px; padding: 14px 0; text-align: center; color: #fff; font-size: 16px;  line-height: 1.2; border-radius: 30px; box-sizing: border-box; opacity: 0; transition:opacity 1s 1s;-webkit-transition: -webkit-transform opacity 1s 1s;-moz-transition: -moz-transform opacity 1s 1s;-ms-transition: -ms-transform opacity 1s 1s;-o-transition: -o-transform opacity 1s 1s;left: 50%;
+    
+    bottom: auto;
+    top: 30%;
+}
 .main_visual_wrap .swiper-slide-active .main_read_more_btn {opacity: 1; }
 .main_visual_wrap .main_read_more_btn:hover {background: #fff; color:#278c2a; border: 1px solid #278c2a;}
 .main_visual_wrap .swiper-pagination-bullet {background: #8c8c8c; opacity: 1;}
