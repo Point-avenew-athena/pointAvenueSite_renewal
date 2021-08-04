@@ -22,24 +22,23 @@
     "name" : "Bangkok Campus",
     "address" : "982/22, Unit No. 3121A, 3rd Floor, Gateway Ekkamai Shopping Mall, Sukhumvit Road, Prakanong Sub-district, Klongtoey District, Bangkok",
     "tel" : [
-      "024 3201 1841",
-      "024 3381 2288"
+      "+66 2 105 3380"
     ]
   },
   {
     "id" : 4,
     "name" : "CSI - District 2",
-    "address" : "135 No.5 Street, An Phu Ward, District 02, Ho Chi Minh, Vietnam, 700000",
+    "address" : "135 Number 5 Street, An Khanh, An Phu, District 2, Ho Chi Minh",
     "tel" : [
-      ""
+      "028 5412 3031"
     ]
   },
   {
     "id" : 5,
     "name" : "CSI - District 7",
-    "address" : "426 Pham Thai Buong, Phu My Hung, District 7, Ho Chi Minh, Vietnam, 700000",
+    "address" : "426 Pham Thai Buong, Phu My Hung, District 7, Ho Chi Minh",
     "tel" : [
-      ""
+      "028 6269 1000"
     ]
   }   
     
