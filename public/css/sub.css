@@ -252,12 +252,15 @@
 .news .event_wrap .box_type_01 .location {position: relative; padding-left: 30px; margin: 10px 0;}
 .news .event_wrap .box_type_01 .location:before {content:''; position: absolute; left:0; top:0; display: inline-block; width:20px; height: 20px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/location_s_icon.png') no-repeat;}
 .news .box_type_01 .box_type_01--item {margin-bottom: 20px;}
+.news .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
 
 
 /*=============point_avenue_tv ========*/
 .point_avenue_tv .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/news/tv_visual.jpg') top right no-repeat; background-size: cover;}
 .point_avenue_tv .youtube_wrap {background: #fff; text-align: center; padding:40px 0;}
 .point_avenue_tv .youtube_wrap .btn_type_01--sec{margin: 30px auto 0;}
+.point_avenue_tv .spotlight_wrap .section_title_02 {font-family: 'Oswald', sans-serif;}
+.point_avenue_tv .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
 
 /*=============scholarhip ========*/
 .scholarhip .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/scholarship/visual.png') right no-repeat; background-size: cover;}
