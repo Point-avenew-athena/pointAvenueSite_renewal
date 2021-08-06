@@ -329,7 +329,7 @@
   {
     "courseId" : 9,
     "type" : "Offline",
-    "name" : "English Language Arts Foundations",
+    "name" : "ELA Foundations",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-12",
@@ -382,7 +382,7 @@
   {
     "courseId" : 10,
     "type" : "Offline",
-    "name" : "English Language Arts Beginner",
+    "name" : "ELA Beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-13",
@@ -435,7 +435,7 @@
   {
     "courseId" : 11,
     "type" : "Offline",
-    "name" : "English Language Arts Intermediate",
+    "name" : "ELA Intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle & High School",
     "age" : "11-14",
