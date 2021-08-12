@@ -17,6 +17,7 @@
 .sub .course_objective_wrap .section_inner {overflow: hidden;}
 .sub .course_objective_wrap .objective_list {float: left; width:60%; margin-top: 30px; padding-left:100px; padding-right:30px;}
 .sub .course_objective_wrap .objective_list li {margin-bottom: 30px;}
+.sub .course_objective_wrap .objective_list li li {margin-bottom: 5px;}
 .sub .course_objective_wrap .objective_list li strong {font-weight: 700; font-size: 16px;}
 .sub .course_objective_wrap .img_box{float: right; width:40%;}
 .sub .course_books_wrap .section_inner {overflow: hidden;}
@@ -47,7 +48,9 @@
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
 .sub .spotlight_wrap .sub_article .text_box .date {margin-bottom:5px;}
 .sub .spotlight_wrap .sub_article .text_box .flag_type_02 {margin-bottom:5px;}
+.sub .container > .model_wrap {margin-top: 0px;}
 .mentors_wrap.noPop a { cursor:default; }
+.mentors_wrap .swipe_type_01 .swipe_type_01--desc {margin-top: 0;}
 
 /*============== aboutus ==============*/
 .about_us .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/about-us/visual.png') right no-repeat; background-size: cover;}
@@ -103,7 +106,7 @@
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(1) .swipe_type_01--img .img_box img {top:-8%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(2) .swipe_type_01--img .img_box img {top:-8%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(3) .swipe_type_01--img .img_box img {top:-8%}
-.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:0%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(6) .swipe_type_01--img .img_box img {top:-20%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(7) .swipe_type_01--img .img_box img {top:-20%}
 
