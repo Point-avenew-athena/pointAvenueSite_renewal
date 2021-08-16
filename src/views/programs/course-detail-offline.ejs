@@ -49,7 +49,11 @@
 						<ul>
 							<li>
 								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png" alt="">
-								<p class="title_r_03"><%-course.age-%> years old</p>
+								<% if(course.program=="Test Preparation") { %>
+									<p class="title_r_03"><%-course.grade-%></p>
+								  <% } else { %>
+									<p class="title_r_03"><%-course.age-%> years old</p>
+								  <% } %>
 							</li>
 							<li>
 								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png" alt="">

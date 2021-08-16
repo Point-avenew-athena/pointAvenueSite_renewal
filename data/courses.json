@@ -42,7 +42,7 @@
       "location" : {
         "name" : "",
         "address" : [
-          "", ""
+          "" , ""
         ]
       }
     }
@@ -912,8 +912,6 @@
       }
     }
   },
-
-  
   {
     "courseId" : 22,
     "type" : "Offline",
@@ -930,7 +928,7 @@
     "desc": [
       "The SSAT is an academic readiness test intended to measure a student’s critical reading, quantitative reasoning, and writing skills needed for academic success at the high school level.",
       "",
-      "<strong>Enrollment Prerequisites</strong>",
+      "<h3>Enrollment Prerequisites</h3>", 
       "IELTS band 6.5 / TOEFL score of 80",
       "SAT diagnostic result of 900",
       "",
@@ -1026,9 +1024,9 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
         "strings" : [
-         "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test.<br/>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.<br/>Each section of the class is taught using an integrated approach to reflect the official test format.<br/>Upon completion, students will be able to:<br/>Effectively outline and map reading passages.<br/><br/>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.",
-         "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test.<br/>201 Level courses move faster.<br/>Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/><br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section. <br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
-         "<b>TOEFL 301 (Advanced)</b> is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery. "
+         "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test.<ul class=\"ul_type_02\"><li>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.</li><li>Each section of the class is taught using an integrated approach to reflect the official test format.</li><li>Upon completion, students will be able to : Effectively outline and map reading passages.</li><li>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.</li></ul>",
+         "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test. 201Level courses move faster. Students will improve<ul class=\"ul_type_02\"><li>Their ability to grammatically dissect reading passages.</li><li>Increase their reading comprehension and speed</li><li>Comprehend and identify main ideas and details in the Listening section.</li><li> In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections.</li></ul>",
+         "<b>TOEFL 301 (Advanced)</b> is designed for students who score a 105+ on a diagnostic or official assessment.<ul class=\"ul_type_02\"><li>This course reviews all concepts, methods, and strategies for each section.</li><li>The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible.</li><li>The primary focus of this course targets speaking and writing mastery.</li></ul>"
         ]
       },
       "books" : {
@@ -1137,7 +1135,7 @@
     "desc": [
       "The SAT is a college readiness test created by ETS and owned by College Board. The SAT is typically taken by high school juniors and seniors. The SAT is intended to measure literacy, numeracy, and writing skills needed for academic success at the university level.",
       "",
-      "<strong>Enrollment Requirements:</strong>",
+      "<h3>Enrollment Requirements:</h3>",
       "IELTS band 6.5+ / TOEFL score of 80+",
       "Minimum diagnostic result of 900",
       "",
@@ -1196,7 +1194,7 @@
     "desc": [
       "Advanced Placement is administered by the College Board that enables high school seniors to experience introductory-level university courses and earn credits towards their diploma. ",
       "",
-      "<strong>Enrollment Requirements:</strong> Students must have completed the appropriate prerequisite or be enrolled in the interested AP course at their primary educational institution ",
+      "<h3>Enrollment Requirements:</h3> Students must have completed the appropriate prerequisite or be enrolled in the interested AP course at their primary educational institution ",
       "",
       "<strong>AP Courses & Exams</strong>",
       "World & European History",
@@ -1251,7 +1249,7 @@
     "desc": [
       "The International Baccalaureate Diploma Program offers challenging one-year and two-year pre-university courses for students in the 11th and 12th grades. Courses require a student’s total commitment to completing all assessment components and examinations. Both Standard Level (SL) and Higher Level (HL) courses receive advanced-level credit (7 point grade scale). ",
       "",
-      "<strong>Enrollment Requirements:</strong>",
+      "<h3>Enrollment Requirements:</h3>",
       "Students must have completed the appropriate pre-requisite or be enrolled in the interested IB course at their primary educational institution.",
       "",
       "<strong>IB Courses & Exams</strong>",
@@ -1313,7 +1311,7 @@
       "Chemistry",
       "Biology",
       "",
-      "<strong>Enrollment Requirements</strong>",
+      "<h3>Enrollment Requirements</h3>",
       "Students must have completed the appropriate pre-requisite or be enrolled in the interested IGCSE course at their primary educational institution."
     ],
     "keyword" : [],
@@ -1324,7 +1322,7 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IGCSE_2.jpg",
         "strings" : [
-          "<strong>Skills Acquired</strong><br/>Subject knowledge expansion<br/>Applying new knowledge and understanding to familiar and new situations <br/>Intellectual inquiry & exploration<br/>Flexibility and responsiveness to change <br/>Working and communicating in English <br/>Influencing outcomes <br/>Cultural awareness <br/>Chemistry  | English Literature | Biology | History | Mathematics",
+          "<strong>Skills Acquired</strong><ul class=\"ul_type_02\"><li>Subject knowledge expansion</li><li>Applying new knowledge and understanding to familiar and new situations</li><li>Intellectual inquiry & exploration</li><li>Flexibility and responsiveness to change</li><li>Working and communicating in English</li><li>Influencing outcomes </li><li>Cultural awareness </li><li>Cultural awareness</li></ul>",
           "<strong>Continuation Roadmap & Options</strong><br/>IELTS / TOEFL / SAT / AP / IB"
         ]
       },
