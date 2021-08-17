@@ -94,7 +94,7 @@ const options = (courses) => [
 
 router.get('/all-courses', function (req, res) {
   const elementaryCourses = courses.filter(course => course.program === 'Elementary').splice(0, 3);
-  const middleCourses = courses.filter(course => course.program === 'Middle & High School').splice(0, 3);
+  const middleCourses = courses.filter(course => course.program === 'Middle School').splice(0, 3);
   const debateCourses = courses.filter(course => course.program === 'Debate').splice(0, 3);
   const testCourses = courses.filter(course => course.program === 'Test Prep').splice(0, 3);
   res.render('programs/programs', { options: options(courses), courses, elementaryCourses, middleCourses, testCourses, debateCourses });
@@ -102,25 +102,25 @@ router.get('/all-courses', function (req, res) {
 
 router.get('/elementary-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Elementary');
-  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementary Teacher')).map(teacher => { teacher.position = 'Elementary Teacher'; return teacher; });
+  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementary Teacher')).map(teacher => { teacher.position= teacher.job; return teacher; });
   res.render('programs/elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
 });
 
-router.get('/middle-high-school-courses', function (req, res) {
-  const filterCourse = courses.filter(course => course.program === 'Middle & High School');
-  const middleHighTeachersData = teachers.filter(teacher => teacher.positions.includes('Middle & High School Teacher')).map(teacher => { teacher.position = 'Middle & High School Teacher'; return teacher; });
-  res.render('programs/middle-high-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
+router.get('/middle-school-courses', function (req, res) {
+  const filterCourse = courses.filter(course => course.program === 'Middle School');
+  const middleHighTeachersData = teachers.filter(teacher => teacher.positions.includes('Middle School Teacher')).map(teacher => { teacher.position = teacher.job; return teacher; });
+  res.render('programs/middle-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
 });
 
 router.get('/debate-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Debate');
-  const debateTeachersData = teachers.filter(teacher => teacher.positions.includes('Debate Teacher')).map(teacher => { teacher.position = 'Debate Teacher'; return teacher; });
+  const debateTeachersData = teachers.filter(teacher => teacher.positions.includes('Debate Teacher')).map(teacher => {teacher.position = teacher.job;  return teacher; });
   res.render('programs/debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
 });
 
 router.get('/test-preparation-courses', function (req, res) {
   const filterCourse = courses.filter(course => course.program === 'Test Preparation');
-  const testPrepTeachersData = teachers.filter(teacher => teacher.positions.includes('Test Preparation Teacher')).map(teacher => { teacher.position = 'Test Preparation Teacher'; return teacher; });
+  const testPrepTeachersData = teachers.filter(teacher => teacher.positions.includes('Test Preparation Teacher')).map(teacher => { teacher.position =  teacher.job; return teacher; });
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
@@ -129,9 +129,9 @@ router.get('/test-preparation-courses', function (req, res) {
 //   res.render('admissions-consulting', { studies });
 // });
 
-router.get('/:courseId', function (req, res) {
-  const { courseId } = req.params;
-  const course = courses.filter(course => course.courseId == courseId)[0];
+router.get('/:urlName', function (req, res) {
+  const { urlName } = req.params;
+  const course = courses.filter(course => course.urlName == urlName)[0];
   const filteredLocations = locations.filter(location => [1,2,3].includes(location.id));
   let renderPath = 'programs/course-detail';
   if(course.type === 'Offline') {

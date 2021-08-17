@@ -17,7 +17,7 @@ const getCourses = (type, limit) => {
       typeCourses = typeCourses.filter(course => course.program === 'Elementary')
       break;
     case 'middlehigh':
-      typeCourses = typeCourses.filter(course => course.program === 'Middle & High School')
+      typeCourses = typeCourses.filter(course => course.program === 'Middle School')
       break;
     case 'debate':
       typeCourses = typeCourses.filter(course => course.program === 'Debate')
@@ -69,11 +69,11 @@ const bindCourse = (course) => {
   if(!cachedCourses[course.courseId]) {
     const template = $(courseTemplate);
     const agegrade = course.age ? `Ages ${course.age}` : course.grade;
-    template.find('.class_box_type_01--img a').attr('href', `/programs/${course.courseId}`);
+    template.find('.class_box_type_01--img a').attr('href', `/programs/${course.urlName}`);
     template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
     template.find('.age').html(agegrade);
     template.find('.times').html(`${course.hour}`);
-    template.find('.title_r_03 a').html(course.name).attr('href', `/programs/${course.courseId}`);
+    template.find('.title_r_03 a').html(course.name).attr('href', `/programs/${course.urlName}`);
     template.find('.class_type').html(course.type);
     cachedCourses[course.courseId] = template;
   }

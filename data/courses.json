@@ -3,6 +3,7 @@
     "courseId" : 3,
     "type" : "Offline",
     "name" : "English Learning Fundamentals",
+    "urlName" : "Elementary-ELF",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "5-7",
@@ -41,7 +42,7 @@
       "location" : {
         "name" : "",
         "address" : [
-          "", ""
+          "" , ""
         ]
       }
     }
@@ -50,6 +51,7 @@
     "courseId" : 4,
     "type" : "Offline",
     "name" : "English Learning 1-4",
+    "urlName" : "Elementary-EL1-4",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "7-12",
@@ -58,11 +60,8 @@
     "hour" : "51 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_1-4_1.jpg",
     "desc": [
-      "Our EL 1 to 4 courses aim to develop the core language skills; Reading, Listening, Speaking, and Writing.",
-      "Each level has been aligned to the US Common Core State Standards to provide rigorous standards and support advance English learning.",
-      "Our experienced mentors deliver engaging lessons, as well as focus on student character building, in order to support holistic learning.",
-      "This focuses on the whole child as a young learner.",
-      "Students maintain vocabulary journals, learn various academic skills, practice and produce from lesson objectives, and collaborate on projects."
+      "Our EL 1 to 4 courses aim to develop the core language skills; Reading, Listening, Speaking, and Writing. Each level has been aligned to the US Common Core State Standards to provide rigorous standards and support advance English learning.",
+      "Our experienced mentors deliver engaging lessons, as well as focus on student character building, in order to support holistic learning. This focuses on the whole child as a young learner. Students maintain vocabulary journals, learn various academic skills, practice and produce from lesson objectives, and collaborate on projects."
     ],
     "keyword" : [
       "Phonics",
@@ -109,7 +108,8 @@
   {
     "courseId" : 5,
     "type" : "Offline",
-    "name" : "Life Coaching Intermediate",
+    "name" : "Life Coaching EL3",
+    "urlName" : "Elementary-Life-Coaching-Intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "9-10",
@@ -118,14 +118,8 @@
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_1.jpg",
     "desc": [
-      "The purpose of Life Coaching is to develop good habits in order to make personal growth intentional.",
-      "Good habits, such as goal setting, time management, and exercise are essential for long term health and social well-being of children and teens.",
-      "Our Life Coaching curriculum focuses on social, emotional, and physical well-being.",
-      "We integrate lessons associated with leadership and habit building to better prepare your child for the future.",
-      "In the EL3 Life Coaching course, mentors will work with your child to build self confidence, motivation, and empathy.",
-      "This course uses a mindfulness and experiential approach to learning.",
-      "Teachers use real world scenarios to nurture a positive mindset and begin to develop foundational skills for leadership such as critical thinking and creativity.",
-      "Ultimately, students will learn the building blocks to develop good habits and create long term goals for personal growth."
+      "The purpose of Life Coaching is to develop good habits in order to make personal growth intentional. Good habits, such as goal setting, time management, and exercise are essential for long term health and social well-being of children and teens. Our Life Coaching curriculum focuses on social, emotional, and physical well-being. We integrate lessons associated with leadership and habit building to better prepare your child for the future. ",
+      "In the EL3 Life Coaching course, mentors will work with your child to build self confidence, motivation, and empathy. This course uses a mindfulness and experiential approach to learning. Teachers use real world scenarios to nurture a positive mindset and begin to develop foundational skills for leadership such as critical thinking and creativity. Ultimately, students will learn the building blocks to develop good habits and create long term goals for personal growth. "
     ],
     "keyword" : [
       "Phonics",
@@ -146,9 +140,9 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_2.jpg",
         "strings" : [
-          "<strong>General Course Structure:</strong><br/>- 30% Exercise and wellness (exercise in the gym)<br/>- 30% Academically focused (reading, leadership speech, writing)<br/>- 40% Leadership focused (teambuilding, concepts, activities)",
-          "<strong>Course Outcomes:</strong><br/>- Leadership speeches<br/>- Exercise for 30 minutes each class <br/>- Focused leadership vocabulary per week <br/>- Focus on understanding self and good habit building<br/>- Daily journal completion",
-          "<strong>Physical Education:</strong><br/>- Initial, Mid-Term, and Final Fitness Test<br/>- 30 minutes of exercise each week (sit ups, squats, running, etc.)<br/>- Rowing challenges<br/>- Mindfulness Concepts: Meditation, Yoga, and Nutrition"
+          "<strong>General Course Structure:</strong><ul class=\"ul_type_02\"><li>30% Exercise and wellness (exercise in the gym)</li><li>30% Academically focused (reading, leadership speech, writing)</li><li>40% Leadership focused (teambuilding, concepts, activities)</li></ul>",
+          "<strong>Course Outcomes:</strong><ul class=\"ul_type_02\"><li>Leadership speeches</li><li>Exercise for 30 minutes each class </li><li>Focused leadership vocabulary per week </li><li>Focus on understanding self and good habit building</li><li>Daily journal completion</li></ul>",
+          "<strong>Physical Education:</strong><ul class=\"ul_type_02\"><li>Initial, Mid-Term, and Final Fitness Test</li><li>30 minutes of exercise each week (sit ups, squats, running, etc.)</li><li>Rowing challenges</li><li>Mindfulness Concepts: Meditation, Yoga, and Nutrition</li></ul>"
         ]
       },
       "books" : {
@@ -170,6 +164,7 @@
     "courseId" : 6,
     "type" : "Offline",
     "name" : "Engineering",
+    "urlName":"Elementary-Engineering",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "6-10",
@@ -178,11 +173,8 @@
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Engineering_1.jpg",
     "desc": [
-      "Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations.",
-      "At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems.",
-      "These activities will allow students to understand the connections between related areas in math and science.",
-      "Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.",
-      "Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."
+      "Engineering is an interdisciplinary branch which requires a practical approach in applying learned knowledge to real life situations. At Point Avenue, our Engineering program incorporates activities that are based on existing technologies and problems. These activities will allow students to understand the connections between related areas in math and science. ",
+      "Our program will introduce concepts from multiple fields of Engineering: Aerospace, Biomedical, Civil, Environmental, Chemical, Mechanical, Electrical, and Agricultural Engineering.  Students will be given the opportunity to learn and explore these fields with hands-on activities, games, and projects."
     ],
     "keyword" : [
       "Phonics",
@@ -220,6 +212,7 @@
     "courseId" : 8,
     "type" : "Offline",
     "name" : "Coding",
+    "urlName":"Elementary-Coding",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "8-12",
@@ -229,8 +222,7 @@
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Coding1.jpg",
     "desc": [
       "Computer science skills are becoming more relevant in all aspects of society, and students with these skills, such as coding and basic robotics, are learning them at earlier ages.",
-      "At Point Avenue, we’ve curated coding and robotics lessons for students ages 8-12, with EL3-4 level English proficiency, that are able to bring their own laptops or tablets to class.",
-      "This course is great for the beginner to intermediate level coder."
+      "At Point Avenue, we’ve curated coding and robotics lessons for students ages 8-12, with EL3-4 level English proficiency, that are able to bring their own laptops or tablets to class. This course is great for the beginner to intermediate level coder."
     ],
     "keyword" : [
       "Phonics",
@@ -270,7 +262,8 @@
   {
     "courseId" : 29,
     "type" : "Offline",
-    "name" : "Life Coaching Advanced",
+    "name" : "Life Coaching EL4",
+    "urlName":"Elementary-Life-Coaching-Advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
     "age" : "10-12",
@@ -279,13 +272,8 @@
     "hour" : "25.5 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_1.jpg",
     "desc": [
-      "The purpose of Life Coaching is to develop good habits in order to make personal growth intentional.",
-      "Good habits, such as goal setting, time management, and exercise are essential for long term health and social well-being of children and teens.",
-      "Our Life Coaching curriculum focuses on social, emotional, and physical well-being.",
-      "We integrate lessons associated with leadership and habit building to better prepare your child for the future.",
-      "This course is focused on more advanced self-development techniques including: emotional and physical health, social responsibility, and understanding psychology.",
-      "Mentors guide students to develop strong core values that will help them navigate social situations.",
-      "Basic life-skills, such as effective study strategies, career development, money management and community outreach are discussed."
+      "The purpose of Life Coaching is to develop good habits in order to make personal growth intentional. Good habits, such as goal setting, time management, and exercise are essential for long term health and social well-being of children and teens.Our Life Coaching curriculum focuses on social, emotional, and physical well-being. We integrate lessons associated with leadership and habit building to better prepare your child for the future. ",
+      "This course is focused on more advanced self-development techniques including: emotional and physical health, social responsibility, and understanding psychology. Mentors guide students to develop strong core values that will help them navigate social situations. Basic life-skills, such as effective study strategies, career development, money management and community outreach are discussed. "
     ],
     "keyword" : [
       "Phonics",
@@ -301,14 +289,14 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Diagnostic test registration ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_2.jpg",
         "strings" : [
-          "<strong>General Course Structure:</strong><br/>- 30% Exercise and wellness (exercise in the gym)<br/>- 30% Academically focused (reading, leadership speech, writing)<br/>- 40% Leadership focused (teambuilding, concepts, activities)",
-          "<strong>Course Outcomes:</strong><br/>- Leadership speeches and soft skill development<br/>- 7-8 focused leadership vocabulary per week<br/>- 5 leadership challenge completions<br/>- Foundational components of brain function<br/>- Focus on understanding self and the senses (sight, sound, smell, taste, touch)",
-          "<strong>Physical Education:</strong><br/>- Initial, Mid-Term, and Final Fitness Test<br/>- 30 minutes of exercise each week (sit ups, squats, running, etc.)<br/>- Rowing challenges<br/>- Mindfulness Concepts: Meditation, Yoga, and Nutrition"
+          "<strong>General Course Structure:</strong><ul class=\"ul_type_02\"><li>30% Exercise and wellness (exercise in the gym)</li><li>30% Academically focused (reading, leadership speech, writing)</li><li>40% Leadership focused (teambuilding, concepts, activities)</li></ul>",
+          "<strong>Course Outcomes:</strong><ul class=\"ul_type_02\"><li>3Leadership speeches and soft skill development</li><li>7-8 focused leadership vocabulary per week</li><li>5 leadership challenge completions</li><li>Foundational components of brain function</li><li>Focus on understanding self and the senses (sight, sound, smell, taste, touch)</li></ul>",
+          "<strong>Physical Education:</strong><ul class=\"ul_type_02\"><li>Initial, Mid-Term, and Final Fitness Test</li><li>30 minutes of exercise each week (sit ups, squats, running, etc.)</li><li>Rowing challenges</li><li>Mindfulness Concepts: Meditation, Yoga, and Nutrition</li></ul>"
         ]
       },
       "books" : {
@@ -329,9 +317,10 @@
   {
     "courseId" : 9,
     "type" : "Offline",
-    "name" : "ELA Foundations",
+    "name" : "English Language Arts Foundations",
+    "urlName" : "MS-ELA-Foundations",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-12",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -382,9 +371,10 @@
   {
     "courseId" : 10,
     "type" : "Offline",
-    "name" : "ELA Beginner",
+    "name" : "English Language Arts Beginner",
+    "urlName" : "MS-ELA-Beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -435,9 +425,10 @@
   {
     "courseId" : 11,
     "type" : "Offline",
-    "name" : "ELA Intermediate",
+    "name" : "English Language Arts Intermediate",
+    "urlName" : "MS-ELA-Intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-14",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -482,9 +473,10 @@
   {
     "courseId" : 12,
     "type" : "Offline",
-    "name" : "ELA Advanced",
+    "name" : "English Language Arts Advanced",
+    "urlName" : "MS-ELA-Advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-14",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -531,8 +523,9 @@
     "courseId" : 13,
     "type" : "Offline",
     "name" : "Pages (Reading Comprehension)",
+    "urlName" : "MS-Pages",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -554,9 +547,9 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Reading_Comprehension.jpg",
         "strings" : [
-          "<strong>1) To improve Lexile measures (reading proficiency scores) by helping students</strong><br/>- Identify the various elements of literature, including plot, theme, setting, mood, etc.<br/>- Distinguish between text types by understanding how word choice, structure, and tone may vary according to the purpose and genre of literature. <br/>- Develop critical and analytical thinking skills by deconstructing character development, cause-and-effect relationships, symbols, foreshadowing techniques, and author’s bias or perspective. ",
-          "<strong>2) To increase reading speed by helping students</strong><br/>- Improve reading speed by learning skimming and scanning techniques, and how to read with purpose.<br/>- Improve reading comprehension by discovering specialized reading strategies to understand texts better, which will ultimately lead to increased reading speed. ",
-          "<strong>3) To get students to read a minimum of 2 books in 12 weeks, along with helping them develop an interest in reading by</strong><br/>- Practicing sustained silent reading, reading as a class, and facilitating discussions on what is read. "
+          "<strong>1) To improve Lexile measures (reading proficiency scores) by helping students</strong><ul class=\"ul_type_02\"><li> Identify the various elements of literature, including plot, theme, setting, mood, etc.</li><li> Distinguish between text types by understanding how word choice, structure, and tone may vary according to the purpose and genre of literature. </li><li> Develop critical and analytical thinking skills by deconstructing character development, cause-and-effect relationships, symbols, foreshadowing techniques, and author’s bias or perspective.</li></ul> ",
+          "<strong>2) To increase reading speed by helping students</strong><ul class=\"ul_type_02\"><li>Improve reading speed by learning skimming and scanning techniques, and how to read with purpose.</li><li> Improve reading comprehension by discovering specialized reading strategies to understand texts better, which will ultimately lead to increased reading speed. </li></ul>",
+          "<strong>3) To get students to read a minimum of 2 books in 12 weeks, along with helping them develop an interest in reading by</strong><ul class=\"ul_type_02\"><li>Practicing sustained silent reading, reading as a class, and facilitating discussions on what is read.</li></ul> "
         ]
       },
       "books" : {
@@ -574,9 +567,10 @@
   {
     "courseId" : 14,
     "type" : "Offline",
-    "name" : "Ink (Academic and Creative Writing)",
+    "name" : "Writing Coach",
+    "urlName" : "MS-Ink",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -598,10 +592,10 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Academic_and_Creative_Writing.jpg",
         "strings" : [
-          "<strong>1) Develop the ability to write different paragraph forms</strong><br/>- Understand opinion writting, sequence writing, topic sentences, conclusing sentences<br/>- Leardn how to write process, narrative, descriptive, and opinion papers",
-          "<strong>2) Improve grammar and overall sentence structure</strong><br/>- Students will use the software platform Quill to practice grammar and track their progress throughout the term.<br/>- Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing",
-          "<strong>3) Increase vocabulary and comprehension</strong><br/>- Understand and use appropriate prefixes, suffixes using the Word Roots curriculum<br/>-Learn new words each week to incorporate in their writing",
-          "<strong>4) Develop a genuine interest in writing</strong><br/>- We aim to create a student centric environment promoting writing topics related to student interests and passions"
+          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Leardn how to write process, narrative, descriptive, and opinion papers</li></ul>",
+          "<strong>2) Improve grammar and overall sentence structure</strong><ul class=\"ul_type_02\"><li> Students will use the software platform Quill to practice grammar and track their progress throughout the term.</li><li> Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing</li></ul>",
+          "<strong>3) Increase vocabulary and comprehension</strong><ul class=\"ul_type_02\"><li> Understand and use appropriate prefixes, suffixes using the Word Roots curriculum</li><li>Learn new words each week to incorporate in their writing</li></ul>",
+          "<strong>4) Develop a genuine interest in writing</strong><ul class=\"ul_type_02\"><li> We aim to create a student centric environment promoting writing topics related to student interests and passions</li></ul>"
         ]
       },
       "books" : {
@@ -623,8 +617,9 @@
     "courseId" : 15,
     "type" : "Offline",
     "name" : "Life Coaching Beginner/Intermediate",
+    "urlName":"MS-Life-Coaching-Beginner-Intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -668,8 +663,9 @@
     "courseId" : 16,
     "type" : "Offline",
     "name" : "Life Coaching Advanced",
+    "urlName":"MS-Life-Coaching-Advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
-    "program" : "Middle & High School",
+    "program" : "Middle School",
     "age" : "12-14",
     "weeks" : "17 weeks",
     "duration" : "3 hours / week",
@@ -709,8 +705,9 @@
   },
   {
     "courseId" : 17,
-    "type" : "Offline",
+    "type" : "Offline", 
     "name" : "Elementary Debate (Beginner)",
+    "urlName": "debate-elem-beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
@@ -736,8 +733,8 @@
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_debate_book_Elementary_Debate_Beginner.jpg",
         "strings" : [
-          "1. Speakers’ Club: Public Speaking for Young People: includes practical ideas and fun activities, introduces valuable skills and reinforces the need for preparation and attention to detail to deliver a successful speech.",
-          "2. Debate Pro Junior: Book 1: designed to introduce students to a variety of topics and teach them how to present opinions about these topics."
+          "<strong>Speakers’ Club - Public Speaking for Young People:</strong> includes practical ideas and fun activities, introduces valuable public speaking skills, and reinforces the need for preparation and attention to detail to deliver a successful speech.",
+          "<strong>Debate Pro Junior - Book 1</strong>: designed to introduce students to a variety of topics and teach them how to present opinions about these topics"
         ]
       },
       "location" : {
@@ -752,6 +749,7 @@
     "courseId" : 18,
     "type" : "Offline",
     "name" : "Elementary Debate (Intermediate)",
+    "urlName": "debate-elem-intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "8-10",
@@ -777,7 +775,7 @@
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_debate_book_Elementary_Debate_Intermediate.jpg",
         "strings" : [
-          "1. Debate Pro Junior: Book 2: designed to introduce students to a variety of topics and teach them how to present opinions about these topics. Book 2 covers more advanced topics and vocabulary."
+          "<strong>Debate Pro Junior - Book 2</strong>: designed to introduce students to more advanced topics and vocabulary. Students will learn how to organize and present convincing arguments about these topics. "
         ]
       },
       "location" : {
@@ -792,6 +790,7 @@
     "courseId" : 19,
     "type" : "Offline",
     "name" : "Middle & High School Debate (Beginner)",
+    "urlName": "debate-mshs-beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
@@ -818,7 +817,7 @@
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_debate_book_Middle_High_School_Debate_Beginner.jpg",
         "strings" : [
-          "1. Debate For All: Introduction to Debate: explores the basics of the academic sport of debate to include 21st-Century Skills, parliamentary debate format, argumentation, refutation, speaker roles, and methods of brainstorming. "
+          "<strong>Debate For All - Introduction to Debate</strong>: explores the basics of the academic sport of debate to include 21st-Century Skills, parliamentary debate format, argumentation, refutation, speaker roles, and methods of brainstorming"
         ]
       },
       "location" : {
@@ -833,6 +832,7 @@
     "courseId" : 20,
     "type" : "Offline",
     "name" : "Middle & High School Debate (Intermediate)",
+    "urlName": "debate-mshs-intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "11-16",
@@ -860,7 +860,7 @@
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_debate_book_Middle_High_School_Debate_Intermediate.jpg",
         "strings" : [
-          "1. Point Avenue: Debate Topics: introduces students to various topics and presents multiple controversies around the subject. These packets aim to help students grow their general knowledge and identify the core clashes in a debate. Discussion questions ignite students' critical thinking and expand their vocabulary related to the topics."
+          "<strong>Point Avenue Debate Topics</strong>: introduces students to various topics and presents multiple controversies around the subject. These packets aim to help students grow their general knowledge and identify the core clashes in a debate. Discussion questions ignite students' critical thinking and expand their vocabulary related to the topics."
         ]
       },
       "location" : {
@@ -875,6 +875,7 @@
     "courseId" : 21,
     "type" : "Offline",
     "name" : "Debate All Stars",
+    "urlName": "debate-allstars",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
     "age" : "14-16",
@@ -911,12 +912,11 @@
       }
     }
   },
-
-  
   {
     "courseId" : 22,
     "type" : "Offline",
     "name" : "SSAT",
+    "urlName": "SSAT",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "13-15",
@@ -928,7 +928,7 @@
     "desc": [
       "The SSAT is an academic readiness test intended to measure a student’s critical reading, quantitative reasoning, and writing skills needed for academic success at the high school level.",
       "",
-      "<strong>Enrollment Prerequisites</strong>",
+      "<h3>Enrollment Prerequisites</h3>", 
       "IELTS band 6.5 / TOEFL score of 80",
       "SAT diagnostic result of 900",
       "",
@@ -976,6 +976,7 @@
     "courseId" : 23,
     "type" : "Offline",
     "name" : "TOEFL",
+    "urlName": "TOEFL",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "13-18",
@@ -1023,9 +1024,13 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
         "strings" : [
-         "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test.<br/>The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness.<br/>Each section of the class is taught using an integrated approach to reflect the official test format.<br/>Upon completion, students will be able to:<br/>Effectively outline and map reading passages.<br/><br/>Understand the structure and flow of academic conversations and lectures.<br/>Write basic academic paragraphs.",
-         "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test.<br/>201 Level courses move faster.<br/>Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/><br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section. <br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections. ",
-         "<b>TOEFL 301 (Advanced)</b> is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery. "
+          
+         "<b>TOEFL Junior</b> course approaches test preparation by immersing students in the processes of interpersonal English language communication. By utilizing the assessed TOEFL skills -  Reading Comprehension, Listening Comprehension, Language Form and Meaning, Writing, and Speech - as catalysts for language development, this class will offer students guidance in cultivating critical thinking, subject expertise, and tried & tested test-taking strategies, growing into more eloquent and effective multi-skilled communicators.",
+         "<b> Pre- TOEFL</b>: Point Avenue's program prepares students for official language assessment by immersing students in interpersonal communication processes. This course develops students from age 12-15 in to be more fluent, coherent, and effective multi-skilled communicators by utilizing the four assessed TOEFL skills as catalysts for language advancement. ",
+         "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test. The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness. Each section of the class is taught using an integrated approach to reflect the official test format. Upon completion, students will be able to: <br />Effectively outline and map reading passages.<br />Understand the structure and flow of academic conversations and lectures.<br />Write basic academic paragraphs.",        
+         "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test. 201 Level courses move faster. Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section.<br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections.",
+         "<b>TOEFL 301 (Advanced)</b> is designed for students who score a 105+ on a diagnostic or official assessment. This course reviews all concepts, methods, and strategies for each section. The vocabulary, reading, listening, speaking, and writing workload will be increased significantly to cultivate students' ability to score as close to a perfect score as possible. The primary focus of this course targets speaking and writing mastery."
+           
         ]
       },
       "books" : {
@@ -1046,6 +1051,7 @@
     "courseId" : 24,
     "type" : "Offline",
     "name" : "IELTS",
+    "urlName": "IELTS",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "13-18",
@@ -1121,6 +1127,7 @@
     "courseId" : 25,
     "type" : "Offline",
     "name" : "SAT",
+    "urlName": "SAT",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "14-18",
@@ -1132,7 +1139,7 @@
     "desc": [
       "The SAT is a college readiness test created by ETS and owned by College Board. The SAT is typically taken by high school juniors and seniors. The SAT is intended to measure literacy, numeracy, and writing skills needed for academic success at the university level.",
       "",
-      "<strong>Enrollment Requirements:</strong>",
+      "<h3>Enrollment Requirements:</h3>",
       "IELTS band 6.5+ / TOEFL score of 80+",
       "Minimum diagnostic result of 900",
       "",
@@ -1179,6 +1186,7 @@
     "courseId" : 26,
     "type" : "Offline",
     "name" : "AP",
+    "urlName": "AP",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "14-18",
@@ -1190,7 +1198,7 @@
     "desc": [
       "Advanced Placement is administered by the College Board that enables high school seniors to experience introductory-level university courses and earn credits towards their diploma. ",
       "",
-      "<strong>Enrollment Requirements:</strong> Students must have completed the appropriate prerequisite or be enrolled in the interested AP course at their primary educational institution ",
+      "<h3>Enrollment Requirements:</h3> Students must have completed the appropriate prerequisite or be enrolled in the interested AP course at their primary educational institution ",
       "",
       "<strong>AP Courses & Exams</strong>",
       "World & European History",
@@ -1233,6 +1241,7 @@
     "courseId" : 27,
     "type" : "Offline",
     "name" : "IB",
+    "urlName": "IB",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "15-18",
@@ -1244,7 +1253,7 @@
     "desc": [
       "The International Baccalaureate Diploma Program offers challenging one-year and two-year pre-university courses for students in the 11th and 12th grades. Courses require a student’s total commitment to completing all assessment components and examinations. Both Standard Level (SL) and Higher Level (HL) courses receive advanced-level credit (7 point grade scale). ",
       "",
-      "<strong>Enrollment Requirements:</strong>",
+      "<h3>Enrollment Requirements:</h3>",
       "Students must have completed the appropriate pre-requisite or be enrolled in the interested IB course at their primary educational institution.",
       "",
       "<strong>IB Courses & Exams</strong>",
@@ -1287,6 +1296,7 @@
     "courseId" : 28,
     "type" : "Offline",
     "name" : "IGCSE",
+    "urlName": "IGCSE",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Test Preparation",
     "age" : "13-15",
@@ -1305,7 +1315,7 @@
       "Chemistry",
       "Biology",
       "",
-      "<strong>Enrollment Requirements</strong>",
+      "<h3>Enrollment Requirements</h3>",
       "Students must have completed the appropriate pre-requisite or be enrolled in the interested IGCSE course at their primary educational institution."
     ],
     "keyword" : [],
@@ -1316,8 +1326,8 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IGCSE_2.jpg",
         "strings" : [
-          "<strong>Skills Acquired</strong><br/>Subject knowledge expansion<br/>Applying new knowledge and understanding to familiar and new situations <br/>Intellectual inquiry & exploration<br/>Flexibility and responsiveness to change <br/>Working and communicating in English <br/>Influencing outcomes <br/>Cultural awareness <br/>Chemistry  | English Literature | Biology | History | Mathematics",
-          "<strong>Continuation Roadmap & Options</strong><br/>IELTS / TOEFL SAT / AP / IB"
+          "<strong>Skills Acquired</strong><ul class=\"ul_type_02\"><li>Subject knowledge expansion</li><li>Applying new knowledge and understanding to familiar and new situations</li><li>Intellectual inquiry & exploration</li><li>Flexibility and responsiveness to change</li><li>Working and communicating in English</li><li>Influencing outcomes </li><li>Cultural awareness </li><li>Cultural awareness</li></ul>",
+          "<strong>Continuation Roadmap & Options</strong><br/>IELTS / TOEFL / SAT / AP / IB"
         ]
       },
       "books" : {
