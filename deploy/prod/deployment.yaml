@@ -21,10 +21,10 @@ spec:
         runAsGroup: 1000
         fsGroup: 1000
       nodeSelector:
-        eks.amazonaws.com/nodegroup: dev
+        eks.amazonaws.com/nodegroup: prod
       containers:
         - name: pasite
-          image: 367893350766.dkr.ecr.ap-southeast-1.amazonaws.com/pasite:0.0.118
+          image: 367893350766.dkr.ecr.ap-southeast-1.amazonaws.com/pasite:0.0.119
           ports:
             - name: http
               containerPort: 7070
