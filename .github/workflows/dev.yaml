@@ -17,4 +17,4 @@ jobs:
       - if: "!contains(github.event.head_commit.message, 'skip github action')"
         name: jenkins
         run: |
-          curl POST 'http://jenkins.paathena.co.kr/buildByToken/buildWithParameters?job=pasite-dev&token=112386fb9cb04d4b1b7af7ed444dc325d5&branch=${{ steps.extract_branch.outputs.branch }}&author=${{ github.actor }}'
+          curl POST 'http://jenkins.paathena.com/buildByToken/buildWithParameters?job=pasite-dev&token=112386fb9cb04d4b1b7af7ed444dc325d5&branch=${{ steps.extract_branch.outputs.branch }}&author=${{ github.actor }}'
