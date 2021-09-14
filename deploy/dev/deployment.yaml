@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pasite
+  name: pasite-dev
   namespace: dev
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: pasite
+      app: pasite-dev
   template:
     metadata:
-      name: pasite
+      name: pasite-dev
       namespace: dev
       labels:
-        app: pasite
+        app: pasite-dev
     spec:
       securityContext:
         runAsUser: 1000 
@@ -23,8 +23,8 @@ spec:
       nodeSelector:
         eks.amazonaws.com/nodegroup: dev
       containers:
-        - name: pasite
-          image: 367893350766.dkr.ecr.ap-northeast-2.amazonaws.com/pasite:0.0.54
+        - name: pasite-dev
+          image: 367893350766.dkr.ecr.ap-southeast-1.amazonaws.com/pasite-dev:0.0.54
           ports:
             - name: http
               containerPort: 7070
