@@ -203,6 +203,40 @@ function cleanupListOfTeacher() {
   listTags.forEach((item) => item.remove());
 }
 
+//* Admission-consulting 선생 정보 업데이트시
+function changeMentorData(
+  data,
+  teacherExpWrapper,
+  clickedElem,
+  targets = {
+    image: '.mentor_img_box > img',
+    name: '.mentor_img_box p.title_r_03',
+    experience: '.mentor_info_box .ul_type_02',
+  }
+) {
+  console.log(teacherExpWrapper);
+  const id = clickedElem.dataset.id;
+  const image = document.querySelector(targets.image);
+
+  const name = document.querySelector(targets.name);
+  experience = document.querySelector(targets.experience);
+
+  data
+    .filter((teacher) => teacher.id == id)[0]
+    .exp.forEach((info) => {
+      teacherExpWrapper.insertAdjacentHTML('beforeend', `<li>${info}</li>`);
+    });
+
+  image.src = clickedElem.dataset.img;
+  name.textContent = clickedElem.dataset.name;
+}
+
+function cleanupListOfMentors() {
+  const listTags = Array.from(experience.children);
+  listTags.forEach((item) => item.remove());
+}
+
+
 //* Case studies 정보 팝업
 function changeStudiesData(data,
   studiesExpWrapper,

@@ -1,0 +1,28 @@
+<div class="swipe_type_01_wrap">
+  <div class="swiper-container">
+    <ul class="swiper-wrapper swipe_type_01 team_list">
+      <% for ( let i = 0; i < mentors.length; i++) { %>
+        <li class="swiper-slide swipe_type_01--item team_item <%= mentors[i].name %>">
+          <a href="javascript:void(0);" 
+             data-id="<%= mentors[i].id %>" 
+             data-name="<%= mentors[i].name %>" 
+             data-img="<%= mentors[i].img %>" 
+          >
+            <div class="swipe_type_01--img team_img">
+              <div class="img_box">
+                <img src="<%= mentors[i].img %>" alt="<%= mentors[i].name %>">
+              </div>
+            </div>
+            <div class="swipe_type_01--desc team_desc_box">
+              <p class="title_r_03"><%= mentors[i].name %></p>
+            </div>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+</div>

@@ -14,6 +14,9 @@
 <script>
 	const studies = <%- JSON.stringify(studies) %>;
 </script>
+<script>
+	const mentors = <%- JSON.stringify(mentors) %>;
+</script>
 <div class="wrap sub admission_consulting">
   <%- include("partials/gnb") %>
     <!-- container :: start -->
@@ -409,7 +412,15 @@
 					</div>
 				</div>
 			</section>
-			
+
+			<section class="mentors_wrap">
+				<div class="section_inner">
+					<p class="title_r_02 section_title">Our Mentos</p>
+					<!-- ac-mentors 리스트 swiper-->
+					<%- include("partials/ac-mentors") %>
+				</div>
+			</section>
+
 			<section class="case_studies_wrap">
 				<div class="section_inner">
 					<p class="title_r_02 section_title">Our Students</p>

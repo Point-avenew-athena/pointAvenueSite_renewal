@@ -75,6 +75,7 @@ $(function(){
 	
 	/*Testimonials  클릭시, Testimonials 상세 팝업 노출*/
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
+		$('.layer_popup').center();
 		const img = $(this).find('img').attr('src');
 		$('.testimonials_popup .img_box img').attr('src',img);
 		$('.testimonials_popup').show();
