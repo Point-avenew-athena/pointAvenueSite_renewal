@@ -69,8 +69,20 @@ $(document).ready(function () {
       }
     });
   }
+  jQuery.fn.center = function() {
+    this.css('top', Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + 'px');
+    return this;
+  }
 
   //팝업 닫기 버튼 클릭시,
+  $(document).on("click",function (e) {
+    if($('.dim').is(e.target)){
+      $('.layer_popup').hide();
+      $('.dim').fadeOut();
+    }
+  });
+  
+  //팝업 외 영역 클릭시, 닫힘
   $('.layer_popup .close_btn').click(function () {
     $(this).parents('.layer_popup').hide();
     $('.dim').fadeOut();
@@ -196,19 +208,22 @@ function changeStudiesData(data,
   studiesExpWrapper,
   clickedElem,
   targets = {
+    title: '.case_studies_popup .title',
     image: '.case_studies_img_box .img_box > img',
     name: '.case_studies_img_box p.title_r_03',
     school: '.case_studies_img_box p.text--gray',
     experience: '.case_studies_info_box .ul_type_02',
   }) {
     const id = clickedElem.dataset.id;
+    const title = document.querySelector(targets.title);
     const image = document.querySelector(targets.image);
   
     const name = document.querySelector(targets.name);
     const school = document.querySelector(targets.school);
   
     experience = document.querySelector(targets.experience);
-  
+    
+    title.textContent = clickedElem.dataset.title;
     data
       .filter((studies) => studies.id == id)[0]
       .info.forEach((info) => {
