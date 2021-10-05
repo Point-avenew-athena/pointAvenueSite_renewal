@@ -65,7 +65,7 @@
 .results_wrap .results_list .results_figure .title_r_03 {color:#F2B41B;}
 
 .sing_up_test_wrap .section_inner--full{background: rgba(242, 180, 27, 0.3); padding:30px;}
-.sing_up_test_wrap .write_box {width:770px; height: 220px; margin:0 auto; text-align: center;background:#fff; border: 1px solid #bdbdbd; padding:30px 100px; border-radius: 30px; box-sizing: border-box;}
+.sing_up_test_wrap .write_box {width:986px; height: 320px; margin:0 auto; text-align: center;background:#fff; border: 1px solid #bdbdbd; padding:30px 100px; border-radius: 30px; box-sizing: border-box;}
 .sing_up_test_wrap .write_box .input_box {overflow: hidden;margin-top: 30px;}
 .sing_up_test_wrap .write_box .input_box input{width:100%;border:0; border-bottom: 1px solid #000; border-radius: 0; padding:10px 5px; font-size: 14px;  }
 .sing_up_test_wrap .write_box .input_box .name {width:30%; float: left;}
