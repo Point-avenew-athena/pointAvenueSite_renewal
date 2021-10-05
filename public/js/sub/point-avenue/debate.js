@@ -56,6 +56,7 @@ $(function(){
 	
 	/*Testimonials  클릭시, Testimonials 상세 팝업 노출*/
 	$('.testimonials_wrap .team_item > a').click(function(){
+		$('.layer_popup').center();
 		$('.testimonials_popup').show();
 		$('.dim').show();
 	});
