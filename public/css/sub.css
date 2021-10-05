@@ -208,6 +208,7 @@
 .admission_consulting .class_box_type_01 {overflow: initial;}
 .admission_consulting .case_studies_wrap .class_box_type_01 .class_box_type_01--img img {top:0%; transform: translate(-50%,0);}
 .admission_consulting .case_studies_wrap .class_box_type_01 .swiper-slide:nth-child(4) img {top:-30%;}
+.admission_consulting .case_studies_wrap .section_inner {overflow: hidden;}
 .admission_consulting .case_studies_wrap .video_wrap {width:100%; margin: 50px 0 100px; text-align: center;}
 .admission_consulting .case_studies_wrap .video_wrap  .swipe_type_02--img{padding-top: 60%;}
 .admission_consulting .case_studies_wrap .video_wrap li{width:50%;}
