@@ -69,20 +69,22 @@ $(document).ready(function () {
       }
     });
   }
+
   jQuery.fn.center = function() {
     this.css('top', Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + $(window).scrollTop()) + 'px');
     return this;
   }
 
-  //팝업 닫기 버튼 클릭시,
+  //팝업 외 영역 클릭시, 닫힘 
   $(document).on("click",function (e) {
     if($('.dim').is(e.target)){
       $('.layer_popup').hide();
       $('.dim').fadeOut();
+      $('.mentor_popup .mentor_info_box .ul_type_02').html('');
     }
   });
   
-  //팝업 외 영역 클릭시, 닫힘
+  //팝업 닫기 버튼 클릭시,
   $('.layer_popup .close_btn').click(function () {
     $(this).parents('.layer_popup').hide();
     $('.dim').fadeOut();
