@@ -266,7 +266,7 @@
 .swipe_type_02 .swipe_type_02--item{float: left; width:25%; border-radius: 10px; border:1px solid #ddd;}
 .swipe_type_02 .swipe_type_02--item + .swipe_type_02--item {}
 .swipe_type_02 .swipe_type_02--item a{display: block;}
-.swipe_type_02 .swipe_type_02--item .more_text{position: absolute; left: 0; top: 40%; width: 100%; text-align: center; font-weight: 600; color: #666;}
+.swipe_type_02 .swipe_type_02--item .more_text{position: absolute; left: 0; top: 50%; transform:translateY(-50%); width: 100%; text-align: center; font-weight: 600; color: #666;}
 .swipe_type_02 .swipe_type_02--img {position: relative; padding-top: 99%; overflow: hidden; border-radius: 10px;}
 .swipe_type_02 .swipe_type_02--img img,
 .swipe_type_02 .swipe_type_02--img iframe {position: absolute;top: 50%;left: 50%;width: 100%;height: auto;min-width: 100%;min-height: 100%;transform: translate(-50%, -50%);transition: all 1s ease;}
