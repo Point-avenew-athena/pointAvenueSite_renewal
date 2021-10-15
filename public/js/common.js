@@ -80,7 +80,7 @@ $(document).ready(function () {
     if($('.dim').is(e.target)){
       $('.layer_popup').hide();
       $('.dim').fadeOut();
-      $('.mentor_popup .mentor_info_box .ul_type_02').html('');
+      $('.layer_popup .ul_type_02').html('');
     }
   });
   
