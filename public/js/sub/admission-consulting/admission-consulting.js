@@ -114,7 +114,6 @@ $(function(){
 	var case_studies_swiper = new Swiper('.case_studies_wrap .video_wrap .swiper-container', {
 		slidesPerView: 2,
 		spaceBetween: 20,
-		centeredSlides:true,
 		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
