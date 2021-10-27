@@ -382,6 +382,22 @@
 .day_camp.winter .camp_info_wrap .text_article li p span {display: block; font-size: 20px; margin-bottom: 10px;}
 .day_camp.winter .future_wrap ul li > strong {font-size: 18px; display: block; margin-bottom: 30px;}
 .day_camp.winter .future_wrap ul li li{margin-bottom:10px;}
+.day_camp .camp_video_wrap .tab_group ul{display: flex; justify-content: space-around; margin-bottom: 30px;}
+.day_camp .camp_video_wrap .tab_group ul li {padding:16px 10px; flex-basis: 50%; text-align: center; font-size: 16px; font-weight: 600; border:1px solid #1960A1; border-radius: 8px 0 0 8px; background:#fff; cursor: pointer; color:#1960A1;}
+.day_camp .camp_video_wrap .tab_group ul li + li {border-left:0; border-radius: 0 8px 8px 0;}
+.day_camp .camp_video_wrap .tab_group ul li.on {background: #1960A1; color:#fff; }
+.day_camp .camp_video_wrap .video_box {display: none;}
+.day_camp .camp_video_wrap .video_box.on {display: block;}
+.day_camp .camp_video_wrap .video_box iframe{width:100%;height: 600px; border-radius: 20px;} 
+.day_camp.winter .camp_info_wrap .text_article li:hover .title_r_02{color:#000;}
+.day_camp.winter .camp_info_wrap .text_article li:hover .ul_type_04 li{color:#000;}
+.day_camp.winter .camp_info_wrap .ul_type_04 > li {font-weight: 600; margin:10px 0 20px; color:#999;}
+.day_camp.winter .camp_info_wrap .ul_type_04 > li .text {padding-left: 20px; margin-top: 10px;}
+.day_camp.winter .ul_type_04 > li:before { border-top: 2px solid #999; border-right: 2px solid #999; }
+.day_camp.winter .camp_info_wrap .text_article li:hover .ul_type_04 > li:before {border-top: 2px solid #121212; border-right: 2px solid #121212;}
+.day_camp.winter .camp_info_wrap .text_article li.on .ul_type_04 > li:before {border-top: 2px solid #121212; border-right: 2px solid #121212;}
+.day_camp.winter .camp_info_wrap .text_article li.on li {color:#000;}
+.day_camp.winter .camp_info_wrap .text_article li.on .title_r_02 {color:#000;}
 
 .lotte_wrap section{margin-bottom:0 !important;}
 
