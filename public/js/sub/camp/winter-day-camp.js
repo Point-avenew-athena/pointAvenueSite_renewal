@@ -52,10 +52,10 @@ $(function(){
 	});
 
 
-	$('.camp_video_wrap .tab_group li').click(function(){
-		var n = $('.camp_video_wrap .tab_group li').index($(this));
+	$('.day_camp .tab_group li').click(function(){
+		var n = $('.day_camp .tab_group li').index($(this));
 		$(this).addClass('on').siblings().removeClass('on');
-		$('.camp_video_wrap .video_box').eq(n).addClass('on').siblings().removeClass('on');
+		$('.day_camp .video_box').eq(n).addClass('on').siblings().removeClass('on');
 	});
 	
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
