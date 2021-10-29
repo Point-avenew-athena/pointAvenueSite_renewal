@@ -398,6 +398,8 @@
 .day_camp.winter .camp_info_wrap .text_article li.on .ul_type_04 > li:before {border-top: 2px solid #121212; border-right: 2px solid #121212;}
 .day_camp.winter .camp_info_wrap .text_article li.on li {color:#000;}
 .day_camp.winter .camp_info_wrap .text_article li.on .title_r_02 {color:#000;}
+.day_camp.winter .objectives_wrap .text_article {font-size: 16px;}
+.day_camp.winter .objectives_wrap .title_r_02 {font-size: 24px;}
 
 .lotte_wrap section{margin-bottom:0 !important;}
 
