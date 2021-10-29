@@ -388,8 +388,6 @@
 .day_camp .offers_wrap .brochure_box img{max-width:800px;border-radius: 10px; box-shadow: 3px 5px 10px 0px #aaa;}
 .day_camp .offers_wrap .text_box{text-align: center;}
 .day_camp .offers_wrap .text_box .btn_type_01--sec {margin:30px auto 0;}
-.day_camp.winter .camp_info_wrap .text_article {width:100%;}
-.day_camp.winter .camp_info_wrap .text_article > .text {display: block; margin-bottom: 30px;}
 .day_camp.winter .camp_info_wrap .text_article li p span {display: block; font-size: 20px; margin-bottom: 10px;}
 .day_camp.winter .future_wrap ul li > strong {font-size: 18px; display: block; margin-bottom: 30px;}
 .day_camp.winter .future_wrap ul li li{margin-bottom:10px;}
