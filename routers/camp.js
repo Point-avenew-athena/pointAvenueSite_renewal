@@ -24,6 +24,11 @@ router.get('/winter-boarding-camp', function (req, res) {
   res.render('camp/winter-boarding-camp')
 })
 
+router.get('/winter-day-camp', function (req, res) {
+  res.render('camp/winter-day-camp')
+})
+
+
 // router.get('/winter-boarding-camp', function (req, res) {
 //   res.send('Camp > Winter Boarding Camp')
 // })

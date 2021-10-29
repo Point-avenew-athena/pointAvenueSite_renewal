@@ -46,9 +46,15 @@ $(function(){
 	});
 
 	/* title 클릭시, 활성화 */
-	$('.day_camp .camp_info_wrap .text_article .title_r_02').click(function(){
-		$('.day_camp .camp_info_wrap .text_article .title_r_02').removeClass('section_title');
-		$(this).addClass('section_title').parent('li').addClass('on').siblings().removeClass('on');
+	$('.day_camp .camp_info_wrap .text_article > ul > li').click(function(){
+		$(this).addClass('on').siblings().removeClass('on');
+	});
+
+
+	$('.camp_video_wrap .tab_group li').click(function(){
+		var n = $('.camp_video_wrap .tab_group li').index($(this));
+		$(this).addClass('on').siblings().removeClass('on');
+		$('.camp_video_wrap .video_box').eq(n).addClass('on').siblings().removeClass('on');
 	});
 	
 	$('.testimonials_wrap .swipe_type_02 .swipe_type_02--item a').click(function(){
