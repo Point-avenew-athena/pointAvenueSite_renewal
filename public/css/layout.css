@@ -1,6 +1,7 @@
 
 /*=========common Layout=========*/
 .wrap {min-width: 320px;}
+.vn{font-family: 'Oswald', sans-serif !important;}
 
 /*======================== text layout ==============================*/
 .title_r_00 {font-family: 'roboto'; font-size: 72px; font-weight: 800;}
