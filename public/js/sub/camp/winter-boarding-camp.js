@@ -1,5 +1,5 @@
 $(function(){
-	var info_swiper = new Swiper('.location_wrap .swiper-container', {
+	var info_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 		slidesPerView: 1, 
 		
 		effect:'fade',
@@ -14,7 +14,7 @@ $(function(){
     });
 	
 	/*=================== case_studies_swiper ==============*/
-	var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {
+	var case_studies_swiper = new Swiper('.location_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {
@@ -36,7 +36,7 @@ $(function(){
 		const img = $(this).find('img').attr('src');
 		$('.testimonials_popup .img_box img').attr('src', img);
 		$('.testimonials_popup').css("position","absolute");
-		$('.testimonials_popup').css("top", ( $(window).height() - $(this).outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
+		$('.testimonials_popup').css("top", ( $(window).height() - $('.testimonials_popup').outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
 		$('.testimonials_popup').show();
 		$('.dim').show();
 		return this;

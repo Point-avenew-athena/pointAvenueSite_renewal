@@ -28,22 +28,18 @@ $(function(){
 	
 	/*=================== case_studies_swiper ==============*/
 	var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {
-		slidesPerView: 4,
-		spaceBetween: 20,
+		slidesPerView: 1, 
+		
+		effect:'fade',
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		},
 		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
-		},
-		breakpoints: {
-			1000: {  // 화면의 넓이가 1000px 이하일 때 
-				slidesPerView: 2,
-			},
-			768: {  // 화면의 넓이가 768px 이하일 때 
-				slidesPerView: 1,
-				spaceBetween: 10,
-			}
 		}
-	});
+    });
 
 	/* title 클릭시, 활성화 */
 	$('.day_camp .camp_info_wrap .text_article .title_r_02').click(function(){
@@ -62,7 +58,7 @@ $(function(){
 		const img = $(this).find('img').attr('src');
 		$('.testimonials_popup .img_box img').attr('src', img);
 		$('.testimonials_popup').css("position","absolute");
-		$('.testimonials_popup').css("top", ( $(window).height() - $(this).outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
+		$('.testimonials_popup').css("top", ( $(window).height() - $('.testimonials_popup').outerHeight() ) / 2 + $(window).scrollTop() - 200 + "px" );
 		$('.testimonials_popup').show();
 		$('.dim').show();
 		return this;
