@@ -323,7 +323,7 @@
 .boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_02{position: absolute; right:0px; top:-10px; width: 96px; height: 95px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_02.png') no-repeat; z-index: -1;}
 .boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_03{position: absolute; left:-100px; bottom:-50px; width:129px; height: 85px;background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_03.png') no-repeat; z-index: -1;}
 .boarding_camp .differences_wrap .asset_list  {overflow: hidden; margin-top:100px;}
-.boarding_camp .differences_wrap .asset_item {float: left; width:33.33%; text-align: center;}
+.boarding_camp .differences_wrap .asset_item {float: left; width:33.33%; text-align: center; min-height: 300px;}
 .boarding_camp .differences_wrap .asset_item:nth-child(n+4) {width:50%; margin-top: 20px;}
 .boarding_camp .differences_wrap .asset_item .title_r_03 {margin: 10px 0;}
 .boarding_camp .offers_wrap .brochure_box {margin: 100px 0;text-align: center;}
