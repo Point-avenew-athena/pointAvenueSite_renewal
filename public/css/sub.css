@@ -315,9 +315,6 @@
 .boarding_camp .differences_wrap .asset_item {float: left; width:33.33%; text-align: center;}
 .boarding_camp .differences_wrap .asset_item:nth-child(n+4) {width:50%; margin-top: 20px;}
 .boarding_camp .differences_wrap .asset_item .title_r_03 {margin: 10px 0;}
-.boarding_camp .location_wrap .swiper-container{text-align: center;}
-.boarding_camp .location_wrap .swiper-wrapper {max-width: 970px; overflow: hidden; margin: 0 auto;}
-.boarding_camp .location_wrap .swiper-slide {overflow: hidden; text-align: center;}
 .boarding_camp .offers_wrap .brochure_box {margin: 100px 0;text-align: center;}
 .boarding_camp .offers_wrap .brochure_box img{width:100%; max-width:700px; border-radius: 10px; box-shadow: 7px 7px 10px rgb(0 0 0 / 17%);}
 .boarding_camp .info_input_wrap {padding-bottom: 100px;}

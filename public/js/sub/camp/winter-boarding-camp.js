@@ -1,5 +1,5 @@
 $(function(){
-	var info_swiper = new Swiper('.location_wrap .swiper-container', {
+	var info_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 		slidesPerView: 1, 
 		
 		effect:'fade',
@@ -14,7 +14,7 @@ $(function(){
     });
 	
 	/*=================== case_studies_swiper ==============*/
-	var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {
+	var case_studies_swiper = new Swiper('.location_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {
