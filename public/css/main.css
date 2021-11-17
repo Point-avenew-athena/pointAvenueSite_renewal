@@ -18,7 +18,7 @@
 .main_visual_wrap .swiper-slide:nth-child(2) .text_box_inner {display: none;}
 .main_visual_wrap .swiper-slide_02 .text_box {opacity: 0;}
 .main_visual_wrap .main_read_more_btn { position: absolute; left: 50%;  bottom: 6%;  z-index: 100; width: 15%;  background: #1d2094;  opacity: 1;  margin-left: -7%;display: block;height: 50px; padding: 14px 0; text-align: center; color: #fff; font-size: 16px;  line-height: 1.2; border-radius: 30px; box-sizing: border-box; opacity: 0; transition:opacity 1s 1s;-webkit-transition: -webkit-transform opacity 1s 1s;-moz-transition: -moz-transform opacity 1s 1s;-ms-transition: -ms-transform opacity 1s 1s;-o-transition: -o-transform opacity 1s 1s;left: 50%;
-    
+    display: none;
     bottom: auto;
     top: 30%;
 }
