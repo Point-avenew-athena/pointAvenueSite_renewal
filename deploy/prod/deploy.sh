@@ -1,7 +1,7 @@
 set -e 
 
 ecrHost='367893350766.dkr.ecr.ap-southeast-1.amazonaws.com'
-imageTag='0.0.130'
+imageTag='0.0.131'
 localImage="pasite:${imageTag}"
 remoteImage="${ecrHost}/${localImage}"
 
