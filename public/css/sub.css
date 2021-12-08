@@ -387,6 +387,15 @@
 .online_learning.winter .philosophy_wrap li{text-align: center;}
 .online_learning.winter .philosophy_wrap img {max-width: 200px;}
 
+
+.online_learning .history_box .say_box {margin-bottom:60px;}
+.online_learning .history_box .say_box .text {position:relative; padding:10px 40px 15px; font-size:16px; word-break:keep-all;}
+.online_learning .history_box .say_box .text:before {content:''; display:inline-block; width:26px; height:25px; position:absolute; left:0; top:0; background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/online-learning/double-open.png') no-repeat;}
+
+.online_learning .history_box .say_box .text:after {content:''; display:inline-block; width:26px; height:25px; position:absolute; right:0; bottom:-30px; background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/online-learning/double-close.png') no-repeat;}
+.online_learning .history_box .say_box .name {padding:10px 0 0 40px; font-size:14px; font-weight: 700}
+
+
 /*============= day_camp ========*/
 .day_camp .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/visual.png') right no-repeat; background-size: cover;}
 .day_camp .visual_wrap .title_r_01 {color:#fff;}
