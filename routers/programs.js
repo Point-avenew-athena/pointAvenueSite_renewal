@@ -124,6 +124,9 @@ router.get('/test-preparation-courses', function (req, res) {
   res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
 });
 
+router.get('/online-learning-courses', function (req, res) {
+  res.render('programs/online-learning');
+});
 // router.get('/admissions-consulting', function (req, res) {
 //   const studies = require('../data/programs/case-studies.json');
 //   res.render('admissions-consulting', { studies });

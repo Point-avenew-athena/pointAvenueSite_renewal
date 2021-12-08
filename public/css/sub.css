@@ -148,7 +148,7 @@
 
 /*============== careers ==============*/
 .careers .visual_wrap {background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/careers/careers_visual.png') center no-repeat; background-size: cover;}
-.careers .visual_wrap .title_r_01 {color:#fff;}
+.careers .visual_wrap .title_r_01 {color:#fff; width: 45%;}
 .careers .offer_wrap .offer_list ul{overflow: hidden;margin-top: 40px;}
 .careers .offer_wrap .offer_list ul li{position: relative;display: inline-block;float: left; width:25%; margin-bottom: 40px; font-size: 0; vertical-align: top;}
 .careers .offer_wrap .offer_list ul li:nth-child(2n) {width:27%;}
@@ -345,6 +345,48 @@
 .boarding_camp.winter .philosophy_wrap li{text-align: center;}
 .boarding_camp.winter .philosophy_wrap img {max-width: 200px;}
 
+
+/*============= online_learning ========*/
+/* .online_learning .container {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg.png') no-repeat; background-position:center top 400px ;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;} */
+.online_learning .container .section_inner{position: relative; z-index: 10;}
+.online_learning .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/online-learning/online-learning-banner-mask.png') right no-repeat; background-size: cover;}
+.online_learning .visual_wrap .title_r_01 {text-transform: uppercase; width: 45%}
+.online_learning .visual_wrap .section_inner .text_box {top: 20%}
+.online_learning .camp_info_wrap .video_article iframe{width: 100%; height: 400px; border-radius: 20px;}
+.online_learning .camp_info_wrap .text_article {padding-left: 40px; width: 45%;}
+.online_learning .camp_info_wrap .video_article {width: 55%;}
+.online_learning .camp_info_wrap .btn_box {text-align: center; margin-top: 40px;}
+.online_learning .camp_info_wrap .btn_box a {margin: 0 auto;}
+.online_learning .philosophy_wrap .section_inner{position: relative; z-index: 10;}
+.online_learning .philosophy_wrap .cloud_wrap .cloud_item_01{position: absolute; left:-80px; top:-100px; width:110px; height: 72px;background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_01.png') no-repeat; z-index: -1; }
+.online_learning .philosophy_wrap .cloud_wrap .cloud_item_02{position: absolute; right:0px; top:-10px; width: 96px; height: 95px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_02.png') no-repeat; z-index: -1;}
+.online_learning .philosophy_wrap .cloud_wrap .cloud_item_03{position: absolute; left:-100px; bottom:-50px; width:129px; height: 85px;background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_03.png') no-repeat; z-index: -1;}
+.online_learning .why_choose .asset_list  {overflow: hidden; margin-top:100px;}
+.online_learning .why_choose .asset_item {float: left; width:33.33%; text-align: center; min-height: 300px;}
+.online_learning .why_choose .asset_item:nth-child(n+4) {width:50%; margin-top: 20px;}
+.online_learning .why_choose .asset_item .title_r_03 {margin: 10px auto; width: 80%;}
+.online_learning .learning-model .asset_list  {overflow: hidden; margin-top:100px;}
+.online_learning .learning-model .asset_item {float: left; width:25%; text-align: center; min-height: 300px;}
+.online_learning .learning-model .asset_item .title_r_03 {margin: 10px auto; width: 80%;}
+.online_learning .offers_wrap .brochure_box {margin: 100px 0;text-align: center;}
+.online_learning .offers_wrap .brochure_box img{width:100%; max-width:700px; border-radius: 10px; box-shadow: 7px 7px 10px rgb(0 0 0 / 17%);}
+.online_learning .info_input_wrap {padding-bottom: 100px;}
+.online_learning .info_input_wrap .section_inner--full {background: none;}
+.online_learning .info_input_wrap .typing_box {overflow: hidden;}
+.online_learning .info_input_wrap .write_box .input_box input {float: left;}
+.online_learning .info_input_wrap .write_box .input_box .name {width:40%;}
+.online_learning .info_input_wrap .write_box .input_box .phone {width:30%; margin-left: 2%;}
+.online_learning .info_input_wrap .write_box .input_box .grade {width:20%; margin-left: 2%;}
+.online_learning .info_input_wrap .choose_box {margin-top: 40px;}
+.online_learning .info_input_wrap .choose_box p {display: inline-block; font-weight: 700;}
+.online_learning .info_input_wrap .choose_box .radio_wrap {display: inline-block; margin-left: 100px;}
+.online_learning .info_input_wrap .choose_box .radio_wrap label + input + label {margin-left:30px;}
+.online_learning .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
+.online_learning .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
+
+.online_learning.winter .philosophy_wrap li{text-align: center;}
+.online_learning.winter .philosophy_wrap img {max-width: 200px;}
+
 /*============= day_camp ========*/
 .day_camp .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/visual.png') right no-repeat; background-size: cover;}
 .day_camp .visual_wrap .title_r_01 {color:#fff;}
@@ -494,6 +536,14 @@
 	.boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_02{ right:0; top:50px;}
 	.boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_03{left:0;bottom:0;}
 	.boarding_camp .differences_wrap .title_r_02 {margin-bottom:100px;}
+
+	/*============= online_learning ========*/
+	.online_learning .camp_info_wrap .video_article iframe {height: 600px;}
+	.online_learning .camp_info_wrap .text_article {padding-left: 0; margin-top: 30px;}
+	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_01{left:0; top:-50px; }
+	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_02{ right:0; top:50px;}
+	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_03{left:0;bottom:0;}
+	.online_learning .differences_wrap .title_r_02 {margin-bottom:100px;}
 	
 	/*============= day_camp ========*/
 	.day_camp .meet_team_wrap .text_article {margin-top: 20px;padding-left:0px;}
@@ -557,6 +607,12 @@
 	.boarding_camp .info_input_wrap .write_box .input_box .name {width:100%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+
+	/*============= online_learning ========*/
+	.online_learning .info_input_wrap .write_box .input_box input {float: none;}
+	.online_learning .info_input_wrap .write_box .input_box .name {width:100%;}
+	.online_learning .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
+	.online_learning .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
 	
 	/*============= day_camp ========*/
 	.day_camp .camp_info_wrap .video_box {margin-top: 20px;}
@@ -628,6 +684,12 @@
 	.boarding_camp .offers_wrap .brochure_box {margin:30px 0;}
 	.boarding_camp .info_input_wrap .choose_box p {display: block;}
 	.boarding_camp .info_input_wrap .choose_box .radio_wrap {margin-left: 0; margin-top: 10px;}
+
+	/*============= online_learning ========*/
+	.online_learning .camp_info_wrap .video_article iframe {height: 400px;}
+	.online_learning .offers_wrap .brochure_box {margin:30px 0;}
+	.online_learning .info_input_wrap .choose_box p {display: block;}
+	.online_learning .info_input_wrap .choose_box .radio_wrap {margin-left: 0; margin-top: 10px;}
 	
 	/*============= summer_day_camp ========*/
 	.day_camp .offers_wrap .brochure_box {margin:30px 0;}
@@ -683,12 +745,25 @@
 	.boarding_camp.winter .philosophy_wrap li img{max-width:100px;}
 	.boarding_camp.winter .differences_wrap .asset_item {min-height: 200px;}
 
+	/*============= online_learning ========*/
+	.online_learning .differences_wrap .asset_item {width:50%; margin-bottom: 40px; min-height: 180px;}
+	.online_learning .differences_wrap .asset_item img {width:70px;}
+	.online_learning .differences_wrap .asset_item:nth-child(n+4) {margin-top: 0;}
+	.online_learning .info_input_wrap {padding-bottom: 0; margin-top: 40px;}
+
+	.online_learning.winter .philosophy_wrap ul{overflow: hidden;}
+	.online_learning.winter .philosophy_wrap li {width:50%; min-height: 130px; float:left; margin-right: 0;}
+	.online_learning.winter .philosophy_wrap li img{max-width:100px;}
+	.online_learning.winter .differences_wrap .asset_item {min-height: 200px;}
+
 	/*============= online_summer_camp ========*/
 	.online_summer_camp .online_summer_desc_wrap {padding-top:280px; background-position:top 50px center; background-size:100% auto; margin:0 20px;}
 	.online_summer_camp .online_summer_desc_wrap .section_inner {padding: 0;}
 	.online_summer_camp .online_summer_desc_wrap .btn_box a {padding:5px 10px; font-size: 18px;}
 	
+
 }
+	
 
 @media screen and (max-width:400px) {
 	/*============= online_summer_camp ========*/
