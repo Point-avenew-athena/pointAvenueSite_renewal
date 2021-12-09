@@ -832,6 +832,8 @@
 	.online_learning .learning-model .asset_item {width: 50%;}
 	.online_learning .visual_wrap .title_r_01 {margin-top: 3rem;}
 
+	.online_learning .camp_info_wrap .video_article iframe {height: 300px;}
+
 	/*============= online_summer_camp ========*/
 	.online_summer_camp .online_summer_desc_wrap {padding-top:280px; background-position:top 50px center; background-size:100% auto; margin:0 20px;}
 	.online_summer_camp .online_summer_desc_wrap .section_inner {padding: 0;}
@@ -848,4 +850,5 @@
 
 	/*============= online_learning ========*/
 	.online_learning .visual_wrap .title_r_01 {margin-top: 0;}
+	.online_learning .camp_info_wrap .video_article iframe {height: 200px;}
 }
