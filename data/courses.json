@@ -568,7 +568,7 @@
     "courseId" : 14,
     "type" : "Offline",
     "name" : "Writing Coach",
-    "urlName" : "reading-coach",
+    "urlName" : "writing-coach",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
     "age" : "11-13",
