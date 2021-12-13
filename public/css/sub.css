@@ -17,6 +17,7 @@
 .sub .course_objective_wrap .section_inner {overflow: hidden;}
 .sub .course_objective_wrap .objective_list {float: left; width:60%; margin-top: 30px; padding-left:100px; padding-right:30px;}
 .sub .course_objective_wrap .objective_list li {margin-bottom: 30px;}
+.sub .course_objective_wrap .objective_list li li {margin-bottom: 5px;}
 .sub .course_objective_wrap .objective_list li strong {font-weight: 700; font-size: 16px;}
 .sub .course_objective_wrap .img_box{float: right; width:40%;}
 .sub .course_books_wrap .section_inner {overflow: hidden;}
@@ -47,7 +48,9 @@
 .sub .spotlight_wrap .sub_article .text_box {width:70%; padding-left: 20px; float: right;}
 .sub .spotlight_wrap .sub_article .text_box .date {margin-bottom:5px;}
 .sub .spotlight_wrap .sub_article .text_box .flag_type_02 {margin-bottom:5px;}
+.sub .container > .model_wrap {margin-top: 0px;}
 .mentors_wrap.noPop a { cursor:default; }
+.mentors_wrap .swipe_type_01 .swipe_type_01--desc {margin-top: 0;}
 
 /*============== aboutus ==============*/
 .about_us .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/about-us/visual.png') right no-repeat; background-size: cover;}
@@ -103,7 +106,7 @@
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(1) .swipe_type_01--img .img_box img {top:-8%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(2) .swipe_type_01--img .img_box img {top:-8%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(3) .swipe_type_01--img .img_box img {top:-8%}
-.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:-8%}
+.all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(4) .swipe_type_01--img .img_box img {top:0%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(6) .swipe_type_01--img .img_box img {top:-20%}
 .all_ms_courses .mentors_wrap .swipe_type_01--item:nth-child(7) .swipe_type_01--img .img_box img {top:-20%}
 
@@ -217,6 +220,11 @@
 .admission_consulting .swipe_type_01 .swipe_type_01--item.Michael img {top:-10%}
 .admission_consulting .swipe_type_01 .swipe_type_01--item.Matthew img {top:-15%}
 
+.class_detail h3 {position: relative; padding-left:60px;margin-bottom: 10px; line-height: 1.5; font-family: 'roboto'; font-size: 30px; font-weight: 800;}
+.class_detail h3:before{position: absolute; left:0;content:''; display: inline-block; width:46px; height: 60px; margin-right: 15px; background: url("https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/title_icon.png") no-repeat; background-size: 46px auto; vertical-align: middle;}
+.class_detail h3:after{content:''; display: inline-block; width:110px; height: 5px; position: absolute; top:44px; left:60px; background: #F2B41B;}
+
+
 /*============== all_ms_courses ==============*/
 .all_ms_courses .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/ms_visual.png') right no-repeat; background-size: cover;}
 
@@ -265,12 +273,15 @@
 .news .event_wrap .box_type_01 .location {position: relative; padding-left: 30px; margin: 10px 0;}
 .news .event_wrap .box_type_01 .location:before {content:''; position: absolute; left:0; top:0; display: inline-block; width:20px; height: 20px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/location_s_icon.png') no-repeat;}
 .news .box_type_01 .box_type_01--item {margin-bottom: 20px;}
+.news .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
 
 
 /*=============point_avenue_tv ========*/
 .point_avenue_tv .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/news/tv_visual.jpg') top right no-repeat; background-size: cover;}
 .point_avenue_tv .youtube_wrap {background: #fff; text-align: center; padding:40px 0;}
 .point_avenue_tv .youtube_wrap .btn_type_01--sec{margin: 30px auto 0;}
+.point_avenue_tv .spotlight_wrap .section_title_02 {font-family: 'Oswald', sans-serif;}
+.point_avenue_tv .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
 
 /*=============scholarhip ========*/
 .scholarhip .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/scholarship/visual.png') right no-repeat; background-size: cover;}
