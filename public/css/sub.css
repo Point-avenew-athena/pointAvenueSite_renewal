@@ -358,10 +358,6 @@
 .online_learning .camp_info_wrap .btn_box {text-align: center; margin-top: 40px;}
 .online_learning .camp_info_wrap .btn_box a {margin: 0 auto;}
 .online_learning .camp_info_wrap .grid_type_wrap_saying .history_box .say_box {margin-top: 11rem;}
-.online_learning .philosophy_wrap .section_inner{position: relative; z-index: 10;}
-.online_learning .philosophy_wrap .cloud_wrap .cloud_item_01{position: absolute; left:-80px; top:-100px; width:110px; height: 72px;background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_01.png') no-repeat; z-index: -1; }
-.online_learning .philosophy_wrap .cloud_wrap .cloud_item_02{position: absolute; right:0px; top:-10px; width: 96px; height: 95px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_02.png') no-repeat; z-index: -1;}
-.online_learning .philosophy_wrap .cloud_wrap .cloud_item_03{position: absolute; left:-100px; bottom:-50px; width:129px; height: 85px;background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/cloud_03.png') no-repeat; z-index: -1;}
 .online_learning .why_choose .asset_list  {overflow: hidden; margin-top:100px;}
 .online_learning .why_choose .asset_item {float: left; width:33.33%; text-align: center; min-height: 300px;}
 .online_learning .why_choose .asset_item:nth-child(n+4) {width:50%; margin-top: 20px;}
@@ -371,25 +367,12 @@
 .online_learning .learning-model .asset_item .title_r_03 {margin: 10px auto; width: 80%;}
 .online_learning .offers_wrap .brochure_box {margin: 100px 0;text-align: center;}
 .online_learning .offers_wrap .brochure_box img{width:100%; max-width:700px; border-radius: 10px; box-shadow: 7px 7px 10px rgb(0 0 0 / 17%);}
-.online_learning .info_input_wrap {padding-bottom: 100px;}
-.online_learning .info_input_wrap .section_inner--full {background: none;}
-.online_learning .info_input_wrap .typing_box {overflow: hidden;}
-.online_learning .info_input_wrap .write_box .input_box input {float: left;}
-.online_learning .info_input_wrap .write_box .input_box .name {width:40%;}
-.online_learning .info_input_wrap .write_box .input_box .phone {width:30%; margin-left: 2%;}
-.online_learning .info_input_wrap .write_box .input_box .grade {width:20%; margin-left: 2%;}
-.online_learning .info_input_wrap .choose_box {margin-top: 40px;}
-.online_learning .info_input_wrap .choose_box p {display: inline-block; font-weight: 700;}
-.online_learning .info_input_wrap .choose_box .radio_wrap {display: inline-block; margin-left: 100px;}
-.online_learning .info_input_wrap .choose_box .radio_wrap label + input + label {margin-left:30px;}
 .online_learning .swiper-pagination-bullets .swiper-pagination-bullet {margin: 0 4px;background: #F2B41B; opacity: 1;}
 .online_learning .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 
 .online_learning .swiper-pagination { width:100%; margin-top: 2rem;}
 .online_learning .swiper-slide { padding: 20px;}
 
-.online_learning.winter .philosophy_wrap li{text-align: center;}
-.online_learning.winter .philosophy_wrap img {max-width: 200px;}
 
 
 .online_learning .history_box .say_box {margin-bottom:60px;}
@@ -567,10 +550,6 @@
 
 	/*============= online_learning ========*/
 	.online_learning .camp_info_wrap .text_article {width: 100%;padding-left: 0; margin-top: 30px;}
-	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_01{left:0; top:-50px; }
-	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_02{ right:0; top:50px;}
-	.online_learning .philosophy_wrap .cloud_wrap .cloud_item_03{left:0;bottom:0;}
-	.online_learning .differences_wrap .title_r_02 {margin-bottom:100px;}
 	.online_learning .camp_info_wrap .video_article {width: 100%;}
 	.online_learning .camp_info_wrap .grid_type_wrap_saying .history_box .say_box {margin-top: 2rem;}
 	.online_learning .visual_wrap .title_r_01 {width: 75%;}
@@ -777,15 +756,7 @@
 	.boarding_camp.winter .differences_wrap .asset_item {min-height: 200px;}
 
 	/*============= online_learning ========*/
-	.online_learning .differences_wrap .asset_item {width:50%; margin-bottom: 40px; min-height: 180px;}
-	.online_learning .differences_wrap .asset_item img {width:70px;}
-	.online_learning .differences_wrap .asset_item:nth-child(n+4) {margin-top: 0;}
 	.online_learning .info_input_wrap {padding-bottom: 0; margin-top: 40px;}
-
-	.online_learning.winter .philosophy_wrap ul{overflow: hidden;}
-	.online_learning.winter .philosophy_wrap li {width:50%; min-height: 130px; float:left; margin-right: 0;}
-	.online_learning.winter .philosophy_wrap li img{max-width:100px;}
-	.online_learning.winter .differences_wrap .asset_item {min-height: 200px;}
 
 	.online_learning .why_choose .asset_item {width: 50%;}
 
