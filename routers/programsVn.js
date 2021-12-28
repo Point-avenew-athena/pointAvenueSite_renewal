@@ -166,6 +166,7 @@ router.get("/all-courses", function (req, res) {
 });
 
 router.get("/elementary-courses", function (req, res) {
+  console.log(1);
   const filterCourse = courses.filter(
     (course) => course.program === "Elementary"
   );
@@ -175,7 +176,7 @@ router.get("/elementary-courses", function (req, res) {
       teacher.position = teacher.job;
       return teacher;
     });
-  res.render("programs/elementary-course", {
+  res.render("programs/elementary-course-vn", {
     options: options(filterCourse),
     courses: filterCourse,
     teamMembers: elementaryTeachersData,
@@ -183,6 +184,7 @@ router.get("/elementary-courses", function (req, res) {
 });
 
 router.get("/middle-school-courses", function (req, res) {
+  console.log(2);
   const filterCourse = courses.filter(
     (course) => course.program === "Middle School"
   );
@@ -200,6 +202,7 @@ router.get("/middle-school-courses", function (req, res) {
 });
 
 router.get("/debate-courses", function (req, res) {
+  console.log(3);
   const filterCourse = courses.filter((course) => course.program === "Debate");
   const debateTeachersData = teachers
     .filter((teacher) => teacher.positions.includes("Debate Teacher"))
@@ -215,6 +218,7 @@ router.get("/debate-courses", function (req, res) {
 });
 
 router.get("/test-preparation-courses", function (req, res) {
+  console.log(4);
   const filterCourse = courses.filter(
     (course) => course.program === "Test Preparation"
   );
@@ -231,13 +235,6 @@ router.get("/test-preparation-courses", function (req, res) {
   });
 });
 
-router.get('/online-learning-courses', function (req, res) {
-  res.render('programs/online-learning');
-});
-
-router.get('/online-debate-course', function (req, res) {
-  res.render('programs/online-debate-course');
-});
 // router.get('/admissions-consulting', function (req, res) {
 //   const studies = require('../data/programs/case-studies.json');
 //   res.render('admissions-consulting', { studies });
@@ -250,8 +247,21 @@ router.get("/:urlName", function (req, res) {
     [1, 2, 3].includes(location.id)
   );
   let renderPath = "programs/course-detail";
+
   if (course.type === "Offline") {
-    renderPath = "programs/course-detail-offline";
+    if (req.params.urlName === "english-learning") {
+      renderPath = "programs/english-learning-vn";
+    } else if (req.params.urlName === "elem-life-coaching-intermediate") {
+      renderPath = "programs/elem-life-coaching-intermediate-vn";
+    } else if (req.params.urlName === "elem-life-coaching-advanced") {
+      renderPath = "programs/elem-life-coaching-advanced-vn";
+    } else if (req.params.urlName === "engineering") {
+      renderPath = "programs/engineering-vn";
+    } else if (req.params.urlName === "coding") {
+      renderPath = "programs/coding-vn";
+    } else {
+      renderPath = "programs/course-detail-offline-vn";
+    }
   }
   res.render(renderPath, { course, locations: filteredLocations });
 });

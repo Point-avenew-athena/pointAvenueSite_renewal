@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.ch_flex_start_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ch_flags_container {
+  margin-left: 20px;
+}
+
+.ch_flag_size {
+  width: 100%;
+}
+
+.ch_single_flag {
+  margin-left: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.ch_single_flag_active {
+}

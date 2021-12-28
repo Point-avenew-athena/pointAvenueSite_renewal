@@ -1,0 +1,201 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.program-%></span> |
+            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title">Tổng quan khóa học</h3>
+            <div class="text s_desc">
+              Chương trình tiếng Anh trẻ em (cấp độ từ EL1 - EL4) được thiết kế
+              theo Các tiêu chuẩn về Kiến thức và Kỹ năng Cốt yếu chung (CCS -
+              Common Core Standard) của Hoa Kỳ, tập trung phát triển toàn diện
+              các kỹ năng Nghe, Nói, Đọc, Viết.
+              <br />
+              <br />
+
+              Với hướng tiếp cận phát triển toàn diện, các cố vấn nước ngoài
+              giàu kinh nghiệm của chúng tôi không chỉ giúp các em nâng cao kỹ
+              năng tiếng Anh thông qua các bài học tương tác, mà còn tập trung
+              phát triển kỹ năng mềm, phát triển nhân cách. Các em sẽ được phát
+              triển vốn tự vựng, trau dồi các kỹ năng học thuật, và rèn luyện kỹ
+              năng làm việc nhóm, hợp tác theo dự án và thử thách của giáo viên.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Sign up for a FREE Diagnostic Test</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Thông tin cơ bản</h3>
+        <div class="course_detail_box">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03">Dành cho học sinh 7 - 12 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03">Thời gian: 17 tuần, 3 giờ học/tuần</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03">Tổng thời lượng: 51 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03">
+            <li>
+              Củng cố kỹ năng đọc tương ứng với trình độ lớp 5 theo chuẩn giáo
+              dục Mỹ.
+            </li>
+            <li>Nâng cao khả năng đọc & hiểu các câu chuyện.</li>
+            <li>
+              Biết cách diễn tả & tóm tắt chính xác những sự kiện, câu chuyện
+              hay đoạn văn.
+            </li>
+            <li>
+              Biết diễn tả ý kiến & quan điểm của mình một cách rõ ràng, mạch
+              lạc.
+            </li>
+            <li>Nâng cao khả năng sử dụng ngôn ngữ & kỹ năng viết</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03">
+            <li>
+              <strong>Subject Link 1 - 8</strong>: Bộ sách giúp học sinh tăng
+              cường sự hiểu biết của mình về các kiến thức, chủ đề học tập khác
+              nhau và cải thiện kỹ năng đọc hiểu. Các chủ đề trong bộ sách đều
+              chú trọng kích thích trí tò mò, tìm tòi của học sinh về các từ
+              vựng khác nhau, đồng thời cải thiện toàn diện kỹ năng đọc thông
+              qua các đoạn văn trong sách.
+            </li>
+            <li>
+              <strong>Spectrum Writing</strong>: Sách bài tập giúp học sinh củng
+              cố kỹ năng viết thông qua các bài tập hướng đến nhiều mục đích
+              khác nhau như kể chuyện, tự sự cá nhân, viết mô tả và viết bày tỏ
+              ý kiến bản thân. Các em sẽ học cách xây dựng & hoàn thiện bài viết
+              thông qua các bước quan trọng, từ lên dàn ý, viết nháp, sửa & hiệu
+              đính cho đến chia sẻ bài viết tới người khác.
+            </li>
+            <li>
+              <strong>Spectrum Language Arts</strong>: Cuốn sách giúp học sinh
+              tăng cường kỹ năng viết và nói chính xác thông qua các hoạt động,
+              bài tập sáng tạo và thực tiễn. Học sinh sẽ trau dồi các kỹ năng từ
+              cơ bản tới nâng cao gồm: Viết hoa chính xác, sử dụng dấu câu phù
+              hợp, kỹ năng ngữ pháp và các yếu tố trong bài nói.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>
