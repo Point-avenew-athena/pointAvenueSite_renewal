@@ -1,0 +1,218 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.program-%></span> |
+            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title Montserrat">
+              Tổng quan khóa học
+            </h3>
+            <div class="text s_desc Montserrat">
+              Khóa học Huấn luyện Cuộc sống - Life Coaching cơ bản/trung cấp là
+              khóa đào tạo kỹ năng mềm cho các em học sinh như xây dựng thói
+              quen tốt hay phát triển tư duy cầu tiến. Các chuyên gia của Point
+              Avenue đã sử dụng giáo trình "7 thói quen thành công dành cho
+              teen" để giúp các em học sinh rèn luyện tự tin, quyết đoán, óc tư
+              duy và phân tích - chuẩn bị sẵn sàng cho quá trình trưởng thành
+              trong tương lai. <br />Life Coaching sẽ tạo cơ hội để các em được
+              : Phát triển kỹ năng nói và viết tiếng Anh thông qua các dự án
+              thuyết trình Rèn luyện thể lực
+              <br />
+              <br />
+
+              Thử thách lãnh đạo <br />
+              Chương trình gồm 2 trình độ cơ bản và nâng cao. Khóa học nâng cao
+              sẽ giúp các em tiếp cận với những khái niệm và nguyên tắc lãnh đạo
+              ở cấp cao hơn với mong muốn nuôi dưỡng các em trở thành những nhà
+              lãnh đạo trong tương lai.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Sign up for a FREE Diagnostic Test</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Thông tin cơ bản</h3>
+        <div class="course_detail_box">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Dành cho học sinh 11-13 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Thời gian học 17 tuần</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Tổng thời lượng 51 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03 Montserrat">
+            <li li class="Montserrat">
+              Cấu trúc khoá học:
+              <br />
+              - 40% Rèn luyện thể chất
+              <br />
+              - 30% Phát triển Học thuật
+              <br />
+              - 30% Phát triển Kỹ năng Lãnh đạo
+            </li>
+            <li li class="Montserrat">
+              Mục tiêu khoá học
+              <br />
+              - Rèn luyện thể lực hàng tuần (60 phút/tuần)
+              <br />
+              - Phát triển kỹ năng mềm (tư thế, giao tiếp bằng mắt, sự tự tin)
+              <br />
+              - Thấu hiểu nguyên tắc lãnh đạo cơ bản
+              <br />
+              - Thuyết trình
+              <br />
+              - Viết nhật ký
+              <br />
+              - Chinh phục các thử thách đồng đội
+              <br />
+              - Nuôi dưỡng sức khoẻ tinh thần
+              <br />
+              - Xây dựng tư duy cầu tiến
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              <strong
+                >Sách & Vở bài tập của "7 Thói quen của bạn trẻ thành đạt" của
+                Sean Covey</strong
+              >: Hiệu quả Cao Sách giáo khoa và Sách bài tập của Sean Covey.
+              Trong cuốn sách này, Covey nói về cách các bạn trẻ xây dựng tính
+              độc lập và hiệu quả bằng cách tuân thủ bảy thói quen cơ bản. Các
+              thói quen bao gồm việc chủ động trong mọi khía cạnh của cuộc sống,
+              từ lập kế hoạch theo thứ tự ưu tiên đến xây dựng tinh thần trách
+              nhiệm cho mỗi cá nhân.
+            </li>
+            <li class="Montserrat">
+              <strong>Sổ tay kế hoạch Point Avenue</strong>: Trong khoá học này,
+              các em sẽ sử dụng cuốn sổ kế hoạch đặc biệt của Point Avenue. Các
+              em có thể theo dõi các mục tiêu hàng ngày, các sự kiện đáng ý, các
+              bài học cuộc sống, và những điều các em cảm thấy biết ơn. Từ đó
+              các em có thể kiểm soát và theo dõi sự phát triển cá nhân, cũng
+              như rèn luyện thói quen suy ngẫm về những hoạt động xảy ra trong
+              ngày để mở rộng thể giới quan của mình.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>

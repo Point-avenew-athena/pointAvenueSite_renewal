@@ -259,6 +259,22 @@ router.get("/:urlName", function (req, res) {
       renderPath = "programs/engineering-vn";
     } else if (req.params.urlName === "coding") {
       renderPath = "programs/coding-vn";
+    } else if (req.params.urlName === "ela-beginner") {
+      renderPath = "programs/ela-beginner-vn";
+    } else if (req.params.urlName === "reading-coach") {
+      renderPath = "programs/reading-coach-vn";
+    } else if (req.params.urlName === "writing-coach") {
+      renderPath = "programs/writing-coach-vn";
+    } else if (req.params.urlName === "ms-life-coaching-advanced") {
+      renderPath = "programs/ms-life-coaching-advanced-vn";
+    } else if (req.params.urlName === "ela-advanced") {
+      renderPath = "programs/ela-advanced-vn";
+    } else if (req.params.urlName === "ela-intermediate") {
+      renderPath = "programs/ela-intermediate-vn";
+    } else if (req.params.urlName === "ela-foundations") {
+      renderPath = "programs/ela-foundations-vn";
+    } else if (req.params.urlName === "ms-life-coaching") {
+      renderPath = "programs/ms-life-coaching-vn";
     } else {
       renderPath = "programs/course-detail-offline-vn";
     }
