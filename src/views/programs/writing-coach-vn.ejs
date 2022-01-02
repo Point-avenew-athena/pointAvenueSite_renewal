@@ -1,0 +1,219 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.program-%></span> |
+            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title Montserrat">
+              Tổng quan khóa học
+            </h3>
+            <div class="text s_desc Montserrat">
+              Khoá học Viết chuyên sâu chú trọng phát triển kỹ năng Viết học
+              thuật và sáng tạo cho học sinh. Mục tiêu chính của khoá học là
+              giúp học sinh xây dựng kỹ năng viết nền tảng thông qua các phương
+              pháp giảng dạy phương Tây hay đương đại; thúc đẩy óc sáng tạo và
+              tư duy phản biện - những kỹ năng rất quan trọng của thế kỷ 21.
+              <br />
+              <br />
+
+              Các em học sinh học được cách kết hợp hài hoà giữa kiến thức
+              chuyên môn và nội dung sáng tạo của cá nhân để truyền thải thông
+              điệp một cách hiệu quả nhất dưới dạng văn bản. Khoá học sử dụng
+              tài liệu chính là National Geographic và Word Roots để giúp các em
+              hoàn thiện kỹ năng Viết, và các bài đọc về đa dạng các chủ đề mà
+              học sinh yêu thích và quan tâm.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Sign up for a FREE Diagnostic Test</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Thông tin cơ bản</h3>
+        <div class="course_detail_box">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Dành cho học sinh 11-14 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Thời gian học 17 tuần</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Tổng thời lượng 51 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03 Montserrat">
+            <li li class="Montserrat">
+              Phát triển kỹ năng viết đa thể loại
+              <br />
+              - Nắm vững cấu trúc đoạn văn hoàn chỉnh bao gồm câu chủ đề, câu
+              kết đoạn và sắp xếp trình tự hợp lý
+              <br />
+              - Nắm vững cách viết quy trình, văn tự sự, miêu tả và nghị luận.
+            </li>
+            <li li class="Montserrat">
+              Cải thiện ngữ pháp và cách cấu trúc câu
+              <br />
+              - Học sinh sẽ sử dụng phần mềm Quill để thực hành ngữ pháp và theo
+              dõi sự tiến bộ trong suốt học kỳ.
+              <br />
+              - Sử dụng phương pháp Focused Correction Areas (FCA’s) để tập
+              trung cải thiện các lỗi hệ thống trong bài viết.
+              <br />
+            </li>
+            <li li class="Montserrat">
+              Tăng vốn từ vựng và khả năng hiểu
+
+              <br />
+              - Nắm vững cách sử dụng gốc từ, các tiền tố, hậu tố thích hợp theo
+              giáo trình Word Roots
+              <br />
+              - Bổ sung từ mới mỗi tuần để ứng dụng trực tiếp cho bài viết
+            </li>
+            <li li class="Montserrat">
+              Khơi dậy niềm yêu thích đối với việc viết lách
+
+              <br />
+              - Chúng tôi hướng tới xây dựng một môi trường lấy học sinh làm
+              trung tâm, vì vậy các chủ đề được sử dụng trong khoá học sẽ liên
+              quan trực tiếp tới sở thích và các mối quan tâm của học sinh.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              <strong>Bộ sách “National Geographic Great Writing”</strong>: Bộ
+              sách “The Great Writing” đưa ra những giải thích rất rõ ràng và
+              các hoạt động thực tế phong phú giúp học sinh cải thiện rõ rệt kỹ
+              năng viết câu, đoạn và bài luận. Thông qua những câu chuyện thú
+              vị, mỗi cuốn sách giới thiệu những phong cách viết khác nhau đi
+              kèm với bài tập thực hành, giúp học sinh xây dựng quy trình viết
+              bài rõ ràng và hiệu quả.
+            </li>
+            <li class="Montserrat">
+              <strong>Bộ sách Word Roots</strong>:Bộ sách đã từng đoạt giải
+              thưởng này giải thích sâu về ý nghĩa và cách viết của các gốc từ,
+              tiền tố, hậu tố - những yếu tố cốt lõi cấu tạo thành từ trong
+              tiếng Anh. Bằng việc nằm vững những yếu tố này, các em sẽ hạn chế
+              được tối đa các lỗi sai chính tả và phát triển được kỹ năng phán
+              đoán ý nghĩa của các từ vựng lạ.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>

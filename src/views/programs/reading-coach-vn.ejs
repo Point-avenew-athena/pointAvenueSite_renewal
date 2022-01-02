@@ -1,0 +1,208 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.program-%></span> |
+            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title Montserrat">
+              Tổng quan khóa học
+            </h3>
+            <div class="text s_desc Montserrat">
+              "Hiểu những gì mình đọc" là kỹ năng quan trọng trong thời đại mà
+              học sinh được tiếp cận với các nguồn thông tin đa dạng. Nằm trong
+              chương trình tiếng Anh cho học sinh THCS, khoá "Đọc chuyên sâu"
+              giúp nuôi dưỡng niềm đam mê đọc, cũng như phát huy và củng cố tối
+              đa tối đa tư duy phản biện và phân tích thông tin của học sinh.
+              Các em sẽ được tiếp cận với nhiều thể loại bài đọc, từ những chủ
+              đề thực tiễn cho đến những tác phẩm văn học, qua đó nâng cao kỹ
+              năng đọc hiểu, đọc nhanh và thêm hứng khởi với các tác phẩm văn
+              chương.
+              <br />
+              <br />
+
+              Thông qua những hoạt động trao đổi và thảo luận chuyên sâu, các em
+              sẽ hiểu thêm về tầm quan trọng của việc đọc, trở nên tự tin và gắn
+              kết hơn với việc đọc sách. Cũng thông qua việc trau dồi kỹ năng
+              đọc hiểu, các em cũng sẽ học được cách lắng nghe và nhìn nhận vấn
+              đề một cách đa chiều, tự tin hơn trong việc thể hiện bản sắc cá
+              nhân và vận dụng tư duy phân tích thông tin để thể hiện quan điểm
+              của mình một cách thuyết phục và hiệu quả nhất.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Sign up for a FREE Diagnostic Test</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Thông tin cơ bản</h3>
+        <div class="course_detail_box">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Dành cho học sinh 11-13 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Thời gian học 17 tuần</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Tổng thời lượng 51 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03 Montserrat">
+            <li li class="Montserrat">
+              Tăng điểm Lexile (Thang điểm tiêu chuẩn dùng để đo lường khả năng
+              đọc hiểu của học sinh) thông qua trau dồi các kỹ năng:
+              <br />
+              - Học cách nhận diện cấu trúc của một bài văn, chủ đề, bối cảnh,
+              cảm xúc chủ đạo...
+              <br />
+              - Tìm hiểu những yếu tố có thể ảnh hưởng tới chủ đề và giọng điệu
+              của tác phẩm văn học như cách dùng từ, cấu trúc...
+              <br />
+              - Vận dụng tư duy phản biện và kỹ năng phân tích để nhận diện
+              những yếu tố trong một câu chuyện, bao gồm diễn biến tâm lý nhân
+              vật, các biểu hiện, mối quan hệ, các tình tiết dự đoán hay quan
+              điểm của tác giả với câu chuyện đó.
+            </li>
+            <li li class="Montserrat">
+              Nâng cao khả năng đọc nhanh:
+              <br />
+              - Củng cố kỹ thuật đọc nhanh và đọc lướt, đọc có chủ đích
+              <br />
+              - Vận dụng những kỹ năng để đọc hiểu các ý chính hiệu quả hơn,
+              đồng thời cũng giúp tăng tốc độ đọc.
+              <br />
+            </li>
+            <li li class="Montserrat">
+              Các em sẽ hoàn thành ít nhất 2 cuốn sách trong 12 tuần học, từ đó
+              có thêm niềm đam mê và hứng khởi với thói quen đọc sách thông qua
+              các hoạt động thảo luận và rèn luyện kỹ năng đọc thường xuyên.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              <strong>Các em sẽ được truy cập Renaissance myON Reader</strong>:
+              một trong những thư viện sách trực tuyến hàng đầu với hơn 6000 đầu
+              sách chất lượng dành cho học sinh với hệ thống phân loại có tính
+              cá nhân hóa, tối ưu phù hợp với từng nhu cầu, độ tuổi và trình độ
+              Lexile® của mỗi em học sinh.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>
