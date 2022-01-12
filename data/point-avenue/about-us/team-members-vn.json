@@ -1,0 +1,339 @@
+[
+  {
+    "id": 1,
+    "name": "Danny",
+    "position": "CEO",
+    "exp": [
+      "12 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Nhà sáng lập & CEO, Point Avenue",
+      "Đồng sáng lập & COO, New Pathway Education",
+      "Giám đốc, EIC Education",
+      "Đại úy, Biệt kích Lục quân Hoa Kỳ",
+      "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Samuel",
+    "position": "CTO",
+    "exp": [
+      "14 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Nhà sáng lập & CEO, New Pathway Education",
+      "CTO, EIC Education",
+      "Nhà sáng lập & CEO, NPX Capital",
+      "Nhà sáng lập & CEO, NPX teraArk",
+      "Thạc sĩ & Cử nhân, Viện Công nghệ Massachusetts"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Samuel.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tommy",
+    "position": "COO",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Đồng sáng lập & COO, Point Avenue",
+      "Chuyên viên tư vấn tại Ngân hàng Đầu tư, Goldman Sachs",
+      "Đại úy, Lực lượng đặc biệt của quân đội Hoa Kỳ",
+      "Thạc sĩ Quản trị Kinh doanh, Đại học Pennsylvania",
+      "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Trang",
+    "position": "CSO/Financial Controller",
+    "exp": [
+      "13 năm kinh nghiệm trong lĩnh vực Tài chính",
+      "Finance Controller, Point Avenue",
+      "Giám đốc tư vấn, Deloitte",
+      "Quản lý Kiểm toán, Deloitte",
+      "Trưởng ban Phát triển Bền vững, Deloitte",
+      "Team Lead, Deloitte Private",
+      "ACCA, CIA, CPA"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Blake",
+    "position": "Giám đốc",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Tài chính",
+      "Giám đốc tài chính, Superleaf, Inc.",
+      "Ngân hàng Đầu tư, J.P. Morgan",
+      "Private Equity, BBH Capital Partners",
+      "M&A, Brown Brothers Harriman",
+      "Cử nhân, Dartmouth College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dan",
+    "position": "Giám đốc Trung tâm, PAV Hanoi 1",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Quản lý Sales và Phân phối khu vực Trung Tây và Tây Nam Mỹ tại Stumptown Coffee Roasters",
+      "Cố vấn tâm lý - trị liệu, Tổ chức Giáo dục Youth Opportunities Upheld",
+      "Cố vấn Nội trú & Giáo viên Trại hè, Youth Opportunities Upheld",
+      "Cử nhân, Đại học Massachusetts, Amherst"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dan.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Linh",
+    "position": "Giám đốc Trung tâm, PAV Hanoi 2",
+    "exp": [
+      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Tư vấn cấp cao & Trưởng nhóm dự án, Marsh Vietnam Insurance Broking Co., Ltd",
+      "Thạc sĩ & Cử nhân, Đại học Kinh tế Quốc dân"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+  },
+  {
+    "id":8,
+    "name": "Lan-Dinh",
+    "position": "Giám đốc Trung tâm, PAT Bangkok",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Phó Chủ tịch Cấp cao, Ngân hàng Bank of America",
+      "Đại úy, Quân đội Hoa Kỳ",
+      "Cử nhân,  Học viện Quân sự Hoa Kỳ tại West Point",
+      "Đã đạt Chứng chỉ TEFL & Test Prep"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Lan-Dinh.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jinny",
+    "position": "Phó Giám đốc Trung tâm, PAV",
+    "exp": [
+      "7 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Quản lý Trung tâm, ILA & Language Link Vietnam",
+      "Trưởng bộ phận Giám thị IELTS, IDP Education",
+      "Cử nhân, International Pacific College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Doris",
+    "position": "Phó Giám đốc Trung tâm, PAT",
+    "exp": [
+      "6 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Nhà sáng lập & CEO, Diligence Code",
+      "Tư vấn Quản lý, AT Kearney",
+      "Cử nhân, University of Virginia",
+      "Chứng chỉ TEFL & Design Thining and Innovation"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Doris.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Honda",
+    "position": "Cố vấn Chiến lược",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Đồng sáng lập & Cố vấn Chiến lược, Point Avenue",
+      "Cử nhân, Đại học Thammasat, Đại học Nottingham, và Đại học Cambridge",
+      "Thạc sĩ Khoa học Giáo dục, Đại học Johns Hopkins",
+      "Chứng chỉ Early Childhood Leadership, Trường Cao học Harvard về Giáo dục"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Myles",
+    "position": "Trưởng bộ phận Nghiên cứu và Phát triển",
+    "exp": [
+      "12+ năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Giám đốc Trại North Woods Camp tại YMCA, Greater Boston",
+      "Tiến sĩ Giáo dục, Đại học New Hampshire",
+      "Cử nhân, Đại học Massachusetts Amherst",
+      "Tác giả của nhiều bài báo học thuật về trại hè, sáng tạo, động lực và quản lý tài nguyên thiên nhiên (Tạp chí Phát triển Thanh niên, Nghiên cứu Năng lượng và Khoa học Xã hội, Tạp chí Du lịch và Giải trí Ngoài trời)"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Edward",
+    "position": "Trưởng bộ phận Đào tạo",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Giám đốc Miền Nam, Bộ phận Quản lý Học vụ, Apax Leaders",
+      "Quản lý Khoa & Giảng viên Bán thời gian, Chungdahm Learning",
+      "Kiểm toán viên, Ernst & Young, LLP",
+      "Thạc sĩ, Đại học New Hampshire",
+      "Cử nhân, Đại học Washington"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Charles",
+    "position": "Trưởng bộ phận Chương trình Luyện Thi Quốc tế",
+    "exp": [
+      "18 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Giám đốc điều hành & Giám đốc Icon Institute, Chung Dahm Learning",
+      "Trợ lý Giám đốc điều hành, Chase Academy",
+      "Cử nhân, Đại học California",
+      "Hơn 15 năm làm giáo viên Luyện thi với hàng trăm học sinh đạt điểm SAT trên 1400 và 1500"
+    ],
+
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Hyewon",
+    "position": "Trưởng bộ phận Tranh biện",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Đồng sáng lập, Debate for All",
+      "Huấn luyện viên Trưởng đội tuyển Tranh biện (WSDC) Việt Nam (2020-)",
+      "Cựu Huấn luyện viên đội tuyển WSDC Hàn Quốc (2014-2019)"
+
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
+  },
+  
+  {
+    "id": 16,
+    "name": "Diep",
+    "position": "Trưởng bộ phận Marketing",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Marketing",
+      "Giám đốc Marketing, Học viện Apax Franklin",
+      "Corporate Engagement Manager, Bayer Vietnam",
+      "Phó Giám đốc Marketing, Language Link Vietnam",
+      "Thạc sĩ, Đại học London Metropolitan"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Diep.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Phuong",
+    "position": "Trưởng bộ phận Nhân sự",
+    "exp": [
+      "5 năm kinh nghiệm trong lĩnh vực Nhân sự",
+      "Chuyên viên Nhân sự cấp cao, Openasia Group",
+      "Chuyên viên Nhân sự, Listening Ear Crisis Center, Mount Pleasant",
+      "Thạc sĩ, Đại học Central Michigan"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Phuong.jpg"
+  },
+  
+  {
+    "id": 18,
+    "name": "Ngan",
+    "position": "Trưởng bộ phận Sản xuất nội dung",
+    "exp": [
+      "8 năm kinh nghiệm Sản xuất Truyền hình",
+      "Phóng viên, Biên tập viên kiêm MC, Đài Truyền hình Việt Nam",
+      "Trưởng phòng PR và Truyền thông, Mediplus JSC.",
+      "Cử nhân & Thạc sĩ, Học viện Báo chí & Tuyên truyền"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
+  },
+  
+  {
+    "id": 19,
+    "name": "John",
+    "position": "Trưởng bộ phận Tư vấn Du học",
+    "exp": [
+      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Ban điều hành, Lambda Phi Epsilon, Alpha Chapter",
+      "Chuyên gia phân tích kinh doanh & Điều phối viên, Nativo, Inc.",
+      "Videographer of Training Videos, Trumpia",
+      "Cử nhân, University of California, Los Angeles (UCLA)"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
+  },
+  
+  {
+    "id": 20,
+    "name": "Anh-Thu",
+    "position": "Phó Trưởng phòng Tư vấn Du học, PAV",
+    "exp": [
+      "6 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Chuyên viên Bán hàng & Tiếp thị, UGA Athletics Association",
+      "Chuyên viên, Digital Marketing, Giftfluence",
+      "Cử nhân, University of Georgia",
+      "Cử nhân, Stellenbosch University Peer-to-Peer College Mentor"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Anh-Thu.JPG"
+  },
+  
+  {
+    "id": 21,
+    "name": "Justin",
+    "position": "Phó Trưởng phòng Tư vấn Du học, PAT",
+    "exp": [
+      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Giám đốc điều hành và Trưởng phòng Tuyển sinh Đại học, CIALFO Consulting",
+      "Chủ tịch, VR/AR Association",
+      "Đồng sáng lập, Creative XR Labs",
+      "Cử nhân, Northwestern University"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Justin.jpg"
+  },
+  
+  {
+    "id": 22,
+    "name": "Tom",
+    "position": "Trưởng phòng Đào tạo",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Cựu trợ lý bệnh lý Y tế và Pháp y",
+      "Cử nhân, Illinois State University",
+      "Chuyên gia Giáo dục đặc biệt cho trẻ nhỏ" 
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tom.png"
+  },
+  
+  {
+    "id": 23,
+    "name": "Sanghyun",
+    "position": "CEO, Athena",
+    "exp": [
+      "10 năm kinh nghiệm trong lĩnh vực Công nghệ Giáo dục",
+      "Giám đốc điều hành, Lconnected, inc",
+      "Quản lý, EIC Education",
+      "Quản lý, Publicis Modem",
+      "Cử nhân, Seoul Digital University"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Sanghyun.jpg"
+  },
+  
+  {
+    "id": 24,
+    "name": "Nick",
+    "position": "Trưởng phòng Phát triển Sản phẩm Công nghệ",
+    "exp": [
+      "4 năm kinh nghiệm trong lĩnh vực Công nghệ Giáo dục",
+      "Product Manager, JP Morgan Asset Management",
+      "Kỹ sư phần mềm, JPMorganFunds.com",
+      "Cử nhân, Syracuse University"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
+  },
+  
+  {
+    "id": 25,
+    "name": "Trent",
+    "position": "Kiến trúc sư phần mềm",
+    "exp": [
+      "4 năm kinh nghiệm trong lĩnh vực Công nghệ Giáo dục",
+      "Trưởng nhóm phát triển, Mobyus & Valuechain",
+      "Trưởng nhóm phát triển, Neomtel",
+      "Kiến trúc sư phần mềm, Kolon Benit",
+      "Kỹ sư phần mềm, Onse Telecom",
+      "Cử nhân, Chungang University"
+    ],
+
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trent.jpg"
+  }
+]
