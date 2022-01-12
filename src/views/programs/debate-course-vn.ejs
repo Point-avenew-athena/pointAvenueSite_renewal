@@ -12,7 +12,7 @@
 <%- include("../partials/head_end") %>
 <%- include("../partials/body_start") %>
 <div class="wrap sub all_debate_courses">
-  	<%- include("../partials/gnb") %>
+  	<%- include("../partials/gnb-vn") %>
     	<!-- container :: start -->
 		<div class="container">
 			<section class="visual_wrap">
@@ -39,7 +39,7 @@
 							<p class="title_r_02 section_title">Danh sách các khóa học</p>
 							<ul class="class_box_type_01">
 								<% for(const course of courses) { %>
-									<%- include('../partials/course_list_item', { course }) %>
+									<%- include('../partials/course_list_item_vn', { course }) %>
 								 <% } %>
 							</ul>
 						</div>
@@ -125,7 +125,7 @@
 		</div>
 		<!--container :: end-->
 
-    <%- include("../partials/footer") %>
+    <%- include("../partials/footer-vn") %>
 		<%- include("../partials/common_popup") %>
 		<div class="layer_popup testimonials_popup">
 			<div class="popup_cont">

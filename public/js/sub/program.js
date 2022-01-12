@@ -11,6 +11,7 @@ const courseFilter = (option, value, on) => {
 }
 
 const getCourses = (type, limit) => {
+  console.log(courses);
   let typeCourses = courses;
   switch(type) {
     case 'elementary':
