@@ -1,0 +1,148 @@
+<%- include("partials/head_start") %>
+<title>Point Avenue TV - Point Avenue</title>
+<meta name="keywords" content="Point Avenue TV, Point Avenue">
+<meta name="title" content="Point Avenue TV - Point Avenue">
+<meta property="og:title" content="Point Avenue TV - Point Avenue">
+
+<%- include("partials/common_styles") %>
+<%- include("partials/common_scripts") %>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+<script>
+	const tv = <%- JSON.stringify(tv) %>;
+</script>
+<%- include("partials/head_end") %>
+<%- include("partials/body_start") %>
+
+<div class="wrap sub point_avenue_tv">
+  <%- include("partials/gnb") %>
+  <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">POINT AVENUE TV</h2>
+					</div>
+				</div>
+			</section>
+			<section class="spotlight_wrap">
+				<div class="section_inner">
+					<div class="grid_type_wrap_01">
+						<div class="main_article">
+							<%
+								const mainTV = tv[0];
+							%>
+							<div class="article_box">
+								<div class="video_box">
+									<iframe src="<%= tv[0].embeddedUrl %>" title="<%= tv[0].title %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<a href="<%= tv[0].blankUrl %>" target="_blank">
+									<h3 class="title_r_02 section_title_02"><%= tv[0].title %></h3>
+									<p class="text--gray"><%- tv[0].excerpt %></p>
+								</a>
+							</div>
+						</div>
+						<div class="sub_article">
+							<h3 class="title_r_02 section_title">Spotlight</h3>
+							<ul style="height: 474px; overflow-y: scroll;">
+							<% 
+								const filteredTV = tv.filter(tv => tv.subType === "none");
+							%>
+							<% for ( let i = 1; i < filteredTV.length; i++){ %> 
+								<li>
+									<div class="video_box">
+										<iframe src="<%= filteredTV[i].embeddedUrl%>" title="<%=  filteredTV[i].title %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="text_box">
+										<p class="text--gray date"><%= filteredTV[i].date %></p>
+										<p class="text--gray duration">Duration: <%= filteredTV[i].duration %></p>
+										<p class="title_r_03"><a href="<%= filteredTV[i].blankUrl%>" target="_blank"><%= filteredTV[i].title %></a></p>
+									</div>
+								</li>
+							<% } %>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="tip_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Admissions Tips</h3>
+					<ul class="box_type_01 courses_list video_list">
+						<% 
+							const filteredAdmissionTip = tv.filter(tv => tv.subType === "Admission Tip");
+						%>
+						<% for ( let i = 0; i < filteredAdmissionTip.length; i++) { %>
+							<li class="box_type_01--item courses_item">
+								<div class="box_type_01--video">
+									<iframe src="<%= filteredAdmissionTip[i].embeddedUrl %>" title="<%= filteredAdmissionTip[i].title %>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<div class="box_type_01--desc courses_desc_box">
+									<div class="info">
+										<p class="date"><%= filteredAdmissionTip[i].date %></p>
+										<p class="duration">Duration: <%= filteredAdmissionTip[i].duration %></p>
+									</div>
+									<a href="<%= filteredAdmissionTip[i].blankUrl %>" target="_blank">
+										<p class="title_r_03"><%= filteredAdmissionTip[i].title %></p>
+										<div class="desc_text">
+											<%- filteredAdmissionTip[i].excerpt %>
+										</div>
+									</a>
+									<a href="<%= filteredAdmissionTip[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
+										<span class="btn_inner">Watch Now</span>
+									</a>
+								</div>
+						</li>
+						<% } %>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="at_point_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
+					<ul class="box_type_01 courses_list video_list">
+						<%
+							const filteredWhatsOnAtPA = tv.filter(tv => tv.subType === "Whats on at Point Avenue");
+						%>
+						<% for ( let i = 0; i < filteredWhatsOnAtPA.length; i++){ %>
+							<li class="box_type_01--item courses_item">
+								<div class="box_type_01--video">
+									<iframe src="<%= filteredWhatsOnAtPA[i].embeddedUrl %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+								<div class="box_type_01--desc courses_desc_box">
+									<div class="info">
+										<p class="date"><%= filteredWhatsOnAtPA[i].date%></p>
+										<p class="duration">Duration: <%= filteredWhatsOnAtPA[i].duration %></p>
+									</div>
+									<a href="<%= filteredWhatsOnAtPA[i].blankUrl %>" target="_blank">
+										<p class="title_r_03"><%= filteredWhatsOnAtPA[i].title %></p>
+										<div class="desc_text">
+											<%- filteredWhatsOnAtPA[i].excerpt %>
+										</div>
+									</a>
+									<a href="<%= filteredWhatsOnAtPA[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
+										<span class="btn_inner">Watch Now</span>
+									</a>
+								</div>
+							</li>
+						<% } %>
+					</ul>
+				</div>
+			</section>
+			
+			<section class="youtube_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02">For more videos, visit our Youtube Channel!</h3>
+					<a href="https://www.youtube.com/channel/UC5A3YP-6-Ir4UAIeCLA4SzQ" target="_blank" class="btn_type_01--sec">
+						<span class="btn_inner">Visit Now</span>
+					</a>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+    <%- include("partials/footer") %>
+		<%- include("partials/common_popup") %>
+</div>
+<%- include("partials/body_end") %>

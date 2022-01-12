@@ -26,7 +26,7 @@ router.get("/about-us", (req, res) => {
 });
 
 router.get("/vn/about-us", (req, res) => {
-  const teamMembers = require("../data/point-avenue/about-us/team-members.json");
+  const teamMembers = require("../data/point-avenue/about-us/team-members-vn.json");
   const locations = require("../data/point-avenue/about-us/locations.json");
   const metaData = {
     name: "About us",
@@ -43,11 +43,22 @@ router.get("/careers", (req, res) => {
   res.render("careers");
 });
 
+router.get("/vn/careers", (req, res) => {
+  res.render("careers-vn");
+});
+
 router.get("/news", (req, res) => {
   const news = require("../data/point-avenue/news/news.json");
   const tv = require("../data/point-avenue/news/tv.json").slice(0, 3);
 
   res.render("news", { news, tv });
+});
+
+router.get("/vn/news", (req, res) => {
+  const news = require("../data/point-avenue/news/news.json");
+  const tv = require("../data/point-avenue/news/tv.json").slice(0, 3);
+
+  res.render("news-vn", { news, tv });
 });
 
 //* newsletter 리스트 페이지
@@ -81,6 +92,11 @@ router.get("/news/list/articles", (req, res) => {
 router.get("/tv", (req, res) => {
   const tv = require("../data/point-avenue/news/tv.json");
   res.render("tv", { tv });
+});
+
+router.get("/vn/tv", (req, res) => {
+  const tv = require("../data/point-avenue/news/tv.json");
+  res.render("tv-vn", { tv });
 });
 
 module.exports = router;
