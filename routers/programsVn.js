@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const courses = require("../data/courses");
-const teachers = require("../data/teachers.json");
+const courses = require("../data/courses-vn");
+const teachers = require("../data/teachers-vn.json");
 const locations = require("../data/point-avenue/about-us/locations.json");
 const ageFilter = (ageText, value) => {
   const [min, max] = ageText.split("-");
@@ -194,7 +194,7 @@ router.get("/middle-school-courses", function (req, res) {
       teacher.position = teacher.job;
       return teacher;
     });
-  res.render("programs/middle-school-course", {
+  res.render("programs/middle-school-course-vn", {
     options: options(filterCourse),
     courses: filterCourse,
     teamMembers: middleHighTeachersData,
@@ -210,7 +210,7 @@ router.get("/debate-courses", function (req, res) {
       teacher.position = teacher.job;
       return teacher;
     });
-  res.render("programs/debate-course", {
+  res.render("programs/debate-course-vn", {
     options: options(filterCourse),
     courses: filterCourse,
     teamMembers: debateTeachersData,
@@ -228,7 +228,7 @@ router.get("/test-preparation-courses", function (req, res) {
       teacher.position = teacher.job;
       return teacher;
     });
-  res.render("programs/test-preparation", {
+  res.render("programs/test-preparation-vn", {
     options: options(filterCourse),
     courses: filterCourse,
     teamMembers: testPrepTeachersData,

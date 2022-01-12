@@ -1,0 +1,173 @@
+<%- include("../partials/head_start") %>
+<title>Test Preparation Courses - Point Avenue</title>
+<meta name="keywords" content="Test Preparation Courses, Point Avenue, SAT, English Learning">
+<meta name="description" content="Point Avenue's test preparation courses cater to novice, intermediate, and advanced level students. Each course level will equip students with a personalized roadmap to academic preparedness and linguistic fluency. Our courses range from pre levels for elementary (TOEFL) to middle school (SSAT, IELTS, IGCSE) and high school students cramming for the SAT, AP, or IB.">
+<meta property="og:title" content="Test Preparation Courses - Point Avenue">
+<meta property="og:description" content="Point Avenue's test preparation courses cater to novice, intermediate, and advanced level students. Each course level will equip students with a personalized roadmap to academic preparedness and linguistic fluency. Our courses range from pre levels for elementary (TOEFL) to middle school (SSAT, IELTS, IGCSE) and high school students cramming for the SAT, AP, or IB.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/classes_visual.png">
+
+<%- include("../partials/common_styles") %>
+
+<%- include("../partials/head_end") %>
+<%- include("../partials/body_start") %>
+<div class="wrap sub all_test_prep_courses">
+  <%- include("../partials/gnb-vn") %>
+    <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">Khóa học luyện thi quốc tế</h2>
+					</div>
+				</div>
+			</section>
+			<section class="classes_grid_wrap">
+				<div class="section_inner">
+					<div class="text desc_box">
+						Các khóa học luyện thi của Point Avenue được thiết kế cho học viên từ lớp 7 đến lớp 11 bao gồm các cấp độ từ sơ cấp tiểu học ((TOEFL) đến trung học cơ sở (SSAT, IELTS, IGCSE) và cấp trung học (SAT, AP hoặc IB). Tại Point Avenue, học viên sẽ được cố vấn cá nhân hóa lộ trình học tập để sẵn sàng cho các kỳ thi chứng chỉ quốc tế và đạt được điểm số mong muốn.
+					</div>
+					<!-- option_wrap :: start -->
+					<%- include('../partials/course_filter'); %>					
+					<!-- option_wrap :: end -->
+					<!-- courses_wrap :: start -->
+					<div class="courses_wrap">
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box">
+							<p class="title_r_02 section_title">Danh sách các khóa học</p>
+							<ul class="class_box_type_01">
+								<% for(const course of courses) { %>
+									<%- include('../partials/course_list_item_vn', { course }) %>
+								 <% } %>
+							</ul>
+						</div>
+						<!-- courses_type_box :: end -->
+					</div>
+					<!-- courses_wrap :: end -->
+				</div>
+			</section>
+			<section class="model_wrap">
+				<div class="section_inner">
+					<div class="text_box" style="padding-top:0">
+						<h3 class="title_r_02 section_title">Phương pháp giảng dạy:</h3>
+						<p>Với phương pháp tiếp cận toàn diện, các giáo viên của Point Avenue đóng vai trò cố vấn đồng hành cùng học sinh trong suốt quá trình học tập. Mô hình lớp học nhỏ (giới hạn số lượng học viên) hoặc cố vấn 1:1 cho phép các giáo viên có thể dễ dàng cá nhân hóa lộ trình học, biết rõ điểm mạnh, điểm yếu từ đó tối ưu hóa điểm số mong muốn.</p>
+						<p style="margin-bottom:20px">Tại Point Avenue, chúng tôi tin rằng để thành công trong học tập cần phải có:</p>
+						<ul class="ul_type_03">
+							<li>Trí tuệ & Nhân cách</li>
+							<li>Thói quen học tập chủ động & hiệu quả</li>
+							<li>Chủ động tìm hiểu kiến thức</li>
+							<li>Trách nhiệm của học viên vào chính quá trình trình học tập</li>
+						</ul>
+						<div class="text desc_box">
+							<p class="title_r_03" style="margin-top:20px;line-height: 2rem;">Trong 10 năm qua, đội ngũ cố vấn luyện thi giỏi chuyên môn và giàu kinh nghiệm tại Point Avenue tự hào được đồng hành cùng các em học sinh tại Trung Quốc, Hàn Quốc và Việt Nam. Phương pháp tiếp cận toàn diện của chúng tôi sẽ giúp các em đạt được mục tiêu học tập cá nhân, và gặt hái thành quả xứng đáng với những nỗ lực của mình.
+								<a href="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/pdf/Spring+2022+test+prep+results.pdf" target="_blank" class="btn_type_01" style="vertical-align: middle;">See our full results</a></p>
+						</div>
+					</div>
+					<div class="model_img_box">
+						<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/teaching_methodology.jpg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="mentors_wrap noPop">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Gặp gỡ đội ngũ cố vấn</h3>
+					 <!-- 선생 리스트 swiper-->
+          <%- include("../partials/team-members") %>
+				</div>
+			</section>
+			<section class="testimonials_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Testimonials</h3>
+					<div class="swipe_type_01_wrap results_swiper_01">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_02 team_list">
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-09.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-10.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-11.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-12.png" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-13.png" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="info_input_wrap">
+				<div class="typeform-widget" data-url="https://form.typeform.com/to/euBzBBld?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+			</section>
+		</div>
+		<!--container :: end-->
+    <%- include("../partials/footer-vn") %>
+		<%- include("../partials/common_popup") %>
+		<div class="layer_popup testimonials_popup">
+			<div class="popup_cont">
+				<div class="img_box">
+					<img src="" alt="">
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
+		</div>
+</div>
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js?v=20210604a"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
+<script>
+	const courseTemplate = `<%- include("../partials/course_list_item_vn", { course: null }); %>`;
+	const teamMembers = <%- JSON.stringify(teamMembers) %>;
+	const courses = <%- JSON.stringify(courses) %>;
+	$(function(){
+		const type = 'test';
+		const limit = 0;
+		renderCourse(type, limit);
+		
+		// 필터 클릭시
+		$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+			const on = this.checked;
+			const value = this.value;
+			const option = this.dataset.option;
+			courseFilter(option, value, on);
+			renderCourse(type, limit);
+		});
+
+		// sort
+		$('.sort_by_box .sort_kind_item a').click(function() {
+			courseSort = this.dataset.value;
+		});
+	});
+</script>
+<%- include("../partials/body_end") %>
