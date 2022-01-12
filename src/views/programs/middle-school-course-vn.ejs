@@ -1,264 +1,224 @@
 <%- include("../partials/head_start") %>
-<title>Middle school Courses - Point Avenue</title>
-<meta
-  name="keywords"
-  content="Middle school Courses, Point Avenue, SAT, English Learning"
-/>
-<meta
-  name="description"
-  content="Point Avenue's Middle School program supports children ranging from Grade 5 to Grade 8 (11-14 years old). In Middle School, students are in a developmental learning stage in which academics, personal interests, and social connection are of the highest importance. Point Avenue's Middle School program is focused on enhancing both academic (English proficiency, writing, grammar, reading) and leadership skills (public speaking, habit building, confidence) to better prepare students for success and growth as they navigate this complex phase of life. Our Middle School program offers both English learning (ELA) and enrichment courses (Pages, Ink, Life Coaching) in order to provide a more holistic and well-rounded approach to education. Our teachers primary goal is to help mentor and guide your child to be the best version of themselves and develop leadership skills that will last a lifetime. Throughout our courses, your child will be provided with individualized feedback, educational recommendations, and a parent teacher conference."
-/>
-<meta property="og:title" content="Middle school Courses - Point Avenue" />
-<meta
-  property="og:description"
-  content="Point Avenue's Middle School program supports children ranging from Grade 5 to Grade 8 (11-14 years old). In Middle School, students are in a developmental learning stage in which academics, personal interests, and social connection are of the highest importance. Point Avenue's Middle School program is focused on enhancing both academic (English proficiency, writing, grammar, reading) and leadership skills (public speaking, habit building, confidence) to better prepare students for success and growth as they navigate this complex phase of life. Our Middle School program offers both English learning (ELA) and enrichment courses (Pages, Ink, Life Coaching) in order to provide a more holistic and well-rounded approach to education. Our teachers primary goal is to help mentor and guide your child to be the best version of themselves and develop leadership skills that will last a lifetime. Throughout our courses, your child will be provided with individualized feedback, educational recommendations, and a parent teacher conference."
-/>
-<meta property="og:type" content="website" />
-<meta
-  property="og:image"
-  content="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/ms_visual.png"
-/>
+  <title>Middle school Courses - Point Avenue</title>
+  <meta name="keywords" content="Middle school Courses, Point Avenue, SAT, English Learning" />
+  <meta name="description"
+    content="Point Avenue's Middle School program supports children ranging from Grade 5 to Grade 8 (11-14 years old). In Middle School, students are in a developmental learning stage in which academics, personal interests, and social connection are of the highest importance. Point Avenue's Middle School program is focused on enhancing both academic (English proficiency, writing, grammar, reading) and leadership skills (public speaking, habit building, confidence) to better prepare students for success and growth as they navigate this complex phase of life. Our Middle School program offers both English learning (ELA) and enrichment courses (Pages, Ink, Life Coaching) in order to provide a more holistic and well-rounded approach to education. Our teachers primary goal is to help mentor and guide your child to be the best version of themselves and develop leadership skills that will last a lifetime. Throughout our courses, your child will be provided with individualized feedback, educational recommendations, and a parent teacher conference." />
+  <meta property="og:title" content="Middle school Courses - Point Avenue" />
+  <meta property="og:description"
+    content="Point Avenue's Middle School program supports children ranging from Grade 5 to Grade 8 (11-14 years old). In Middle School, students are in a developmental learning stage in which academics, personal interests, and social connection are of the highest importance. Point Avenue's Middle School program is focused on enhancing both academic (English proficiency, writing, grammar, reading) and leadership skills (public speaking, habit building, confidence) to better prepare students for success and growth as they navigate this complex phase of life. Our Middle School program offers both English learning (ELA) and enrichment courses (Pages, Ink, Life Coaching) in order to provide a more holistic and well-rounded approach to education. Our teachers primary goal is to help mentor and guide your child to be the best version of themselves and develop leadership skills that will last a lifetime. Throughout our courses, your child will be provided with individualized feedback, educational recommendations, and a parent teacher conference." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/ms_visual.png" />
 
-<%- include("../partials/common_styles") %> <%- include("../partials/head_end")
-%> <%- include("../partials/body_start") %>
-<div class="wrap sub all_ms_courses">
-  <%- include("../partials/gnb") %>
-  <!-- container :: start -->
-  <div class="container">
-    <section class="visual_wrap">
-      <div class="section_inner">
-        <div class="text_box">
-          <h2 class="title_r_01">MIDDLE SCHOOL COURSES</h2>
-        </div>
-      </div>
-    </section>
-    <section class="classes_grid_wrap">
-      <div class="section_inner">
-        <div class="text desc_box">
-          <strong>Point Avenue's Middle School program</strong> supports
-          children ranging from Grade 5 to Grade 8 (11-14 years old). In Middle
-          School, students are in a developmental learning stage in which
-          academics, personal interests, and social connection are of the
-          highest importance. Point Avenue's Middle School program is focused on
-          enhancing both academic (English proficiency, writing, grammar,
-          reading) and leadership skills (public speaking, habit building,
-          confidence) to better prepare students for success and growth as they
-          navigate this complex phase of life. Our Middle School program offers
-          both English learning (ELA) and enrichment courses (Pages, Ink, Life
-          Coaching) in order to provide a more holistic and well-rounded
-          approach to education. Our teachers primary goal is to help mentor and
-          guide your child to be the best version of themselves and develop
-          leadership skills that will last a lifetime. Throughout our courses,
-          your child will be provided with individualized feedback, educational
-          recommendations, and a parent teacher conference.
-        </div>
-        <!-- option_wrap :: start -->
-        <%- include('../partials/course_filter'); %>
-        <!-- option_wrap :: end -->
-        <!-- courses_wrap :: start -->
-        <div class="courses_wrap">
-          <!-- courses_type_box :: start -->
-
-          <div class="courses_type_box">
-            <p class="title_r_02 section_title">Danh sách các khóa học</p>
-            <ul class="class_box_type_01">
-              <% for(const course of courses) { %> <%-
-              include('../partials/course_list_item', { course }) %> <% } %>
-            </ul>
-          </div>
-          <!-- courses_type_box :: end -->
-        </div>
-        <!-- courses_wrap :: end -->
-      </div>
-    </section>
-    <section class="model_wrap">
-      <div class="section_inner">
-        <div class="text_box">
-          <h3 class="title_r_02 section_title">Teaching Methodology</h3>
-          <p class="title_r_03">
-            <strong class="t_yellow"
-              >Các khoá học đều ứng dụng phương pháp học tập dựa trên “Tìm tòi -
-              Khám phá”</strong
-            >
-            (Inquiry-based learning), kết hợp với các hoạt động thảo luận và
-            tương tác trong lớp để khơi dạy trí tò mò và thúc đẩy các em chủ
-            động đưa ra quan điểm cá nhân về chủ đề bài học.
-          </p>
-          <p class="text">
-            Từ đó, các em sẽ có thể cải thiện kỹ năng giao tiếp, rèn luyện tính
-            chủ động, và phát triển tư duy phản biện.
-          </p>
-        </div>
-        <div class="model_img_box">
-          <img
-            src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/model_img2.png"
-            alt=""
-          />
-          <p class="title_r_03">The 5E Model</p>
-        </div>
-      </div>
-    </section>
-    <section class="mentors_wrap">
-      <div class="section_inner">
-        <h3 class="title_r_02 section_title">Gặp gỡ đội ngũ cố vấn</h3>
-        <!-- 선생 리스트 swiper-->
-        <%- include("../partials/team-members") %>
-      </div>
-    </section>
-    <section class="testimonials_wrap">
-      <div class="section_inner">
-        <h3 class="title_r_02 section_title">Testimonials</h3>
-        <div class="swipe_type_01_wrap results_swiper_01">
-          <div class="swiper-container">
-            <ul class="swiper-wrapper swipe_type_02 team_list">
-              <li class="swiper-slide swipe_type_02--item team_item">
-                <a href="javascript:void(0);">
-                  <div class="swipe_type_02--img team_img">
-                    <img
-                      src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-14.png"
-                      alt=""
-                    />
+  <%- include("../partials/common_styles") %>
+    <%- include("../partials/head_end") %>
+      <%- include("../partials/body_start") %>
+        <div class="wrap sub all_ms_courses">
+          <%- include("../partials/gnb-vn") %>
+            <!-- container :: start -->
+            <div class="container">
+              <section class="visual_wrap">
+                <div class="section_inner">
+                  <div class="text_box">
+                    <h2 class="title_r_01">MIDDLE SCHOOL COURSES</h2>
                   </div>
-                </a>
-              </li>
-              <li class="swiper-slide swipe_type_02--item team_item">
-                <a href="javascript:void(0);">
-                  <div class="swipe_type_02--img team_img">
-                    <img
-                      src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-15.png"
-                      alt=""
-                    />
+                </div>
+              </section>
+              <section class="classes_grid_wrap">
+                <div class="section_inner">
+                  <div class="text desc_box">
+                    <strong>Chương trình Tiếng Anh & Kỹ năng Trung học</strong> được thiết kế dành riêng cho các em học
+                    sinh từ lớp 5 - lớp 8 (11- 14 tuổi). Đây là giai đoạn phát triển quan trọng đối với lứa tuổi trung
+                    học, bao gồm cả học thuật, sở thích cá nhân, và các mối quan hệ xã hội. Tại Point Avenue, các chương
+                    trình tập trung phát triển kỹ năng học thuật bao gồm (Tiếng Anh học thuật, viết, ngữ pháp, đọc ) và
+                    khả năng lãnh đạo (thuyết trình, xây dựng thói quen lành mạnh, và tự tin) giúp các em sẵn sàng và
+                    thành công cho môi trường toàn cầu trong tương lai.
+
+                    Các chuyên gia tại Point Avenue đã xây dựng chương trình dành cho lứa tuổi trung học gồm các khóa
+                    học Tiếng Anh (ELA), các khóa học nâng cao kỹ năng học thuật (Đọc, Viết) và khóa Huấn Luyện Cuộc
+                    Sống (Life Coaching) theo hướng tiếp cận phát triển toàn diện. Mục tiêu của chúng tôi là giúp các em
+                    trở thành phiên bản tốt nhất của chính mình và trau dồi các kỹ năng lãnh đạo. Trong suốt khoá học,
+                    các thầy cô sẽ liên tục đưa ra nhận xét và đề xuất dành cho từng cá nhân học sinh thông qua những
+                    buổi họp phụ huynh.
                   </div>
-                </a>
-              </li>
-              <li class="swiper-slide swipe_type_02--item team_item">
-                <a href="javascript:void(0);">
-                  <div class="swipe_type_02--img team_img">
-                    <img
-                      src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-16.png"
-                      alt=""
-                    />
+                  <!-- option_wrap :: start -->
+                  <%- include('../partials/course_filter'); %>
+                    <!-- option_wrap :: end -->
+                    <!-- courses_wrap :: start -->
+                    <div class="courses_wrap">
+                      <!-- courses_type_box :: start -->
+
+                      <div class="courses_type_box">
+                        <p class="title_r_02 section_title">Danh sách các khóa học</p>
+                        <ul class="class_box_type_01">
+                          <% for(const course of courses) { %>
+                            <%- include('../partials/course_list_item', { course }) %>
+                              <% } %>
+                        </ul>
+                      </div>
+                      <!-- courses_type_box :: end -->
+                    </div>
+                    <!-- courses_wrap :: end -->
+                </div>
+              </section>
+              <section class="model_wrap">
+                <div class="section_inner">
+                  <div class="text_box">
+                    <h3 class="title_r_02 section_title">Phương pháp giảng dạy</h3>
+                    <p class="title_r_03">
+                      <strong class="t_yellow">Các khoá học đều ứng dụng phương pháp học tập dựa trên “Tìm tòi -
+                        Khám phá”</strong>
+                      (Inquiry-based learning), kết hợp với các hoạt động thảo luận và
+                      tương tác trong lớp để khơi dạy trí tò mò và thúc đẩy các em chủ
+                      động đưa ra quan điểm cá nhân về chủ đề bài học.
+                    </p>
+                    <p class="text">
+                      Từ đó, các em sẽ có thể cải thiện kỹ năng giao tiếp, rèn luyện tính
+                      chủ động, và phát triển tư duy phản biện.
+                    </p>
                   </div>
-                </a>
-              </li>
-              <li class="swiper-slide swipe_type_02--item team_item">
-                <a href="javascript:void(0);">
-                  <div class="swipe_type_02--img team_img">
+                  <div class="model_img_box">
                     <img
-                      src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-17.png"
-                      alt=""
-                    />
+                      src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/model_img2.png"
+                      alt="" />
+                    <p class="title_r_03">The 5E Model</p>
                   </div>
-                </a>
-              </li>
-            </ul>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-          </div>
+                </div>
+              </section>
+              <section class="mentors_wrap">
+                <div class="section_inner">
+                  <h3 class="title_r_02 section_title">Gặp gỡ đội ngũ cố vấn</h3>
+                  <!-- 선생 리스트 swiper-->
+                  <%- include("../partials/team-members") %>
+                </div>
+              </section>
+              <section class="testimonials_wrap">
+                <div class="section_inner">
+                  <h3 class="title_r_02 section_title">Testimonials</h3>
+                  <div class="swipe_type_01_wrap results_swiper_01">
+                    <div class="swiper-container">
+                      <ul class="swiper-wrapper swipe_type_02 team_list">
+                        <li class="swiper-slide swipe_type_02--item team_item">
+                          <a href="javascript:void(0);">
+                            <div class="swipe_type_02--img team_img">
+                              <img
+                                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-14.png"
+                                alt="" />
+                            </div>
+                          </a>
+                        </li>
+                        <li class="swiper-slide swipe_type_02--item team_item">
+                          <a href="javascript:void(0);">
+                            <div class="swipe_type_02--img team_img">
+                              <img
+                                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-15.png"
+                                alt="" />
+                            </div>
+                          </a>
+                        </li>
+                        <li class="swiper-slide swipe_type_02--item team_item">
+                          <a href="javascript:void(0);">
+                            <div class="swipe_type_02--img team_img">
+                              <img
+                                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-16.png"
+                                alt="" />
+                            </div>
+                          </a>
+                        </li>
+                        <li class="swiper-slide swipe_type_02--item team_item">
+                          <a href="javascript:void(0);">
+                            <div class="swipe_type_02--img team_img">
+                              <img
+                                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-17.png"
+                                alt="" />
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                      <!-- If we need navigation buttons -->
+                      <div class="swiper-button-prev"></div>
+                      <div class="swiper-button-next"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="info_input_wrap">
+                <div class="typeform-widget"
+                  data-url="https://form.typeform.com/to/euBzBBld?typeform-medium=embed-snippet"
+                  style="width: 100%; height: 500px"></div>
+                <script>
+                  (function () {
+                    var qs,
+                      js,
+                      q,
+                      s,
+                      d = document,
+                      gi = d.getElementById,
+                      ce = d.createElement,
+                      gt = d.getElementsByTagName,
+                      id = "typef_orm",
+                      b = "https://embed.typeform.com/";
+                    if (!gi.call(d, id)) {
+                      js = ce.call(d, "script");
+                      js.id = id;
+                      js.src = b + "embed.js";
+                      q = gt.call(d, "script")[0];
+                      q.parentNode.insertBefore(js, q);
+                    }
+                  })();
+                </script>
+              </section>
+            </div>
+            <!--container :: end-->
+            <%- include("../partials/footer-vn") %>
+              <%- include("../partials/common_popup") %>
+                <div class="layer_popup testimonials_popup">
+                  <div class="popup_cont">
+                    <div class="img_box">
+                      <img src="" alt="" />
+                    </div>
+                  </div>
+                  <a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
+                </div>
         </div>
-      </div>
-    </section>
+        <script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/common.js?v=20210604a"></script>
+        <script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script>
+        <script language="JavaScript" type="text/javascript"
+          src="/js/sub/point-avenue/all-elementary-courses.js"></script>
+        <script>
+          const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
+          const teamMembers = <% - JSON.stringify(teamMembers) %>;
+          const courses = <% - JSON.stringify(courses) %>;
+          $(function () {
+            const type = 'middlehigh';
+            const limit = 0;
+            renderCourse(type, limit);
 
-    <section class="info_input_wrap">
-      <div
-        class="typeform-widget"
-        data-url="https://form.typeform.com/to/euBzBBld?typeform-medium=embed-snippet"
-        style="width: 100%; height: 500px"
-      ></div>
-      <script>
-        (function () {
-          var qs,
-            js,
-            q,
-            s,
-            d = document,
-            gi = d.getElementById,
-            ce = d.createElement,
-            gt = d.getElementsByTagName,
-            id = "typef_orm",
-            b = "https://embed.typeform.com/";
-          if (!gi.call(d, id)) {
-            js = ce.call(d, "script");
-            js.id = id;
-            js.src = b + "embed.js";
-            q = gt.call(d, "script")[0];
-            q.parentNode.insertBefore(js, q);
-          }
-        })();
-      </script>
-    </section>
-  </div>
-  <!--container :: end-->
-  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
-  %>
-  <div class="layer_popup testimonials_popup">
-    <div class="popup_cont">
-      <div class="img_box">
-        <img src="" alt="" />
-      </div>
-    </div>
-    <a href="javascript:void(0);" class="close_btn"
-      ><span class="blind">close</span></a
-    >
-  </div>
-</div>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/jquery-3.6.0.min.js"
-></script>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/swiper.min.js"
-></script>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/common.js?v=20210604a"
-></script>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/sub/program.js"
-></script>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/sub/point-avenue/all-elementary-courses.js"
-></script>
-<script>
-  const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
-  const teamMembers = <%- JSON.stringify(teamMembers) %>;
-  const courses = <%- JSON.stringify(courses) %>;
-  $(function(){
-  	const type = 'middlehigh';
-  	const limit = 0;
-  	renderCourse(type, limit);
+            // 필터 클릭시
+            $('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+              const on = this.checked;
+              const value = this.value;
+              const option = this.dataset.option;
+              courseFilter(option, value, on);
+              renderCourse(type, limit);
+            });
 
-  	// 필터 클릭시
-  	$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
-  		const on = this.checked;
-  		const value = this.value;
-  		const option = this.dataset.option;
-  		courseFilter(option, value, on);
-  		renderCourse(type, limit);
-  	});
-
-  	// sort
-  	$('.sort_by_box .sort_kind_item a').click(function() {
-  		courseSort = this.dataset.value;
-  	});
+            // sort
+            $('.sort_by_box .sort_kind_item a').click(function () {
+              courseSort = this.dataset.value;
+            });
 
 
-  	/*mentor 클릭시, mentor 상세 팝업 노출*/
-  	$('.mentors_wrap .team_item > a').click(function () {
-  		$('.mentor_popup').show();
-  		changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
-  		$('.dim').show();
-  	});
+            /*mentor 클릭시, mentor 상세 팝업 노출*/
+            $('.mentors_wrap .team_item > a').click(function () {
+              $('.mentor_popup').show();
+              changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
+              $('.dim').show();
+            });
 
-  });
-</script>
-<%- include("../partials/body_end") %>
+          });
+        </script>
+        <%- include("../partials/body_end") %>

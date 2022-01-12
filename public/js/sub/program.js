@@ -65,15 +65,15 @@ const getCourses = (type, limit) => {
   return items;
 }
 
-const bindCourse = (course) => {
+const bindCourse = (course, domain) => {
   if(!cachedCourses[course.courseId]) {
     const template = $(courseTemplate);
-    const agegrade = course.age ? `Ages ${course.age}` : course.grade;
-    template.find('.class_box_type_01--img a').attr('href', `/programs/${course.urlName}`);
+    const agegrade = course.age ? `${domain ? '' : 'Ages'} ${course.age} ${domain ? 'Tuổi' : ''}` : course.grade;
+    template.find('.class_box_type_01--img a').attr('href', `${domain}/programs/${course.urlName}`);
     template.find('.class_box_type_01--img img').attr('src', course.thumbnail).attr('alt', `${course?.name} thumbnail`);
     template.find('.age').html(agegrade);
     template.find('.times').html(`${course.hour}`);
-    template.find('.title_r_03 a').html(course.name).attr('href', `/programs/${course.urlName}`);
+    template.find('.title_r_03 a').html(course.name).attr('href', `${domain}/programs/${course.urlName}`);
     template.find('.class_type').html(course.type);
     cachedCourses[course.courseId] = template;
   }
@@ -81,13 +81,17 @@ const bindCourse = (course) => {
 }
 
 const renderCourse = (type, limit = 0, hasType = false) => {
+  console.log(window.location.href);
+  const domain = window.location.href.includes('/vn') ? '/vn' : '';
+  console.log(domain);
   const typeCls = hasType ? `.${type}` : '';
   const selector = `.courses_type_box${typeCls} .class_box_type_01`;
   const list = getCourses(type, limit);
   $(selector).html('');
   if(list.length > 0) {
     list.map(course => {
-      $(selector).append(bindCourse(course));
+      console.log(course);
+      $(selector).append(bindCourse(course, domain));
     });
   } else {
     $(selector).append('<li>Not found data</li>');
