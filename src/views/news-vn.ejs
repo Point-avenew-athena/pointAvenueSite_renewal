@@ -4,14 +4,14 @@
 <meta name="title" content="News - Point Avenue">
 <meta property="og:title" content="Point Avenue">
 
-<%- include("partials/common_styles") %>
+<%- include("partials/common_styles_vn") %>
 <%- include("partials/common_scripts") %>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
 
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub news">
-    <%- include("partials/gnb") %>
+    <%- include("partials/gnb-vn") %>
     	<!-- container :: start -->
 		<div class="container">
 			<section class="visual_wrap">
@@ -65,7 +65,7 @@
 								<% for ( let i = 0; i < filteredNews.length; i++){ %>
                   <li>
                     <div class="img_box">
-                      <a href="/news/<%= filteredNews[i].id %>">
+                      <a href="/vn/news/<%= filteredNews[i].id %>">
 												<img src="<%= filteredNews[i].thumbnail.imageUrl %>" alt="<%= filteredNews[i].title %>">
 											</a>
                     </div>

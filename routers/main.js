@@ -76,6 +76,14 @@ router.get("/news/:id", (req, res) => {
   });
 });
 
+router.get("/vn/news/:id", (req, res) => {
+  const news = require("../data/point-avenue/news/news.json");
+  const singlePost = news.filter((news) => news.id == req.params.id)[0];
+  res.render("news/news-single-post-vn", {
+    singlePost,
+  });
+});
+
 //* articles 리스트 페이지
 router.get("/news/list/articles", (req, res) => {
   const articles = require("../data/point-avenue/news/news.json");

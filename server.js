@@ -9,6 +9,7 @@ const PORT = process.env.PORT || 7070;
 const main = require("./routers/main");
 const courses = require("./routers/programs");
 const coursesVn = require("./routers/programsVn");
+const campVn = require("./routers/campVn");
 const camp = require("./routers/camp");
 const admissionsConsulting = require("./routers/admissions-consulting");
 
@@ -41,6 +42,7 @@ app.use("/programs", courses);
 app.use("/vn/programs", coursesVn);
 // * camp
 app.use("/camp", camp);
+app.use("/vn/camp", campVn);
 // * admissions-consulting
 app.use("/admissions-consulting", admissionsConsulting);
 

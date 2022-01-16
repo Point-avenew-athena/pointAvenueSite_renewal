@@ -155,6 +155,7 @@ router.get("/all-courses", function (req, res) {
   const testCourses = courses
     .filter((course) => course.program === "Test Prep")
     .splice(0, 3);
+    console.log(elementaryCourses);
   res.render("programs/programs", {
     options: options(courses),
     courses,
