@@ -1,0 +1,47 @@
+<%- include("../partials/head_start") %>
+<title><%= singlePost.title %> - Point Avenue</title>
+<meta name="keywords" content="<%= singlePost.title %>, Point Avenue">
+<meta name="title" content="<%= singlePost.title %>">
+<meta name="description" content="<%= singlePost.title %>">
+<meta property="og:title" content="Point Avenue">
+<meta property="og:description" content="<%= singlePost.title %>">
+<meta property="og:type" content="website">
+<meta property="og:image" content="<%= singlePost.thumbnail.imageUrl %>">
+
+<%- include("../partials/common_styles_vn") %>
+<%- include("../partials/common_scripts") %>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+<script>
+  const singlePost = <%- JSON.stringify(singlePost) %>;
+</script>
+<%- include("../partials/head_end") %>
+<%- include("../partials/body_start") %>
+	<div class="wrap sub article">
+    <%- include("../partials/gnb-vn") %>
+    <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+          <% 
+            const type = singlePost.type,
+                  title = singlePost.title,
+                  contents = singlePost.contents;
+          %>
+					<div class="text_box">
+						<div class="flag_type_02"><%= type %></div>
+						<h2 class="title_r_01"><%=  title %></h2>
+					</div>
+				</div>
+			</section>
+			<section class="article_wrap">
+				<div class="section_inner">
+          <%- contents %> 
+				</div>
+			</section>			
+		</div>
+		<!--container :: end-->
+    <%- include("../partials/footer") %>
+		<%- include("../partials/common_popup") %>
+  </div>
+	<%- include("../partials/body_end") %>

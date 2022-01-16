@@ -1,14 +1,14 @@
 <% if(course) { %>
   <li class="class_box_type_01--item">
     <div class="class_box_type_01--img">
-      <a href="/vn/program/<%-course.name-%>"><img src="" onError="this.src='https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png'" alt="<%-course.name-%> thumbnail"></a>
+      <a href="/vn/programs/<%-course.urlName-%>"><img src="<%-course.thumbnail-%>" onError="this.src='https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png'" alt="<%-course.name-%> thumbnail"></a>
     </div>
     <div class="class_box_type_01--desc">
       <div class="text--gray">
         <p class="age"><%-course.age%> Tuổi</p>
         <p class="times"><%-course.hour-%></p>
       </div>
-      <p class="title_r_03"><a href="/vn/program/<%-course.urlName-%>"><%-course.name-%></a></p>
+      <p class="title_r_03"><a href="/vn/programs/<%-course.urlName-%>"><%-course.name-%></a></p>
       <span class="class_type"><%-course.type-%></span>
     </div>
   </li>

@@ -1,4 +1,6 @@
 @charset "utf-8";
+/* common */
+
 /*============== sub common ==============*/
 .sub .container .title_wrap {margin-top:80px;}
 .sub .model_wrap .section_inner{overflow: hidden;}

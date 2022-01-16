@@ -10,11 +10,11 @@
   <meta property="og:image"
     content="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/classes_visual.png" />
 
-  <%- include("../partials/common_styles") %>
+  <%- include("../partials/common_styles_vn") %>
     <%- include("../partials/head_end") %>
       <%- include("../partials/body_start") %>
         <div class="wrap sub classes">
-          <%- include("../partials/gnb") %>
+          <%- include("../partials/gnb-vn") %>
             <!-- container :: start -->
             <div class="container">
               <section class="visual_wrap">
@@ -65,7 +65,7 @@
                         <p class="title_r_02">Middle School Courses</p>
                         <ul class="class_box_type_01">
                           <% for(const course of middleCourses) { %>
-                            <%- include('../partials/course_list_item', { course }); %>
+                            <%- include('../partials/course_list_item_vn', { course }); %>
                               <% } %>
                         </ul>
                         <a href="/programs/middle-school-courses" class="btn_type_01 view">
@@ -78,7 +78,7 @@
                         <p class="title_r_02">Debate Courses</p>
                         <ul class="class_box_type_01">
                           <% for(const course of debateCourses) { %>
-                            <%- include('../partials/course_list_item', { course }); %>
+                            <%- include('../partials/course_list_item_vn', { course }); %>
                               <% } %>
                         </ul>
                         <a href="/programs/debate-courses" class="btn_type_01 view">
@@ -91,7 +91,7 @@
                         <p class="title_r_02">Test Preparation Courses</p>
                         <ul class="class_box_type_01">
                           <% for(const course of testCourses) { %>
-                            <%- include('../partials/course_list_item', { course }); %>
+                            <%- include('../partials/course_list_item_vn', { course }); %>
                               <% } %>
                         </ul>
                         <a href="/programs/test-preparation-courses" class="btn_type_01 view">
