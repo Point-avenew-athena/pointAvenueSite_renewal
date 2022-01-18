@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const courses = require("../data/courses-vn");
+const courses = require("../data/courses-vn.json");
 const teachers = require("../data/teachers-vn.json");
 const locations = require("../data/point-avenue/about-us/locations.json");
 const ageFilter = (ageText, value) => {
@@ -10,11 +10,11 @@ const ageFilter = (ageText, value) => {
 const options = (courses) => [
   {
     key: "location",
-    name: "Location",
+    name: "Địa chỉ",
     filters: [
       {
         idx: 1,
-        name: "Hanoi - Cau Giay",
+        name: "Hà Nội - Cầu Giấy",
         value: "Hanoi - Cau Giay",
         count: () =>
           courses.filter((course) =>
@@ -23,7 +23,7 @@ const options = (courses) => [
       },
       {
         idx: 2,
-        name: "Hanoi - Long Bien",
+        name: "Hà Nội - Long Biên",
         value: "Hanoi - Long Bien",
         count: () =>
           courses.filter((course) =>
@@ -42,7 +42,7 @@ const options = (courses) => [
   },
   {
     key: "type",
-    name: "Course Type",
+    name: "Hỉnh thức học",
     filters: [
       {
         idx: 1,
@@ -69,7 +69,7 @@ const options = (courses) => [
   },
   {
     key: "age",
-    name: "Ages",
+    name: "Độ tuổi",
     filters: (() => {
       const result = [];
       for (let i = 0; i < 15; i++) {
@@ -171,6 +171,7 @@ router.get("/elementary-courses", function (req, res) {
   const filterCourse = courses.filter(
     (course) => course.program === "Elementary"
   );
+  console.log('filterCourse', filterCourse);
   const elementaryTeachersData = teachers
     .filter((teacher) => teacher.positions.includes("Elementary Teacher"))
     .map((teacher) => {

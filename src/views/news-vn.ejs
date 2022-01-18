@@ -1,7 +1,7 @@
 <%- include("partials/head_start") %>
-<title>News - Point Avenue</title>
-<meta name="keywords" content="News, Point Avenue">
-<meta name="title" content="News - Point Avenue">
+<title>TIN TỨC - SỰ KIỆN - Point Avenue</title>
+<meta name="keywords" content="TIN TỨC - SỰ KIỆN, Point Avenue">
+<meta name="title" content="TIN TỨC - SỰ KIỆN - Point Avenue">
 <meta property="og:title" content="Point Avenue">
 
 <%- include("partials/common_styles_vn") %>
@@ -17,7 +17,7 @@
 			<section class="visual_wrap">
 				<div class="section_inner">
 					<div class="text_box">
-						<h2 class="title_r_01">NEWS</h2>
+						<h2 class="title_r_01">TIN TỨC - SỰ KIỆN</h2>
 					</div>
 				</div>
 			</section>
@@ -46,7 +46,7 @@
 						</div>
 	
 						<div class="sub_article">
-							<h3 class="title_r_02 section_title">Spotlight</h3>
+							<h3 class="title_r_02 section_title">Tin tức nổi bật</h3>
 							<ul style="overflow-y: scroll;height: 473px;">
 								<% 
 										const SPOTLIGHT_NEWS = [3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
@@ -146,7 +146,7 @@
 			
 			<section class="newsletter_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Newsletters</h3>
+					<h3 class="title_r_02 section_title">Tập san</h3>
 					<% 
 						const NEWSLETTERS = [3500, 3475, 3433];
 						const featuredNewsletter = news.filter(item => NEWSLETTERS.some(id => id === item.id)); 
@@ -198,7 +198,7 @@
 			
 			<section class="articles_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Articles</h3>
+					<h3 class="title_r_02 section_title">Bài viết</h3>
 					<ul class="box_type_01 courses_list">
 					<% 
 						const ARTICLE = [2917, 2557, 2529];
@@ -280,7 +280,7 @@
 			</section>
 		</div>
 		<!--container :: end-->
-    <%- include("partials/footer") %>
+    <%- include("partials/footer-vn") %>
 		<%- include("partials/common_popup") %>
 </div>
 <%- include("partials/body_end") %>

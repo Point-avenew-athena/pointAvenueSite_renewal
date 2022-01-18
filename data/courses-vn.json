@@ -2,7 +2,7 @@
   {
     "courseId" : 3,
     "type" : "Offline",
-    "name" : "English Learning Fundamentals",
+    "name" : "Tiếng Anh trẻ em",
     "urlName" : "elf",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -12,8 +12,8 @@
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_1.jpg",
     "desc": [
-      "Our EL Fundamental courses start with English Language Starters where students are first introduced to the English alphabet & short vowel sounds, advancing through our Phonics course focused on long vowels & consonant blends, and completing in our Foundations course where students can confidently read & write simple sentences.",
-      "Students engage in various learning activities, practice reading / listening / speaking / writing, refine their fine motor skills, and are exposed to social learning through designed interactions with their peers."
+      "Chương trình tiếng Anh trẻ em cấp độ cơ bản tại Point Avenue dành riêng cho những học sinh mới bắt đầu tiếp cận và làm quen với tiếng Anh.",
+      "Ở chương trình học cấp độ Starters, học sinh sẽ làm quen với bảng chữ cái, các nguyên âm ngắn cùng từ vựng cơ bản. Trong khi đó, khóa học Phonics sẽ giúp các em nâng cao nền tảng tiếng Anh thông qua làm quen với các từ vựng nâng cao, ngữ âm phức tạp và có thể đọc & viết đơn giản."
     ],
     "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
     "offline" : {
@@ -23,20 +23,20 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_2.jpg",
         "strings" : [
-          "Alphabet recognition and application",
-          "Short vowel sounds",
-          "Long vowel sounds",
-          "Consonant blends",
-          "Reading using digraphs",
-          "Basic reading & writing of 3~4 letter monosyllabic words"
+          "Nhận diện bảng chữ cái tiếng Anh",
+          "Đánh vần nguyên âm ngắn",
+          "Đánh vần nguyên âm dài",
+          "Làm quen với các nhóm phụ âm",
+          "Rèn luyện kỹ năng đọc các âm đôi",
+          "Có thể đọc & viết các từ vựng đơn âm với 3-4 chữ cái"
         ]
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_book_English_Learning_Fundamentals.jpg",
         "strings" : [
-          "<strong>Fly Phonics 1 to 4:</strong> Phonic series that cover the alphabet & sounds, short & long vowels, and consonant blends & digraphs.",
-          "<strong>Reading Sketch Starters 1 to 3:</strong> To apply basic phonic knowledge to practical reading application, the Reading Sketch Starter series support fundamental phonics learning through visual stories and exciting themes.",
-          "<strong>Reading Sponge:</strong> Next in the NE Build & Grow series, this reading book supports advanced phonic learners and prepares our students to transition into the regular EL program."
+          "<strong>Fly Phonics 1 - 4:</strong> Bộ sách giúp học sinh làm quen & thành thạo với bảng chữ cái & cách phát âm, ghép vần các từ vựng, các nguyên âm dài & ngắn và các phụ âm ghép trong tiếng Anh.",
+          "<strong>Reading Sketch Starters 1 - 3:</strong> Bộ sách giúp học sinh có thể vận dụng các kiến thức về ngữ âm để trau dồi kỹ năng đọc thông qua những mẩu truyện với hình ảnh sinh động, chủ đề thú vị.",
+          "<strong>Reading Sponge:</strong> Cuốn sách nâng cao dành cho học sinh đã thành thạo các kỹ năng ghép vần, phát âm, giúp các em chuẩn bị trước khi chuyển sang các chương trình học cấp EL tại Point Avenue."
         ]
       },
       "location" : {
@@ -50,7 +50,7 @@
   {
     "courseId" : 4,
     "type" : "Offline",
-    "name" : "English Learning 1-4",
+    "name" : "Tiếng Anh trẻ em (Cấp độ EL1 - EL4)",
     "urlName" : "english-learning",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -108,7 +108,7 @@
   {
     "courseId" : 5,
     "type" : "Offline",
-    "name" : "Life Coaching EL3",
+    "name" : "Huấn luyện cuộc sống (Trình độ EL3)",
     "urlName" : "elem-life-coaching-intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -163,7 +163,7 @@
   {
     "courseId" : 6,
     "type" : "Offline",
-    "name" : "Engineering",
+    "name" : "Kỹ thuật",
     "urlName":"engineering",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -211,7 +211,7 @@
   {
     "courseId" : 8,
     "type" : "Offline",
-    "name" : "Coding",
+    "name" : "Lập trình",
     "urlName":"coding",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -262,7 +262,7 @@
   {
     "courseId" : 29,
     "type" : "Offline",
-    "name" : "Life Coaching EL4",
+    "name" : "Huấn luyện cuộc sống (Trình độ EL4)",
     "urlName":"elem-life-coaching-advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Elementary",
@@ -317,7 +317,7 @@
   {
     "courseId" : 9,
     "type" : "Offline",
-    "name" : "English Language Arts Foundations",
+    "name" : "Tiếng Anh Học Thuật (Nền Tảng)",
     "urlName" : "ela-foundations",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -371,7 +371,7 @@
   {
     "courseId" : 10,
     "type" : "Offline",
-    "name" : "English Language Arts Beginner",
+    "name" : "Tiếng Anh Học Thuật (Cơ bản)",
     "urlName" : "ela-beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -425,7 +425,7 @@
   {
     "courseId" : 11,
     "type" : "Offline",
-    "name" : "English Language Arts Intermediate",
+    "name" : "Tiếng Anh Học Thuật (Trung cấp)",
     "urlName" : "ela-intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -473,7 +473,7 @@
   {
     "courseId" : 12,
     "type" : "Offline",
-    "name" : "English Language Arts Advanced",
+    "name" : "Tiếng Anh Học Thuật (Nâng Cao)",
     "urlName" : "ela-advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -522,7 +522,7 @@
   {
     "courseId" : 13,
     "type" : "Offline",
-    "name" : "Pages (Reading Comprehension)",
+    "name" : "Đọc Chuyên sâu",
     "urlName" : "reading-coach",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -567,7 +567,7 @@
   {
     "courseId" : 14,
     "type" : "Offline",
-    "name" : "Writing Coach",
+    "name" : "Viết học thuật & sáng tạo",
     "urlName" : "writing-coach",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -616,7 +616,7 @@
   {
     "courseId" : 15,
     "type" : "Offline",
-    "name" : "Life Coaching Beginner/Intermediate",
+    "name" : "Huấn luyện Cuộc sống (Cơ bản/Trung cấp)",
     "urlName":"ms-life-coaching",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
@@ -662,7 +662,7 @@
   {
     "courseId" : 16,
     "type" : "Offline",
-    "name" : "Life Coaching Advanced",
+    "name" : "Huấn luyện Cuộc sống ( Nâng Cao)",
     "urlName":"ms-life-coaching-advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
