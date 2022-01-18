@@ -56,7 +56,7 @@
             </p>
             <ul class="class_box_type_01">
               <% for(const course of courses) { %> <%-
-              include('../partials/course_list_item', { course }) %> <% } %>
+              include('../partials/course_list_item_vn', { course }) %> <% } %>
             </ul>
           </div>
           <!-- courses_type_box :: end -->
@@ -68,7 +68,7 @@
       <div class="section_inner">
         <div class="text_box">
           <h3 class="title_r_02 section_title Montserrat">
-            Teaching Methodology:
+            Phương pháp giảng dạy:
           </h3>
           <p class="title_r_03 Montserrat">
             <strong class="t_yellow Montserrat"
@@ -177,7 +177,7 @@
     </section>
   </div>
   <!--container :: end-->
-  <%- include("../partials/footer") %> <%- include("../partials/common_popup")
+  <%- include("../partials/footer-vn") %> <%- include("../partials/common_popup")
   %>
   <div class="layer_popup testimonials_popup">
     <div class="popup_cont">
@@ -205,18 +205,18 @@
   type="text/javascript"
   src="/js/common.js?v=20210604a"
 ></script>
-<script
+<!-- <script
   language="JavaScript"
   type="text/javascript"
   src="/js/sub/program.js"
-></script>
+></script> -->
 <script
   language="JavaScript"
   type="text/javascript"
   src="/js/sub/point-avenue/all-elementary-courses.js"
 ></script>
 <script>
-  const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
+  const courseTemplate = `<%- include("../partials/course_list_item_vn", { course: null }); %>`;
   const teamMembers = <%- JSON.stringify(teamMembers) %>;
   const courses = <%- JSON.stringify(courses) %>;
   $(function(){

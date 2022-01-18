@@ -12,6 +12,7 @@ const coursesVn = require("./routers/programsVn");
 const campVn = require("./routers/campVn");
 const camp = require("./routers/camp");
 const admissionsConsulting = require("./routers/admissions-consulting");
+const admissionsConsultingVn = require("./routers/admissions-consulting-vn");
 
 // redirect HTTP to HTTPS
 // app.all('*', (req, res, next) => {
@@ -45,6 +46,7 @@ app.use("/camp", camp);
 app.use("/vn/camp", campVn);
 // * admissions-consulting
 app.use("/admissions-consulting", admissionsConsulting);
+app.use("/vn/admissions-consulting", admissionsConsultingVn);
 
 app.listen(PORT, () => {
   console.log(`Server is connected to ${PORT}`);
