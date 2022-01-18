@@ -1,0 +1,37 @@
+<div class="swipe_type_01_wrap">
+    <div class="swiper-container">
+        <ul class="swiper-wrapper class_box_type_01">
+            <% for ( let i = 0; i < studies.length; i++) { %>
+                <li class="swiper-slide class_box_type_01--item">
+                    <div class="class_box_type_01--img">
+                        <a href="javascript:void(0);" 
+                        data-title="<%= studies[i].title %>" 
+                        data-id="<%= studies[i].id %>" 
+                        data-name="<%= studies[i].name %>" 
+                        data-school="<%= studies[i].school %>" 
+                        data-img="<%= studies[i].img %>" 
+                        >
+                            <img src="<%= studies[i].img %>" alt="<%= studies[i].name %>" class="<%= studies[i].name %>">
+                        </a>
+                    </div>
+                    <div class="swiper-slide class_box_type_01--desc">
+                        <div class="text">
+                            <p class="title_r_03"><%= studies[i].name %></p>
+                            <div class="text--gray university"><%= studies[i].school %></div>
+                        </div>
+                        <a href="javascript:void(0);" 
+                        data-title="<%= studies[i].title %>"
+                        data-id="<%= studies[i].id %>" 
+                        data-name="<%= studies[i].name %>" 
+                        data-school="<%= studies[i].school %>" 
+                        data-img="<%= studies[i].img %>"  
+                        class="btn_type_01 view yellow">Đọc thêm</a>
+                    </div>
+                </li>
+            <% } %>
+        </ul>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>

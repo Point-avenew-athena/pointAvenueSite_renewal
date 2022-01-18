@@ -8,7 +8,7 @@
     "program" : "Elementary",
     "age" : "5-7",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_1.jpg",
     "desc": [
@@ -56,7 +56,7 @@
     "program" : "Elementary",
     "age" : "7-12",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_1-4_1.jpg",
     "desc": [
@@ -114,7 +114,7 @@
     "program" : "Elementary",
     "age" : "9-10",
     "weeks" : "17 tuần",
-    "duration" : "1.5 tiếng / week",
+    "duration" : "1.5 tiếng / tuần",
     "hour" : "25.5 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_1.jpg",
     "desc": [
@@ -169,7 +169,7 @@
     "program" : "Elementary",
     "age" : "6-10",
     "weeks" : "17 tuần",
-    "duration" : "1.5 tiếng / week",
+    "duration" : "1.5 tiếng / tuần",
     "hour" : "25.5 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Engineering_1.jpg",
     "desc": [
@@ -217,7 +217,7 @@
     "program" : "Elementary",
     "age" : "8-12",
     "weeks" : "17 tuần",
-    "duration" : "1.5 tiếng / week",
+    "duration" : "1.5 tiếng / tuần",
     "hour" : "25.5 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Coding1.jpg",
     "desc": [
@@ -268,7 +268,7 @@
     "program" : "Elementary",
     "age" : "10-12",
     "weeks" : "17 tuần",
-    "duration" : "1.5 tiếng / week",
+    "duration" : "1.5 tiếng / tuần",
     "hour" : "25.5 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_1.jpg",
     "desc": [
@@ -323,7 +323,7 @@
     "program" : "Middle School",
     "age" : "11-12",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/ELA_Foundations_1.jpg",
     "desc": [
@@ -377,7 +377,7 @@
     "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/ELA_Beginner_1.jpg",
     "desc": [
@@ -431,7 +431,7 @@
     "program" : "Middle School",
     "age" : "11-14",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/ELA_Intermediate_1.jpg",
     "desc": [
@@ -479,7 +479,7 @@
     "program" : "Middle School",
     "age" : "11-14",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/ELA_Advanced_1.jpg",
     "desc": [
@@ -528,7 +528,7 @@
     "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Pages_Reading_Comprehension_1.jpg",
     "desc": [
@@ -573,7 +573,7 @@
     "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Ink_Academic_and_Creative_Writing_1.jpg",
     "desc": [
@@ -622,7 +622,7 @@
     "program" : "Middle School",
     "age" : "11-13",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Beginner_Intermediate_1.jpg",
     "desc": ["The Life Coaching Beginner/Intermediate course focuses on aspects of growing up, developing good habits, and creating a growth mindset. In this course, students will use the book 7 Habits of Highly Effective teens to learn life skills that will make their transition into young adulthood easier and give them confidence, decisiveness, and the ability to critique themselves in order to constantly evolve and grow. Students will work on their overall confidence by practicing public speaking, doing weekly exercises, and engaging in leadership challenges. This course is a mixture of health and wellness, academic competency, and leadership principles. After completing this course, students will be able to enroll in the Life Coaching Advanced course. Life Coaching Advanced includes more complex leadership concepts and principles meant to further develop your child into a future leader."],
@@ -668,7 +668,7 @@
     "program" : "Middle School",
     "age" : "12-14",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Advanced_1.jpg",
     "desc": ["The Life Coaching Advanced course focuses on aspects of self-awareness, mindfulness, and community service. In this course, students will learn about mindfulness skills and concepts through a step-by-step process, focusing on understanding themselves and others when making decisions and acquiring knowledge. This course establishes a foundation for critical thinking skills for students to build upon as they prepare for high school and beyond. Key example lessons include: focused awareness, sharpening the senses (mindful taste, touch, smell, sight), optimism, gratitude, and kindness. In addition to MindUP, students will plan a community service activity, exercise each week for 60 minutes, and complete a daily journal."],
@@ -798,7 +798,7 @@
     "programTitle" : "Tranh biện",
     "age" : "11-16",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_School_Beginner_1.jpg",
     "desc": ["Khóa học <strong>Tranh biện Trung học (Cơ bản)</strong> là khóa học nhằm phát triển ở các nhà lãnh đạo tương lai khả năng tư duy phản biện, hợp tác, diễn đạt và chia sẻ ý tưởng của các em một cách mạnh mẽ. Trong suốt khóa học, học sinh sẽ tiếp xúc với nhiều bộ luật tranh biện khác nhau, với trọng tâm vào luật World Schools Debating Championships (WSDC) và Asian Parliamentary (AP)."],
@@ -885,7 +885,7 @@
     "programTitle" : "Tranh biện",
     "age" : "14-16",
     "weeks" : "17 tuần",
-    "duration" : "3 tiếng / week",
+    "duration" : "3 tiếng / tuần",
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Debate_All_Stars_1.jpg",
     "desc": [
