@@ -913,6 +913,47 @@
     }
   },
   {
+    "courseId" : 29,
+    "type" : "Online",
+    "name" : "Debate Online",
+    "urlName": "online-debate-course",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
+    "program" : "Debate",
+    "age" : "14-16",
+    "weeks" : "17 weeks",
+    "duration" : "3 hours / week",
+    "hour" : "51 hours",
+    "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_1.jpg",
+    "desc": [
+      "<strong>Learn with Asia's elite debate coaches.</strong>",
+      "<strong>What is Debate?</strong> Debate is an academic sport that allows students to practice and master their skills of public speaking and active listening while encouraging them to challenge existing norms and review old issues with new perspectives.",
+      "<strong>Why study Debate?</strong> Our Debate Program aims to nurture future leaders and equip them with 21st-century skills of communication, critical thinking, creativity, and collaboration."
+    ],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Diagnostic test registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
+        "strings" : [
+          "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
+          "Students will be introduced to various debate strategies with a focus on team collaboration. For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
+        ]
+      },
+      "books" : {
+        "image": "",
+        "strings" : []
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
     "courseId" : 22,
     "type" : "Offline",
     "name" : "SSAT",
