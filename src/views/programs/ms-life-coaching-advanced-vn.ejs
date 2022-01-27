@@ -10,7 +10,7 @@
 <%- include("../partials/common_styles_vn") %> <%- include("../partials/head_end")
 %> <%- include("../partials/body_start") %>
 <div class="wrap sub class_detail fundamentals">
-  <%- include("../partials/gnb") %>
+  <%- include("../partials/gnb-vn") %>
   <!-- container :: start -->
   <div class="container">
     <section class="title_wrap">
@@ -18,8 +18,8 @@
         <div class="text_box">
           <h2 class="title_r_01"><%-course.name-%></h2>
           <p class="text--gray">
-            <span><%-course.program-%></span> |
-            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+            <span><%-course.programTitle-%></span> |
+            <span><%-course.age ? `Độ tuổi ${course.age}` : course.grade -%></span>
           </p>
         </div>
       </div>
@@ -41,13 +41,7 @@
               Tổng quan khóa học
             </h3>
             <div class="text s_desc Montserrat">
-              Khóa học Huấn luyện Cuộc sống - Life Coaching trình độ Advanced mở
-              rộng các chủ đề về lãnh đạo, nhận thức năng lực bản thân, kỹ năng
-              tập trung, làm chủ suy nghĩ (mindfulness) và hoạt động cộng đồng.
-              Trong khoá học này, học sinh sẽ được làm quen với các khái niệm và
-              kỹ năng tập trung và làm chủ suy nghĩ (mindfulness), từ đó thấu
-              hiểu bản thân và tôn trọng sự khác biệt khi đưa ra quyết định hoặc
-              tiếp nhận tư duy hay kiến thức.
+              Khóa học Huấn luyện Cuộc sống - Life Coaching trình độ Nâng cao mở rộng các chủ đề về lãnh đạo, nhận thức năng lực bản thân, kỹ năng tập trung, làm chủ suy nghĩ (mindfulness), và hoạt động cộng đồng. Trong khoá học này, học sinh sẽ được làm quen với các khái niệm và kỹ năng tập trung và làm chủ suy nghĩ (mindfulness), từ đó thấu hiểu bản thân và tôn trọng sự khác biệt khi đưa ra quyết định hoặc tiếp nhận tư duy hay kiến thức.
               <br />
               <br />
 
@@ -67,7 +61,7 @@
                   class="btn_type_01--sec"
                   style="width: auto; padding: 15px; margin-right: 0"
                   target="_blank"
-                  >Sign up for a FREE Diagnostic Test</a
+                  >Nhấn vào đây</a
                 >
                 <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
               </div>
