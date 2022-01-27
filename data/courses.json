@@ -554,7 +554,7 @@
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Reading_Comprehension.jpg",
-        "strings" : ["Students will be provided with acces to the Renaissance myON® Reader. A personalized digital library at every student's fingertips, Renaissance myON® Reader is a student-centered, personalized literacy environment that gives students access to more than 6,000 enhanced digital books. Titles are dynamically matched to each individual student's interests, grade and Lexile® reading level."]
+        "strings" : ["Students will be provided with access to the Renaissance myON® Reader. A personalized digital library at every student's fingertips, Renaissance myON® Reader is a student-centered, personalized literacy environment that gives students access to more than 6,000 enhanced digital books."]
       },
       "location" : {
         "name" : "",
@@ -592,7 +592,7 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Academic_and_Creative_Writing.jpg",
         "strings" : [
-          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Leardn how to write process, narrative, descriptive, and opinion papers</li></ul>",
+          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Learn how to write process, narrative, descriptive, and opinion papers</li></ul>",
           "<strong>2) Improve grammar and overall sentence structure</strong><ul class=\"ul_type_02\"><li> Students will use the software platform Quill to practice grammar and track their progress throughout the term.</li><li> Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing</li></ul>",
           "<strong>3) Increase vocabulary and comprehension</strong><ul class=\"ul_type_02\"><li> Understand and use appropriate prefixes, suffixes using the Word Roots curriculum</li><li>Learn new words each week to incorporate in their writing</li></ul>",
           "<strong>4) Develop a genuine interest in writing</strong><ul class=\"ul_type_02\"><li> We aim to create a student centric environment promoting writing topics related to student interests and passions</li></ul>"

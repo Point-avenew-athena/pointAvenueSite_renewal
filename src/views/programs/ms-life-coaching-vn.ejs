@@ -10,7 +10,7 @@
 <%- include("../partials/common_styles_vn") %> <%- include("../partials/head_end")
 %> <%- include("../partials/body_start") %>
 <div class="wrap sub class_detail fundamentals">
-  <%- include("../partials/gnb") %>
+  <%- include("../partials/gnb-vn") %>
   <!-- container :: start -->
   <div class="container">
     <section class="title_wrap">
@@ -18,8 +18,8 @@
         <div class="text_box">
           <h2 class="title_r_01"><%-course.name-%></h2>
           <p class="text--gray">
-            <span><%-course.program-%></span> |
-            <span><%-course.age ? `Age ${course.age}` : course.grade -%></span>
+            <span><%-course.programTitle-%></span> |
+            <span><%-course.age ? `Độ tuổi ${course.age}` : course.grade -%></span>
           </p>
         </div>
       </div>
@@ -41,23 +41,10 @@
               Tổng quan khóa học
             </h3>
             <div class="text s_desc Montserrat">
-              Khóa học Huấn luyện Cuộc sống - Life Coaching cơ bản/trung cấp là
-              khóa đào tạo kỹ năng mềm cho các em học sinh như xây dựng thói
-              quen tốt hay phát triển tư duy cầu tiến. Các chuyên gia của Point
-              Avenue đã sử dụng giáo trình "7 thói quen thành công dành cho
-              teen" để giúp các em học sinh rèn luyện tự tin, quyết đoán, óc tư
-              duy và phân tích - chuẩn bị sẵn sàng cho quá trình trưởng thành
-              trong tương lai. <br />Life Coaching sẽ tạo cơ hội để các em được
-              : Phát triển kỹ năng nói và viết tiếng Anh thông qua các dự án
-              thuyết trình Rèn luyện thể lực
+              Khóa học Huấn luyện Cuộc sống - Life Coaching trình độ Cơ bản/Trung cấp là khóa đào tạo kỹ năng mềm cho các em học sinh như xây dựng thói quen tốt hay phát triển tư duy cầu tiến. Các cố vấn của Point Avenue sử dụng giáo trình "7 Thói quen Thành công dành cho Teen" để giúp các em học sinh rèn luyện sự tự tin, tính quyết đoán, óc tư duy và phân tích - chuẩn bị sẵn sàng cho quá trình trưởng thành trong tương lai. Khóa Huấn luyện Cuộc sống sẽ tạo cơ hội để các em được: Phát triển kỹ năng nói và viết tiếng Anh thông qua các dự án thuyết trình, Rèn luyện thể lực, và Thử thách lãnh đạo.
               <br />
               <br />
-
-              Thử thách lãnh đạo <br />
-              Chương trình gồm 2 trình độ cơ bản và nâng cao. Khóa học nâng cao
-              sẽ giúp các em tiếp cận với những khái niệm và nguyên tắc lãnh đạo
-              ở cấp cao hơn với mong muốn nuôi dưỡng các em trở thành những nhà
-              lãnh đạo trong tương lai.
+              Chương trình gồm 2 trình độ Cơ bản và Nâng cao. Khóa học Nâng cao sẽ giúp các em học sinh được tiếp cận những khái niệm và nguyên tắc lãnh đạo ở cấp cao hơn với mong muốn nuôi dưỡng các em trở thành những nhà lãnh đạo trong tương lai.
             </div>
             <div class="registration_box">
               <p class="title_r_03"><%-course.offline.registrationText-%></p>
@@ -67,7 +54,7 @@
                   class="btn_type_01--sec"
                   style="width: auto; padding: 15px; margin-right: 0"
                   target="_blank"
-                  >Sign up for a FREE Diagnostic Test</a
+                  >Nhấn vào đây</a
                 >
                 <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
               </div>
@@ -159,14 +146,8 @@
           <ul class="ul_type_03 Montserrat">
             <li class="Montserrat">
               <strong
-                >Sách & Vở bài tập của "7 Thói quen của bạn trẻ thành đạt" của
-                Sean Covey</strong
-              >: Hiệu quả Cao Sách giáo khoa và Sách bài tập của Sean Covey.
-              Trong cuốn sách này, Covey nói về cách các bạn trẻ xây dựng tính
-              độc lập và hiệu quả bằng cách tuân thủ bảy thói quen cơ bản. Các
-              thói quen bao gồm việc chủ động trong mọi khía cạnh của cuộc sống,
-              từ lập kế hoạch theo thứ tự ưu tiên đến xây dựng tinh thần trách
-              nhiệm cho mỗi cá nhân.
+                >Sách đọc & Sách bài tập cuốn "7 Thói quen của Bạn trẻ Thành đạt" của Sean Covey</strong
+              >: Trong cuốn sách này, Covey nói về cách các bạn trẻ xây dựng tính độc lập và hiệu quả bằng cách tuân thủ bảy thói quen cơ bản. Các thói quen bao gồm việc chủ động trong mọi khía cạnh của cuộc sống, từ lập kế hoạch theo thứ tự ưu tiên đến xây dựng tinh thần trách nhiệm cho mỗi cá nhân.
             </li>
             <li class="Montserrat">
               <strong>Sổ tay kế hoạch Point Avenue</strong>: Trong khoá học này,

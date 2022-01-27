@@ -18,7 +18,7 @@
     "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_Foundations_2.jpg",
@@ -36,7 +36,7 @@
         "strings" : [
           "<strong>Fly Phonics 1 - 4:</strong> Bộ sách giúp học sinh làm quen & thành thạo với bảng chữ cái & cách phát âm, ghép vần các từ vựng, các nguyên âm dài & ngắn và các phụ âm ghép trong tiếng Anh.",
           "<strong>Reading Sketch Starters 1 - 3:</strong> Bộ sách giúp học sinh có thể vận dụng các kiến thức về ngữ âm để trau dồi kỹ năng đọc thông qua những mẩu truyện với hình ảnh sinh động, chủ đề thú vị.",
-          "<strong>Reading Sponge:</strong> Cuốn sách nâng cao dành cho học sinh đã thành thạo các kỹ năng ghép vần, phát âm, giúp các em chuẩn bị trước khi chuyển sang các chương trình học cấp EL tại Point Avenue."
+          "<strong>Reading Sponge:</strong> Cuốn sách nâng cao dành cho học sinh đã thành thạo các kỹ năng ghép vần, phát âm, giúp các em chuẩn bị trước khi chuyển sang chương trình học EL cao hơn tại Point Avenue."
         ]
       },
       "location" : {
@@ -77,7 +77,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/English_Learning_1-4_2.jpg",
@@ -135,7 +135,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_Jr_2.jpg",
@@ -190,7 +190,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Engineering_2.jpg",
@@ -238,7 +238,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Coding2.jpg",
@@ -289,7 +289,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/Cf0dpd9iQSQ",
-      "registrationText": "Diagnostic test registration ",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Life_Coaching_EL_4_2.jpg",
@@ -321,6 +321,7 @@
     "urlName" : "ela-foundations",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Trung học",
     "age" : "11-12",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -343,7 +344,7 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/middlehigh_objective.jpg",
@@ -375,6 +376,7 @@
     "urlName" : "ela-beginner",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-13",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -397,7 +399,7 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Beginner.jpg",
@@ -429,6 +431,7 @@
     "urlName" : "ela-intermediate",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-14",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -445,7 +448,7 @@
     "keyword" : ["English Proficiency","Beginner English Language Learning","Listening Skills","Speaking Skills","Reading Skills","Writing Skills","English and Culture","National Geographic Curriculum"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Intermediate.jpg",
@@ -477,6 +480,7 @@
     "urlName" : "ela-advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-14",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -494,7 +498,7 @@
     "keyword" : ["Phonics","short vowels","long vowels","consonant blends","alphabet","social learning","emotional learning","arts & crafts","circle time activities","curiosity"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_ELA_Advanced.jpg",
@@ -526,6 +530,7 @@
     "urlName" : "reading-coach",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-13",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -542,7 +547,7 @@
     "keyword" : ["Reading Comprehension","Critcial Thinking","Reading Speed","Reading Styles","Descriptive Language","Improve Lexile Score"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Reading_Comprehension.jpg",
@@ -571,6 +576,7 @@
     "urlName" : "writing-coach",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-13",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -587,12 +593,12 @@
     "keyword" : ["Creative Writing","Academic Writing","Descriptive Language","Narrative Writing","Grammar Use","Character Development"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Academic_and_Creative_Writing.jpg",
         "strings" : [
-          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Leardn how to write process, narrative, descriptive, and opinion papers</li></ul>",
+          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Learn how to write process, narrative, descriptive, and opinion papers</li></ul>",
           "<strong>2) Improve grammar and overall sentence structure</strong><ul class=\"ul_type_02\"><li> Students will use the software platform Quill to practice grammar and track their progress throughout the term.</li><li> Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing</li></ul>",
           "<strong>3) Increase vocabulary and comprehension</strong><ul class=\"ul_type_02\"><li> Understand and use appropriate prefixes, suffixes using the Word Roots curriculum</li><li>Learn new words each week to incorporate in their writing</li></ul>",
           "<strong>4) Develop a genuine interest in writing</strong><ul class=\"ul_type_02\"><li> We aim to create a student centric environment promoting writing topics related to student interests and passions</li></ul>"
@@ -620,6 +626,7 @@
     "urlName":"ms-life-coaching",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "11-13",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -629,7 +636,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing","Critical Thinking"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Life_Coaching_Beginner_Intermediate.jpg",
@@ -662,10 +669,11 @@
   {
     "courseId" : 16,
     "type" : "Offline",
-    "name" : "Huấn luyện Cuộc sống ( Nâng Cao)",
+    "name" : "Huấn luyện Cuộc sống (Nâng Cao)",
     "urlName":"ms-life-coaching-advanced",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Middle School",
+    "programTitle" : "Chương trình Trung học",
     "age" : "12-14",
     "weeks" : "17 tuần",
     "duration" : "3 tiếng / tuần",
@@ -675,7 +683,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/TOsTdH5NWss",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Life_Coaching_Advanced.jpg",
@@ -716,11 +724,11 @@
     "duration" : "2 tiếng / tuần",
     "hour" : "34 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Beginner_1.jpg",
-    "desc": ["Khóa học <strong>Tranh biện Tiểu học (Cơ bản)</strong> giới thiệu cho học sinh kỹ năng thuyết trình trước đám đông và các khái niệm cơ bản được sử dụng trong tranh biện. Các en sẽ được tìm hiểu và áp dụng các kỹ thuật để giao tiếp hiệu quả, nâng cao tư duy phản biện và trình bài phát biểu hấp dẫn trước khán giả. Các em học sinh sẽ được hướng dẫn để thực hiện nghiên cứu và thảo luận về nhiều chủ đề khác nhau, nhằm mở rộng vốn hiểu biết của mình. Đồng thời, các cố vấn sẽ khuyến khích và tạo cơ hội để các em được trình bày ý kiến ​​của riêng mình cũng như tìm hiểu về các quan điểm khác nhau."],
+    "desc": ["Khóa học <strong>Tranh biện Tiểu học (Cơ bản)</strong> giới thiệu cho học sinh kỹ năng thuyết trình trước đám đông và các khái niệm cơ bản được sử dụng trong tranh biện. Các em sẽ được tìm hiểu và áp dụng các kỹ thuật để giao tiếp hiệu quả, nâng cao tư duy phản biện và trình bài phát biểu hấp dẫn trước khán giả. Các em học sinh sẽ được hướng dẫn để thực hiện nghiên cứu và thảo luận về nhiều chủ đề khác nhau nhằm mở rộng vốn hiểu biết của mình. Đồng thời, các cố vấn sẽ khuyến khích và tạo cơ hội để các em được trình bày ý kiến ​​của riêng mình cũng như tìm hiểu về các quan điểm khác nhau."],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Beginner_2.jpg",
@@ -734,7 +742,6 @@
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/elem_debate_book_Elementary_Debate_Beginner.jpg",
         "strings" : [
-          "<strong>Speakers’ Club: Public Speaking for Young People</strong>: cuốn sách kết hợp những ý tưởng thiết thực và các hoạt động vui nhộn, nhằm giới thiệu các kỹ năng thiết yếu, rèn thói quen chuẩn bị kĩ và chú ý đến từng chi tiết để có một bài phát biểu thành công.",
           "<strong>Debate Pro Junior: Book 1</strong>: được thiết kế để giới thiệu học sinh với nhiều chủ đề khác nhau, và dạy các em cách trình bày ý kiến của mình ​​về những chủ đề này."
         ]
       },
@@ -759,11 +766,11 @@
     "duration" : "2 tiếng / tuần",
     "hour" : "34 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Intermediate_1.jpg",
-    "desc": ["Khóa học <strong>Tranh biện Tiểu học (Trung cấp)</strong> của Point Avenue là khóa học tranh biện nâng cao dành cho học sinh tiểu học, tập trung giới thiệu những từ vựng và chủ đề tranh biện thử thách hơn. Học sinh sẽ tiếp tục phát triển tư duy phản biện của mình và học cách suy nghĩ sáng tạo hơn thông qua các hoạt động thảo luận nhóm (brainstorm), từ đó giúp các em có thể tự tin sử dụng kỹ năng giao tiếp và khả năng ngôn ngữ . Học sinh cũng sẽ được làm quen với các luật tranh biện phức tạp hơn, với trọng tâm vào luật World Schools Debating Championships (WSDC) và Asian Parliamentary (AP)."],
+    "desc": ["Khóa học <strong>Tranh biện Tiểu học (Trung cấp)</strong> của Point Avenue là khóa học tranh biện nâng cao dành cho học sinh tiểu học, tập trung giới thiệu những từ vựng và chủ đề tranh biện thử thách hơn. Học sinh sẽ tiếp tục phát triển tư duy phản biện của mình và học cách suy nghĩ sáng tạo hơn thông qua các hoạt động thảo luận nhóm (brainstorm), từ đó giúp các em có thể tự tin sử dụng kỹ năng giao tiếp và khả năng ngôn ngữ. Học sinh cũng sẽ được làm quen với các luật tranh biện phức tạp hơn, với trọng tâm vào luật World Schools Debating Championships (WSDC) và Asian Parliamentary (AP)."],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Elementary_Intermediate_2.jpg",
@@ -805,7 +812,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_School_Beginner_2.jpg",
@@ -848,7 +855,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Middle_High_School_Intermediate_2.jpg",
@@ -896,7 +903,7 @@
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
@@ -931,11 +938,10 @@
     "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SSAT_1.jpg",
     "desc": [
-      "SSAT là một bài thi tuyển sinh chuẩn hóa để xin học vào các trường phổ thông tại Mỹ, đánh giá các kỹ năng học thuật bao gồm viết, đọc và, lý luận phân tích (toán) . Tại Point Avenue, chúng tôi khuyến khích các em bắt đầu quá trình luyện SSAT từ năm lớp 7, lớp 8 và có thể bắt đầu thi chính thức vào lớp 9. Khóa học luyện thi SSAT gồm 3 cấp độ : 101 , 201 và 301 với lộ trình học được cá nhân hóa.",
+      "SSAT là một bài thi tuyển sinh chuẩn hóa để xin học vào các trường phổ thông tại Mỹ, đánh giá các kỹ năng học thuật bao gồm viết, đọc, và lý luận phân tích (toán) . Tại Point Avenue, chúng tôi khuyến khích các em bắt đầu quá trình luyện SSAT từ năm lớp 7, lớp 8 và có thể bắt đầu thi chính thức vào lớp 9. Khóa học luyện thi SSAT gồm 3 cấp độ : 101 , 201 và 301 với lộ trình học được cá nhân hóa.",
       "",
       "<h3>Yêu cầu đầu vào</h3>", 
       "IELTS 6.5 / TOEFL 80",
-      "900 SAT",
       "",
       "<strong>Kỹ năng đạt được sau khóa học:</strong>",
       "Toán (Quantitative Reasoning): đại số, hình học, đo lường, phân tích dữ liệu và xác suất.",
@@ -951,7 +957,7 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SSAT_2.jpg",
@@ -1022,7 +1028,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
@@ -1101,7 +1107,7 @@
     ],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IELTS_2.jpg",
@@ -1154,7 +1160,7 @@
     "keyword" : ["Sat online ","SAT I ","SAT study guide 2020 ","Online SAT prep classes","The Official SAT study guide ","SAT test prep ","SAT prep ","SAT Grammar, ","SAT study guide ","Pre SAT test ","Online SAT tutoring ","SAT review ","SAT vocab words "],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/SAT_2.jpg",
@@ -1216,7 +1222,7 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_2.jpg",
@@ -1273,7 +1279,7 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IB_2.jpg",
@@ -1325,7 +1331,7 @@
     "keyword" : [],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/SbHxO7HAouU",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/IGCSE_2.jpg",
