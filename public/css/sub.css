@@ -275,15 +275,15 @@
 .news .event_wrap .box_type_01 .location {position: relative; padding-left: 30px; margin: 10px 0;}
 .news .event_wrap .box_type_01 .location:before {content:''; position: absolute; left:0; top:0; display: inline-block; width:20px; height: 20px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/location_s_icon.png') no-repeat;}
 .news .box_type_01 .box_type_01--item {margin-bottom: 20px;}
-.news .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
+.news .box_type_01 .box_type_01--desc a{font-family: 'Montserrat', sans-serif;}
 
 
 /*=============point_avenue_tv ========*/
 .point_avenue_tv .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/news/tv_visual.jpg') top right no-repeat; background-size: cover;}
 .point_avenue_tv .youtube_wrap {background: #fff; text-align: center; padding:40px 0;}
 .point_avenue_tv .youtube_wrap .btn_type_01--sec{margin: 30px auto 0;}
-.point_avenue_tv .spotlight_wrap .section_title_02 {font-family: 'Oswald', sans-serif;}
-.point_avenue_tv .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
+.point_avenue_tv .spotlight_wrap .section_title_02 {font-family: 'Montserrat', sans-serif;}
+.point_avenue_tv .box_type_01 .box_type_01--desc a{font-family: 'Montserrat', sans-serif;}
 
 /*=============scholarhip ========*/
 .scholarhip .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/scholarship/visual.png') right no-repeat; background-size: cover;}
@@ -562,14 +562,14 @@
 .online_summer_camp .offers_wrap .img_box {text-align: center;}
 .online_summer_camp .offers_wrap .text_box a {margin:0 auto; background:#FF9900; color:#fff;}
 
-.online_summer_camp.vn *{font-family: 'Oswald', sans-serif;}
-.online_summer_camp.vn .title_r_02 {font-family: 'Oswald', sans-serif;}
+.online_summer_camp.vn *{font-family: 'Montserrat', sans-serif;}
+.online_summer_camp.vn .title_r_02 {font-family: 'Montserrat', sans-serif;}
 .online_summer_camp.vn .online_summer_desc_wrap{margin-top:0;padding-top:530px; background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/online/vn/online-camp-bg.png') top 100px center no-repeat;}
 .online_summer_camp.vn .make_our_camps{ background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/online/vn/a-typical-camp-day-img.png')}
 .online_summer_camp.vn .online_summer_desc_wrap .btn_box a.eng {background: #FFF3D5; color:#CEB58F;} 
 .online_summer_camp.vn .online_summer_desc_wrap .btn_box a.vitn {background: #FF9900; color:#fff;}
 
-.title_r_01.vn {font-family: 'Oswald', sans-serif; font-size: 42px; letter-spacing: -2px;}
+.title_r_01.vn {font-family: 'Montserrat', sans-serif; font-size: 42px; letter-spacing: -2px;}
 
 
 .camp_translation_wrap .btn_box {text-align: center;}
