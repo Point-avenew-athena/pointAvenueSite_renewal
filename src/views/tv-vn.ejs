@@ -43,7 +43,7 @@
 							</div>
 						</div>
 						<div class="sub_article">
-							<h3 class="title_r_02 section_title">Spotlight</h3>
+							<h3 class="title_r_02 section_title">Tin tức nổi bật</h3>
 							<ul style="height: 474px; overflow-y: scroll;">
 							<% 
 								const filteredTV = tv.filter(tv => tv.subType === "none");
@@ -68,7 +68,7 @@
 			
 			<section class="tip_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Admissions Tips</h3>
+					<h3 class="title_r_02 section_title">Bí Quyết Ứng Tuyển</h3>
 					<ul class="box_type_01 courses_list video_list">
 						<% 
 							const filteredAdmissionTip = tv.filter(tv => tv.subType === "Admission Tip");
@@ -90,7 +90,7 @@
 										</div>
 									</a>
 									<a href="<%= filteredAdmissionTip[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
-										<span class="btn_inner">Watch Now</span>
+										<span class="btn_inner">Xem ngay</span>
 									</a>
 								</div>
 						</li>
@@ -123,7 +123,7 @@
 										</div>
 									</a>
 									<a href="<%= filteredWhatsOnAtPA[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
-										<span class="btn_inner">Watch Now</span>
+										<span class="btn_inner">Xem ngay</span>
 									</a>
 								</div>
 							</li>
@@ -134,9 +134,9 @@
 			
 			<section class="youtube_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02">For more videos, visit our Youtube Channel!</h3>
+					<h3 class="title_r_02">Để xem thêm video, hãy truy cập Kênh Youtube của chúng tôi!</h3>
 					<a href="https://www.youtube.com/channel/UC5A3YP-6-Ir4UAIeCLA4SzQ" target="_blank" class="btn_type_01--sec">
-						<span class="btn_inner">Visit Now</span>
+						<span class="btn_inner">Truy cập ngay</span>
 					</a>
 				</div>
 			</section>
