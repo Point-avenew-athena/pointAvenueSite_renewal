@@ -9,9 +9,9 @@ header .logo a:before{content:''; display: inline-block;width:162px; height: 26p
 header .gnb {float: right;}
 header .gnb_cont {display:inline-block; /*margin-right: 60px ;*/ vertical-align: top;}
 header .gnb_cont ul{float: left;}
-header .gnb_cont .gnb_menu_item {position: relative;display:inline-block; padding:5px 0 0px;box-sizing: border-box;}
+header .gnb_cont .gnb_menu_item {position: relative;display:inline-block; padding:0px;box-sizing: border-box;}
 header .gnb_cont .gnb_menu_item + .gnb_menu_item {margin-left: 50px;}
-header .gnb_cont .gnb_menu_item a{display: block;padding-bottom: 13px;font-size: 14px; box-sizing: border-box; }
+header .gnb_cont .gnb_menu_item a{padding-bottom: 13px;font-size: 14px; box-sizing: border-box; }
 header .gnb_cont .sub_menu_wrap {display: none;position: absolute; right:0; top:40px;z-index:100;}
 header .gnb_cont .gnb_menu_item:last-child .sub_menu_wrap .sub_menu{width:230px;} 
 header .gnb_cont .sub_menu{min-width: 200px; margin-top: 5px; padding:25px 10px 10px;border:1px solid #e5e5e5; border-radius:10px; background: #fff; color:#8B8989; box-sizing: border-box; }
