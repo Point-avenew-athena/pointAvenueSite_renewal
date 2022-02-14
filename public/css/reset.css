@@ -100,6 +100,16 @@
 
 }
 
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
 
 /* **************************************** *
  * RESET FILES

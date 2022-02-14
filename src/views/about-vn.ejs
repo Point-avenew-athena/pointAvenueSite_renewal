@@ -1,0 +1,107 @@
+<%- include("partials/head_start") %>
+<title>Về Point Avenue - Point Avenue</title>
+
+<%- include("partials/common_styles_vn") %> <%- include("partials/common_scripts")
+%>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/about-us.js"
+></script>
+
+<script>
+  const teamMembers = <%- JSON.stringify(teamMembers) %>;
+</script>
+<%- include("partials/head_end") %> <%- include("partials/body_start") %>
+<div class="wrap sub about_us">
+  <%- include("partials/gnb-vn") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="visual_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01">Về Point Avenue</h2>
+        </div>
+      </div>
+    </section>
+    <section class="about_intro_wrap">
+      <div class="section_inner">
+        <div class="video_grid_wrap">
+          <div class="video_wrap">
+            <iframe
+              src="https://www.youtube.com/embed/y4PjJAPArio"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <div class="title_r_03 s_title">
+              Point Avenue là công ty công nghệ giáo dục có trụ sở tại Hà Nội, Việt Nam, chuyên cung cấp các chương trình giáo dục cho học sinh từ mẫu giáo cho tới lớp 12 trên khắp Đông Nam Á.
+            </div>
+            <div class="text s_desc">
+              Từng thành công tại Trung Quốc và Hàn Quốc, Point Avenue mang đến chất lượng giáo dục vượt trội với giáo trình thiết kế chuyên biệt, các khóa học đa dạng kết hợp với nền tảng công nghệ hiện đại cùng một đội ngũ cố vấn giáo dục tâm huyết, giàu kinh nghiệm.<br /><br />
+
+              Với phương pháp cá nhân hóa lộ trình học tập cho mỗi học viên, cùng cách tiếp cận phát triển toàn diện bao gồm Nhân cách, Học thuật, và Kỹ năng, chúng tôi mong muốn có thể truyền cảm hứng cho các thế hệ lãnh đạo tiếp theo của Việt Nam, để các em có thể thay đổi thế giới thông qua tình yêu thương, trí tuệ và lòng chính trực.<br /><br />
+
+              Chúng tôi nỗ lực nuôi dưỡng tiềm năng của các em với mong muốn kết quả tích cực trong học tập và quan trọng hơn, giúp các em tìm ra con đường thành công của chính mình trong tương lai.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Đội ngũ điều hành</h3>
+        <p class="title_r_03 s_title">
+          Point Avenue hiện có mặt tại Việt Nam, Thái Lan, và Singapore với hơn 198 cố vấn và nhân viên. Chúng tôi tự hào đã tạo dựng được cộng đồng cố vấn đa dạng, có năng lực, tận tâm và có nhiều năm kinh nghiệm giảng dạy hoặc chuyên môn riêng. Rất nhiều trong số các cố vấn đều tốt nghiệp từ các trường đại học danh tiếng thế giới như West Point, Cambridge, Harvard, Johns Hopkins, UCLA và UVA.
+        </p>
+        <!-- 선생 리스트 swiper-->
+        <%- include("partials/team-members") %>
+      </div>
+    </section>
+
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("partials/locations-list-vn") %>
+      </div>
+    </section>
+    <section class="history_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title">Lịch sử của chúng tôi</h3>
+        <div class="grid_type_wrap_02">
+          <div class="history_box history_box_01">
+            <div class="history_box_inner">
+              <h3 class="title_s_01">
+                Point Avenue được sáng lập bởi Danny Hwang, cựu sinh viên Học viện quân sự Hòa Kỳ tại West Point và Samuel Hwang, cựu sinh viên MIT. Đồng sáng lâp của công ty là thầy Tommy Nguyễn, cử nhân, Học viện Quân sự Hoa Kỳ West Point.
+              </h3>
+              <p>
+                Lớn lên tại Hoa Kỳ, Danny, Samuel và Tommy được trải nghiệm và tiếp cận với nền giáo dục hàng đầu thế giới. Nhờ đó mà họ thấu hiểu những lợi ích từ giáo dục và quyết định theo đuổi sứ mệnh truyền cảm hứng cho thế hệ tương lai. Kể từ năm 2009, các nhà sáng lập Point Avenue khởi đầu hành trình đưa dịch vụ giáo dục K-12 (từ mẫu giáo đến lớp 12) chất lượng quốc tế đến với học sinh, sinh viên tại Trung Quốc, nhằm giúp đỡ các em đạt được thành tích học tập xuất sắc, khơi dậy đam mê và chuẩn bị hành trang cho tương lai. Năm 2018, Point Avenue bắt đầu mở rộng sang thị trường Đông Nam Á, đầu tiên là Việt Nam và sau đó là Thái Lan, để tiếp tục hành trình đóng góp cho ngành giáo dục và truyền ngọn lửa đam mê tới các em học sinh, sinh viên.
+              </p>
+            </div>
+          </div>
+          <div class="history_box history_box_02">
+            <div class="say_box">
+              <p class="text">
+                Tầm nhìn của chúng tôi là trở thành công ty công nghệ giáo dục hàng đầu thế giới, với sứ mệnh khai phóng tối đa tiềm năng của các nhà lãnh đạo tương lai, từ đó thay đổi thế giới bằng trí tuệ, sự chính trực và tấm lòng nhân ái. Chúng tôi tin tưởng mạnh mẽ vào triết lý giáo dục "Học tập theo phương pháp Tìm tòi - Khám phá (Inquiry Based Learning - IBL) - hướng tiếp cận học tập thông qua khám phá tìm tòi giúp nuôi dưỡng năng lực riêng, sự tò mò, tư duy phản biện và tính sáng tạo của mỗi em.
+              </p>
+              <p class="name">- Danny Hwang</p>
+            </div>
+            <div class="say_box">
+              <p class="text">
+                Tại Point Avenue, chúng tôi tập trung vào việc tạo lập một cộng đồng học thuật kết nối, tin tưởng giá trị của hướng tiếp cận giáo dục nhân cách và phát triển toàn diện. Với tầm nhìn, năng lực và khả năng gắn kết những nhà giáo dục hàng đầu, chúng tôi mong muốn xây dựng xu hướng đổi mới giáo dục bền vững trong một thế giới không ngừng thay đổi.
+              </p>
+              <p class="name">- Cuong Nguyen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("partials/footer-vn") %> <%- include("partials/common_popup") %>
+</div>
+<%- include("partials/body_end") %>

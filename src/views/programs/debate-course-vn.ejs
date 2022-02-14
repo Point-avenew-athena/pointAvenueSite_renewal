@@ -1,0 +1,179 @@
+<%- include("../partials/head_start") %>
+<title>Tranh biện - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, Debate Courses, SAT, English Learning">
+<meta name="description" content="Point Avenue Debate Programs aim to equip future global leaders with 21st-century skills of critical thinking, collaboration, communication, and creativity. Debate is an academic sport that encourages students to question the status quo, challenge the norm, and speak up for what they believe in. Through debate, students practice and hone their capacity in the four core areas of English learning: reading, writing, listening, and speaking.">
+<meta property="og:title" content="Debate Courses - Point Avenue">
+<meta property="og:description" content="Point Avenue Debate Programs aim to equip future global leaders with 21st-century skills of critical thinking, collaboration, communication, and creativity. Debate is an academic sport that encourages students to question the status quo, challenge the norm, and speak up for what they believe in. Through debate, students practice and hone their capacity in the four core areas of English learning: reading, writing, listening, and speaking.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/classes_visual.png">
+
+<%- include("../partials/common_styles_vn") %>
+
+<%- include("../partials/head_end") %>
+<%- include("../partials/body_start") %>
+<div class="wrap sub all_debate_courses">
+  	<%- include("../partials/gnb-vn") %>
+    	<!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">Tranh biện</h2>
+					</div>
+				</div>
+			</section>
+			<section class="classes_grid_wrap">
+				<div class="section_inner">
+					<div class="text desc_box">
+						Các <strong>khóa học Tranh biện (Debate)</strong> của Point Avenue nhằm trang bị cho các nhà lãnh đạo toàn cầu trong tương lai các kỹ năng tư duy phản biện, hợp tác, giao tiếp và sáng tạo của thế kỷ 21. Debate là một môn thể thao học thuật khuyến khích học sinh đặt nghi vấn về hiện trạng, thách thức các tiêu chuẩn và nói lên những gì các em tin tưởng. Thông qua Debate, các em sẽ được thực hành và trau dồi đầy đủ bốn kỹ năng tiếng Anh: Nghe, Nói, Đọc và Viết.
+
+						Học sinh sẽ được trau dồi kiến thức nền tảng của Tranh biện trong Khóa học Cơ bản (Tiểu học, Trung học) với trọng tâm là tập nói trước đám đông ở bậc Tiểu học và hình thức tranh luận nghị viện 3: 3 ở bậc Trung học Cơ sở và Trung học Phổ thông. Trong Khóa học Trung cấp (Tiểu học, Trung học), học sinh sẽ thực hành và nâng cao kỹ năng tranh biện qua việc khám phá các chủ đề, thực hành diễn thuyết và thực hành tranh biện trong bối cảnh cuộc thi. Trong Khóa học All-Stars (THPT), học sinh sẽ tập trung vào việc chuẩn bị cho các giải đấu tranh biện thông qua phân tích các kiến nghị, bài phát biểu được cá nhân hóa, luyện tập tranh biện và phân tích sau giải đấu.
+					</div>
+					<!-- option_wrap :: start -->
+					<%- include('../partials/course_filter'); %>
+					<!-- option_wrap :: end -->
+					<!-- courses_wrap :: start -->
+					<div class="courses_wrap">
+						<!-- courses_type_box :: start -->
+						<div class="courses_type_box">
+							<p class="title_r_02 section_title">Danh sách các khóa học</p>
+							<ul class="class_box_type_01">
+								<% for(const course of courses) { %>
+									<%- include('../partials/course_list_item_vn', { course }) %>
+								 <% } %>
+							</ul>
+						</div>
+						<!-- courses_type_box :: end -->
+					</div>
+					<!-- courses_wrap :: end -->
+				</div>
+			</section>
+			<section class="model_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h3 class="title_r_02 section_title Montserrat">
+						  Phương pháp giảng dạy:
+						</h3>
+						<p class="title_r_03 Montserrat">
+						  Các khoá học đều ứng dụng phương pháp học tập dựa trên 
+						  <strong class="t_yellow Montserrat"
+							>“Tìm tòi -
+							Khám phá” (Inquiry-based learning)</strong
+						  >
+						  kết hợp với các hoạt động thảo luận và tương tác trong lớp để khơi
+						  dạy trí tò mò và thúc đẩy các em chủ động đưa ra quan điểm cá nhân
+						  về chủ đề bài học. Từ đó, các em sẽ có thể cải thiện kỹ năng giao tiếp, rèn luyện tính
+						  chủ động, và phát triển tư duy phản biện.
+						</p>
+					  </div>
+					<div class="model_img_box">
+						<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/model_img2.png" alt="">
+						<p class="title_r_03">Phương pháp 5E</p>
+					</div>
+				</div>
+			</section>
+			<section class="mentors_wrap noPop">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Gặp gỡ đội ngũ Huấn Luyện Viên</h3>
+					 <!-- 선생 리스트 swiper-->
+          <%- include("../partials/team-members") %>
+				</div>
+			</section>
+			<section class="testimonials_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Testimonials</h3>
+					<div class="swipe_type_01_wrap results_swiper_01">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_02 team_list">
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-04.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-05.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-06.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-07.jpg" alt="">
+										</div>
+									</a>
+								</li>
+								<li class="swiper-slide swipe_type_02--item team_item">
+									<a href="javascript:void(0);">
+										<div class="swipe_type_02--img team_img">
+											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/Testimonial 18 May-08.jpg" alt="">
+										</div>
+									</a>
+								</li>
+							</ul>
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="info_input_wrap">
+				<div class="typeform-widget" data-url="https://form.typeform.com/to/euBzBBld?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+			</section>
+		</div>
+		<!--container :: end-->
+
+    <%- include("../partials/footer-vn") %>
+		<%- include("../partials/common_popup") %>
+		<div class="layer_popup testimonials_popup">
+			<div class="popup_cont">
+				<div class="img_box">
+					<img src="" alt="">
+				</div>
+			</div>
+			<a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
+		</div>
+</div>
+
+<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/swiper.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/js/common.js?v=20210604a"></script>
+<!-- <script language="JavaScript" type="text/javascript" src="/js/sub/program.js"></script> -->
+<script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/all-elementary-courses.js"></script>
+<script>
+	const courseTemplate = `<%- include("../partials/course_list_item", { course: null }); %>`;
+	const teamMembers = <%- JSON.stringify(teamMembers) %>;
+	const courses = <%- JSON.stringify(courses) %>;
+	$(function(){
+		const type = 'debate';
+		const limit = 0;
+		renderCourse(type, limit);
+		
+		// 필터 클릭시
+		$('.option_list .option_item .filter_item input[type="checkbox"]').change(function () {
+			const on = this.checked;
+			const value = this.value;
+			const option = this.dataset.option;
+			courseFilter(option, value, on);
+			renderCourse(type, limit);
+		});
+
+		// sort
+		$('.sort_by_box .sort_kind_item a').click(function() {
+			courseSort = this.dataset.value;
+		});
+	});
+</script>
+<%- include("../partials/body_end") %>

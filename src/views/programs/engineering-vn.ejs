@@ -1,0 +1,194 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles_vn") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb-vn") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.programTitle-%></span> |
+            <span><%-course.age ? `Độ tuổi ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title Montserrat">
+              Tổng quan khóa học
+            </h3>
+            <div class="text s_desc Montserrat">
+              Kỹ thuật (Engineering) là một trong những ngành học có tính thực
+              tiễn cao và có thể ứng dụng rộng rãi trong đời sống. Khóa học Kỹ
+              thuật (Engineering) tại Point Avenue giúp học sinh làm quen và áp
+              dụng các kiến thức về kỹ thuật, toán học và khoa học vào những
+              tình huống thực tế và chủ động tạo ra các giải pháp cho những vấn
+              đề gặp phải.
+              <br />
+              <br />
+
+              Học sinh sẽ được tiếp cận nhiều lĩnh vực khác nhau thuộc ngành kỹ
+              thuật như: Hàng không vũ trụ, Y sinh, Dân dụng, Môi trường, Hóa
+              học, Cơ khí, Điện và Kỹ thuật Nông nghiệp. Học sinh có cơ hội tham
+              gia các dự án, hoạt động thực hành, các hoạt động nhóm kích thích
+              sự sáng tạo và tư duy phản biện.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Nhấn vào đây</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Thông tin cơ bản</h3>
+        <div class="course_detail_box Montserrat">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Dành cho học sinh 6 - 10 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">
+                Thời gian: 17 tuần, 1.5 giờ học/tuần
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Tổng thời lượng: 25.5 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              Cấp độ cơ bản: Giúp các em làm quen và khơi gợi sự thích thú, trí
+              tò mò với các khái niệm và kiến thức về kỹ thuật thông qua các
+              hoạt động khám phá.
+            </li>
+            <li class="Montserrat">
+              Cấp độ trung cấp: Tiếp cận các kiến thức chuyên sâu hơn về các quy
+              tắc trong ngành kỹ thuật, làm quen và thành thạo việc ứng dụng kỹ
+              thuật vào các vấn đề thực tiễn.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              <strong>Giáo trình MindUP</strong>: MindUp cung cấp cho học sinh
+              những kiến thức và công cụ cần thiết để đối phó với stress, quản
+              lý cảm xúc cá nhân và đối mặt với những thử thách của thế kỷ 21
+              với sự lạc quan, bền bỉ và lòng chính trực.
+            </li>
+            <li class="Montserrat">
+              <strong>Sổ tay kế hoạch Point Avenue</strong>: Trong khoá học này,
+              các em sẽ sử dụng cuốn sổ kế hoạch đặc biệt của Point Avenue. Các
+              em có thể theo dõi các mục tiêu hàng ngày, các sự kiện đáng ý, các
+              bài học cuộc sống, và những điều các em cảm thấy biết ơn. Từ đó
+              các em có thể kiểm soát và theo dõi sự phát triển cá nhân, cũng
+              như rèn luyện thói quen suy ngẫm về những hoạt động xảy ra trong
+              ngày để mở rộng thể giới quan của mình.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer-vn") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>

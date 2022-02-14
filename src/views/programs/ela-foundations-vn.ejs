@@ -1,0 +1,196 @@
+<%- include("../partials/head_start") %>
+<title><%-course.name-%> - Point Avenue</title>
+<meta name="keywords" content="Point Avenue, <%-course.keyword.join(',')-%>" />
+<meta name="description" content="<%-course.desc-%>" />
+<meta property="og:title" content="<%-course.name-%> - Point Avenue" />
+<meta property="og:description" content="<%-course.desc-%>" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="<%-course.thumbnail-%>" />
+
+<%- include("../partials/common_styles_vn") %> <%- include("../partials/head_end")
+%> <%- include("../partials/body_start") %>
+<div class="wrap sub class_detail fundamentals">
+  <%- include("../partials/gnb-vn") %>
+  <!-- container :: start -->
+  <div class="container">
+    <section class="title_wrap">
+      <div class="section_inner">
+        <div class="text_box">
+          <h2 class="title_r_01"><%-course.name-%></h2>
+          <p class="text--gray">
+            <span><%-course.programTitle-%></span> |
+            <span><%-course.age ? `Độ tuổi ${course.age}` : course.grade -%></span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="course_overview_wrap">
+      <div class="section_inner">
+        <div class="grid_type_wrap_01">
+          <div class="video_wrap">
+            <iframe
+              height="429"
+              src="<%-course.offline.videoUrl-%>"
+              title="YouTube video player"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video_desc_wrap">
+            <h3 class="title_r_02 section_title Montserrat">
+              Tổng quan khóa học
+            </h3>
+            <div class="text s_desc Montserrat">
+              Khóa Tiếng Anh Học thuật Nền tảng (ELA Foundations) là cấp độ đầu tiên trong chương trình Tiếng Anh Trung học tại Point Avenue dành cho học sinh mới bắt đầu với tiếng Anh. Trọng tâm của khoá học là các kiến thức cơ bản về chính tả, ngữ pháp và câu trúc câu, là nền tảng vững chắc để các em học tiếp lên trình độ Cơ bản (ELA Beginner).
+              <br />
+              <br />
+
+              Khoá học sử dụng giáo trình Pathways bao gồm 5 cấp độ được xuất
+              bản bởi National Geographic Learning, tập trung đồng đều bốn kỹ
+              năng quan trọng của tiếng Anh là Nghe - Nói - Đọc - Viết. Thông
+              qua các nội dung, hình ảnh và video trực quan từ National
+              Geographic, học sinh sẽ phát triển tư duy phản biện cũng như các
+              kỹ năng ngôn ngữ cần thiết để thành công trong học tập.
+            </div>
+            <div class="registration_box">
+              <p class="title_r_03"><%-course.offline.registrationText-%></p>
+              <div class="btn_box">
+                <a
+                  href="<%-course.offline.enroll-%>"
+                  class="btn_type_01--sec"
+                  style="width: auto; padding: 15px; margin-right: 0"
+                  target="_blank"
+                  >Nhấn vào đây</a
+                >
+                <!-- <a href="#" class="btn_type_01--sec black">Sign up for test</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about_course_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Thông tin cơ bản</h3>
+        <div class="course_detail_box">
+          <ul>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/person_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Dành cho học sinh 11-12 tuổi</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/calendar_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Thời gian học 17 tuần</p>
+              <p class="title_r_03 Montserrat">3 tiếng / tuần</p>
+            </li>
+            <li>
+              <img
+                src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/clock_icon.png"
+                alt=""
+              />
+              <p class="title_r_03 Montserrat">Tổng thời lượng 51 giờ học</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <% if(course.offline.objective) { %>
+    <section class="course_objective_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Mục tiêu khóa học</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.objective.image-%>" alt="" />
+        </div>
+        <div class="objective_list">
+          <ul class="ul_type_03 Montserrat">
+            <li li class="Montserrat">
+              Các khóa học ELA phát triển 6 nhóm kỹ năng học thuật cần thiết để
+              du học và thành công trong các môi trường đại học quốc tế trong
+              tương lai :
+              <br />
+              1) Ngôn ngữ (quy ước, kiến ​​thức, từ vựng)
+              <br />
+              2) Đọc: Thông tin (ý tưởng, chi tiết, cấu trúc, phạm vi, độ phức
+              tạp của văn bản)
+              <br />
+              3) Đọc: Văn học (ý tưởng, chi tiết, cấu trúc, phạm vi, độ phức tạp
+              của văn bản)
+              <br />
+              4) Đọc: Nền tảng (các khái niệm, nhận thức âm vị học, sự nhận
+              biết, độ trôi chảy)
+              <br />
+              5) Nói và Nghe (khả năng hiểu, hợp tác, trình bày)
+              <br />
+              6) Viết (phân loại văn bản, mục đích viết, quá trình sáng tạo,
+              chia sẻ sản phẩm, nghiên cứu, phạm vi các bài viết)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %> <% if(course.offline.books) { %>
+    <section class="course_books_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Giáo trình</h3>
+        <div class="img_box">
+          <img src="<%-course.offline.books.image-%>" alt="" />
+        </div>
+        <div class="books_list">
+          <ul class="ul_type_03 Montserrat">
+            <li class="Montserrat">
+              <strong
+                >National Geographic Pathways Foundations Đọc & Viết // Nghe & Nói:</strong
+              >: Pathways là giáo trình tiếng Anh được sử dụng trên toàn cầu,
+              bao gồm 5 cấp độ. Các bài học được thiết kế một cách chi tiết giúp
+              phát triển các kỹ năng ngôn ngữ, tư duy phản biện và chiên lược
+              học tập cần thiết để thành công trong học tập. Giáo trình sử dụng
+              những tài liệu thực tế từ National Geographic giúp học sinh nhanh
+              chóng cải thiện kỹ năng ngôn ngữ và đạt được hiệu quả cao trong
+              việc học.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <% } %>
+    <section class="locations_wrap">
+      <div class="section_inner">
+        <h3 class="title_r_02 section_title Montserrat">Địa chỉ</h3>
+        <!-- locations 리스트 swiper-->
+        <%- include("../partials/locations-list-vn") %>
+      </div>
+    </section>
+  </div>
+  <!--container :: end-->
+  <%- include("../partials/footer-vn") %> <%- include("../partials/common_popup")
+  %>
+</div>
+
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/jquery-3.6.0.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/swiper.min.js"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/common.js?v=20210604a"
+></script>
+<script
+  language="JavaScript"
+  type="text/javascript"
+  src="/js/sub/point-avenue/all-elementary-courses.js"
+></script>
+<%- include("../partials/body_end") %>

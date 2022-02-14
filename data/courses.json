@@ -554,7 +554,7 @@
       },
       "books" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_book_Reading_Comprehension.jpg",
-        "strings" : ["Students will be provided with acces to the Renaissance myON® Reader. A personalized digital library at every student's fingertips, Renaissance myON® Reader is a student-centered, personalized literacy environment that gives students access to more than 6,000 enhanced digital books. Titles are dynamically matched to each individual student's interests, grade and Lexile® reading level."]
+        "strings" : ["Students will be provided with access to the Renaissance myON® Reader. A personalized digital library at every student's fingertips, Renaissance myON® Reader is a student-centered, personalized literacy environment that gives students access to more than 6,000 enhanced digital books."]
       },
       "location" : {
         "name" : "",
@@ -592,7 +592,7 @@
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/mh_obj_Academic_and_Creative_Writing.jpg",
         "strings" : [
-          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Leardn how to write process, narrative, descriptive, and opinion papers</li></ul>",
+          "<strong>1) Develop the ability to write different paragraph forms</strong><ul class=\"ul_type_02\"><li> Understand opinion writting, sequence writing, topic sentences, conclusing sentences</li><li> Learn how to write process, narrative, descriptive, and opinion papers</li></ul>",
           "<strong>2) Improve grammar and overall sentence structure</strong><ul class=\"ul_type_02\"><li> Students will use the software platform Quill to practice grammar and track their progress throughout the term.</li><li> Use Focused Correction Areas (FCA's) to analyze improvement areas in their writing</li></ul>",
           "<strong>3) Increase vocabulary and comprehension</strong><ul class=\"ul_type_02\"><li> Understand and use appropriate prefixes, suffixes using the Word Roots curriculum</li><li>Learn new words each week to incorporate in their writing</li></ul>",
           "<strong>4) Develop a genuine interest in writing</strong><ul class=\"ul_type_02\"><li> We aim to create a student centric environment promoting writing topics related to student interests and passions</li></ul>"
@@ -913,6 +913,47 @@
     }
   },
   {
+    "courseId" : 29,
+    "type" : "Online",
+    "name" : "Debate Online",
+    "urlName": "online-debate-course",
+    "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
+    "program" : "Debate",
+    "age" : "14-16",
+    "weeks" : "17 weeks",
+    "duration" : "3 hours / week",
+    "hour" : "51 hours",
+    "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_1.jpg",
+    "desc": [
+      "<strong>Learn with Asia's elite debate coaches.</strong>",
+      "<strong>What is Debate?</strong> Debate is an academic sport that allows students to practice and master their skills of public speaking and active listening while encouraging them to challenge existing norms and review old issues with new perspectives.",
+      "<strong>Why study Debate?</strong> Our Debate Program aims to nurture future leaders and equip them with 21st-century skills of communication, critical thinking, creativity, and collaboration."
+    ],
+    "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
+    "offline" : {
+      "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
+      "registrationText": "Diagnostic test registration",
+      "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
+      "objective" : {
+        "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
+        "strings" : [
+          "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
+          "Students will be introduced to various debate strategies with a focus on team collaboration. For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
+        ]
+      },
+      "books" : {
+        "image": "",
+        "strings" : []
+      },
+      "location" : {
+        "name" : "",
+        "address" : [
+          "", ""
+        ]
+      }
+    }
+  },
+  {
     "courseId" : 22,
     "type" : "Offline",
     "name" : "SSAT",
@@ -986,9 +1027,9 @@
     "hour" : "48-68 hours",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_1.jpg",
     "desc": [
-      "Point Avenue's TOEFL program prepares students for official language assessment by immersing students in interpersonal communication processes. This course develops students to be more fluent, coherent, and effective multi-skilled communicators by utilizing the four assessed TOEFL skills as catalysts for language advancement. Enrollment Prerequisites",
-      "",
-      "<strong>Completed ELA Intermediate or equivalent</strong>",
+      "Point Avenue's TOEFL program prepares students for official language assessment by immersing students in interpersonal communication processes. This course develops students to be more fluent, coherent, and effective multi-skilled communicators by utilizing the four assessed TOEFL skills as catalysts for language advancement. ",
+      "<strong>Enrollment Prerequisites</strong>",
+      "Completed ELA Intermediate or equivalent",
       "IELTS band 5",
       "TOEFL score of 60",
       "",
@@ -1025,7 +1066,6 @@
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/TOEFL_2.jpg",
         "strings" : [
           
-         "<b>TOEFL Junior</b> course approaches test preparation by immersing students in the processes of interpersonal English language communication. By utilizing the assessed TOEFL skills -  Reading Comprehension, Listening Comprehension, Language Form and Meaning, Writing, and Speech - as catalysts for language development, this class will offer students guidance in cultivating critical thinking, subject expertise, and tried & tested test-taking strategies, growing into more eloquent and effective multi-skilled communicators.",
          "<b> Pre- TOEFL</b>: Point Avenue's program prepares students for official language assessment by immersing students in interpersonal communication processes. This course develops students from age 12-15 in to be more fluent, coherent, and effective multi-skilled communicators by utilizing the four assessed TOEFL skills as catalysts for language advancement. ",
          "<b>TOEFL 101 (Beginner)</b> is a foundational course for students who score between 60-80 on the diagnostic test. The primary focus of TOEFL 101 is to expand students' academic vocabulary, specific skill knowledge, and subsequent topic awareness. Each section of the class is taught using an integrated approach to reflect the official test format. Upon completion, students will be able to: <br />Effectively outline and map reading passages.<br />Understand the structure and flow of academic conversations and lectures.<br />Write basic academic paragraphs.",        
          "<b>TOEFL 201 (Intermediate)</b> is designed for students who score between 80 to 105 on the diagnostic or official test. 201 Level courses move faster. Students will improve:<br/>Their ability to grammatically dissect reading passages.<br/>Increase their reading comprehension and speed<br/>Comprehend and identify main ideas and details in the Listening section.<br/>In addition, students will learn how to generate organized and academic speaking and writing responses promptly and how to effectively utilize various complex sentence structures on both the speaking and writing sections.",
@@ -1104,7 +1144,7 @@
         "strings" : [
           "<strong>IELTS 101 (Basic User):</strong> This is an introductory level course for beginner students who test between a band 5-6 on a diagnostic and who have a CEFR A1 - A2 vocabulary and grammar foundation.<br/>Beginner-level courses explore the Listening and Speaking (Part 1) sections of the test along with the Writing and Reading sections of the General module as an introduction to academic reading and writing. A further concentration on foundational grammatical proficiency and remedial vocabulary expansion enable general English communication development. ",
           "<strong>IELTS 201 (Independent User):</strong> This is an intermediate to upper intermediate level course for between students who score between a band 6-7 and who have a CEFR B1-B2 vocabulary and grammar proficiency.<br/>Intermediate level courses focus on IELTS vocabulary & topic knowledge expansion, and critical reading & analysis. Students' understanding of correctly utilizing grammatical conventions when writing and speaking is also a primary focus at this level.",
-          "<strong>IELTS 301: (Proficient User):</strong> This is an advanced level course for proficient students who score above a band 7 and possess a CEFR C1-C2 vocabulary and grammar proficiency. This is a one-semester course.<br/>Advanced level courses focus on all four skill mastery, emphasizing the Writing and Speaking sections. The advancement of writing & speaking coherency, construction, and elaboration are the primary objectives for this course. Students will learn how to utilize complex grammatical structures and academic lexical items when communicating in a written or conversational format. "
+          "<strong>IELTS 301 (Proficient User):</strong> This is an advanced level course for proficient students who score above a band 7 and possess a CEFR C1-C2 vocabulary and grammar proficiency. This is a one-semester course.<br/>Advanced level courses focus on all four skill mastery, emphasizing the Writing and Speaking sections. The advancement of writing & speaking coherency, construction, and elaboration are the primary objectives for this course. Students will learn how to utilize complex grammatical structures and academic lexical items when communicating in a written or conversational format. "
         ]
       },
       "books" : {

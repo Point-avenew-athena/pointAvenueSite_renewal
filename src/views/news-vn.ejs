@@ -1,0 +1,286 @@
+<%- include("partials/head_start") %>
+<title>TIN TỨC - SỰ KIỆN - Point Avenue</title>
+<meta name="keywords" content="TIN TỨC - SỰ KIỆN, Point Avenue">
+<meta name="title" content="TIN TỨC - SỰ KIỆN - Point Avenue">
+<meta property="og:title" content="Point Avenue">
+
+<%- include("partials/common_styles_vn") %>
+<%- include("partials/common_scripts") %>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+<%- include("partials/head_end") %>
+<%- include("partials/body_start") %>
+<div class="wrap sub news">
+    <%- include("partials/gnb-vn") %>
+    	<!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">TIN TỨC - SỰ KIỆN</h2>
+					</div>
+				</div>
+			</section>
+			<section class="spotlight_wrap">
+				<div class="section_inner">
+					<div class="grid_type_wrap_01">
+						<!-- main news(가장 큰 뉴스 기사) -->
+						<div class="main_article">
+							<div class="article_box">
+								<div class="img_box">
+									<a href="/news/<%= news[1].id %>">
+										<img src="<%= news[1].thumbnail.imageUrl %>" alt="<%= news[1].title %>">
+									</a>
+								</div>
+								<h3 class="title_r_02 section_title_02">
+									<a href="/news/<%= news[1].id %>">
+										<%- news[1].title %>
+									</a>
+								</h3>
+								<p class="text--gray">
+									<a href="/news/<%= news[1].id %>">
+										<%- news[1].thumbnail.excerpt %>
+									</a>
+								</p>
+							</div>
+						</div>
+	
+						<div class="sub_article">
+							<h3 class="title_r_02 section_title">Tin tức nổi bật</h3>
+							<ul style="overflow-y: scroll;height: 473px;">
+								<% 
+										const SPOTLIGHT_NEWS = [3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
+										const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)).sort((a,b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
+
+										function formateDate(d){
+											const day = new Date(d),
+														year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+														month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+														date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+											return `${date}/${month}/${year}`;
+										}
+			
+								%>
+								<% for ( let i = 0; i < filteredNews.length; i++){ %>
+                  <li>
+                    <div class="img_box">
+                      <a href="/vn/news/<%= filteredNews[i].id %>">
+												<img src="<%= filteredNews[i].thumbnail.imageUrl %>" alt="<%= filteredNews[i].title %>">
+											</a>
+                    </div>
+                    <div class="text_box">
+                      <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p>
+                      <div class="flag_type_02"><%= filteredNews[i].type %></div>
+                      <p class="title_r_03">
+												<a href="/news/<%= filteredNews[i].id %>">
+													<%= filteredNews[i].title %>
+												</a>
+											</p>
+                    </div>
+                  </li>
+                <% } %>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- <section class="event_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Events</h3>
+					<ul class="box_type_01 courses_list">
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png" alt="">
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<p class="title_r_03">Dạy con tư duy cầu tiến - Thói quen tốt để thành công</p>
+								<div class="date">
+									<p>Sunday, 21 March 2021</p>
+									<p>00:00 - 23:59</p>
+								</div>
+								<div class="location">Point Avenue - Cau Giay Center</div>
+								<a href="#" class="btn_type_01--sec">
+									<span class="btn_inner">Register</span>
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section> -->
+			
+			<section class="newsletter_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Tập san</h3>
+					<% 
+						const NEWSLETTERS = [3500, 3475, 3433];
+						const featuredNewsletter = news.filter(item => NEWSLETTERS.some(id => id === item.id)); 
+						
+						// 3500 Newsletter On Point – Issue 7
+						// 3475 Newsletter On Point – Issue 6
+						// 3433  Newsletter On Point – Issue 5
+
+						function formateDate(d){
+							const day = new Date(d),
+										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+										date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+							return `${date}/${month}/${year}`;
+						}
+
+					%>
+					<ul class="box_type_01 courses_list">
+					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<a href="/news/<%= featuredNewsletter[i].id %>">
+									<img src="<%= featuredNewsletter[i].thumbnail.imageUrl %>" alt="<%= featuredNewsletter[i].title %>">
+								</a>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="text--gray date"><%= formateDate(featuredNewsletter[i].date.split('T')[0]) %></p>
+								</div>
+								<p class="title_r_03">
+									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
+								</p>
+								<div class="desc_text">
+									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].thumbnail.excerpt %></a>									
+								</div>
+								<a href="/news/<%= featuredNewsletter[i].id %>" class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+			<% } %> 
+					</ul>
+					<a href="/news/list/newsletter" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+			
+			<section class="articles_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Bài viết</h3>
+					<ul class="box_type_01 courses_list">
+					<% 
+						const ARTICLE = [2917, 2557, 2529];
+						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
+						
+						function formateDate(d){
+							const day = new Date(d),
+										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+										date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+							return `${date}/${month}/${year}`;
+						}
+					%>
+					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--img courses_img">
+								<a href="/news/<%= featuredArticles[i].id %>">
+									<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
+								</a>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
+								</div>
+								<p class="title_r_03">
+									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
+								</p>
+								<div class="desc_text">
+									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
+								</div>
+								<a href="/news/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
+									<span class="btn_inner">Read More</span>
+								</a>
+							</div>
+						</li>
+					<% } %> 
+					</ul>
+					<a href="/news/list/articles" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+			
+			<section class="tv_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
+					<ul class="box_type_01 courses_list video_list">
+					<% for ( let i = 0; i < tv.length; i++ ) { %>
+						<li class="box_type_01--item courses_item">
+							<div class="box_type_01--video">
+								<div class="video_wrap">
+									<iframe src="<%=  tv[i].embeddedUrl %>" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="box_type_01--desc courses_desc_box">
+								<div class="info">
+									<p class="date"><%= tv[i].date %> </p>
+									<p class="duration">Duration: <%= tv[i].duration %></p>
+								</div>
+								<p class="title_r_03">
+									<a href="<%=  tv[i].blankUrl %>" target="_blank"><%=  tv[i].title %></a>
+								</p>
+								</a>
+								<div class="desc_text">
+									<a href="<%=  tv[i].blankUrl %>" target="_blank"><%-  tv[i].excerpt %></a> 
+								</div>
+								<a href="<%= tv[i].blankUrl %>" target="_blank" class="btn_type_01--sec">
+									<span class="btn_inner">Watch Now</span>
+								</a>
+							</div>
+						</li>
+				<% } %>
+					</ul>
+					<a href="/tv" class="btn_type_01 view">
+						<span class="btn_inner">View All</span>
+					</a>
+				</div>
+			</section>
+		</div>
+		<!--container :: end-->
+    <%- include("partials/footer-vn") %>
+		<%- include("partials/common_popup") %>
+</div>
+<%- include("partials/body_end") %>

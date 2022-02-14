@@ -1,44 +1,94 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const courses = require('../data/courses')
-const teachers = require('../data/teachers.json')
-const locations = require('../data/point-avenue/about-us/locations.json')
+const courses = require("../data/courses");
+const teachers = require("../data/teachers.json");
+const locations = require("../data/point-avenue/about-us/locations.json");
 const ageFilter = (ageText, value) => {
-  const [min, max] = ageText.split('-');
+  const [min, max] = ageText.split("-");
   return Number(min) <= Number(value) && Number(max) >= Number(value);
-}
+};
 const options = (courses) => [
   {
-    key: 'location',
-    name: 'Location',
+    key: "location",
+    name: "Location",
     filters: [
-      { idx:1, name: 'Hanoi - Cau Giay', value: 'Hanoi - Cau Giay', count: () => courses.filter(course => course.location.includes('Hanoi - Cau Giay')).length },
-      { idx:2, name: 'Hanoi - Long Bien', value: 'Hanoi - Long Bien', count: () => courses.filter(course => course.location.includes('Hanoi - Long Bien')).length },
-      { idx:3, name: 'Bangkok', value: 'Bangkok', count: () => courses.filter(course => course.location.includes('Bangkok')).length },
-    ]
+      {
+        idx: 1,
+        name: "Hanoi - Cau Giay",
+        value: "Hanoi - Cau Giay",
+        count: () =>
+          courses.filter((course) =>
+            course.location.includes("Hanoi - Cau Giay")
+          ).length,
+      },
+      {
+        idx: 2,
+        name: "Hanoi - Long Bien",
+        value: "Hanoi - Long Bien",
+        count: () =>
+          courses.filter((course) =>
+            course.location.includes("Hanoi - Long Bien")
+          ).length,
+      },
+      {
+        idx: 3,
+        name: "Bangkok",
+        value: "Bangkok",
+        count: () =>
+          courses.filter((course) => course.location.includes("Bangkok"))
+            .length,
+      },
+    ],
   },
   {
-    key: 'type',
-    name: 'Course Type',
+    key: "type",
+    name: "Course Type",
     filters: [
-      { idx:1, name: 'Online', value: 'Online', count: () => courses.filter(course => course.type === 'Online').length },
-      { idx:2, name: 'Offline', value: 'Offline', count: () => courses.filter(course => course.type === 'Offline').length },
-      { idx:3, name: 'Hybrid', value: 'Hybrid', count: () => courses.filter(course => course.type === 'Hybrid').length },
-    ]
+      {
+        idx: 1,
+        name: "Online",
+        value: "Online",
+        count: () =>
+          courses.filter((course) => course.type === "Online").length,
+      },
+      {
+        idx: 2,
+        name: "Offline",
+        value: "Offline",
+        count: () =>
+          courses.filter((course) => course.type === "Offline").length,
+      },
+      {
+        idx: 3,
+        name: "Hybrid",
+        value: "Hybrid",
+        count: () =>
+          courses.filter((course) => course.type === "Hybrid").length,
+      },
+    ],
   },
   {
-    key: 'age',
-    name: 'Ages',
+    key: "age",
+    name: "Ages",
     filters: (() => {
       const result = [];
-      for(let i = 0; i < 15; i++) {
+      for (let i = 0; i < 15; i++) {
         const idx = i + 1;
         const value = i + 5;
-        const count = courses.filter(course => ageFilter(course.age, value)).length;
-        if(count) result.push({idx, name: value, value, count: () => courses.filter(course => ageFilter(course.age, value)).length})
+        const count = courses.filter((course) =>
+          ageFilter(course.age, value)
+        ).length;
+        if (count)
+          result.push({
+            idx,
+            name: value,
+            value,
+            count: () =>
+              courses.filter((course) => ageFilter(course.age, value)).length,
+          });
       }
       return result;
-    })()
+    })(),
     // [
     //   { idx:1, name: '4', value: '4', count: () => courses.filter(course => ageFilter(course.age, 4)).length },
     //   { idx:2, name: '5', value: '5', count: () => courses.filter(course => ageFilter(course.age, 5)).length },
@@ -55,18 +105,18 @@ const options = (courses) => [
     //   { idx:13, name: '16', value: '16', count: () => courses.filter(course => ageFilter(course.age, 16)).length },
     //   { idx:14, name: '17', value: '17', count: () => courses.filter(course => ageFilter(course.age, 17)).length },
     //   { idx:15, name: '18', value: '18', count: () => courses.filter(course => ageFilter(course.age, 18)).length },
-      // { idx:1, name: '4 - 7', value: '4-7', count: () => courses.filter(course => course.age === '4-7').length },
-      // { idx:2, name: '5 - 10', value: '5-10', count: () => courses.filter(course => course.age === '5-10').length },
-      // { idx:3, name: '6 - 10', value: '6-10', count: () => courses.filter(course => course.age === '6-10').length },
-      // { idx:4, name: '7 - 12', value: '7-12', count: () => courses.filter(course => course.age === '7-12').length },
-      // { idx:5, name: '8 - 10', value: '8-10', count: () => courses.filter(course => course.age === '8-10').length },
-      // { idx:6, name: '8 - 12', value: '8-12', count: () => courses.filter(course => course.age === '8-12').length },
-      // { idx:7, name: '11 - 12', value: '11-12', count: () => courses.filter(course => course.age === '11-12').length },
-      // { idx:8, name: '11 - 13', value: '11-13', count: () => courses.filter(course => course.age === '11-13').length },
-      // { idx:9, name: '11 - 14', value: '11-14', count: () => courses.filter(course => course.age === '11-14').length },
-      // { idx:11, name: '11 - 16', value: '11-16', count: () => courses.filter(course => course.age === '11-16').length },
-      // { idx:12, name: '12 - 14', value: '12-14', count: () => courses.filter(course => course.age === '12-14').length },
-      // { idx:13, name: '14 - 16', value: '14-16', count: () => courses.filter(course => course.age === '14-16').length }
+    // { idx:1, name: '4 - 7', value: '4-7', count: () => courses.filter(course => course.age === '4-7').length },
+    // { idx:2, name: '5 - 10', value: '5-10', count: () => courses.filter(course => course.age === '5-10').length },
+    // { idx:3, name: '6 - 10', value: '6-10', count: () => courses.filter(course => course.age === '6-10').length },
+    // { idx:4, name: '7 - 12', value: '7-12', count: () => courses.filter(course => course.age === '7-12').length },
+    // { idx:5, name: '8 - 10', value: '8-10', count: () => courses.filter(course => course.age === '8-10').length },
+    // { idx:6, name: '8 - 12', value: '8-12', count: () => courses.filter(course => course.age === '8-12').length },
+    // { idx:7, name: '11 - 12', value: '11-12', count: () => courses.filter(course => course.age === '11-12').length },
+    // { idx:8, name: '11 - 13', value: '11-13', count: () => courses.filter(course => course.age === '11-13').length },
+    // { idx:9, name: '11 - 14', value: '11-14', count: () => courses.filter(course => course.age === '11-14').length },
+    // { idx:11, name: '11 - 16', value: '11-16', count: () => courses.filter(course => course.age === '11-16').length },
+    // { idx:12, name: '12 - 14', value: '12-14', count: () => courses.filter(course => course.age === '12-14').length },
+    // { idx:13, name: '14 - 16', value: '14-16', count: () => courses.filter(course => course.age === '14-16').length }
     // ]
   },
   // {
@@ -90,54 +140,120 @@ const options = (courses) => [
   //     { idx:4, name: 'Debate', value: 'Debate', count: () => courses.filter(course => course.program === 'Debate').length },
   //   ]
   // }
-]
+];
 
-router.get('/all-courses', function (req, res) {
-  const elementaryCourses = courses.filter(course => course.program === 'Elementary').splice(0, 3);
-  const middleCourses = courses.filter(course => course.program === 'Middle School').splice(0, 3);
-  const debateCourses = courses.filter(course => course.program === 'Debate').splice(0, 3);
-  const testCourses = courses.filter(course => course.program === 'Test Prep').splice(0, 3);
-  res.render('programs/programs', { options: options(courses), courses, elementaryCourses, middleCourses, testCourses, debateCourses });
-})
-
-router.get('/elementary-courses', function (req, res) {
-  const filterCourse = courses.filter(course => course.program === 'Elementary');
-  const elementaryTeachersData = teachers.filter(teacher => teacher.positions.includes('Elementary Teacher')).map(teacher => { teacher.position= teacher.job; return teacher; });
-  res.render('programs/elementary-course', { options: options(filterCourse), courses: filterCourse, teamMembers: elementaryTeachersData });
+router.get("/all-courses", function (req, res) {
+  const elementaryCourses = courses
+    .filter((course) => course.program === "Elementary")
+    .splice(0, 3);
+  const middleCourses = courses
+    .filter((course) => course.program === "Middle School")
+    .splice(0, 3);
+  const debateCourses = courses
+    .filter((course) => course.program === "Debate")
+    .splice(0, 3);
+  const testCourses = courses
+    .filter((course) => course.program === "Test Prep")
+    .splice(0, 3);
+  res.render("programs/programs", {
+    options: options(courses),
+    courses,
+    elementaryCourses,
+    middleCourses,
+    testCourses,
+    debateCourses,
+  });
 });
 
-router.get('/middle-school-courses', function (req, res) {
-  const filterCourse = courses.filter(course => course.program === 'Middle School');
-  const middleHighTeachersData = teachers.filter(teacher => teacher.positions.includes('Middle School Teacher')).map(teacher => { teacher.position = teacher.job; return teacher; });
-  res.render('programs/middle-school-course', { options: options(filterCourse), courses: filterCourse, teamMembers: middleHighTeachersData });
+router.get("/elementary-courses", function (req, res) {
+  const filterCourse = courses.filter(
+    (course) => course.program === "Elementary"
+  );
+  const elementaryTeachersData = teachers
+    .filter((teacher) => teacher.positions.includes("Elementary Teacher"))
+    .map((teacher) => {
+      teacher.position = teacher.job;
+      return teacher;
+    });
+  res.render("programs/elementary-course", {
+    options: options(filterCourse),
+    courses: filterCourse,
+    teamMembers: elementaryTeachersData,
+  });
 });
 
-router.get('/debate-courses', function (req, res) {
-  const filterCourse = courses.filter(course => course.program === 'Debate');
-  const debateTeachersData = teachers.filter(teacher => teacher.positions.includes('Debate Teacher')).map(teacher => {teacher.position = teacher.job;  return teacher; });
-  res.render('programs/debate-course', { options: options(filterCourse), courses: filterCourse, teamMembers: debateTeachersData });
+router.get("/middle-school-courses", function (req, res) {
+  const filterCourse = courses.filter(
+    (course) => course.program === "Middle School"
+  );
+  const middleHighTeachersData = teachers
+    .filter((teacher) => teacher.positions.includes("Middle School Teacher"))
+    .map((teacher) => {
+      teacher.position = teacher.job;
+      return teacher;
+    });
+  res.render("programs/middle-school-course", {
+    options: options(filterCourse),
+    courses: filterCourse,
+    teamMembers: middleHighTeachersData,
+  });
 });
 
-router.get('/test-preparation-courses', function (req, res) {
-  const filterCourse = courses.filter(course => course.program === 'Test Preparation');
-  const testPrepTeachersData = teachers.filter(teacher => teacher.positions.includes('Test Preparation Teacher')).map(teacher => { teacher.position =  teacher.job; return teacher; });
-  res.render('programs/test-preparation', { options: options(filterCourse), courses: filterCourse, teamMembers: testPrepTeachersData });
+router.get("/debate-courses", function (req, res) {
+  const filterCourse = courses.filter((course) => course.program === "Debate");
+  const debateTeachersData = teachers
+    .filter((teacher) => teacher.positions.includes("Debate Teacher"))
+    .map((teacher) => {
+      teacher.position = teacher.job;
+      return teacher;
+    });
+  res.render("programs/debate-course", {
+    options: options(filterCourse),
+    courses: filterCourse,
+    teamMembers: debateTeachersData,
+  });
 });
 
+router.get("/test-preparation-courses", function (req, res) {
+  const filterCourse = courses.filter(
+    (course) => course.program === "Test Preparation"
+  );
+  const testPrepTeachersData = teachers
+    .filter((teacher) => teacher.positions.includes("Test Preparation Teacher"))
+    .map((teacher) => {
+      teacher.position = teacher.job;
+      return teacher;
+    });
+  res.render("programs/test-preparation", {
+    options: options(filterCourse),
+    courses: filterCourse,
+    teamMembers: testPrepTeachersData,
+  });
+});
+
+router.get('/online-learning-courses', function (req, res) {
+  res.render('programs/online-learning');
+});
+
+router.get('/online-debate-course', function (req, res) {
+  res.render('programs/online-debate-course');
+});
 // router.get('/admissions-consulting', function (req, res) {
 //   const studies = require('../data/programs/case-studies.json');
 //   res.render('admissions-consulting', { studies });
 // });
 
-router.get('/:urlName', function (req, res) {
+router.get("/:urlName", function (req, res) {
   const { urlName } = req.params;
-  const course = courses.filter(course => course.urlName == urlName)[0];
-  const filteredLocations = locations.filter(location => [1,2,3].includes(location.id));
-  let renderPath = 'programs/course-detail';
-  if(course.type === 'Offline') {
-    renderPath = 'programs/course-detail-offline';
+  const course = courses.filter((course) => course.urlName == urlName)[0];
+  const filteredLocations = locations.filter((location) =>
+    [1, 2, 3].includes(location.id)
+  );
+  let renderPath = "programs/course-detail";
+  if (course.type === "Offline") {
+    renderPath = "programs/course-detail-offline";
   }
-  res.render(renderPath, { course, locations:filteredLocations });
+  res.render(renderPath, { course, locations: filteredLocations });
 });
 
-module.exports = router
+module.exports = router;
