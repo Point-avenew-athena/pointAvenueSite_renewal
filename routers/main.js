@@ -61,6 +61,10 @@ router.get("/vn/news", (req, res) => {
   res.render("news-vn", { news, tv });
 });
 
+router.get("/vn/policy", (req, res) => {
+  res.render("policy-vn");
+});
+
 //* newsletter 리스트 페이지
 router.get("/news/list/newsletter", (req, res) => {
   const newsletters = require("../data/point-avenue/news/news.json");
