@@ -1,0 +1,82 @@
+<%- include("../../partials/head_start") %>
+<title>Articles - Point Avenue</title>
+<meta name="keywords" content="Articles, PointAve">
+<meta name="title" content="Point Avenue">
+<meta property="og:title" content="Point Avenue">
+
+<%- include("../../partials/common_styles_vn") %>
+<%- include("../../partials/common_scripts") %>
+<script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
+
+
+
+<script>
+  const articles = <%- JSON.stringify(articles) %>;
+</script>
+<%- include("../../partials/head_end") %>
+<%- include("../../partials/body_start") %>
+
+<div class="wrap sub news newsletter_list">
+  <%- include("../../partials/gnb-vn") %>
+  <!-- container :: start -->
+		<div class="container">
+			<section class="visual_wrap">
+				<div class="section_inner">
+					<div class="text_box">
+						<h2 class="title_r_01">Bài viết</h2>
+					</div>
+				</div>
+			</section>
+			
+			<section class="newsletter_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02 section_title">Bài viết</h3>
+					<ul class="box_type_01 courses_list">
+            <% 
+              const onlyArticles = articles.filter(article => article.type === "Article");
+
+              function formateDate(d){
+								const day = new Date(d),
+											year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+											month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+											date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+	
+								return `${date}/${month}/${year}`;
+							}
+            %>
+            <% for ( let i= 0; i < onlyArticles.length; i++ ) { %>
+              <li class="box_type_01--item courses_item">
+                <div class="box_type_01--img courses_img">
+                  <a href="/vn/news/<%= onlyArticles[i].id %>">
+                    <img src="<%= onlyArticles[i].thumbnail.imageUrl %>" alt="<%= onlyArticles[i].title %>">
+                  </a>
+                </div>
+                <div class="box_type_01--desc courses_desc_box">
+                  <div class="info">
+										<p class="text--gray date"><%= formateDate(onlyArticles[i].date.split('T')[0]) %></p>
+									</div>
+                  <a href="/vn/news/<%= onlyArticles[i].id %>">
+                    <p class="title_r_03"><%= onlyArticles[i].title %></p>
+                  </a>
+                  <div class="desc_text">
+                    <a href="/vn/news/<%= onlyArticles[i].id %>">
+                      <%- onlyArticles[i].thumbnail.excerpt %>
+                    </a>
+                  </div>
+                  <a href="/vn/news/<%= onlyArticles[i].id %>" class="btn_type_01--sec">
+                    <span class="btn_inner">Xem thêm</span>
+                  </a>
+                </div>
+						</li>
+            <% } %>
+					</ul>
+				</div>
+			</section>
+			
+			
+		</div>
+		<!--container :: end-->
+    <%- include("../../partials/footer-vn") %>
+		<%- include("../../partials/common_popup") %>
+</div>
+    <%- include("../../partials/body_end") %>
