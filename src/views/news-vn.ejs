@@ -49,7 +49,7 @@
 							<h3 class="title_r_02 section_title">Tin tức nổi bật</h3>
 							<ul style="overflow-y: scroll;height: 473px;">
 								<% 
-										const SPOTLIGHT_NEWS = [3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
+										const SPOTLIGHT_NEWS = [2911, 2912, 2913, 2914, 2915, 2916, 3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
 										const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)).sort((a,b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
 
 										function formateDate(d){
