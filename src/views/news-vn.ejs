@@ -28,17 +28,17 @@
 						<div class="main_article">
 							<div class="article_box">
 								<div class="img_box">
-									<a href="/news/<%= news[1].id %>">
+									<a href="/vn/news/<%= news[1].id %>">
 										<img src="<%= news[1].thumbnail.imageUrl %>" alt="<%= news[1].title %>">
 									</a>
 								</div>
 								<h3 class="title_r_02 section_title_02">
-									<a href="/news/<%= news[1].id %>">
+									<a href="/vn/news/<%= news[1].id %>">
 										<%- news[1].title %>
 									</a>
 								</h3>
 								<p class="text--gray">
-									<a href="/news/<%= news[1].id %>">
+									<a href="/vn/news/<%= news[1].id %>">
 										<%- news[1].thumbnail.excerpt %>
 									</a>
 								</p>
@@ -49,7 +49,7 @@
 							<h3 class="title_r_02 section_title">Tin tức nổi bật</h3>
 							<ul style="overflow-y: scroll;height: 473px;">
 								<% 
-										const SPOTLIGHT_NEWS = [3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
+										const SPOTLIGHT_NEWS = [2911, 2912, 2913, 2914, 2915, 2916, 3500, 3574, 3475, 3469, 3433, 3419]; //* 메인 가장 큰 기사 빼고
 										const filteredNews = news.filter(item => SPOTLIGHT_NEWS.some(id => id === item.id)).sort((a,b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
 
 										function formateDate(d){
@@ -73,7 +73,7 @@
                       <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p>
                       <div class="flag_type_02"><%= filteredNews[i].type %></div>
                       <p class="title_r_03">
-												<a href="/news/<%= filteredNews[i].id %>">
+												<a href="/vn/news/<%= filteredNews[i].id %>">
 													<%= filteredNews[i].title %>
 												</a>
 											</p>
@@ -139,7 +139,7 @@
 						</li>
 					</ul>
 					<a href="#" class="btn_type_01 view">
-						<span class="btn_inner">View All</span>
+						<span class="btn_inner">Xem tất cả</span>
 					</a>
 				</div>
 			</section> -->
@@ -169,7 +169,7 @@
 					<% for ( let i = 0; i < featuredNewsletter.length; i++) { %>
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<a href="/news/<%= featuredNewsletter[i].id %>">
+								<a href="/vn/news/<%= featuredNewsletter[i].id %>">
 									<img src="<%= featuredNewsletter[i].thumbnail.imageUrl %>" alt="<%= featuredNewsletter[i].title %>">
 								</a>
 							</div>
@@ -178,20 +178,20 @@
 									<p class="text--gray date"><%= formateDate(featuredNewsletter[i].date.split('T')[0]) %></p>
 								</div>
 								<p class="title_r_03">
-									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
+									<a href="/vn/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
 								</p>
 								<div class="desc_text">
-									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].thumbnail.excerpt %></a>									
+									<a href="/vn/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].thumbnail.excerpt %></a>									
 								</div>
-								<a href="/news/<%= featuredNewsletter[i].id %>" class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
+								<a href="/vn/news/<%= featuredNewsletter[i].id %>" class="btn_type_01--sec">
+									<span class="btn_inner">Xem thêm</span>
 								</a>
 							</div>
 						</li>
 			<% } %> 
 					</ul>
-					<a href="/news/list/newsletter" class="btn_type_01 view">
-						<span class="btn_inner">View All</span>
+					<a href="/vn/news/list/newsletter" class="btn_type_01 view">
+						<span class="btn_inner">Xem tất cả</span>
 					</a>
 				</div>
 			</section>
@@ -201,7 +201,7 @@
 					<h3 class="title_r_02 section_title">Bài viết</h3>
 					<ul class="box_type_01 courses_list">
 					<% 
-						const ARTICLE = [2917, 2557, 2529];
+						const ARTICLE = [2911, 2912, 2913];
 						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
 						
 						function formateDate(d){
@@ -216,7 +216,7 @@
 					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
 						<li class="box_type_01--item courses_item">
 							<div class="box_type_01--img courses_img">
-								<a href="/news/<%= featuredArticles[i].id %>">
+								<a href="/vn/news/<%= featuredArticles[i].id %>">
 									<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
 								</a>
 							</div>
@@ -225,20 +225,20 @@
 									<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
 								</div>
 								<p class="title_r_03">
-									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
+									<a href="/vn/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
 								</p>
 								<div class="desc_text">
-									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
+									<a href="/vn/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
 								</div>
-								<a href="/news/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
+								<a href="/vn/news/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
+									<span class="btn_inner">Xem thêm</span>
 								</a>
 							</div>
 						</li>
 					<% } %> 
 					</ul>
-					<a href="/news/list/articles" class="btn_type_01 view">
-						<span class="btn_inner">View All</span>
+					<a href="/vn/news/list/articles" class="btn_type_01 view">
+						<span class="btn_inner">Xem tất cả</span>
 					</a>
 				</div>
 			</section>
@@ -274,7 +274,7 @@
 				<% } %>
 					</ul>
 					<a href="/tv" class="btn_type_01 view">
-						<span class="btn_inner">View All</span>
+						<span class="btn_inner">Xem tất cả</span>
 					</a>
 				</div>
 			</section>

@@ -55,7 +55,7 @@ router.get("/news", (req, res) => {
 });
 
 router.get("/vn/news", (req, res) => {
-  const news = require("../data/point-avenue/news/news.json");
+  const news = require("../data/point-avenue/news/news-vn.json");
   const tv = require("../data/point-avenue/news/tv.json").slice(0, 3);
 
   res.render("news-vn", { news, tv });
@@ -77,7 +77,7 @@ router.get("/news/:id", (req, res) => {
 });
 
 router.get("/vn/news/:id", (req, res) => {
-  const news = require("../data/point-avenue/news/news.json");
+  const news = require("../data/point-avenue/news/news-vn.json");
   const singlePost = news.filter((news) => news.id == req.params.id)[0];
   res.render("news/news-single-post-vn", {
     singlePost,
@@ -88,6 +88,11 @@ router.get("/vn/news/:id", (req, res) => {
 router.get("/news/list/articles", (req, res) => {
   const articles = require("../data/point-avenue/news/news.json");
   res.render("news/articles/list", { articles });
+});
+
+router.get("/vn/news/list/articles", (req, res) => {
+  const articles = require("../data/point-avenue/news/news-vn.json");
+  res.render("news/articles/list-vn", { articles });
 });
 
 // //* TV
