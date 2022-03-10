@@ -313,7 +313,7 @@
 .scholarhip .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 
 /*============= boarding_camp ========*/
-.boarding_camp .container {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg.png') no-repeat; background-position:center top 400px ;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;}
+.boarding_camp .container {background-color: #0f0f1e;}
 .boarding_camp .container .section_inner{position: relative; z-index: 10;}
 .boarding_camp .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/visual.png') right no-repeat; background-size: cover;}
 .boarding_camp .camp_info_wrap .video_article iframe{width: 100%; height: 400px; border-radius: 20px;}
@@ -348,8 +348,512 @@
 .boarding_camp.winter .philosophy_wrap img {max-width: 200px;}
 
 
+/*============= boarding_camp summer ========*/
+.boarding_camp.summer {
+	display: flex;
+	flex-direction: column;
+}
+.boarding_camp .container {
+	color: white;
+}
+.boarding_camp .container .banner_block {
+	position: relative;
+}
+
+.boarding_camp .container .banner_block .label_banner {
+	position: absolute;
+	color: white;
+	width: 33%;
+	top: 20%;
+	right: 4%;
+}
+
+.boarding_camp .container .banner_block #myVideo {
+	width: 100%;
+}
+
+.boarding_camp .container .banner_block .label_banner .title {
+	font-weight: 700;
+	font-size: 4rem;
+}
+.boarding_camp .container .banner_block .label_banner .description {
+	font-size: 1rem;
+}
+
+.boarding_camp .container .read-more {
+	font-size: 1rem;
+	text-align: right;
+	margin-top: 5rem;
+	cursor: pointer
+}
+.boarding_camp .container .button-hover {
+	padding: 1rem 0.6rem 1rem 0.2rem;
+  outline: 1px solid white;
+  transition: all 0.5ms;
+}
+
+.boarding_camp .container .button-hover:hover {
+	background-image: linear-gradient(to right, #f0ed39, #8fc741);
+	outline: none
+}
+.boarding_camp .container .campaign {
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+}
+
+.boarding_camp .container .experience {
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+}
+
+.boarding_camp .container .timeline {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+}
+
+.boarding_camp .container .offer {
+	padding: 0 5rem;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	gap: 2rem;
+}
+
+.boarding_camp .container .mentor {
+	padding: 0 5rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	gap: 2rem;
+}
+
+.boarding_camp .container .mentor .block-1 {
+	width: 70%;
+}
+.boarding_camp .container .mentor .block-2{
+	width: 100%;
+}
+
+.boarding_camp .container .mentor .block-2 .title{
+	margin-bottom: 4rem;
+	margin-left: 4rem;
+}
+.boarding_camp .container .mentor .block-2 .swiper-slide{
+	background-color: white;
+	background: linear-gradient( 
+		348.2deg
+		 ,#332656 6.86%,#1a1d42 94.88%);
+				border: none;
+}
+.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-next{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+}
+.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-prev{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+	transform: rotateY( 0 );
+}
+/* .boarding_camp .container .mentor .block-2 {
+	padding: 0 5rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 4rem;
+	margin-top: 2rem;
+	gap: 2rem;
+} */
+
+.boarding_camp .container .offer .title{
+	margin-bottom: 3rem;
+}
+.boarding_camp .container .offer .box-img{
+	position: relative;
+}
+.boarding_camp .container .offer .bg{
+	width: 10rem;
+	height: 10rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to right, #f0ed39, #8fc741);
+}
+.boarding_camp .container .offer .block-2{
+	margin-top: 7rem;
+}
+
+.boarding_camp .container .offer .block-2 .title{
+	font-size: 1.5rem;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+
+.boarding_camp .container .offer .block-2 .detail{
+	margin: 0 2rem;
+	display: flex;
+	flex-direction: column;
+}
+.boarding_camp .container .offer .block-2 .detail .description{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.boarding_camp .container .offer .block-2 .box{
+	width: 8px;
+	height: 8px;
+	border: 1px solid;
+	background-color: transparent;
+	margin-right: 0.5rem;
+}
+
+.boarding_camp .container .timeline .block-2 {
+	width: 100%;
+	padding: 0 3rem;
+	justify-content: center;
+	height: 35rem;
+	margin: 4rem 0;
+}
+.boarding_camp .container .timeline .block-2 .box-timeline{
+	padding: 0 1rem;
+	position: absolute;
+	width: 10rem;
+	height: 10rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid;
+	flex-direction: column;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-1{
+	top: 100px;
+	left: 2rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-3{
+	top: 100px;
+	left: 19rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-5{
+	top: 100px;
+	left: 39rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-7{
+	top: 100px;
+	left: 59rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-9{
+	top: 100px;
+	left: 79rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-2{
+	top: -243px;
+	left: 9rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-4{
+	top: -243px;
+	left: 29rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-6{
+	top: -243px;
+	left: 49rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-8{
+	top: -243px;
+	left: 69rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline:hover{
+	/* transform: scale(1.1); */
+	transition: all 0.8s;
+	background-image: linear-gradient(to bottom, #24340d , #4e6924);
+	outline: none;
+	border: none;
+}
+.boarding_camp .container .timeline .block-2 .box-timeline .line{
+	width: 4px;
+	background-color: white;
+	height: 4px;
+	content: "";
+	position: absolute;
+	transform: rotate(90deg);
+	top: -102px;
+}
+.boarding_camp .container .timeline .block-2 .box-timeline-1 .line{
+	top: -102px;
+}
+.boarding_camp .container .timeline .block-2 .box-timeline-2 .line,
+.boarding_camp .container .timeline .block-2 .box-timeline-4 .line,
+.boarding_camp .container .timeline .block-2 .box-timeline-6 .line,
+.boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
+	top: 241px;
+}
+.boarding_camp .container .timeline .block-2 .box-timeline:hover span{
+	background: -webkit-linear-gradient(left, #eeee38, #8fc740);
+  -webkit-background-clip: text;
+	font-weight: 600;
+  -webkit-text-fill-color: transparent;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline span.desc{
+	display: none;
+	font-size: 1rem;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline:hover span.desc{
+	display: block;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline::before{
+	width: 100px;
+	background-color: white;
+	height: 1px;
+	content: "";
+	position: absolute;
+	transform: rotate(90deg);
+  top: -51px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-1::before{
+  top: -51px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-2::before,
+.boarding_camp .container .timeline .block-2 .box-timeline-4::before,
+.boarding_camp .container .timeline .block-2 .box-timeline-6::before,
+.boarding_camp .container .timeline .block-2 .box-timeline-8::before{
+  top: 190px;
+}
+
+/* .boarding_camp .container .timeline .block-2 .box-timeline:hover::before{
+	width: 82px;
+  top: -43px;
+} */
+
+.boarding_camp .container .timeline .block-2 .box-timeline span,
+.boarding_camp .container .timeline .block-2 .box-timeline p{
+	font-size: 1.5rem;
+}
+
+.boarding_camp .container .timeline .block-2 .ic-next {
+	background: #fff;
+    height: 1px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.boarding_camp .container .timeline .block-2 .ic-next::before {
+	content: "";
+	background: #fff;
+	position: absolute;
+	height: 0.5px;
+	width: 0.675rem;
+	right: -3px;
+    bottom: -3px;
+    transform: rotate(
+-45deg
+);
+}
+
+.boarding_camp .container .timeline .block-2 .ic-next::after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	height: 0.5px;
+	width: 0.675rem;
+	right: -3px;
+	top: -4px;
+	transform: rotate(
+45deg
+);
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 8%;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience{
+	border-bottom: 1px solid white;
+    padding: 1rem 1rem 3rem 1rem;
+		transition: height 15s;
+		flex-direction: column;
+		display: flex;
+		width: 40%;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .ic-academic{
+	background-image: url("https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/icons.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header{
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1.5rem;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .label{
+	background: -webkit-linear-gradient(left, #efee69, #8bc83e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	max-width: 75%
+}
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .img-leader{
+	width: 46px;
+  height: 44px;
+  background-image: url("https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/images.jpg");
+	background-repeat: no-repeat;
+	background-position: -5px -5px;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description{
+	font-size: 0.875rem;
+	margin-bottom: 0.2rem;
+}
+
+
+.boarding_camp .container .block-1 {
+	font-size: 3rem;
+	text-align: right;
+	width: 40%;
+	color: white;
+}
+.boarding_camp .container .block-2 {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 60%;
+}
+.boarding_camp .container .block-2 .block-description {
+	color: white;
+	padding-right: 5rem;
+	margin-top: 4rem;
+	width: 100%;
+	padding-bottom: 2rem;
+}
+
+.boarding_camp .container .block-2 .block-description .read-more {
+	margin-top: 3rem;
+	text-align: left;
+}
+.boarding_camp .container .block-2 .swiper-container {
+	display: flex;
+}
+.boarding_camp .container .block-1 span{
+	font-size: 3rem;
+}
+.boarding_camp .container .box-navigation {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-top: 1rem;
+}
+
+.boarding_camp .container .box-navigation .box {
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	height: 1.4rem;
+	position: relative;
+	width: 5rem;
+	top: 0;
+	left: 0;
+	background: none;
+	margin-left: 14px;
+	margin-top: 0;
+}
+
+.boarding_camp .container .block-2 .swiper-slide img {
+	/* width: 400px; */
+}
+
+.boarding_camp .container .box-navigation .box .ic-next, 
+.boarding_camp .container .box-navigation .box .ic-prev {
+	background: #fff;
+    height: 1px;
+    width: 5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.boarding_camp .container .box-navigation .box .ic-next::before {
+	content: "";
+	background: #fff;
+	position: absolute;
+	height: 0.5px;
+	width: 0.675rem;
+	left: -2px;
+	top: -4px;
+	transform: rotate(-45deg);
+}
+
+.boarding_camp .container .box-navigation .box .ic-next::after {
+	content: "";
+    background: #fff;
+    position: absolute;
+    height: 0.5px;
+    width: 0.675rem;
+		left: -2px;
+    bottom: -3px;
+    transform: rotate(
+45deg
+);
+}
+
+.boarding_camp .container .box-navigation .box .ic-prev::before {
+	content: "";
+	background: #fff;
+	position: absolute;
+	height: 0.5px;
+	width: 0.675rem;
+	right: -3px;
+    bottom: -3px;
+    transform: rotate(
+-45deg
+);
+}
+
+.boarding_camp .container .box-navigation .box .ic-prev::after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	height: 0.5px;
+	width: 0.675rem;
+	right: -3px;
+	top: -4px;
+	transform: rotate(
+45deg
+);
+}
+
+
+
+
 /*============= online_learning ========*/
-/* .online_learning .container {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg.png') no-repeat; background-position:center top 400px ;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;} */
+.online_learning .container {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg.png') no-repeat; background-position:center top 400px ;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;background-size: 100% 100%;}
 .online_learning .container .section_inner{position: relative; z-index: 10;}
 .online_learning .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/online-learning/online-learning-banner-mask.png') right no-repeat; background-size: cover;}
 .online_learning .visual_wrap .title_r_01 {text-transform: uppercase; width: 49%}
