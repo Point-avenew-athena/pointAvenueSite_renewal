@@ -216,6 +216,7 @@ function changeTeacherData(
     experience: ".mentor_info_box .ul_type_02",
   }
 ) {
+  console.log(clickedElem.dataset);
   const id = clickedElem.dataset.id;
   const image = document.querySelector(targets.image);
 
@@ -265,6 +266,34 @@ function changeMentorData(
       teacherExpWrapper.insertAdjacentHTML("beforeend", `<li>${info}</li>`);
     });
 
+  image.src = clickedElem.dataset.img;
+  name.textContent = clickedElem.dataset.name;
+}
+
+function changeMentorDataCustom(
+  data,
+  teacherExpWrapper,
+  clickedElem,
+  targets = {
+    image: ".mentor_popup_custom .mentor_img_box > img",
+    name: ".mentor_popup_custom .mentor_img_box p.title_r_03",
+    experience: ".mentor_popup_custom .mentor_info_box .ul_type_02",
+  }
+) {
+  console.log(teacherExpWrapper);
+  const id = clickedElem.dataset.id;
+  const image = document.querySelector(targets.image);
+
+  const name = document.querySelector(targets.name);
+  experience = document.querySelector(targets.experience);
+
+  data
+    .filter((teacher) => teacher.id == id)[0]
+    .exp.forEach((info) => {
+      teacherExpWrapper.insertAdjacentHTML("beforeend", `<li>${info}</li>`);
+    });
+
+  console.log(image, name);
   image.src = clickedElem.dataset.img;
   name.textContent = clickedElem.dataset.name;
 }

@@ -1,6 +1,8 @@
 $(function(){
-	var info_swiper = new Swiper('.location_wrap .swiper-container', {
-		slidesPerView: 1, 
+	console.log(2);
+	var info_swiper = new Swiper('.swipe_image .swiper-container', {
+		slidesPerView: 1,
+		// spaceBetween: 20, 
 		effect:'fade',
 		pagination: {
 			el: '.swiper-pagination',
