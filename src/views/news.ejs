@@ -7,7 +7,6 @@
 <%- include("partials/common_styles") %>
 <%- include("partials/common_scripts") %>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
-
 <%- include("partials/head_end") %>
 <%- include("partials/body_start") %>
 <div class="wrap sub news">
@@ -201,7 +200,7 @@
 					<h3 class="title_r_02 section_title">Articles</h3>
 					<ul class="box_type_01 courses_list">
 					<% 
-						const ARTICLE = [2917, 2557, 2529];
+						const ARTICLE = [2919, 2920, 2918];
 						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
 						
 						function formateDate(d){
