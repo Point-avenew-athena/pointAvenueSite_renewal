@@ -455,7 +455,8 @@
 	margin-bottom: 2rem;
 }
 .boarding_camp .container .team_wrap .section_inner .s_title {
-	padding: 0 5rem
+	padding: 0 5rem;
+	font-weight: 500;
 }
 
 .boarding_camp .container .team_wrap .section_inner .swiper-slide {
@@ -835,6 +836,12 @@
 	width: 100%;
 	text-align: center;
 	margin-bottom: 2rem;
+}
+
+.boarding_camp .container .info_input_wrap .title_r_03 {
+	padding: 0 17rem;
+    margin-bottom: 3rem;
+	font-weight: 500;
 }
 .boarding_camp .container .box-navigation {
 	display: flex;
