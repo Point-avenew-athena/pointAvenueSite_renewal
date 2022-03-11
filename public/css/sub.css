@@ -313,8 +313,8 @@
 .scholarhip .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 
 /*============= boarding_camp ========*/
-.boarding_camp .container {background-color: #0f0f1e;}
-.boarding_camp .container .section_inner{position: relative; z-index: 10;}
+.boarding_camp .container {background-color: #20203df5;}
+.boarding_camp .container .section_inner{position: relative; z-index: 10; padding: 0;}
 .boarding_camp .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/visual.png') right no-repeat; background-size: cover;}
 .boarding_camp .camp_info_wrap .video_article iframe{width: 100%; height: 400px; border-radius: 20px;}
 .boarding_camp .camp_info_wrap .text_article {padding-left: 40px;}
@@ -363,8 +363,8 @@
 .boarding_camp .container .banner_block .label_banner {
 	position: absolute;
 	color: white;
-	width: 33%;
-	top: 20%;
+	width: 40%;
+	top: 40%;
 	right: 4%;
 }
 
@@ -375,9 +375,14 @@
 .boarding_camp .container .banner_block .label_banner .title {
 	font-weight: 700;
 	font-size: 4rem;
+	text-align: right;
 }
 .boarding_camp .container .banner_block .label_banner .description {
 	font-size: 1rem;
+}
+
+.boarding_camp .swipe_type_01 .swipe_type_01--img .img_box {
+	border-radius: 0px
 }
 
 .boarding_camp .container .read-more {
@@ -435,28 +440,83 @@
 	gap: 2rem;
 }
 
-.boarding_camp .container .mentor .block-1 {
-	width: 70%;
-}
-.boarding_camp .container .mentor .block-2{
-	width: 100%;
+.boarding_camp .container .team_wrap {
+	margin-bottom: 3rem;
 }
 
-.boarding_camp .container .mentor .block-2 .title{
-	margin-bottom: 4rem;
-	margin-left: 4rem;
+.boarding_camp .container .team_wrap .section_inner .title_r_02 {
+	font-size: 3rem;
+	text-align: center;
+	padding: 0 5rem
 }
-.boarding_camp .container .mentor .block-2 .swiper-slide{
+
+.boarding_camp .container .team_wrap .section_inner .title_r_03 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.boarding_camp .container .team_wrap .section_inner .s_title {
+	padding: 0 5rem
+}
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide {
 	background-color: white;
 	background: linear-gradient( 
 		348.2deg
 		 ,#332656 6.86%,#1a1d42 94.88%);
 				border: none;
 }
-.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-next{
+.boarding_camp .container .team_wrap .section_inner .swiper-slide.Nierru img {
+	top: -50px;
+}
+
+.boarding_camp .container .team_wrap .swiper-container .swiper-button-next{
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
 }
-.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-prev{
+.boarding_camp .container .team_wrap .swiper-container .swiper-button-prev{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+	transform: rotateY( 0 );
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .title_r_03{
+	margin-bottom: 0;
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .title_r_03--gray{
+	margin-top: 5px;
+	color: #8285a7;
+	font-weight: 500;
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .desc{
+	padding: 0 1rem;
+	font-size: 14px;
+	margin-bottom: 1rem;
+	line-height: 22px;
+	color: #969ac1;
+}
+
+.boarding_camp .container .team_wrap .block-1 {
+	width: 70%;
+}
+.boarding_camp .container .team_wrap .block-2{
+	width: 100%;
+}
+
+.boarding_camp .container .team_wrap .block-2 .title{
+	margin-bottom: 4rem;
+	margin-left: 4rem;
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-slide{
+	background-color: white;
+	background: linear-gradient( 
+		348.2deg
+		 ,#332656 6.86%,#1a1d42 94.88%);
+				border: none;
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-container .swiper-button-next{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-container .swiper-button-prev{
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
 	transform: rotateY( 0 );
 }
@@ -764,6 +824,12 @@
 }
 .boarding_camp .container .block-1 span{
 	font-size: 3rem;
+}
+
+.boarding_camp .container .team_wrap .title {
+    font-size: 3rem;
+	width: 100%;
+	text-align: center;
 }
 .boarding_camp .container .box-navigation {
 	display: flex;
@@ -1117,6 +1183,13 @@
 	.boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_03{left:0;bottom:0;}
 	.boarding_camp .differences_wrap .title_r_02 {margin-bottom:100px;}
 
+
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner {
+		width: 60%;
+	}
+
+
 	/*============= online_learning ========*/
 	.online_learning .camp_info_wrap .text_article {width: 100%;padding-left: 0; margin-top: 30px;}
 	.online_learning .camp_info_wrap .video_article {width: 100%;}
@@ -1191,6 +1264,55 @@
 	.boarding_camp .info_input_wrap .write_box .input_box .name {width:100%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner {
+		top: 20%;
+	}
+
+	.boarding_camp .container .campaign {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .block-1 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.boarding_camp .container .box-navigation {
+		justify-content: center;
+	}
+
+	.boarding_camp .container .block-2 {
+		width: 100%;
+	}
+
+	.boarding_camp .container .block-2 .block-description {
+		color: white;
+		/* padding-right: 5rem; */
+		padding: 4rem;
+		width: 100%;
+		padding-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .block-2 .block-description .read-more {
+		text-align: center;
+	}
+
+	.boarding_camp .container .experience {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .experience .block-2 .boxDetail {
+		padding: 4rem;
+    	gap: 8%;
+	}
+
+	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience {
+		width: 46%;
+	}
 
 	/*============= online_learning ========*/
 	.online_learning .info_input_wrap .write_box .input_box input {float: none;}
@@ -1279,6 +1401,29 @@
 	.boarding_camp .info_input_wrap .choose_box p {display: block;}
 	.boarding_camp .info_input_wrap .choose_box .radio_wrap {margin-left: 0; margin-top: 10px;}
 
+
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner .title {
+		font-size: 2rem;
+	}
+	.boarding_camp .container .banner_block .label_banner .description {
+		font-size: 1.2rem;
+	}
+	.boarding_camp .container .read-more {
+		font-size: 3rem;
+		text-align: right;
+		margin-top: 2rem;
+		cursor: pointer;
+	}
+
+	.boarding_camp .container .offer {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .offer .block-2{
+		margin-top: 0;
+	}
+
 	/*============= online_learning ========*/
 	.online_learning .camp_info_wrap .video_article iframe {height: 400px;}
 	.online_learning .offers_wrap .brochure_box {margin:30px 0;}
@@ -1350,6 +1495,29 @@
 	.boarding_camp.winter .philosophy_wrap li img{max-width:100px;}
 	.boarding_camp.winter .differences_wrap .asset_item {min-height: 200px;}
 
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner {
+		top: 35%;
+	}
+	.boarding_camp .container .banner_block .label_banner .title {
+		font-size: 1rem;
+	}
+	.boarding_camp .container .banner_block .label_banner .description {
+		font-size: 0.875rem;
+	}
+	.boarding_camp .container .read-more {
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
+
+	.boarding_camp .container .read-more span {
+		font-size: 0.875rem;
+	}
+
+	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience {
+		width: 100%;
+	}
+
 	/*============= online_learning ========*/
 	.online_learning .info_input_wrap {padding-bottom: 0; margin-top: 40px;}
 
@@ -1377,7 +1545,11 @@
 	
 
 }
-	
+@media screen and (max-width:470px) {
+	.boarding_camp .container .banner_block .label_banner {
+		top: 20%;
+	}
+}	
 
 @media screen and (max-width:400px) {
 	/*============= online_summer_camp ========*/
@@ -1391,4 +1563,19 @@
 	/*============= online_debate ========*/
 	.online_debate .visual_wrap .title_r_01 {margin-top: 0;}
 	.online_debate .camp_info_wrap .video_article iframe {height: 200px;}
+
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner {
+		top: 5%;
+	}
+	.boarding_camp .container .banner_block .label_banner .title {
+		font-size: 1rem;
+	}
+	.boarding_camp .container .banner_block .label_banner .description {
+		font-size: 0.875rem;
+	}
+	.boarding_camp .container .read-more {
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
 }

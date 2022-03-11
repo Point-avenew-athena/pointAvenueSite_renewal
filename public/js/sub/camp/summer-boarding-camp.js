@@ -14,7 +14,7 @@ $(function(){
     });
 
 
-		var mentors_swiper = new Swiper('.mentor .swiper-container', {
+		var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
 			slidesPerView: 4,
 			spaceBetween: 20,
 			navigation: {
@@ -38,12 +38,12 @@ $(function(){
 			},
 		});
 
-		$('.mentor .team_item > a').click(function () {
-			$('.layer_popup').center();
-			$('.mentor_popup_custom').show();
-			changeMentorDataCustom(teamMembers, document.querySelector('.mentor_popup_custom .ul_type_02'), this);
-			$('.dim').show();
-		});
+		// $('.team_wrap .team_item > a').click(function () {
+		// 	$('.layer_popup').center();
+		// 	$('.mentor_popup_custom').show();
+		// 	changeMentorDataCustom(teamMembers, document.querySelector('.mentor_popup_custom .ul_type_02'), this);
+		// 	$('.dim').show();
+		// });
 	/*=================== case_studies_swiper ==============*/
 	// var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 	// 	slidesPerView: 4,
