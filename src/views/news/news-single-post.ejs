@@ -11,7 +11,22 @@
 <%- include("../partials/common_styles") %>
 <%- include("../partials/common_scripts") %>
 <script language="JavaScript" type="text/javascript" src="/js/sub/admission-consulting/admission-consulting.js"></script>
-
+<head>
+	<style>
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+		
+		td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		}
+		</style>
+</head>
 <script>
   const singlePost = <%- JSON.stringify(singlePost) %>;
 </script>
