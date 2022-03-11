@@ -435,28 +435,76 @@
 	gap: 2rem;
 }
 
-.boarding_camp .container .mentor .block-1 {
-	width: 70%;
-}
-.boarding_camp .container .mentor .block-2{
-	width: 100%;
+.boarding_camp .container .team_wrap {
+	margin-bottom: 3rem;
 }
 
-.boarding_camp .container .mentor .block-2 .title{
-	margin-bottom: 4rem;
-	margin-left: 4rem;
+.boarding_camp .container .team_wrap .section_inner .title_r_02 {
+	font-size: 3rem;
+	text-align: center;
 }
-.boarding_camp .container .mentor .block-2 .swiper-slide{
+
+.boarding_camp .container .team_wrap .section_inner .title_r_03 {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide {
 	background-color: white;
 	background: linear-gradient( 
 		348.2deg
 		 ,#332656 6.86%,#1a1d42 94.88%);
 				border: none;
 }
-.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-next{
+
+.boarding_camp .container .team_wrap .swiper-container .swiper-button-next{
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
 }
-.boarding_camp .container .mentor .block-2 .swiper-container .swiper-button-prev{
+.boarding_camp .container .team_wrap .swiper-container .swiper-button-prev{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+	transform: rotateY( 0 );
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .title_r_03{
+	margin-bottom: 0;
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .title_r_03--gray{
+	margin-top: 5px;
+	color: #8285a7;
+	font-weight: 500;
+}
+
+.boarding_camp .container .team_wrap .swiper-container .team_desc_box .desc{
+	padding: 0 1rem;
+	font-size: 14px;
+	margin-bottom: 1rem;
+	line-height: 22px;
+	color: #969ac1;
+}
+
+.boarding_camp .container .team_wrap .block-1 {
+	width: 70%;
+}
+.boarding_camp .container .team_wrap .block-2{
+	width: 100%;
+}
+
+.boarding_camp .container .team_wrap .block-2 .title{
+	margin-bottom: 4rem;
+	margin-left: 4rem;
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-slide{
+	background-color: white;
+	background: linear-gradient( 
+		348.2deg
+		 ,#332656 6.86%,#1a1d42 94.88%);
+				border: none;
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-container .swiper-button-next{
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+}
+.boarding_camp .container .team_wrap .block-2 .swiper-container .swiper-button-prev{
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
 	transform: rotateY( 0 );
 }

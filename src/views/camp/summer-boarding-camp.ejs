@@ -289,35 +289,45 @@
 					</div>
 				</div>
 			</section>
-			<section class="mentor">
-				<div class="block-1">
-					<span class="title">OUR INTERNATIONAL MENTORS</span>
-				</div>
-				<div class="block-2">
-					<p class="title">Graduates of West Point, Harvard, Cambridge, Johns Hopkins, UPenn, Northwestern, UC Berkeley, UCLA, and more.</br>
-						25 years of experience operating boarding and day camps
+			<section class="team_wrap">
+				<div class="section_inner">
+					<h3 class="title_r_02">OUR INTERNATIONAL MENTORS</h3>
+					<p class="title_r_03 s_title">
+						Graduates of West Point, Harvard, Cambridge, Johns Hopkins, UPenn, Northwestern, UC Berkeley, UCLA, and more. 25 years of experience operating boarding and day camps
 					</p>
-					</p>
-					<div class="section_inner">
-						<%- include("../partials/team-members") %>
+					<div class="swipe_type_01_wrap">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper swipe_type_01 team_list">
+								<% for ( let i = 0; i < teamMembers.length; i++) { %>
+									<li class="swiper-slide swipe_type_01--item team_item <%= teamMembers[i].name %>">
+										<a href="javascript:void(0);" 
+											 data-id="<%= teamMembers[i].id %>" 
+											 data-name="<%= teamMembers[i].name %>" 
+											 data-position="<%= teamMembers[i].position %>" 
+											 data-img="<%= teamMembers[i].img %>" 
+										>
+											<div class="swipe_type_01--img team_img">
+												<div class="img_box">
+													<img src="<%= teamMembers[i].img %>" alt="<%= teamMembers[i].name %>">
+												</div>
+											</div>
+											<div class="swipe_type_01--desc team_desc_box">
+												<p class="title_r_03"><%= teamMembers[i].name %></p>
+												<div class="title_r_03--gray"><%= teamMembers[i].position %></div>
+												<p class="desc"><%= teamMembers[i].desc %></p>
+											</div>
+										</a>
+									</li>
+								<% } %>
+							</ul>
+					
+							<!-- If we need navigation buttons -->
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
 					</div>
 				</div>
 			</section>
-			
-			<!-- <section class="team_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Meet Our Team</h3>
-					<p class="title_r_03 s_title">
-						Point Avenue now operates in Vietnam, Thailand, and Singapore with
-						more than 198 dedicated team members. We pride ourselves on the
-						diversity, quality, and discipline of our mentors - many of whom are
-						graduates from West Point, Cambridge, Harvard, Johns Hopkins, UCLA,
-						and UVA.
-					</p>
-					<%- include("../partials/team-members") %>
-				</div>
-				
-			</section> -->
 			<%- include("../partials/common_popup") %>
 
 		</div>
