@@ -11,7 +11,7 @@
       "Captain, US Army Ranger",
       "BS, United States Military Academy"
     ],
-    "desc": "B.S., United States Military Academy at West Point",
+    "desc": "B.S. United States Military Academy at West Point",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
@@ -43,11 +43,12 @@
       "ACCA, CIA, CPA"
     ],
     "desc": "B.S. in Global Studies, Liberty University",
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
   },
   {
     "id": 6,
-    "name": "GUEST MENTOR Dr. Les Knotts",
+    "name": "Dr. Les Knotts",
+    "position": "Special Guest Mentor",
     "desc": "Associate Professor, United States Military Academy at West Point",
     "exp": [
       "10 years of experience in Education",
@@ -56,7 +57,7 @@
       "Residential Counselor & Summer Program Teacher, Youth Opportunities Upheld, Inc.",
       "B.A., University of Massachusetts, Amherst"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dan.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dr. Les Knotts.jpeg"
   },
   {
     "id": 7,
@@ -67,7 +68,7 @@
       "M.A. and B.A., National Economics University "
     ],
     "desc": "B.A. in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jesika.jpg"
   },
   {
     "id":8,
@@ -80,7 +81,7 @@
       "B.S., United States Military Acedemy at West Point ",
       "TEFL & Test Prep Certifications "
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Lan-Dinh.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Mark Simpson.jpg"
   },
   {
     "id": 9,
@@ -92,7 +93,7 @@
       "IELTS Chief Invigilator, IDP Education",
       "B.A., International Pacific College"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Katrina.jpg"
   },
   {
     "id": 10,
@@ -105,7 +106,7 @@
       "B.A. and B.S., University of Virginia",
       "TEFL & Design Thining and Innovation Certifications"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Doris.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ben.jpg"
   },
   {
     "id": 11,
@@ -118,7 +119,7 @@
       "Completing Masters of Science Education, Johns Hopkins University",
       "Completing Certificate of Early Childhood Leadership, Harvard Graduate School of Education"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Sarah.jpg"
   },
   {
     "id": 12,
@@ -131,7 +132,7 @@
       "B.A., University of Massachusetts Amherst",
       "Author of  8 academic papers on summer camp, creativity, motivation, and natural resource management(Journal of Youth Development, Energy Research and Social Science, Journal of Outdoor Recreation and Tourism)"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jacob.jpg"
   },
   {
     "id": 13,
@@ -145,20 +146,6 @@
       "M.S., University of New Hampshire",
       "B.A., University of Washington Southern"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
-  },
-  {
-    "id": 14,
-    "name": "ASHLEY",
-    "desc": "Bachelor of Laws, Nelson Mandela University",
-    "exp": [
-      "18 years of experience in Education",
-      "Managing Director & Icon Institute Manager, Chung Dahm Learning",
-      "Assistant Managing Director, Chase Academy",
-      "B.A., University of California",
-      "Over 15 years as a Test Prep teacher with hundreds of students scoring over 1400 and 1500"
-    ],
-
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nierru.jpg"
   }
 ]
