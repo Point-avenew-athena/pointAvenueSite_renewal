@@ -455,7 +455,8 @@
 	margin-bottom: 2rem;
 }
 .boarding_camp .container .team_wrap .section_inner .s_title {
-	padding: 0 5rem
+	padding: 0 5rem;
+	font-weight: 500;
 }
 
 .boarding_camp .container .team_wrap .section_inner .swiper-slide {
@@ -773,9 +774,7 @@
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .label{
-	background: -webkit-linear-gradient(left, #efee69, #8bc83e);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #f3b518;
 	font-size: 1.5rem;
 	line-height: 1.8rem;
 	max-width: 75%
@@ -830,6 +829,19 @@
     font-size: 3rem;
 	width: 100%;
 	text-align: center;
+}
+
+.boarding_camp .container .info_input_wrap .title {
+    font-size: 3rem;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.boarding_camp .container .info_input_wrap .title_r_03 {
+	padding: 0 17rem;
+    margin-bottom: 3rem;
+	font-weight: 500;
 }
 .boarding_camp .container .box-navigation {
 	display: flex;
