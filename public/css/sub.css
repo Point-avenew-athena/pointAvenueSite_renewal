@@ -2150,6 +2150,41 @@ margin-top: 0;
 	.boarding_camp.winter .philosophy_wrap li img{max-width:100px;}
 	.boarding_camp.winter .differences_wrap .asset_item {min-height: 200px;}
 
+	/*============= boarding_camp_register ========*/
+	.boarding_camp .container .register{
+		flex-direction: column;
+		gap: 20px;
+	}
+	.boarding_camp .container .register .register-logo .logo-title {
+		position: relative;
+		flex-direction: row;
+		left: unset;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+	}
+	.boarding_camp .container .register .register-logo .logo-title span{
+		font-size: 60px;
+		line-height: 72px;
+	}
+	.boarding_camp .container .register .register-container .register-form{
+		align-items: center;
+   		padding: 10px 20px;
+	}
+	.boarding_camp .container .register .register-logo::before,.register-logo::after {
+		
+	}
+	.boarding_camp .container .register .register-logo::after {
+		
+	}
+	
+	.boarding_camp .container .register .register-logo::before {
+	
+	}
+	
+	.boarding_camp .container .register .register-logo img {
+		
+	}
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
 		top: 35%;
@@ -2232,5 +2267,12 @@ margin-top: 0;
 	.boarding_camp .container .read-more {
 		font-size: 1rem;
 		margin-top: 2rem;
+	}
+
+	/* register */
+
+	.boarding_camp .container .register .register-logo .logo-title span{
+		font-size: 54px;
+		line-height: 60px;
 	}
 }
