@@ -313,7 +313,7 @@
 .scholarhip .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
 
 /*============= boarding_camp ========*/
-.boarding_camp .container {background-color: #20203df5;}
+.boarding_camp .container {background-color: #000;}
 .boarding_camp .container .section_inner{position: relative; z-index: 10; padding: 0;}
 .boarding_camp .visual_wrap {background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/visual.png') right no-repeat; background-size: cover;}
 .boarding_camp .camp_info_wrap .video_article iframe{width: 100%; height: 400px; border-radius: 20px;}
@@ -360,12 +360,71 @@
 	position: relative;
 }
 
+.boarding_camp .container .main {
+	position: relative;
+    z-index: 999;
+    top: -60px;
+}
+
+.boarding_camp .container .banner_block .shadow-top {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 440px;
+    background: linear-gradient(
+180deg
+, #000000 0%, rgba(0, 0, 0, 0.5) 55.61%, rgba(0, 0, 0, 0) 100%);
+}
+
+.boarding_camp .container .banner_block .shadow-bottom {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.5) 60.26%, rgba(0, 0, 0, 0) 100%);
+		transform: rotate(-180deg);
+}
+
+.boarding_camp .container .banner_block img{
+	width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .boarding_camp .container .banner_block .label_banner {
 	position: absolute;
 	color: white;
 	width: 40%;
-	top: 40%;
-	right: 4%;
+	top: 5rem;
+	right: 5rem;
+}
+
+.boarding_camp .container .banner_block .menu {
+	position: absolute;
+	color: white;
+	width: 40%;
+	top: 8rem;
+	left: 5rem;
+}
+
+.boarding_camp .container .banner_block .menu-item {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	padding: 32px 0;
+	border-bottom: 1px solid #FFFFFF;
+	width: 122px;
+	cursor: pointer;
+}
+.boarding_camp .container .banner_block .menu-item:hover {
+	background: -webkit-linear-gradient(left, #8DC63F, #F9ED32);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .boarding_camp .container .banner_block #myVideo {
@@ -373,12 +432,38 @@
 }
 
 .boarding_camp .container .banner_block .label_banner .title {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
 	font-weight: 700;
-	font-size: 4rem;
+	font-size: 130px;
+	line-height: 96%;
 	text-align: right;
 }
 .boarding_camp .container .banner_block .label_banner .description {
 	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px;
+	text-align: right;
+	margin-top: 1rem;
+}
+.boarding_camp .container .banner_block .label_banner .camp {
+	text-align: right;
+	margin: 2rem 0;
+}
+
+.boarding_camp .container .banner_block .label_banner .camp .label {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 130px;
+	line-height: 96%;
+	text-align: right;
+	background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 1rem 0;
+	padding: 0 3rem;
 }
 
 .boarding_camp .swipe_type_01 .swipe_type_01--img .img_box {
@@ -386,15 +471,33 @@
 }
 
 .boarding_camp .container .read-more {
-	font-size: 1rem;
-	text-align: right;
 	margin-top: 5rem;
-	cursor: pointer
+	cursor: pointer;
+	text-align: right;
+}
+
+.boarding_camp .container .read-more span {
+	font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+	margin-right: 0.2rem;
+
+}
+
+.boarding_camp .container .span {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
 }
 .boarding_camp .container .button-hover {
-	padding: 1rem 0.6rem 1rem 0.2rem;
-  outline: 1px solid white;
-  transition: all 0.5ms;
+	padding: 1rem 1.4rem 1rem 0.4rem;
+	outline: 1px solid white;
+	transition: all 0.5ms;
 }
 
 .boarding_camp .container .button-hover:hover {
@@ -404,40 +507,342 @@
 .boarding_camp .container .campaign {
 	display: flex;
 	gap: 2rem;
-	margin-bottom: 4rem;
+	margin-bottom: 8rem;
+}
+
+.boarding_camp .container .block-2 .swiper-slide {
+	position: relative;
+}
+
+.boarding_camp .container .block-2 .swiper-slide .alt-img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient( 
+180deg
+, #000000 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0) 100%);
+	transform: rotate( 
+-180deg
+);
+	height: 56px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.boarding_camp .container .block-2 .swiper-slide .alt-img p {
+	transform: rotate( 
+-180deg
+ );
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.boarding_camp .container .campaign .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 80%;
+}
+
+.boarding_camp .container .campaign .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .campaign .block-description p {
+	width: 75%;
+}
+
+.boarding_camp .container .mentor .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .mentor .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .offer .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .offer .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .experience .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 76%;
+}
+
+.boarding_camp .container .experience .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .timeline .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
 	margin-top: 2rem;
+}
+
+.boarding_camp .container .timeline .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .typical .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .typical .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.boarding_camp .container .mentor .block-description p {
+	width: 90%;
 }
 
 .boarding_camp .container .experience {
 	display: flex;
 	gap: 2rem;
-	margin-bottom: 4rem;
+	margin-bottom: 8rem;
 	margin-top: 2rem;
 }
 
 .boarding_camp .container .timeline {
 	display: flex;
-	flex-direction: column;
-	margin-bottom: 4rem;
-	margin-top: 2rem;
+	flex-direction: row;
+	margin-bottom: 8rem;
+	gap: 2rem;
 }
 
 .boarding_camp .container .offer {
-	padding: 0 5rem;
+	padding-left: 5rem;
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 4rem;
-	margin-top: 2rem;
+	margin-bottom: 8rem;
+	gap: 2rem;
+	position: relative;
+}
+
+.boarding_camp .container .bg {
+	position: absolute;
+	bottom: 54px;
+	left: 0;
+	width: 100%;
+	padding: 0 50px;
+	display: flex;
 	gap: 2rem;
 }
+.boarding_camp .container .bg img{
+	flex: 0 1 auto;
+    width: 80%;
+    max-height: 544px;
+}
+.boarding_camp .container .bg .box-content {
+	padding: 2rem 0;
+}
+.boarding_camp .container .bg .box-content .text-offer {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 28px;
+	line-height: 40px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 1rem;
+}
+
+.boarding_camp .container .bg .box-content .box-1 .text-bold {
+	font-size: 64px;
+	font-family: 'Barlow Condensed';
+	font-weight: 700;
+}
+
+.boarding_camp .container .bg .box-content .box-1 .text-thin {
+	font-weight: 250;
+	font-size: 38px;
+}
+.boarding_camp .container .bg .box-content .box-2 .text-bold {
+	font-weight: 700;
+	font-size: 38px;
+	font-family: 'Barlow Condensed';
+}
+
+.boarding_camp .container .bg .box-content .box-2 .text-thin {
+	font-weight: 250;
+	font-size: 38px;
+}
+.boarding_camp .container .bg .box-content .box-1 {
+	padding-bottom: 5rem;
+	border-bottom: 1px solid #FFFFFF;
+}
+
+.boarding_camp .container .offer .block-1 {
+	margin-top: 3rem;
+}
+
+.boarding_camp .container .offer .block-2 {
+	width: 100%;
+    height: 856px;
+    background: linear-gradient(
+90deg
+, #F9ED32 -65.27%, #8DC63F 34.08%, #8DC63F 100%);
+margin-top: 0;
+}
+
+.boarding_camp .container .offer .block-2 .box-text {
+	margin: 0 8rem;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .title {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+.boarding_camp .container .offer .block-2 .box-text .amount {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 7rem;
+	position: relative;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount::after {
+	content: "VND";
+	position: absolute;
+	right: -70px;
+	top: -10px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.boarding_camp .container .offer .block-2 .box-text .amount::before {
+	content: "UP TO";
+	position: absolute;
+	left: -90px;
+	top: -10px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
 
 .boarding_camp .container .mentor {
 	padding: 0 5rem;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 4rem;
+	margin-bottom: 8rem;
 	margin-top: 2rem;
 	gap: 2rem;
+	flex-direction: row;
+}
+
+.boarding_camp .container .mentor .box-navigation  {
+	margin-top: 150px;
+}
+
+.boarding_camp .container .mentor .block-2 .block-description  {
+	margin-top: 1rem;
+}
+
+.boarding_camp .container .team_wrap {
+	margin-bottom: 3rem;
 }
 
 .boarding_camp .container .team_wrap {
@@ -460,12 +865,83 @@
 }
 
 .boarding_camp .container .team_wrap .section_inner .swiper-slide {
+	position: relative;
 	background-color: white;
 	background: linear-gradient( 
 		348.2deg
 		 ,#332656 6.86%,#1a1d42 94.88%);
 				border: none;
 }
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box {
+	position: absolute;
+	bottom: 0;
+	bottom: -1px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	width: 100%;
+}
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .bg{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient( 
+180deg
+, #000000 0%, rgba(0, 0, 0, 0.5) 65.62%, rgba(0, 0, 0, 0) 100%);
+	transform: rotate( 
+-180deg
+);
+	height: 60%;
+	width: 100%;
+	z-index: 1;
+}
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .name{
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+	z-index: 222;
+}
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .position{
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+	z-index: 222;
+}
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .ex{
+	font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+	z-index: 222;
+	padding: 0 10px;
+}
+
+.boarding_camp .container .team_wrap .box-navigation{
+	margin-top: 156px;
+}
+
+.boarding_camp .container .team_wrap .block-description{
+	margin-top: 1rem;
+}
+
+.boarding_camp .container .team_wrap .section_inner img{
+	height: 329px;
+  width: 100%;
+}
+
 .boarding_camp .container .team_wrap .section_inner .swiper-slide.Nierru img {
 	top: -50px;
 }
@@ -536,18 +1012,6 @@
 .boarding_camp .container .offer .box-img{
 	position: relative;
 }
-.boarding_camp .container .offer .bg{
-	width: 10rem;
-	height: 10rem;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-image: linear-gradient(to right, #f0ed39, #8fc741);
-}
-.boarding_camp .container .offer .block-2{
-	margin-top: 7rem;
-}
-
 .boarding_camp .container .offer .block-2 .title{
 	font-size: 1.5rem;
     margin-bottom: 3rem;
@@ -574,94 +1038,199 @@
 	margin-right: 0.5rem;
 }
 
-.boarding_camp .container .timeline .block-2 {
+.boarding_camp .container .register{
+	display: flex;
+	align-self: center;
+	gap:40px;
+	margin-bottom: 250px;
+}
+
+.boarding_camp .container .register .register-logo{
+	flex-basis: 60%;
+}
+.boarding_camp .container .register .register-container{
+	flex-basis: 40%;
+}
+.boarding_camp .container .register .register-logo {
+	position: relative;
+}
+.boarding_camp .container .register .register-logo .logo-title {
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	position: absolute;
+	left: 28%;
+}
+.boarding_camp .container .register .register-logo::before,.register-logo::after {
+	content: '';
+	position: absolute;
+	display: block;
+}
+.boarding_camp .container .register .register-logo::after {
+	left: 0;
+	top: 26%;
+	width: 260px;
+	height: 270px;
+	background: linear-gradient(90deg, #F9ED32 -65.27%, #8DC63F 34.08%, #8DC63F 100%);
+}
+
+.boarding_camp .container .register .register-logo::before {
+	right: 10%;
+    top: 15%;
+	width: 180px;
+	height: 206px;
+	background: linear-gradient(90deg, rgba(249, 237, 50, 0.5) -65.27%, rgba(141, 198, 63, 0.5) 34.08%, rgba(141, 198, 63, 0.5) 100%);
+}
+
+.boarding_camp .container .register .register-logo img {
+	position: absolute;
+	bottom: -34%;
+	width: 90%;
+	z-index: 100;
+	right: 0;
+}
+
+
+.boarding_camp .container .register .register-logo p {
+	font-weight: 400;
+    font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.boarding_camp .container .register .register-logo span {
+	font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.boarding_camp .container .register .register-container {
+	display: flex;
+	padding: 6px 0;
+}
+.boarding_camp .container .register .register-container .register-form {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 	width: 100%;
-	padding: 0 3rem;
+	padding-right: 80px;
+}
+.boarding_camp .container .register .register-container .register-form .input-form{
+	width: 100%;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 1.5px solid #FFFFFF;
+	display: flex;
+	text-align: left;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.25rem;
+    font-family: 'Barlow Condensed';
+	color: rgba(255, 255, 255, 0.5);
+	padding: 8px 0;
+}
+.boarding_camp .container .register .register-container .register-form .read-more{
+	margin-top: 0;
+	text-align: left;
+}
+.boarding_camp .container .register .register-container .register-form .read-more span{
+	color: white;
+}
+
+.boarding_camp .container .timeline .block-2 {
 	justify-content: center;
-	height: 35rem;
-	margin: 4rem 0;
+	height: 26rem;
+	padding-right: 50px;
 }
 .boarding_camp .container .timeline .block-2 .box-timeline{
-	padding: 0 1rem;
+	padding: 1rem;
 	position: absolute;
-	width: 10rem;
-	height: 10rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 1px solid;
+	border: 1px solid 
+	#8DC63F;
 	flex-direction: column;
+	max-width: 135px;
+	top: 40px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-1{
-	top: 100px;
-	left: 2rem;
+	left: 2%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-3{
-	top: 100px;
-	left: 19rem;
+	left: 19%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-5{
-	top: 100px;
-	left: 39rem;
+	left: 40%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-7{
-	top: 100px;
-	left: 59rem;
+	left: 65%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-9{
-	top: 100px;
-	left: 79rem;
+	right: 2%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-2{
-	top: -243px;
-	left: 9rem;
+	top: -141px;
+	left: 8%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4{
-	top: -243px;
-	left: 29rem;
+	top: -120px;
+	left: 32%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6{
-	top: -243px;
-	left: 49rem;
+	top: -141px;
+	left: 52%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8{
-	top: -243px;
-	left: 69rem;
+	top: -141px;
+	left: 77%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline:hover{
 	/* transform: scale(1.1); */
 	transition: all 0.8s;
 	background-image: linear-gradient(to bottom, #24340d , #4e6924);
-	outline: none;
-	border: none;
 }
 .boarding_camp .container .timeline .block-2 .box-timeline .line{
-	width: 4px;
-	background-color: white;
-	height: 4px;
+	width: 6px;
+	background-color: 
+	#8DC63F;
+	height: 6px;
+	border-radius: 50%;
 	content: "";
 	position: absolute;
 	transform: rotate(90deg);
-	top: -102px;
+	top: -43px;
 }
-.boarding_camp .container .timeline .block-2 .box-timeline-1 .line{
-	top: -102px;
+.boarding_camp .container .timeline .block-2 .box-timeline-2 .line{
+	top: 137px;
 }
-.boarding_camp .container .timeline .block-2 .box-timeline-2 .line,
-.boarding_camp .container .timeline .block-2 .box-timeline-4 .line,
-.boarding_camp .container .timeline .block-2 .box-timeline-6 .line,
+
+.boarding_camp .container .timeline .block-2 .box-timeline-4 .line{
+	top: 117px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-6 .line{
+	top: 137px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
-	top: 241px;
+	top: 137px;
 }
 .boarding_camp .container .timeline .block-2 .box-timeline:hover span{
 	background: -webkit-linear-gradient(left, #eeee38, #8fc740);
@@ -671,8 +1240,13 @@
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline span.desc{
-	display: none;
-	font-size: 1rem;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline:hover span.desc{
@@ -680,24 +1254,38 @@
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline::before{
-	width: 100px;
-	background-color: white;
+	width: 40px;
+	background-color: 
+	#8DC63F;
 	height: 1px;
 	content: "";
 	position: absolute;
 	transform: rotate(90deg);
-  top: -51px;
+  top: -21px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-1::before{
-  top: -51px;
+  top: -21px;
 }
 
-.boarding_camp .container .timeline .block-2 .box-timeline-2::before,
-.boarding_camp .container .timeline .block-2 .box-timeline-4::before,
-.boarding_camp .container .timeline .block-2 .box-timeline-6::before,
+.boarding_camp .container .timeline .block-2 .box-timeline-3::before{
+  top: -21px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-2::before{
+  top: 117px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-4::before{
+  top: 97px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-6::before{
+  top: 117px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-8::before{
-  top: 190px;
+  top: 117px;
 }
 
 /* .boarding_camp .container .timeline .block-2 .box-timeline:hover::before{
@@ -707,41 +1295,22 @@
 
 .boarding_camp .container .timeline .block-2 .box-timeline span,
 .boarding_camp .container .timeline .block-2 .box-timeline p{
-	font-size: 1.5rem;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 .boarding_camp .container .timeline .block-2 .ic-next {
-	background: #fff;
+	background: 
+	#8DC63F;
     height: 1px;
     width: 100%;
     position: relative;
     cursor: pointer;
-}
-
-.boarding_camp .container .timeline .block-2 .ic-next::before {
-	content: "";
-	background: #fff;
-	position: absolute;
-	height: 0.5px;
-	width: 0.675rem;
-	right: -3px;
-    bottom: -3px;
-    transform: rotate(
--45deg
-);
-}
-
-.boarding_camp .container .timeline .block-2 .ic-next::after {
-	content: "";
-	background: #fff;
-	position: absolute;
-	height: 0.5px;
-	width: 0.675rem;
-	right: -3px;
-	top: -4px;
-	transform: rotate(
-45deg
-);
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail{
@@ -753,11 +1322,15 @@
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience{
 	border-bottom: 1px solid white;
-    padding: 1rem 1rem 3rem 1rem;
-		transition: height 15s;
-		flex-direction: column;
-		display: flex;
-		width: 40%;
+	padding: 1rem 1rem 3rem 1rem;
+	transition: height 15s;
+	flex-direction: column;
+	display: flex;
+	width: calc(100%/2 - 50px);
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .blockDescription{
+	width: 80%;
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .ic-academic{
@@ -774,10 +1347,19 @@
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .label{
-	color: #f3b518;
-	font-size: 1.5rem;
-	line-height: 1.8rem;
-	max-width: 75%
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	background: linear-gradient(90deg, #8DC63F 0%, #F9ED32 118.57%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .img-leader{
 	width: 46px;
@@ -788,23 +1370,35 @@
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description{
-	font-size: 0.875rem;
-	margin-bottom: 0.2rem;
+	margin-bottom: 1rem;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description span{
+	font-weight: 700;
 }
 
 
 .boarding_camp .container .block-1 {
 	font-size: 3rem;
-	text-align: right;
 	width: 40%;
 	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 }
 .boarding_camp .container .block-2 {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	width: 60%;
+	width: calc(100% - (33% + 40px));
+	padding: 20px 0;
 }
 .boarding_camp .container .block-2 .block-description {
 	color: white;
@@ -820,11 +1414,8 @@
 }
 .boarding_camp .container .block-2 .swiper-container {
 	display: flex;
+	margin: 0;
 }
-.boarding_camp .container .block-1 span{
-	font-size: 3rem;
-}
-
 .boarding_camp .container .team_wrap .title {
     font-size: 3rem;
 	width: 100%;
@@ -847,7 +1438,7 @@
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
-	margin-top: 1rem;
+	margin-top: 70PX;
 }
 
 .boarding_camp .container .box-navigation .box {
@@ -856,11 +1447,11 @@
 	align-items: center;
 	height: 1.4rem;
 	position: relative;
-	width: 5rem;
+	width: 120px;
 	top: 0;
 	left: 0;
 	background: none;
-	margin-left: 14px;
+	margin-left: 60px;
 	margin-top: 0;
 }
 
@@ -872,7 +1463,7 @@
 .boarding_camp .container .box-navigation .box .ic-prev {
 	background: #fff;
     height: 1px;
-    width: 5rem;
+    width: 100%;
     position: relative;
     cursor: pointer;
 }
@@ -907,7 +1498,7 @@
 	position: absolute;
 	height: 0.5px;
 	width: 0.675rem;
-	right: -3px;
+	right: -1px;
     bottom: -3px;
     transform: rotate(
 -45deg
@@ -920,8 +1511,8 @@
 	position: absolute;
 	height: 0.5px;
 	width: 0.675rem;
-	right: -3px;
-	top: -4px;
+	right: -2px;
+    top: -3px;
 	transform: rotate(
 45deg
 );
@@ -1201,7 +1792,26 @@
 		width: 60%;
 	}
 
-
+	/*============= boarding_camp_register ========*/
+	.boarding_camp .container .register .register-logo p {
+		font-size: 72px;
+		line-height: 84px;
+	}
+	.boarding_camp .container .register .register-logo .logo-title {
+		left: 23%;
+	}
+	.boarding_camp .container .register .register-logo::after {
+		    width: 200px;
+	}
+	
+	.boarding_camp .container .register .register-logo::before {
+	    	width: 150px;
+	}
+	
+	.boarding_camp .container .register .register-logo img {
+		bottom: -15%;
+		width: 85%;
+	}
 	/*============= online_learning ========*/
 	.online_learning .camp_info_wrap .text_article {width: 100%;padding-left: 0; margin-top: 30px;}
 	.online_learning .camp_info_wrap .video_article {width: 100%;}
@@ -1277,6 +1887,35 @@
 	.boarding_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
 
+	
+	/*============= boarding_camp_register ========*/
+	.boarding_camp .container .register{
+		margin-bottom: 0;
+	}
+	.boarding_camp .container .register .register-logo{
+		flex-basis: 50%;
+	}
+	.boarding_camp .container .register .register-container{
+		flex-basis: 50%;
+	}
+	.boarding_camp .container .register .register-container .register-form{
+		padding-right:40px;
+	}
+	.boarding_camp .container .register .register-logo p{
+		font-size: 60px;
+   		line-height: 72px;
+	}
+	.boarding_camp .container .register .register-logo::after {
+		display: none;
+	}
+	
+	.boarding_camp .container .register .register-logo::before {
+		display: none;
+	}
+	
+	.boarding_camp .container .register .register-logo img {
+		display: none;
+	}
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
 		top: 20%;
@@ -1285,6 +1924,10 @@
 	.boarding_camp .container .campaign {
 		flex-direction: column;
 	}
+	.boarding_camp .container .mentor {
+		flex-direction: column;
+	}
+
 
 	.boarding_camp .container .block-1 {
 		text-align: center;
@@ -1507,6 +2150,41 @@
 	.boarding_camp.winter .philosophy_wrap li img{max-width:100px;}
 	.boarding_camp.winter .differences_wrap .asset_item {min-height: 200px;}
 
+	/*============= boarding_camp_register ========*/
+	.boarding_camp .container .register{
+		flex-direction: column;
+		gap: 20px;
+	}
+	.boarding_camp .container .register .register-logo .logo-title {
+		position: relative;
+		flex-direction: row;
+		left: unset;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+	}
+	.boarding_camp .container .register .register-logo .logo-title span{
+		font-size: 60px;
+		line-height: 72px;
+	}
+	.boarding_camp .container .register .register-container .register-form{
+		align-items: center;
+   		padding: 10px 20px;
+	}
+	.boarding_camp .container .register .register-logo::before,.register-logo::after {
+		
+	}
+	.boarding_camp .container .register .register-logo::after {
+		
+	}
+	
+	.boarding_camp .container .register .register-logo::before {
+	
+	}
+	
+	.boarding_camp .container .register .register-logo img {
+		
+	}
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
 		top: 35%;
@@ -1589,5 +2267,12 @@
 	.boarding_camp .container .read-more {
 		font-size: 1rem;
 		margin-top: 2rem;
+	}
+
+	/* register */
+
+	.boarding_camp .container .register .register-logo .logo-title span{
+		font-size: 54px;
+		line-height: 60px;
 	}
 }

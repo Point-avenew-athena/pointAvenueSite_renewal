@@ -15,7 +15,7 @@ $(function(){
 
 
 		var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
-			slidesPerView: 4,
+			slidesPerView: 5,
 			spaceBetween: 20,
 			navigation: {
 				nextEl: '.swiper-button-next',

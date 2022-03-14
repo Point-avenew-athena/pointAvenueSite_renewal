@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*=========header=========*/
-header {position: fixed; left:0; top:0; width:100%; z-index: 100; background: #fff;}
+header {position: fixed; left:0; top:0; width:100%; z-index: 999999999; background: #fff;}
 header .header_inner{position: relative; max-width:1170px; width:100%; margin:0 auto; padding:10px; height: 50px; box-sizing: border-box;}
 header .header_inner:after {content:''; display: inline-block; clear: both;}
 header .logo {float: left;}
