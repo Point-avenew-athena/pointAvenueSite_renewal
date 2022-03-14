@@ -363,7 +363,7 @@
 .boarding_camp .container .main {
 	position: relative;
     z-index: 999;
-    top: -52px;
+    top: -60px;
 }
 
 .boarding_camp .container .banner_block .shadow-top {
@@ -397,7 +397,7 @@
 	position: absolute;
 	color: white;
 	width: 40%;
-	top: 9rem;
+	top: 5rem;
 	right: 5rem;
 }
 
@@ -405,7 +405,7 @@
 	position: absolute;
 	color: white;
 	width: 40%;
-	top: 9rem;
+	top: 8rem;
 	left: 5rem;
 }
 
@@ -435,12 +435,12 @@
 	font-family: 'Barlow Condensed';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 156px;
+	font-size: 130px;
 	line-height: 96%;
 	text-align: right;
 }
 .boarding_camp .container .banner_block .label_banner .description {
-	font-size: 1.14rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 19px;
@@ -456,14 +456,12 @@
 	font-family: 'Barlow Condensed Thin';
 	font-style: normal;
 	font-weight: 250;
-	font-size: 156px;
+	font-size: 130px;
 	line-height: 96%;
 	text-align: right;
-	-webkit-text-fill-color: #8DC63F;
-	background: linear-gradient(
-77.44deg
-, #8DC63F 0.98%, #f9ed32 98.75%);
-	background-blend-mode: multiply;
+	background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	margin: 1rem 0;
 	padding: 0 3rem;
 }
@@ -618,6 +616,7 @@
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
+	width: 76%;
 }
 
 .boarding_camp .container .experience .block-1 p span {
@@ -638,6 +637,7 @@
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
+	margin-top: 2rem;
 }
 
 .boarding_camp .container .timeline .block-1 p span {
