@@ -706,23 +706,30 @@
 	display: flex;
 	gap: 2rem;
 }
+.boarding_camp .container .bg img{
+	flex: 0 1 auto;
+    width: 80%;
+    max-height: 544px;
+}
 .boarding_camp .container .bg .box-content {
 	padding: 2rem 0;
 }
-.boarding_camp .container .bg .box-content .text {
+.boarding_camp .container .bg .box-content .text-offer {
 	font-family: 'Barlow Condensed Thin';
 	font-style: normal;
 	font-weight: 250;
-	font-size: 38px;
-	line-height: 48px;
+	font-size: 28px;
+	line-height: 40px;
 	text-align: right;
 	text-transform: uppercase;
 	color: #FFFFFF;
+	margin-bottom: 1rem;
 }
 
 .boarding_camp .container .bg .box-content .box-1 .text-bold {
+	font-size: 64px;
+	font-family: 'Barlow Condensed';
 	font-weight: 700;
-    font-size: 84px;
 }
 
 .boarding_camp .container .bg .box-content .box-1 .text-thin {
@@ -732,6 +739,7 @@
 .boarding_camp .container .bg .box-content .box-2 .text-bold {
 	font-weight: 700;
 	font-size: 38px;
+	font-family: 'Barlow Condensed';
 }
 
 .boarding_camp .container .bg .box-content .box-2 .text-thin {
@@ -1378,7 +1386,7 @@ margin-top: 0;
 
 .boarding_camp .container .block-1 {
 	font-size: 3rem;
-	width: 35%;
+	width: 40%;
 	color: white;
 	display: flex;
 	flex-direction: column;
