@@ -107,6 +107,13 @@
     src: url('../font/static/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../font/Barlow_Condensed/BarlowCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 
 }
 
