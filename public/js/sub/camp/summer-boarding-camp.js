@@ -24,7 +24,7 @@ $(function(){
 			breakpoints: {
 				1000: {
 					// 화면의 넓이가 1000px 이하일 때
-					slidesPerView: 3,
+					slidesPerView: 2,
 				},
 				768: {
 					// 화면의 넓이가 768px 이하일 때
