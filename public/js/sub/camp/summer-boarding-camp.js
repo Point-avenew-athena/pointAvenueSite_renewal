@@ -12,7 +12,25 @@ $(function(){
 			prevEl: '.swiper-button-prev',
 		}
     });
-
+		var info_swiper = new Swiper('.swipe_image_mobile .swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 20,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 2,
+					spaceBetween: 10,
+				},
+			},
+		});
 
 		var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
 			slidesPerView: 5,
@@ -22,6 +40,11 @@ $(function(){
 				prevEl: '.swiper-button-prev',
 			},
 			breakpoints: {
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 6,
+					spaceBetween: 10,
+				},
 				1000: {
 					// 화면의 넓이가 1000px 이하일 때
 					slidesPerView: 2,

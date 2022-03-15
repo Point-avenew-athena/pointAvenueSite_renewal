@@ -88,7 +88,7 @@ app.post('/camp/summer-boarding-camp', function (req, res) {
             <p><b>Email: </b> ${req?.body?.email}</p>
             <p><b>Child Name: </b> ${req?.body?.childName}</p>
             <p><b>Phone Number: </b> ${req?.body?.phoneNumber}</p>
-            <p><b>Date of birth: </b> ${req?.body?.dob}</p>
+            <p><b>Student's Grade & School: </b> ${req?.body?.grade}</p>
           `
           },
           Text: {
