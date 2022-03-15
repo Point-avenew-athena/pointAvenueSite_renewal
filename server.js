@@ -83,12 +83,12 @@ app.post('/camp/summer-boarding-camp', function (req, res) {
           Html: {
            Charset: "UTF-8",
            Data: `
-            <p><b>First Name: </b> ${req?.body?.firstName}</p>
-            <p><b>Last Name: </b> ${req?.body?.lastName}</p>
-            <p><b>Email: </b> ${req?.body?.email}</p>
-            <p><b>Child Name: </b> ${req?.body?.childName}</p>
-            <p><b>Phone Number: </b> ${req?.body?.phoneNumber}</p>
-            <p><b>Student's Grade & School: </b> ${req?.body?.grade}</p>
+            <p><b>First Name: </b> ${req.body.firstName}</p>
+            <p><b>Last Name: </b> ${req.body.lastName}</p>
+            <p><b>Email: </b> ${req.body.email}</p>
+            <p><b>Child Name: </b> ${req.body.childName}</p>
+            <p><b>Phone Number: </b> ${req.body.phoneNumber}</p>
+            <p><b>Student's Grade & School: </b> ${req.body.grade}</p>
           `
           },
           Text: {
