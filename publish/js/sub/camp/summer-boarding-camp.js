@@ -27,4 +27,10 @@ $(function(){
 			}
 		}
 	});
+
+	function submitForm() {
+		console.log(3123);
+	}
 });
+
+

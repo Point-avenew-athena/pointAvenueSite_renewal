@@ -379,7 +379,7 @@
 
 .boarding_camp .container .banner_block .shadow-bottom {
 	position: absolute;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     height: 215px;
@@ -399,6 +399,9 @@
 	width: 40%;
 	top: 5rem;
 	right: 5rem;
+	display: flex;
+    flex-direction: column;
+	align-items: flex-end;
 }
 
 .boarding_camp .container .banner_block .menu {
@@ -446,6 +449,7 @@
 	line-height: 19px;
 	text-align: right;
 	margin-top: 1rem;
+	width: 80%;
 }
 .boarding_camp .container .banner_block .label_banner .camp {
 	text-align: right;
@@ -530,6 +534,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.boarding_camp .container .block-2 .swiper-slide:hover .alt-img p {
+	display: block;
+}
 .boarding_camp .container .block-2 .swiper-slide .alt-img p {
 	transform: rotate( 
 -180deg
@@ -541,6 +548,7 @@
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+		display: none;
 }
 
 .boarding_camp .container .campaign .block-1 p {
@@ -565,7 +573,9 @@
 }
 
 .boarding_camp .container .campaign .block-description p {
-	width: 75%;
+	width: 100%;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .boarding_camp .container .mentor .block-1 p {
@@ -897,6 +907,20 @@ margin-top: 0;
 	width: 100%;
 	z-index: 1;
 }
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info{
+	z-index: 999;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	transition: all .3s;
+}
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide:hover .team_desc_box .info {
+	display: flex;
+}
+
 .boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .name{
 	font-family: 'Barlow Condensed';
 	font-style: normal;
@@ -1120,7 +1144,7 @@ margin-top: 0;
 	width: 100%;
 	padding-right: 80px;
 }
-.boarding_camp .container .register .register-container .register-form .input-form{
+.boarding_camp .container .register .register-container .register-form .form-control{
 	width: 100%;
 	background-color: transparent;
 	outline: none;
@@ -1752,7 +1776,19 @@ margin-top: 0;
 
 .day_camp .camp_translation_wrap .btn_box a {background: #9acdfd; color:#708fac;}
 .day_camp .camp_translation_wrap .btn_box a.on {background: #1960A1; color:#fff;}
+@media screen and (max-width:1310px) {
+	.boarding_camp .container .banner_block .label_banner .title {
+		font-size: 120px;
+	}
 
+	.boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 120px;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .description {
+		font-size: 0.9rem;
+	}
+}
 
 @media screen and (max-width:1200px) {
 	/*sub common*/
@@ -1786,6 +1822,17 @@ margin-top: 0;
 	.boarding_camp .philosophy_wrap .cloud_wrap .cloud_item_03{left:0;bottom:0;}
 	.boarding_camp .differences_wrap .title_r_02 {margin-bottom:100px;}
 
+	.boarding_camp .container .banner_block .label_banner .title {
+		font-size: 100px;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 100px;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .description {
+		font-size: 0.8rem;
+	}
 
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
@@ -1806,6 +1853,10 @@ margin-top: 0;
 	
 	.boarding_camp .container .register .register-logo::before {
 	    	width: 150px;
+	}
+
+	.boarding_camp .container .read-more {
+		margin-top: 4rem;
 	}
 	
 	/*============= online_learning ========*/
@@ -1828,6 +1879,27 @@ margin-top: 0;
 
 	.lotte_wrap .section_inner {padding:0;}
 	.lotte_wrap .section_inner img{width:100%;}
+}
+@media screen and (max-width:1100px) {
+	.boarding_camp .container .campaign .block-1 p,
+	.boarding_camp .container .campaign .block-1 p span {
+		font-size: 68px;
+		line-height: 74px;
+	}
+
+	.boarding_camp .container .campaign .block-description p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.boarding_camp .container .block-2 .block-description .read-more {
+		font-size: 2rem;
+	}
+
+	.boarding_camp .container .read-more span {
+		font-size: 12px;
+	}
+
 }
 @media screen and (max-width:1000px) {
 	
@@ -1883,7 +1955,18 @@ margin-top: 0;
 	.boarding_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
 	.boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
 
-	
+	.boarding_camp .container .banner_block .label_banner .title,
+	.boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 90px
+	}
+
+	.boarding_camp .container .banner_block .label_banner .description {
+		width: 75%;
+	}
+
+	.boarding_camp .container .main {
+		top: -10px;
+	}
 	/*============= boarding_camp_register ========*/
 	.boarding_camp .container .register{
 		margin-bottom: 0;
@@ -1917,6 +2000,11 @@ margin-top: 0;
 		top: 20%;
 	}
 
+	.boarding_camp .container .campaign .block-1 p {
+		width: 100%;
+		text-align: center;
+	}
+
 	.boarding_camp .container .campaign {
 		flex-direction: column;
 	}
@@ -1932,20 +2020,28 @@ margin-top: 0;
 
 	.boarding_camp .container .box-navigation {
 		justify-content: center;
+		display: none;
 	}
 
 	.boarding_camp .container .block-2 {
 		width: 100%;
+		padding: 0 5rem;
 	}
 
 	.boarding_camp .container .block-2 .block-description {
 		color: white;
 		/* padding-right: 5rem; */
-		padding: 4rem;
+		margin-top: 0;
+		padding: 2rem;
 		width: 100%;
 		padding-bottom: 2rem;
 		display: flex;
 		flex-direction: column;
+	}
+	
+
+	.boarding_camp .container .mentor .block-1 p {
+		
 	}
 
 	.boarding_camp .container .block-2 .block-description .read-more {
@@ -2051,19 +2147,38 @@ margin-top: 0;
 	.boarding_camp .offers_wrap .brochure_box {margin:30px 0;}
 	.boarding_camp .info_input_wrap .choose_box p {display: block;}
 	.boarding_camp .info_input_wrap .choose_box .radio_wrap {margin-left: 0; margin-top: 10px;}
+	.boarding_camp .container .banner_block .menu {
+		display: none;
+	}
 
+	
 
 	/*============= boarding_camp_summer ========*/
-	.boarding_camp .container .banner_block .label_banner .title {
-		font-size: 2rem;
+
+	.boarding_camp .container .banner_block .label_banner {
+		width: 100%;
+		top: 15%;
 	}
+	.boarding_camp .container .banner_block .label_banner .title, .boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 70px;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp {
+		margin: 1rem 0;
+	}
+
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-size: 1.2rem;
+		width: 60%;
+		margin-top: 0;
+	}
+
+	.boarding_camp .container .main {
+		top: 0;
 	}
 	.boarding_camp .container .read-more {
 		font-size: 3rem;
 		text-align: right;
-		margin-top: 2rem;
+		margin-top: 1rem;
 		cursor: pointer;
 	}
 
@@ -2183,25 +2298,42 @@ margin-top: 0;
 	}
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
-		top: 35%;
+		width: 100%;
+		top: 10%;
 	}
-	.boarding_camp .container .banner_block .label_banner .title {
-		font-size: 1rem;
+	.boarding_camp .container .banner_block .label_banner .title, .boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 60px;
 	}
+
+	.boarding_camp .container .banner_block .label_banner .camp {
+		margin: 1rem 0;
+	}
+
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-size: 0.875rem;
+		width: 65%;
+		margin-top: 0;
+	}
+
+	.boarding_camp .container .main {
+		top: 0;
 	}
 	.boarding_camp .container .read-more {
-		font-size: 1rem;
-		margin-top: 2rem;
+		font-size: 3rem;
+		text-align: right;
+		margin-top: 0;
+		cursor: pointer;
 	}
 
 	.boarding_camp .container .read-more span {
-		font-size: 0.875rem;
+		font-size: 12px;
 	}
 
-	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience {
-		width: 100%;
+	.boarding_camp .container .offer {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .offer .block-2{
+		margin-top: 0;
 	}
 
 	/*============= online_learning ========*/
@@ -2231,9 +2363,33 @@ margin-top: 0;
 	
 
 }
+@media screen and (max-width:550px) {
+	.boarding_camp .container .banner_block .label_banner .title, .boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 45px;
+	}
+	.boarding_camp .container .banner_block .label_banner .description {
+		width: 75%;
+		font-size: 0.725rem
+	}
+
+	.boarding_camp .container .read-more span {
+		font-size: 11px;
+	}
+}	
 @media screen and (max-width:470px) {
 	.boarding_camp .container .banner_block .label_banner {
-		top: 20%;
+		right: 2rem;
+	}
+	.boarding_camp .container .banner_block .label_banner .title, .boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 36px;
+	}
+	.boarding_camp .container .banner_block .label_banner .description {
+		width: 86%;
+		font-size: 0.625rem
+	}
+
+	.boarding_camp .container .read-more span {
+		font-size: 10px;
 	}
 }	
 
@@ -2252,17 +2408,26 @@ margin-top: 0;
 
 	/*============= boarding_camp_summer ========*/
 	.boarding_camp .container .banner_block .label_banner {
-		top: 5%;
+		right: 2rem;
 	}
-	.boarding_camp .container .banner_block .label_banner .title {
-		font-size: 1rem;
+	.boarding_camp .container .banner_block .label_banner .title, .boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 28px;
 	}
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-size: 0.875rem;
+		width: 86%;
+		font-size: 0.6rem
 	}
+
+	.boarding_camp .container .read-more span {
+		font-size: 10px;
+	}
+
 	.boarding_camp .container .read-more {
-		font-size: 1rem;
-		margin-top: 2rem;
+		font-size: 2rem;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp .label {
+		padding: 0 1rem;
 	}
 
 	/* register */
