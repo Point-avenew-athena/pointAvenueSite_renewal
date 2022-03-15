@@ -449,8 +449,7 @@
 	line-height: 19px;
 	text-align: right;
 	margin-top: 1rem;
-	width: 50%;
-
+	width: 80%;
 }
 .boarding_camp .container .banner_block .label_banner .camp {
 	text-align: right;
@@ -535,6 +534,9 @@
 	align-items: center;
 	justify-content: center;
 }
+.boarding_camp .container .block-2 .swiper-slide:hover .alt-img p {
+	display: block;
+}
 .boarding_camp .container .block-2 .swiper-slide .alt-img p {
 	transform: rotate( 
 -180deg
@@ -546,6 +548,7 @@
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+		display: none;
 }
 
 .boarding_camp .container .campaign .block-1 p {
@@ -904,6 +907,20 @@ margin-top: 0;
 	width: 100%;
 	z-index: 1;
 }
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info{
+	z-index: 999;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	transition: all .3s;
+}
+
+.boarding_camp .container .team_wrap .section_inner .swiper-slide:hover .team_desc_box .info {
+	display: flex;
+}
+
 .boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .name{
 	font-family: 'Barlow Condensed';
 	font-style: normal;
@@ -1127,7 +1144,7 @@ margin-top: 0;
 	width: 100%;
 	padding-right: 80px;
 }
-.boarding_camp .container .register .register-container .register-form .input-form{
+.boarding_camp .container .register .register-container .register-form .form-control{
 	width: 100%;
 	background-color: transparent;
 	outline: none;
