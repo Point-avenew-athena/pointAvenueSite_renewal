@@ -1107,9 +1107,6 @@ margin-top: 0;
 	margin-bottom: 250px;
 }
 
-.boarding_camp .container .register .register-logo{
-	flex-basis: 60%;
-}
 .boarding_camp .container .register .register-container{
 	flex-basis: 40%;
 }
@@ -1118,12 +1115,14 @@ margin-top: 0;
     display: flex;
     flex-direction: column;
     width: 60%;
+    align-items: center
 }
 .boarding_camp .container .register .register-logo .logo-title {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: max-content;
 }
 .boarding_camp .container .register .register-logo::before,.register-logo::after {
 	content: '';
@@ -1131,18 +1130,18 @@ margin-top: 0;
 	display: block;
 }
 .boarding_camp .container .register .register-logo .logo-title::after {
-	left: 0;
+	left: -308px;
 	content: '';
 	position: absolute;
-	top: 26%;
+	top: 131px;
 	width: 260px;
 	height: 270px;
 	background: linear-gradient(90deg, #F9ED32 -65.27%, #8DC63F 34.08%, #8DC63F 100%);
 }
 
 .boarding_camp .container .register .register-logo .logo-title::before {
-	right: 10%;
-  top: 15%;
+	right: -210px;
+	top: 100px;
 	content: '';
 	position: absolute;
 	width: 180px;
@@ -1156,6 +1155,8 @@ margin-top: 0;
 	margin-left: 4rem;
 	z-index: 999;
 	position: relative;
+	width: 730px;
+	height: 415px;
 }
 
 
@@ -1918,9 +1919,6 @@ margin-top: 0;
 		font-size: 72px;
 		line-height: 84px;
 	}
-	.boarding_camp .container .register .register-logo .logo-title {
-		left: 23%;
-	}
 	.boarding_camp .container .register .register-logo::after {
 		    width: 200px;
 	}
@@ -2247,6 +2245,17 @@ margin-top: 0;
 	
 
 	/*============= boarding_camp_summer ========*/
+
+	.boarding_camp .container .register .register-logo .logo-title::before {
+		display: none;
+	}
+	.boarding_camp .container .register .register-logo .logo-title::after {
+		display: none;
+	}
+
+	.boarding_camp .container .register .register-logo .logo-title span {
+		margin-left: 0;
+	}
 	.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info {
 		display: flex;
 	}
