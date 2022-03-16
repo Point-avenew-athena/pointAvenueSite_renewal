@@ -1000,7 +1000,6 @@ margin-top: 0;
 }
 
 .boarding_camp .container .team_wrap .section_inner img{
-	height: 329px;
   width: 100%;
 }
 
@@ -1200,6 +1199,7 @@ margin-top: 0;
 .boarding_camp .container .register .register-container .register-form .read-more{
 	margin-top: 0;
 	text-align: left;
+	height: 6rem;
 }
 .boarding_camp .container .register .register-container .register-form .read-more span{
 	color: white;
