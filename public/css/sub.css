@@ -484,8 +484,8 @@
 	font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 22px;
+    line-height: 24px;
     text-align: right;
 	margin-right: 0.2rem;
 
@@ -756,7 +756,7 @@
 }
 .boarding_camp .container .bg img{
 	flex: 0 1 auto;
-	max-width: 100%;
+	max-width: 80%;
 	max-height: 544px;
 }
 .boarding_camp .container .bg .box-content {
