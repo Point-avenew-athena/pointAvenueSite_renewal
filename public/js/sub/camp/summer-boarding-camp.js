@@ -38,7 +38,7 @@ $(function(){
 		});
 
 		var mentors_swiper = new Swiper('.mySwiperMentors', {
-			slidesPerView: 3,
+			slidesPerView: 4,
 			spaceBetween: 20,
 			navigation: {
 				nextEl: '.swiper-button-next-mentor',
