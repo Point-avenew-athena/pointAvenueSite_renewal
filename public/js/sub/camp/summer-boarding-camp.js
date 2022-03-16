@@ -1,7 +1,7 @@
 $(function(){
 	console.log(1);
 	var info_swiper = new Swiper('.mySwiper', {
-		slidesPerView: 2,
+		slidesPerView: 3,
 		spaceBetween: 20,
 		pagination: {
 			el: '.swiper-pagination',
