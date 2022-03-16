@@ -1,7 +1,7 @@
 $(function(){
 	console.log(1);
-	var info_swiper = new Swiper('.swipe_image .swiper-container', {
-		slidesPerView: 3,
+	var info_swiper = new Swiper('.mySwiper', {
+		slidesPerView: 2,
 		spaceBetween: 20,
 		pagination: {
 			el: '.swiper-pagination',
@@ -12,9 +12,9 @@ $(function(){
 			prevEl: '.swiper-button-prev-camp',
 		}
     });
-		var info_swiper = new Swiper('.swipe_image_mobile .swiper-container', {
-			slidesPerView: 3,
-			spaceBetween: 20,
+		var info_swiper = new Swiper('.mySwiperMobile', {
+			slidesPerView: 2,
+			spaceBetween: 10,
 			pagination: {
 				el: '.swiper-pagination',
 				clickable: true
@@ -26,7 +26,7 @@ $(function(){
 			breakpoints: {
 				480: {
 					// 화면의 넓이가 480px 이하일 때
-					slidesPerView: 3,
+					slidesPerView: 2,
 					spaceBetween: 10,
 				},
 				768: {
@@ -37,8 +37,8 @@ $(function(){
 			},
 		});
 
-		var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
-			slidesPerView: 5,
+		var mentors_swiper = new Swiper('.mySwiperMentors', {
+			slidesPerView: 3,
 			spaceBetween: 20,
 			navigation: {
 				nextEl: '.swiper-button-next-mentor',
@@ -47,12 +47,12 @@ $(function(){
 			breakpoints: {
 				480: {
 					// 화면의 넓이가 480px 이하일 때
-					slidesPerView: 5,
+					slidesPerView: 2,
 					spaceBetween: 10,
 				},
 				768: {
 					// 화면의 넓이가 768px 이하일 때
-					slidesPerView: 6,
+					slidesPerView: 4,
 					spaceBetween: 10,
 				},
 				640: {
@@ -100,4 +100,16 @@ $(function(){
 	// 	$('.dim').show();
 	// 	return this;
 	// });
+
+	const form = document.getElementById('register-form');
+	form.addEventListener('submit', submitForm);
+
+	function submitForm() {
+		Swal.fire({
+			text: "Thank you for your registration, we will be in touch shortly!",
+			type: "success",
+			icon: "success",
+			timer: 3000
+		})
+	}
 });

@@ -73,7 +73,7 @@ app.post('/camp/summer-boarding-camp', function (req, res) {
           /* more items */
         ],
         ToAddresses: [
-          "trung.le@truenorth.edu.vn"
+          "contact@pointavenue.com"
           // req.body.email,
           /* more items */        
         ]
