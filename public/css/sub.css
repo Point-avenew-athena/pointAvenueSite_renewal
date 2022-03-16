@@ -1801,7 +1801,10 @@ margin-top: 0;
 
 .day_camp .camp_translation_wrap .btn_box a {background: #9acdfd; color:#708fac;}
 .day_camp .camp_translation_wrap .btn_box a.on {background: #1960A1; color:#fff;}
-@media screen and (max-width:1310px) {
+@media screen and (max-width:1368px) {
+	.boarding_camp .container .banner_block .label_banner {
+		top: 3rem;
+	}
 	.boarding_camp .container .banner_block .label_banner .title {
 		font-size: 120px;
 	}
@@ -1812,6 +1815,7 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .description {
 		font-size: 0.9rem;
+		margin-top: 0;
 	}
 }
 
@@ -1923,6 +1927,22 @@ margin-top: 0;
 
 	.boarding_camp .container .read-more span {
 		font-size: 12px;
+	}
+
+}
+@media screen and (max-width:1024px) {
+	.boarding_camp .container .offer .block-2 .box-text .title {
+		font-size: 76px;
+    line-height: 84px;
+	}
+
+	.boarding_camp .container .offer .block-2 .box-text .title .amount {
+		font-size: 76px;
+    line-height: 84px;
+	}
+
+	.boarding_camp .container .offer .block-2 .box-text {
+		margin: 0 4rem;
 	}
 
 }
