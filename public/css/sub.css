@@ -756,8 +756,8 @@
 }
 .boarding_camp .container .bg img{
 	flex: 0 1 auto;
-    width: 80%;
-    max-height: 544px;
+	max-width: 100%;
+	max-height: 544px;
 }
 .boarding_camp .container .bg .box-content {
 	padding: 2rem 0;
@@ -924,6 +924,7 @@ margin-top: 0;
 	position: absolute;
 	bottom: 0;
 	bottom: -1px;
+	left: -1px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1106,38 +1107,43 @@ margin-top: 0;
 	margin-bottom: 250px;
 }
 
-.boarding_camp .container .register .register-logo{
-	flex-basis: 60%;
-}
 .boarding_camp .container .register .register-container{
 	flex-basis: 40%;
 }
 .boarding_camp .container .register .register-logo {
 	position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center
 }
 .boarding_camp .container .register .register-logo .logo-title {
 	display: flex;
     flex-direction: column;
-    align-items: flex-end;
-	position: absolute;
-	left: 28%;
+    align-items: center;
+    position: relative;
+    width: max-content;
 }
 .boarding_camp .container .register .register-logo::before,.register-logo::after {
 	content: '';
 	position: absolute;
 	display: block;
 }
-.boarding_camp .container .register .register-logo::after {
-	left: 0;
-	top: 26%;
+.boarding_camp .container .register .register-logo .logo-title::after {
+	left: -308px;
+	content: '';
+	position: absolute;
+	top: 131px;
 	width: 260px;
 	height: 270px;
 	background: linear-gradient(90deg, #F9ED32 -65.27%, #8DC63F 34.08%, #8DC63F 100%);
 }
 
-.boarding_camp .container .register .register-logo::before {
-	right: 10%;
-    top: 15%;
+.boarding_camp .container .register .register-logo .logo-title::before {
+	right: -210px;
+	top: 100px;
+	content: '';
+	position: absolute;
 	width: 180px;
 	height: 206px;
 	background: linear-gradient(90deg, rgba(249, 237, 50, 0.5) -65.27%, rgba(141, 198, 63, 0.5) 34.08%, rgba(141, 198, 63, 0.5) 100%);
@@ -1145,10 +1151,12 @@ margin-top: 0;
 
 .boarding_camp .container .register .register-logo img {
 	display: flex;
-    margin-top: 15rem;
-    z-index: 999;
-    padding: 0 4rem;
+	margin-top: 4rem;
+	margin-left: 4rem;
+	z-index: 999;
 	position: relative;
+	width: 730px;
+	height: 415px;
 }
 
 
@@ -1169,6 +1177,8 @@ margin-top: 0;
     line-height: 90px;
     text-align: right;
     text-transform: uppercase;
+		margin-left: 10rem;
+		
 }
 .boarding_camp .container .register .register-container {
 	display: flex;
@@ -1909,9 +1919,6 @@ margin-top: 0;
 		font-size: 72px;
 		line-height: 84px;
 	}
-	.boarding_camp .container .register .register-logo .logo-title {
-		left: 23%;
-	}
 	.boarding_camp .container .register .register-logo::after {
 		    width: 200px;
 	}
@@ -2238,6 +2245,17 @@ margin-top: 0;
 	
 
 	/*============= boarding_camp_summer ========*/
+
+	.boarding_camp .container .register .register-logo .logo-title::before {
+		display: none;
+	}
+	.boarding_camp .container .register .register-logo .logo-title::after {
+		display: none;
+	}
+
+	.boarding_camp .container .register .register-logo .logo-title span {
+		margin-left: 0;
+	}
 	.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info {
 		display: flex;
 	}
