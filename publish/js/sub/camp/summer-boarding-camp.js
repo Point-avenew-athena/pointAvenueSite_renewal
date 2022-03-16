@@ -8,6 +8,15 @@ $(function(){
 			el: '.swiper-pagination',
 		}
     });
+
+		var info_swiper = new Swiper('.swipe_image_mobile .swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 20, 
+			effect:'fade',
+			pagination: {
+				el: '.swiper-pagination',
+			}
+			});
 	
 	/*=================== case_studies_swiper ==============*/
 	var case_studies_swiper = new Swiper('.testimonials_wrap .swiper-container', {

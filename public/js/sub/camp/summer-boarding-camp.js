@@ -8,32 +8,60 @@ $(function(){
 			clickable: true
 		},
 		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
+			nextEl: '.swiper-button-next-camp',
+			prevEl: '.swiper-button-prev-camp',
 		}
     });
-
+		var info_swiper = new Swiper('.swipe_image_mobile .swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 20,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true
+			},
+			navigation: {
+				nextEl: '.swiper-button-next-camp',
+				prevEl: '.swiper-button-prev-camp',
+			},
+			breakpoints: {
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 3,
+					spaceBetween: 10,
+				},
+				768: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 4,
+					spaceBetween: 10,
+				},
+			},
+		});
 
 		var mentors_swiper = new Swiper('.team_wrap .swiper-container', {
 			slidesPerView: 5,
 			spaceBetween: 20,
 			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
+				nextEl: '.swiper-button-next-mentor',
+				prevEl: '.swiper-button-prev-mentor',
 			},
 			breakpoints: {
-				1000: {
-					// 화면의 넓이가 1000px 이하일 때
-					slidesPerView: 2,
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 5,
+					spaceBetween: 10,
 				},
 				768: {
 					// 화면의 넓이가 768px 이하일 때
-					slidesPerView: 2,
+					slidesPerView: 6,
 					spaceBetween: 10,
 				},
 				640: {
 					// 화면의 넓이가 640px 이하일 때
 					slidesPerView: 1,
+				},
+				1000: {
+					// 화면의 넓이가 1000px 이하일 때
+					slidesPerView: 2,
 				},
 			},
 		});
