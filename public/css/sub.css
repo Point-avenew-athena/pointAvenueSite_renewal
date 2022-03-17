@@ -2959,7 +2959,7 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 865px;
+		height: 1220px;
 		position: relative;
 		cursor: pointer;
 	}
@@ -2978,7 +2978,7 @@ margin-top: 0;
 		margin-top: 1px;
 		position: relative;
 		margin-bottom: 30px;
-		width: max-content;
+		width: 100%;
 		cursor: pointer;
 	}
 	.boarding_camp .container .timeline .block-2 .div-timeline .box:hover {
@@ -3752,7 +3752,7 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 728px;
+		height: 1010px;
 		position: relative;
 		cursor: pointer;
 	}
@@ -3771,7 +3771,7 @@ margin-top: 0;
 		margin-top: 1px;
 		position: relative;
 		margin-bottom: 30px;
-		width: max-content;
+		width: 100%;
 	}
 
 	.boarding_camp .container .timeline .block-2 .div-timeline .box .line-box {
