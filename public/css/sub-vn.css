@@ -412,13 +412,14 @@
 	width: 70%;
 }
 .boarding_camp .container .banner_block .label_banner .description {
-	font-size: 1rem;
+	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: 19px;
 	text-align: right;
 	margin-top: 1rem;
 	width: 80%;
+	font-family: 'Barlow Condensed' !important;
 }
 .boarding_camp .container .banner_block .label_banner .camp {
 	text-align: right;
@@ -552,8 +553,8 @@
 
 .boarding_camp .container .campaign .block-description p {
 	width: 100%;
-    font-size: 16px;
-    line-height: 19px;
+	font-size: 16px;
+	line-height: 19px;
 }
 
 .boarding_camp .container .mentor .block-1 p {
@@ -1952,7 +1953,8 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-size: 0.9rem;
+		font-size: 16px;
+    line-height: 19px;
 		margin-top: 0;
 	}
 }
