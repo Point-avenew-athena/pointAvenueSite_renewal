@@ -7,7 +7,8 @@ router.get('/', function (req, res) {
 
 router.get('/summer-boarding-camp', function (req, res) {
   // res.send('Camp > Summer Leader Camp')
-  res.render('camp/summer-boarding-camp')
+  const teamMembers = require("../data/camp/mentors.json");
+  res.render('camp/summer-boarding-camp', {teamMembers})
 })
 
 router.get('/summer-day-camp', function (req, res) {

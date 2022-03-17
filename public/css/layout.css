@@ -401,6 +401,20 @@
 .mentor_popup .mentor_img_box p {margin-top: 15px;}
 .mentor_popup .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
 
+/*mentor_popup_custom*/
+.mentor_popup_custom {width:770px;    background: #101121;
+	border-radius: 16px;
+	padding: 42px;
+	border: none;}
+.mentor_popup_custom.layer_popup .close_btn {position: absolute;display: inline-block; width:40px; height: 40px; right:10px; top:10px;}
+.mentor_popup_custom .popup_cont {overflow: hidden; padding:30px 50px;}
+.mentor_popup_custom .mentor_img_box{float: left; width:30%;text-align: center;}
+.mentor_popup_custom .mentor_img_box p {margin-top: 15px;color: #FCFCFD;}
+
+.mentor_popup_custom .mentor_img_box p.text--gray {color: #1CCFEA}
+.mentor_popup_custom .mentor_info_box{float: left; width:70%; padding-left: 30px; box-sizing: border-box;}
+.mentor_popup_custom .mentor_info_box .ul_type_02 li{color: white; position: initial;}
+.mentor_popup_custom .mentor_info_box .ul_type_02 li::marker{color: white;}
 
 /*cases_tudies_popup*/
 .case_studies_popup {width:770px;}
@@ -581,6 +595,11 @@
 	.mentor_popup .mentor_img_box{float: none; width:100%;text-align: center;}
 	.mentor_popup .mentor_info_box{float: none; width:100%; margin-top: 30px; padding-left: 0; }
 	.mentor_popup .mentor_info_box ul li {margin-top: 10px;}
+
+		/*mentor_popup_custom*/
+		.mentor_popup_custom .mentor_img_box{float: none; width:100%;text-align: center;}
+		.mentor_popup_custom .mentor_info_box{float: none; width:100%; margin-top: 30px; padding-left: 0; }
+		.mentor_popup_custom .mentor_info_box ul li {margin-top: 10px;}
 	
 	.testimonials_popup {width:80%;}
 	

@@ -1,0 +1,151 @@
+[
+  {
+    "id": 1,
+    "name": "Danny",
+    "position": "Founder & CEO",
+    "exp": [
+      "12 years of experience in Education",
+      "Founder & CEO,  Point Avenue",
+      "Co-Founder & COO, New Pathway Education",
+      "Managing Director, EIC Education",
+      "Captain, US Army Ranger",
+      "BS, United States Military Academy"
+    ],
+    "desc": "B.S. United States Military Academy at West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tommy",
+    "position": "Co-Founder & COO",
+    "exp": [
+      "10 years of experience in Education",
+      "Co-Founder & COO, Point Avenue",
+      "Investment Banking, Goldman Sachs",
+      "Captain, US Army Special Forces",
+      "MBA, Wharton School, UPenn",
+      "BS, United States Military Academy"
+    ],
+    "desc": "M.B.A. The Wharton School of the University of Pennsylvania",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zack",
+    "position": "Camp Director",
+    "exp": [
+      "13 years of experience in Finance",
+      "Finance Controller, Point Avenue",
+      "Consulting Manager, Deloitte",
+      "Audit Manager, Deloitte ",
+      "Head of Sustainability Development, Deloitte",
+      "Team Lead, Deloitte Private",
+      "ACCA, CIA, CPA"
+    ],
+    "desc": "B.S. in Global Studies, Liberty University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Les Knotts",
+    "position": "Special Guest Mentor",
+    "desc": "Former Associate Professor, United States Military Academy at West Point",
+    "exp": [
+      "10 years of experience in Education",
+      "Sales and Distribution Manager for Midwest & Southwest U.S.A, Stumptown Coffee Roasters",
+      "Therapeutic Mentor & Residential Counselor, Youth Opportunities Upheld, Inc.",
+      "Residential Counselor & Summer Program Teacher, Youth Opportunities Upheld, Inc.",
+      "B.A., University of Massachusetts, Amherst"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dr.+Les+Knotts.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Jesika",
+    "exp": [
+      "8 years of experience in Education",
+      "Senior Consultant & Project Team Leader at Marsh Vietnam Insurance Broking Co., Ltd",
+      "M.A. and B.A., National Economics University "
+    ],
+    "desc": "B.A. in Drama, Studio Practice as well as Art History & Visual Culture, Rhodes University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jesika.jpg"
+  },
+  {
+    "id":8,
+    "name": "Mark",
+    "desc": "Bachelor of Commerce, National University of Ireland, Galway (2016)",
+    "exp": [
+      "10 years of experience in Education",
+      "Senior Vice President, Bank of America",
+      "Captain, U.S. Army",
+      "B.S., United States Military Acedemy at West Point ",
+      "TEFL & Test Prep Certifications "
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Mark Simpson.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Katrina",
+    "desc": "Professor for 11 years at College of Nursing, Cebu Institute of Technology University",
+    "exp": [
+      "7 years of experience in Education",
+      "Center Manager, ILA & Language Link Vietnam",
+      "IELTS Chief Invigilator, IDP Education",
+      "B.A., International Pacific College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Katrina.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ben",
+    "desc": "Bachelor of Arts Degree in Philosophy, Classics & Art History , Rhodes University",
+    "exp": [
+      "6 years of experience in Education",
+      "Founder & CEO, Diligence Code",
+      "Management Consultant, AT Kearney",
+      "B.A. and B.S., University of Virginia",
+      "TEFL & Design Thining and Innovation Certifications"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ben.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Sarah",
+    "desc": "B.S. in Global Studies, Liberty University",
+    "exp": [
+      "10 years of experience in Education",
+      "Co-Founder & Strategic Advisor, Point Avenue",
+      "Graduate of Thammasat University, University of Nottingham, and University of Cambridge",
+      "Completing Masters of Science Education, Johns Hopkins University",
+      "Completing Certificate of Early Childhood Leadership, Harvard Graduate School of Education"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Sarah.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Jacob",
+    "desc": "The University of Edinburgh",
+    "exp": [
+      "12+ years of experience in Education",
+      "Director, YMCA of Greater Boston, North Woods Camp",
+      "Ph.D. and M.S., University of New Hampshire",
+      "B.A., University of Massachusetts Amherst",
+      "Author of  8 academic papers on summer camp, creativity, motivation, and natural resource management(Journal of Youth Development, Energy Research and Social Science, Journal of Outdoor Recreation and Tourism)"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jacob.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Nierru",
+    "desc": "Bachelor of Arts in Speech and Theatre Arts, Silliman University",
+    "exp": [
+      "10 years of experience in Education",
+      "Southern Director, Faculty Management Division, Apax Leaders",
+      "Faculty Manager & Part-time Trainer, Chungdahm Learning",
+      "Senior Auditor, Ernst & Young, LLP",
+      "M.S., University of New Hampshire",
+      "B.A., University of Washington Southern"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nierru.jpg"
+  }
+]

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*=========header=========*/
-header {position: fixed; left:0; top:0; width:100%; z-index: 100; background: #fff;}
+header {position: fixed; left:0; top:0; width:100%; z-index: 999999999; background: #fff;}
 header .header_inner{position: relative; max-width:1170px; width:100%; margin:0 auto; padding:10px; height: 50px; box-sizing: border-box;}
 header .header_inner:after {content:''; display: inline-block; clear: both;}
 header .logo {float: left;}
@@ -70,7 +70,7 @@ footer .footer_sns_menu .sns_icon_l a{background: url('https://paathena-public-p
 .mobile_nav_footer {position: fixed; width:100%; height: 50px; bottom:0; left:0; font-size: 0;}
 .mobile_nav_footer a {display: inline-block; width:50%; padding:15px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#fff; box-sizing: border-box;}
 .mobile_nav_footer a + a{background: #fff; color:#F2B41B; border-right: 0;}
-.mobile_nav_wrap.opened {z-index: 100;opacity: 1; visibility: visible;}
+.mobile_nav_wrap.opened {z-index: 999999;opacity: 1; visibility: visible;}
 .mobile_nav_wrap.opened .mobile_nav{transform: translateX(0);}
 .mobile_nav_body .gnb_menu_item.on > a:before {transform: rotate(-135deg);}
 .mobile_nav_body .gnb_menu_item.on > a:after {transform: rotate(135deg);}
@@ -91,7 +91,7 @@ footer .footer_sns_menu .sns_icon_l a{background: url('https://paathena-public-p
 	footer .footer_etc_wrap {padding:0 40px;}
 }
 @media screen and (max-width:1000px) {
-	header.fixed {position: fixed;left:0; top:0; width:100%;border-bottom: 1px solid #ddd; z-index: 99;}
+	header.fixed {position: fixed;left:0; top:0; width:100%;border-bottom: 1px solid #ddd; z-index: 99999999;}
 	header .gnb_cont {display: none;position: absolute;  width: 100%; left:0; margin-right: 0;top: 50px; border-top: 1px solid #000; background: #fff; z-index: 10;}
 	header .gnb_cont ul {float: none;}
 	header .gnb_cont .gnb_menu_item{width:100%;padding:0;}
