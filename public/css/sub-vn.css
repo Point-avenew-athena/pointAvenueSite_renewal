@@ -2475,6 +2475,7 @@ margin-top: 0;
     text-align: center;
     width: 70%;
     color: #FFFFFF;
+		margin-top: 1rem;
 	}
 
 	.boarding_camp .container .banner_block {
@@ -3297,6 +3298,7 @@ margin-top: 0;
     line-height: 96%;
     text-align: center;
     color: #FFFFFF;
+		width: 70%;
 	}
 	.boarding_camp .container .banner_block .label_banner .description {
 		font-family: 'Barlow Condensed Thin' !important;
