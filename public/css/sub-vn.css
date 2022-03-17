@@ -364,7 +364,7 @@
 .boarding_camp .container .banner_block .label_banner {
 	position: absolute;
 	color: white;
-	width: 34%;
+	width: 45%;
 	top: 5rem;
 	right: 5rem;
 	display: flex;
@@ -409,6 +409,7 @@
 	font-size: 130px;
 	line-height: 96%;
 	text-align: right;
+	width: 70%;
 }
 .boarding_camp .container .banner_block .label_banner .description {
 	font-size: 1rem;
@@ -506,6 +507,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 0 10px;
 }
 .boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info {
 	display: flex;
@@ -535,7 +537,7 @@
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
-	width: 70%;
+	width: 60%;
 }
 
 .boarding_camp .container .campaign .block-1 p span {
@@ -562,7 +564,7 @@
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
-	width: 70%;
+	width: 60%;
 }
 
 .boarding_camp .container .mentor .block-1 p span {
@@ -655,6 +657,7 @@
 	text-align: right;
 	text-transform: uppercase;
 	margin-top: 2rem;
+	width: 80%;
 }
 
 .boarding_camp .container .timeline .block-1 p span {
@@ -690,6 +693,8 @@
 
 .boarding_camp .container .mentor .block-description p {
 	width: 90%;
+	font-size: 16px;
+	line-height: 19px;
 }
 
 .boarding_camp .container .experience {
@@ -889,6 +894,7 @@ margin-top: 0;
 		348.2deg
 		 ,#332656 6.86%,#1a1d42 94.88%);
 				border: none;
+				height: 254px;
 }
 .boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box {
 	position: absolute;
@@ -1207,43 +1213,58 @@ margin-top: 0;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-1{
-	left: 2%;
+	left: 1%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-3{
-	left: 19%;
+	left: 15%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-5{
-	left: 40%;
+	left: 29%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-7{
-	left: 65%;
-}
-
-.boarding_camp .container .timeline .block-2 .box-timeline-9{
-	right: 2%;
-}
-
-.boarding_camp .container .timeline .block-2 .box-timeline-2{
-	top: -141px;
-	left: 8%;
-}
-
-.boarding_camp .container .timeline .block-2 .box-timeline-4{
-	top: -120px;
-	left: 32%;
-}
-
-.boarding_camp .container .timeline .block-2 .box-timeline-6{
-	top: -141px;
 	left: 52%;
 }
 
+.boarding_camp .container .timeline .block-2 .box-timeline-9{
+	left: 75%;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-2{
+	top: -148px;
+  left: 0%;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-4{
+	top: -116px;
+    left: 21%;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-6{
+	top: -116px;
+	left: 38%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-8{
-	top: -141px;
-	left: 77%;
+	top: -120px;
+    left: 49%;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-10{
+	top: -114px;
+    left: 69%;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-11{
+	right: -3%;
+    top: -114px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-12{
+	right: 2%;
+	top: 40px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline:hover{
@@ -1263,19 +1284,27 @@ margin-top: 0;
 	top: -43px;
 }
 .boarding_camp .container .timeline .block-2 .box-timeline-2 .line{
-	top: 137px;
+	top: 145px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4 .line{
-	top: 117px;
+	top: 112px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 .line{
-	top: 137px;
+	top: 112px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
-	top: 137px;
+	top: 116px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-10 .line {
+	top: 110px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-11 .line {
+	top: 110px;
 }
 .boarding_camp .container .timeline .block-2 .box-timeline:hover span{
 	background: -webkit-linear-gradient(left, #eeee38, #8fc740);
@@ -1288,8 +1317,8 @@ margin-top: 0;
 	font-family: 'Barlow Condensed' !important;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 14px;
+	line-height: 16px;
 	text-align: center;
 	color: #FFFFFF;
 }
@@ -1318,19 +1347,27 @@ margin-top: 0;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-2::before{
-  top: 117px;
+  top: 126px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before{
-  top: 97px;
+	top: 93px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before{
-  top: 117px;
+  top: 93px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8::before{
-  top: 117px;
+  top: 97px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-10::before {
+	top: 94px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-11::before {
+	top: 94px;
 }
 
 /* .boarding_camp .container .timeline .block-2 .box-timeline:hover::before{
@@ -1820,6 +1857,89 @@ margin-top: 0;
 .day_camp .camp_translation_wrap .btn_box a.on {background: #1960A1; color:#fff;}
 
 @media screen and (max-width:1368px) {
+	.boarding_camp .container .timeline .block-2 .box-timeline span.desc {
+    font-size: 13px;
+    line-height: 14px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-1 {
+		left: 1%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-2 {
+		top: -140px;
+    left: 1%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-2::before {
+    top: 119px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-2 .line {
+		top: 136px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-3 {
+    left: 17%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-4 {
+		top: -115px;
+    left: 22%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-4::before {
+    top: 120px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-4 .line {
+    top: 139px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-5 {
+    left: 30%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
+		top: -115px;
+    left: 38%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-6::before {
+    top: 120px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-6 .line {
+    top: 139px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-7 {
+    left: 52%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-8 {
+		top: -116px;
+    left: 50%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-8::before {
+    top: 92px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-8 .line {
+    top: 112px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-9 {
+    left: 76%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-10 {
+    top: -115px;
+    left: 69%;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-10::before {
+    top: 92px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-10 .line {
+    top: 111px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-11 {
+    right: -1%;
+    top: -115px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-11::before {
+    top: 92px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-11 .line {
+    top: 111px;
+	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-12 {
+    right: -2%;
+    top: 40px;
+	}
 	.boarding_camp .container .banner_block .label_banner {
 		top: 3rem;
 	}
@@ -1871,6 +1991,7 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .title {
 		font-size: 100px;
+		width: 50%;
 	}
 
 	.boarding_camp .container .banner_block .label_banner .camp .label {
@@ -2217,6 +2338,10 @@ margin-top: 0;
 	
 
 	/*============= boarding_camp_summer ========*/
+
+	.boarding_camp .container .team_wrap .section_inner .swiper-slide {
+		height: 228px;
+	}
 
 	.boarding_camp .container .register .register-logo .logo-title::before {
 		display: none;
@@ -2784,7 +2909,7 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 865px;
+		height: 1355px;
 		position: relative;
 		cursor: pointer;
 	}
@@ -2803,7 +2928,7 @@ margin-top: 0;
 		margin-top: 1px;
 		position: relative;
 		margin-bottom: 30px;
-		width: max-content;
+		width: 100%;
 		cursor: pointer;
 	}
 	.boarding_camp .container .timeline .block-2 .div-timeline .box:hover {
@@ -3104,6 +3229,10 @@ margin-top: 0;
 
 	.boarding_camp .container .block-2 {
 		padding: 0;
+	}
+
+	.boarding_camp .container .team_wrap .section_inner .swiper-slide {
+		height: 206px;
 	}
 
 	.boarding_camp .container .campaign .block-description p {
@@ -3580,7 +3709,7 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 728px;
+		height: 1130px;
 		position: relative;
 		cursor: pointer;
 	}
@@ -3599,7 +3728,7 @@ margin-top: 0;
 		margin-top: 1px;
 		position: relative;
 		margin-bottom: 30px;
-		width: max-content;
+		width: 100%;
 	}
 
 	.boarding_camp .container .timeline .block-2 .div-timeline .box .line-box {
