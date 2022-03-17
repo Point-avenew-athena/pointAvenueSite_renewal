@@ -2124,23 +2124,246 @@ margin-top: 0;
 		font-size: 12px;
 	}
 
+	.boarding_camp .container .box-navigation {
+		margin-top: 75px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-1 .text-thin {
+		font-size: 34px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-1 .text-bold {
+		font-size: 61px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-2 .text-thin,
+	.boarding_camp .container .bg .box-content .box-2 .text-bold {
+		font-size: 32px;
+	}
+
+	.boarding_camp .container .experience .block-1 p,
+	.boarding_camp .container .experience .block-1 p span {
+		font-size: 74px;
+    line-height: 82px;
+	}
+
+	.boarding_camp .container .timeline {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .timeline .block-1 {
+		width: 100%;
+    align-items: center;
+	}
+
+	.boarding_camp .container .timeline .block-2 {
+		width: 100%;
+    padding: 0 80px;
+	}
+	.boarding_camp .container .register {
+		gap: 100px;
+	}
 }
-@media screen and (max-width:1024px) {
-	.boarding_camp .container .offer .block-2 .box-text .title {
-		font-size: 76px;
-    line-height: 84px;
+
+@media screen and (max-width:1000px) {
+	
+	/*=============sub common========*/
+	.sub .course_objective_wrap .img_box {float: none; width:100%;}
+	.sub .course_objective_wrap .img_box img{ width:100%;}
+	.sub .course_objective_wrap .objective_list{float: none; width:100%;}
+	.sub .course_books_wrap .img_box {float: none; width:100%;}
+	.sub .course_books_wrap .img_box img {width:100%;}
+	.sub .course_books_wrap .books_list {float: none; width:100%; padding-left: 0; margin-top: 40px;}
+	.sub .skills_wrap .section_inner {position: relative;overflow: hidden;}
+	.sub .skills_wrap .img_box {float: none; width:100%; padding-left: 0;}
+	.sub .skills_wrap .img_box img {width:100%;}
+	.sub .skills_wrap .skills_list {float: none; width:100%;  margin-top: 30px; padding-left: 0px;}
+	.sub .skills_wrap .skills_list li {margin-bottom: 20px;}
+	
+	/*============== aboutus ==============*/
+	.about_us .about_intro_wrap .video_wrap {width:100%; padding-top:55%;}
+	.about_us .about_intro_wrap .video_desc_wrap {width:100%; padding-left: 0;}
+	.about_us .partners_wrap .partners_cont li {width:25%;}
+	.about_us .history_wrap .title_s_01 { font-family: 'roboto'; font-size: 24px; font-weight: 800; margin-bottom:20px;}
+	.about_us .history_wrap .history_box_01 {width:100%; }
+	.about_us .history_wrap .history_box_02 {margin-top:50px; width:100%; padding-left:0;}
+
+	/*============== class_datail ==============*/
+	.class_datail .lesson_list_wrap .video_wrap {float: none;width:100%; padding-right: 0;}
+	.class_datail .lesson_list_wrap .lesson_list {margin-top: 20px; }
+	.class_datail .lesson_desc_wrap .tab_cont_area {float: none; width: 100%; padding-right: 0;}
+	.class_datail .lesson_info_wrap {float: none; width:100%;}
+	.class_datail .project_desc_cont .btn_box--right {text-align: center; margin-top: 20px;}
+	/*============== careers ==============*/
+	.careers .offer_wrap .offer_list .offer_icon_box {width:40%;}
+	.careers .offer_wrap .offer_list .text_box {width:60%;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n+1) {width:50%;}
+	.careers .offer_wrap .offer_list ul li:nth-child(2n) {width:50%;}
+	
+	/*=============== admission_consulting ==============*/
+	.admission_consulting .results_swiper_01 {margin:40px 0;}
+	
+	.admission_consulting .info_wrap .video_wrap {padding-top:56%; margin-bottom:30px;}
+	.admission_consulting .approach_wrap .approach_box .img_box {float:inherit; width:100%; padding-left:0;}
+	.admission_consulting .approach_wrap .approach_box .step_list{float:inherit; width:100%;}
+	.admission_consulting .approach_wrap .approach_box_02 .img_box {margin-bottom:20px;}
+	.admission_consulting .approach_wrap .approach_box_02 .step_list {padding-left:0;}
+	.admission_consulting .process_step_wrap .process_step_list .tooltip_box .title_r_01 {top:-40px;}
+	.admission_consulting .services_wrap .service_box .service_img_box {float: none; width:100%;}
+	.admission_consulting .services_wrap .service_box .service_text_box {float: none; width:100%; margin-top: 20px;}
+	
+	
+	/*============= boarding_camp ========*/
+	.boarding_camp .info_input_wrap .write_box .input_box input {float: none;}
+	.boarding_camp .info_input_wrap .write_box .input_box .name {width:100%;}
+	.boarding_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
+	.boarding_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+
+	.boarding_camp .container .banner_block .label_banner .title,
+	.boarding_camp .container .banner_block .label_banner .camp .label {
+		font-size: 90px
 	}
 
-	.boarding_camp .container .offer .block-2 .box-text .title .amount {
-		font-size: 76px;
-    line-height: 84px;
+	.boarding_camp .container .banner_block .label_banner .description {
+		width: 75%;
 	}
 
-	.boarding_camp .container .offer .block-2 .box-text {
-		margin: 0 4rem;
+	.boarding_camp .container .main {
+		top: -10px;
+	}
+	/*============= boarding_camp_register ========*/
+	.boarding_camp .container .register{
+		margin-bottom: 0;
+	}
+	.boarding_camp .container .register .register-logo{
+		flex-basis: 50%;
+	}
+	.boarding_camp .container .register .register-container{
+		flex-basis: 50%;
+	}
+	.boarding_camp .container .register .register-container .register-form{
+		padding-right:40px;
+	}
+	.boarding_camp .container .register .register-logo p{
+		font-size: 60px;
+   		line-height: 72px;
+	}
+	.boarding_camp .container .register .register-logo::after {
+		display: none;
+	}
+	
+	.boarding_camp .container .register .register-logo::before {
+		display: none;
+	}
+	
+	.boarding_camp .container .register .register-logo img {
+		display: none;
+	}
+	/*============= boarding_camp_summer ========*/
+	.boarding_camp .container .banner_block .label_banner {
+		top: 20%;
 	}
 
+	.boarding_camp .container .campaign .block-1 p {
+		width: 100%;
+		text-align: center;
+	}
+
+	.boarding_camp .container .campaign {
+		flex-direction: column;
+	}
+	.boarding_camp .container .mentor {
+		flex-direction: column;
+	}
+
+
+	.boarding_camp .container .block-1 {
+		text-align: center;
+		width: 100%;
+	}
+
+	.boarding_camp .container .box-navigation {
+		justify-content: center;
+		display: none;
+	}
+
+	.boarding_camp .container .block-2 {
+		width: 100%;
+		padding: 0 5rem;
+	}
+
+	.boarding_camp .container .block-2 .block-description {
+		color: white;
+		/* padding-right: 5rem; */
+		margin-top: 0;
+		padding: 2rem;
+		width: 100%;
+		padding-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+	}
+	
+
+	.boarding_camp .container .mentor .block-1 p {
+		
+	}
+
+	.boarding_camp .container .block-2 .block-description .read-more {
+		text-align: center;
+	}
+
+	.boarding_camp .container .experience {
+		flex-direction: column;
+		margin-top: 0;
+		gap: 0;
+	}
+	
+
+	.boarding_camp .container .experience .block-2 .boxDetail {
+		padding: 4rem;
+    	gap: 8%;
+	}
+
+	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience {
+		width: 46%;
+	}
+
+	/*============= online_learning ========*/
+	.online_learning .info_input_wrap .write_box .input_box input {float: none;}
+	.online_learning .info_input_wrap .write_box .input_box .name {width:100%;}
+	.online_learning .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
+	.online_learning .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+	.online_learning .learning-model .asset_item {width: 50%;}
+	.online_learning .visual_wrap .title_r_01 {color: rgb(0, 0, 0);}
+
+	/*============= online_debate ========*/
+	.online_debate .info_input_wrap .write_box .input_box input {float: none;}
+	.online_debate .info_input_wrap .write_box .input_box .name {width:100%;}
+	.online_debate .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
+	.online_debate .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+	.online_debate .learning-model .asset_item {width: 50%;}
+	.online_debate .visual_wrap .title_r_01 {color: rgb(0, 0, 0);}
+
+	/*============= day_camp ========*/
+	.day_camp .camp_info_wrap .video_box {margin-top: 20px;}
+	.day_camp .info_input_wrap .write_box .input_box input {float: none;}
+	.day_camp .info_input_wrap .write_box .input_box .name {width:100%;}
+	.day_camp .info_input_wrap .write_box .input_box .phone {width:100%; margin-left: 0%;}
+	.day_camp .info_input_wrap .write_box .input_box .grade {width:100%; margin-left: 0%;}
+	.day_camp .offers_wrap .brochure_box img {max-width:100%;}
+
+	/*============= online_summer_camp ========*/
+	.online_summer_camp .online_summer_desc_wrap {padding-top:380px; background-position:top 50px center; background-size:100% auto; margin:0 20px;}
+	.online_summer_camp .online_summer_desc_wrap p{font-size: 18px;}
+	.online_summer_camp .future_wrap .img_article {margin-top: 50px;}
+	.online_summer_camp .future_wrap .img_article:before{z-index: -1;}
+	.online_summer_camp .camp_info_wrap .video_box {margin-top: 20px;}
+	.online_summer_camp .meet_team_wrap .text_article {padding-left: 0;}
+
+	.online_summer_camp.vn .online_summer_desc_wrap {padding-top:400px;background-size:100% auto; margin:0 20px;}
+	
 }
+
 @media screen and (max-width:1000px) {
 	
 	/*=============sub common========*/
@@ -2965,7 +3188,6 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 1220px;
 		position: relative;
 		cursor: pointer;
 	}
@@ -3758,7 +3980,6 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .line {
 		width: 1px;
 		background: #8DC63F;
-		height: 1010px;
 		position: relative;
 		cursor: pointer;
 	}
