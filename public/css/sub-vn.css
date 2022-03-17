@@ -555,6 +555,7 @@
 	width: 100%;
 	font-size: 16px;
 	line-height: 19px;
+	font-family: 'Barlow Condensed' !important;
 }
 
 .boarding_camp .container .mentor .block-1 p {
@@ -696,6 +697,7 @@
 	width: 90%;
 	font-size: 16px;
 	line-height: 19px;
+	font-family: 'Barlow Condensed' !important;
 }
 
 .boarding_camp .container .experience {
@@ -2067,6 +2069,61 @@ margin-top: 0;
 		font-size: 12px;
 	}
 
+	.boarding_camp .container .box-navigation {
+		margin-top: 75px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-1 .text-thin {
+		font-size: 34px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-1 .text-bold {
+		font-size: 61px;
+	}
+
+	.boarding_camp .container .bg .box-content .box-2 .text-thin,
+	.boarding_camp .container .bg .box-content .box-2 .text-bold {
+		font-size: 32px;
+	}
+
+	.boarding_camp .container .experience .block-1 p,
+	.boarding_camp .container .experience .block-1 p span {
+		font-size: 74px;
+    line-height: 82px;
+	}
+
+	.boarding_camp .container .timeline {
+		flex-direction: column;
+	}
+
+	.boarding_camp .container .timeline .block-1 {
+		width: 100%;
+    align-items: center;
+	}
+
+	.boarding_camp .container .timeline .block-2 {
+		width: 100%;
+    padding: 0 80px;
+	}
+	.boarding_camp .container .register {
+		gap: 100px;
+	}
+
+	.boarding_camp .container .team_wrap .section_inner .swiper-slide {
+		height: 190px;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .title {
+		width: 55%;
+	}
+
+	.boarding_camp .container .mentor .block-1 p {
+		width: 70%;
+	}
+
+	.boarding_camp .container .mentor .section_inner {
+		padding: 0;
+	}
 }
 @media screen and (max-width:1024px) {
 	.boarding_camp .container .offer .block-2 .box-text .title {
