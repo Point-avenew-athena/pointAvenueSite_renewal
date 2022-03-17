@@ -70,11 +70,14 @@ footer .footer_sns_menu .sns_icon_l a{background: url('https://paathena-public-p
 .mobile_nav_footer {position: fixed; width:100%; height: 50px; bottom:0; left:0; font-size: 0;}
 .mobile_nav_footer a {display: inline-block; width:50%; padding:15px 0; text-align: center; border: 1px solid #F2B41B; background: #F2B41B; color:#fff; box-sizing: border-box;}
 .mobile_nav_footer a + a{background: #fff; color:#F2B41B; border-right: 0;}
-.mobile_nav_wrap.opened {z-index: 100;opacity: 1; visibility: visible;}
+.mobile_nav_wrap.opened {z-index: 9999999999999;opacity: 1; visibility: visible;}
 .mobile_nav_wrap.opened .mobile_nav{transform: translateX(0);}
 .mobile_nav_body .gnb_menu_item.on > a:before {transform: rotate(-135deg);}
 .mobile_nav_body .gnb_menu_item.on > a:after {transform: rotate(135deg);}
-
+.mobile_nav_wrap.opened .ch_flags_container {
+	margin-left: 0px;
+    margin-top: 20px;
+}
 /*===================== dark mode ======================*/
 .dark header {background: #000; color:#fff;}
 .dark header .logo a:before {background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/logo_w.svg') no-repeat; }
