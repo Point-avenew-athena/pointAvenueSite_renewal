@@ -100,7 +100,7 @@ $(function(){
 
 		var mentors_swiper = new Swiper('.mySwiperMentors', {
 			slidesPerView: 4,
-			spaceBetween: 20,
+			spaceBetween: 30,
 			navigation: {
 				nextEl: '.swiper-button-next-mentor',
 				prevEl: '.swiper-button-prev-mentor',
