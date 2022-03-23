@@ -13,7 +13,8 @@ router.get('/summer-boarding-camp', function (req, res) {
 
 router.get('/summer-day-camp', function (req, res) {
   // res.send('Camp > Summer Day Camp')
-  res.render('camp/summer-day-camp')
+  const teamMembers = require("../data/camp/mentors-day-camp.json");
+  res.render('camp/summer-day-camp', {teamMembers})
 })
 
 router.get('/online-summer-camp', function (req, res) {
