@@ -65,7 +65,6 @@ AWS.config.update({
 });
 
 app.post('/camp/summer-boarding-camp', function (req, res) {
-  console.log(31232, req.body);
   if (req.body.email) {
     var params = {
       Destination: { /* required */
@@ -122,7 +121,6 @@ app.post('/camp/summer-boarding-camp', function (req, res) {
 })
 
 app.post('/camp/summer-day-camp', function (req, res) {
-  console.log(31232, req.body);
   if (req.body.email) {
     var params = {
       Destination: { /* required */
@@ -131,6 +129,7 @@ app.post('/camp/summer-day-camp', function (req, res) {
         ],
         ToAddresses: [
           "contact@pointavenue.com"
+          // "trung.le@truenorth.edu.vn"
           // req.body.email,
           /* more items */        
         ]

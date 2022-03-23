@@ -108,13 +108,41 @@ $(function(){
 			breakpoints: {
 				480: {
 					// 화면의 넓이가 480px 이하일 때
-					slidesPerView: 2,
+					slidesPerView: 3,
 					spaceBetween: 10,
 				},
 				768: {
 					// 화면의 넓이가 768px 이하일 때
 					slidesPerView: 4,
 					spaceBetween: 10,
+				},
+				640: {
+					// 화면의 넓이가 640px 이하일 때
+					slidesPerView: 1,
+				},
+				1024: {
+					// 화면의 넓이가 1000px 이하일 때
+					slidesPerView: 3,
+				},
+			},
+		});
+
+		var testimonial_swiper = new Swiper('.myTestimonial', {
+			slidesPerView: 1,
+			navigation: {
+				nextEl: '.swiper-button-next-mentor',
+				prevEl: '.swiper-button-prev-mentor',
+			},
+			breakpoints: {
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 3,
+					spaceBetween: 10,
+				},
+				768: {
+					// 화면의 넓이가 768px 이하일 때
+					slidesPerView: 3,
+					spaceBetween: 20,
 				},
 				640: {
 					// 화면의 넓이가 640px 이하일 때

@@ -2206,6 +2206,46 @@ margin-top: 0;
 	text-transform: uppercase;
 }
 
+.day_camp .container .testimonial .block-1 p {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.day_camp .container .testimonial .block-1 p span {
+	font-weight: 700;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+.day_camp .container .testimonial .block-2 .swiper-slide {
+	background: black;
+	display: flex;
+	gap: 32px;
+}
+
+.day_camp .container .testimonial .block-2 .swiper-slide {
+	background: black;
+	display: flex;
+	gap: 32px;
+}
+
+.day_camp .container .testimonial .block-2 .swiper-slide .desc {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
 .day_camp .container .offer .block-1 p {
 	font-family: 'Barlow Condensed Thin';
 	font-style: normal;
@@ -2318,7 +2358,7 @@ margin-top: 0;
 	text-transform: uppercase;
 }
 
-.day_camp .container .mentor .block-description p {
+.day_camp .container .mentor .block-description span {
 	width: 100%;
     font-family: 'Barlow Condensed';
     font-family: 'Barlow Condensed';
@@ -2329,9 +2369,10 @@ margin-top: 0;
     color: #FFFFFF;
     margin-bottom: 5px;
 		position: relative;
+		display: block;
 }
 
-.day_camp .container .mentor .block-description p::after {
+.day_camp .container .mentor .block-description span::after {
 	content: "*";
     position: absolute;
     left: -10px;
@@ -2426,9 +2467,7 @@ margin-top: 0;
 .day_camp .container .offer .block-2 {
 	width: 100%;
     height: 856px;
-    background: linear-gradient(
-90deg
-, #F9ED32 -65.27%, #8DC63F 34.08%, #8DC63F 100%);
+    background: linear-gradient(90deg, #FFD400 -65.27%, #B9C21F 34.08%, #B9C21F 100%);
 margin-top: 0;
 }
 
@@ -2501,12 +2540,22 @@ margin-top: 0;
 	flex-direction: row;
 }
 
+.day_camp .container .testimonial {
+	padding: 0 5rem;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 8rem;
+	margin-top: 2rem;
+	gap: 2rem;
+	flex-direction: row;
+}
+
 .day_camp .container .mentor .box-navigation  {
 	margin-top: 70px;
 }
 
 .day_camp .container .mentor .block-2 .block-description  {
-	margin-top: 1rem;
+	margin-top: 3rem;
 }
 
 .day_camp .container .team_wrap {
@@ -2534,13 +2583,59 @@ margin-top: 0;
 
 .day_camp .container .team_wrap .section_inner .swiper-slide {
 	position: relative;
-	background-color: white;
-	background: linear-gradient( 
-		348.2deg
-		 ,#332656 6.86%,#1a1d42 94.88%);
-				border: none;
+	display: flex;
+    flex-direction: row;
+    background: black;
+    gap: 32px;
 }
-.day_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box {
+
+.day_camp .container .team_wrap .section_inner .swiper-slide .desc{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.day_camp .container .mentor .swiper-slide {
+	height: 270px;
+	cursor: pointer;
+}
+.day_camp .container .mentor .swiper-slide .img_box{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.day_camp .container .swiper-slide .desc .mom{
+	text-align: left;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(
+180deg
+, #F9ED32 0%, #8DC63F 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+.day_camp .container .swiper-slide .desc .talk{
+	text-align: left;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-top: 1rem;
+}
+.day_camp .container .swiper-slide .team_img {
+	width: 100%;
+    height: 100%;
+}
+.day_camp .container .swiper-slide .team_desc_box {
 	position: absolute;
 	bottom: 0;
 	bottom: -1px;
@@ -2552,7 +2647,7 @@ margin-top: 0;
 	height: 100%;
 	width: 100%;
 }
-.day_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .bg{
+.day_camp .container .swiper-slide .team_desc_box .bg{
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -2567,7 +2662,7 @@ margin-top: 0;
 	z-index: 1;
 }
 
-.day_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .info{
+.day_camp .container .swiper-slide .team_desc_box .info{
 	z-index: 999;
 	flex-direction: column;
 	align-items: center;
@@ -2576,11 +2671,12 @@ margin-top: 0;
 	transition: all .3s;
 }
 
-.day_camp .container .team_wrap .section_inner .swiper-slide:hover .team_desc_box .info {
+.day_camp .container .swiper-slide:hover .team_desc_box .info {
 	display: flex;
+	padding: 10px;
 }
 
-.day_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .name{
+.day_camp .container .swiper-slide .team_desc_box .name{
 	font-family: 'Barlow Condensed';
 	font-style: normal;
 	font-weight: 700;
@@ -3119,8 +3215,9 @@ margin-top: 0;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	width: calc(100% - (33% + 40px));
+	width: calc(100% - (40% + 40px));
 	padding: 20px 0;
+	align-items: flex-start;
 }
 .day_camp .container .block-2 .block-description {
 	color: white;
@@ -3177,9 +3274,12 @@ margin-top: 0;
 	margin-top: 0;
 }
 
-.day_camp .container .block-2 .swiper-slide img {
+.day_camp .container .block-2 .myTestimonial .swiper-slide img {
 	/* width: 400px; */
+	height: 213px;
+	width: 250px;
 }
+
 
 .day_camp .container .box-navigation .box .ic-next, 
 .day_camp .container .box-navigation .box .ic-prev {
@@ -5212,7 +5312,24 @@ margin-top: 0;
 
 	.day_camp .container .campaign {
 		margin-bottom: 50px;
-		padding: 0 25px;
+		padding: 0 50px;
+	}
+
+	.day_camp .container .objectives {
+		flex-direction: column;
+	}
+
+	.day_camp .container .objectives .block-1 p,
+	.day_camp .container .testimonial .block-1 p {
+		font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+		width: 100%;
 	}
 	.day_camp .container .banner_block .label_banner .title, .day_camp .container .banner_block .label_banner .camp .label {
 		font-family: 'Barlow Condensed';
@@ -5222,6 +5339,24 @@ margin-top: 0;
     line-height: 96%;
     text-align: center;
     color: #FFFFFF;
+	}
+
+	.day_camp .container .block-2 {
+		align-items: center;
+	}
+
+	.day_camp .container .testimonial .block-2 .swiper-slide {
+		flex-direction: column;
+	}
+
+	.day_camp .container .objectives .block-2 .content {
+		padding: 0 50px;
+    gap: 25px;
+	}
+
+	.day_camp .container .testimonial {
+		flex-direction: column;
+		margin-bottom: 0rem;
 	}
 	.day_camp .container .banner_block .label_banner .description {
 		font-family: 'Barlow Condensed Thin';
@@ -5274,7 +5409,8 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
-	.day_camp .container .campaign .block-1 p span {
+	.day_camp .container .block-1 p span,
+	.day_camp .container .objectives .block-1 p span {
 		font-family: 'Barlow Condensed';
     font-weight: 700;
 		font-style: normal;
@@ -5325,12 +5461,70 @@ margin-top: 0;
 		display: contents;
 	}
 
+	.day_camp .container .offer .block-2 .block-mobile .content .left .text-thin {
+		font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .left .text-bold {
+		font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
 	.day_camp .container .block-2 .block-description {
-		padding: 0;
+		padding: 0 20px;
 		margin-top: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	.day_camp .container .swiper-slide .team_desc_box .info {
+		display: flex;
+		padding: 10px;
+	}
+
+	.day_camp .container .swiper-slide .team_desc_box .name {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+	.day_camp .container .swiper-slide .team_desc_box .ex {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.day_camp .container .swiper-slide .team_desc_box .position {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: center;
+		color: #FFFFFF;
 	}
 	.day_camp .container .mentor .block-description p {
 		font-family: 'Barlow Condensed Thin';
@@ -5353,10 +5547,16 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
-	.day_camp .container .block-1 {
-		justify-content: center;
-		margin-top: 0;
+	.day_camp .container .campaign .block-2 .content {
+		padding-right: 0;
+		gap: 25px;
 	}
+
+	.day_camp .container .campaign .block-1 {
+		margin-bottom: 24px;
+	}
+
+	.day_camp .container .block-1
 
 	.day_camp .container .mentor {
 		padding: 0 25px;
@@ -5433,15 +5633,14 @@ margin-top: 0;
 
 	.day_camp .container .offer .block-2 .block-mobile .content .left {
 		width: 36%;
-    padding: 20px 10px;
+		padding-top: 15px;
+    padding-right: 25px;
 	}
-	.day_camp .container .offer .block-2 .block-mobile .content .text-thin {
+	.day_camp .container .offer .block-2 .block-mobile .content .right .text-thin {
 		font-family: 'Barlow Condensed Thin';
     font-style: normal;
     font-weight: 250;
-    font-size: 24px;
-    line-height: 29px;
-    text-align: right;
+    font-size: 49px;
     text-transform: uppercase;
     color: #FFFFFF;
 	}
@@ -5484,35 +5683,49 @@ margin-top: 0;
 	.day_camp .container .offer .block-2 .block-mobile .content .right {
 		width: 60%;
     padding: 20px 10px;
+		justify-content: flex-start
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
 		position: relative;
+		font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 49px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::after {
 		content: "VND";
 		position: absolute;
-		right: -15px;
-    top: -6px;	
+		right: -20px;
+    top: -10px;
 		font-family: 'Barlow Condensed';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 8px;
-		text-transform: uppercase;
-		color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 	}
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::before {
 		content: "UP TO";
 		position: absolute;
-		left: -20px;
-    top: -5px;
+		left: -28px;
+    top: -10px;
 		font-family: 'Barlow Condensed';
-		font-style: normal;
-		font-weight: 700;
-		font-size: 8px;
-		text-transform: uppercase;
-		color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 	}
 
 	.day_camp .container .experience .block-1 p {
@@ -5751,6 +5964,10 @@ margin-top: 0;
 		flex-direction: row;
 		gap: 8px;
 		position: unset;
+	}
+
+	.day_camp .container .banner_block .menu {
+		display: none;
 	}
 
 	.day_camp .container .register .register-container {
@@ -6726,11 +6943,12 @@ margin-top: 0;
 	.day_camp .container .banner_block .label_banner .title, .day_camp .container .banner_block .label_banner .camp .label {
 		font-family: 'Barlow Condensed';
     font-style: normal;
-    font-weight: 700;
-    font-size: 67px;
-    line-height: 96%;
+    font-weight: 250;
+    font-size: 57px;
+    line-height: 114.5%;
     text-align: center;
     color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 24%);
 	}
 	.day_camp .container .banner_block .label_banner .description {
 		font-family: 'Barlow Condensed Thin';
@@ -6766,9 +6984,75 @@ margin-top: 0;
 		font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 250;
-    font-size: 67px;
-    line-height: 96%;
-    text-align: right;
+    font-size: 57px;
+    line-height: 114.5%;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 24%);
+    width: 100%;
+    display: block;
+	}
+
+	.day_camp .container .campaign .block-2 .content {
+		gap: 10px;
+	}
+
+	.day_camp .container .campaign .block-2 .content .box img {
+		height: 126px;
+	}
+
+	.day_camp .container .objectives .block-2 .content {
+		padding: 0 25px;
+		gap: 10px;
+	}
+
+	.day_camp .container .testimonial {
+		padding: 0 25px;
+	}
+	.day_camp .container .swiper-slide .desc .mom {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		
+		background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+	}
+	.day_camp .container .swiper-slide .desc .talk {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .mentor .block-description span {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 12px;
+
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .mentor .block-2 .block-description {
+		padding: 0 10px;
+		margin-top: 1rem;
+	}
+
+	.day_camp .container .mentor .block-description span::after {
+		left: -8px;
 	}
 
 	.day_camp .container .campaign .block-1 p {
@@ -6907,7 +7191,7 @@ margin-top: 0;
 
 	.day_camp .container .offer .block-2 .block-mobile .content .left {
 		width: 36%;
-    padding: 20px 10px;
+    padding: 10px;
 	}
 	.day_camp .container .offer .block-2 .block-mobile .content .text-thin {
 		font-family: 'Barlow Condensed Thin';
@@ -6918,6 +7202,48 @@ margin-top: 0;
     text-align: right;
     text-transform: uppercase;
     color: #FFFFFF;
+	}
+
+	.day_camp .container .register .register-container {
+		padding: 0 25px;
+	}
+
+	.day_camp .container .register .register-container .register-form {
+		padding: 0;
+	}
+
+	.day_camp .container .campaign .block-2 .content .box .title-camp {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .campaign .block-2 .content .box .desc {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 12px;
+		text-align: center;
+
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .objectives .block-2 .content .box p {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 12px;
+		display: flex;
+		align-items: center;
+
+		color: #FFFFFF;
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .text-bold {
@@ -6958,10 +7284,24 @@ margin-top: 0;
 	.day_camp .container .offer .block-2 .block-mobile .content .right {
 		width: 60%;
     padding: 20px 10px;
+		justify-content: flex-start;
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
 		position: relative;
+		font-size: 32px;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .text-thin {
+		font-size: 32px;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .left .text-thin {
+		font-size: 20px;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .left .text-bold {
+		font-size: 20px;
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::after {
