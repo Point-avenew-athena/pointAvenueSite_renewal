@@ -6928,6 +6928,10 @@ margin-top: 0;
 		padding-bottom: 30px;
 	}
 
+	.day_camp .container .block-2 .myTestimonial .swiper-slide img {
+		height: 120px;
+	}
+
 	.day_camp .container .campaign .block-description p {
 		font-family: 'Barlow Condensed Thin';
     font-style: normal;
