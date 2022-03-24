@@ -105,6 +105,9 @@ $(function(){
 				nextEl: '.swiper-button-next-mentor',
 				prevEl: '.swiper-button-prev-mentor',
 			},
+			pagination: {
+				el: ".swiper-pagination",
+			},
 			breakpoints: {
 				480: {
 					// 화면의 넓이가 480px 이하일 때
@@ -130,8 +133,11 @@ $(function(){
 		var testimonial_swiper = new Swiper('.myTestimonial', {
 			slidesPerView: 1,
 			navigation: {
-				nextEl: '.swiper-button-next-mentor',
-				prevEl: '.swiper-button-prev-mentor',
+				nextEl: '.swiper-button-next-test',
+				prevEl: '.swiper-button-prev-test',
+			},
+			pagination: {
+				el: ".swiper-pagination",
 			},
 			breakpoints: {
 				480: {
