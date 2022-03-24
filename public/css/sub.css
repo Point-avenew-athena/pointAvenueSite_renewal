@@ -2085,6 +2085,12 @@ margin-top: 0;
 	margin-top: 16px;
 }
 
+.day_camp .container .campaign .block-2 .content .box .title-camp::selection,
+.day_camp .container .banner_block .label_banner .camp .label::selection {
+	-webkit-text-fill-color: #fff;
+  color: #fff;
+}
+
 .day_camp .container .campaign .block-2 .content .box .desc {
 	font-family: 'Barlow Condensed Thin';
     font-style: normal;
