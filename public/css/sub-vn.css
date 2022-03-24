@@ -364,7 +364,7 @@
 .boarding_camp .container .banner_block .label_banner {
 	position: absolute;
 	color: white;
-	width: 45%;
+	width: 80%;
 	top: 5rem;
 	right: 5rem;
 	display: flex;
@@ -418,7 +418,7 @@
 	line-height: 19px;
 	text-align: right;
 	margin-top: 1rem;
-	width: 80%;
+	width: 70%;
 	font-family: 'Barlow Condensed' !important;
 }
 .boarding_camp .container .banner_block .label_banner .camp {
@@ -3599,7 +3599,7 @@ margin-top: 0;
 		font-family: 'Barlow Condensed' !important;
 		font-style: normal;
 		font-weight: 400;
-		font-size: 8px;
+		font-size: 6px;
 		text-transform: uppercase;
 		color: #FFFFFF;
 	}
@@ -3611,7 +3611,7 @@ margin-top: 0;
 		font-family: 'Barlow Condensed' !important;
 		font-style: normal;
 		font-weight: 700;
-		font-size: 8px;
+		font-size: 6px;
 		text-transform: uppercase;
 		color: #FFFFFF;
 	}
@@ -3868,6 +3868,8 @@ margin-top: 0;
 
 	.boarding_camp .container .campaign .mySwiperMobile {
 		display: block;
+		width: 100%;
+    height: 100%;
 	}
 
 	.boarding_camp .container .campaign .block-2 .mySwiper {
