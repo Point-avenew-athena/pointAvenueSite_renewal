@@ -1409,6 +1409,10 @@ margin-top: 0;
   top: 115px;
 }
 
+.day_camp .container .objectives .block-2 .obj-register {
+	margin-top: 2rem;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before{
 	top: 97px;
 }
@@ -1949,6 +1953,12 @@ margin-top: 0;
 	display: none;
 }
 
+.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
+	width: 9px;
+	height: 9px;
+	border: 1px solid #FFFFFF;
+}
+
 .day_camp .container .span {
 	font-family: 'Barlow Condensed';
 	font-style: normal;
@@ -2115,6 +2125,7 @@ margin-top: 0;
 .day_camp .container .swiper {
 	width: 100%;
 	height: 100%;
+	position: relative;
 }
 
 .day_camp .container .swiper-slide {
@@ -2244,6 +2255,7 @@ margin-top: 0;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
+	flex: 1;
 }
 
 .day_camp .container .offer .block-1 p {
@@ -3277,13 +3289,21 @@ margin-top: 0;
 .day_camp .container .block-2 .myTestimonial .swiper-slide img {
 	/* width: 400px; */
 	height: 213px;
-	width: 250px;
+  width: 180px;
 }
 
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-next::after, 
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-next::before, 
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-prev::after,
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-prev::before,
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-next, 
+.day_camp .container .box-navigation .box.swiper-button-disabled .ic-prev  {
+	background: white;
+}
 
 .day_camp .container .box-navigation .box .ic-next, 
 .day_camp .container .box-navigation .box .ic-prev {
-	background: #fff;
+	background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
     height: 1px;
     width: 100%;
     position: relative;
@@ -3292,18 +3312,18 @@ margin-top: 0;
 
 .day_camp .container .box-navigation .box .ic-next::before {
 	content: "";
-	background: #fff;
+	background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
 	position: absolute;
 	height: 0.5px;
 	width: 0.675rem;
 	left: -2px;
-	top: -4px;
+	top: -3px;
 	transform: rotate(-45deg);
 }
 
 .day_camp .container .box-navigation .box .ic-next::after {
 	content: "";
-    background: #fff;
+	background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
     position: absolute;
     height: 0.5px;
     width: 0.675rem;
@@ -3316,7 +3336,7 @@ margin-top: 0;
 
 .day_camp .container .box-navigation .box .ic-prev::before {
 	content: "";
-	background: #fff;
+	background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
 	position: absolute;
 	height: 0.5px;
 	width: 0.675rem;
@@ -3329,7 +3349,7 @@ margin-top: 0;
 
 .day_camp .container .box-navigation .box .ic-prev::after {
 	content: "";
-	background: #fff;
+	background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
 	position: absolute;
 	height: 0.5px;
 	width: 0.675rem;
@@ -6276,6 +6296,24 @@ margin-top: 0;
 }	
 @media screen and (max-width:480px) {
 
+
+	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
+		display: block;
+	}
+
+	.day_camp .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+		display: flex;
+    justify-content: center;
+		bottom: -30px;;
+	}
+
+	.day_camp .swiper-pagination-bullet-active {
+		background-color: white;
+	}
+	.day_camp .container .objectives {
+		margin-bottom: 50px;
+	}
+
 	.boarding_camp .container .offer .block-1 {
 		margin-top: 0;
 	}
@@ -6876,7 +6914,7 @@ margin-top: 0;
 		margin-top: 0;
 	}
 	.day_camp .container .main {
-		top: -16px;
+		top: -65px;
 	}
 	.day_camp .container .campaign {
 		gap: 0;
@@ -6884,6 +6922,10 @@ margin-top: 0;
 
 	.day_camp .container .block-2 {
 		padding: 0;
+	}
+
+	.day_camp .container .testimonial .block-2 {
+		padding-bottom: 30px;
 	}
 
 	.day_camp .container .campaign .block-description p {
@@ -7001,6 +7043,10 @@ margin-top: 0;
 		height: 126px;
 	}
 
+	.day_camp .container .objectives .block-2 .obj-register {
+		margin-top: 0;
+	}
+
 	.day_camp .container .objectives .block-2 .content {
 		padding: 0 25px;
 		gap: 10px;
@@ -7016,9 +7062,9 @@ margin-top: 0;
 		font-size: 14px;
 		line-height: 17px;
 		display: flex;
-		align-items: center;
+		align-items: flex-start;
 		text-align: center;
-		
+		min-height: 68px;
 		background: linear-gradient(180deg, #F9ED32 0%, #8DC63F 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -7031,7 +7077,7 @@ margin-top: 0;
 		font-weight: 400;
 		font-size: 10px;
 		line-height: 12px;
-		text-align: center;
+		text-align: left;
 
 		color: #FFFFFF;
 	}
@@ -7048,7 +7094,7 @@ margin-top: 0;
 
 	.day_camp .container .mentor .block-2 .block-description {
 		padding: 0 10px;
-		margin-top: 1rem;
+		margin-top: 4rem;
 	}
 
 	.day_camp .container .mentor .block-description span::after {
@@ -7130,6 +7176,12 @@ margin-top: 0;
 	.day_camp .container .mentor {
 		padding: 0 25px;
 		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+
+	.day_camp .container .swiper-slide .team_desc_box .info {
+		min-height: 110px;
+		justify-content: flex-start;
 	}
 
 	.day_camp .container .offer {
@@ -7229,7 +7281,7 @@ margin-top: 0;
 		font-weight: 400;
 		font-size: 10px;
 		line-height: 12px;
-		text-align: center;
+		text-align: left;
 
 		color: #FFFFFF;
 	}
