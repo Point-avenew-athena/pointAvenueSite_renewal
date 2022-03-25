@@ -7014,7 +7014,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .banner_block {
-		height: 480px;
+		height: 440px;
 	}
 
 	.day_camp .container .button-hover {
@@ -7029,7 +7029,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .read-more span {
-		font-size: 10px;
+		font-size: 16px;
 	}
 
 	.day_camp .container .banner_block .label_banner .camp .label {
@@ -7630,8 +7630,8 @@ margin-top: 0;
 		font-family: 'Barlow Condensed';
 		font-style: normal;
 		font-weight: 700;
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 16px;
+    line-height: 19px;
 		text-align: right;
 		color: #FFFFFF;
 	}
