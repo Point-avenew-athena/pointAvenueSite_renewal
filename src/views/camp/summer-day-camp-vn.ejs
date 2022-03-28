@@ -6,6 +6,9 @@
 
 <%- include("../partials/common_styles_vn") %>
 <%- include("../partials/common_scripts") %>
+<script>
+  const teamMembers = <%- JSON.stringify(teamMembers) %>;
+</script>
 <script language="JavaScript" type="text/javascript" src="/js/sub/camp/summer-day-camp.js"></script>
 <%- include("../partials/head_end") %>
 <%- include("../partials/body_start") %>
@@ -13,281 +16,352 @@
   <%- include("../partials/gnb-vn") %>
 	<!-- container :: start -->
 	<div class="container">
-		<section class="visual_wrap">
-			<div class="section_inner">
-				<div class="text_box">
-					<h2 class="title_r_01">TRẠI HÈ BÁN TRÚ</h2>
+		<section class="banner_block">
+			<video
+				autoPlay={true}
+				playsInline={true}
+				loop={true}
+				id="myVideo"
+				muted={true}
+			>
+				<source
+					src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/netflix/video/2022+Day+Camp.mp4"
+					type="video/mp4"
+				/>
+			</video>
+			<div class="shadow-top"></div>
+			<div class="shadow-bottom"></div>
+			<!-- <img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg_summer_camp.png"> -->
+			<div
+				class="absolute text-white w-1/3 label_banner"
+			>
+				<p class="title">TRẠI HÈ BÁN TRÚ </p>
+				<div class="camp">
+					<span class="label">QUỐC TẾ 2022</span>
 				</div>
+				<a href="#campaign">
+					<p class="read-more">
+						<span>ĐỌC </span>
+						<span class="button-hover">THÊM</span>
+					</p>
+				</a>
 			</div>
+			<div class="menu">
+				<div class="menu-item">Point Avenue</div>
+				<a href="#campaign">
+					<div class="menu-item">Chương trình</div>
+				</a>
+				<a href="#mentor">
+					<div class="menu-item">Cố vấn</div>
+				</a>
+				<a href="#offer">
+					<div class="menu-item">Ưu đãi</div>
+				</a>
+			</div>
+			
 		</section>
-		<section class="camp_info_wrap">
-			<div class="section_inner">
-				<div class="grid_type_wrap_03">
-					<div class="text_article">
-						<ul>
-							<li class="on">
-								<p class="title_r_02 section_title">Trại Hè bán trú 2021</p>
-								<div class="text">
-									Là chương trình mùa hè được thiết kế riêng cho các em trong độ tuổi từ 5 - 10, Trại hè tiếng Anh 2021 với chủ đề “Cuộc phiêu lưu của những Công dân Toàn cầu tương lai” hứa hẹn sẽ mang đến cho các em một mùa hè sôi động và khác biệt. Với hướng tiếp cận "phát triển toàn diện", các chương trình học tại Point Avenue sẽ mang tới cho các em cơ hội trải nghiệm:
-								</div>
-								<div class="text">
-									Môi trường học tập quốc tế an toàn cùng các cố vấn/ giáo viên nước ngoài tận tâm
-								</div>
-								<div class="text">
-									Vận động với các hoạt động thể chất rèn luyện sức khỏe theo tinh thần West Point
-								</div>
-								<div class="text">
-									Phát triển kỹ năng cảm xúc và xã hội & nhân cách
-								</div>
-								<div class="text">
-									Rèn luyện tiếng Anh và kỹ năng học thuật
-								</div>
-							</li>
-							<li>
-								<p class="title_r_02">Chương trình Trại hè nội trú</p>
-								<div class="text">
-									Công dân toàn cầu tương lai sẽ được chuẩn bị những gì?
-								</div>
-								<div class="text">
-									KIẾN THỨC HỌC THUẬT
-								</div>
-								<div class="text">
-									KỸ NĂNG XÃ HỘI
-								</div>
-								<div class="text">
-									TRÍ TUỆ CẢM XÚC
-								</div>
-								<div class="text">
-									ĐẠO ĐỨC
-								</div>
-								<div class="text">
-									THỂ LỰC
-								</div>
-							</li>
-							<li>
-								<p class="title_r_02">Chương trình Trại hè Tranh biện chuyên sâu</p>
-								<div class="text">
-									Trại hè Tranh biện Chuyên sâu của Point Avenue sẽ giúp học sinh tận dụng tranh biện như một công cụ để phát triển năng lực về tư duy phản biện, giao tiếp hiệu quả, làm việc nhóm và sáng tạo ra giải pháp trong thế giới đang đổi mới mỗi ngày. Được thiết kế phù hợp với học sinh ở các trình độ và kinh nghiệm tranh biện khác nhau, Trại hè Tranh biện Chuyên sâu tạo cơ hội để học sinh khám phá các chủ đề gây tranh cãi thông qua nghiên cứu, phân tích, thảo luận và các giải đấu tranh biện.
-								</div>
-							</li>
-							<li>
-								<p class="title_r_02">Chương trình Trại hè luyện thi quốc tế</p>
-								<div class="text">
-									Test Prep Intensive Camp được thiết kế cho những học sinh có nhu cầu nâng cao điểm số SSAT, SAT I, IELTS & TOEFL trong môi trường học tập vui vẻ, thoải mái.
-								</div>
-								<div class="text">
-									Trại hè kéo dài 15 ngày, mỗi ngày học viên sẽ tham gia 4,5 giờ trang bị kiến thức & kỹ năng toàn diện do chuyên gia luyện thi giàu kinh nghiệm hướng dẫn, 2,5 giờ thực hành kỹ năng mỗi ngày và một buổi thi thử vào thứ Bảy hàng tuần.
-								</div>
-								<div class="text">
-									Chương trình luyện thi chuyên sâu này giúp học viên làm quen với áp lực phòng thi, sẵn sàng tâm lý cũng như hiểu rõ ưu khuyết điểm của bản thân để bứt phá trong kỳ thi thật.
-								</div>
-							</li>
-						</ul>
+		<div class="main">
+			<section class="campaign" id="campaign">
+				<div class="block-1">
+					<p>
+						CHƯƠNG TRÌNH <span>TRẠI HÈ</span>
+					</p>
+				</div>
+				<div class="block-2">
+					<div class="content">
+						<div class="box">
+							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/about-day-camp-3.png">
+							<p class="title-camp">Trại hè tiếng Anh "The Future You"</p>
+							<p class="desc" style="margin-bottom: 10px;">Dành cho học sinh từ 5-10 tuổi</p>
+							<p class="desc">
+								Trại hè tiếng Anh "Future You" mang đến không gian học tập giàu trải nghiệm giúp các em hình thành sự tự tin, trau dồi tư duy và óc sáng tạo để trở thành phiên bản tốt nhất của chính mình. Trại hè được thiết kế bởi đội ngũ chuyên gia giáo dục quốc tế giàu kinh nghiệm, tập trung vào 3 trụ cột Kiến thức, Khám phá & Vận động với đa dạng các hoạt động, dự án học tập giàu tính tương tác.</p>
+						</div>
+						<div class="box">
+							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/about-day-camp-2.png">
+							<p class="title-camp">Trại hè Tranh biện Chuyên sâu</p>
+							<p class="desc" style="margin-bottom: 10px;">Dành cho học sinh từ 9-14 tuổi</p>
+							<p class="desc">
+								Hè này, hãy dành thời gian rèn luyện kỹ năng tranh biện với sự dẫn dắt bởi Huấn luyện viên trưởng đội tuyển Việt Nam tham dự giải Vô địch Tranh biện Thế giới các trường phổ thông (WSDC). Lựa chọn 2 tuần hoặc 3 tuần thử thách giúp các em sử dụng tranh biện như công cụ để rèn luyện tư duy phản biện, giao tiếp hiệu quả, làm việc nhóm và đưa ra các giải pháp sáng tạo trong một thế giới luôn không ngừng thay đổi.
+							</p>
+						</div>
+						<div class="box">
+							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/about-day-camp-1.png">
+							<p class="title-camp"> Trại hè Luyện thi Chuyên sâu</p>
+							<p class="desc" style="margin-bottom: 10px;">Dành cho học sinh từ 13-18 tuổi</p>
+							<p class="desc">
+								Trại hè Luyện thi Chuyên sâu được thiết kế bởi các chuyên gia trình độ quốc tế và giàu kinh nghiệm trong giảng dạy SAT, IELTS, TOEFL, và Cố vấn cá nhân (Tutoring). Với chiến lược ôn tập và luyện thi hiệu quả, tính đến nay Point Avenue đã có hơn 200 học sinh đạt điểm SAT 1560+ (top 1% trên toàn thế giới), 47% học sinh đạt 1500 điểm và giành được hơn 20 triệu đô la Mỹ học bổng vào các trường đại học hàng đầu.</p>
+						</div>
 					</div>
-					<div class="video_article">
-						<div class="article_box">
-							<div class="video_box">
-								<iframe src="https://www.youtube.com/embed/B9Sks8Ic7yY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+			<section class="objectives" id="objectives">
+				<div class="block-1">
+					<p>
+						MỤC TIÊU <span>HỌC TẬP</span>
+					</p>
+				</div>
+				<div class="block-2">
+					<div class="content">
+						<div class="box">
+							<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_leadership.png" alt="" class="icon-pc">
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Nâng cao vốn từ vựng thông qua các tiết học Đọc (Reading Adventure) và Viết (Writing Project)</p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Trau dồi kiến thức về thế giới và bản thân với các tiết học "Nature Warriors" và "Journalism"</p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Cải thiện sức khoẻ và sức bền với các hoạt động rèn luyện thể chất </p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Kết nối và trau dồi các kỹ năng mềm với "field trip" thực tế cuối khoá </p>
+							</div>
+						</div>
+						<div class="box">
+							<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_physical.png" alt="" class="icon-pc">
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Khoá học "Debate for Change": Phân tích, thảo luận, tranh biện và đề xuất các giải pháp nhằm đạt được các mục tiêu. Phát triển bền vững (SDGs) </p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Khoá học Tranh biện cơ bản dành cho học sinh Trung học - "MSHS Debate Beginner": Cung cấp các kiến thức và kỹ năng cần thiết để học sinh có thể bắt đầu tham gia tranh biện cạnh tranh theo luật Parliamentary </p>
+							</div>
+						</div>
+						<div class="box">
+							<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_academic.png" alt="" class="icon-pc">
+							<div class="desc">
+								<div class="dot"></div>
+								<p>Nắm vững các chiến thuật tiếp cận từng dạng câu hỏi cụ thể trong bài thi </p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>SAT: 9 Dạng câu hỏi Kỹ năng Đọc, 12 Dạng câu hỏi Kỹ năng Viết, và 12 Dạng câu hỏi Toán </br>
+									TOEFL: 9 Dạng câu hỏi Kỹ năng Đọc, 6 Dạng câu hỏi Kỹ năng Nghe, cấu trúc câu trả lời cho câu hỏi Kỹ năng Nói & Viết </p>
+							</div>
+							<div class="desc">
+								<div class="dot"></div>
+								<p>IELTS: Luyện tập chuyên sâu 4 kỹ năng Nghe - Nói - Đọc - Viết </p>
 							</div>
 						</div>
 					</div>
+					<a href="#register" class="obj-register">
+						<p class="read-more">
+							<span>ĐĂNG KÝ </span>
+							<span class="button-hover">NGAY</span>
+						</p>
+					</a>
 				</div>
-			</div>
-		</section>
-		
-		<section class="info_input_wrap">
-			<div class="section_inner">
-				<div class="typeform-widget" data-url="https://form.typeform.com/to/HOd4YY0z?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-			</div>
-		</section>
-		
-		<section class="future_wrap">
-			<div class="section_inner">
-				<h3 class="title_r_02 section_title">Become a Future Global Citizen</h3>
-				<div class="grid_type_wrap_02">
-					<div class="text_article">
-						<ul class="ul_type_03 blue">
-							<li>A new standard in summer education with a dedication to excellence, focusing on 3 pillars: Academic, Physical and Character Development.</li>
-							<li>Innovative, challenging, and enriching programs that span from English skills, Debate, Life Coaching, and Test Preparation designed to motivate, engage your child, and prepared for long-term success.</li>
-							<li>Taught by experienced and internationally qualified mentors.</li>
-							<li>A mentorship philosophy and a multicultural environment that empowers young students to mature into disciplined, independent, and responsible people.</li>
-							<li>Small class size (max 8 students for elementary class), with a fun, engaging, and creative environment. Students will have many opportunities for one-on-one mentorship.</li>
-						</ul>
-					</div>
-					<div class="img_article">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper">
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/9-1.jpg" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/chị-chu-4.png" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/3-1.jpg" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/12-1.jpg" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/6-1.jpg" alt="">
-									</div>
-								</li>
-								<li class="swiper-slide">
-									<div class="img_box">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/15-1.jpg" alt="">
-									</div>
-								</li>
-							</ul>
-							<div class="swiper-pagination"></div>
+			</section>
+			<section class="testimonial" id="testimonial">
+				<div class="block-1">
+					<p>
+						Testimonials
+					</p>
+					<div class="box-navigation">
+						<div
+							class="box swiper-button-prev-test"
+						>
+							<div class="ic-next"></div>
+						</div>
+						<div
+							class="box swiper-button-next-test"
+						>
+							<div class="ic-prev"></div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		<section class="schedule_wrap">
-			<div class="section_inner">
-				<h3 class="title_r_02 section_title">Camp Schedule</h3>
-				<div class="img_box">
-					<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/schedule-01-4.png" alt="">
-				</div>
-			</div>
-		</section>
-		
-		<section class="meet_team_wrap">
-			<div class="section_inner">
-				<h3 class="title_r_02 section_title">Meet The Team</h3>
-				<div class="grid_type_wrap_01">
-					<div class="video_article swiper-container">
-						<ul class="swiper-wrapper">
-							<li class="swiper-slide">
-								<div class="video_box">
-									<iframe src="https://www.youtube.com/embed/MUHJhYFWTOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="block-2">
+					<div class="swiper myTestimonial">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/Mrs.+Miog+Kim+-+JiHoo+_+Donghoo%E2%80%99s+Mom.jpg">
+								<div class="desc">
+									<p class="mom">Chị Miog Kim</br>
+										Phụ huynh 2 bé JiHoo & DongHoo</p>
+									<p class="talk">Tôi rất ấn tượng trước cách mà các thầy cô xây dựng nhiều hoạt động thú vị để các con hứng khởi với việc học. Các thầy cô tại Point Avenue luôn tận tâm, nhiệt tình và coi các con như những người thân trong gia đình vậy. Tôi cũng rất vui mừng khi thấy Ji Hoo và Dong Hoo đã trở nên tự tin hơn rất nhiều và không còn nhút nhát nữa!</p>
 								</div>
-							</li>
-							<li class="swiper-slide">
-								<div class="video_box">
-									<iframe src="https://www.youtube.com/embed/jfjnQynSV0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/Mrs.+Dinh+-+B%C3%ACnh+Nguy%C3%AAn%E2%80%99s+Mom.jpg">
+								<div class="desc">
+									<p class="mom">Chị Định</br>
+										Phụ huynh bé Bình Nguyên</p>
+									<p class="talk">Điều khiến Point Avenue trở nên khác biệt với các công ty giáo dục khác là sự chú trọng vào việc xây dựng nhân cách bên cạnh kiến thức học thuật. Point Avenue thúc đẩy học sinh phấn đấu để trở nên vững vàng và độc lập, luôn nỗ lực hết mình và không bao giờ lùi bước</p>
 								</div>
-							</li>
-						</ul>
+							</div>
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/Mrs.+Hoa+-+Mother+of+Nhat+Minh.png">
+								<div class="desc">
+									<p class="mom">Chị Hoa </br>
+										Phụ huynh của học sinh Nhật Minh</p>
+									<p class="talk">“Tại Point Avenue luôn có sự trao đổi thường xuyên giữa giáo viên và phụ huynh. Đặc biệt có tổ chức họp giữa kỳ với từng phụ huynh để trao đổi về tình hình học tập cũng như những điểm yếu cần khắc phục của con. Nhật Minh hào hứng tham gia các buổi học, và nói được dài hơn trong các bài nói của con. Cả Cô Hyewon và Thầy Travis dạy con trong khoá học vừa rồi con đều rất thích.”</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/_Nguyen+Thao+Trang.jpg">
+								<div class="desc">
+									<p class="mom">Nguyễn Thảo Trang </br>
+										Học sinh chương trình Debate </p>
+									<p class="talk">Debate đã đem lại cho mình rất nhiều thay đổi tích cực. Mình được rèn luyện khả năng tư duy phản biện và phân tích, và điều quan trọng nhất đó là mình học được cách lắng nghe và thấu hiểu. Với nhiều người, debate là để thi đấu, nhưng với mình debate thực sự là một kĩ năng sống.Lớp học Debate tại Point Avenue rất đặc biệt. Cô Hyewon rất khác với những thầy cô debate mình từng gặp - cô luôn động viên và rất thương học sinh. Những buổi đầu đến lớp, mình đã rất rụt rè và tự ti. Nhưng với sự dẫn dắt của cô, mình đã tự tin hơn để chia sẻ và hòa đồng với các bạn cùng lớp.Các thầy cô giáo tại Point Avenue luôn hết mình vì học sinh, và chính thầy cô là tấm gương để mình phấn đấu thành một người tốt hơn.</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/PLOY+.jpg">
+								<div class="desc">
+									<p class="mom">PLOY </br>
+										Học viên Point Avenue Thái Lan - 1560 SAT</p>
+									<p class="talk">Các thầy cô tại Point Avenue đã thiết kế chương trình học cực kỳ phù hợp, giúp em nhanh chóng làm quen và cải thiện kỹ năng của mình trong bài thi SAT. Nhờ đó, em mới đạt được số điểm 1560 trong kỳ thi vừa qua. Trong suốt khóa học, em có được một lượng kiến thức khổng lồ và tự tin hơn trong khi tham gia các kỳ thi khác.</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/Thai+Ha+Phuong.jpg">
+								<div class="desc">
+									<p class="mom">Thái Hà Phương </br>
+										IELTS 8.0 (Nghe: 8.5, Đọc: 9.0, Viết: 7.0, Nói: 7.0)</p>
+									<p class="talk">Mặc dù chỉ học 4 buổi IELTS Cram tại Point Avenue nhưng em đã nhận được sự giúp đỡ và động viên to lớn từ các thầy cô. Tuy mỗi buổi chỉ có 2.5 tiếng nhưng thầy cô luôn sẵn sàng kèm thêm và chữa bài rất tỉ mỉ cho em, nhất là kỹ năng Viết. Lớp học ít học sinh nên thầy cô có thể quan tâm và nhận xét chi tiết về điểm mạnh, điểm yếu và cách khắc phục cho từng bạn.</p>
+								</div>
+							</div>
+						</div>
 						<div class="swiper-pagination"></div>
-					</div>	
-					<div class="text_article">
-						<ul class="ul_type_03 blue">
-							<li>Graduates of West Point, Harvard, Cambridge, Johns Hopkins, UPenn, Northwestern, UC Berkeley, UCLA, and more</li>
-							<li>Held strategic positions in Fortune 500 companies</li>
-							<li>Head of Research and Development and Teacher Training with a Ph.D. in Education</li>
-							<li>25 years of experience operating boarding and day summer camps</li>
-							<li>Debate training developed by the Head Coach of World Schools Debating Championships (WSDC) Vietnam National Team</li>
-							<li>50+ years of total test prep experience for SAT, SSAT, IELTS, and TOEFL</li>
-						</ul>
 					</div>
 				</div>
-			</div>
-		</section>
-		
-		<section class="testimonials_wrap">
-			<div class="section_inner">
-				<h3 class="title_r_02 section_title">Testimonials</h3>
-				<div class="swipe_type_01_wrap results_swiper_01">
-					<div class="swiper-container">
-						<ul class="swiper-wrapper swipe_type_02 team_list">
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-1.jpg" alt="">
+			</section>
+			<section class="mentor" id="mentor">
+				<div class="block-1">
+					<p>
+						ĐỘI NGŨ <span>CỐ VẤN</span>
+					</p>
+					<div class="box-navigation">
+						<div
+							class="box swiper-button-prev-mentor"
+						>
+							<div class="ic-next"></div>
+						</div>
+						<div
+							class="box swiper-button-next-mentor"
+						>
+							<div class="ic-prev"></div>
+						</div>
+					</div>
+				</div>
+				<div class="block-2">
+					<div class="swiper mySwiperMentors">
+						<div class="swiper-wrapper">
+							<% for ( let i = 0; i < teamMembers.length; i++) { %>
+								<div class="swiper-slide">
+									<div class="swipe_type_01--img team_img">
+										<div class="img_box">
+											<img src="<%= teamMembers[i].img %>" alt="<%= teamMembers[i].img %>">
+										</div>
 									</div>
-								</a>
-							</li>
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-2.jpg" alt="">
+									<div class="swipe_type_01--desc team_desc_box">
+										<div class="bg"></div>
+										<div class="info">
+											<p class="name"><%= teamMembers[i].name %></p>
+											<div class="position"><%= teamMembers[i].position %></div>
+											<div class="ex"><%= teamMembers[i].desc %></div>
+										</div>
 									</div>
-								</a>
-							</li>
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-3.jpg" alt="">
-									</div>
-								</a>
-							</li>
-							
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-4.jpg" alt="">
-									</div>
-								</a>
-							</li>
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-5.jpg" alt="">
-									</div>
-								</a>
-							</li>
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-6.jpg" alt="">
-									</div>
-								</a>
-							</li>
-							<li class="swiper-slide swipe_type_02--item team_item">
-								<a href="javascript:void(0);">
-									<div class="swipe_type_02--img team_img">
-										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-7.jpg" alt="">
-									</div>
-								</a>
-							</li>
-						</ul>
+								</div>
+							<% } %>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+					<div class="block-description">
+						<span>
+							Tốt nghiệp các trường Đại học danh tiếng như West Point, Harvard, Cambridge, Johns Hopkins, UPenn, Northwestern, UC Berkeley, UCLA,...
+						</span>
+						<span>
+							Từng giữ vai trò chiến lược trong nhiều công ty lớn và tập đoàn Fortune 500
+						</span>
+						<span>
+							25 năm kinh nghiệm tổ chức trại hè nội trú & bán trú.
+						</span>
+						<span>
+							Chương trình tranh biện do Huấn luyện viên trưởng của Đội tuyển quốc gia Việt Nam tham dự Giải Tranh biện Vô địch Thế giới bậc Trung học (WSDC) thiết kế.
+						</span>
+					</div>
+				</div>
+			</section>
+			<section class="offer" id="offer">
+				<div class="block-1">
+					<p class="title"><span>ƯU ĐÃI</span></p>
+				</div>
+				<div class="block-2">
+					<div class="block-pc">
+						<div class="box-text">
+							<p class="title">ƯU ĐÃI ĐẶC BIỆT</p>
+							<span class="amount">12,000,000</span>
+						</div>
+						<div class="bg">
+							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/offer.png">
+							<div class="box-content">
+								<div class="box-1">
+									<p class="text-offer text-thin">QUÀ TẶNG ĐẶC BIỆT VÀ ƯU ĐÃI</p>
+									<p class="text-offer text-bold">10%</p>
+									<p class="text-offer text-thin">TRƯỚC:</p>
+									<p class="text-offer text-bold">30/04/2022</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="block-mobile">
+						<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/offer-mobile.jpg">
+						<div class="content">
+							<div class="left">
+								<p class="text-offer text-thin">QUÀ TẶNG ĐẶC BIỆT VÀ ƯU ĐÃI</p>
+									<p class="text-offer text-bold">10%</p>
+									<p class="text-offer text-thin">TRƯỚC:</p>
+									<p class="text-offer text-bold">30/04/2022</p>
+							</div>
+							<div class="right">
+								<p class="text-thin">ƯU ĐÃI ĐẶC BIỆT</p>
+								<span class="text-bold amount">12,000,000</span>
+							</div>
+						</div>
+						<div class="background"></div>
+					</div>
+				</div>
+			</section>
+			<section class="register" id="register">
 
-						<!-- If we need navigation buttons -->
-						<div class="swiper-button-prev black"></div>
-						<div class="swiper-button-next black"></div>
-						
-					</div>
+			<div class="register-logo">
+				<div class="logo-title">
+					<p class="title">ĐĂNG KÝ 
+					</p>
+					<span>
+						NGAY	
+					</span>
 				</div>
-			</div>
-		</section>
+				<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/register.png">
+			</div>		
+			<div class="register-container">
+				<form id="register-form" class="register-form" method="POST" action="/camp/summer-day-camp">
+					<input class="form-control" placeholder="Họ*" id="firstName" name="firstName" required>
+					<input class="form-control" placeholder="Tên*"  id="lastName" name="lastName" required>
+					<input class="form-control" placeholder="Email*"  id="email" name="email" required type="email">
+					<input class="form-control" placeholder="Số điện thoại*"  id="phoneNumber" name="phoneNumber">
+					<input class="form-control" placeholder="Tên học sinh"  id="childName" name="childName">
+					<input class="form-control" placeholder="Trường/ Lớp*"  id="grade" name="grade" required>
+					<button class="read-more" type="submit" onclick="submitForm()">
+						<span>ĐĂNG</span>
+						<span class="button-hover">KÝ</span>
+					</button>
+				</form>
+			<div>			
+			</section>
+		</div>
+
 		
-		<section class="offers_wrap">
-			<div class="section_inner">
-				<h3 class="title_r_02 section_title">Our Offers</h3>
-				<div class="brochure_box">
-					<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/day/discount-01-1.png" alt="">
-				</div>
-				<div class="text_box">
-					<h3 class="title_r_02">Join Our 2021 Summer Day Camp!</h3>
-					<a href="https://pointavenue1.typeform.com/to/HOd4YY0z" target="_blank" class="btn_type_01--sec blue">
-						<span class="btn_inner">Register</span>
-					</a>
-				</div>
-			</div>
-		</section>
+		<%- include("../partials/common_popup") %>
+
 	</div>
 	<!--container :: end-->
-	<div class="layer_popup testimonials_popup">
-		<div class="popup_cont">
-			<div class="img_box">
-				<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/testimonial.png" alt="">
-			</div>
-		</div>
-		<a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
-	</div>
     <%- include("../partials/footer-vn") %>
 		<%- include("../partials/common_popup") %>
 </div>
