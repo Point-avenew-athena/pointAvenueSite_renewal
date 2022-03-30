@@ -424,6 +424,13 @@
 .boarding_camp .container .banner_block .label_banner .camp {
 	text-align: right;
 	margin: 2rem 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.boarding_camp .container .banner_block .label_banner .camp img {
+	width: 130px;
 }
 
 .boarding_camp .container .banner_block .label_banner .camp .label {
@@ -4327,9 +4334,16 @@ margin-top: 0;
 		display: flex;
 		align-items: center;
 		width: 100%;
+		top: 10%;
 	}
+
 	.boarding_camp .container .banner_block .label_banner .camp {
 		margin: 0;
+		margin-top: 1rem;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp img {
+		width: 100px;
 	}
 
 	.boarding_camp .container .block-2 .block-description {
@@ -6044,7 +6058,7 @@ margin-top: 0;
 		margin-top: 0;
 	}
 	.boarding_camp .container .main {
-		top: -16px;
+		top: 60px;
 	}
 	.boarding_camp .container .campaign {
 		gap: 0;
@@ -6078,7 +6092,8 @@ margin-top: 0;
     align-items: center;
 	}
 	.boarding_camp .container .banner_block .label_banner .camp {
-		margin: 0;
+		width: 100%;
+    	margin: 1rem 0;
 	}
 
 	.boarding_camp .container .block-2 .block-description {
@@ -6154,11 +6169,16 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .camp .label {
 		font-family: 'Barlow Condensed' !important;
-    font-style: normal;
-    font-weight: 250;
-    font-size: 67px;
-    line-height: 96%;
-    text-align: right;
+		font-style: normal;
+		font-weight: 250;
+		font-size: 67px;
+		line-height: 96%;
+		text-align: right;
+		padding: 0;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp img {
+		width: 85px;
 	}
 
 	.boarding_camp .container .campaign .block-1 p {
