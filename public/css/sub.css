@@ -455,6 +455,13 @@
 .boarding_camp .container .banner_block .label_banner .camp {
 	text-align: right;
 	margin: 2rem 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.boarding_camp .container .banner_block .label_banner .camp img{
+	width: 150px;
 }
 
 .boarding_camp .container .banner_block .label_banner .camp .label {
@@ -4621,7 +4628,11 @@ margin-top: 0;
 		width: 100%;
 	}
 	.boarding_camp .container .banner_block .label_banner .camp {
-		margin: 0;
+		margin-top: 0.5rem;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp img{
+		width: 100px;
 	}
 
 	.boarding_camp .container .block-2 .block-description {
@@ -6324,7 +6335,7 @@ margin-top: 0;
 		margin-top: 0;
 	}
 	.boarding_camp .container .main {
-		top: -16px;
+		top: 30px;
 	}
 	.boarding_camp .container .campaign {
 		gap: 0;
@@ -6429,11 +6440,16 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .camp .label {
 		font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 250;
-    font-size: 67px;
-    line-height: 96%;
-    text-align: right;
+		font-style: normal;
+		font-weight: 250;
+		font-size: 67px;
+		line-height: 96%;
+		text-align: right;
+		padding: 0;
+	}
+
+	.boarding_camp .container .banner_block .label_banner .camp img {
+		width: 85px;
 	}
 
 	.boarding_camp .container .campaign .block-1 p {
