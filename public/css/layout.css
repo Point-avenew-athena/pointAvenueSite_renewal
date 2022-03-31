@@ -1,6 +1,6 @@
 
 /*=========common Layout=========*/
-.wrap {min-width: 320px;}
+.wrap {min-width: 320px; position: relative;}
 .vn{font-family: 'Oswald', sans-serif !important;}
 
 /*======================== text layout ==============================*/
@@ -376,7 +376,7 @@
 .flie_down_wrap li a .file_size {font-size: 16px;}
 
 /*==================== 팝업 layout ==================*/
-.layer_popup {display: none;position: absolute; left:50%; top:200px; transform: translateX(-50%); width:1070px;  padding:10px;  z-index:999; border: 1px solid #E5E5E5; border-radius: 20px; background: #fff;box-shadow:7px 7px 10px rgb(0 0 0 / 17%);}
+.layer_popup {display: none;position: absolute; left:50%; bottom:200px; transform: translateX(-50%); width:1070px;  padding:10px;  z-index:999; border: 1px solid #E5E5E5; border-radius: 20px; background: #fff;box-shadow:7px 7px 10px rgb(0 0 0 / 17%);}
 .dim {display: none;position: fixed; left:0; top:0; width:100%; height: 100%; background:rgba(0,0,0,0.4); z-index: 900;}
 .layer_popup .popup_cont {padding:15px 70px;}
 .layer_popup .popup_cont::-webkit-scrollbar {width: 7px; margin-right: 10px; border-radius: 5px;}
@@ -519,7 +519,9 @@
 	.process_step_wrap .swiper-pagination-progressbar {display: block;}
 }
 @media screen and (max-width: 768px) and (orientation: portrait){
-	
+	.layer_popup {
+		bottom: 500px;
+	}
 	.grid_type_wrap_02 > div {float: none; width:100%; padding-right: 0;}
 	.grid_type_wrap_02 > div + div {float: none; width:100%; margin-top: 20px; padding-left: 0;}
 	
