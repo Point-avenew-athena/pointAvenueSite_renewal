@@ -6,9 +6,9 @@ $(document).ready(function () {
       // el: ".swiper-pagination",
       clickable: true,
     },
-    // autoplay: {
-    //   delay: 5000,
-    // },
+    autoplay: {
+      delay: 5000,
+    },
   });
 
   var news_swiper = new Swiper(".news_wrap .swiper-container", {
