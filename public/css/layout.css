@@ -119,6 +119,10 @@
 	position: relative;
 }
 
+.admission_consulting .articles_wrap .section_inner .box_type_01 {
+	overflow: unset;
+}
+
 .admission_consulting .articles_wrap .section_inner .video_wrap {
 	border-radius: 10px 10px 0 0;
     height: 100%;
@@ -170,7 +174,7 @@
 
 /*========================box_type=========================*/
 /*box_type_01*/
-.box_type_01 {width:100%}
+.box_type_01 {width:100%;overflow: hidden;}
 .box_type_01 .box_type_01--item{float: left; width:calc(33.33% - 10px); width:-webkit-calc(33.33% - 10px); border-radius: 10px; margin-right: 15px; transition: width 1s;}
 .box_type_01 .box_type_01--item:nth-child(3n) {margin-right: 0;}
 .box_type_01 .box_type_01--img {position: relative; padding-top: 66%; overflow: hidden; border-radius: 10px 10px 0 0;}
