@@ -175,7 +175,7 @@
 .job_description .file_box p {margin-bottom: 10px;}
  
 /*============== admission_consulting ==============*/
-.admission_consulting .visual_wrap {background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/admission-consulting_visual.png') right no-repeat; background-size: cover;}
+.admission_consulting .visual_wrap {background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/AC-new.png') right no-repeat; background-size: cover;}
 .admission_consulting .info_wrap .title_r_03 {text-align: center; margin:30px 0 25px;}
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet {background: #F2B41B; opacity: 1;}
 .admission_consulting .info_wrap .swiper-pagination-bullets .swiper-pagination-bullet-active { width:50px; border-radius: 12px; background: #F2B41B; opacity: 1;}
