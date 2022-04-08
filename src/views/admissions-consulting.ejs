@@ -476,47 +476,77 @@
 			<section class="articles_wrap" id="our-blog">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Our Blog</h3>
-					<ul class="box_type_01 courses_list">
-					<% 
-						const ARTICLE = [490, 491, 492];
-						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
-						
-						function formateDate(d){
-							const day = new Date(d),
-										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
-										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
-										date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+					<div class="swipe_type_02_wrap blog_wrap">
+						<div class="swiper-container">
+							<ul class="swiper-wrapper box_type_01 courses_list">
+							<% 
+								const ARTICLE = [490, 491, 492];
+								const featuredArticles = [...news]; 
+								
+								function formateDate(d){
+									const day = new Date(d),
+												year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+												month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+												date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
 
-							return `${date}/${month}/${year}`;
-						}
-					%>
-					<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
-						<li class="box_type_01--item courses_item">
-							<div class="video_wrap">
-								<iframe src="<%= featuredArticles[i].embedUrl%>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-							<!-- <div class="box_type_01--img courses_img">
-								<a href="/news/<%= featuredArticles[i].id %>">
-									<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
-								</a>
-							</div> -->
-							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
-									<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
-								</div>
-								<p class="title_r_03">
-									<a href="<%= featuredArticles[i].realUrl %>"><%- featuredArticles[i].title %></a>
-								</p>
-								<div class="desc_text">
-									<a href="<%= featuredArticles[i].realUrl %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
-								</div>
-								<a href="<%= featuredArticles[i].realUrl %> " class="btn_type_01--sec">
-									<span class="btn_inner">Read More</span>
-								</a>
-							</div>
-						</li>
-					<% } %> 
-					</ul>
+									return `${date}/${month}/${year}`;
+								}
+							%>
+							<% for ( let i = 0; i < featuredArticles.length; i++){ %> 	
+								<% if(featuredArticles[i].type === 'extenal'){ %>
+									<li class="box_type_01--item swipe_type_02--item courses_item swiper-slide">
+										<div class="video_wrap">
+											<iframe src="<%= featuredArticles[i].embedUrl%>" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+										<!-- <div class="box_type_01--img courses_img">
+											<a href="/news/<%= featuredArticles[i].id %>">
+												<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
+											</a>
+										</div> -->
+										<div class="box_type_01--desc courses_desc_box">
+											<div class="info">
+												<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
+											</div>
+											<p class="title_r_03">
+												<a href="<%= featuredArticles[i].realUrl %>"><%- featuredArticles[i].title %></a>
+											</p>
+											<div class="desc_text">
+												<a href="<%= featuredArticles[i].realUrl %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
+											</div>
+											<a href="<%= featuredArticles[i].realUrl %> " class="btn_type_01--sec">
+												<span class="btn_inner">Read More</span>
+											</a>
+										</div>
+									</li>
+								<% } else{ %>
+									<li class="box_type_01--item swipe_type_02--item courses_item swiper-slide">
+										<div class="box_type_01--img courses_img">
+											<a href="/news/<%= featuredArticles[i].id %>">
+												<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
+											</a>
+										</div>
+										<div class="box_type_01--desc courses_desc_box">
+											<div class="info">
+												<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
+											</div>
+											<p class="title_r_03">
+												<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
+											</p>
+											<div class="desc_text">
+												<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].thumbnail.excerpt %></a>
+											</div>
+											<a href="/news/<%= featuredArticles[i].id %> " class="btn_type_01--sec">
+												<span class="btn_inner">Read More</span>
+											</a>
+										</div>
+									</li>
+								<% } %> 
+							<% } %> 
+							</ul>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					</div>
 					<a href="/news/list/articles" class="btn_type_01 view">
 						<span class="btn_inner">View All</span>
 					</a>
