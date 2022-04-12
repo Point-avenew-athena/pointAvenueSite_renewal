@@ -155,6 +155,7 @@
 						// 3433  Newsletter On Point – Issue 5
 
 						function formateDate(d){
+							console.log(3123)
 							const day = new Date(d),
 										year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
 										month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
@@ -162,6 +163,7 @@
 
 							return `${date}/${month}/${year}`;
 						}
+						
 
 					%>
 					<ul class="box_type_01 courses_list">
@@ -197,7 +199,32 @@
 			
 			<section class="articles_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Articles</h3>
+					<div class="section_header">
+						<h3 class="title_r_02 section_title">Articles</h3>
+						<div class="filter_article_block">
+							<a href="javascript:void(0);" class="filter_article" >Filter</a>
+							<div class="filter_list_wrap">
+								<ul class="filter_list">
+									<% 
+										const categories = news.filter(item => item.type === 'Article').map(it => it.category); 
+										let categoriesUnique = [...new Set(categories)];
+									%>
+									<% for ( let i = 0; i < categoriesUnique.length; i++){ %> 	
+										<li class="filter_item">
+											<div class="checkbox_wrap">
+												<input type="checkbox" id="article_<%- [i+1] %>" name="article" value="<%- categoriesUnique[i] %>" data-option="location">
+												<label for="article_<%- [i+1] %>"><%- categoriesUnique[i] %></label>
+											</div>
+										</li>
+										<% } %> 
+								</ul>
+							</div>
+						</div>
+						
+						<a href="/news/list/articles" class="btn_type_01 view">
+							<span class="btn_inner">View All</span>
+						</a>
+					</div>
 					<ul class="box_type_01 courses_list">
 					<% 
 						const ARTICLE = [2919, 2920, 2918];
@@ -236,9 +263,7 @@
 						</li>
 					<% } %> 
 					</ul>
-					<a href="/news/list/articles" class="btn_type_01 view">
-						<span class="btn_inner">View All</span>
-					</a>
+					
 				</div>
 			</section>
 			
@@ -279,6 +304,8 @@
 			</section>
 		</div>
 		<!--container :: end-->
+<script language="JavaScript" type="text/javascript" src="/js/sub/news.js"></script>
+
     <%- include("partials/footer") %>
 		<%- include("partials/common_popup") %>
 </div>

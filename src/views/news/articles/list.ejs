@@ -30,11 +30,31 @@
 			
 			<section class="newsletter_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Articles</h3>
+          <div class="section_header" style="display: flex;justify-content: space-between;">
+            <h3 class="title_r_02 section_title">Articles</h3>
+            <div class="filter_article_block">
+							<a href="javascript:void(0);" class="filter_article" >Filter</a>
+							<div class="filter_list_wrap">
+								<ul class="filter_list">
+									<% 
+										const categories = news.filter(item => item.type === 'Article').map(it => it.category); 
+										let categoriesUnique = [...new Set(categories)];
+									%>
+									<% for ( let i = 0; i < categoriesUnique.length; i++){ %> 	
+										<li class="filter_item">
+											<div class="checkbox_wrap">
+												<input type="checkbox" id="article_<%- [i+1] %>" name="article" value="<%- categoriesUnique[i] %>" data-option="location">
+												<label for="article_<%- [i+1] %>"><%- categoriesUnique[i] %></label>
+											</div>
+										</li>
+										<% } %> 
+								</ul>
+							</div>
+						</div>
+          </div>
+					
 					<ul class="box_type_01 courses_list">
             <% 
-              const onlyArticles = articles.filter(article => article.type === "Article");
-
               function formateDate(d){
 								const day = new Date(d),
 											year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
@@ -44,26 +64,26 @@
 								return `${date}/${month}/${year}`;
 							}
             %>
-            <% for ( let i= 0; i < onlyArticles.length; i++ ) { %>
+            <% for ( let i= 0; i < articles.length; i++ ) { %>
               <li class="box_type_01--item courses_item">
                 <div class="box_type_01--img courses_img">
-                  <a href="/news/<%= onlyArticles[i].id %>">
-                    <img src="<%= onlyArticles[i].thumbnail.imageUrl %>" alt="<%= onlyArticles[i].title %>">
+                  <a href="/news/<%= articles[i].id %>">
+                    <img src="<%= articles[i].thumbnail.imageUrl %>" alt="<%= articles[i].title %>">
                   </a>
                 </div>
                 <div class="box_type_01--desc courses_desc_box">
                   <div class="info">
-										<p class="text--gray date"><%= formateDate(onlyArticles[i].date.split('T')[0]) %></p>
+										<p class="text--gray date"><%= formateDate(articles[i].date.split('T')[0]) %></p>
 									</div>
-                  <a href="/news/<%= onlyArticles[i].id %>">
-                    <p class="title_r_03"><%= onlyArticles[i].title %></p>
+                  <a href="/news/<%= articles[i].id %>">
+                    <p class="title_r_03"><%= articles[i].title %></p>
                   </a>
                   <div class="desc_text">
-                    <a href="/news/<%= onlyArticles[i].id %>">
-                      <%- onlyArticles[i].thumbnail.excerpt %>
+                    <a href="/news/<%= articles[i].id %>">
+                      <%- articles[i].thumbnail.excerpt %>
                     </a>
                   </div>
-                  <a href="/news/<%= onlyArticles[i].id %>" class="btn_type_01--sec">
+                  <a href="/news/<%= articles[i].id %>" class="btn_type_01--sec">
                     <span class="btn_inner">Read More</span>
                   </a>
                 </div>
@@ -78,5 +98,6 @@
 		<!--container :: end-->
     <%- include("../../partials/footer") %>
 		<%- include("../../partials/common_popup") %>
+    <script language="JavaScript" type="text/javascript" src="../../js/sub/news.js"></script>
 </div>
     <%- include("../../partials/body_end") %>

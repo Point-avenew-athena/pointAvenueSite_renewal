@@ -68,6 +68,15 @@ $(document).ready(function () {
       $(this).find(".sub_menu_wrap").hide();
     }
   );
+
+  $(".news .filter_article_block .block").hover(
+    function () {
+      $(this).find(".filter_list_wrap").stop().fadeIn();
+    },
+    function () {
+      $(this).find(".filter_list_wrap").hide();
+    }
+  );
   /*======== mobile :: start ==========*/
   $("header .btn_hamburger").click(function () {
     $(".mobile_nav_wrap").addClass("opened");

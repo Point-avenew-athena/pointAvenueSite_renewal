@@ -3,6 +3,7 @@
 "id": 3651,
 "type" : "Article", 		
 "title": "TOP COLLEGES DON’T WANT WELL-ROUNDED STUDENTS",
+"category": "AC",
 "thumbnail" : {		
 		"excerpt": "<p>In 2016, the New York Times published a satire piece claiming Stanford University admitted no one to the class of 2020--a jab at the increasing “elitism” and incomprehensible low acceptance rate of the institution.</p>",
 		"imageUrl" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2021/06/3-1.jpg"
@@ -13,7 +14,8 @@
 },
 {
 "id": 3650,
-"type" : "Article", 		
+"type" : "Article", 	
+"category": "AC",	
 "title": "Point Avenue is Offering 0% Financing for Classes!",
 "thumbnail" : {		
 		"excerpt": "<p>The opportunity for your children to join many exciting English programs At Point Avenue will be easier then ever. You can choose the interest-free installment payment plan provided by Lotte Finance for up to 6 months with an easy registration procedure.</p>",
@@ -25,7 +27,8 @@
 },
 {
 	"id" : 3622, 		
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AC",	
 	"title" : "Meet Dinh Trieu Lam: A tech-lover, winner of Full-ride Scholarship and his dreams of building a smart city",		
 	"thumbnail" : {		
 		"excerpt" : "<p>For his age, Lam Dinh already proves himself to be a mature and steadfast individual, with a burning passion for technology. As a student of Point Avenue, he was awarded the Presidential Scholarship (Full-Ride) worth $300,000 (Approx. 7 billion VND) from Villanova University (#53 NU) in the US, one of the most prestigious universities in [&hellip;]</p>",	
@@ -37,7 +40,8 @@
 },
 {
 	"id" : 3574, 		
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AC",	
 	"title" : "How to write a great Letter of Continued Interest & A Successful Example",		
 	"thumbnail" : {		
 		"excerpt" : "So, you’ve been waitlisted (or deferred) from a school you love. Go ahead and toss salt over your shoulder, light incense, and rub your hands together praying to get off the waitlist.  Or you could write a Letter of Continued Interest (LOCI)-your best shot at turning the tide. What is a LOCI? A LOCI (we [&hellip;]",	
@@ -51,7 +55,8 @@
 
 {
 	"id" : 3469, 		
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AC",	
 	"title" : "Was 2020-2021 the most difficult college application season yet?",		
 	"thumbnail" : {		
 		"excerpt" : "The Covid-19 pandemic has forced universities and colleges to reinvent the admissions process that hasn’t changed for many decades. Here’s what parents and students need to know about this unprecedented application year: The number of applications increased overwhelmingly at selective colleges Due to test-optional policies, applicants felt encouraged to apply to more competitive universities where [&hellip;]",	
@@ -65,7 +70,8 @@
 	
 {
 	"id" : 3419, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AC",		
 	"title" : "Admissions Waitlist: What Is It? What Do You Do Next?",		
 	"thumbnail" : {		
 		"excerpt" : "Mid-March to May is an emotionally tumultuous time for high school seniors and their parents. Emails that start with “Congratulations” slowly find their way into email inboxes, only to be dwarfed by the “Sorry we don’t have better news” notifications and offers to be placed on their waiting lists. First and foremost, we want to [&hellip;]",	
@@ -77,7 +83,8 @@
 },
 {
 	"id" : 2919, 		
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AB",	
 	"title" : "US or UK Universities: Which one is right for me?",		
 	"thumbnail" : {		
 		"excerpt" : "You’re a high school student with an eye towards the future and higher education, but the choices are seemingly endless and you’re paralyzed! The first important question you want to ask yourself is do you stay in your home country? Or will you go abroad? ",	
@@ -92,7 +99,8 @@
 
 {
 	"id" : 2918,
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AB",			
 	"title" : "Is Boarding School Right for My Child?",
 	"thumbnail" : {		
 		"excerpt" : "Ahhh the halcyon days of childhood! Days are long and summers are short, filled with scraped knees and candy dreams. I am certainly grateful for the happy childhood that my parents were able to provide me, and no doubt you parent readers are doing the same.",	
@@ -106,7 +114,8 @@
 
 {
 	"id" : 2920,
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AB",		
 	"title" : "The SAT is changing--what does that mean for me?",
 	"thumbnail" : {		
 		"excerpt" : "The SAT has long been a staple of college admissions, although colleges have been putting less weight on standardized test scores overall for a number of years now. The pandemic has only accelerated this trend as it left many students unable to take the test, and almost all schools have implemented test-optional (but not test-blind) policies. ",	
@@ -118,7 +127,8 @@
 },
 {
 	"id" : 2917, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AB",			
 	"title" : "What is 'Critical Thinking,' anyway?",		
 	"thumbnail" : {		
 		"excerpt" : "In preparation for Point Avenue's upcoming Winter Intensive, our test prep instructors thought it essential to revisit our understanding of this fundamental skill and its relationship to academic preparedness. This winter session, as part of a holistic, inquiry-based teaching methodology, our team will be reinforcing uncompromising academic focus with that of rational exploration. Our destination? [&hellip;]",	
@@ -133,7 +143,8 @@
 	
 {
 	"id" : 2624, 		
-	"type" : "Article", 		
+	"type" : "Article",
+	"category": "AB",	 		
 	"title" : "Meeting Point Avenue's Top SAT Scorers",		
 	"thumbnail" : {		
 		"excerpt" : "Over the past few days, Point Avenue has been bustling with joy when our students broke the news about their August SAT exam results. Of the 20 Point Avenue students who took part in this test, 13 students achieved a score of 1400/1600 and above. What’s more, 6 of them achieved an excellent score of [&hellip;]",	
@@ -146,7 +157,8 @@
 	
 {
 	"id" : 2557, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AB",			
 	"title" : "Understanding and Nurturing Your Child’s Creativity",		
 	"thumbnail" : {		
 		"excerpt" : "Our fast paced world requires people to constantly adapt and innovate. In 2020 alone, the world witnessed complex issues ranging from mitigating air pollution in cities to effective health responses to a global pandemic. Creativity, one of the 21st Century learning skills, is essential to nurture among children in order to better prepare them for [&hellip;]",	
@@ -160,7 +172,8 @@
 	
 {
 	"id" : 2529, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AB",			
 	"title" : "Point Avenue Updates: Kicking off Fall Term!",		
 	"thumbnail" : {		
 		"excerpt" : "Point Avenue has been working hard to welcome our students back for Fall Term. Besides implementing strict safety measures in our physical centers to combat the spread of the COVID-19 pandemic, we also make sure to have our teachers and staff ready for the new term. We are committed to creating a safe and secure [&hellip;]",	
@@ -175,7 +188,8 @@
 	
 {
 	"id" : 2394, 		
-	"type" : "Article", 		
+	"type" : "Article", 	
+	"category": "AB",		
 	"title" : "on-discipline-a-talk-with-the-founder-ceo-of-point-avenue",		
 	"thumbnail" : {		
 		"excerpt" : "Introduction: Teaching children self-discipline is a priority and concern for most parents. With COVID-19’s resurgence, and the likelihood of having to return to online learning, parents recognize the importance and urgency of instilling discipline in children with regards to their academic studies. Unable to look after their students at all hours of the day, parents [&hellip;]",	
@@ -187,7 +201,8 @@
 },
 {
 	"id" : 2379, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AD",			
 	"title" : "Latest updates on SAT from College Board",		
 	"thumbnail" : {		
 		"excerpt" : "1/ Fall 2020 SAT dates College Board is still providing weekend SAT or SAT Subject Test administrations every month through the end of the calendar year, beginning in August. Local schools and test centers will make individual decisions about whether to administer the SAT. The last day for test centers to confirm whether they will administer [&hellip;]",	
@@ -199,7 +214,8 @@
 },
 {
 	"id" : 1946, 		
-	"type" : "Article", 		
+	"type" : "Article", 
+	"category": "AD",		
 	"title" : "5 Productive Summer Activities For Your Child",		
 	"thumbnail" : {		
 		"excerpt" : "With summer approaching, parents are eagerly looking for productive and new activities their children will be excited about. Due to COVID-19, everyone has been forced to change their lifestyle and spend weeks (even months) inside their home. As a result, people have continued to endure social isolation from friends, family, and society. Social isolation can [&hellip;]",	
@@ -211,7 +227,8 @@
 },
 {
 "id": 1837,
-"type" : "Article", 		
+"type" : "Article",
+"category": "AD", 		
 "title": "4 Essential steps during COVID to prepare for College Applications!",
 "thumbnail" : {		
 		"excerpt": "<p>COVID-19 continues to irrevocably impact lives around the world. For students with their eyes set on college later this year, things feel more anxious than ever. To add to this stress, SAT has recently cancelled test dates, added new ones, and colleges and students are put in a hard spot about what the path forward [&hellip;]</p> ",
@@ -223,7 +240,8 @@
 },
 {
 	"id": 1807,
-	"type" : "Article", 
+	"type" : "Article",
+	"category": "AD",
 	"title": "The 6 Essential Skills Your Child Will Need To Thrive And Stand Out Among Their Peers",
 	"thumbnail": {
 		"excerpt": "<p>Increased technology (automation and artificial intelligence), societal issues (pollution and overpopulation), and health concerns (COVID-19 and hospital care) have made it vital for children to learn skills that will prepare them for the complex demands of the future. In fact, CEOs of Fortune 500 companies (Apple, Google, Facebook, etc.) have identified the 21st Century Skills [&hellip;]</p> ",

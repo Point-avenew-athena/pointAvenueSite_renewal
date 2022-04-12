@@ -90,8 +90,16 @@ router.get("/vn/news/:id", (req, res) => {
 
 //* articles 리스트 페이지
 router.get("/news/list/articles", (req, res) => {
-  const articles = require("../data/point-avenue/news/news.json");
-  res.render("news/articles/list", { articles });
+  console.log(req.query);
+  const news = require("../data/point-avenue/news/news.json");
+  let articles = news.filter(article => article.type === "Article");
+  if (req.query.article) {
+    console.log(req.query.article.split('%2'));
+    const queryArticle = req.query.article.split('%2')
+    articles = articles.filter(item => queryArticle.includes(item.category));
+  }
+  console.log(articles)
+  res.render("news/articles/list", { news, articles });
 });
 
 router.get("/vn/news/list/articles", (req, res) => {
