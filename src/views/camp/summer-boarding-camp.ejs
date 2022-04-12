@@ -19,7 +19,7 @@
   <!-- container :: start -->
 		<div class="container">
 			<section class="banner_block">
-				<video
+				<!-- <video
 					autoPlay={true}
 					playsInline={true}
 					loop={true}
@@ -30,7 +30,10 @@
 						src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/netflix/video/CampYenTu.mp4"
 						type="video/mp4"
 					/>
-				</video>
+				</video> -->
+				<div style="padding:56.25% 0 0 0;position:relative;">
+					<iframe src="https://player.vimeo.com/video/698461113?h=19c5628cee&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=true&amp;autoplay=true&amp;background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CampYenTu.mp4"></iframe>
+				</div>
 				<div class="shadow-top"></div>
 				<div class="shadow-bottom"></div>
 				<!-- <img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg_summer_camp.png"> -->
@@ -526,6 +529,7 @@
 			<%- include("../partials/common_popup") %>
 
 		</div>
+		<script src="https://player.vimeo.com/api/player.js"></script>
     <%- include("../partials/footer") %>
 </div>
     <%- include("../partials/body_end") %>
