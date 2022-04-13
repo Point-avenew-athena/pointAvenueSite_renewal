@@ -23,7 +23,7 @@
 				</div>
 			</section>
 			<% 
-				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category); 
+				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category).filter(f => f !== 'Others'); 
 				let categoriesUnique = [...new Set(categories)];
 			%>
 			<section class="newsletter_wrap">
@@ -41,7 +41,13 @@
 												<label for="article_<%- [i+1] %>"><%- categoriesUnique[i] %></label>
 											</div>
 										</li>
-										<% } %> 
+										<% } %>
+                    <li class="filter_item">
+											<div class="checkbox_wrap">
+												<input type="checkbox" onchange="changeValue(this)" id="article_12" name="article" value="Others" data-option="location">
+												<label for="article_12">Others</label>
+											</div>
+										</li>
 								</ul>
 							</div>
 						</div>

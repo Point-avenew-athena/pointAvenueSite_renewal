@@ -21,7 +21,7 @@
   <!-- container :: start -->
 		<div class="container">
       <% 
-				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category); 
+				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category).filter(f => f !== 'Khác'); 
 				let categoriesUnique = [...new Set(categories)];
 			%>
 			<section class="visual_wrap">
@@ -48,6 +48,12 @@
                       </div>
                     </li>
                     <% } %> 
+                    <li class="filter_item">
+											<div class="checkbox_wrap">
+												<input type="checkbox" onchange="changeValue(this)" id="article_12" name="article" value="Others" data-option="location">
+												<label for="article_12">Khác</label>
+											</div>
+										</li>
                 </ul>
               </div>
             </div>
