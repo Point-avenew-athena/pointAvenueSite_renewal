@@ -28,7 +28,7 @@
 				</div>
 			</section>
 			<% 
-				const categories = news.filter(item => item.type === 'Article').map(it => it.category); 
+				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category); 
 				let categoriesUnique = [...new Set(categories)];
 			%>
 			<section class="newsletter_wrap">
@@ -73,9 +73,12 @@
           } else {
             filters.push(e.value);
           }
-          
+          let articles = listArticle;
           console.log(filters);
-          const articles = listArticle.filter(item => filters.includes(item.category));
+          if (filters.length) {
+            articles = listArticle.filter(item => filters.includes(item.category));
+          }
+          
           renderTemplate(articles)
 			  }
 			 
@@ -92,31 +95,56 @@
           let html = '';
           
           listArticle.forEach(article => {
-            html+= `
-              <li class="box_type_01--item courses_item">
-                <div class="box_type_01--img courses_img">
-                <a href="/news/${article.id}">
-                  <img src="${article.thumbnail.imageUrl}" alt="${article.title}">
-                </a>
-                </div>
-                <div class="box_type_01--desc courses_desc_box">
-                <div class="info">
-                            <p class="text--gray date">${formateDate(article.date.split('T')[0])}</p>
-                          </div>
-                <a href="/news/${article.id}">
-                  <p class="title_r_03">${article.title}</p>
-                </a>
-                <div class="desc_text">
+            if (article.type === 'Article') {
+              html+= `
+                <li class="box_type_01--item courses_item">
+                  <div class="box_type_01--img courses_img">
                   <a href="/news/${article.id}">
-                    ${article.thumbnail.excerpt}
+                    <img src="${article.thumbnail.imageUrl}" alt="${article.title}">
                   </a>
-                </div>
-                <a href="/news/${article.id}" class="btn_type_01--sec">
-                  <span class="btn_inner">Read More</span>
-                </a>
-                </div>
-                    </li>
-            `
+                  </div>
+                  <div class="box_type_01--desc courses_desc_box">
+                  <div class="info">
+                              <p class="text--gray date">${formateDate(article.date.split('T')[0])}</p>
+                            </div>
+                  <a href="/news/${article.id}">
+                    <p class="title_r_03">${article.title}</p>
+                  </a>
+                  <div class="desc_text">
+                    <a href="/news/${article.id}">
+                      ${article.thumbnail.excerpt}
+                    </a>
+                  </div>
+                  <a href="/news/${article.id}" class="btn_type_01--sec">
+                    <span class="btn_inner">Read More</span>
+                  </a>
+                  </div>
+                      </li>
+              `;
+            } else {
+              html+= `
+              <li class="box_type_01--item swipe_type_02--item courses_item swiper-slide">
+                  <div class="video_wrap">
+                    <iframe src="${article.embedUrl}" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="box_type_01--desc courses_desc_box">
+                    <div class="info">
+                      <p class="text--gray date">${formateDate(article.date.split('T')[0])}</p>
+                    </div>
+                    <p class="title_r_03">
+                      <a href="${article.realUrl}">${article.title}</a>
+                    </p>
+                    <div class="desc_text">
+                      <a href="${article.realUrl}">${article.thumbnail.excerpt}</a>
+                    </div>
+                    <a href="${article.realUrl} " class="btn_type_01--sec">
+                      <span class="btn_inner">Read More</span>
+                    </a>
+                  </div>
+                </li>
+              `
+            }
+            
           });
           // console.log(html);
           const ul = document.querySelector('.courses_list');

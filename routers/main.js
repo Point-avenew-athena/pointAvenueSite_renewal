@@ -92,12 +92,7 @@ router.get("/vn/news/:id", (req, res) => {
 router.get("/news/list/articles", (req, res) => {
   // console.log(req.query);
   const news = require("../data/point-avenue/news/news.json");
-  let articles = news.filter(article => article.type === "Article");
-  if (req.query.article) {
-    // console.log(req.query.article.split('%2'));
-    const queryArticle = req.query.article.split('%2')
-    articles = articles.filter(item => queryArticle.includes(item.category));
-  }
+  let articles = news.filter(article => article.type === "Article" || article.type === "extenal");
   // console.log(articles)
   res.render("news/articles/list", { news, articles });
 });
