@@ -1,6 +1,6 @@
 $(function () {
   console.log(3123231);
-  
+
   $('.newsletter_wrap input[type=checkbox]').change(function(value) {
     var search = location.search.substring(1);
     console.log(search);
@@ -20,7 +20,7 @@ $(function () {
     }
     
     
-    window.location.search = searchParams.toString();
+    // window.location.search = searchParams.toString();
   })
   
 });
