@@ -278,7 +278,83 @@
 .news .event_wrap .box_type_01 .location:before {content:''; position: absolute; left:0; top:0; display: inline-block; width:20px; height: 20px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/location_s_icon.png') no-repeat;}
 .news .box_type_01 .box_type_01--item {margin-bottom: 20px;}
 .news .box_type_01 .box_type_01--desc a{font-family: 'Oswald', sans-serif;}
+.news .container .articles_wrap .section_header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+.news .container .articles_wrap .section_title {
+	flex-grow: 1;
+	margin-bottom: 0;
+}
+.news .container .articles_wrap .btn_type_01.view {
+	height: max-content;
+	position: unset
+}
 
+.news .container .btn_type_01.view {
+	position: absolute; right:0; top:0;
+}
+.news .container .filter_article_block {
+	position: relative;
+	margin-right: 1rem;
+}
+.news .container .filter_article_block:hover .filter_list_wrap {
+	display: block;
+}
+.news .container .filter_article {
+	display: inline-block;
+	padding: 6px 26px 6px;
+	border: 1px solid #F2B41B;
+	color: white;
+	font-size: 14px;
+	line-height: 1.2;
+	border-radius: 30px;
+	background: #F2B41B;
+	transition: all .5s;
+}
+.news .filter_list_wrap .filter_article_block .block {
+	display: inline-block;
+	position: relative;
+}
+
+.news .filter_list_wrap .filter_article_block .block:hover .filter_list_wrap {
+	display: block;
+}
+
+/* .news .container .filter_article_block:hover .filter_list_wrap {
+	display: block;
+} */
+	.news .container .filter_article::before {
+		content: '';
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    background: url(https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/filter_icon.png) center no-repeat;
+    background-size: 20px auto;
+    vertical-align: middle;
+    margin-right: 5px;
+	}
+
+.news .filter_list_wrap {
+	display: none;
+	position: absolute;
+	top: 39px;
+	right: 0;
+	width: max-content;
+	z-index: 100;
+}
+.news .filter_list_wrap .filter_list {
+	padding: 20px;
+	background: white;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+}
+
+.news .filter_list_wrap .filter_list .filter_item {
+	margin-bottom: 0.5rem;
+}
 
 /*=============point_avenue_tv ========*/
 .point_avenue_tv .visual_wrap{background:url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/point-avenue/news/tv_visual.jpg') top right no-repeat; background-size: cover;}
