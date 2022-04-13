@@ -129,6 +129,24 @@ $(function(){
 		}
 	});
 
+	var case_studies_swiper = new Swiper('.articles_wrap .blog_wrap .swiper-container', {
+		slidesPerView: 3,
+		spaceBetween: 20,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		breakpoints: {
+			1000: {  // 화면의 넓이가 1000px 이하일 때 
+				slidesPerView: 2,
+			},
+			768: {  // 화면의 넓이가 768px 이하일 때 
+				slidesPerView: 1,
+				spaceBetween: 10,
+			}
+		}
+	});
+
 	/* mentors 클릭시, mentors 상세 팝업 노출*/
 	$('.admission_consulting .mentors_wrap .team_list a').click(function(){
 		$('.layer_popup').center();

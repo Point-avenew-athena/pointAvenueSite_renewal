@@ -20,19 +20,46 @@
   <%- include("../../partials/gnb-vn") %>
   <!-- container :: start -->
 		<div class="container">
+      <% 
+				const categories = news.filter(item => item.type === 'Article' || item.type === 'extenal').map(it => it.category).filter(f => f !== 'Khác'); 
+				let categoriesUnique = [...new Set(categories)];
+			%>
 			<section class="visual_wrap">
 				<div class="section_inner">
 					<div class="text_box">
-						<h2 class="title_r_01">Bài viết</h2>
+            <h2 class="title_r_01">Bài viết</h2>
 					</div>
 				</div>
 			</section>
 			
 			<section class="newsletter_wrap">
 				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Bài viết</h3>
+          <div class="section_header" style="display: flex;justify-content: space-between;">
+            <h3 class="title_r_02 section_title">Bài viết</h3>
+            <div class="filter_article_block">
+              <a href="javascript:void(0);" class="filter_article" >Bộ lọc</a>
+              <div class="filter_list_wrap">
+                <ul class="filter_list">
+                  <% for ( let i = 0; i < categoriesUnique.length; i++){ %> 	
+                    <li class="filter_item">
+                      <div class="checkbox_wrap">
+                        <input type="checkbox" onchange="changeValue(this)" id="article_<%- [i+1] %>" name="article" value="<%- categoriesUnique[i] %>" data-option="location">
+                        <label for="article_<%- [i+1] %>"><%- categoriesUnique[i] %></label>
+                      </div>
+                    </li>
+                    <% } %> 
+                    <li class="filter_item">
+											<div class="checkbox_wrap">
+												<input type="checkbox" onchange="changeValue(this)" id="article_12" name="article" value="Others" data-option="location">
+												<label for="article_12">Khác</label>
+											</div>
+										</li>
+                </ul>
+              </div>
+            </div>
+          </div>
 					<ul class="box_type_01 courses_list">
-            <% 
+            <!-- <% 
               const onlyArticles = articles.filter(article => article.type === "Article");
 
               function formateDate(d){
@@ -68,13 +95,105 @@
                   </a>
                 </div>
 						</li>
-            <% } %>
+            <% } %> -->
 					</ul>
 				</div>
 			</section>
 			
 			
 		</div>
+    <script>
+			//   const articles = 1;
+        const listArticle = <%- JSON.stringify(articles) %>;
+        let filters = []
+        renderTemplate(listArticle);
+			  function changeValue(e) {
+				  console.log(e.value);
+          const exits = filters.includes(e.value);
+          if (exits) {
+            const index = filters.find(f => f === e.value);
+            filters.splice(index, 1);
+          } else {
+            filters.push(e.value);
+          }
+          let articles = listArticle;
+          console.log(filters);
+          if (filters.length) {
+            articles = listArticle.filter(item => filters.includes(item.category));
+          }
+          
+          renderTemplate(articles)
+			  }
+			 
+			  function formateDate(d){
+					const day = new Date(d),
+          year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(day),
+          month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(day),
+          date = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(day);
+
+					return `${date}/${month}/${year}`;
+				}
+
+			  function renderTemplate(listArticle) {
+          let html = '';
+          
+          listArticle.forEach(article => {
+            if (article.type === 'Article') {
+              html+= `
+                <li class="box_type_01--item courses_item">
+                  <div class="box_type_01--img courses_img">
+                  <a href="/news/${article.id}">
+                    <img src="${article.thumbnail.imageUrl}" alt="${article.title}">
+                  </a>
+                  </div>
+                  <div class="box_type_01--desc courses_desc_box">
+                  <div class="info">
+                              <p class="text--gray date">${formateDate(article.date.split('T')[0])}</p>
+                            </div>
+                  <a href="/news/${article.id}">
+                    <p class="title_r_03">${article.title}</p>
+                  </a>
+                  <div class="desc_text">
+                    <a href="/news/${article.id}">
+                      ${article.thumbnail.excerpt}
+                    </a>
+                  </div>
+                  <a href="/news/${article.id}" class="btn_type_01--sec">
+                    <span class="btn_inner">Xem thêm</span>
+                  </a>
+                  </div>
+                      </li>
+              `;
+            } else {
+              html+= `
+              <li class="box_type_01--item swipe_type_02--item courses_item swiper-slide">
+                  <div class="video_wrap">
+                    <iframe src="${article.embedUrl}" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                  <div class="box_type_01--desc courses_desc_box">
+                    <div class="info">
+                      <p class="text--gray date">${formateDate(article.date.split('T')[0])}</p>
+                    </div>
+                    <p class="title_r_03">
+                      <a href="${article.realUrl}">${article.title}</a>
+                    </p>
+                    <div class="desc_text">
+                      <a href="${article.realUrl}">${article.thumbnail.excerpt}</a>
+                    </div>
+                    <a href="${article.realUrl} " class="btn_type_01--sec">
+                      <span class="btn_inner">Xem thêm</span>
+                    </a>
+                  </div>
+                </li>
+              `
+            }
+            
+          });
+          // console.log(html);
+          const ul = document.querySelector('.courses_list');
+          ul.innerHTML = html
+			  }
+		</script>
 		<!--container :: end-->
     <%- include("../../partials/footer-vn") %>
 		<%- include("../../partials/common_popup") %>
