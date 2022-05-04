@@ -69,7 +69,7 @@
 											</a>
                     </div>
                     <div class="text_box">
-                      <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p>
+                      <!-- <p class="text--gray date"><%= formateDate(filteredNews[i].date.split('T')[0]) %></p> -->
                       <div class="flag_type_02"><%= filteredNews[i].type %></div>
                       <p class="title_r_03">
 												<a href="/news/<%= filteredNews[i].id %>">
@@ -175,9 +175,9 @@
 								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
+								<!-- <div class="info">
 									<p class="text--gray date"><%= formateDate(featuredNewsletter[i].date.split('T')[0]) %></p>
-								</div>
+								</div> -->
 								<p class="title_r_03">
 									<a href="/news/<%= featuredNewsletter[i].id %>"><%- featuredNewsletter[i].title %></a>
 								</p>
@@ -227,9 +227,9 @@
 								</a>
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
-								<div class="info">
+								<!-- <div class="info">
 									<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
-								</div>
+								</div> -->
 								<p class="title_r_03">
 									<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
 								</p>
@@ -247,7 +247,7 @@
 				</div>
 			</section>
 			
-			<section class="tv_wrap">
+			<!-- <section class="tv_wrap">
 				<div class="section_inner">
 					<h3 class="title_r_02 section_title">Point Avenue TV</h3>
 					<ul class="box_type_01 courses_list video_list">
@@ -260,7 +260,6 @@
 							</div>
 							<div class="box_type_01--desc courses_desc_box">
 								<div class="info">
-									<p class="date"><%= tv[i].date %> </p>
 									<p class="duration">Duration: <%= tv[i].duration %></p>
 								</div>
 								<p class="title_r_03">
@@ -281,7 +280,7 @@
 						<span class="btn_inner">View All</span>
 					</a>
 				</div>
-			</section>
+			</section> -->
 		</div>
 		<!--container :: end-->
 
