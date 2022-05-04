@@ -60,6 +60,42 @@
 	"lang" : "en"		
 },
 {
+	"id" : 15, 		
+	"type" : "TV", 		
+	"subType": "Admission Tip",	
+	"title" : "College Talk - Roadmap to Top US Colleges",		
+  	"excerpt": "Despite all changes & difficulties in the past year, Point Avenue has successfully helped many of our students get into top colleges in the US, UK, Canada, and Australia with total financial aid & scholarships worth 6.5 million USD.",		
+	"embeddedUrl": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPointAvenue%2Fvideos%2F722625308939414%2F&show_text=false&width=560&t=0",
+	"blankUrl": "https://www.facebook.com/watch/live/?ref=watch_permalink&v=722625308939414",
+  	"duration": "1:46:40",
+	"date" : "04/05/2022",
+	"lang" : "en"		
+},
+{
+	"id" : 16, 		
+	"type" : "TV", 		
+	"subType": "Admission Tip",	
+	"title" : "College Talk - Roadmap to Top US Colleges: Speaker Introduction - Minh Anh",		
+  	"excerpt": "Next fall term, Minh Anh will start her college journey at Bryn Mawr College in Economics & Philosophy. What was her success secret? Register for our webinar to find out!",		
+	"embeddedUrl": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPointAvenue%2Fvideos%2F1006183903367463%2F&show_text=false&width=560&t=0",
+	"blankUrl": "https://www.facebook.com/PointAvenue/videos/1006183903367463",
+  	"duration": "1:50",
+	"date" : "04/05/2022",
+	"lang" : "en"		
+},
+{
+	"id" : 17, 		
+	"type" : "TV", 		
+	"subType": "Admission Tip",	
+	"title" : "College Talk - Roadmap to Top US Colleges: Speaker Introduction - Ha Phuong",		
+  	"excerpt": "Meet Ha Phuong, a student in Chinese language major who successfully got scholarships worth 12 billion Vietnam dong (500,000USD) from 4 Top U.S Colleges",		
+	"embeddedUrl": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FPointAvenue%2Fvideos%2F1060641921188760%2F&show_text=false&width=560&t=0",
+	"blankUrl": "https://www.facebook.com/PointAvenue/videos/1060641921188760",
+  	"duration": "1:11",
+	"date" : "04/05/2022",
+	"lang" : "en"		
+},
+{
 	"id" : 6, 		
 	"type" : "TV", 		
 	"subType": "Admission Tip",	
