@@ -114,7 +114,7 @@ router.get("/tv", (req, res) => {
 });
 
 router.get("/vn/tv", (req, res) => {
-  const tv = require("../data/point-avenue/news/tv.json");
+  const tv = require("../data/point-avenue/news/tv-vn.json");
   res.render("tv-vn", { tv });
 });
 
