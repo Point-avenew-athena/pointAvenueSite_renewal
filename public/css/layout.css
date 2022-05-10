@@ -625,6 +625,9 @@
 	.schedules_table_cont .schedules_table tbody .location {font-size: 20px; font-weight: 700;}
 	.schedules_table_cont .schedules_table tbody .days {position: absolute; right:0; top:33px;}
 	.schedules_table_cont .schedules_table tbody .start {position: absolute; right:0; top:58px;}
+	.new-ac .list-3 {
+		flex-direction: column;
+	}
 }
 @media screen and (max-width: 640px){
 	.title_r_00 {font-size: 40px;}
@@ -682,9 +685,16 @@
 	
 	.flie_down_wrap li {margin-bottom: 10px;}
 	.flie_down_wrap li a {width:100%;}
+	.new-ac .list-3 {
+		flex-direction: column;
+	}
 }
 @media screen and (max-width: 480px){
 	.blog_wrap .video_wrap iframe {height: 156px;}
+
+	.new-ac .list-3 {
+		flex-direction: column;
+	}
 }
 @media screen and (max-width: 320px){
 	.title_r_01 {font-size: 28px; line-height: 1.2;}
