@@ -208,7 +208,7 @@
 					<ul class="box_type_01 courses_list">
 					<% 
 						const ARTICLE = [1996, 2919, 2920];
-						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)); 
+						const featuredArticles = news.filter(item => ARTICLE.some(id => id === item.id)).sort((a, b) => a.id - b.id); 
 						
 						function formateDate(d){
 							const day = new Date(d),
