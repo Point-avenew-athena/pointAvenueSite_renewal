@@ -137,6 +137,20 @@
 	padding: 10px 0;
 }
 
+.new-ac * {
+	font-size: 16px;
+}
+
+.new-ac .list-3 {
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0;
+  }
+  
+.new-ac .list {
+	flex: 1
+}
+
 /*====================swiper-container===================*/
 
 .swiper-container .swiper-button-prev {left: 0; height: 80px; background: url('https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/arrow_01.png') no-repeat; transform: rotateY(-180deg); background-size:24px auto; margin-top: -40px;}
