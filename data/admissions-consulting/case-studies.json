@@ -1,5 +1,35 @@
 [
   {
+    "id": 30,
+    "title" : "Journey at Point Avenue: Admissions Consulting Test Prep",
+    "name": "Vy",
+    "school": "Admissions Consulting Test Prep",
+    "info": [
+      "I'd always known I wanted to study Business, but wasn't quite sure which specific aspect of business until I came to Point Avenue in grade 10. My mentors introduced a lot of materials, resources and opportunities related to business and economics so I can explore these fields from both academic and experiential angles. By grade 11, I was very sure in my decision to pursue Marketing as a major and future career path. Beyond that, I also received a lot of support and pushing when it comes to academics, and I signed up for advanced classes at school and even self-studied for 2 AP tests. When possible, my mentors spent extra time walking me through academic topics that I was struggling with.<br><br>Outside of college prep, I also studied SAT at PA. After two tries and not getting the score I wanted, I signed up for tutoring at PA and got my goal score of 1550 on my third try. <br><br>I'm extremely appreciative of all the guidance and support I received from my PA mentors. They always listened to my concerns and gave me honest feedback so I can improve. I can feel the care and attention from everyone on the team when it comes to my mental and emotional health, which helped me feel not too stressed out even during the most intense periods. Reflecting on my journey with PA, I not only learned about writing skills but also working styles and valuable insights about the field of business, which will definitely come in handy during my studies at Georgetown."
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/Vy.png"
+  },
+  {
+    "id": 31,
+    "title" : "Journey at Point Avenue: Admissions Consulting Test Prep",
+    "name": "Kiet",
+    "school": "UC Berkeley",
+    "info": [
+      "I started studying at Point Avenue in grade 10 in both the Test Prep and Admissions Consulting programs. Through two SAT courses, I was able to finish the SAT in grade 11 with a 1490. I also completed the TOEFL within the same year. By finishing standardized testing before grade 12, I was able to eliminate a lot of stress and truly focused on my college application. <br><br>From the very beginning, my AC mentors gave me a personalized roadmap. Under their guidance, I explored fields in journalism, media, international relations and finally decided on political science as a major. In the two years of working with PA, I've written and published interviews, op-eds, assisted on documentaries, met industry experts and successfully led a sports-focused social project that supported 17 secondary schools in Hanoi in building basketball courts. <br><br>I want to express my sincere gratitude to the mentors at PA who have always been ready and willing to support me at every turn these past few years. Thanks to PA, I've grown so much in my academics, personal characteristics and gained many life skills for college and life beyond. Thank you, PA!"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/Kiet.jpg"
+  },
+  {
+    "id": 32,
+    "title" : "From Thanh's father: ",
+    "name": "Duc Thanh",
+    "school": "Carnegie Mellon University",
+    "info": [
+      "During the application preparation process, Point Avenue mentors and teachers were very helpful and influnenced Thanh's academic and testing results, extracurricular activities, and most importantly, his personal habits and lifestyle in the most positive way possible. These changes would form the foundation for many years to come. In the end, we achieved all our goals, especially Thanh's plan to improve his personal lifestyle and discipline. Thanh has had an exciting and successful experience with Point Avenue. Our family would like to extend our most sincere gratitude to all the teachers and mentors at Point Avenue. We wish you good health, happiness, and ever more success in your mission to support students and families on their education journeys."
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/Duc+Thanh.jpg"
+  },
+  {
     "id": 18,
     "title" : "Journey at Point Avenue: Admissions Consulting",
     "name": "Huy Anh",
