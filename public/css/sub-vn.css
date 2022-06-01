@@ -257,7 +257,9 @@
 .article .article_wrap .greet {font-size: 18px; font-weight: 800; margin-top: 30px;}
 .article .article_wrap p {font-size: 16px; margin-bottom: 1rem;  font: 16px/26px 'IBM Plex Sans', sans-serif;}
 .article .article_wrap p * {font-size: 16px;}
-
+.article .article_wrap span {
+	font-size: 16px;
+}
 .article .article_wrap .title {
 	font-size: 24px;
 	font-weight: 700;
