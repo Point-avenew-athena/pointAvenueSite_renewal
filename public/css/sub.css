@@ -258,6 +258,9 @@
 	font-size: 24px;
 	font-weight: 700;
 }
+.article .article_wrap span {
+	font-size: 16px;
+}
 .article .article_wrap .sub-title {
 	font-size: 18px;
 	font-weight: 700;
