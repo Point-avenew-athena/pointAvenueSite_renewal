@@ -931,33 +931,32 @@
     }
   },
   {
-    "courseId" : 49,
-    "type" : "Offline",
-    "name" : "Tranh biện trực tuyến",
-    "urlName": "debate-online",
+    "courseId" : 29,
+    "type" : "Online",
+    "name" : "Debate Online",
+    "urlName": "online-debate-course",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
-    "programTitle" : "Tranh biện",
     "age" : "14-16",
-    "weeks" : "17 tuần",
-    "duration" : "3 tiếng / tuần",
-    "hour" : "51 tiếng",
-    "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/Debate_All_Stars_1.jpg",
+    "weeks" : "17 weeks",
+    "duration" : "3 hours / week",
+    "hour" : "51 hours",
+    "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_1.jpg",
     "desc": [
-      "Khóa học <strong>Tranh biện 'All-Stars'</strong> là khóa học nâng cao được thiết kế cho những học viên có kinh nghiệm thi đấu tranh biện. Trong mỗi buổi học, học sinh sẽ có cơ hội thể hiện năng lực bản thân và thực hành các kiến thức vừa học theo mô hình giải đấu.",
-      "",
-      "Học sinh có cơ hội tham gia các giải đấu trong nước và quốc tế như Vietnam Schools Debating Championship, Hanoi Debate Tournament, Asia Debate Open (Trung Quốc, Việt Nam), Asian World Schools Debating Championship (Thailand), Oldham Cup (Singapore), Korea Youth Debating Championship (Hàn Quốc), Harvard College World Schools Invitational (USA), và nhiều hơn nữa."
+      "<strong>Learn with Asia's elite debate coaches.</strong>",
+      "<strong>What is Debate?</strong> Debate is an academic sport that allows students to practice and master their skills of public speaking and active listening while encouraging them to challenge existing norms and review old issues with new perspectives.",
+      "<strong>Why study Debate?</strong> Our Debate Program aims to nurture future leaders and equip them with 21st-century skills of communication, critical thinking, creativity, and collaboration."
     ],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
+      "registrationText": "Diagnostic test registration",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
         "strings" : [
-          "Học sinh sẽ được tìm hiểu về các kiến nghị từ các giải đấu cấp trường quốc tế trước đây và tạo hồ sơ tranh biện (case files) của riêng mình.",
-          "Học sinh sẽ được giới thiệu các chiến lược tranh biện khác nhau, với trọng tâm vào phối hợp nhóm. Đối với những nhà vô địch đầy tham vọng, thì khả năng giao tiếp rõ ràng với những người khác trong một đội và hợp tác hướng tới một mục tiêu chung là điều tối cần thiết."
+          "Students will be briefed on motions from previous international schools-level tournaments and create their own case files. ",
+          "Students will be introduced to various debate strategies with a focus on team collaboration. For aspiring champions, the ability to communicate clearly with others on a team and collaborate towards a common goal is essential. "
         ]
       },
       "books" : {
