@@ -20,7 +20,7 @@ $(function(){
 		}
 	});
 	
-	var testimonials_swiper = new Swiper('.testimonials_wrap .swiper-container', {
+	var testimonials_swiper = new Swiper('.Student Achievements .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
 		navigation: {

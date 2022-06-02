@@ -147,45 +147,62 @@
     "job":["Head of Debate Program"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Co-Founder, Debate for All",
-      "National Team Coach for World Schools Debating Championships (WSDC) Team Korea & Team Vietnam",
-      "B.A., Korea University"
+      "Head Coach of Team Vietnam for World Schools Debating ",
+      "Co-Coach of Team Korea for World Schools Debating Championships (WSDC) 2014-2019 ",
+      "Deputy Chief Adjudicator, World Universities Debating Championships (WUDC) 2017",
+      "Top 10 Adjudicator of Asia, UADC & Asian BP 2019"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_01.png"
   },
   {
     "id": 16,
-    "name": "Travis",
-    "job":["Debate Coach"],
-    "positions": ["Debate Teacher"],
-    "exp": [
-      "Coach, Public Speaking and Debate",
-      "B.S. in Criminology & Criminal Justice, Southern Oregon University",
-      "Overall Best Adjudicator, Vietnam British Parliamentary Championship 2021"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_02.png" 
-  },
-  {
-    "id": 17,
     "name": "Alex",
     "job":["Debate Coach"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Coach, Public Speaking and Debate",
-      "Founding Member, Fight Oar Die (501c3 Charitable Organization)",
-      "Member, Association for Experiential Education"
+      "Judging Panel for the Incheon Ganghwa High School ‘Global Issue Forum’ 2021",
+      "Speaker at “Mastering the Art of Public Speaking” for the Eloquentia Club",
+      "Founding Member of Fight Oar Die (501c3 Charitable Organization)"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_03.png" 
   },
   {
+    "id": 17,
+    "name": "Yuwon Kim",
+    "job":["Debate Coach"],
+    "positions": ["Debate Teacher"],
+    "exp": [
+      "BBA, International Business Management, SolBridge International School of Business",
+      "Debate Coach for the Institute of Gifted Education Jeolla Province (Mokpo, Naju) and Elementary Schools in Osan",
+      "Best Coach at Debate For All's Global Leader Debate Workshop",
+      "Convener of MK Youth English Economy Debate Tournament, co-hosted by Maeil Business Newspaper, and Deputy Convener of Australasian Intervarsity Debating Championship, the largest debating championship for university students across the Pacific"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_05.jpg" 
+  },
+  {
     "id": 18,
+    "name": "Travis",
+    "job":["Debate Coach"],
+    "positions": ["Debate Teacher"],
+    "exp": [
+      "Judging Panel for the Incheon Ganghwa High School ‘Global Issue Forum’ 2021",
+      "Overall Best Adjudicator at Vietnam British Parliamentary Championship",
+      "Top 5 Adjudicator at Hanoi Debate Tournament",
+      "Adjudicator for Harvard College World Schools Invitational",
+      "Adjudicator for World Schools Debating Championship",
+      "Adjudicator for Asian World Schools Debating Championship",
+      "Grand Finals Adjudicator, Diplomatic Academy of Vietnam Debate Open"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_02.png" 
+  },
+  {
+    "id": 40,
     "name": "Nicole",
     "job":["Debate Coach"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Coach, Public Speaking and Debate",
-      "B.B.A. with Honors in International Marketing, Baruch College - City University of New York",
-      "Special Lecturer, English Debate for Middle School Teachers in the Cau Giay District"
+      "Elementary Debate and Summer Camp Curriculum Designer",
+      "Judging Panel for the Incheon Ganghwa High School 'Global Issue Forum' 2021"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_04.png" 
   },

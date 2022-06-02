@@ -21,6 +21,27 @@ $(function(){
 			}
 		}
 	});
+
+	var testimonials_swiper = new Swiper('.achievement_wrap .swiper-container', {
+		slidesPerView: 6,
+		spaceBetween: 20,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		breakpoints: {
+			1000: {  // 화면의 넓이가 1000px 이하일 때 
+				slidesPerView: 4,
+			},
+			768: {  // 화면의 넓이가 768px 이하일 때 
+				slidesPerView: 3,
+				spaceBetween: 10,
+			},
+			640: {  // 화면의 넓이가 640px 이하일 때 
+				slidesPerView: 2,
+			}
+		}
+	});
 	
 	var testimonials_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 		slidesPerView: 4,
