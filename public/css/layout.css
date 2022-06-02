@@ -293,7 +293,7 @@
 .swipe_type_01 .swipe_type_01--img {position: relative; padding-top: 100%; overflow: hidden; }
 .swipe_type_01 .swipe_type_01--img img{position: absolute;top: 50%;left: 50%;width: 70%;height: auto;min-width: 70%;min-height: 70%;transform: translate(-50%, -50%); border-radius: 50%;}
 .swipe_type_01 .swipe_type_01--img .img_box{width:100%; overflow: hidden; position: absolute;top: 50%;left: 50%;width: auto;height: auto;min-width:calc(100% - 40px); min-width:-webkit-calc(100% - 40px);min-height:-webkit-calc(100% - 40px);transform: translate(-50%, -50%);-webkit-transform: translateX(-50%) translateY(-50%);  -moz-transform: translateX(-50%) translateY(-50%);  -ms-transform: translateX(-50%) translateY(-50%);  -o-transform: translateX(-50%) translateY(-50%); border-radius: 50%;}
-.swipe_type_01 .swipe_type_01--img .img_box img{position: inherit;top:0; left:0; width:100%; height: auto; transform: translate(0); border-radius: 0;}
+.swipe_type_01 .swipe_type_01--img .img_box img{position: inherit;top:0; left:0; width:100%; height: 100%; transform: translate(0); border-radius: 0;}
 .swipe_type_01 .swipe_type_01--desc{position: relative;min-height: 130px; margin-top: -20px; word-break: break-word;text-align: center; padding:0 10px;}
 .swipe_type_01 .swipe_type_01--desc .title_r_03--gray{margin-top: 10px;}
 
