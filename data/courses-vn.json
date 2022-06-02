@@ -932,25 +932,26 @@
   },
   {
     "courseId" : 29,
-    "type" : "Online",
-    "name" : "Debate Online",
+    "type" : "Offline",
+    "name" : "Tranh biện trực tuyến",
     "urlName": "online-debate-course",
     "location" : ["Hanoi - Cau Giay", "Hanoi - Long Bien", "Bangkok"],
     "program" : "Debate",
+    "programTitle" : "Tranh biện",
     "age" : "14-16",
-    "weeks" : "17 weeks",
-    "duration" : "3 hours / week",
-    "hour" : "51 hours",
+    "weeks" : "17 tuần",
+    "duration" : "3 tiếng / tuần",
+    "hour" : "51 tiếng",
     "thumbnail" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/AP_1.jpg",
     "desc": [
-      "<strong>Learn with Asia's elite debate coaches.</strong>",
-      "<strong>What is Debate?</strong> Debate is an academic sport that allows students to practice and master their skills of public speaking and active listening while encouraging them to challenge existing norms and review old issues with new perspectives.",
-      "<strong>Why study Debate?</strong> Our Debate Program aims to nurture future leaders and equip them with 21st-century skills of communication, critical thinking, creativity, and collaboration."
+      "<strong>Học cùng các huấn luyện viên tranh biện hàng đầu Châu Á.</strong>",
+      "<strong>Tranh biện là gì?</strong> Tranh biện là một môn thể thao học thuật cho phép học viên rèn luyện, làm chủ kỹ năng nói trước đám đông và kỹ năng nghe chủ động, đồng thời khuyến khích các em đặt nghi vấn cho các chuẩn mực hiện có và xem xét các vấn đề cũ từ góc nhìn mới.",
+      "<strong>Tại sao nên học Tranh biện?</strong> Chương trình Tranh biện của chúng tôi nhằm mục đích nuôi dưỡng các nhà lãnh đạo tương lai và trang bị cho các em các kỹ năng giao tiếp, tư duy phản biện, sáng tạo và hợp tác của thế kỷ 21."
     ],
     "keyword" : ["Habit Building","Goal Setting","Leadership Skills","Mindfulness","Self-Awareness","Life Coaching","Life Long Learning","Student Motivation","Teen Health and Wellness","Growth Mindset","Journal Writing"],
     "offline" : {
       "videoUrl" : "https://www.youtube.com/embed/gGTQH10KtbI",
-      "registrationText": "Diagnostic test registration",
+      "registrationText": "Đăng ký Kiểm tra Đầu vào MIỄN PHÍ",
       "enroll": "https://pointavenue1.typeform.com/to/euBzBBld",
       "objective" : {
         "image" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/courses/all-star_debate_obj_Debate_All_Stars.jpg",
