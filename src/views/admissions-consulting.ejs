@@ -109,7 +109,7 @@
 						Since 2018, we have helped hundreds of students from Asia and the United States gain admissions to not only their top-choice, but best-fit boarding schools and universities.
 					</p>
 					<p class="title_r_03" style="margin-top:20px">Total Financial Aid & Scholarships: 22 million USD 
-						<a href="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/pdf/2018-2022+Admissions+Consulting+Results+New.pdf" target="_blank" class="btn_type_01" style="vertical-align: middle;">See our full results</a></p>
+						<a href="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/pdf/2018-2022+Admissions+Consulting+Results+(1).pdf" target="_blank" class="btn_type_01" style="vertical-align: middle;">See our full results</a></p>
 					<div class="row_wrap">
 						<p class="title_r_03">Universities</p>
 						<div class="swipe_type_01_wrap results_swiper_01">
@@ -479,7 +479,7 @@
 							<ul class="swiper-wrapper box_type_01 courses_list">
 							<% 
 								const ARTICLE = [490, 491, 492];
-								const featuredArticles = [...news]; 
+								const featuredArticles = [...news].filter(item => item.category === 'Admissions Consulting'); 
 								
 								function formateDate(d){
 									const day = new Date(d),
@@ -496,15 +496,7 @@
 										<div class="video_wrap">
 											<iframe src="<%= featuredArticles[i].embedUrl%>" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 										</div>
-										<!-- <div class="box_type_01--img courses_img">
-											<a href="/news/<%= featuredArticles[i].id %>">
-												<img src="<%= featuredArticles[i].thumbnail.imageUrl %>" alt="<%= featuredArticles[i].title %> ">
-											</a>
-										</div> -->
 										<div class="box_type_01--desc courses_desc_box">
-											<!-- <div class="info">
-												<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
-											</div> -->
 											<p class="title_r_03">
 												<a href="<%= featuredArticles[i].realUrl %>"><%- featuredArticles[i].title %></a>
 											</p>
@@ -524,9 +516,6 @@
 											</a>
 										</div>
 										<div class="box_type_01--desc courses_desc_box">
-											<!-- <div class="info">
-												<p class="text--gray date"><%= formateDate(featuredArticles[i].date.split('T')[0]) %></p>
-											</div> -->
 											<p class="title_r_03">
 												<a href="/news/<%= featuredArticles[i].id %>"><%- featuredArticles[i].title %></a>
 											</p>

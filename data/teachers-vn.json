@@ -147,23 +147,11 @@
     "job":["Trưởng bộ phận Tranh Biện"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Co-Founder, Debate for All",
-      "National Team Coach for World Schools Debating Championships (WSDC) Team Korea & Team Vietnam",
-      "B.A., Korea University"
+      "Trưởng bộ phận Tranh biện Point Avenue ",
+      "Huấn luyện viên trưởng đội tuyển Việt Nam, Giải vô địch tranh biện thế giới các trường phổ thông (WSDC)",
+      "Đồng sáng lập, Debate for All"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_01.png"
-  },
-  {
-    "id": 16,
-    "name": "Travis",
-    "job":["Huấn luyện viên"],
-    "positions": ["Debate Teacher"],
-    "exp": [
-      "Coach, Public Speaking and Debate",
-      "B.S. in Criminology & Criminal Justice, Southern Oregon University",
-      "Overall Best Adjudicator, Vietnam British Parliamentary Championship 2021"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_02.png" 
   },
   {
     "id": 17,
@@ -171,11 +159,40 @@
     "job":["Huấn luyện viên"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Coach, Public Speaking and Debate",
-      "Founding Member, Fight Oar Die (501c3 Charitable Organization)",
-      "Member, Association for Experiential Education"
+      "Giám Khảo cuộc thi Incheon Ganghwa High School ‘Global Issue Forum’ 2021",
+      "Đại diện cho doanh nghiệp Anadarko Petroleum (A&D)",
+      "Diễn giả tại hội thảo về kỹ năng nói trước công chúng CLB Eloquentia, Vinschool"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_03.png" 
+  },
+  {
+    "id": 29,
+    "name": "Yuwon Kim",
+    "job":["Huấn luyện viên"],
+    "positions": ["Debate Teacher"],
+    "exp": [
+      "Huấn luyện viên tranh biện tại Học viện Giáo dục Năng khiếu tỉnh Jeolla (Mokpo, Naju) và các trường tiểu học tại Osan",
+      "Được bình chọn là huấn luyện viên tranh biện xuất sắc nhất tại Hội thảo Global Leader Debate của Debate For All",
+      "Ban tổ chức Giải MK Youth English Economy Debate (đồng tổ chức bởi Maeil Business Newspaper)",
+      "hó chủ tịch Giải vô địch Tranh biện Kết hợp Úc-Á (Australasian Intervarsity Debating Championship), cuộc thi tranh biện lớn nhất dành cho sinh viên các trường đại học trên Thái Bình Dương"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_07.jpg" 
+  },
+  {
+    "id": 16,
+    "name": "Travis",
+    "job":["Huấn luyện viên"],
+    "positions": ["Debate Teacher"],
+    "exp": [
+      "Ban giám khảo ‘Diễn đàn các vấn đề toàn cầu’ năm 2021 của Trường trung học Ganghwa Incheon",
+      "Giám khảo xuất sắc nhất, Vietnam British Parliamentary Championship 2021",
+      "Top 5 giám khảo Giải đấu tranh biện Hà Nội",
+      "Giám khảo World Schools Invitational Đại học Harvard",
+      "Giám khảo Giải vô địch tranh biện thế giới các trường phổ thông (WSDC)",
+      "Giám khảo Giải vô địch tranh biện các trường phổ thông Châu Á (AWSDC)",
+      "Giám khảo vòng chung kết, Giải tranh biện Học viện ngoại giao mở rộng"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_02.png" 
   },
   {
     "id": 18,
@@ -183,9 +200,8 @@
     "job":["Huấn luyện viên"],
     "positions": ["Debate Teacher"],
     "exp": [
-      "Coach, Public Speaking and Debate",
-      "B.B.A. with Honors in International Marketing, Baruch College - City University of New York",
-      "Special Lecturer, English Debate for Middle School Teachers in the Cau Giay District"
+      "Thiết kế chương trình giảng dạy tranh biện tiểu học và trại hè tranh biện",
+      "Giám khảo 'Diễn đàn các vấn đề toàn cầu' năm 2021 của trường trung học Ganghwa Incheon"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_04.png" 
   },
