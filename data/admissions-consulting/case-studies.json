@@ -1,5 +1,35 @@
 [
   {
+    "id": 40,
+    "title" : "Journey at Point Avenue: Summer Camp, Test Prep & Admissions Consulting",
+    "name": "Viet Dung",
+    "school": "Johns Hopkins",
+    "info": [
+      "Point Avenue mentors taught me so much about prioritization and managing my workload. When application season came, I felt prepared and knew exactly what I needed to do next, so I didn't feel overwhelmed by the large workload. It was a great journey, staying up past 11pm, past midnights and past much sorrow for weeks on. I definitely have many regrets, but everything is left behind now since we have reached our goal, and I DEFINITELY could not have done it without the help of everybody at PA, thank you once again!<br><br>Thank you to all of my AC and test prep mentors at PA, for putting up with all of my shenanigans for 3 years and staying with me until the end during the application. Your kind words and encouragement helped me got through everything. <br><br>GO BLUE JAYS!!!"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/Viet+Dung.jpg"
+  },
+  {
+    "id": 41,
+    "title" : "Journey at Point Avenue: Admissions Consulting",
+    "name": "Minh Anh",
+    "school": "Bryn Mawr College",
+    "info": [
+      "Before I came to PA, I was quite disappointed in myself because I had applied to colleges on my own the year prior and did not get the results I wanted. I had a lot of self-doubt, especially being surrounded by so many talented peers. My success this year was only possible because of PA, and I cannot express how much I appreciate all my mentors. Not only did my mentors went through every step of the application with me, from refining my essays to preparing me for interviews, they also introduced me to so many cool opportunities and experts. Applying to colleges is so stressful and emotionally draining, but I also learned a lot about myself and the life I want to have."
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/MA-crop.jpg"
+  },
+  {
+    "id": 42,
+    "title" : "Journey at Point Avenue: Admissions Consulting",
+    "name": "Ha Phuong",
+    "school": "Hamilton College",
+    "info": [
+      "I'm so grateful for every single aspect of my journey with PA. Truthfully, I did not have the smoothest application season. The sheer amount of items that I needed to complete was overwhelming, but PA literally helped me with every single thing, from dozens of essays, a huge list of schools, letters of recommendation, financial aid, business competition and my theatre portfolio--they were there for it all. I have immense appreciation for how much they care, not just about my application but me as an individual.<br><br>Thank you so much for staying by my side through such a lengthy and tiring process! I definitely couldn't have got this incredible result without your help. I will certainly miss this experience working with you guys a lot lot lot."
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/admission-consulting/studies/Ha+Phuong.jpg"
+  },
+  {
     "id": 30,
     "title" : "Journey at Point Avenue: Admissions Consulting & Test Prep",
     "name": "Vy",

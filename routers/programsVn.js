@@ -277,6 +277,8 @@ router.get("/:urlName", function (req, res) {
       renderPath = "programs/ela-foundations-vn";
     } else if (req.params.urlName === "ms-life-coaching") {
       renderPath = "programs/ms-life-coaching-vn";
+    } else if (req.params.urlName === "online-debate-course") {
+      renderPath = "programs/online-debate-course-vn";
     } else {
       renderPath = "programs/course-detail-offline-vn";
     }
