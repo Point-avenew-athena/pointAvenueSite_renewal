@@ -222,6 +222,8 @@
 .admission_consulting .swipe_type_01 .swipe_type_01--item.Michael img {top:-10%}
 .admission_consulting .swipe_type_01 .swipe_type_01--item.Matthew img {top:-15%}
 
+.admission_consulting .info_wrap_iframe iframe{ height: 950px;}
+
 .class_detail h3 {position: relative; padding-left:60px;margin-bottom: 10px; line-height: 1.5; font-family: 'roboto'; font-size: 30px; font-weight: 800;}
 .class_detail h3:before{position: absolute; left:0;content:''; display: inline-block; width:46px; height: 60px; margin-right: 15px; background: url("https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/title_icon.png") no-repeat; background-size: 46px auto; vertical-align: middle;}
 .class_detail h3:after{content:''; display: inline-block; width:110px; height: 5px; position: absolute; top:44px; left:60px; background: #F2B41B;}
@@ -4594,6 +4596,8 @@ margin-top: 0;
 }
 
 @media screen and (max-width:768px) {
+	.admission_consulting .info_wrap_iframe iframe{ height: 985px;}
+
 	/*============== sub common ==============*/
 	.sub .model_wrap .text_box {float: none; width:100%; margin-bottom: 40px; padding-right: 0; padding-top: 0; text-align: center;} 
 	.sub .model_wrap .text_box .section_title {text-align:left;}
@@ -6415,7 +6419,7 @@ margin-top: 0;
 	}
 }	
 @media screen and (max-width:480px) {
-
+	.admission_consulting .info_wrap_iframe iframe{ height: 1210px;}
 
 	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
 		display: block;
