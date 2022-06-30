@@ -16,6 +16,9 @@ const camp = require("./routers/camp");
 const admissionsConsulting = require("./routers/admissions-consulting");
 const admissionsConsultingVn = require("./routers/admissions-consulting-vn");
 
+const blog = require("./routers/blog");
+const blogVn = require("./routers/blog-vn");
+
 // redirect HTTP to HTTPS
 // app.all('*', (req, res, next) => {
 //   // development not redirect
@@ -48,7 +51,14 @@ app.use("/camp", camp);
 app.use("/vn/camp", campVn);
 // * admissions-consulting
 app.use("/admissions-consulting", admissionsConsulting);
+
 app.use("/vn/admissions-consulting", admissionsConsultingVn);
+
+//blog
+
+app.use("/blog", blog);
+app.use("/vn/blog", blogVn);
+
 
 app.listen(PORT, () => {
   console.log(`Server is connected to ${PORT}`);
