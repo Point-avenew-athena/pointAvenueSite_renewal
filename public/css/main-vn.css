@@ -116,6 +116,35 @@
   color: #fff;
   border: 1px solid #000;
 }
+.main_visual_wrap .swiper-slide_01 .main_slide_02_visu_more_btn {
+  position: absolute;
+  display: block;
+  width: 270px;
+  height: 60px;
+  padding: 18px 0;
+  text-align: center;
+  border: 1px solid #f2b41b;
+  background: #f2b41b;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  border-radius: 30px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 1s 1s;
+  -webkit-transition: -webkit-transform opacity 1s 1s;
+  -moz-transition: -moz-transform opacity 1s 1s;
+  left: 12%;
+  bottom: 18%;
+  -ms-transition: -ms-transform opacity 1s 1s;
+  -o-transition: -o-transform opacity 1s 1s;
+}
+.main_visual_wrap .swiper-slide_01 .main_slide_02_visu_more_btn:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
 .main_visual_wrap .swiper-slide-active .main_visu_tit {
   opacity: 1;
   margin-top: 0;
