@@ -3769,6 +3769,10 @@ margin-top: 0;
 		font-size: 16px;
 		margin-top: 0;
 	}
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-size: 20px;
+		margin-top: 0;
+	}
 
 	.day_camp .container .timeline .block-2 .box-timeline span.desc {
     font-size: 13px;

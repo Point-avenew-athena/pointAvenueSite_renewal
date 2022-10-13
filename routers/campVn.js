@@ -12,7 +12,7 @@ router.get('/summer-boarding-camp', function (req, res) {
 })
 
 router.get('/winter-boarding-camp', function (req, res) {
-  const teamMembers = require("../data/camp/mentors.json");
+  const teamMembers = require("../data/camp/mentors-winter-camp.json");
   // res.send('Camp > Summer Leader Camp')
   res.render('camp/winter-boarding-camp-vn', {teamMembers})
 })
