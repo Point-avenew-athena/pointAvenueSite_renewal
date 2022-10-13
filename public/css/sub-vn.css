@@ -519,6 +519,14 @@
 	flex-direction: row;
 }
 
+.boarding_camp.winter .container .banner_block .label_banner .camp {
+	text-align: right;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
 .boarding_camp .container .banner_block .label_banner .camp img {
 	width: 150px;
 }
