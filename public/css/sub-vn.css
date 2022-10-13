@@ -6396,8 +6396,9 @@ margin-top: 0;
 		font-weight: 250;
 		font-size: 67px;
 		line-height: 120%;
-		text-align: right;
+		text-align: center;
 		padding: 0;
+		width: 100%;
 	}
 
 	.boarding_camp .container .banner_block .label_banner .camp img {
