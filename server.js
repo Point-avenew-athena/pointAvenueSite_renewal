@@ -186,3 +186,60 @@ app.post('/camp/summer-day-camp', function (req, res) {
       });
   }
 })
+
+app.post('/camp/summer-winter-camp', function (req, res) {
+  if (req.body.email) {
+    var params = {
+      Destination: { /* required */
+        CcAddresses: [
+          /* more items */
+        ],
+        ToAddresses: [
+          "contact@pointavenue.com"
+          // "trung.le@truenorth.edu.vn"
+          // req.body.email,
+          /* more items */        
+        ]
+      },
+      Message: { /* required */
+        Body: { /* required */
+          Html: {
+           Charset: "UTF-8",
+           Data: `
+            <p><b>First Name: </b> ${req.body.firstName}</p>
+            <p><b>Last Name: </b> ${req.body.lastName}</p>
+            <p><b>Email: </b> ${req.body.email}</p>
+            <p><b>Child Name: </b> ${req.body.childName}</p>
+            <p><b>Phone Number: </b> ${req.body.phoneNumber}</p>
+            <p><b>Student's Grade & School: </b> ${req.body.grade}</p>
+          `
+          },
+          Text: {
+           Charset: "UTF-8",
+           Data: "TEXT_FORMAT_BODY"
+          }
+         },
+         Subject: {
+          Charset: 'UTF-8',
+          Data: 'Register Summer Day Camp'
+         }
+        },
+      Source: 'contact@pointavenue.com', /* required */
+      ReplyToAddresses: [
+        /* more items */
+      ],
+    };
+  
+    // Create the promise and SES service object
+    var sendPromise = new AWS.SES({apiVersion: '2010-12-01'}).sendEmail(params).promise();
+  
+  // Handle promise's fulfilled/rejected states
+    sendPromise.then(
+      function(data) {  
+        res.status(204).send()  
+      }).catch(
+        function(err) {
+          res.send(err)
+      });
+  }
+})
