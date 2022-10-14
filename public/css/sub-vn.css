@@ -3700,7 +3700,13 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .description {
 		font-size: 16px;
-    line-height: 19px;
+    	line-height: 19px;
+		margin-top: 0;
+	}
+
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-size: 18px;
+    	line-height: 24px;
 		margin-top: 0;
 	}
 
@@ -6369,6 +6375,17 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-family: 'Barlow Condensed Thin' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    width: 70%;
+    color: #FFFFFF;
+	}
 	.boarding_camp .container .banner_block {
 		height: 480px;
 	}
