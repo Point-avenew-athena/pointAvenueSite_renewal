@@ -1390,6 +1390,10 @@ margin-top: 0;
 	left: 75%;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-9{
+	left: 71%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-2{
 	top: -148px;
   	left: 0%;
@@ -3717,6 +3721,10 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .box-timeline-9 {
     left: 76%;
 	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-9 {
+		left: 73%;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10 {
     top: -115px;
     left: 69%;
