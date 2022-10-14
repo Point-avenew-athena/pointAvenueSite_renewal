@@ -6682,6 +6682,17 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    width: 70%;
+    color: #FFFFFF;
+	}
+
 	.boarding_camp .container .banner_block {
 		height: 480px;
 	}
