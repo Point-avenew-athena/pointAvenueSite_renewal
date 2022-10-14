@@ -1471,7 +1471,7 @@ margin-top: 0;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-8{
-	top: -156px;
+	top: -160px;
     left: 49%;
 }
 
@@ -1481,7 +1481,7 @@ margin-top: 0;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-10{
-	top: -119px;
+	top: -118px;
     left: 72%;
 }
 
@@ -1491,7 +1491,7 @@ margin-top: 0;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-11{
-	right: 5%;
+	right: 2%;
     top: -118px;
 }
 
@@ -1542,7 +1542,7 @@ margin-top: 0;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-8 .line{
-	top: 152px;
+	top: 156px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10 .line {
@@ -1617,7 +1617,7 @@ margin-top: 0;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-8::before{
-	top: 135px;
+	top: 136px;
   }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10::before {
@@ -3693,7 +3693,11 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4 {
 		top: -115px;
-    left: 22%;
+    	left: 22%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-4 {
+		top: -115px;
+    	left: 18%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4::before {
     top: 92px;
@@ -3706,7 +3710,11 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
-    left: 38%;
+    	left: 38%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-6 {
+		top: -115px;
+    	left: 36%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6::before {
     top: 93px;
@@ -3719,21 +3727,35 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8 {
 		top: -116px;
-    left: 50%;
+    	left: 50%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 {
+		top: -131px;
+    	left: 49%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8::before {
-    top: 92px;
+    	top: 92px;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8::before {
+    	top: 107px;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8 .line {
-    top: 112px;
+    	top: 112px;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 .line {
+    	top: 128px;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-9 {
-    left: 76%;
+    	left: 76%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10 {
-    top: -115px;
-    left: 69%;
+		top: -115px;
+		left: 69%;
 	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-10 {
+		top: -115px;
+		left: 72%;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10::before {
     top: 92px;
 	}
@@ -3744,6 +3766,10 @@ margin-top: 0;
     right: -1%;
     top: -115px;
 	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-11 {
+		right: 1;
+		top: -115px;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-11::before {
     top: 92px;
 	}
