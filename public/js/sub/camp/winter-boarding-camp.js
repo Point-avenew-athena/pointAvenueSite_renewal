@@ -41,4 +41,16 @@ $(function(){
 		$('.dim').show();
 		return this;
 	});
+
+	const form = document.getElementById('register-form');
+	form.addEventListener('submit', submitForm);
+
+	function submitForm() {
+		Swal.fire({
+			text: "Thank you for your registration, we will be in touch shortly!",
+			type: "success",
+			icon: "success",
+			timer: 3000
+		})
+	}
 });
