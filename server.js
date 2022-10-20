@@ -221,7 +221,7 @@ app.post('/camp/winter-boarding-camp', function (req, res) {
          },
          Subject: {
           Charset: 'UTF-8',
-          Data: 'Register Summer Day Camp'
+          Data: 'Register Winter Boarding Camp'
          }
         },
       Source: 'contact@pointavenue.com', /* required */
