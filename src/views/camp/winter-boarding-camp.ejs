@@ -6,294 +6,507 @@
 
 <%- include("../partials/common_styles") %>
 <%- include("../partials/common_scripts") %>
-<script language="JavaScript" type="text/javascript" src="/js/sub/camp/winter-boarding-camp.js"></script>
+<%- include("../partials/common_scripts") %>
+<script>
+  const teamMembers = <%- JSON.stringify(teamMembers) %>;
+</script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script language="JavaScript" type="text/javascript" src="/js/sub/camp/summer-boarding-camp.js"></script>
 <%- include("../partials/head_end") %>
 <%- include("../partials/body_start") %>
-<div class="wrap sub boarding_camp winter">
+<div class="wrap sub boarding_camp summer winter">
   <%- include("../partials/gnb") %>
   <!-- container :: start -->
 		<div class="container">
-			<section class="visual_wrap">
-				<div class="section_inner">
-					<div class="text_box">
-						<h2 class="title_r_01">WINTER BOARDING CAMP</h2>
-					</div>
+			<section class="banner_block">
+				<div style="padding:56.25% 0 0 0;position:relative;">
+					<iframe src="https://player.vimeo.com/video/760304855?h=19c5628cee&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&amp;loop=true&amp;autoplay=true&amp;background=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CampYenTu.mp4"></iframe>
 				</div>
-			</section>
-			
-			<section class="camp_translation_wrap">
-				<div class="section_inner">
-					<div class="btn_box">
-						<a href="/camp/winter-boarding-camp" class="eng on">Read in English</a>
-						<a href="/camp/winter-boarding-camp-vn" class="vitn">Read in Vietnamese</a>
+				<div class="shadow-top"></div>
+				<div class="shadow-bottom"></div>
+				<!-- <img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/bg_summer_camp.png"> -->
+				<div
+					class="absolute text-white w-1/3 label_banner"
+				>
+					<p class="title">WINTER LEADERS</p>
+					<div class="camp">
+						<span class="label">CAMP</span>
+						<!-- <img class="img" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/YT_logo.png" alt=""> -->
 					</div>
+					<p class="description">
+						Built from premium West Point, Cambridge and American Ivy League educational knowledge, Winter Leaders’ Camp (WLC) is the perfect catalyst to start off a new year.Our Camp provides campers with a transformational opportunity that inspires personal growth and leadership development. Point Avenue mentors will help campers develop key 21st Century leadership skills: communication, discipline, teamwork, critical thinking, creativity, problem-solving, and more.
+					</p>
+					<a href="#register">
+						<p class="read-more">
+							<span>LEARN </span>
+							<span class="button-hover">MORE</span>
+						</p>
+					</a>
 				</div>
+				<div class="menu">
+					<div class="menu-item">Point Avenue</div>
+					<a href="#experience">
+						<div class="menu-item">Programs</div>
+					</a>
+					<a href="#mentor">
+						<div class="menu-item">Mentors</div>
+					</a>
+					<a href="#offer">
+						<div class="menu-item">Offer</div>
+					</a>
+				</div>
+				
 			</section>
-
-			<section class="camp_info_wrap">
-				<div class="section_inner">
-					<div class="grid_type_wrap_01">
-						<div class="video_article">
-							<div class="article_box">
-								<div class="video_box">
-									<iframe src="https://www.youtube.com/embed/6lPTeyfisWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="main">
+				<section class="campaign" id="campaign">
+					<div class="block-1">
+						<p>
+							<span>CAMP</span> LEADERSHIP PHILOSOPHY 
+						</p>
+						<div class="box-navigation">
+							<div
+								class="box swiper-button-prev-camp"
+							>
+								<div class="ic-next"></div>
+							</div>
+							<div
+								class="box swiper-button-next-camp"
+							>
+								<div class="ic-prev"></div>
+							</div>
+						</div>
+					</div>
+					<div class="block-2">
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Academic-winter.jpg" alt="">
+									<div class="alt-img"><p>Academic Rigor</p></div>
+								</div>
+								<div class="swiper-slide">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Personal-health-winter.jpg" alt="">
+									<div class="alt-img"><p>Personal Health</p></div>
+								</div>
+								<div class="swiper-slide">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/global-winter.jpg" alt="">
+											<div class="alt-img"><p>Global Citizenry</p></div>
+								</div>
+								<div class="swiper-slide">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Global-citizenry-winter.jpg" alt="">
+											<div class="alt-img"><p>Character</p></div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="block-description">
+							<p class="content">
+								Campers will participate in invaluable programs and activities that embody our four pillars of leadership: Academic Rigor, Personal Health, Global Citizenry, and Character Development. They will grow in each of these areas as they participate in exciting activities such as academic courses, life-coaching, fitness, community service, daily healthy habits, nature exploration, sports, arts, and more!
+							</p>
+							<div class="swiper mySwiperMobile">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Academic-winter.jpg" alt="">
+										<div class="alt-img"><p>Academic Rigor</p></div>
+									</div>
+									<div class="swiper-slide">
+										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Personal-health-winter.jpg" alt="">
+										<div class="alt-img"><p>Personal Health</p></div>
+									</div>
+									<div class="swiper-slide">
+										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/global-winter.jpg" alt="">
+												<div class="alt-img"><p>Global Citizenry</p></div>
+									</div>
+									<div class="swiper-slide">
+										<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/Global-citizenry-winter.jpg" alt="">
+												<div class="alt-img"><p>Character</p></div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						<a href="#register">
+							<p class="read-more">
+								<span>REGISTER </span>
+								<span class="button-hover">NOW</span>
+							</p>
+						</a>
+						</div>
+					</div>
+				</section>
+				<section class="mentor" id="mentor">
+					<div class="block-1">
+						<p>
+							OUR INTERNATIONAL <span>MENTORS</span>
+						</p>
+						<div class="box-navigation">
+							<div
+								class="box swiper-button-prev-mentor"
+							>
+								<div class="ic-next"></div>
+							</div>
+							<div
+								class="box swiper-button-next-mentor"
+							>
+								<div class="ic-prev"></div>
+							</div>
+						</div>
+					</div>
+					<div class="block-2">
+						<div class="team_wrap">
+							<div class="section_inner">
+							<div class="swipe_type_01_wrap">
+								<div class="swiper mySwiperMentors">
+									<div class="swiper-wrapper">
+										<% for ( let i = 0; i < teamMembers.length; i++) { %>
+											<div class="swiper-slide">
+												<div class="swipe_type_01--img team_img">
+													<div class="img_box">
+														<img src="<%= teamMembers[i].img %>" alt="<%= teamMembers[i].img %>">
+													</div>
+												</div>
+												<div class="swipe_type_01--desc team_desc_box">
+													<div class="bg"></div>
+													<div class="info">
+														<p class="name"><%= teamMembers[i].name %></p>
+														<div class="position"><%= teamMembers[i].position %></div>
+														<div class="ex"><%= teamMembers[i].desc %></div>
+													</div>
+												</div>
+											</div>
+										<% } %>
+									</div>
+									<div class="swiper-pagination"></div>
 								</div>
 							</div>
 						</div>
-						<div class="text_article">
-							<h3 class="title_r_02 section_title">Winter Leaders Camp</h3>
-							<div class="text">
-								Our premier boarding camp program, Point Avenue Winter Leaders Camp (WLC), provides campers with an immersive and technology-limited environment focused on personal growth through character development, physical training, and rigorous academics.<br><br>
-                                Our boarding camps focus on developing the 21st Century leadership skills of communication, collaboration, critical thinking, and creativity. These skills are supported with leadership training methods such as team-based challenges and physical endurance activities.
+						
+						</div>
+						<div class="block-description">
+							<p>
+								Graduates of West Point, Harvard, Cambridge, Johns Hopkins, UPenn, Northwestern, UC Berkeley, UCLA, and more.</br>
+								25 years of experience operating boarding and day camps.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section class="offer" id="offer">
+					<div class="block-1">
+						<p class="title">OUR <span>OFFERS</span></p>
+					</div>
+					<div class="block-2">
+						<div class="block-pc">
+							<div class="box-text">
+								<p class="title">BUNDLE OFFER</p>
+								<span class="amount-winter">25% OFF</span>
 							</div>
-							<div class="btn_box">
-								<a href="https://pointavenue1.typeform.com/to/CfuQn299?typeform-source=trello.com" target="_blank" class="btn_type_01--sec">
-									<span class="btn_inner">Register</span>
-								</a>
+							<div class="bg">
+								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/bg-offer-winter.jpg" style="width: 950px">
+								<div class="box-content" style="flex: 1">
+									<div class="box-1">
+										<p class="text-offer text-thin">EARLY BIRD DISCOUNT</p>
+										<p class="text-offer text-bold">10% OFF by October 30th, 2022</p>
+									</div>
+									<div class="box-2">
+										<p class="text-offer text-thin">DISCOUNT OF</p>
+										<p class="text-offer text-bold">15%</p>
+										<p class="text-offer text-thin">FOR GROUP OF</p>
+										<p class="text-offer text-bold">11+ CAMPERS</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block-mobile">
+							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/bg-offer-winter.jpg">
+							<div class="content">
+								<div class="left">
+									<p class="text-offer text-thin">DISCOUNT</p>
+										<p class="text-offer text-bold">10% OFF by October 30th, 2022</p>
+										<p class="text-offer text-thin">FOR GROUP OF</p>
+										<p class="text-offer text-bold">11+ CAMPERS</p>
+								</div>
+								<div class="right">
+									<p class="text-thin">BUNDLE OFFER</p>
+									<span class="text-bold amount-winter">25% OFF</span>
+									<p class="text-offer text-thin">EARLY BIRD DISCOUNT</p>
+									<p class="text-offer text-bold">10% OFF</p>
+								</div>
+							</div>
+							<div class="background"></div>
+						</div>
+					</div>
+				</section>
+				<section class="experience" id="experience">
+					<div class="block-1">
+						<p>
+							WHAT CAMPERS WILL
+							<span>EXPERIENCE</span>
+						</p>
+					</div>
+					<div class="block-2">
+						<div class="boxDetail">
+							<div
+								class="boxExperience"
+							>
+								<div class="header">
+									<p class="label">LEADERSHIP</p>
+									<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_leadership.png" alt="" class="icon-pc">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_leadership_mobile.png"  class="icon-mobile" alt="">
+								</div>
+								<div class="blockDescription">
+									<p class="description">
+										<span>Personal Growth:</span>
+										Physical training, health and wellness, camp challenges, and life coaching
+										</p>
+									<p class="description">
+										<span>Others Mindset:</span> Team building, communication activities, and leadership roles
+									</p>
+									<p class="description">
+										<span>Community Focused:</span> Compassion, global citizenry, and community involvement
+									</p>
+								</div>
+							</div>
+							<div
+								class="boxExperience"
+							>
+								<div class="header">
+									<p class="label">ACADEMIC</p>
+									<div class="ic-academic"></div>
+									<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_academic.png" class="icon-pc" alt="">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_academic_mobile.png" class="icon-mobile" alt="">
+								</div>
+								<div class="blockDescription">
+									<p class="description">
+										<span>Class 1:</span> Life Coaching - Leading Effective Teams
+									</p>
+									<p class="description">
+										<span>Focus:</span> Interpersonal skills, reflective writing, and public speaking
+									</p>
+									<p class="description">
+										<span>Class 2:</span> Global Citizens - Life Below Water
+									</p>
+									<p class="description">
+										<span>Focus:</span> Compassion, critical thinking, and team presentation skills
+									</p>
+								</div>
+							</div>
+							<div
+								class="boxExperience"
+							>
+								<div class="header">
+									<p class="label">PHYSICAL FITNESS</p>
+									<img  style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_physical.png" class="icon-pc" alt="">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_physical_mobile.png" class="icon-mobile" alt="">
+								</div>
+								<div class="blockDescription">
+									<p class="description">
+										Plyometrics, body workouts, fitness technique coaching
+									</p>
+									<p class="description">
+										<span>Team Sports:</span> Volleyball, American football, basketball
+									</p>
+									<p class="description">
+										<span>PA’s Physical Fitness Award:</span> Initial and final fitness test
+									</p>
+									<p class="description">
+										As a culminating event, campers will complete either a 5 or 10 kilometer race.
+									</p>
+								</div>
+							</div>
+							<div
+								class="boxExperience"
+							>
+								<div class="header">
+									<p class="label">SAFETY & NUTRITION MEASUREMENT</p>
+									<img style="width: 4rem;" src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_safety.png" class="icon-pc" alt="">
+									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/ic_safety_mobile.png" class="icon-mobile" alt="">
+								</div>
+								<div class="blockDescription">
+									<p class="description">
+										Point Avenue provides Accident Insurance to all registered
+										students
+									</p>
+									<p class="description">
+										A Registered Nurse (RN) will be on-site 24/7
+									</p>
+									<p class="description">
+										Students will be provided three nutritious meals each day with
+										carbohydrates, protein, and fresh vegetables. Meals will include
+										Vietnamese (50%), Korean (25%), and Western (25%) food options
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-			
-			<section class="philosophy_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Camp Leadership Philosophy</h3>
-					<ul class="box_type_01">
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/communication.png" alt="">
-							</div>
-							<p class="title_r_03">Communication</p>
-						</li>
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/collaboration.png" alt="">
-							</div>
-							<p class="title_r_03">Collaboration</p>
-						</li>
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/critical Thinking.png" alt="">
-							</div>
-							<p class="title_r_03">Critical Thinking</p>
-						</li>
-						
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/creativity.png" alt="">
-							</div>
-							<p class="title_r_03">Creativity</p>
-						</li>
-						
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/problem Solving.png" alt="">
-							</div>
-							<p class="title_r_03">Problem Solving</p>
-						</li>
-						
-						<li class="box_type_01--item">
-							<div class="img_box">
-								<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/discipline.png" alt="">
-							</div>
-							<p class="title_r_03">Discipline</p>
-						</li>
-					</ul>
-					<div class="cloud_wrap">
-						<div class="cloud_item cloud_item_01"></div>
-						<div class="cloud_item cloud_item_02"></div>
-						<div class="cloud_item cloud_item_03"></div>
+				</section>
+				<section class="timeline">
+					<div class="block-1">
+						<p class="title">
+							<span>TYPICAL</span> DAY OF CAMP
+						</p>
 					</div>
-				</div>
-			</section>
-			
-			<section class="differences_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Camp Differences</h3>
-					<ul class="box_type_01 asset_list video_list">
-						<li class="asset_item asset_01">
-							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/asset_icon_01.png" alt="">
-							<p class="title_r_03">Leadership</p>
-							<div class="text--gray">
-								Personal Growth<br>
-                                Teamwork<br>
-                                Community Service<br>
-                                Habit Building
+					<div class="block-2">
+						<div class="ic-next timeline-pc">
+							<div class="box-timeline box-timeline-1">
+								<span>06.15</span>
+								<span class="desc">Line up</span>
+								<div class="line"></div>
 							</div>
-						</li>
-						<li class="asset_item asset_02">
-							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/asset_icon_02.png" alt="">
-							<p class="title_r_03">Academics</p>
-							<div class="text--gray">
-								Global Citizens<br>
-                                Life Coaching<br>
-                                Public Speaking<br>
-                                Reflective Writing
+							<div class="box-timeline box-timeline-2">
+								<span>06.30</span>
+								<span class="desc">Fitness Activities</span>
+								<div class="line"></div>
 							</div>
-						</li>
-						<li class="asset_item asset_03">
-							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/asset_icon_03.png" alt="">
-							<p class="title_r_03">Physical Fitness</p>
-							<div class="text--gray">
-								Fitness Challenges<br>
-                                Daily Workouts<br>
-                                Team Sports<br>
-                                PA Physical Fitness Test
+							<div class="box-timeline box-timeline-3">
+								<span>8.15</span>
+								<span class="desc">Breakfast</span>
+								<div class="line"></div>
 							</div>
-						</li>
-						<li class="asset_item asset_04">
-							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/asset_icon_04.png" alt="">
-							<p class="title_r_03">Skill building</p>
-							<div class="text--gray">
-								The art of learning<br>
-                                Archery<br>
-                                Team Sports<br>
-                                Life Skills
+							<div class="box-timeline box-timeline-4">
+								<span>10.00</span>
+								<span class="desc">Room Inspection</span>
+								<div class="line"></div>
 							</div>
-						</li>
-						<li class="asset_item asset_05">
-							<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/boarding/asset_icon_05.png" alt="">
-							<p class="title_r_03">Camp Setting</p>
-							<div class="text--gray">
-								Surrounded by Nature<br>
-                                Technology Limited
+							<div class="box-timeline box-timeline-5">
+								<span>10.30</span>
+								<span class="desc">Global Citizens: Life Below Water</span>
+								<div class="line"></div>
 							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-			
-			
-			<section class="testimonials_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Testimonials</h3>
-					<div class="swipe_type_01_wrap results_swiper_01">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper swipe_type_02 team_list">
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-1.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-2.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-3.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-4.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-5.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-6.jpg" alt="">
-										</div>
-									</a>
-								</li>
-								<li class="swiper-slide swipe_type_02--item team_item">
-									<a href="javascript:void(0);">
-										<div class="swipe_type_02--img team_img">
-											<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/summer/testimonials/LoveforPA-7.jpg" alt="">
-										</div>
-									</a>
-								</li>
-							</ul>						
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev black"></div>
-							<div class="swiper-button-next black"></div>
-							
-							<div class="swiper-pagination"></div>	
+							<div class="box-timeline box-timeline-6">
+								<span>12.00</span>
+								<span class="desc">Lunch</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-8">
+								<span>12.45</span>
+								<span class="desc">Life Coaching: Leading Effective Teams</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-7">
+								<span>14.30</span>
+								<span class="desc">Afternoon Activities</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-10">
+								<span>17.30</span>
+								<span class="desc">Dinner</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-9">
+								<span>18.00</span>
+								<span class="desc">Intentional Time</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-11">
+								<span>19.15</span>
+								<span class="desc">Evening Activity</span>
+								<div class="line"></div>
+							</div>
+							<div class="box-timeline box-timeline-12">
+								<span>21.30</span>
+								<span class="desc">Lights Out</span>
+								<div class="line"></div>
+							</div>
+						</div>
+						<div class="timeline-mobile">
+							<div class="line"></div>
+							<div class="div-timeline">
+								<div class="box">
+									<span class="time">06.15</span>
+									<span class="desc">Line up</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span>06.30</span>
+									<span class="desc">Fitness Activities</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span>08.15</span>
+									<span class="desc">Breakfast</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">10.00</span>
+									<span class="desc">Room Inspection</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">10.30</span>
+									<span class="desc">Global Citizens: Life Below Water</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">12.00</span>
+									<span class="desc">Lunch</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">12.45</span>
+									<span class="desc">Life Coaching: Leading Effective Teams</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">14.30</span>
+									<span class="desc">Afternoon Activities</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">17.30</span>
+									<span class="desc">Dinner</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">18.00</span>
+									<span class="desc">Intentional Time</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">19.15</span>
+									<span class="desc">Evening Activity</span>
+									<div class="line-box"></div>
+								</div>
+								<div class="box">
+									<span class="time">21.30</span>
+									<span class="desc">Lights Out</span>
+									<div class="line-box"></div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+				<section class="register" id="register">
 
-			<section class="location_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Location: Royal Lotus Halong Resort & Villa</h3>
-					<div class="swipe_type_01_wrap results_swiper_01">
-						<div class="swiper-container">
-							<ul class="swiper-wrapper">
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/1.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/2.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/3.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/4.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/5.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/6.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/7.jpg" alt="">
-								</li>
-								<li class="swiper-slide">
-									<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/8.jpg" alt="">
-								</li>
-							</ul>
-							<!-- If we need navigation buttons -->
-							<div class="swiper-button-prev black"></div>
-							<div class="swiper-button-next black"></div>
-						</div>
+				<div class="register-logo">
+					<div class="logo-title">
+						<p class="title">REGISTER 
+						</p>
+						<span>
+							NOW	
+						</span>
 					</div>
-				</div>
-			</section>
-			
-			<section class="offers_wrap">
-				<div class="section_inner">
-					<h3 class="title_r_02 section_title">Our Offers</h3>
-					<div class="brochure_box">
-						<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/discount.png" alt="">
-					</div>
-				</div>
-			</section>
-			
-			<section class="info_input_wrap">
-				<div data-tf-widget="CfuQn299" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
-			</section>
-		</div>
-		<!--container :: end-->
-		<div class="layer_popup testimonials_popup">
-			<div class="popup_cont">
-				<div class="img_box">
-					<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/common/testimonial.png" alt="">
-				</div>
+					<img src="https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/winnter/boarding/bg-register.jpg">
+				</div>		
+				<div class="register-container">
+					<form id="register-form" class="register-form" method="POST" action="/camp/summer-boarding-camp">
+						<input class="form-control" placeholder="First Name*" id="firstName" name="firstName" required>
+						<input class="form-control" placeholder="Last Name*"  id="lastName" name="lastName" required>
+						<input class="form-control" placeholder="Email*"  id="email" name="email" required type="email">
+						<input class="form-control" placeholder="Mobile Number*"  id="phoneNumber" name="phoneNumber">
+						<input class="form-control" placeholder="Your Child Name"  id="childName" name="childName">
+						<input class="form-control" placeholder="Student's Grade & School*"  id="grade" name="grade" required>
+						<button class="read-more" type="submit" onclick="submitForm()">
+							<span>Sign</span>
+							<span class="button-hover">Up</span>
+						</button>
+					</form>
+				<div>			
+				</section>
 			</div>
-			<a href="javascript:void(0);" class="close_btn"><span class="blind">close</span></a>
+
+			
+			<%- include("../partials/common_popup") %>
+
 		</div>
+		<script src="https://player.vimeo.com/api/player.js"></script>
     <%- include("../partials/footer") %>
-		<%- include("../partials/common_popup") %>
 </div>
     <%- include("../partials/body_end") %>

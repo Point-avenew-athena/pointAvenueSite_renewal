@@ -86,6 +86,7 @@
 .about_us .partners_wrap .partners_cont li img{ position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);}*/
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Justin img {
 	object-fit: cover;
+	height: 100%;
 }
 .about_us .history_wrap .title_s_01 { font-family: 'roboto'; font-size: 24px; font-weight: 800; margin-bottom:20px;}
 .about_us .history_wrap .history_box_01 {}
@@ -519,6 +520,14 @@
 	flex-direction: row;
 }
 
+.boarding_camp.winter .container .banner_block .label_banner .camp {
+	text-align: right;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
 .boarding_camp .container .banner_block .label_banner .camp img {
 	width: 150px;
 }
@@ -535,6 +544,20 @@
 	-webkit-text-fill-color: transparent;
 	margin: 1rem 0;
 	padding: 0 3rem;
+}
+
+.boarding_camp.winter .container .banner_block .label_banner .camp .label {
+	font-family: 'Barlow Condensed Thin' !important;
+	font-style: normal;
+	font-weight: 250;
+	font-size: 130px;
+	line-height: 120%;
+	text-align: right;
+	background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 1rem 0;
+	padding: 0;
 }
 
 .boarding_camp .swipe_type_01 .swipe_type_01--img .img_box {
@@ -855,6 +878,13 @@
 	font-weight: 700;
 }
 
+.boarding_camp.winter .container .bg .box-content .box-1 .text-bold {
+	line-height: 120%;
+    font-size: 32px;
+	font-family: 'Barlow Condensed' !important;
+	font-weight: 700;
+}
+
 .boarding_camp .container .bg .box-content .box-1 .text-thin {
 	font-weight: 250;
 	font-size: 38px;
@@ -930,6 +960,35 @@ margin-top: 0;
 	color: #FFFFFF;
 }
 .boarding_camp .container .offer .block-2 .box-text .amount::before {
+	content: "LÊN TỚI";
+	position: absolute;
+	left: -108px;
+	top: -10px;
+	font-family: 'Barlow Condensed' !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount-winter {
+	font-family: 'Barlow Condensed' !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 13rem;
+	position: relative;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount-winter::before {
 	content: "LÊN TỚI";
 	position: absolute;
 	left: -108px;
@@ -1332,9 +1391,18 @@ margin-top: 0;
 	left: 75%;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-9{
+	left: 71%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-2{
 	top: -148px;
-  left: 0%;
+  	left: 0%;
+}
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2{
+	top: -115px;
+  	left: 0%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4{
@@ -1352,6 +1420,11 @@ margin-top: 0;
     left: 49%;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-8{
+	top: -149px;
+    left: 49%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-10{
 	top: -114px;
     left: 69%;
@@ -1359,6 +1432,12 @@ margin-top: 0;
 
 .boarding_camp .container .timeline .block-2 .box-timeline-11{
 	right: -3%;
+    top: -114px;
+}
+
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-11{
+	right: 2%;
     top: -114px;
 }
 
@@ -1387,6 +1466,10 @@ margin-top: 0;
 	top: 145px;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2 .line{
+	top: 112px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-4 .line{
 	top: 112px;
 }
@@ -1397,6 +1480,10 @@ margin-top: 0;
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
 	top: 116px;
+}
+
+.boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
+	top: 145px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10 .line {
@@ -1450,6 +1537,10 @@ margin-top: 0;
   top: 126px;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
+	top: 93px;
+  }
+
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before{
 	top: 93px;
 }
@@ -1461,6 +1552,10 @@ margin-top: 0;
 .boarding_camp .container .timeline .block-2 .box-timeline-8::before{
   top: 97px;
 }
+
+.boarding_camp .container .timeline .block-2 .box-timeline-8::before{
+	top: 126px;
+  }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10::before {
 	top: 94px;
@@ -2450,6 +2545,35 @@ margin-top: 0;
 	color: #FFFFFF;
 }
 .day_camp .container .offer .block-2 .box-text .amount::before {
+	content: "LÊN TỚI";
+	position: absolute;
+	left: -110px;
+	top: -10px;
+	font-family: 'Barlow Condensed' !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.day_camp .container .offer .block-2 .box-text .amount-winter {
+	font-family: 'Barlow Condensed' !important;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 7rem;
+	position: relative;
+}
+
+.day_camp .container .offer .block-2 .box-text .amount-winter::before {
 	content: "LÊN TỚI";
 	position: absolute;
 	left: -110px;
@@ -3539,7 +3663,11 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4 {
 		top: -115px;
-    left: 22%;
+    	left: 22%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-4 {
+		top: -115px;
+    	left: 19%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4::before {
     top: 92px;
@@ -3552,7 +3680,12 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
-    left: 38%;
+    	left: 38%;
+	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-6 {
+		top: -115px;
+    	left: 35%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6::before {
     top: 91px;
@@ -3567,19 +3700,41 @@ margin-top: 0;
 		top: -116px;
     left: 50%;
 	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 {
+		top: -141px;
+    	left: 49%;
+	}
+	
 	.boarding_camp .container .timeline .block-2 .box-timeline-8::before {
     top: 92px;
 	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8::before {
+		top: 120px;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8 .line {
     top: 112px;
 	}
+	.boarding_camp .container .timeline .block-2 .box-timeline-8 .line {
+		top: 137px;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-9 {
     left: 76%;
 	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-9 {
+		left: 73%;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10 {
     top: -115px;
     left: 69%;
 	}
+
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-10 {
+		top: -115px;
+		left: 71%;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10::before {
     top: 92px;
 	}
@@ -3613,7 +3768,13 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .description {
 		font-size: 16px;
-    line-height: 19px;
+    	line-height: 19px;
+		margin-top: 0;
+	}
+
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-size: 18px;
+    	line-height: 24px;
 		margin-top: 0;
 	}
 
@@ -4768,6 +4929,23 @@ margin-top: 0;
 		color: #FFFFFF;
 	}
 
+	.boarding_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+		position: relative;
+	}
+
+	.boarding_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
+		content: "LÊN TỚI";
+		position: absolute;
+		left: -20px;
+    top: -5px;
+		font-family: 'Barlow Condensed' !important;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 8px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
 	.boarding_camp .container .experience .block-1 p {
 		font-family: 'Barlow Condensed Thin' !important;
 		font-style: normal;
@@ -5566,6 +5744,33 @@ margin-top: 0;
 			text-transform: uppercase;
 			color: #FFFFFF;
 		}
+
+		.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+			position: relative;
+			font-family: 'Barlow Condensed' !important;
+			font-style: normal;
+			font-weight: 250;
+			font-size: 49px;
+			line-height: 90px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+		}
+	
+		.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
+			content: "UP TO";
+			position: absolute;
+			left: -28px;
+			top: -10px;
+			font-family: 'Barlow Condensed' !important;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 11px;
+			line-height: 90px;
+			display: flex;
+			align-items: center;
+			text-transform: uppercase;
+			color: #FFFFFF;
+		}
 	
 		.day_camp .container .experience .block-1 p {
 			font-family: 'Barlow Condensed Thin' !important;
@@ -6238,6 +6443,17 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-family: 'Barlow Condensed Thin' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    width: 70%;
+    color: #FFFFFF;
+	}
 	.boarding_camp .container .banner_block {
 		height: 480px;
 	}
@@ -6265,6 +6481,17 @@ margin-top: 0;
 		line-height: 96%;
 		text-align: right;
 		padding: 0;
+	}
+
+	.boarding_camp.winter .container .banner_block .label_banner .camp .label {
+		font-family: 'Barlow Condensed' !important;
+		font-style: normal;
+		font-weight: 250;
+		font-size: 67px;
+		line-height: 120%;
+		text-align: center;
+		padding: 0;
+		width: 100%;
 	}
 
 	.boarding_camp .container .banner_block .label_banner .camp img {
@@ -6485,6 +6712,23 @@ margin-top: 0;
 		font-style: normal;
 		font-weight: 700;
 		font-size: 6px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.boarding_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+		position: relative;
+	}
+
+	.boarding_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
+		content: "LÊN TỚI";
+		position: absolute;
+		left: -25px;
+    	top: -5px;
+		font-family: 'Barlow Condensed' !important;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 8px;
 		text-transform: uppercase;
 		color: #FFFFFF;
 	}
@@ -7185,12 +7429,6 @@ margin-top: 0;
     padding: 20px 10px;
 		justify-content: flex-start;
 	}
-
-	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
-		position: relative;
-		font-size: 32px;
-	}
-
 	.day_camp .container .offer .block-2 .block-mobile .content .right .text-thin {
 		font-size: 32px;
 	}
@@ -7203,6 +7441,10 @@ margin-top: 0;
 		font-size: 20px;
 	}
 
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
+		position: relative;
+		font-size: 32px;
+	}
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::after {
 		content: "VND";
 		position: absolute;
@@ -7216,6 +7458,23 @@ margin-top: 0;
 		color: #FFFFFF;
 	}
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::before {
+		content: "UP TO";
+		position: absolute;
+		left: -20px;
+    top: -5px;
+		font-family: 'Barlow Condensed' !important;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 8px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+		position: relative;
+		font-size: 32px;
+	}
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
 		content: "UP TO";
 		position: absolute;
 		left: -20px;

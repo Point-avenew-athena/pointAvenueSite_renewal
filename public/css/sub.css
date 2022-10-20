@@ -80,6 +80,7 @@
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Trent img{top:-5%;} */
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Justin img {
 	object-fit: cover;
+	height: 100%;
 }
 /*.about_us .partners_wrap .partners_cont ul{overflow: hidden; margin: -10px;}
 .about_us .partners_wrap .partners_cont li {float: left; position: relative; width:16.6%; padding:10px; border-radius: 10px;}
@@ -933,6 +934,13 @@
 	font-weight: 700;
 }
 
+.boarding_camp.winter .container .bg .box-content .box-1 .text-bold {
+	line-height: 120%;
+    font-size: 32px;
+	font-family: 'Barlow Condensed';
+	font-weight: 700;
+}
+
 .boarding_camp .container .bg .box-content .box-1 .text-thin {
 	font-weight: 250;
 	font-size: 38px;
@@ -1008,6 +1016,35 @@ margin-top: 0;
 	color: #FFFFFF;
 }
 .boarding_camp .container .offer .block-2 .box-text .amount::before {
+	content: "UP TO";
+	position: absolute;
+	left: -90px;
+	top: -10px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount-winter {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 7rem;
+	position: relative;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount-winter::before {
 	content: "UP TO";
 	position: absolute;
 	left: -90px;
@@ -1405,9 +1442,17 @@ margin-top: 0;
 .boarding_camp .container .timeline .block-2 .box-timeline-9{
 	left: 75%;
 }
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-9{
+	left: 71%;
+}
 
 .boarding_camp .container .timeline .block-2 .box-timeline-2{
 	top: -139px;
+  left: 0%;
+}
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2{
+	top: -119px;
   left: 0%;
 }
 
@@ -1426,9 +1471,19 @@ margin-top: 0;
     left: 49%;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-8{
+	top: -160px;
+    left: 49%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-10{
 	top: -119px;
     left: 69%;
+}
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-10{
+	top: -118px;
+    left: 72%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-11{
@@ -1436,8 +1491,18 @@ margin-top: 0;
     top: -118px;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-11{
+	right: 2%;
+    top: -118px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-12{
 	right: 2%;
+	top: 40px;
+}
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-12{
+	right: -1%;
 	top: 40px;
 }
 
@@ -1461,6 +1526,10 @@ margin-top: 0;
 	top: 135px;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2 .line{
+	top: 116px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-4 .line{
 	top: 112px;
 }
@@ -1471,6 +1540,10 @@ margin-top: 0;
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8 .line{
 	top: 134px;
+}
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 .line{
+	top: 156px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10 .line {
@@ -1524,6 +1597,10 @@ margin-top: 0;
   top: 115px;
 }
 
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
+	top: 97px;
+  }
+
 .day_camp .container .objectives .block-2 .obj-register {
 	margin-top: 2rem;
 }
@@ -1539,6 +1616,10 @@ margin-top: 0;
 .boarding_camp .container .timeline .block-2 .box-timeline-8::before{
   top: 116px;
 }
+
+.boarding_camp.winter .container .timeline .block-2 .box-timeline-8::before{
+	top: 136px;
+  }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-10::before {
 	top: 97px;
@@ -2646,7 +2727,38 @@ margin-top: 0;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
+
 .day_camp .container .offer .block-2 .box-text .amount::before {
+	content: "UP TO";
+	position: absolute;
+	left: -90px;
+	top: -10px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.day_camp .container .offer .block-2 .box-text .amount-winter {
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	letter-spacing: 0.07em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-left: 7rem;
+	position: relative;
+}
+
+
+.day_camp .container .offer .block-2 .box-text .amount-winter::before {
 	content: "UP TO";
 	position: absolute;
 	left: -90px;
@@ -3582,7 +3694,11 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4 {
 		top: -115px;
-    left: 22%;
+    	left: 22%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-4 {
+		top: -115px;
+    	left: 18%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-4::before {
     top: 92px;
@@ -3595,7 +3711,11 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
-    left: 38%;
+    	left: 38%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-6 {
+		top: -115px;
+    	left: 36%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6::before {
     top: 93px;
@@ -3608,21 +3728,35 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8 {
 		top: -116px;
-    left: 50%;
+    	left: 50%;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 {
+		top: -131px;
+    	left: 49%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8::before {
-    top: 92px;
+    	top: 92px;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8::before {
+    	top: 107px;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-8 .line {
-    top: 112px;
+    	top: 112px;
+	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 .line {
+    	top: 128px;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-9 {
-    left: 76%;
+    	left: 76%;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10 {
-    top: -115px;
-    left: 69%;
+		top: -115px;
+		left: 69%;
 	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-10 {
+		top: -115px;
+		left: 72%;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-10::before {
     top: 92px;
 	}
@@ -3633,6 +3767,10 @@ margin-top: 0;
     right: -1%;
     top: -115px;
 	}
+	.boarding_camp.winter .container .timeline .block-2 .box-timeline-11 {
+		right: 1;
+		top: -115px;
+		}
 	.boarding_camp .container .timeline .block-2 .box-timeline-11::before {
     top: 92px;
 	}
@@ -3656,6 +3794,10 @@ margin-top: 0;
 
 	.boarding_camp .container .banner_block .label_banner .description {
 		font-size: 16px;
+		margin-top: 0;
+	}
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-size: 20px;
 		margin-top: 0;
 	}
 
@@ -5008,6 +5150,17 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+	.boarding_camp.winter .container .offer .block-2 .block-mobile .content .text-thin {
+		font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
 	.boarding_camp .container .offer .block-2 .block-mobile .content .text-bold {
 		font-family: 'Barlow Condensed';
     font-style: normal;
@@ -5875,6 +6028,33 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+		position: relative;
+		font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 49px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
+		content: "UP TO";
+		position: absolute;
+		left: -28px;
+    top: -10px;
+		font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
 	.day_camp .container .experience .block-1 p {
 		font-family: 'Barlow Condensed Thin';
 		font-style: normal;
@@ -6529,6 +6709,17 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 
+	.boarding_camp.winter .container .banner_block .label_banner .description {
+		font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    width: 70%;
+    color: #FFFFFF;
+	}
+
 	.boarding_camp .container .banner_block {
 		height: 480px;
 	}
@@ -6700,11 +6891,23 @@ margin-top: 0;
 		width: 36%;
     padding: 20px 10px;
 	}
-	.boarding_camp .container .offer .block-2 .block-mobile .content .text-thin {
-		font-family: 'Barlow Condensed Thin';
+
+	.boarding_camp .container .offer .block-2 .block-mobile .content .text-bold {
+		font-family: 'Barlow Condensed';
     font-style: normal;
-    font-weight: 250;
+    font-weight: 700;
     font-size: 22px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+	}
+
+	.boarding_camp.winter .container .offer .block-2 .block-mobile .content .text-bold {
+		font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 26px;
     text-align: right;
     text-transform: uppercase;
@@ -6744,6 +6947,15 @@ margin-top: 0;
 		justify-content: flex-end;
 		flex-direction: column;
 		align-items: flex-end;
+	}
+
+	.boarding_camp.winter .container .offer .block-2 .block-mobile .content .right {
+		width: 60%;
+    padding: 20px 10px;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: center;
 	}
 
 	.boarding_camp .container .offer .block-2 .block-mobile .content .right {
@@ -7475,11 +7687,6 @@ margin-top: 0;
 		justify-content: flex-start;
 	}
 
-	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
-		position: relative;
-		font-size: 32px;
-	}
-
 	.day_camp .container .offer .block-2 .block-mobile .content .right .text-thin {
 		font-size: 32px;
 	}
@@ -7490,6 +7697,11 @@ margin-top: 0;
 
 	.day_camp .container .offer .block-2 .block-mobile .content .left .text-bold {
 		font-size: 20px;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount {
+		position: relative;
+		font-size: 32px;
 	}
 
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::after {
@@ -7505,6 +7717,24 @@ margin-top: 0;
 		color: #FFFFFF;
 	}
 	.day_camp .container .offer .block-2 .block-mobile .content .right .amount::before {
+		content: "UP TO";
+		position: absolute;
+		left: -20px;
+    top: -5px;
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 8px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter {
+		position: relative;
+		font-size: 32px;
+	}
+
+	.day_camp .container .offer .block-2 .block-mobile .content .right .amount-winter::before {
 		content: "UP TO";
 		position: absolute;
 		left: -20px;
