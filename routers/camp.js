@@ -23,6 +23,18 @@ router.get('/winter-boarding-camp', function (req, res) {
   res.render('camp/winter-boarding-camp', {teamMembers})
 })
 
+router.get('/winter-boarding-camp-vn', function (req, res) {
+  // res.send('Camp > Summer Day Camp')
+  const teamMembers = require("../data/camp/mentors-winter-camp.json");
+  res.render('camp/winter-boarding-camp', {teamMembers})
+})
+
+router.get('/winter-day-camp-vn', function (req, res) {
+  // res.send('Camp > Summer Day Camp')
+  const teamMembers = require("../data/camp/mentors-winter-camp.json");
+  res.render('camp/winter-boarding-camp', {teamMembers})
+})
+
 router.get('/online-summer-camp', function (req, res) {
   // res.send('Camp > Online Summer Camp')
   res.render('camp/online-summer-camp')

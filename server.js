@@ -187,7 +187,7 @@ app.post('/camp/summer-day-camp', function (req, res) {
   }
 })
 
-app.post('/camp/summer-winter-camp', function (req, res) {
+app.post('/camp/winter-boarding-camp', function (req, res) {
   if (req.body.email) {
     var params = {
       Destination: { /* required */
