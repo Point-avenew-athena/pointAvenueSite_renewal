@@ -86,6 +86,7 @@
 .about_us .partners_wrap .partners_cont li img{ position: absolute; top: 50%; right:0%; width: auto; height: auto; min-width: 100%; min-height: 100%; transform: translateY(-50%);}*/
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Justin img {
 	object-fit: cover;
+	height: 100%;
 }
 .about_us .history_wrap .title_s_01 { font-family: 'roboto'; font-size: 24px; font-weight: 800; margin-bottom:20px;}
 .about_us .history_wrap .history_box_01 {}
