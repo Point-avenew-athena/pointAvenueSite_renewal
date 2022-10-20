@@ -80,6 +80,7 @@
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Trent img{top:-5%;} */
 .about_us .team_wrap .swipe_type_01 .swipe_type_01--item.Justin img {
 	object-fit: cover;
+	height: 100%;
 }
 /*.about_us .partners_wrap .partners_cont ul{overflow: hidden; margin: -10px;}
 .about_us .partners_wrap .partners_cont li {float: left; position: relative; width:16.6%; padding:10px; border-radius: 10px;}
