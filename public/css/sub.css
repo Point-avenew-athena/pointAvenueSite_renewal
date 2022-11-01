@@ -601,6 +601,19 @@
 	padding: 0 3rem;
 }
 
+.boarding_camp.grit .container .banner_block .label_banner li {
+	margin-left: 25px;
+    list-style-type: circle;
+	width: 100%;
+	font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
 .boarding_camp .swipe_type_01 .swipe_type_01--img .img_box {
 	border-radius: 0px
 }
@@ -648,6 +661,54 @@
 	display: flex;
 	gap: 2rem;
 	margin-bottom: 8rem;
+}
+
+.boarding_camp .container .price {
+	display: flex;
+	margin-bottom: 8rem;
+	flex-direction: column;
+}
+
+.boarding_camp .container .price .block-1 {
+	width: 100%;
+    align-items: center;
+}
+
+.boarding_camp .container .price .block-2 {
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boarding_camp .container .price .block-2 .block-description {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boarding_camp .container .price .block-1 p {
+    font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.boarding_camp .container .price .block-1 p span {
+    font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.boarding_camp .container .price .block-1 p {
+	text-align: center;
 }
 
 .boarding_camp .container .block-2 .swiper-slide {
@@ -1491,6 +1552,18 @@ margin-top: 0;
 		margin-left: 10rem;
 		
 }
+
+.boarding_camp.grit .container .register .register-logo span {
+	font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+	margin-left: 3rem;
+		
+}
 .boarding_camp .container .register .register-container {
 	display: flex;
 	padding: 6px 0;
@@ -1558,7 +1631,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-3{
-	left: 34%;
+	left: 33%;
 	top: 39px
 }
 
@@ -1591,8 +1664,13 @@ margin-top: 0;
   	left: 5%;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2{
+	top: -114px;
+  	left: 5%;
+}
+
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2{
-	top: -136px;
+	top: -128px;
   	left: 5%;
 }
 
@@ -1612,7 +1690,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4{
-	top: -155px;
+	top: -145px;
     left: 70%;
 }
 
@@ -1685,12 +1763,16 @@ margin-top: 0;
 	top: 133px;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2 .line{
+	top: 110px;
+}
+
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-2 .line{
 	top: 114px;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line{
-	top: 133px;
+	top: 125px;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2 .line{
@@ -1702,7 +1784,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 .line{
-	top: 152px;
+	top: 141px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 .line{
@@ -1776,12 +1858,16 @@ margin-top: 0;
 	top: 97px;
   }
 
-  .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
-	top: 135px;
+  .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before{
+	top: 92px;
   }
 
   .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
-	top: 116px;
+	top: 105px;
+  }
+
+  .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
+	top: 106px;
   }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
@@ -1797,7 +1883,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4::before{
-	top: 135px;
+	top: 120px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before{
@@ -1849,7 +1935,7 @@ margin-top: 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8%;
+	gap: 20px;
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience{
@@ -1866,7 +1952,7 @@ margin-top: 0;
 	transition: height 15s;
 	flex-direction: column;
 	display: flex;
-	width: calc(100% - 50px);
+	width: calc(100%/2 - 20px);
 	border-bottom: none;
 }
 .boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience li{
@@ -1928,6 +2014,7 @@ margin-top: 0;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	max-width: 70%;
 }
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .img-leader{
 	width: 46px;
@@ -2037,6 +2124,10 @@ margin-top: 0;
 
 .boarding_camp .container .block-2 .swiper-slide img {
 	/* width: 400px; */
+}
+
+.boarding_camp .container .block-2 .swiper-slide img.Nghia, .boarding_camp .container .block-2 .swiper-slide img.Duc {
+	height: 236px;
 }
 
 .boarding_camp .container .box-navigation .box .ic-next, 
@@ -6998,6 +7089,10 @@ margin-top: 0;
 		text-align: right;
 		padding: 0;
 	}
+	.boarding_camp.grit .container .banner_block .label_banner li {
+		font-size: 12px;
+    line-height: 16px;
+	}
 
 	.boarding_camp .container .banner_block .label_banner .camp img {
 		width: 85px;
@@ -7307,6 +7402,7 @@ margin-top: 0;
 
 	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience {
 		width: 100%;
+		flex-direction: row;
 	}
 
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header {
@@ -7330,7 +7426,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header {
-		max-width: 100%;
+		max-width: 105px;
 		justify-content: center;
 		align-items: center;
 	}
@@ -7354,6 +7450,15 @@ margin-top: 0;
 		line-height: 14px;
 		color: #FFFFFF;
 	}
+
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .description {
+		font-family: 'Barlow Condensed Thin';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description span {
 		font-family: 'Barlow Condensed';
 		font-style: normal;
@@ -7361,8 +7466,8 @@ margin-top: 0;
 	}
 
 	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header .label {
-		font-size: 20px;
-		line-height: 24px;
+		font-size: 18px;
+		line-height: 22px;
 	}
 
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .label {

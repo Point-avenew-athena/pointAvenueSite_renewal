@@ -1,81 +1,73 @@
 [
   {
     "id": 1,
-    "name": "Danny",
+    "name": "Danny Hwang",
+    "key": "Danny",
     "position": "Founder & CEO",
     "exp": [
-      "12 years of experience in Education",
-      "Founder & CEO,  Point Avenue",
-      "Co-Founder & COO, New Pathway Education",
-      "Managing Director, EIC Education",
-      "Captain, US Army Ranger",
-      "BS, United States Military Academy"
+      "Point Avenue",
+      "B.S, West Point"
     ],
-    "desc": "B.S. United States Military Academy at West Point",
+    "desc": "B.S, West Point",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
   },
   {
     "id": 4,
-    "name": "Zack",
-    "position": "Activities Coordinator",
+    "name": "Zack Jones",
+    "key": "Zack",
+    "position": "Camp Director, Point Avenue",
     "exp": [
-      "13 years of experience in Finance",
-      "Finance Controller, Point Avenue",
-      "Consulting Manager, Deloitte",
-      "Audit Manager, Deloitte ",
-      "Head of Sustainability Development, Deloitte",
-      "Team Lead, Deloitte Private",
-      "ACCA, CIA, CPA"
+      "B.S, Liberty University",
+      "Certificate in Exercising Leadership from HarvardX"
     ],
-    "desc": "B.S. in Global Studies, Liberty University",
+    "desc": "B.S, Liberty University",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
   },
   {
-    "id": 24,
-    "name": "Nick",
-    "position": "Camp Mentor",
+    "id": 5,
+    "name": "Blake Park",
+    "key": "Blake",
+    "position": "Director, NPX Point Avenue",
     "exp": [
-      "4 years of experience in Education Technology",
-      "Product Manager, JP Morgan Asset Management",
-      "Software Engineer, JPMorganFunds.com",
-      "B.S., Syracuse University"
+      "Mentor, Leaders' Camp for BIG4 Co-operation",
+      "B.A, Dartmouth College"
+    ],
+    "desc": "Mentor, Leaders' Camp for BIG4 Co-operation",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nick Chou",
+    "key": "Nick",
+    "position": "Project Manager, NPX PA",
+    "exp": [
+      "Mentor, Leaders' Camp for BIG4 Co-operationMentor, Leaders' Camp for BIG4 Co-operation",
+      "B.S, Syracuse University"
     ],
     "desc": "BS, Syracuse University",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
   },
   {
-    "id": 5,
-    "name": "Blake",
-    "position": "Camp Mentor",
-    "exp": [
-      "10 years of experience in Finance",
-      "CFO, Superleaf, Inc.",
-      "TMT Investment Banking, J.P. Morgan",
-      "Private Equity, BBH Capital Partners",
-      "M&A, Brown Brothers Harriman",
-      "BA, Dartmouth College"
-    ],
-    "desc": "BA, Dartmouth College",
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
-  },
-  {
     "id": 3,
-    "name": "Nghia",
-    "position": "Camp Mentor",
+    "name": "Nghia Nguyen",
+    "key": "Nghia",
+    "position": "Mentor, Grit Camp",
     "exp": [
-      "BSc in International Economics, Foreign Trade University"
+      "B.A, Foreign Trade University",
+      "Marathoner"
     ],
-    "desc": "BSc in International Economics, Foreign Trade University",
+    "desc": "B.A, Foreign Trade University",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Nghia+Nguyen-Profile.jpg"
   },
   {
     "id": 6,
-    "name": "Camp Mentor",
-    "position": "Marketing Associate, True North School",
-    "desc": "Marketing Associate, True North School",
+    "name": "Duc Bui",
+    "key": "Duc",
+    "position": "Mentor, Grit Camp",
+    "desc": "Mentor, Leaders' Camp for BIG4 Co-operation",
     "exp": [
-      "Marketing Associate, True North School"
+      "Mentor, Leaders' Camp for BIG4 Co-operation"
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Nghia+Nguyen-Profile.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/duc-bui-20221028163648-yxa9k.png"
   }
 ]
