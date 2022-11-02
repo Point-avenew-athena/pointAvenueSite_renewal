@@ -601,6 +601,32 @@
 	padding: 0 3rem;
 }
 
+.boarding_camp.grit .container .banner_block .label_banner .note {
+	font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 96%;
+    text-align: right;
+    background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::after {
+	content: close-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::before {
+	content: open-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
+}
+
 .boarding_camp.grit .container .banner_block .label_banner li {
 	margin-left: 25px;
     list-style-type: circle;
@@ -1999,6 +2025,12 @@ margin-top: 0;
 
 .boarding_camp.grit .container .experience .block-1 {
 	width: 53%;
+	overflow: hidden;
+}
+
+.boarding_camp.grit .container .swiper.mySwiperExperience {
+	height: 300px;
+    padding: 3rem;
 }
 .boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header .label{
 	font-family: 'Barlow Condensed';
@@ -6937,6 +6969,11 @@ margin-top: 0;
 
 	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
 		display: block;
+	}
+
+	.boarding_camp.grit .container .price .block-1 p span {
+		font-size: 24px;
+    	line-height: 29px;
 	}
 
 	.day_camp .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
