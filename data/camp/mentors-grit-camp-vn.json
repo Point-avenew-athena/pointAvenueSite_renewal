@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Danny Hwang",
+    "key": "Danny",
+    "position": "Trưởng trại",
+    "exp": [
+      "Founder & CEO",
+      "Point Avenue",
+      "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point"
+    ],
+    "desc": "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zack Jones",
+    "key": "Zack",
+    "position": "Phó trại",
+    "exp": [
+      "Sáng lập Quỹ đóng góp phi lợi nhuận cho 10.000 trẻ em Trung Mỹ",
+      "Giám đốc Trại Point Avenue",
+      "Cử nhân, Đại học Liberty"
+    ],
+    "desc": "Cử nhân, Đại học Liberty",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Blake Park",
+    "key": "Blake",
+    "position": "Cố vấn",
+    "exp": [
+      "Giám đốc, NPX Point Avenue",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+      "Cử nhân, Đại học Dartmouth"
+    ],
+    "desc": "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nick Chou",
+    "key": "Nick",
+    "position": "Cố vấn",
+    "exp": [
+      "Quản lý dự án, NPX PA",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+      "Cử nhân Khoa học, Đại học Syracuse"
+    ],
+    "desc": "Cử nhân Khoa học, Đại học Syracuse",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Oanh Nguyen",
+    "key": "Oanh",
+    "position": "Cố vấn",
+    "exp": [
+      "Trưởng nhóm dự án chương trình Giao lưu văn hóa trẻ",
+      "4 năm kinh nghiệm cố vấn chương trình Trại lãnh đạo Point Avenue",
+      "Cử nhân ngành Quan hệ công chúng, Đại học Báo chí và Tuyên truyền"
+    ],
+    "desc": "Cử nhân ngành Quan hệ công chúng, Đại học Báo chí và Tuyên truyền",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Oanh.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Cam Thao",
+    "key": "Thao",
+    "position": "Cố vấn",
+    "exp": [
+      "Trưởng bộ phận Chăm sóc khách hàng, Trường song ngữ quốc tế liên cấp True North",
+      "4 năm kinh nghiệm cố vấn chương trình Trại lãnh đạo Point Avenue",
+      "Cử nhân Đại học du lịch Hà Nội"
+    ],
+    "desc": "Cử nhân Đại học du lịch Hà Nội",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Cam_Thao.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Phú Lê",
+    "key": "Phu",
+    "position": "Cố vấn",
+    "exp": [
+      "Chuyên viên phân tích kinh doanh, NPX Point Avenue",
+      "Chuyên viên nghiên cứu thị trường, Alchemist Capital Group",
+      "Hoàn thành thử thách chạy 300km - Kỷ niệm 30 năm Deloitte Việt Nam",
+      "Cử nhân Đại học Ngoại Thương"
+    ],
+    "desc": "Cử nhân Đại học Ngoại Thương",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Phu.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nghĩa Nguyễn",
+    "key": "Nghia",
+    "position": "Cố vấn",
+    "exp": [
+      "Cử nhân Đại học Ngoại Thương",
+      "Vận động viên Marathon"
+    ],
+    "desc": "Cử nhân Đại học Ngoại Thương",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Nghia+Nguyen-Profile.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Đức Bùi",
+    "key": "Duc",
+    "position": "Cố vấn",
+    "desc": "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+    "exp": [
+      "Cố vấn Grit Camp",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/duc-bui-20221028163648-yxa9k.png"
+  }
+]

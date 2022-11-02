@@ -689,6 +689,14 @@
 	margin-bottom: 8rem;
 }
 
+.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+	height: 250px;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+	display: none;
+}
+
 .boarding_camp .container .price {
 	display: flex;
 	margin-bottom: 8rem;
@@ -1691,12 +1699,12 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2{
-	top: -114px;
+	top: -115px;
   	left: 5%;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2{
-	top: -128px;
+	top: -138px;
   	left: 5%;
 }
 
@@ -1711,18 +1719,18 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-4{
-	top: -116px;
-    left: 70%;
+	top: -115px;
+    left: 39%;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4{
-	top: -145px;
-    left: 70%;
+	top: -155px;
+    left: 37%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6{
 	top: -116px;
-	left: 38%;
+	left: 79%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8{
@@ -1790,7 +1798,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2 .line{
-	top: 110px;
+	top: 112px;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-2 .line{
@@ -1798,7 +1806,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line{
-	top: 125px;
+	top: 134px;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2 .line{
@@ -1810,7 +1818,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 .line{
-	top: 141px;
+	top: 151px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 .line{
@@ -1885,7 +1893,7 @@ margin-top: 0;
   }
 
   .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before{
-	top: 92px;
+	top: 96px;
   }
 
   .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
@@ -1893,7 +1901,7 @@ margin-top: 0;
   }
 
   .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
-	top: 106px;
+	top: 116px;
   }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
@@ -1909,7 +1917,7 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4::before{
-	top: 120px;
+	top: 135px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before{
@@ -2137,7 +2145,11 @@ margin-top: 0;
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
-	margin-top: 70PX;
+	margin-top: 70px;
+}
+
+.boarding_camp .container .experience .box-navigation {
+	margin-top: 30px;
 }
 
 .boarding_camp .container .box-navigation .box {
@@ -4052,6 +4064,32 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .box-timeline-2 .line {
 		top: 125px;
 	}
+	.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before {
+		top: 92px;
+	}
+
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 {
+		top: -142px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4::before {
+		top: 119px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 .line {
+		top: 138px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 {
+		top: -129px;
+		left: 5%;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before {
+		top: 106px;
+	}
+	.boarding_camp .container .timeline .block-2 .day-1 .box-timeline-6 {
+		left: 79%;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line {
+		top: 125px;
+	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-3 {
     left: 17%;
 	}
@@ -4074,7 +4112,7 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
-    	left: 38%;
+    	left: 77%;
 	}
 	.boarding_camp.winter .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
@@ -6965,6 +7003,15 @@ margin-top: 0;
 	}
 }	
 @media screen and (max-width:480px) {
+
+	.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+		display: none;
+	}
+	
+	.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+		display: block;
+		height: 118px;
+	}
 	.admission_consulting .info_wrap_iframe iframe{ height: 1210px;}
 
 	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {

@@ -533,11 +533,10 @@
 }
 
 .boarding_camp .container .banner_block .label_banner .camp .label {
-	font-family: 'Barlow Condensed Thin' !important;
 	font-style: normal;
 	font-weight: 250;
-	font-size: 130px;
-	line-height: 96%;
+	font-size: 68px;
+	line-height: 109%;
 	text-align: right;
 	background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
 	-webkit-background-clip: text;
@@ -547,7 +546,6 @@
 }
 
 .boarding_camp.winter .container .banner_block .label_banner .camp .label {
-	font-family: 'Barlow Condensed Thin' !important;
 	font-style: normal;
 	font-weight: 250;
 	font-size: 130px;
@@ -652,14 +650,23 @@
 }
 
 .boarding_camp .container .campaign .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
-	width: 60%;
+	width: 56%;
+}
+
+.boarding_camp .container .campaign#price .block-1 p {
+	font-style: normal;
+	font-weight: 250;
+	font-size: 84px;
+	line-height: 90px;
+	text-align: right;
+	text-transform: uppercase;
+	width: 90%;
 }
 
 .boarding_camp .container .campaign .block-1 p span {
@@ -680,7 +687,7 @@
 }
 
 .boarding_camp .container .mentor .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -701,7 +708,7 @@
 }
 
 .boarding_camp .container .offer .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -743,15 +750,21 @@
 }
 
 .boarding_camp .container .experience .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
 	line-height: 90px;
 	text-align: right;
 	text-transform: uppercase;
-	width: 76%;
+	width: 100%;
 }
+
+.boarding_camp.grit .container .swiper.mySwiperExperience {
+    height: 350px;
+    padding: 3rem;
+}
+
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .icon-mobile {
 	display: none;
@@ -759,6 +772,17 @@
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .icon-pc {
 	display: block;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPrice {
+    height: 250px;
+}
+
+.boarding_camp .container .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .boarding_camp .container .experience .block-1 p span {
@@ -772,7 +796,7 @@
 }
 
 .boarding_camp .container .timeline .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -794,7 +818,7 @@
 }
 
 .boarding_camp .container .typical .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -822,7 +846,7 @@
 
 .boarding_camp .container .experience {
 	display: flex;
-	gap: 2rem;
+	gap: 6rem;
 	margin-bottom: 8rem;
 	margin-top: 2rem;
 }
@@ -861,7 +885,7 @@
 	padding: 2rem 0;
 }
 .boarding_camp .container .bg .box-content .text-offer {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 28px;
@@ -919,10 +943,11 @@ margin-top: 0;
 
 .boarding_camp .container .offer .block-2 .box-text {
 	margin: 0 8rem;
+	padding: 2rem 0;
 }
 
 .boarding_camp .container .offer .block-2 .box-text .title {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -1297,7 +1322,7 @@ margin-top: 0;
 
 .boarding_camp .container .register .register-logo p {
 	font-weight: 400;
-    font-family: 'Barlow Condensed Thin' !important;
+    
 	font-style: normal;
 	font-size: 84px;
     line-height: 90px;
@@ -1518,13 +1543,38 @@ margin-top: 0;
 	margin-left: 25px;
     list-style-type: circle;
     width: 100%;
-    font-family: 'Barlow Condensed Thin' !important;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
     margin-bottom: 1rem;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 96%;
+    text-align: right;
+    background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	margin-top: 10px;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::after {
+	content: close-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::before {
+	content: open-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
 }
 
 .boarding_camp .container .price .block-2 {
@@ -1543,14 +1593,45 @@ margin-top: 0;
     margin-left: 25px;
     list-style-type: circle;
     width: 100%;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 19px;
-    font-family: 'Barlow Condensed' !important;
 }
 
 .boarding_camp .container .price .block-1 {
     width: 100%;
     align-items: center;
+}
+
+.boarding_camp.grit .container .offer .block-2 .box-text .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .content-grit {
+    font-style: normal;
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 49px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.boarding_camp.grit .container .offer li {
+    margin-left: 25px;
+    list-style-type: circle;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 
 .boarding_camp .container .price {
@@ -1606,13 +1687,13 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 {
-    top: -128px;
+    top: -117px;
     left: 5%;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 {
     top: -145px;
-    left: 70%;
+    left: 40%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline .line {
@@ -1635,16 +1716,16 @@ margin-top: 0;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2 {
-    top: -114px;
+    top: -129px;
     left: 5%;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before {
-    top: 92px;
+    top: 109px;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2 .line {
-    top: 110px;
+    top: 126px;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-3 {
@@ -1658,7 +1739,7 @@ margin-top: 0;
 
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-4 {
     top: -116px;
-    left: 70%;
+    left: 40%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before {
@@ -1669,13 +1750,17 @@ margin-top: 0;
     top: 111px;
 }
 
+.boarding_camp .container .timeline .block-2 .day-2 .box-timeline-4 .line {
+    top: 142px;
+}
+
 .boarding_camp.grit .container .timeline .block-2 .box-timeline-5 {
     left: 72%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 {
-    top: -115px;
-    left: 38%;
+    top: -129px;
+    left: 76%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before {
@@ -1683,11 +1768,21 @@ margin-top: 0;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 .line {
-    top: 112px;
+    top: 126px;
 }
 
 .boarding_camp.grit .container .timeline .block-2 .timeline-block .ic-next {
     width: 50%;
+}
+
+.boarding_camp .container .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.boarding_camp.grit .container .experience .block-1 {
+    width: 53%;
+    overflow: hidden;
 }
 
 .boarding_camp.grit .container .timeline .block-2 {
@@ -1705,19 +1800,27 @@ margin-top: 0;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-2::before{
-  top: 126px;
+  top: 93px;
 }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
 	top: 93px;
   }
 
+  .boarding_camp .container .timeline .block-2 .day-2 .box-timeline-2  .line {
+	top: 113px;
+  }
+
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before{
 	top: 93px;
 }
 
+.boarding_camp .container .timeline .block-2 .day-2 .box-timeline-4::before{
+	top: 126px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before{
-  top: 93px;
+  top: 109px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8::before{
@@ -1765,7 +1868,7 @@ margin-top: 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8%;
+	gap: 20px;
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience{
@@ -1802,12 +1905,28 @@ margin-top: 0;
 	line-height: 29px;
 	display: flex;
 	align-items: center;
-	text-align: center;
-
 	background: linear-gradient(90deg, #8DC63F 0%, #F9ED32 118.57%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+	max-width: 70%;
+}
+
+.boarding_camp.grit .container .timeline {
+    flex-direction: column;
+}
+
+.boarding_camp.grit .container .timeline .block-1 {
+    width: 100%;
+    align-items: center;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+	height: 250px;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+	display: none;
 }
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .img-leader{
 	width: 46px;
@@ -1845,7 +1964,6 @@ margin-top: 0;
 	display: flex;
 	flex-direction: column;
 	width: calc(100% - (33% + 40px));
-	padding: 20px 0;
 }
 .boarding_camp .container .block-2 .block-description {
 	color: white;
@@ -2076,7 +2194,7 @@ margin-top: 0;
 }
 
 .day_camp .container .banner_block .label_banner .title {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 111px;
@@ -2173,7 +2291,7 @@ margin-top: 0;
 }
 
 .day_camp .container .objectives .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2276,7 +2394,7 @@ margin-top: 0;
 }
 
 .day_camp .container .campaign .block-2 .content .box .desc {
-	font-family: 'Barlow Condensed Thin' !important;
+	
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -2359,7 +2477,7 @@ margin-top: 0;
 }
 
 .day_camp .container .campaign .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2387,7 +2505,7 @@ margin-top: 0;
 }
 
 .day_camp .container .mentor .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2408,7 +2526,7 @@ margin-top: 0;
 }
 
 .day_camp .container .testimonial .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2449,7 +2567,7 @@ margin-top: 0;
 }
 
 .day_camp .container .offer .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2491,7 +2609,7 @@ margin-top: 0;
 }
 
 .day_camp .container .experience .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2520,7 +2638,7 @@ margin-top: 0;
 }
 
 .day_camp .container .timeline .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2541,7 +2659,7 @@ margin-top: 0;
 }
 
 .day_camp .container .typical .block-1 p {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -2629,7 +2747,7 @@ margin-top: 0;
 	align-items: flex-end;
 }
 .day_camp .container .bg .box-content .text-offer {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 28px;
@@ -2678,7 +2796,7 @@ margin-top: 0;
 }
 
 .day_camp .container .offer .block-2 .box-text .title {
-	font-family: 'Barlow Condensed Thin' !important;
+	
 	font-style: normal;
 	font-weight: 250;
 	font-size: 84px;
@@ -3109,7 +3227,7 @@ margin-top: 0;
 
 .day_camp .container .register .register-logo p {
 	font-weight: 400;
-    font-family: 'Barlow Condensed Thin' !important;
+    
 	font-style: normal;
 	font-size: 84px;
     line-height: 90px;
@@ -3969,7 +4087,7 @@ margin-top: 0;
 		margin-left: 25px;
 		list-style-type: circle;
 		width: 100%;
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 700;
 		font-size: 30px;
@@ -4765,7 +4883,7 @@ margin-top: 0;
 		color: #FFFFFF
 	}
 	.boarding_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .ex {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 300;
 		font-size: 10px;
@@ -4786,7 +4904,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .campaign .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -4862,7 +4980,7 @@ margin-top: 0;
     color: #FFFFFF;
 	}
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -4902,7 +5020,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .campaign .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -4971,7 +5089,7 @@ margin-top: 0;
 		justify-content: center;
 	}
 	.boarding_camp .container .mentor .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -5019,7 +5137,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .offer .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -5074,7 +5192,7 @@ margin-top: 0;
     padding: 20px 10px;
 	}
 	.boarding_camp .container .offer .block-2 .block-mobile .content .text-thin {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -5171,7 +5289,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .experience .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -5223,7 +5341,7 @@ margin-top: 0;
 		flex: 1;
 	}
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 700;
 		font-size: 16px;
@@ -5256,7 +5374,7 @@ margin-top: 0;
 
 	.boarding_camp .container .timeline .block-1 p {
 		width: 100%;
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -5310,7 +5428,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .desc {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 400;
 		font-size: 16px;
@@ -5370,7 +5488,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .register .register-logo p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -5475,7 +5593,7 @@ margin-top: 0;
 			color: #FFFFFF
 		}
 		.day_camp .container .team_wrap .section_inner .swiper-slide .team_desc_box .ex {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 300;
 			font-size: 10px;
@@ -5496,7 +5614,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .campaign .block-description p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 400;
 			font-size: 12px;
@@ -5562,7 +5680,7 @@ margin-top: 0;
 	
 		.day_camp .container .objectives .block-1 p,
 		.day_camp .container .testimonial .block-1 p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -5600,7 +5718,7 @@ margin-top: 0;
 			margin-bottom: 0rem;
 		}
 		.day_camp .container .banner_block .label_banner .description {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 400;
 			font-size: 12px;
@@ -5640,7 +5758,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .campaign .block-1 p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -5703,7 +5821,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .offer .block-2 .block-mobile .content .left .text-thin {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -5768,7 +5886,7 @@ margin-top: 0;
 			color: #FFFFFF;
 		}
 		.day_camp .container .mentor .block-description p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 400;
 			font-size: 12px;
@@ -5822,7 +5940,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .offer .block-1 p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -5878,7 +5996,7 @@ margin-top: 0;
 			padding-right: 25px;
 		}
 		.day_camp .container .offer .block-2 .block-mobile .content .right .text-thin {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 49px;
@@ -5997,7 +6115,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .experience .block-1 p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -6049,7 +6167,7 @@ margin-top: 0;
 			flex: 1;
 		}
 		.day_camp .container .experience .block-2 .boxDetail .boxExperience .description {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 700;
 			font-size: 16px;
@@ -6082,7 +6200,7 @@ margin-top: 0;
 	
 		.day_camp .container .timeline .block-1 p {
 			width: 100%;
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -6136,7 +6254,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .timeline .block-2 .timeline-mobile .desc {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 400;
 			font-size: 16px;
@@ -6195,7 +6313,7 @@ margin-top: 0;
 		}
 	
 		.day_camp .container .register .register-logo p {
-			font-family: 'Barlow Condensed Thin' !important;
+			
 			font-style: normal;
 			font-weight: 250;
 			font-size: 24px;
@@ -6550,6 +6668,18 @@ margin-top: 0;
 	
 
 @media screen and (max-width:480px) {
+
+	.boarding_camp.grit .container .banner_block .label_banner .note {
+		padding: 0 2rem;
+	}
+	.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+		display: none;
+	}
+	
+	.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+		display: block;
+		height: 118px;
+	}
 	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
 		display: block;
 	}
@@ -6592,7 +6722,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .campaign .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -6657,7 +6787,7 @@ margin-top: 0;
 		width: 70%;
 	}
 	.boarding_camp .container .banner_block .label_banner .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -6669,7 +6799,7 @@ margin-top: 0;
 
 
 	.boarding_camp.winter .container .banner_block .label_banner .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -6723,7 +6853,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .campaign .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -6769,7 +6899,7 @@ margin-top: 0;
     margin-top: 0;
 	}
 	.boarding_camp .container .mentor .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -6806,7 +6936,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .offer .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -6861,7 +6991,7 @@ margin-top: 0;
     padding: 20px 10px;
 	}
 	.boarding_camp .container .offer .block-2 .block-mobile .content .text-thin {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 22px;
@@ -6958,7 +7088,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .experience .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -7010,7 +7140,7 @@ margin-top: 0;
 		flex: 1;
 	}
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 700;
 		font-size: 12px;
@@ -7043,7 +7173,7 @@ margin-top: 0;
 
 	.boarding_camp .container .timeline .block-1 p {
 		width: 100%;
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -7098,7 +7228,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .desc {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 400;
 		font-size: 12px;
@@ -7144,6 +7274,7 @@ margin-top: 0;
 		position: relative;
 		margin-bottom: 30px;
 		width: 100%;
+		gap: 5px;
 	}
 
 	.boarding_camp .container .timeline .block-2 .div-timeline .box .line-box {
@@ -7167,7 +7298,7 @@ margin-top: 0;
 	}
 
 	.boarding_camp .container .register .register-logo p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -7257,7 +7388,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .campaign .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -7321,7 +7452,7 @@ margin-top: 0;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 24%);
 	}
 	.day_camp .container .banner_block .label_banner .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -7430,7 +7561,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .campaign .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -7476,7 +7607,7 @@ margin-top: 0;
     margin-top: 0;
 	}
 	.day_camp .container .mentor .block-description p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -7525,7 +7656,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .offer .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 24px;
@@ -7580,7 +7711,7 @@ margin-top: 0;
     padding: 10px;
 	}
 	.day_camp .container .offer .block-2 .block-mobile .content .text-thin {
-		font-family: 'Barlow Condensed Thin' !important;
+		
     font-style: normal;
     font-weight: 250;
     font-size: 22px;
@@ -7731,7 +7862,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .experience .block-1 p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -7783,7 +7914,7 @@ margin-top: 0;
 		flex: 1;
 	}
 	.day_camp .container .experience .block-2 .boxDetail .boxExperience .description {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 700;
 		font-size: 12px;
@@ -7816,7 +7947,7 @@ margin-top: 0;
 
 	.day_camp .container .timeline .block-1 p {
 		width: 100%;
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -7871,7 +8002,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .timeline .block-2 .timeline-mobile .desc {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 400;
 		font-size: 12px;
@@ -7926,7 +8057,7 @@ margin-top: 0;
 	}
 
 	.day_camp .container .register .register-logo p {
-		font-family: 'Barlow Condensed Thin' !important;
+		
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
@@ -8299,7 +8430,6 @@ margin-top: 0;
 	width: 100%;
     font-size: 18px;
     line-height: 21px;
-    font-family: 'Barlow Condensed' !important;
 }
 
 .boarding_camp.grit .container .block-2 .block-description li::marker {
@@ -8341,8 +8471,8 @@ margin-top: 0;
 	font-family: 'Barlow Condensed Thin';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 8px;
+	line-height: 12px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	margin-bottom: 1rem;
@@ -8389,14 +8519,14 @@ margin-top: 0;
 	font-family: 'Barlow Condensed Thin';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 19px;
 	color: #FFFFFF;
 }
 
 .boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header .label {
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 14px;
+	line-height: 19px;
 }
 
 .boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience li {
@@ -8414,12 +8544,11 @@ line-height: 19px;
 }
 
 .boarding_camp.grit .container .block-2 .block-description li {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 10px;
+    line-height: 18px;
 }
 
 .boarding_camp.grit .container .register .register-logo p {
-    font-family: 'Barlow Condensed Thin' !important;
     font-style: normal;
     font-weight: 250;
     font-size: 24px;

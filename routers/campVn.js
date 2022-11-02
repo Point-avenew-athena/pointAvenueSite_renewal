@@ -18,7 +18,7 @@ router.get('/winter-boarding-camp', function (req, res) {
 })
 
 router.get('/grit-camp', function (req, res) {
-  const teamMembers = require("../data/camp/mentors-grit-camp.json");
+  const teamMembers = require("../data/camp/mentors-grit-camp-vn.json");
   // res.send('Camp > Summer Leader Camp')
   res.render('camp/grit-camp-vn', {teamMembers})
 })
