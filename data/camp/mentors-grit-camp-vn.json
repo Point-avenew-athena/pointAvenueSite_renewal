@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Danny Hwang",
+    "key": "Danny",
+    "position": "Giám đốc trại",
+    "exp": [
+      "Founder & CEO",
+      "Point Avenue",
+      "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point"
+    ],
+    "desc": "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zack Jones",
+    "key": "Zack",
+    "position": "Phó Giám đốc Trại",
+    "exp": [
+      "Sáng lập Quỹ đóng góp phi lợi nhuận cho 10.000 trẻ em Trung Mỹ",
+      "Giám đốc Trại Point Avenue",
+      "Cử nhân, Đại học Liberty"
+    ],
+    "desc": "Cử nhân, Đại học Liberty",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Blake Park",
+    "key": "Blake",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Giám đốc, NPX Point Avenue",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+      "Cử nhân, Đại học Dartmouth"
+    ],
+    "desc": "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nick Chou",
+    "key": "Nick",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Quản lý dự án, NPX PA",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4",
+      "Cử nhân Khoa học, Đại học Syracuse"
+    ],
+    "desc": "Cử nhân Khoa học, Đại học Syracuse",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Oanh Nguyen",
+    "key": "Oanh",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Trưởng nhóm Dự án Chương trình Giao lưu Văn hóa Thanh niên",
+      "4 năm kinh nghiệm với tư cách là Cố vấn của Trại Lãnh đạo Point Avenue",
+      "Cử nhân ngành Quan hệ công chúng, Học viện Báo chí và Tuyên truyền"
+    ],
+    "desc": "Cử nhân ngành Quan hệ công chúng, Học viện Báo chí và Tuyên truyền",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Oanh.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Cam Thao",
+    "key": "Thao",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Lãnh đạo Dịch vụ Khách hàng, True North School",
+      "4 năm kinh nghiệm với tư cách là Cố vấn của Trại Lãnh đạo Point Avenue",
+      "Cử nhân ngành Quản trị Nhà hàng, Cao đẳng Du lịch Hà Nội"
+    ],
+    "desc": "Cử nhân ngành Quản trị Nhà hàng, Cao đẳng Du lịch Hà Nội",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Cam_Thao.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Phu Le",
+    "key": "Phu",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Business Analyst, NPX Point Avenue",
+      "Market Researcher, Alchemist Capital Group",
+      "Ran 300km during the 30 year Deloitte Anniversary Running Challenge",
+      "BA, International Economics, Foreign Trade University"
+    ],
+    "desc": "BA, International Economics, Foreign Trade University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Phu.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nghia Nguyen",
+    "key": "Nghia",
+    "position": "Huấn luyện viên Trại",
+    "exp": [
+      "Cố vấn Grit Camp",
+      "Cử nhân Đại học Ngoại Thương",
+      "Vận động viên Marathon"
+    ],
+    "desc": "Cử nhân Đại học Ngoại Thương",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Nghia+Nguyen-Profile.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Duc Bui",
+    "key": "Duc",
+    "position": "Huấn luyện viên Trại",
+    "desc": "Cố vấn Grit Camp",
+    "exp": [
+      "Cố vấn Grit Camp",
+      "Huấn luyện viên Trại lãnh đạo nhân sự các tập đoàn BIG4"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/duc-bui-20221028163648-yxa9k.png"
+  }
+]
