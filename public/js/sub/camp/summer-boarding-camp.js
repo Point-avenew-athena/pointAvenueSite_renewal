@@ -12,6 +12,18 @@ $(function(){
 			prevEl: '.swiper-button-prev-camp',
 		}
     });
+	var info_swiper = new Swiper('.mySwiperExperience', {
+		slidesPerView: 2,
+		spaceBetween: 20,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next-ex',
+			prevEl: '.swiper-button-prev-ex',
+		}
+    });
 		var info_swiper = new Swiper('.mySwiperMobile', {
 			slidesPerView: 2,
 			spaceBetween: 10,
