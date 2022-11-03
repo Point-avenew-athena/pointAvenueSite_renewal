@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "Danny Hwang",
+    "key": "Danny",
+    "position": "Camp Director",
+    "exp": [
+      "Founder & CEO, NPX Point Avenue",
+      "US Army Ranger with 6 years of military experience; decorated combat veteran",
+      "B.S., United States Military Academy at West Point"
+    ],
+    "desc": "B.S., United States Military Academy at West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zack Jones",
+    "key": "Zack",
+    "position": "Deputy Camp Director",
+    "exp": [
+      "Former President and Founder of a non-profit organization that provided food for 10,000 children per day in Central America",
+      "B.S. in Business Administration and Marketing, Liberty University",
+      "B.S. in Global Studies, Liberty University"
+    ],
+    "desc": "B.S. in Global Studies, Liberty University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Blake Park",
+    "key": "Blake",
+    "position": "Camp Mentor",
+    "exp": [
+      "Director, NPX Point Avenue",
+      "Leadership Camp Trainer for Big4 Corporations",
+      "Marathoner",
+      "B.S. in Economics & Asian and Middle Eastern Studies, Dartmouth College"
+    ],
+    "desc": "Mentor, Leaders' Camp for BIG4 Co-operation",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nick Chou",
+    "key": "Nick",
+    "position": "Camp Mentor",
+    "exp": [
+      "Product Manager, NPX Point Avenue",
+      "Leadership Camp Trainer for Big4 Corporations",
+      "B.S in Science, Syracuse University"
+    ],
+    "desc": "BS, Syracuse University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Oanh Nguyen",
+    "key": "Oanh",
+    "position": "Camp Mentor",
+    "exp": [
+      "Project Team Leader of Youth Cultural Exchange Programs",
+      "4 years experience as Mentor of Point Avenue Leaders Camp",
+      "B.A. in Public Relations, Academy of Journalism and Communication"
+    ],
+    "desc": "B.A. in Public Relations, Academy of Journalism and Communication",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Oanh.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Cam Thao",
+    "key": "Thao",
+    "position": "Camp Mentor",
+    "exp": [
+      "Customer Services Leader, True North School",
+      "4 years experience as Mentor of Point Avenue Leaders Camp",
+      "B.A. in Restaurant Management, Hanoi Tourism College"
+    ],
+    "desc": "B.A. in Restaurant Management, Hanoi Tourism College",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Cam_Thao.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Phu Le",
+    "key": "Phu",
+    "position": "Camp Mentor",
+    "exp": [
+      "Business Analyst, NPX Point Avenue",
+      "Market Researcher, Alchemist Capital Group",
+      "Ran 300km during the 30 year Deloitte Anniversary Running Challenge",
+      "BA, International Economics, Foreign Trade University"
+    ],
+    "desc": "BA, International Economics, Foreign Trade University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Phu.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Nghia Nguyen",
+    "key": "Nghia",
+    "position": "Camp Mentor",
+    "exp": [
+      "Leadership Camp Trainer for Big4 Corporations",
+      "Marathoner",
+      "B.S. International Economics, Foreign Trade University"
+    ],
+    "desc": "B.S. International Economics, Foreign Trade University",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/Nghia+Nguyen-Profile.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Duc Bui",
+    "key": "Duc",
+    "position": "Camp Mentor",
+    "desc": "Leadership Camp Trainer for Big4 Corporations",
+    "exp": [
+      "Leadership Camp Trainer for Big4 Corporations",
+      "Ran 300km during the 30-year Deloitte Anniversary Running Challenge"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/camp/grit/duc-bui-20221028163648-yxa9k.png"
+  }
+]

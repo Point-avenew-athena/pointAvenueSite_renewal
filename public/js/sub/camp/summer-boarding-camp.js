@@ -12,6 +12,42 @@ $(function(){
 			prevEl: '.swiper-button-prev-camp',
 		}
     });
+	var info_swiper = new Swiper('.mySwiperPrice', {
+		slidesPerView: 3,
+		spaceBetween: 20,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next-price',
+			prevEl: '.swiper-button-prev-price',
+		}
+    });
+	var info_swiper = new Swiper('.mySwiperExperience', {
+		slidesPerView: 2,
+		spaceBetween: 20,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next-ex',
+			prevEl: '.swiper-button-prev-ex',
+		},
+		breakpoints: {
+			480: {
+				// 화면의 넓이가 480px 이하일 때
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			768: {
+				// 화면의 넓이가 480px 이하일 때
+				slidesPerView: 4,
+				spaceBetween: 10,
+			},
+		},
+    });
 		var info_swiper = new Swiper('.mySwiperMobile', {
 			slidesPerView: 2,
 			spaceBetween: 10,
@@ -22,6 +58,31 @@ $(function(){
 			navigation: {
 				nextEl: '.swiper-button-next-camp',
 				prevEl: '.swiper-button-prev-camp',
+			},
+			breakpoints: {
+				480: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 2,
+					spaceBetween: 10,
+				},
+				768: {
+					// 화면의 넓이가 480px 이하일 때
+					slidesPerView: 4,
+					spaceBetween: 10,
+				},
+			},
+		});
+
+		var info_swiper = new Swiper('.mySwiperPriceMobile', {
+			slidesPerView: 2,
+			spaceBetween: 10,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true
+			},
+			navigation: {
+				nextEl: '.swiper-button-next-price',
+				prevEl: '.swiper-button-prev-price',
 			},
 			breakpoints: {
 				480: {

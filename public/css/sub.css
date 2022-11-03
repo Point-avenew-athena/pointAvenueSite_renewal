@@ -587,6 +587,59 @@
 	padding: 0 3rem;
 }
 
+.boarding_camp.grit .container .banner_block .label_banner .camp .label {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 250;
+	font-size: 96px;
+	line-height: 96%;
+	text-align: right;
+	background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 1rem 0;
+	padding: 0 3rem;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note {
+	font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 96%;
+    text-align: right;
+    background: -webkit-linear-gradient(left, #8DC63F, #f9ed32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::after {
+	content: close-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner .note::before {
+	content: open-quote;
+	font-weight: bold;
+	font-size:24px;
+	color:#889c0b;
+}
+
+.boarding_camp.grit .container .banner_block .label_banner li {
+	margin-left: 25px;
+    list-style-type: circle;
+	width: 100%;
+	font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
 .boarding_camp .swipe_type_01 .swipe_type_01--img .img_box {
 	border-radius: 0px
 }
@@ -634,6 +687,62 @@
 	display: flex;
 	gap: 2rem;
 	margin-bottom: 8rem;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+	height: 250px;
+}
+
+.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+	display: none;
+}
+
+.boarding_camp .container .price {
+	display: flex;
+	margin-bottom: 8rem;
+	flex-direction: column;
+}
+
+.boarding_camp .container .price .block-1 {
+	width: 100%;
+    align-items: center;
+}
+
+.boarding_camp .container .price .block-2 {
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.boarding_camp .container .price .block-2 .block-description {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boarding_camp .container .price .block-1 p {
+    font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.boarding_camp .container .price .block-1 p span {
+    font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.boarding_camp .container .price .block-1 p {
+	text-align: center;
 }
 
 .boarding_camp .container .block-2 .swiper-slide {
@@ -827,6 +936,45 @@
 	text-align: right;
 	text-transform: uppercase;
 }
+.boarding_camp.grit .container .timeline {
+	flex-direction: column;
+}
+
+.boarding_camp.grit .container .timeline .block-1 {
+	width: 100%;
+	align-items: center;
+}
+.boarding_camp.grit .container .timeline .block-2 {
+	width: 100%;
+	height: auto;
+	padding: 0 50px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .timeline-block {
+	margin-top: 11rem;
+    height: 14rem;
+    display: flex;
+	justify-content: center;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .timeline-block .ic-next {
+	width: 50%;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-1 .header .label,
+.boarding_camp.grit .container .timeline .block-2 .day-2 .header .label {
+	font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg, #8DC63F 0%, #F9ED32 118.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .boarding_camp .container .timeline .block-1 p {
 	font-family: 'Barlow Condensed Thin';
@@ -879,6 +1027,13 @@
 .boarding_camp .container .experience {
 	display: flex;
 	gap: 2rem;
+	margin-bottom: 8rem;
+	margin-top: 2rem;
+}
+
+.boarding_camp.grit .container .experience {
+	display: flex;
+	gap: 6rem;
 	margin-bottom: 8rem;
 	margin-top: 2rem;
 }
@@ -987,6 +1142,31 @@ margin-top: 0;
 	color: #FFFFFF;
 	margin-bottom: 0;
 }
+
+.boarding_camp.grit .container .offer .block-2 .box-text .title {
+	font-family: 'Barlow Condensed Thin';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 84px;
+	line-height: 90px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 0;
+}
+
+.boarding_camp.grit .container .offer li {
+	margin-left: 25px;
+    list-style-type: circle;
+	width: 100%;
+	font-family: 'Barlow Condensed Thin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
 .boarding_camp .container .offer .block-2 .box-text .amount {
 	font-family: 'Barlow Condensed';
 	font-style: normal;
@@ -1042,6 +1222,32 @@ margin-top: 0;
 	color: #FFFFFF;
 	margin-left: 7rem;
 	position: relative;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .content-grit {
+	font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 46px;
+    line-height: 49px;
+	color: #FFFFFF;
+	position: relative;
+}
+
+.boarding_camp .container .offer .block-2 .box-text .amount-winter::before {
+	content: "UP TO";
+	position: absolute;
+	left: -90px;
+	top: -10px;
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 
 .boarding_camp .container .offer .block-2 .box-text .amount-winter::before {
@@ -1297,8 +1503,18 @@ margin-top: 0;
 	margin-bottom: 250px;
 }
 
+.boarding_camp.grit .container .register{
+	display: flex;
+	align-self: center;
+	gap:90px;
+	margin-bottom: 250px;
+}
 .boarding_camp .container .register .register-container{
 	flex-basis: 40%;
+}
+
+.boarding_camp.grit .container .register .register-container{
+	flex-basis: 35%;
 }
 .boarding_camp .container .register .register-logo {
 	position: relative;
@@ -1370,6 +1586,18 @@ margin-top: 0;
 		margin-left: 10rem;
 		
 }
+
+.boarding_camp.grit .container .register .register-logo span {
+	font-weight: 700;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-size: 84px;
+    line-height: 90px;
+    text-align: right;
+    text-transform: uppercase;
+	margin-left: 3rem;
+		
+}
 .boarding_camp .container .register .register-container {
 	display: flex;
 	padding: 6px 0;
@@ -1427,12 +1655,26 @@ margin-top: 0;
 	left: 1%;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-1{
+	left: -2%;
+}
+
+
 .boarding_camp .container .timeline .block-2 .box-timeline-3{
 	left: 15%;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-3{
+	left: 33%;
+	top: 39px
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-5{
 	left: 29%;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-5{
+	left: 72%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-7{
@@ -1451,6 +1693,21 @@ margin-top: 0;
   left: 0%;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-2{
+	top: -118px;
+  	left: 5%;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2{
+	top: -115px;
+  	left: 5%;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2{
+	top: -138px;
+  	left: 5%;
+}
+
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2{
 	top: -119px;
   left: 0%;
@@ -1461,9 +1718,19 @@ margin-top: 0;
     left: 21%;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-4{
+	top: -115px;
+    left: 39%;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4{
+	top: -155px;
+    left: 37%;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-6{
 	top: -116px;
-	left: 38%;
+	left: 79%;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-8{
@@ -1526,12 +1793,32 @@ margin-top: 0;
 	top: 135px;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line{
+	top: 133px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2 .line{
+	top: 112px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-2 .line{
+	top: 114px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line{
+	top: 134px;
+}
+
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2 .line{
 	top: 116px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4 .line{
 	top: 112px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 .line{
+	top: 151px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6 .line{
@@ -1593,9 +1880,29 @@ margin-top: 0;
   top: -21px;
 }
 
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-3::before{
+	top: -21px;
+}
+
 .boarding_camp .container .timeline .block-2 .box-timeline-2::before{
   top: 115px;
 }
+
+.boarding_camp.grit .container .timeline .block-2 .box-timeline-2::before{
+	top: 97px;
+  }
+
+  .boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before{
+	top: 96px;
+  }
+
+  .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
+	top: 105px;
+  }
+
+  .boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before{
+	top: 116px;
+  }
 
 .boarding_camp.winter .container .timeline .block-2 .box-timeline-2::before{
 	top: 97px;
@@ -1607,6 +1914,10 @@ margin-top: 0;
 
 .boarding_camp .container .timeline .block-2 .box-timeline-4::before{
 	top: 97px;
+}
+
+.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4::before{
+	top: 135px;
 }
 
 .boarding_camp .container .timeline .block-2 .box-timeline-6::before{
@@ -1658,7 +1969,7 @@ margin-top: 0;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8%;
+	gap: 20px;
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience{
@@ -1668,6 +1979,23 @@ margin-top: 0;
 	flex-direction: column;
 	display: flex;
 	width: calc(100%/2 - 50px);
+}
+
+.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience{
+	padding: 1rem 1rem 3rem 1rem;
+	transition: height 15s;
+	flex-direction: column;
+	display: flex;
+	width: calc(100%/2 - 20px);
+	border-bottom: none;
+}
+.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience li{
+	margin-left: 25px;
+    list-style-type: circle;
+    width: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Barlow Condensed';
 }
 
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .blockDescription{
@@ -1701,6 +2029,32 @@ margin-top: 0;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
+}
+
+.boarding_camp.grit .container .experience .block-1 {
+	width: 53%;
+	overflow: hidden;
+}
+
+.boarding_camp.grit .container .swiper.mySwiperExperience {
+	height: 300px;
+    padding: 3rem;
+}
+.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header .label{
+	font-family: 'Barlow Condensed';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 33px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	background: linear-gradient(90deg, #8DC63F 0%, #F9ED32 118.57%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	max-width: 70%;
 }
 .boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .img-leader{
 	width: 46px;
@@ -1748,6 +2102,19 @@ margin-top: 0;
 	padding-bottom: 2rem;
 }
 
+.boarding_camp.grit .container .block-2 .block-description li {
+    margin-left: 25px;
+    list-style-type: circle;
+	width: 100%;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Barlow Condensed';
+}
+
+.boarding_camp.grit .container .block-2 .block-description li::marker {
+	background-color: white;
+}
+
 .boarding_camp .container .block-2 .block-description .read-more {
 	margin-top: 3rem;
 	text-align: left;
@@ -1778,7 +2145,11 @@ margin-top: 0;
 	display: flex;
 	width: 100%;
 	justify-content: flex-end;
-	margin-top: 70PX;
+	margin-top: 70px;
+}
+
+.boarding_camp .container .experience .box-navigation {
+	margin-top: 30px;
 }
 
 .boarding_camp .container .box-navigation .box {
@@ -1797,6 +2168,10 @@ margin-top: 0;
 
 .boarding_camp .container .block-2 .swiper-slide img {
 	/* width: 400px; */
+}
+
+.boarding_camp .container .block-2 .swiper-slide img.Nghia, .boarding_camp .container .block-2 .swiper-slide img.Duc {
+	height: 236px;
 }
 
 .boarding_camp .container .box-navigation .box .ic-next, 
@@ -3689,6 +4064,32 @@ margin-top: 0;
 	.boarding_camp .container .timeline .block-2 .box-timeline-2 .line {
 		top: 125px;
 	}
+	.boarding_camp.grit .container .timeline .block-2 .day-1 .box-timeline-2::before {
+		top: 92px;
+	}
+
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 {
+		top: -142px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4::before {
+		top: 119px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-4 .line {
+		top: 138px;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 {
+		top: -129px;
+		left: 5%;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2::before {
+		top: 106px;
+	}
+	.boarding_camp .container .timeline .block-2 .day-1 .box-timeline-6 {
+		left: 79%;
+	}
+	.boarding_camp.grit .container .timeline .block-2 .day-2 .box-timeline-2 .line {
+		top: 125px;
+	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-3 {
     left: 17%;
 	}
@@ -3711,7 +4112,7 @@ margin-top: 0;
 	}
 	.boarding_camp .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
-    	left: 38%;
+    	left: 77%;
 	}
 	.boarding_camp.winter .container .timeline .block-2 .box-timeline-6 {
 		top: -115px;
@@ -6602,10 +7003,24 @@ margin-top: 0;
 	}
 }	
 @media screen and (max-width:480px) {
+
+	.boarding_camp .container .campaign .block-2 .mySwiperPrice{
+		display: none;
+	}
+	
+	.boarding_camp .container .campaign .block-2 .mySwiperPriceMobile{
+		display: block;
+		height: 118px;
+	}
 	.admission_consulting .info_wrap_iframe iframe{ height: 1210px;}
 
 	.day_camp .swiper-pagination-bullets .swiper-pagination-bullet-active, .day_camp .swiper-pagination-bullets .swiper-pagination-bullet {
 		display: block;
+	}
+
+	.boarding_camp.grit .container .price .block-1 p span {
+		font-size: 24px;
+    	line-height: 29px;
 	}
 
 	.day_camp .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
@@ -6747,6 +7162,20 @@ margin-top: 0;
 		line-height: 96%;
 		text-align: right;
 		padding: 0;
+	}
+
+	.boarding_camp.grit .container .banner_block .label_banner .camp .label {
+		font-family: 'Barlow Condensed';
+		font-style: normal;
+		font-weight: 250;
+		font-size: 32px;
+		line-height: 96%;
+		text-align: right;
+		padding: 0;
+	}
+	.boarding_camp.grit .container .banner_block .label_banner li {
+		font-size: 12px;
+    line-height: 16px;
 	}
 
 	.boarding_camp .container .banner_block .label_banner .camp img {
@@ -6949,6 +7378,29 @@ margin-top: 0;
 		align-items: flex-end;
 	}
 
+	.boarding_camp.grit .container .offer .block-2 .block-mobile .content .right li {
+		margin-left: 25px;
+		list-style-type: circle;
+		width: 100%;
+		font-family: 'Barlow Condensed Thin';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 16px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		margin-bottom: 1rem;
+	}
+
+	.boarding_camp.grit .container .offer .block-2 .block-mobile .content .right {
+		width: 60%;
+    	padding: 20px 10px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.boarding_camp.winter .container .offer .block-2 .block-mobile .content .right {
 		width: 60%;
     padding: 20px 10px;
@@ -6997,10 +7449,14 @@ margin-top: 0;
 		font-style: normal;
 		font-weight: 250;
 		font-size: 24px;
-		line-height: 29px;
+		line-height: 28px;
 		text-align: center;
 		text-transform: uppercase;
 		color: #FFFFFF;
+		width: 100%;
+	}
+
+	.boarding_camp.grit .container .experience .block-1 {
 		width: 100%;
 	}
 
@@ -7019,6 +7475,7 @@ margin-top: 0;
 	.boarding_camp .container .experience .block-2 .boxDetail {
 		padding: 24px;
 		gap: 0;
+		padding: 0;
 	}
 
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience {
@@ -7027,10 +7484,35 @@ margin-top: 0;
 		gap: 16px;
 	}
 
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience {
+		width: 100%;
+		flex-direction: row;
+	}
+
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header {
 		flex-direction: column-reverse;
 		justify-content: left;
 		max-width: 120px;
+		margin-bottom: 0;
+	}
+
+	.boarding_camp.grit .container .experience {
+		gap: 0;
+	}
+	
+	.boarding_camp.grit .container .block-2 .block-description ul {
+		margin: 1rem 0;
+	}
+
+	.boarding_camp.grit .container .block-2 .block-description li {
+		font-size: 14px;
+    	line-height: 16px;
+	}
+
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header {
+		max-width: 105px;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .icon-pc {
@@ -7052,10 +7534,24 @@ margin-top: 0;
 		line-height: 14px;
 		color: #FFFFFF;
 	}
+
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .description {
+		font-family: 'Barlow Condensed Thin';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 22px;
+		color: #FFFFFF;
+	}
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .description span {
 		font-family: 'Barlow Condensed';
 		font-style: normal;
 		font-weight: 700;
+	}
+
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience .header .label {
+		font-size: 18px;
+		line-height: 22px;
 	}
 
 	.boarding_camp .container .experience .block-2 .boxDetail .boxExperience .header .label {
@@ -7065,6 +7561,11 @@ margin-top: 0;
 		font-size: 18px;
 		line-height: 22px;
 		margin-top: 8px;
+	}
+
+	.boarding_camp.grit .container .experience .block-2 .boxDetail .boxExperience li {
+		font-size: 16px;
+    line-height: 19px;
 	}
 
 	.boarding_camp .container .experience {
@@ -7120,6 +7621,11 @@ margin-top: 0;
 		padding: 0 70px;
 		display: flex;
 		flex-direction: row;
+		margin-top: 1rem;
+	}
+
+	.boarding_camp.grit .container .timeline .block-2 .timeline-block {
+		display: none;
 	}
 	.boarding_camp .container .timeline .block-2 .timeline-mobile .time {
 		font-family: 'Barlow Condensed';
