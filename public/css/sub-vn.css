@@ -1627,7 +1627,7 @@ margin-top: 0;
     width: 100%;
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 30px;
     line-height: 40px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -3999,6 +3999,11 @@ margin-top: 0;
     left: 50%;
 	}
 
+	.boarding_camp.grit .container .offer li {
+		font-size: 24px;
+		line-height: 40px;
+	}
+
 	.boarding_camp.winter .container .timeline .block-2 .box-timeline-8 {
 		top: -141px;
     	left: 49%;
@@ -4090,7 +4095,7 @@ margin-top: 0;
 		
 		font-style: normal;
 		font-weight: 700;
-		font-size: 30px;
+		font-size: 24px;
 		line-height: 40px;
 		text-transform: uppercase;
 		color: #FFFFFF;
@@ -4220,7 +4225,7 @@ margin-top: 0;
 	}
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1240px) {
 	/*sub common*/
 	.sub .course_overview_wrap .video_desc_wrap {margin-top: 40px;padding-left: 0;}
 	.sub .course_objective_wrap .objective_list {padding-left: 0;}
@@ -4331,6 +4336,11 @@ margin-top: 0;
 
 	.lotte_wrap .section_inner {padding:0;}
 	.lotte_wrap .section_inner img{width:100%;}
+
+	.boarding_camp.grit .container .offer li {
+		font-size: 18px;
+		line-height: 22px;
+	}
 }
 @media screen and (max-width:1100px) {
 	.boarding_camp .container .campaign .block-1 p,
