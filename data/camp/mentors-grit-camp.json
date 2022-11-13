@@ -3,26 +3,26 @@
     "id": 1,
     "name": "Danny Hwang",
     "key": "Danny",
-    "position": "Camp Director",
+    "position": "Founder & CEO Point Avenue",
     "exp": [
       "Founder & CEO, NPX Point Avenue",
       "US Army Ranger with 6 years of military experience; decorated combat veteran",
       "B.S., United States Military Academy at West Point"
     ],
-    "desc": "Founder & CEO, NPX Point Avenue",
+    "desc": "B.S., United States Military Academy at West Point",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
   },
   {
     "id": 4,
     "name": "Zack Jones",
     "key": "Zack",
-    "position": "Deputy Camp Director",
+    "position": "Director of Outdoor Education & Leadership Development",
     "exp": [
       "Former President and Founder of a non-profit organization that provided food for 10,000 children per day in Central America",
       "B.S. in Business Administration and Marketing, Liberty University",
       "B.S. in Global Studies, Liberty University"
     ],
-    "desc": "Director of Outdoor Education & Leadership Development",
+    "desc": "B.S. in Global Studies, Liberty University",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
   },
   {

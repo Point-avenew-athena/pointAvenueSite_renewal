@@ -3,26 +3,26 @@
     "id": 1,
     "name": "Danny Hwang",
     "key": "Danny",
-    "position": "Trưởng trại",
+    "position": "Nhà sáng lập và CEO Point Avenue",
     "exp": [
       "Founder & CEO",
       "Point Avenue",
       "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point"
     ],
-    "desc": "Nhà sáng lập và CEO Point Avenue",
+    "desc": "Cử nhân, Học viện Quân sự Hoa Kỳ tại West Point",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
   },
   {
     "id": 4,
     "name": "Zack Jones",
     "key": "Zack",
-    "position": "Phó trại",
+    "position": "Giám đốc giáo dục trải nghiệm & phát triển kỹ năng lãnh đạo",
     "exp": [
       "Sáng lập Quỹ đóng góp phi lợi nhuận cho 10.000 trẻ em Trung Mỹ",
       "Giám đốc Trại Point Avenue",
       "Cử nhân, Đại học Liberty"
     ],
-    "desc": "Giám đốc giáo dục trải nghiệm & phát triển kỹ năng lãnh đạo",
+    "desc": "Cử nhân, Đại học Liberty",
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Zack.jpg"
   },
   {
