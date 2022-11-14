@@ -278,7 +278,7 @@ app.post('/camp/grit-camp', function (req, res) {
          },
          Subject: {
           Charset: 'UTF-8',
-          Data: 'Register Winter Boarding Camp'
+          Data: 'Register Grit Camp'
          }
         },
       Source: 'contact@pointavenue.com', /* required */
