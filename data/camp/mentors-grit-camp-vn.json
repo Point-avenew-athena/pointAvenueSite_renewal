@@ -13,6 +13,19 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
   },
   {
+    "id": 122,
+    "name": "Tommy Nguyen",
+    "key": "Tommy",
+    "position": "Đồng sáng lập và COO Point Avenue",
+    "exp": [
+      "Founder & CEO",
+      "Point Avenue",
+      "Cử nhân, Học viện Quân sự Hoa Kỳ West Point"
+    ],
+    "desc": "Cử nhân, Học viện Quân sự Hoa Kỳ West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
+  },
+  {
     "id": 4,
     "name": "Zack Jones",
     "key": "Zack",
