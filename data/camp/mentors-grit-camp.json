@@ -13,6 +13,19 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/DG3.jpg"
   },
   {
+    "id": 122,
+    "name": "Tommy Nguyen",
+    "key": "Tommy",
+    "position": "Co-founder & COO, NPX Point Avenue",
+    "exp": [
+      "Co-founder & COO, NPX Point Avenue",
+      "US Army Ranger with 6 years of military experience; decorated combat veteran",
+      "B.S., United States Military Academy at West Point"
+    ],
+    "desc": "B.S., United States Military Academy at West Point",
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
+  },
+  {
     "id": 4,
     "name": "Zack Jones",
     "key": "Zack",
