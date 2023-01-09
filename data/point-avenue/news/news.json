@@ -1,5 +1,18 @@
 [
 	{
+		"id": 199,
+		"type" : "Article",
+		"category": "Admissions Consulting", 		
+		"title": "The Point Avenue Talent Scholarship Program is open to register!",
+		"thumbnail" : {		
+				"excerpt": "<p>Our Talent Scholarship Program is here. We are looking to empower Vietnamese high school students with academic tutoring and real-life mentorship so that they can find success in the top universities in the US, UK, and Canada",
+				"imageUrl" : "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/banner+scholarship(1).jpg"
+			},
+		"date": "2023-01-09T09:50:44",	
+		"contents": "<h2><span style='background-color:transparent;color:#000000;'><strong style='font-size: 24px'>The Point Avenue Talent Scholarship Program is open to register!</strong><br></br></span></h2><p><span style='background-color:transparent;color:#000000;'>🏅 Our Talent Scholarship Program is here. We are looking to empower Vietnamese high school students with academic tutoring and real-life mentorship so that they can find success in the top universities in the US, UK, and Canada. </span></p><p><span style='background-color:transparent;color:#000000;'><strong>⏳Scholarship Timeline:</strong>.&nbsp;</span></p><p><span style='background-color:transparent;color:#000000;'>1️⃣ Online Application: 25/12/2022 - 10/2/2023</span></p><p><span style='background-color:transparent;color:#000000;'>2️⃣ Offline Interview: 13/2/2023 - 20/2/2023</span></p><p><span style='background-color:transparent;color:#000000;'>*Special offer: Apply by 25/1/2023 to receive 10 Million VND Voucher for our SAT/IELTS/TOEFL class.</span></p><p><span style='background-color:transparent;color:#000000;'><strong>⏳🏅The total scholarship value </strong>is 1.3 Billion VND, including full and partial scholarships from 30% to 100% for our Admission Consulting services & Test Preparation courses. </span></p><p><span style='background-color:transparent;color:#000000;'>🥇️1 Gold Prize: Up to 100% scholarship for Admissions Consulting services; up to 100% scholarship for one Test Prep class (300M VND value) </span></p><p><span style='background-color:transparent;color:#000000;'>🥈🥈 2 Silver Prizes: Up to 50% scholarship for Admissions Consulting services; 50% scholarship for one Test Prep class (240M VND value) </span></p><p><span style='background-color:transparent;color:#000000;'>🥉🥉🥉 3 Bronze Prizes: Up to 30% scholarship for Admissions Consulting services; 50% for one Test Prep class (180M VND value) </span></p><p><span style='background-color:transparent;color:#000000;'>📌 Visit <a style='color: blue; cursor: pointer;'>https://www.pointavenue.asia/2023talentscholarship</a> to start applying. </span></p>",
+		"lang" : "en"
+	},
+	{
 		"id": 1999,
 		"type" : "Article",
 		"category": "Admissions Consulting", 		
