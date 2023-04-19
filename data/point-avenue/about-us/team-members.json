@@ -44,7 +44,7 @@
   {
     "id": 4,
     "name": "Trang",
-    "position": "CSO/Financial Controller",
+    "position": "CFO & CSO",
     "exp": [
       "13 years of experience in Finance",
       "Finance Controller, Point Avenue",
@@ -72,19 +72,6 @@
   },
   {
     "id": 6,
-    "name": "Dan",
-    "position": "Center Director, PAV Hanoi 1",
-    "exp": [
-      "10 years of experience in Education",
-      "Sales and Distribution Manager for Midwest & Southwest U.S.A, Stumptown Coffee Roasters",
-      "Therapeutic Mentor & Residential Counselor, Youth Opportunities Upheld, Inc.",
-      "Residential Counselor & Summer Program Teacher, Youth Opportunities Upheld, Inc.",
-      "B.A., University of Massachusetts, Amherst"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Dan.jpeg"
-  },
-  {
-    "id": 7,
     "name": "Linh",
     "position": "Center Director, PAV Hanoi 2",
     "exp": [
@@ -95,22 +82,9 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
   },
   {
-    "id":8,
-    "name": "Lan-Dinh",
-    "position": "Center Director, PAT Bangkok",
-    "exp": [
-      "10 years of experience in Education",
-      "Senior Vice President, Bank of America",
-      "Captain, U.S. Army",
-      "B.S., United States Military Acedemy at West Point ",
-      "TEFL & Test Prep Certifications "
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Lan-Dinh.jpg"
-  },
-  {
-    "id": 9,
+    "id": 7,
     "name": "Jinny",
-    "position": "Deputy Center Director, PAV",
+    "position": "GM, PAV",
     "exp": [
       "7 years of experience in Education",
       "Center Manager, ILA & Language Link Vietnam",
@@ -120,20 +94,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
   },
   {
-    "id": 10,
-    "name": "Doris",
-    "position": "Deputy Center Director, PAT",
-    "exp": [
-      "6 years of experience in Education",
-      "Founder & CEO, Diligence Code",
-      "Management Consultant, AT Kearney",
-      "B.A. and B.S., University of Virginia",
-      "TEFL & Design Thining and Innovation Certifications"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Doris.jpg"
-  },
-  {
-    "id": 11,
+    "id": 8,
     "name": "Honda",
     "position": "Strategic Advisor",
     "exp": [
@@ -146,20 +107,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
   },
   {
-    "id": 12,
-    "name": "Myles",
-    "position": "Head of Research & Development",
-    "exp": [
-      "12+ years of experience in Education",
-      "Director, YMCA of Greater Boston, North Woods Camp",
-      "Ph.D. and M.S., University of New Hampshire",
-      "B.A., University of Massachusetts Amherst",
-      "Author of  8 academic papers on summer camp, creativity, motivation, and natural resource management(Journal of Youth Development, Energy Research and Social Science, Journal of Outdoor Recreation and Tourism)"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Myles.jpg"
-  },
-  {
-    "id": 13,
+    "id": 9,
     "name": "Edward",
     "position": "Head of Training",
     "exp": [
@@ -173,21 +121,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
-    "id": 14,
-    "name": "Charles",
-    "position": "Head of Test Preparation",
-    "exp": [
-      "18 years of experience in Education",
-      "Managing Director & Icon Institute Manager, Chung Dahm Learning",
-      "Assistant Managing Director, Chase Academy",
-      "B.A., University of California",
-      "Over 15 years as a Test Prep teacher with hundreds of students scoring over 1400 and 1500"
-    ],
-
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Charles.jpeg"
-  },
-  {
-    "id": 15,
+    "id": 10,
     "name": "Hyewon",
     "position": "Head of Debate",
     "exp": [
@@ -195,26 +129,11 @@
       "Co-Founder, Debate for All",
       "Head Coach, Team Vietnam for World Schools Debating Championships (WSDC) 2020",
       "Co-Coach, Team Korea for World Schools Debating Championships (WSDC) 2014 - 2019 "
-
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
   },
-  
   {
-    "id": 16,
-    "name": "Diep",
-    "position": "Head of Marketing",
-    "exp": [
-      "10 years of experience in Marketing ",
-      "Head of Marketing, Apax Franklin Academy",
-      "Corporate Engagement Manager, Bayer Vietnam",
-      "Deputy Marketing Manager, Language Link Vietnam",
-      "M.A., London Metropolitan University"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Diep.jpg"
-  },
-  {
-    "id": 17,
+    "id": 11,
     "name": "Phuong",
     "position": "Head of Human Resources",
     "exp": [
@@ -225,11 +144,10 @@
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Phuong.jpg"
   },
-  
   {
-    "id": 18,
+    "id": 12,
     "name": "Ngan",
-    "position": "Head of Production",
+    "position": "Head of Marketing",
     "exp": [
       "8 years of experience in Video Production",
       "Reporter, Editor and MC, Vietnam Television",
@@ -238,9 +156,8 @@
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
   },
-  
   {
-    "id": 19,
+    "id": 13,
     "name": "John",
     "position": "Deputy Director, Admissions Consulting",
     "exp": [
@@ -252,9 +169,8 @@
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
   },
-  
   {
-    "id": 20,
+    "id": 14,
     "name": "Anh-Thu",
     "position": "Deputy Head, Admissions Consulting, PAV",
     "exp": [
@@ -265,75 +181,5 @@
       "B.A., Stellenbosch UniversityPeer-to-Peer College Mentor "
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Anh-Thu.JPG"
-  },
-  
-  {
-    "id": 21,
-    "name": "Justin",
-    "position": "Deputy Head, Admissions Consulting, PAT",
-    "exp": [
-      "8 years of experience in Education",
-      "Managing Director and Head of University Admissions, CIALFO Consulting",
-      "President, VR/AR Association ",
-      "Co-founder, Creative XR Labs",
-      "B.S., Northwestern University"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Justin.jpg"
-  },
-  
-  {
-    "id": 22,
-    "name": "Tom",
-    "position": "Faculty Head",
-    "exp": [
-      "10 years of experience in Education",
-      "Former Paramedic and Forensic Pathology Assistant",
-      "B.S., Illinois State University",
-      "Vertified Early Childhood Special Education" 
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tom.png"
-  },
-  
-  {
-    "id": 23,
-    "name": "Sanghyun",
-    "position": "CEO, Athena",
-    "exp": [
-      "10 years of experience in Education Technology",
-      "Managing Director, Lconnected, inc",
-      "Team Manager, EIC Education",
-      "Team Manager, Publicis Modem",
-      "B.S., Seoul Digital University"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Sanghyun.jpg"
-  },
-  
-  {
-    "id": 24,
-    "name": "Nick",
-    "position": "Product Manager",
-    "exp": [
-      "4 years of experience in Education Technology",
-      "Product Manager, JP Morgan Asset Management",
-      "Software Engineer, JPMorganFunds.com",
-      "B.S., Syracuse University"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Nick.jpg"
-  },
-  
-  {
-    "id": 25,
-    "name": "Trent",
-    "position": "Software Architect",
-    "exp": [
-      "4 years of experience in Education Technology",
-      "Development Lead, Mobyus & Valuechain",
-      "Development Lead, Neomtel",
-      "Software Architect, Kolon Benit",
-      "Software Engineer, Onse Telecom",
-      "B.S., Chungang University"
-    ],
-
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trent.jpg"
   }
 ]
