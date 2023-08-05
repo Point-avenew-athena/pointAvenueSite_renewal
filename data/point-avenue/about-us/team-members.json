@@ -28,20 +28,6 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Samuel.jpg"
   },
   {
-    "id": 3,
-    "name": "Tommy",
-    "position": "COO",
-    "exp": [
-      "10 years of experience in Education",
-      "Co-Founder & COO, Point Avenue",
-      "Investment Banking, Goldman Sachs",
-      "Captain, US Army Special Forces",
-      "MBA, Wharton School, UPenn",
-      "BS, United States Military Academy"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Tommy.jpg"
-  },
-  {
     "id": 4,
     "name": "Trang",
     "position": "CFO & CSO",
