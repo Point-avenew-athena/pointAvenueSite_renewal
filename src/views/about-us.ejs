@@ -1,140 +1,123 @@
 <%- include("partials/head_start") %>
-<title>About Us - Point Avenue</title>
+  <title>About Us - Point Avenue</title>
 
-<%- include("partials/common_styles") %> <%- include("partials/common_scripts")
-%>
-<script
-  language="JavaScript"
-  type="text/javascript"
-  src="/js/sub/point-avenue/about-us.js"
-></script>
+  <%- include("partials/common_styles") %> <%- include("partials/common_scripts") %>
+      <script language="JavaScript" type="text/javascript" src="/js/sub/point-avenue/about-us.js"></script>
 
-<script>
-  const teamMembers = <%- JSON.stringify(teamMembers) %>;
-</script>
-<%- include("partials/head_end") %> <%- include("partials/body_start") %>
-<div class="wrap sub about_us">
-  <%- include("partials/gnb") %>
-  <!-- container :: start -->
-  <div class="container">
-    <section class="visual_wrap">
-      <div class="section_inner">
-        <div class="text_box">
-          <h2 class="title_r_01">ABOUT US</h2>
-        </div>
-      </div>
-    </section>
-    <section class="about_intro_wrap">
-      <div class="section_inner">
-        <div class="video_grid_wrap">
-          <div class="video_wrap">
-            <iframe
-              src="https://www.youtube.com/embed/y4PjJAPArio"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+      <script>
+        const teamMembers = <% - JSON.stringify(teamMembers) %>;
+      </script>
+      <%- include("partials/head_end") %> <%- include("partials/body_start") %>
+          <div class="wrap sub about_us">
+            <%- include("partials/gnb") %>
+              <!-- container :: start -->
+              <div class="container">
+                <section class="visual_wrap">
+                  <div class="section_inner">
+                    <div class="text_box">
+                      <h2 class="title_r_01">ABOUT US</h2>
+                    </div>
+                  </div>
+                </section>
+                <section class="about_intro_wrap">
+                  <div class="section_inner">
+                    <div class="video_grid_wrap">
+                      <div class="video_wrap">
+                        <iframe src="https://www.youtube.com/embed/y4PjJAPArio" title="YouTube video player"
+                          frameborder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowfullscreen></iframe>
+                      </div>
+                      <div class="video_desc_wrap">
+                        <div class="title_r_03 s_title">
+                          Point Avenue is a private education technology company that is
+                          headquartered in Hanoi, Vietnam and provides early childhood
+                          through university educational services across Southeast Asia.
+                        </div>
+                        <div class="text s_desc">
+                          We have a successful track record from China and Korea with a
+                          mature curriculum and a set of products infused with technology
+                          infrastructure, coupled with a team of passionate and experienced
+                          educators.<br /><br />
+
+                          We believe in mentoring students in a holistic manner, utilizing a
+                          highly personalized approach to provide every student with
+                          tailored life and educational roadmaps.<br /><br />
+
+                          We deliver positive outcomes and facilitate every student's
+                          potential for future growth.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="team_wrap">
+                  <div class="section_inner">
+                    <h3 class="title_r_02 section_title">Meet Our Team</h3>
+                    <p class="title_r_03 s_title">
+                      Point Avenue now operates in Vietnam, Thailand, and Singapore with
+                      more than 198 dedicated team members. We pride ourselves on the
+                      diversity, quality, and discipline of our mentors - many of whom are
+                      graduates from West Point, Cambridge, Harvard, Johns Hopkins, UCLA,
+                      and UVA.
+                    </p>
+                    <!-- 선생 리스트 swiper-->
+                    <%- include("partials/team-members") %>
+                  </div>
+                </section>
+
+                <section class="locations_wrap">
+                  <div class="section_inner">
+                    <h3 class="title_r_02 section_title">Our Locations</h3>
+                    <!-- locations 리스트 swiper-->
+                    <%- include("partials/locations-list") %>
+                  </div>
+                </section>
+                <section class="history_wrap">
+                  <div class="section_inner">
+                    <h3 class="title_r_02 section_title">Our History</h3>
+                    <div class="grid_type_wrap_02">
+                      <div class="history_box history_box_01">
+                        <div class="history_box_inner">
+                          <h3 class="title_s_01">
+                            Point Avenue was founded by brothers Danny and Samuel Hwang, who
+                            graduated from West Point and MIT respectively, and by Cuong
+                            Nguyen, another graduate of the United States Military Academy.
+                          </h3>
+                          <p>
+                            Growing up in the United States, our co-founders experienced
+                            firsthand the value and impact of education in their lives,
+                            ultimately shaping their calling to serve and inspire others.
+                            Since 2009, they have continually innovated and delivered
+                            world-class, K-12 educational products and services in China to
+                            equip young learners to achieve academic excellence, unlock
+                            their passions, and prepare for lifelong success. In 2018, they
+                            expanded to Southeast Asia, beginning first in Vietnam and then
+                            Thailand, to continue their educational movement to help
+                            students create impact and achieve real growth.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="history_box history_box_02">
+                        <div class="say_box">
+                          <p class="text">
+                            Our vision is to become the global leader in education
+                            technology, and our mission is to empower tomorrow's leaders to
+                            transform the world through wisdom, integrity, and compassion.
+                            Daily, we achieve this through our personal interactions and
+                            character-first mentorship approach for each and every one of
+                            our students, and we apply our inquiry-based learning
+                            methodology in our classrooms to promote intellectual curiosity,
+                            critical thinking, and innovation.
+                          </p>
+                          <p class="name">- Danny Hwang</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <!--container :: end-->
+              <%- include("partials/footer") %> <%- include("partials/common_popup") %>
           </div>
-          <div class="video_desc_wrap">
-            <div class="title_r_03 s_title">
-              Point Avenue is a private education technology company that is
-              headquartered in Hanoi, Vietnam and provides early childhood
-              through university educational services across Southeast Asia.
-            </div>
-            <div class="text s_desc">
-              We have a successful track record from China and Korea with a
-              mature curriculum and a set of products infused with technology
-              infrastructure, coupled with a team of passionate and experienced
-              educators.<br /><br />
-
-              We believe in mentoring students in a holistic manner, utilizing a
-              highly personalized approach to provide every student with
-              tailored life and educational roadmaps.<br /><br />
-
-              We deliver positive outcomes and facilitate every student's
-              potential for future growth.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="team_wrap">
-      <div class="section_inner">
-        <h3 class="title_r_02 section_title">Meet Our Team</h3>
-        <p class="title_r_03 s_title">
-          Point Avenue now operates in Vietnam, Thailand, and Singapore with
-          more than 198 dedicated team members. We pride ourselves on the
-          diversity, quality, and discipline of our mentors - many of whom are
-          graduates from West Point, Cambridge, Harvard, Johns Hopkins, UCLA,
-          and UVA.
-        </p>
-        <!-- 선생 리스트 swiper-->
-        <%- include("partials/team-members") %>
-      </div>
-    </section>
-
-    <section class="locations_wrap">
-      <div class="section_inner">
-        <h3 class="title_r_02 section_title">Our Locations</h3>
-        <!-- locations 리스트 swiper-->
-        <%- include("partials/locations-list") %>
-      </div>
-    </section>
-    <section class="history_wrap">
-      <div class="section_inner">
-        <h3 class="title_r_02 section_title">Our History</h3>
-        <div class="grid_type_wrap_02">
-          <div class="history_box history_box_01">
-            <div class="history_box_inner">
-              <h3 class="title_s_01">
-                Point Avenue was founded by brothers Danny and Samuel Hwang, who
-                graduated from West Point and MIT respectively, and by Cuong
-                Nguyen, another graduate of the United States Military Academy.
-              </h3>
-              <p>
-                Growing up in the United States, our co-founders experienced
-                firsthand the value and impact of education in their lives,
-                ultimately shaping their calling to serve and inspire others.
-                Since 2009, they have continually innovated and delivered
-                world-class, K-12 educational products and services in China to
-                equip young learners to achieve academic excellence, unlock
-                their passions, and prepare for lifelong success. In 2018, they
-                expanded to Southeast Asia, beginning first in Vietnam and then
-                Thailand, to continue their educational movement to help
-                students create impact and achieve real growth.
-              </p>
-            </div>
-          </div>
-          <div class="history_box history_box_02">
-            <div class="say_box">
-              <p class="text">
-                Our vision is to become the global leader in education
-                technology, and our mission is to empower tomorrow's leaders to
-                transform the world through wisdom, integrity, and compassion.
-                Daily, we achieve this through our personal interactions and
-                character-first mentorship approach for each and every one of
-                our students, and we apply our inquiry-based learning
-                methodology in our classrooms to promote intellectual curiosity,
-                critical thinking, and innovation.
-              </p>
-              <p class="name">- Danny Hwang</p>
-            </div>
-            <div class="say_box">
-              <p class="text">
-                We are an academic community that values character and
-                leadership development as much as academic rigor. Through our
-                vision, expertise, and ability to bring together top educators,
-                we aspire to build an enduring education movement.
-              </p>
-              <p class="name">- Cuong Nguyen</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!--container :: end-->
-  <%- include("partials/footer") %> <%- include("partials/common_popup") %>
-</div>
-<%- include("partials/body_end") %>
+          <%- include("partials/body_end") %>

@@ -14,20 +14,6 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
-    "id": 2,
-    "name": "Samuel",
-    "position": "CTO",
-    "exp": [
-      "14 years of experience in Education",
-      "Founder & CEO, New Pathway Education",
-      "CTO, EIC Education",
-      "Founder & CEO,  NPX Capital",
-      "Founder & CEO, NPX teraArk",
-      "BS and MS, Massachusetts Institute of Technology"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Samuel.jpg"
-  },
-  {
     "id": 4,
     "name": "Trang",
     "position": "CFO & CSO",
