@@ -32,17 +32,7 @@
     ],
     "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/elementary_mentor_03.png"
   },
-  {
-    "id": 4,
-    "name": "Mateuzs",
-    "job" : ["Elementary Teacher"],
-    "positions": ["Elementary Teacher"],
-    "exp": [
-      "M.A., Law, Lazarski University, Poland",
-      "Experience teaching at Popodoo, The Lighthouse, DreamSky and American English Council"
-    ],
-    "img":  "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Mat.jpg"
-  },
+
   {
     "id": 6,
     "name": "Tatiana",
@@ -115,31 +105,6 @@
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/ms_mentor_04.png" 
   },
-  {
-    "id": 12,
-    "name": "Dan",
-    "job":["Middle School Teacher"],
-    "positions": ["Middle School Teacher"],
-    "exp": [],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Dan.jpg" 
-  },
-  {
-    "id": 13,
-    "name": "Myles",
-    "job":["Middle School Teacher"],
-    "positions": ["Middle School Teacher"],
-    "exp": [],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Myles.jpg" 
-  },
-  {
-    "id": 14,
-    "name": "Zack",
-    "job":["Middle School Teacher"],
-    "positions": ["Middle School Teacher"],
-    "exp": [],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Zack.jpg" 
-  },
-
 
   {
     "id": 15,
@@ -204,20 +169,6 @@
       "Giám khảo 'Diễn đàn các vấn đề toàn cầu' năm 2021 của trường trung học Ganghwa Incheon"
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/sub/program/debate_mentor_04.png" 
-  },
-
-
-  {
-    "id": 19,
-    "name": "Charles",
-    "job":["Trưởng bộ phận Chương trình Luyện Thi Quốc tế"],
-    "positions": ["Test Preparation Teacher"],
-    "exp": [
-      "Managing Director, Icon Institute",
-      "15+ years experience teaching SAT in South Korea and Vietnam with over 300 students scoring 1500+ and more than 1000 students scoring 1550+",
-      "B.A., Finance, University of California, Riverside"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Charles.jpg"
   },
   {
     "id": 20,

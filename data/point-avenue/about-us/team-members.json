@@ -14,7 +14,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Trang",
     "position": "CFO & CSO",
     "exp": [
@@ -29,9 +29,39 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
   },
   {
+    "id": 3,
+    "name": "Jinny",
+    "position": "General Manager, PAV",
+    "exp": [
+      "7 years of experience in Education",
+      "Center Manager, ILA & Language Link Vietnam",
+      "IELTS Chief Invigilator, IDP Education",
+      "B.A., International Pacific College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Giang",
+    "position": "Center Director, Point Avenue Cau Giay",
+    "exp": "",
+    "img": "https://s3.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&prefix=pasite/images/teachers/giang.png"
+  },
+  {
     "id": 5,
+    "name": "Linh",
+    "position": "Center Director, Point Avenue Long Bien",
+    "exp": [
+      "8 years of experience in Education",
+      "Senior Consultant & Project Team Leader at Marsh Vietnam Insurance Broking Co., Ltd",
+      "M.A. and B.A., National Economics University "
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+  },
+  {
+    "id": 6,
     "name": "Blake",
-    "position": "Director",
+    "position": "Center Director, Corner Stone Institute - Ho Chi Minh City",
     "exp": [
       "10 years of experience in Finance",
       "CFO, Superleaf, Inc.",
@@ -43,45 +73,9 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
   },
   {
-    "id": 6,
-    "name": "Linh",
-    "position": "Center Director, PAV Hanoi 2",
-    "exp": [
-      "8 years of experience in Education",
-      "Senior Consultant & Project Team Leader at Marsh Vietnam Insurance Broking Co., Ltd",
-      "M.A. and B.A., National Economics University "
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
-  },
-  {
     "id": 7,
-    "name": "Jinny",
-    "position": "GM, PAV",
-    "exp": [
-      "7 years of experience in Education",
-      "Center Manager, ILA & Language Link Vietnam",
-      "IELTS Chief Invigilator, IDP Education",
-      "B.A., International Pacific College"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Honda",
-    "position": "Strategic Advisor",
-    "exp": [
-      "10 years of experience in Education",
-      "Co-Founder & Strategic Advisor, Point Avenue",
-      "Graduate of Thammasat University, University of Nottingham, and University of Cambridge",
-      "Completing Masters of Science Education, Johns Hopkins University",
-      "Completing Certificate of Early Childhood Leadership, Harvard Graduate School of Education"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
-  },
-  {
-    "id": 9,
     "name": "Edward",
-    "position": "Head of Training",
+    "position": "Head of Research and Development",
     "exp": [
       "10 years of experience in Education",
       "Southern Director, Faculty Management Division, Apax Leaders",
@@ -93,7 +87,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Hyewon",
     "position": "Head of Debate",
     "exp": [
@@ -105,19 +99,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
   },
   {
-    "id": 11,
-    "name": "Phuong",
-    "position": "Head of Human Resources",
-    "exp": [
-      "5 years of experience in Human Resouces",
-      "Senior Human Resouces Executive, Openasia Group",
-      "HR Specialist, Listening Ear Crisis Center, Mount Pleasant",
-      "M.S., Central Michigan University"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Phuong.jpg"
-  },
-  {
-    "id": 12,
+    "id": 10,
     "name": "Ngan",
     "position": "Head of Marketing",
     "exp": [
@@ -129,7 +111,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
   },
   {
-    "id": 13,
+    "id": 11,
     "name": "John",
     "position": "Deputy Director, Admissions Consulting",
     "exp": [
@@ -142,7 +124,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
   },
   {
-    "id": 14,
+    "id": 12,
     "name": "Anh-Thu",
     "position": "Deputy Head, Admissions Consulting, PAV",
     "exp": [

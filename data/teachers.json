@@ -210,18 +210,6 @@
 
 
   {
-    "id": 19,
-    "name": "Charles",
-    "job":["Head of Test Prep"],
-    "positions": ["Test Preparation Teacher"],
-    "exp": [
-      "Managing Director, Icon Institute",
-      "15+ years experience teaching SAT in South Korea and Vietnam with over 300 students scoring 1500+ and more than 1000 students scoring 1550+",
-      "B.A., Finance, University of California, Riverside"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Charles.jpg"
-  },
-  {
     "id": 20,
     "name": "Francoa",
     "job":["Test Preparation Teacher"],
