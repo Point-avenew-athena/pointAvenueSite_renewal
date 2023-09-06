@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Danny",
-    "position": "CEO",
+    "position": "Giám đốc điều hành",
     "exp": [
       "12 năm kinh nghiệm trong lĩnh vực Giáo dục",
       "Nhà sáng lập & CEO, Point Avenue",
@@ -14,9 +14,9 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Danny.jpeg"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "Trang",
-    "position": "CFO & CSO",
+    "position": "Giám đốc tài chính, Giám đốc chiến lược",
     "exp": [
       "13 năm kinh nghiệm trong lĩnh vực Tài chính",
       "Finance Controller, Point Avenue",
@@ -29,9 +29,41 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
   },
   {
+    "id": 3,
+    "name": "Jinny",
+    "position": "Giám đốc điều hành Point Avenue Việt Nam",
+    "exp": [
+      "7 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Quản lý Trung tâm, ILA & Language Link Vietnam",
+      "Trưởng bộ phận Giám thị IELTS, IDP Education",
+      "Cử nhân, International Pacific College"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Giang",
+    "position": "Giám đốc trung tâm Point Avenue Cầu Giấy",
+    "exp": [
+      ""
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Giang+Doan.jpeg"
+  },
+  {
     "id": 5,
+    "name": "Linh",
+    "position": "Giám đốc Trung tâm, PAV Hanoi 2",
+    "exp": [
+      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
+      "Tư vấn cấp cao & Trưởng nhóm dự án, Marsh Vietnam Insurance Broking Co., Ltd",
+      "Thạc sĩ & Cử nhân, Đại học Kinh tế Quốc dân"
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+  },
+  {
+    "id": 6,
     "name": "Blake",
-    "position": "Giám đốc",
+    "position": "Giám đốc trung tâm CSI Hồ Chí Minh",
     "exp": [
       "10 năm kinh nghiệm trong lĩnh vực Tài chính",
       "Giám đốc tài chính, Superleaf, Inc.",
@@ -43,43 +75,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
   },
   {
-    "id": 6,
-    "name": "Linh",
-    "position": "Giám đốc Trung tâm, PAV Hanoi 2",
-    "exp": [
-      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Tư vấn cấp cao & Trưởng nhóm dự án, Marsh Vietnam Insurance Broking Co., Ltd",
-      "Thạc sĩ & Cử nhân, Đại học Kinh tế Quốc dân"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
-  },
-  {
     "id": 7,
-    "name": "Jinny",
-    "position": "GM, PAV",
-    "exp": [
-      "7 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Quản lý Trung tâm, ILA & Language Link Vietnam",
-      "Trưởng bộ phận Giám thị IELTS, IDP Education",
-      "Cử nhân, International Pacific College"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
-  },
-  {
-    "id": 8,
-    "name": "Honda",
-    "position": "Cố vấn Chiến lược",
-    "exp": [
-      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Đồng sáng lập & Cố vấn Chiến lược, Point Avenue",
-      "Cử nhân, Đại học Thammasat, Đại học Nottingham, và Đại học Cambridge",
-      "Thạc sĩ Khoa học Giáo dục, Đại học Johns Hopkins",
-      "Chứng chỉ Early Childhood Leadership, Trường Cao học Harvard về Giáo dục"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Honda.jpg"
-  },
-  {
-    "id": 9,
     "name": "Edward",
     "position": "Trưởng bộ phận Đào tạo",
     "exp": [
@@ -93,7 +89,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Hyewon",
     "position": "Trưởng bộ phận Tranh biện",
     "exp": [
@@ -105,7 +101,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "Ngan",
     "position": "Trưởng bộ phận Marketing",
     "exp": [
@@ -117,7 +113,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
   },
   {
-    "id": 12,
+    "id": 10,
     "name": "John",
     "position": "Trưởng bộ phận Tư vấn Du học",
     "exp": [
@@ -130,7 +126,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
   },
   {
-    "id": 13,
+    "id": 11,
     "name": "Anh-Thu",
     "position": "Phó Trưởng phòng Tư vấn Du học, PAV",
     "exp": [

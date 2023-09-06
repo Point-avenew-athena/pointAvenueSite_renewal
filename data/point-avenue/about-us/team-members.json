@@ -42,10 +42,10 @@
   },
   {
     "id": 4,
-    "name": "Giang",
+    "name": "Giang Doan",
     "position": "Center Director, Point Avenue Cau Giay",
     "exp": "",
-    "img": "https://s3.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&prefix=pasite/images/teachers/giang.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Giang+Doan.jpeg"
   },
   {
     "id": 5,
