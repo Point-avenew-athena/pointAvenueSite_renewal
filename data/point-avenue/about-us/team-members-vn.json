@@ -29,18 +29,6 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
   },
   {
-    "id": 3,
-    "name": "Jinny",
-    "position": "Giám đốc điều hành Point Avenue Việt Nam",
-    "exp": [
-      "7 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Quản lý Trung tâm, ILA & Language Link Vietnam",
-      "Trưởng bộ phận Giám thị IELTS, IDP Education",
-      "Cử nhân, International Pacific College"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
-  },
-  {
     "id": 4,
     "name": "Giang",
     "position": "Giám đốc trung tâm Point Avenue Cầu Giấy",
@@ -62,80 +50,56 @@
   },
   {
     "id": 6,
-    "name": "Blake",
-    "position": "Giám đốc trung tâm CSI Hồ Chí Minh",
+    "name": "Ashley Nel",
+    "position": "Academic Director",
     "exp": [
-      "10 năm kinh nghiệm trong lĩnh vực Tài chính",
-      "Giám đốc tài chính, Superleaf, Inc.",
-      "Ngân hàng Đầu tư, J.P. Morgan",
-      "Private Equity, BBH Capital Partners",
-      "M&A, Brown Brothers Harriman",
-      "Cử nhân, Dartmouth College"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/ashley.png"
   },
   {
     "id": 7,
-    "name": "Edward",
-    "position": "Trưởng bộ phận Đào tạo",
+    "name": "Veniese Wilkinson",
+    "position": "Head of Research and Development",
     "exp": [
-      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Giám đốc Miền Nam, Bộ phận Quản lý Học vụ, Apax Leaders",
-      "Quản lý Khoa & Giảng viên Bán thời gian, Chungdahm Learning",
-      "Kiểm toán viên, Ernst & Young, LLP",
-      "Thạc sĩ, Đại học New Hampshire",
-      "Cử nhân, Đại học Washington"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/veniese.png"
+  },
+  {
+    "id": 7,
+    "name": "Ben Phipson",
+    "position": "Academy Program Lead",
+    "exp": [
+      ""
+    ],
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/ben.png"
   },
   {
     "id": 8,
-    "name": "Hyewon",
-    "position": "Trưởng bộ phận Tranh biện",
+    "name": "Alan Logan",
+    "position": "Leadership Program Lead",
     "exp": [
-      "10 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Đồng sáng lập, Debate for All",
-      "Huấn luyện viên Trưởng đội tuyển Tranh biện (WSDC) Việt Nam (2020-)",
-      "Cựu Huấn luyện viên đội tuyển WSDC Hàn Quốc (2014-2019)"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/alan.png"
   },
   {
     "id": 9,
-    "name": "Ngan",
-    "position": "Trưởng bộ phận Marketing",
+    "name": "Van Anh Phung",
+    "position": "Head of Marketing",
     "exp": [
-      "8 năm kinh nghiệm Sản xuất Truyền hình",
-      "Phóng viên, Biên tập viên kiêm MC, Đài Truyền hình Việt Nam",
-      "Trưởng phòng PR và Truyền thông, Mediplus JSC.",
-      "Cử nhân & Thạc sĩ, Học viện Báo chí & Tuyên truyền"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/Van+Anh.png"
   },
   {
     "id": 10,
-    "name": "John",
-    "position": "Trưởng bộ phận Tư vấn Du học",
+    "name": "Tham Dong Thi Hong",
+    "position": "HRBP Manager",
     "exp": [
-      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Ban điều hành, Lambda Phi Epsilon, Alpha Chapter",
-      "Chuyên gia phân tích kinh doanh & Điều phối viên, Nativo, Inc.",
-      "Videographer of Training Videos, Trumpia",
-      "Cử nhân, University of California, Los Angeles (UCLA)"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
-  },
-  {
-    "id": 11,
-    "name": "Anh-Thu",
-    "position": "Phó Trưởng phòng Tư vấn Du học, PAV",
-    "exp": [
-      "6 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Chuyên viên Bán hàng & Tiếp thị, UGA Athletics Association",
-      "Chuyên viên, Digital Marketing, Giftfluence",
-      "Cử nhân, University of Georgia",
-      "Cử nhân, Stellenbosch University Peer-to-Peer College Mentor"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Anh-Thu.JPG"
+    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/tham.png"
   }
 ]

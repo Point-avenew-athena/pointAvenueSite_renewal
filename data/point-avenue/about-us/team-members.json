@@ -29,18 +29,6 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
   },
   {
-    "id": 3,
-    "name": "Jinny",
-    "position": "General Manager, PAV",
-    "exp": [
-      "7 years of experience in Education",
-      "Center Manager, ILA & Language Link Vietnam",
-      "IELTS Chief Invigilator, IDP Education",
-      "B.A., International Pacific College"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Jinny.jpg"
-  },
-  {
     "id": 4,
     "name": "Giang Doan",
     "position": "Center Director, Point Avenue Cau Giay",
@@ -60,80 +48,56 @@
   },
   {
     "id": 6,
-    "name": "Blake",
-    "position": "Center Director, Corner Stone Institute - Ho Chi Minh City",
+    "name": "Ashley Nel",
+    "position": "Academic Director",
     "exp": [
-      "10 years of experience in Finance",
-      "CFO, Superleaf, Inc.",
-      "TMT Investment Banking, J.P. Morgan",
-      "Private Equity, BBH Capital Partners",
-      "M&A, Brown Brothers Harriman",
-      "BA, Dartmouth College"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Blake.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
   },
   {
     "id": 7,
-    "name": "Edward",
+    "name": "Veniese Wilkinson",
     "position": "Head of Research and Development",
     "exp": [
-      "10 years of experience in Education",
-      "Southern Director, Faculty Management Division, Apax Leaders",
-      "Faculty Manager & Part-time Trainer, Chungdahm Learning",
-      "Senior Auditor, Ernst & Young, LLP",
-      "M.S., University of New Hampshire",
-      "B.A., University of Washington Southern"
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Edward.jpg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ben Phipson",
+    "position": "Academy Program Lead",
+    "exp": [
+      ""
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
   },
   {
     "id": 8,
-    "name": "Hyewon",
-    "position": "Head of Debate",
+    "name": "Alan Logan",
+    "position": "Leadership Program Lead",
     "exp": [
-      "10 years of experience in Education",
-      "Co-Founder, Debate for All",
-      "Head Coach, Team Vietnam for World Schools Debating Championships (WSDC) 2020",
-      "Co-Coach, Team Korea for World Schools Debating Championships (WSDC) 2014 - 2019 "
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Hyewon.jpeg"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Van Anh Phung",
+    "position": "Head of Marketing",
+    "exp": [
+      ""
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
   },
   {
     "id": 10,
-    "name": "Ngan",
-    "position": "Head of Marketing",
+    "name": "Tham Dong Thi Hong",
+    "position": "HRBP Manager",
     "exp": [
-      "8 years of experience in Video Production",
-      "Reporter, Editor and MC, Vietnam Television",
-      "Head of PR and Communications, Mediplus JSC.",
-      "B.A., and M.A., Academy of Journalism and Communication "
+      ""
     ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Ngan.png"
-  },
-  {
-    "id": 11,
-    "name": "John",
-    "position": "Deputy Director, Admissions Consulting",
-    "exp": [
-      "8 years of experience in Education",
-      "Executive Board Leadership, Lambda Phi Epsilon, Alpha Chapter",
-      "Business Analyst & Platform Success Coordinator, Nativo, Inc.",
-      "Videographer of Training Videos, Trumpia",
-      "B.A., University of California, Los Angeles (UCLA)"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/John.JPG"
-  },
-  {
-    "id": 12,
-    "name": "Anh-Thu",
-    "position": "Deputy Head, Admissions Consulting, PAV",
-    "exp": [
-      "6 years of experience in Education",
-      "Sales & Marketing Associate, UGA Athletics Association",
-      "Digital Marketing Associate, Giftfluence",
-      "B.B.A., University of Georgia",
-      "B.A., Stellenbosch UniversityPeer-to-Peer College Mentor "
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Anh-Thu.JPG"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
   }
 ]
