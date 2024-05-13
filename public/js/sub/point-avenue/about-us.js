@@ -54,8 +54,7 @@ $(function () {
   /*mentor 클릭시, mentor 상세 팝업 노출*/
   $('.team_wrap .team_item > a').click(function () {
     $('.layer_popup').center();
-    $('.mentor_popup').show();
-		changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
+    changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
     $('.dim').show();
   });
 });

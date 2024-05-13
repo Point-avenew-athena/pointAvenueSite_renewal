@@ -53,7 +53,7 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/ashley.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/ashley.png"
   },
   {
     "id": 7,
@@ -62,7 +62,7 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/veniese.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/veniese.png"
   },
   {
     "id": 7,
@@ -71,7 +71,7 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/ben.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/ben.png"
   },
   {
     "id": 8,
@@ -80,7 +80,7 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/alan.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/alan.png"
   },
   {
     "id": 9,
@@ -89,7 +89,7 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/Van+Anh.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Van+Anh.png"
   },
   {
     "id": 10,
@@ -98,6 +98,6 @@
     "exp": [
       ""
     ],
-    "img": "https://ap-southeast-1.console.aws.amazon.com/s3/object/paathena-public-prod?region=ap-southeast-1&bucketType=general&prefix=pasite/images/teachers/tham.png"
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/tham.png"
   }
 ]
