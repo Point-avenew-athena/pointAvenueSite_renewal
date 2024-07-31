@@ -84,6 +84,20 @@
   },
   {
     "id": 9,
+    "name": "Josh Donner",
+    "position": "Test Prep Program Lead",
+    "exp": [
+      "10+ years of classroom teaching experience in Korea, Vietnam",
+      "5 years experience specializing in TOEFL IBT, TOEFL Junior",
+      "2 years experience in Academic Management",
+      "B.A. in History, Wilfrid Laurier University",
+      "TEFL Teaching Certificate",
+      "PGC in Project Management, University of British Columbia"
+    ],
+    "img": "https://paathena-site.s3.ap-northeast-2.amazonaws.com/images/Josh+Donner+headshot+copy.jpg"
+  },
+  {
+    "id": 10,
     "name": "Van Anh Phung",
     "position": "Head of Marketing",
     "exp": [
@@ -92,7 +106,7 @@
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Van+Anh.png"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Tham Dong Thi Hong",
     "position": "HRBP Manager",
     "exp": [
