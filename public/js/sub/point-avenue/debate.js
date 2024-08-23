@@ -1,6 +1,6 @@
 let experience = document.querySelector('.mentor_info_box .ul_type_02');
 
-$(function(){
+$(function () {
 	var mentors_swiper = new Swiper('.mentors_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
@@ -42,7 +42,7 @@ $(function(){
 			}
 		}
 	});
-	
+
 	var testimonials_swiper = new Swiper('.testimonials_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
@@ -63,20 +63,20 @@ $(function(){
 			}
 		}
 	});
-	
+
 	/*mentor 클릭시, mentor 상세 팝업 노출*/
-	$('.mentors_wrap .team_item > a').click(function(){
+	$('.mentors_wrap .team_item > a').click(function () {
 		/*
 		* 
 		$('.mentor_popup').show();
-    changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
+	changeTeacherData(teamMembers, document.querySelector('.mentor_info_box .ul_type_02'), this);
 		toggleScroll();
 		$('.dim').show();
 		*/
 	});
-	
+
 	/*Testimonials  클릭시, Testimonials 상세 팝업 노출*/
-	$('.testimonials_wrap .team_item > a').click(function(){
+	$('.testimonials_wrap .team_item > a').click(function () {
 		$('.layer_popup').center();
 		$('.testimonials_popup').show();
 		$('.dim').show();

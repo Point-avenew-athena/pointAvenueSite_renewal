@@ -1,26 +1,26 @@
-$(function(){	
-	
+$(function () {
+
 	var process_step_swiper = new Swiper('.process_step_wrap .swiper-container', {
-		slidesPerView: 5, 
-		touchRatio:0,
+		slidesPerView: 5,
+		touchRatio: 0,
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'progressbar',
 		},
 		breakpoints: { // 화면의 넓이가 320px 이상일 때 
-			1000: { 
+			1000: {
 				slidesPerView: 2.5,
-				touchRatio:1,
-				spaceBetween:0,
+				touchRatio: 1,
+				spaceBetween: 0,
 			},
-			640: { 
+			640: {
 				slidesPerView: 1.5,
-				touchRatio:1,
-				spaceBetween:20,
+				touchRatio: 1,
+				spaceBetween: 20,
 			}
 		}
-    });
-	
+	});
+
 	var members_say_swiper = new Swiper('.members_say_wrap .swiper-container', {
 		slidesPerView: 4,
 		spaceBetween: 20,
