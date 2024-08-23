@@ -40,7 +40,7 @@
   {
     "id": 5,
     "name": "Linh",
-    "position": "Giám đốc Trung tâm, PAV Hanoi 2",
+    "position": "Giám đốc Trung tâm, Point Avenue Long Biên",
     "exp": [
       "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
       "Tư vấn cấp cao & Trưởng nhóm dự án, Marsh Vietnam Insurance Broking Co., Ltd",
@@ -101,19 +101,10 @@
   {
     "id": 10,
     "name": "Van Anh Phung",
-    "position": "Head of Marketing",
+    "position": "Marketing Manager",
     "exp": [
       ""
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Van+Anh.png"
-  },
-  {
-    "id": 11,
-    "name": "Tham Dong Thi Hong",
-    "position": "HRBP Manager",
-    "exp": [
-      ""
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/tham.png"
   }
 ]
