@@ -1,7 +1,7 @@
 <% if(course) { %>
   <li class="class_box_type_01--item">
     <div class="class_box_type_01--img">
-      <a href="/program/<%-course.name-%>"><img src=""
+      <a href="/programs/<%-course.name-%>"><img src=""
           onError="this.src='https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/common/none_img.png'"
           alt="<%-course.name-%> thumbnail"></a>
     </div>
@@ -10,7 +10,7 @@
         <p class="age"><%-course.age%></p>
         <p class="times"><%-course.hour-%></p>
       </div>
-      <p class="title_r_03"><a href="/program/<%-course.urlName-%>"><%-course.name-%></a></p>
+      <p class="title_r_03"><a href="/programs/<%-course.urlName-%>"><%-course.name-%></a></p>
       <span class="class_type"><%-course.type-%></span>
     </div>
   </li>
