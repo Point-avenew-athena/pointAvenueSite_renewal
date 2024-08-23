@@ -1,26 +1,27 @@
 <div class="option_wrap">
-  <a href="javascript:void(0);" class="filter_mo_btn" >Filter</a>
+  <a href="javascript:void(0);" class="filter_mo_btn">Filter</a>
   <div class="option_inner">
     <div class="option_list_wrap">
       <ul class="option_list">
         <% for(const option of options) { %>
-        <li class="option_item on">
-          <a href="javascript:void(0);"><%- option.name -%></a>
-          <div class="filter_list_wrap">
-            <ul class="filter_list">
-              <% for(const filter of option.filters) { %>
-                <li class="filter_item">
-                  <div class="checkbox_wrap">
-                    <input type="checkbox" id="course_<%- option.key -%>_<%- filter.idx -%>" name="course_<%- option.key -%>" value="<%- filter.value -%>" data-option="<%-option.key-%>">
-                    <label for="course_<%- option.key -%>_<%- filter.idx -%>"><%- filter.name -%></label>
-                    <p class="count">(<%- filter.count() -%>)</p>
-                  </div>
-                </li>
-              <% } %>
-            </ul>
-          </div>
-        </li>
-        <% } %>
+          <li class="option_item on">
+            <a href="javascript:void(0);"><%- option.name -%></a>
+            <div class="filter_list_wrap">
+              <ul class="filter_list">
+                <% for(const filter of option.filters) { %>
+                  <li class="filter_item">
+                    <div class="checkbox_wrap">
+                      <input type="checkbox" id="course_<%- option.key -%>_<%- filter.idx -%>"
+                        name="course_<%- option.key -%>" value="<%- filter.value -%>" data-option="<%-option.key-%>">
+                      <label for="course_<%- option.key -%>_<%- filter.idx -%>"><%- filter.name -%></label>
+                      <p class="count">(<%- filter.count() -%>)</p>
+                    </div>
+                  </li>
+                  <% } %>
+              </ul>
+            </div>
+          </li>
+          <% } %>
       </ul>
       <a href="javascript:void(0);" class="filter_close_btn"><span class="blind">close</span></a>
     </div>
