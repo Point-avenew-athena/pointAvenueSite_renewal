@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Danny",
-    "position": "Chief Executive Officer",
+    "position": "Chief Executive Officer & Founder, NPX Point Avenue",
     "exp": [
       "12 years of experience in Education",
       "Founder & CEO,  Point Avenue",
@@ -16,7 +16,7 @@
   {
     "id": 2,
     "name": "Trang",
-    "position": "Chief Financial Officer & Chief Strategy Officer",
+    "position": "Chief Financial Officer & Chief Strategy Officer & Co-Founder, NPX Point Avenue",
     "exp": [
       "13 years of experience in Finance",
       "Finance Controller, Point Avenue",
@@ -31,7 +31,7 @@
   {
     "id": 6,
     "name": "Ashley Nel",
-    "position": "Academic Director",
+    "position": "Managing Director",
     "exp": [
       ""
     ],
@@ -40,7 +40,7 @@
   {
     "id": 7,
     "name": "Veniese Wilkinson",
-    "position": "Head of Research and Development",
+    "position": "Research & Development Managert",
     "exp": [
       ""
     ],
@@ -54,5 +54,24 @@
       ""
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/ben.png"
+  }
+  ,
+  {
+    "id": 8,
+    "name": "Jacob Mellor",
+    "position": "Leadership Program Lead",
+    "exp": [
+      ""
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Jacob+Mellor.png"
+  },
+  {
+    "id": 9,
+    "name": "Bonny Segopolo",
+    "position": "Debate Program Manager",
+    "exp": [
+      ""
+    ],
+    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Bonny+Segopolo.png"
   }
 ]
