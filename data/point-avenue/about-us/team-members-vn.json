@@ -28,26 +28,7 @@
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Trang.jpg"
   },
-  {
-    "id": 4,
-    "name": "Giang",
-    "position": "Giám đốc trung tâm Point Avenue Cầu Giấy",
-    "exp": [
-      ""
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Giang+Doan.jpeg"
-  },
-  {
-    "id": 5,
-    "name": "Linh",
-    "position": "Giám đốc Trung tâm, Point Avenue Long Biên",
-    "exp": [
-      "8 năm kinh nghiệm trong lĩnh vực Giáo dục",
-      "Tư vấn cấp cao & Trưởng nhóm dự án, Marsh Vietnam Insurance Broking Co., Ltd",
-      "Thạc sĩ & Cử nhân, Đại học Kinh tế Quốc dân"
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/main/Linh.jpg"
-  },
+
   {
     "id": 6,
     "name": "Ashley Nel",
@@ -74,37 +55,5 @@
       ""
     ],
     "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/ben.png"
-  },
-  {
-    "id": 8,
-    "name": "Alan Logan",
-    "position": "Leadership Program Lead",
-    "exp": [
-      ""
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/alan.png"
-  },
-  {
-    "id": 9,
-    "name": "Josh Donner",
-    "position": "Test Prep Program Lead",
-    "exp": [
-      "10+ years of classroom teaching experience in Korea, Vietnam",
-      "5 years experience specializing in TOEFL IBT, TOEFL Junior",
-      "2 years experience in Academic Management",
-      "B.A. in History, Wilfrid Laurier University",
-      "TEFL Teaching Certificate",
-      "PGC in Project Management, University of British Columbia"
-    ],
-    "img": "https://paathena-site.s3.ap-northeast-2.amazonaws.com/images/Josh+Donner+headshot+copy.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Van Anh Phung",
-    "position": "Marketing Manager",
-    "exp": [
-      ""
-    ],
-    "img": "https://paathena-public-prod.s3.ap-southeast-1.amazonaws.com/pasite/images/teachers/Van+Anh.png"
   }
 ]
